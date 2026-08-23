@@ -19,7 +19,14 @@ discover work that cannot be compressed.
 
 ## 1.2 Choosing the upgrade route
 
-### Option A — Blue-green (recommended for 2606)
+> **Superseded in part by `08-blue-green-strategy.md`.** The *Teamcenter Update
+> Using Deployment Center* guide (now in the repository) establishes that
+> blue-green **is** the prescribed Platform Update method for a TC14 source, not
+> one option among several, and that TC14.0+ updates directly to 2606. Read doc 08
+> for the authoritative procedure; this section remains for the comparison of
+> alternatives.
+
+### Option A — Blue-green (Siemens' prescribed method for 2606)
 
 2606 is the release where Siemens made blue-green the headline upgrade story. A
 parallel upgraded environment is prepared and kept in sync with production, then
@@ -95,6 +102,9 @@ single dry run is planning based on a number that includes your mistakes.
 ## 1.5 Phase model
 
 ### Phase 0 — Assess (2–4 weeks)
+- Run the **Siemens Upgrade Assistant ITK Reporter** against compiled customization
+  libraries (`Tc2606_UpgradeAssistantITKReporter.zip`, Support Center → Additional
+  Downloads → Tools for Teamcenter). It can run before you download 2606.
 - Run `tools/tc_api_scan.py` against every customization repository, including
   workflow handler code, ITK user exits, SOA client code, AW/SWF client
   extensions, and any BMIDE-attached code.
