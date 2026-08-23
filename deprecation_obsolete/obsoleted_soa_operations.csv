@@ -1,0 +1,56 @@
+service_library;service;obsoleted_operation;description;deprecated_in;removed_in
+Asp0SoaAsp0aspect;Aspectmanagement;Asp0::Services::Asp0aspect::_2015_07::Aspectmanagement::expandAspects;Use the expandAspects operation from the _2018_06 namespace.;11. Mai;2312
+Att0SoaAttrtargetmgmt;Attributetargetmanagement;Att0::Services::Attrtargetmgmt::_2015_03::Attributetargetmanagement::synchronizeMeasuableAttributes;this functionality is obsolete. There is no replacement for this operation.;14. Mrz;2512
+Cm1SoaCmaws;Graphdisplay;Cm1::Services::Cmaws::_2016_12::Graphdisplay::getGraphLegend;This is no longer needed.;ActiveWorkspace3.4;2406
+Crt1SoaValidationcontractaw;Vcmanagement;Crt1::Services::Validationcontractaw::_2015_10::Vcmanagement::addObjectsForValidationFromDiagram;This operation is deprecated.;ActiveWorkspace6.1;2512
+Crt1SoaValidationcontractaw;Vcmanagement;Crt1::Services::Validationcontractaw::_2016_03::Vcmanagement::getAnalysisRequestInfo;This operation is deprecated. Please use operation getVerificationRequestInfo.;ActiveWorkspace6.1;2512
+Crt1SoaValidationcontractaw;Vcmanagement;Crt1::Services::Validationcontractaw::_2017_12::Vcmanagement::createAnalysisRequest;This operation is deprecated. Please use operation createVerificationRequest.;ActiveWorkspace6.1;2512
+Fnd0SoaUiconfig;Uiconfig;Fnd0::Services::Uiconfig::_2014_11::Uiconfig::getUIConfigs;"The command configurations are all moved to the client side. The column 
+configurations for table views are fetched using Awp0::Soa::AWS2::Finder::performSearchViewModel5. So there is no need to fetch them upfront via getUiConfigs.";14. Mrz;2512
+Fnd0SoaUiconfig;Uiconfig;Fnd0::Services::Uiconfig::_2014_11::Uiconfig::saveUiConfigs;This operation is deprecated and replaced by Awp0::Soa::AWS2::UiConfig::saveUIColumnConfigs2;14. Mrz;2512
+Fnd0SoaUiconfig;Uiconfig;Fnd0::Services::Uiconfig::_2015_10::Uiconfig::getUIConfigs2;Use the Awp0::Soa::AWS2::UiConfig::getUIConfigs2 operation.;10.01.2007;2512
+Mdl0SoaModelcore;Datamanagement;Mdl0::Services::Modelcore::_2011_06::Datamanagement::getReviseDesc;Use the getDeepCopyData operation from the OperationDescriptor.;11. Feb;2312
+Mdl0SoaModelcore;Search;Mdl0::Services::Modelcore::_2014_10::Search::getRecipes2;Use the getRecipes3 operation from the _2018_06 namespace.;11. Mai;2312
+Mdl0SoaModelcore;Search;Mdl0::Services::Modelcore::_2014_10::Search::setRecipes2;Use the setRecipes3 operation from the _2018_06 namespace.;11. Mai;2312
+Mdo0SoaMdomanagement;Multidisciplinarydatamgt;Mdo0::Services::Mdomanagement::_2017_05::Multidisciplinarydatamgt::queryNeedsValidationLink;Use the queryNeedsValidationLink2 operation from the _2021_06 namespace.;13. Feb;2312
+Mdo0SoaMdomanagement;Multidisciplinarydatamgt;Mdo0::Services::Mdomanagement::_2017_05::Multidisciplinarydatamgt::updateDomainRelevancy;Use updateDomainRelevancy2 instead of updateDomainRelevancy.;13. Mrz;2312
+Mdo0SoaMdomanagement;Multidisciplinarydatamgt;Mdo0::Services::Mdomanagement::_2017_05::Multidisciplinarydatamgt::updateLinksToValidated;Use the updateLinksToValidated2 operation from the _2021_06 namespace.;13. Feb;2312
+Mdo0SoaMdomanagement;Multidisciplinarydatamgt;Mdo0::Services::Mdomanagement::_2018_06::Multidisciplinarydatamgt::getDomainRelevancyOfAnObject;Use getDomainRelevancyOfAnObject2 instead of getDomainRelevancyOfAnObject.;13. Mrz;2312
+Oo1SoaOfficeonline;Officeonline;Oo1::Services::Officeonline::_2017_11::Officeonline::getLaunchInfo;Use the launchinfo method from the TcOOWeb microservice.;13. Jan;2312
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::createComment;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::deleteActivities;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::deleteComment;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchActivities;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchNotificationPreferences;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchSendToList;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchSubScribers;This operation is deprecated and is no longer supported.;09.01.2003;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchSubscriptionPreferences;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchSubscriptions;This operation is deprecated and is no longer supported.;09.01.2003;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::fetchTrendingData;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::getAllTags;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::getTags;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::removeTags;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::setNotificationPreferences;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::setSubscriptionPreferences;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::setTags;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::subscribeToObject;This operation is deprecated and is no longer supported.;09.01.2003;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::unSubscribeToObject;This operation is deprecated and is no longer supported.;09.01.2003;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2012_10::Socialcollaboration::updateComment;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+S2clSoaServices;Socialcollaboration;S2cl::Services::Services::_2014_11::Socialcollaboration::fetchScalarRating;This operation is deprecated and is no longer supported.;ActiveWorkspace6.1;2512
+TcSoaCae;Simulationprocessmanagement;Teamcenter::Services::Cae::_2013_12::Simulationprocessmanagement::launchSimulationTool2;Use the executeSimulationToolLaunch from the _2020_01 namespace.;13. Feb;2312
+TcSoaCalendarmanagement;Calendarmanagement;Teamcenter::Services::Calendarmanagement::_2007_01::Calendarmanagement::createTCCalendars;Use the createCalendars operation from the _2010_04 namespace.;07. Jan;2312
+TcSoaCalendarmanagement;Calendarmanagement;Teamcenter::Services::Calendarmanagement::_2007_01::Calendarmanagement::updateTCCalendars;Use the updateCalendars operation from the _2008_06 namespace.;07. Jan;2312
+TcSoaCalendarmanagement;Calendarmanagement;Teamcenter::Services::Calendarmanagement::_2007_06::Calendarmanagement::createCalendars;Use the createCalendars operation from the _2010_04 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::addMemberships;Use the addMemberships operation from the _2008_06 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::copySchedules;Use the copySchedules operation from the _2007_06 namespace.;07. Jan;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::createNewBaselines;Use the createNewBaselines from the _2016_04 namespace.;11.02.2001;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::createSchedule;Use the createSchedule operation from the _2008_06 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::createScheduleDeliverableTemplates;Use the createScheduleDeliverableTemplates operation from the _2008_06 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_01::Schedulemanagement::createTaskDeliverableTemplates;Use the createTaskDeliverableTemplates operation from the _2007_06 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2007_06::Schedulemanagement::copySchedules;Use the copySchedules operation from the _2008_06 namespace.;08. Feb;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2009_10::Schedulemanagement::modifySchedules;There is no replacement for this operation.;08. Jan;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2011_12::Schedulemanagement::createDependencies;Use the createDependencies operation from the _2012_02 namespace.;09. Jan;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2012_02::Schedulemanagement::assignResources;Use the assignResources operation from the _2012_09 namespace.;10;2312
+TcSoaProjectmanagement;Schedulemanagement;Teamcenter::Services::Projectmanagement::_2012_02::Schedulemanagement::shiftScheduleNonInteractive;Use the shiftSchedule operation from the _2015_07 namespace.;11. Feb;2312
+Uml0SoaUmlsysml;Umlsysml;Uml0::Services::Umlsysml::_2017_11::Umlsysml::getModelElements;This operation has been deprecated and will not be supported anymore. Use getModelElements1 and getModelElements2 which are replacements of this operation.;13. Feb;2512
+Uml0SoaUmlsysml;Umlsysml;Uml0::Services::Umlsysml::_2017_11::Umlsysml::updateModelElements;This operation has been deprecated and will not be supported anymore. Use updateModelElements2 and updateModelElements3 which are replacements of this operation.;13. Feb;2512

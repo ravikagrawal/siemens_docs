@@ -1,0 +1,171 @@
+artifact_type;deprecated_artifact;header_file;replacement_artifact;deprecated_in;removal_targeted_in
+ITK function;AOM_save;tccore/aom.h;AOM_save_with_extensions or AOM_save_without_extensions;11. Feb;2712
+Macro;ATT0ATTRTARGETMGMT_output_min_max_goal_not_modifiable;Att0attrtargetmgmt/att0attrtargetmgmt_errors.h;No replacement;11. Mai;2712
+API;BOM_effectivity_info;bom/bom_tokens.h;No replacement;2512;2912
+ITK function;BOM_get_line_occ_eff_info;bom/bom.h;No replacement;2512;2912
+API;BOM_occ_effectivity_info;bom/bom_tokens.h;No replacement;2512;2912
+ITK function;BOM_set_line_occ_eff_formula;bom/bom.h;No replacement;2512;2912
+Macro;CFG0CONFIGURATOR_invalid_payload_expression_for_default_rule;Cfg0configurator/cfg0configurator_errors.h;CFG0CONFIGURATOR_invalid_subject_expression_for_rule;11.02.2003;2712
+Macro;CFG0CONFIGURATOR_missing_payload_for_rule;Cfg0configurator/cfg0configurator_errors.h;CFG0CONFIGURATOR_missing_subject_for_rule;11.02.2003;2712
+Macro;CFG0CONFIGURATOR_same_payload_and_applicability_not_supported;Cfg0configurator/cfg0configurator_errors.h;CFG0CONFIGURATOR_same_subject_and_applicability_not_supported;11.02.2003;2712
+Macro;CFG_CONFIGURATOR_module_allocation;booleanmath/cfg_tokens.h;CFG_CONFIGURATOR_constraint_module_allocation;2312;2712
+Macro;CFG_CONFIGURATOR_system_default_severity;booleanmath/cfg_tokens.h;CFG_CONFIGURATOR_Init_Empty_Severity;12. Mrz;2712
+Macro;CFG_CONFIGURATOR_user_default_severity;booleanmath/cfg_tokens.h;CFG_CONFIGURATOR_default_severity;12. Mrz;2712
+API;CFG_configuration_status;Cfg0configurator/cfg0configurator.h;No replacement;2406;2712
+Macro;CFG_operator_expanded_criteria;booleanmath/cfg_tokens.h;CFG_operator_rule_set;11. Jun;2712
+ITK function;CLA_get_classification_level;Cla0classification/cla_itk.h;No replacement;14. Mrz;2712
+ITK function;CLS_create_view_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_delete_class_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_delete_classification_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_delete_classification_objects;Cls0classification/cls_itk.h;CLA_delete_classification_objects;2506;2712
+ITK function;CLS_delete_keylov_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_delete_node_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_delete_property_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_delete_view_definitions;Cls0classification/cls_itk.h;CLA_delete_classification_definitions;2506;2712
+ITK function;CLS_get_classification_properties;Cls0classification/cls_itk.h;CLA_get_classification_objects;2506;2712
+ITK function;CLS_get_dependent_keylov_attributes;Cls0classification/cls_itk.h;CLA_get_dependent_keylov_attributes;2506;2712
+ITK function;CLS_import_classification_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_save_class_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_save_classification_objects;Cls0classification/cls_itk.h;CLA_save_classification_objects;2506;2712
+ITK function;CLS_save_keylov_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_save_node_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_save_property_definitions;Cls0classification/cls_itk.h;CLA_import_classification_definitions;2506;2712
+ITK function;CLS_search_classification_definitions;Cls0classification/cls_itk.h;CLA_search_classification_definitions;2506;2712
+ITK function;CLS_update_status_on_objects;Cls0classification/cls_itk.h;CLA_update_status_on_objects;2506;2712
+Macro;CONTMGMTBASE_duplicate_sequence_number;contmgmtbase/contmgmtbase_errors.h;CONTMGMTBASE_duplicate_sequence_number_and_occurrence;11. Mai;2712
+Macro;CONTMGMTBASE_missing_sequence_number;contmgmtbase/contmgmtbase_errors.h;CONTMGMTBASE_missing_sequence_number_and_occurrence;11. Mai;2712
+Macro;CST_err_eclass_license_missing;Cst0classification/cst_errors.h;No replacement;13. Feb;2712
+API;CUMITKINPUTBASE;qry/CrfCumParamStruct.hxx;CustomReportInputBase;2512;2912
+ITK function;DIA0_find_diagrams;Dia0diagramming/dia0diagramming.h;No replacement;2606;2912
+ITK function;DIA0_query_sheet_elements_associated_with;Dia0diagramming/dia0diagramming.h;No replacement;2606;2912
+ITK function;DIA0_query_sheet_elements_not_associated;Dia0diagramming/dia0diagramming.h;No replacement;2606;2912
+ITK function;DIA0_query_unassociated_partitioned_elements;Dia0diagramming/dia0diagramming.h;No replacement;2606;2912
+ITK function;ETS_create_request;dispatcher/dispatcher_itk.h;No replacement;2512;2912
+ITK function;ETS_create_request2;dispatcher/dispatcher_itk.h;No replacement;2512;2912
+ITK function;ETS_find_request_by_tag;dispatcher/dispatcher_itk.h;No replacement;2512;2912
+ITK function;ETS_is_final_state;dispatcher/dispatcher_itk.h;No replacement;2512;2912
+ITK function;ETS_query_requests;dispatcher/dispatcher_itk.h;No replacement;2512;2912
+ITK function;FND0CONFIGBASELINEMGMT_close_configuration_baseline;Fnd0configbaselinemgmt/fnd0configurationbaselinemgmt.h;FND0CONFIGBASELINEMGMT_close_configuration_baseline2;2412;2712
+ITK function;ICS_attribute_ask_reference_props;ics/ics2.h;No replacement;2312;2712
+ITK function;ICS_class_ask_mapping_sources;ics/ics2.h;No replacement;12. Feb;2712
+ITK function;ICS_classify_wsobject;ics/ics.h;ICS_ico_create2;14. Jan;2712
+ITK function;ICS_create_classification_object;ics/ics.h;ICS_ico_create2;14. Jan;2712
+ITK function;ICS_describe_view;ics/ics.h;ICS_view_describe_view;11. Apr;2712
+ITK function;ICS_xml_ask_children;ics/ics.h;PLMXML;11.02.2003;2712
+ITK function;ICS_xml_export;ics/ics.h;PLMXML;11.02.2003;2712
+ITK function;ICS_xml_import;ics/ics.h;PLMXML;11.02.2003;2712
+ITK function;ICS_xml_register_hook;ics/ics.h;PLMXML;11.02.2003;2712
+ITK function;ITK__initialise_tc;tcinit/tcinit.h;No replacement;2406;2712
+ITK function;LDF_sync_ldf_status;Lis0lisfmwrk/lis_factory.h;LDF-sync-ldf-status workflow handler;11. Mai;2712
+ITK function;MDC_create_or_update_ordered_element_groups;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_all_connections_on_port;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_all_model_elements_of_connection;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_connections_on_port;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_parent_groups;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_ports;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_find_ports_groups;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_get_all_cegs_in_partition;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_get_conditional_element_groups;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_get_conditional_element_groups_with_elements;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_get_identity;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_get_ordered_element_groups;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_insert_connection_element;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_insert_ordered_element_group_elements;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_query_ordered_element_group_by_partition;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_reverse_ordered_element_group_elements;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;MDC_split_ordered_element_group_elements;Mdc0mdc/mdc0mdc.h;No replacement;2606;2912
+ITK function;ME_create_meapprpathnode_from_appearance;ps/absocc.h;No replacement;14. Feb;2712
+ITK function;ME_create_meapprpathroot_from_apprroot;ps/absocc.h;No replacement;14. Feb;2712
+ITK function;ME_get_meapprpathnode_from_appearance;ps/absocc.h;No replacement;14. Feb;2712
+ITK function;ME_get_meapprpathroot_from_apprroot;ps/absocc.h;No replacement;14. Feb;2712
+ITK function;ME_meapprpathnode_ask_apprs;ps/absocc.h;No replacement;2312;2712
+ITK function;ME_meapprpathnode_ask_config_appr;ps/absocc.h;No replacement;2312;2712
+ITK function;ME_meapprpathnode_remove_appr;ps/absocc.h;No replacement;2312;2712
+ITK function;ME_update_meapprpathroot;ps/absocc.h;No replacement;14. Feb;2712
+ITK function;NOTE_ask_extension;user_exits/user_exits.h;No replacement;11. Apr;2712
+Macro;POM_check_private_uniqueness_switch;pom/pom/pom_tokens.h;POM_check_space_uniqueness_switch;11.02.2003;2712
+API;POM_enquiry_set_expr_proprety;pom/enq/enq.h;POM_enquiry_set_expr_property;12. Mrz;2712
+Macro;POM_object_mask_not_changed;pom/pom/pom_tokens.h;No replacement;11.02.2003;2712
+Macro;POM_space_exclusive;pom/pom/pom_tokens.h;POM_space_change;11. Mrz;2712
+Macro;POM_space_non_exclusive;pom/pom/pom_tokens.h;POM_space_markup;11. Mrz;2712
+Macro;POM_space_private;pom/pom/pom_tokens.h;No replacement;11.02.2003;2712
+ITK function;PREF_reinitialize;tc/preferences.h;No replacement;11. Jun;2712
+Macro;PS_bvr_rev_occ_mismatch;ps/ps_errors.h;No replacement;14. Jan;2712
+Macro;PTN0PARTITION_add_failed_closure_rule_evaluated_to_skip;ptn0partition/Ptn0Partition_errors.h;PTN0PARTITION_is_partitionable_evaluated_to_false;14. Mrz;2712
+Macro;PTN0PARTITION_failed_to_create_membership;ptn0partition/Ptn0Partition_errors.h;PTN0PARTITION_cannot_create_member_owned_membership;2506;2712
+ITK function;RDV_executeQPLFilter;rdv/rdv_qpl_api.h;No replacement;2312;2712
+ITK function;RDV_getExecuteQPLFilterCount;rdv/rdv_qpl_api.h;No replacement;2312;2712
+ITK function;RDV_getQPLBuilds;rdv/rdv_qpl_api.h;No replacement;2312;2712
+ITK function;RDV_getQPLSchema;rdv/rdv_qpl_api.h;No replacement;2312;2712
+ITK function;RELSTAT_ask_date_effectivity;tccore/releasestatus.h;WSOM_eff_ask_date_range;12. Mrz;2712
+ITK function;RELSTAT_ask_unit_effectivity;tccore/releasestatus.h;WSOM_eff_ask_unit_range;12. Mrz;2712
+ITK function;RELSTAT_set_date_effectivity;tccore/releasestatus.h;WSOM_eff_set_date_range;12. Mrz;2712
+ITK function;RELSTAT_set_unit_effectivity;tccore/releasestatus.h;WSOM_eff_set_unit_range;12. Mrz;2712
+ITK function;REQ_create_set_contents;req/requirement.h;REQ_create_set_contents2;13. Mrz;2712
+ITK function;REQ_create_set_contents2;req/requirement.h;REQ_create_set_contents3;14. Feb;2712
+ITK function;REQ_create_set_contents3;req/requirement.h;REQ_create_set_contents4;14. Mrz;2712
+ITK function;SCHMGT_copyTaskWithPasteSpecial;schmgt/schmgt_itk.h;SCHMGT_copy_tasks_with_paste_special;11.02.2003;2712
+ITK function;SCHMGT_create_proxy_tasks;schmgt/schmgt_itk.h;SCHMGTBRI_create_proxy_tasks;11.02.2003;2712
+ITK function;SCHMGT_get_schedule_summary_task;schmgt/schmgt_bridge_itk.h;AOM_ask_value_tag;11. Mrz;2712
+ITK function;SERVICEPROCESSING__get_physBOMLine;serviceprocessing/serviceprocessing.h;SERVICEPROCESSING_get_physical_bom_line;11. Feb;2712
+ITK function;SERVICEPROCESSING__valphysPartBase;serviceprocessing/serviceprocessing.h;SERVICEPROCESSING_is_child_physical_part;11. Feb;2712
+ITK function;SERVICEPROCESSING_doubleToString;serviceprocessing/serviceprocessing.h;SERVICEPROCESSING_double_to_string;11. Feb;2712
+ITK function;SERVICEPROCESSING_setReleaseStatus;serviceprocessing/serviceprocessing.h;SERVICEPROCESSING_set_release_status;11. Feb;2712
+Macro;SIG_duplicate_association;mechatronics/mechatronics_errors.h;No replacement;11. Jan;2712
+Macro;SIG_invalid_frameorsignal;mechatronics/mechatronics_errors.h;No replacement;11. Jan;2712
+Macro;SIG_invalid_source;mechatronics/mechatronics_errors.h;No replacement;11. Jan;2712
+Macro;SIG_invalid_target;mechatronics/mechatronics_errors.h;No replacement;11. Jan;2712
+Macro;SIG_sig_has_a_pv;mechatronics/mechatronics_errors.h;No replacement;11. Jan;2712
+Macro;SIS0_internal_error_posting_to_slack;sis0socialint/sis0socialint_errors.h;SIS0_internal_error_posting_to_slack;12. Feb;2712
+Macro;SIS0_undefined_slack_channel;sis0socialint/sis0socialint_errors.h;SIS0_undefined_channel;12. Feb;2712
+Macro;SIS0_undefined_slack_workspace_id;sis0socialint/sis0socialint_errors.h;SIS0_undefined_id;12. Feb;2712
+ITK function;SPR0PhysicalPartRevisionSetPropertiesFromSaveAsInputPostAction;serviceprocessing/serviceprocessing.h;SERVICEPROCESSING_set_properties_from_save_as;11. Feb;2712
+ITK function;STRNG_to_upper;fclasses/tc_string.h;STRNG_to_upper2;10.01.2007;2712
+Macro;TCTYPE_create_msg;tccore/tctype_msg.h;No replacement;08. Mrz;2712
+Macro;TCTYPE_createprops_msg;tccore/tctype_msg.h;No replacement;08. Mrz;2712
+Macro;TCTYPE_init_user_props_msg;tccore/tctype_msg.h;No replacement;08. Mrz;2712
+Macro;TCTYPE_viewerprops_msg;tccore/tctype_msg.h;No replacement;08. Mrz;2712
+Macro;TC_free_text;textsrv/textserver.h;MEM_free;10.01.2003;2712
+ITK function;TC_hier_text;textsrv/textserver.h;No replacement;10.01.2003;2712
+Macro;TC_include_dispatcher_ets_errors_h_deprecated;ets/ets_errors.h;dispatcher/dispatcher_errors.h;tc2008;2712
+Macro;TC_include_dispatcher_ets_h_deprecated;ets/ets.h;dispatcher/dispatcher_itk.h;tc2008;2712
+Macro;TC_include_dispatcher_ets_user_exits_h_deprecated;ets_user_exits/ets_user_exits.h;No replacement;tc2008;2712
+Macro;TC_include_dispatcher_etstranslationrequest_h_deprecated;ets/etstranslationrequest.h;No replacement;tc2008;2712
+ITK function;TC_print_dll_versions;tc/tc_util.h;SS_print_dll_versions;2406;2712
+Macro;TIE_problem_running_ugclone;tie/tie_errors.h;TIE_problem_running_import_utility;11.02.2002;2712
+Macro;TL_both_released;tccore/tracelink_errors.h;TL_both_baselined;12. Feb;2712
+Macro;TL_primary_released;tccore/tracelink_errors.h;TL_primary_baselined;12. Feb;2712
+Macro;TL_secondary_released;tccore/tracelink_errors.h;TL_secondary_baselined;12. Feb;2712
+API;Teamcenter::Awb0Element::getAwb0IsStructModifiable;awb0occmgmt/Awb0ElementDelegate.hxx;This operation is deprecated Active Workspace 3.2 onwards.;ActiveWorkspace3.2;2712
+API;Teamcenter::BulkInput::fnd0Copy;metaframework/BulkSaveInputDelegate.hxx;Users have to use fnd0GetCopy instead of fnd0Copy;11.02.2003;2712
+API;Teamcenter::Cfg0configurator::Cfg0AbsProductLine::getCfg0Characterstics;Cfg0configurator/Cfg0AbsProductLineDelegate.hxx;"Deprecated. See Support Announcement ""getCfg0Characterstics Command Deprecated"" in the Teamcenter 12.3 README.";12. Mrz;2712
+API;Teamcenter::Cfg0configurator::Cfg0AbsProductModel::getCfg0Characterstics;Cfg0configurator/Cfg0AbsProductModelDelegate.hxx;"deprecated. See Support Announcement ""getCfg0Characterstics Command Deprecated"" in the Teamcenter 12.3 README.";12. Mrz;2712
+API;Teamcenter::Cfg0configurator::Cfg0AbsSumModelFamilyThread::getCfg0SummarizedModelFamily;Cfg0configurator/Cfg0AbsSumModelFamilyThreadDelegate.hxx;This property is deprecated Teamcenter 10.1.3 onwards and will be removed in Teamcenter 11.1. Please do not use this property.;10.01.2003;2712
+API;Teamcenter::Fnd0AbstractOccRevision::setFnd0EffectivityFormula;ps/Fnd0AbstractOccRevisionDelegate.hxx;DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2512. This property is only used for expression effectivity authoring and being deprecated with expression effectivity functionality;2512;2912
+API;Teamcenter::Logging::Logger::note;mld/logging/Logger.hxx;No replacement;11. Apr;2712
+API;Teamcenter::PSBOMViewRevision::fnd0Save;ps/PSBOMViewRevisionDelegate.hxx;The operation is deprecated as of TC2506. To attach any pre/post extensions they should be attached to TC_save_msg or to fnd0Save (Bulk Save) operation.;2506;2712
+API;Teamcenter::systemsengineering::Seg0IntfSpecRevision::seg0GetSeg0InterfaceElements;systemsengineering/Seg0IntfSpecRevisionDelegate.hxx;Deprecated. See Support Announcement 2312.;2312;2712
+ITK function;WEB_RDV_decodeGetQPLScheme;rdv/rdv.h;No replacement;2312;2712
+ITK function;WEB_RDV_executeQPLFilter;rdv/rdv.h;No replacement;2312;2712
+ITK function;WEB_RDV_getExecuteQPLFilterCount;rdv/rdv.h;No replacement;2312;2712
+ITK function;WEB_RDV_getQPLBuilds;rdv/rdv.h;No replacement;2312;2712
+API;attr_id;property/legacy_counter.h;No replacement;2606;2912
+API;awb0::Teamcenter::Fnd0ConditionHelper::awb0IsCompareCmdVisible;awb0occmgmtbom/Fnd0ConditionHelperExt.hxx;this operation is deprecated. Use awb0IsCompareContentCmdVisible operation that takes client context and root objects as input.;ActiveWorkspace4.2;2712
+API;awp0::aws2::Fnd0ConditionHelper::awp0getPropValueOnRefObj;awp0aws2/Fnd0ConditionHelperExt.hxx;This operation is deprecated AW6.0 onwards fnd0getPropValueOnRefObj should be used from AW6.0 onwards;ActiveWorkspace6.0;2712
+API;behaviormodeling::Bhm0BehaviorModl::bhm0SaveModelData;Bhm0bhm/Bhm0BehaviorModlDelegate.hxx;It was a dummy operation;10.01.2002;2712
+API;behaviormodeling::Bhm0BehaviorModlRevision::bhm0SaveModelData;Bhm0bhm/Bhm0BehaviorModlRevisionDelegate.hxx;It was a dummy operation.;10.01.2002;2712
+API;behaviormodeling::Bhm0ComponentRep::bhm0SaveComp;Bhm0bhm/Bhm0ComponentRepDelegate.hxx;It was a dummy method.;10.01.2002;2712
+ITK function;fnd_strcpy;base_utils/FndStringUtils.h;fnd_strlcpy;11. Mrz;2712
+API;getLogCorrelationId;mld/logging/LoggerTree.hxx;Teamcenter::Common::Logging::LogCorrelation;14. Mrz;2712
+API;getObjectBasedOpIntForSetBasedOpInt;extensionframework/OperationDispatcherRegistry.hxx;No replacement;11.02.2004;2712
+ITK function;getValidPhysicalPartRevAndPartRev;mrocore/mrocore.h;MROCORE_get_valid_physical_part_rev_and_part_rev;2506;2712
+API;isMatchAllBaseAction;extensionframework/PropOperationDispatcher.hxx;getBaseActionFunctionType;14.0;2712
+API;item_ids_issued;property/legacy_counter.h;No replacement;2606;2912
+API;item_ids_issued_list;property/legacy_counter.h;No replacement;2606;2912
+API;nextIdInstance;property/legacy_counter.h;No replacement;2606;2912
+API;registerLogCorrelationId;mld/logging/LoggerTree.hxx;Teamcenter::Common::Logging::LogCorrelation;14. Mrz;2712
+API;sci0imdsintegration::Sci0ItemHelperObject::setSci0IsMDS;sci0imdsintegration/Sci0ItemHelperObjectDelegate.hxx;DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2512.;2512;2912
+API;setIsMatchAllBaseAction;extensionframework/PropOperationDispatcher.hxx;setBaseActionFunctionType;14.0;2712
+ITK function;txt_destructor;textsrv/textserver.h;TXTSRV_get_substituted_text_resource;10.01.2003;2712
+ITK function;txt_noSubText;textsrv/textserver.h;TXTSRV_get_unsubstituted_text_resource;10.01.2003;2712
+ITK function;txt_subText;textsrv/textserver.h;TXTSRV_get_substituted_text_resource;10.01.2003;2712
