@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2023.
+Siemens Digital Industries Software.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+-->
+<media>
+    <product_id>Teamcenter</product_id>
+    <product_display_name>Teamcenter</product_display_name>
+    <application_id>m5poc</application_id>
+    <application_display_name>poc</application_display_name>
+    <version>1.0</version>
+    <rtm_type>Main</rtm_type>
+    <parent_release/>
+    <platform/>
+    <description>MHP 2606 POC</description>
+    <application_dependency>
+        <application id="Foundation" release="2606.2607"/>
+    </application_dependency>
+</media>
