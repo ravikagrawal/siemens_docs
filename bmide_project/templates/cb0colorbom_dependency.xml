@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Color BOM" enableOpsDataDeploy="false" guid="6FF1355D16B289149D3F4005BDFA3AB3" isDescriptionMandatory="true" name="cb0colorbom" optional="true" prefixes="Cb0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="pma0automation_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="clr0colorappearance_template.xml"/>
+    <include file="cfg0configurator_template.xml"/>
+    <include file="smc0psmcfgsupport_template.xml"/>
+</TcBusinessDataIncludes>

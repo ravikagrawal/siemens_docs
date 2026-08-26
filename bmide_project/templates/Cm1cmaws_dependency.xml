@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Change Management for Active Workspace" enableOpsDataDeploy="false" guid="B75C673EA57FD9D5EBEF544DE7F07F4E" isDescriptionMandatory="true" name="Cm1cmaws" optional="true" prefixes="Cm1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+</TcBusinessDataIncludes>

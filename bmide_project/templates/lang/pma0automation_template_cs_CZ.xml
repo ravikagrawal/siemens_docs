@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="cs_CZ" status="Approved">Zprostředkovatel propojení návrhu a rozpisky</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="cs_CZ" status="Approved">Podmínka pro to, zda má být návrh vytvořen a zarovnán při vytvoření součásti.</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="cs_CZ" status="Approved">Podmínka pro to, zda má být součást vytvořena a zarovnána k návrhu při vytvoření návrhu</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="cs_CZ" status="Approved">Podmínka filtru pracovního postupu pro povolení generování pracovního postupu EBOM.</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="cs_CZ" status="Approved">Zarovnané kontexty návrhů</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="cs_CZ" status="Approved">Zarovnané návrhy</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="cs_CZ" status="Approved">Zarovnané kontexty součástí</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="cs_CZ" status="Approved">Zarovnané součásti</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="cs_CZ" status="Approved">Návrh byl zarovnán</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="cs_CZ" status="Approved">Je vyžadován návrh</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="cs_CZ" status="Approved">Součást byla zarovnána</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="cs_CZ" status="Approved">Je vyžadována součást</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="cs_CZ" status="Approved">Součásti k zarovnání</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="cs_CZ" status="Approved">Zachovat existující součást</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="cs_CZ" status="Approved">Součásti k zarovnání</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="cs_CZ" status="Approved">Automaticky vytvořit součást</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="cs_CZ" status="Approved">Je vyžadována součást</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="cs_CZ" status="Approved">Zarovnané kontexty součástí</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="cs_CZ" status="Approved">Zarovnané součásti</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="cs_CZ" status="Approved">Součást byla zarovnána</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="cs_CZ" status="Approved">Je vyžadována součást</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="cs_CZ" status="Approved">Návrhy k zarovnání</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="cs_CZ" status="Approved">Automaticky vytvořit návrh</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="cs_CZ" status="Approved">Ukončeno</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="cs_CZ" status="Approved">Implicitní primární reprezentace</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnot "Akce změn návrhu" pro aktualizaci návrhu, pokud je návrh ve stavu "TCM vydáno". Tato podmínka zapíná předvolbu Pma0DsgnChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnot "Akce změn součásti" pro aktualizaci součásti, pokud je součást ve stavu "TCM vydáno". Tato podmínka zapíná předvolbu Pma0PartChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnotu "Akce návrhu opakovaného použití" pro aktualizaci návrhu. Tato podmínka zapíná předvolbu Pma0ReusePartActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnot "Akce součásti opakovaného použití" pro aktualizaci součásti, pokud jsou součást i návrh v pracovním stavu. Tato podmínka zapíná předvolbu Pma0ReusePartActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnot "Akce revize návrhu" pro aktualizaci návrhu, pokud je návrh ve stavu "Zmrazeno". Tato podmínka zapíná předvolbu Pma0ReviseDesignActionLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="cs_CZ" status="Approved">Toto pravidlo povoluje seznam hodnot "Akce revize součásti" pro aktualizaci součásti, pokud je součást ve stavu "Zmrazeno". Tato podmínka zapíná předvolbu Pma0RevisePartActionLOV.</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít existující revizi návrhu</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh aktuálně zarovnaný k upravované součásti.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="cs_CZ" status="Approved">Použít nový návrh pro upravovanou součást</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít existující revizi návrhu</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh aktuálně zarovnaný k upravované součásti.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="cs_CZ" status="Approved">Použít novou součást pro upravovaný návrh.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="cs_CZ" status="Approved">Opakovaně použít existující revizi součásti</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást aktuálně zarovnanou k upravovanému návrhu.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="cs_CZ" status="Approved">Vytvoří nový návrh pro upravovanou součást</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="cs_CZ" status="Approved">Vytvoří novou součást pro upravovaný návrh</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="cs_CZ" status="Approved">Použít novou součást pro upravovaný návrh.</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást aktuálně zarovnanou k upravovanému návrhu.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít existující revizi návrhu</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="cs_CZ" status="Approved">Opakovaně použít existující revizi součásti</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást aktuálně zarovnanou k upravovanému návrhu.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh aktuálně zarovnaný k upravované součásti.</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást aktuálně zarovnanou k upravovanému návrhu.</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít návrh</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="cs_CZ" status="Approved">Nový návrh</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít návrh</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="cs_CZ" status="Approved">Nová součást</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="cs_CZ" status="Approved">Opakovaně použít součást</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="cs_CZ" status="Approved">Nový návrh</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="cs_CZ" status="Approved">Nová součást</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="cs_CZ" status="Approved">Nová součást</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="cs_CZ" status="Approved">Opakovaně použít návrh</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="cs_CZ" status="Approved">Opakovaně použít součást</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="cs_CZ" status="Approved">Opakovaně použít součást</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="cs_CZ" status="Approved">Revidovat návrh</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="cs_CZ" status="Approved">Revidovat součást</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="cs_CZ" status="Approved">Stav vydání zarovnaného návrhu</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="cs_CZ" status="Approved">Stav vydání zarovnané součásti</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="cs_CZ" status="Approved">Akce aktualizace</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="cs_CZ" status="Approved">Je režim aktualizace zapnutý</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="cs_CZ" status="Approved">Kopírovat sjednocení součásti</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="cs_CZ" status="Approved">Kopírovat sjednocení návrhu</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="cs_CZ" status="Approved">Atributy návrhu</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="cs_CZ" status="Approved">Atributy součásti</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="cs_CZ" status="Approved">Atributy revize součásti</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="cs_CZ" status="Approved">Označuje součást definovanou atributy barvy</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="cs_CZ" status="Approved">Naznačuje součást bez dokončení</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="cs_CZ" status="Approved">Označuje součást bez barvy</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="cs_CZ" status="Approved">Barva</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="cs_CZ" status="Approved">Menší dokončení</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="cs_CZ" status="Approved">Žádný</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="cs_CZ" status="Approved">Návrh získán outsourcingem</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="cs_CZ" status="Approved">Koupený návrh</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="cs_CZ" status="Approved">Interní návrh</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="cs_CZ" status="Approved">Zrušené přiřazení</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="cs_CZ" status="Approved">Zarovnat podle obecné součásti</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="cs_CZ" status="Approved">Zarovnat podle obecné součásti</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="cs_CZ" status="Approved">Zarovnat podle obecné součásti</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="cs_CZ" status="Approved">Zarovnat podle obecné součásti</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="cs_CZ" status="Approved">Více těles</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="cs_CZ" status="Approved">Změnit poskytovatele výsledků ověření</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="cs_CZ" status="Approved">Změnit výsledek ověření balíčku</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="cs_CZ" status="Approved">Důvod</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="cs_CZ" status="Approved">Problém</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="cs_CZ" status="Approved">Položka řešení</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

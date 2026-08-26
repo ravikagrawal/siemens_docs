@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:58:57 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Functionality description="Component for the template - rzc0rlzcm" displayName="Change Management Realization Interface" enabledForVerificationRules="false" name="Rzc0rlzcm"/>
+           
+        <Library createRelease="tc12000.2.0" description="Change Management Realization Interface" isThirdParty="false" name="Rzc0rlzcm" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcExtension cannedExtension="true" description="PostAction extension on IMANTYPE_init_intl_props operation to do registration for postAction initialization." functionality="Rzc0rlzcm" internal="false" languageType="CPlusPlus" libraryName="libRzc0rlzcm" name="Rzc0_RealizedItem_init_intl_props_postaction">
+                 
+            <TcExtensionValidity parameter="TYPE:Rlz0RealizedItem:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+          
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Rlz0RealizedItem" extendableElementType="Type" extensionName="Rzc0_RealizedItem_init_intl_props_postaction" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

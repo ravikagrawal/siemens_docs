@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:52:26 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc11000.2.3" description="Advanced PLM Services Core features library" isThirdParty="false" name="aps0apscore" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcClass className="Aps0AbstractPlantInc" description="" isExportable="false" isUninheritable="false" isUninstantiable="true" parentClassName="WorkspaceObject">
+                 
+            <TcAttribute attributeName="aps0Target" attributeType="POM_typed_reference" description="The Engineering record being consumed in the Plant." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="WorkspaceObject"/>
+               
+        </TcClass>
+           
+        <TcClass className="Aps0AbstractPlantIncThd" description="" isExportable="false" isUninheritable="false" isUninstantiable="true" parentClassName="Fnd0WSOThread">
+                 
+            <TcAttribute attributeName="aps0UsingPlant" attributeType="POM_typed_reference" description="This the plant entity consuming the Engineering change." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="Aps0PlantLocation"/>
+               
+        </TcClass>
+           
+        <TcClass className="Aps0AttachAttrGroup" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Aps0AttributeGroup" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="WorkspaceObject" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Aps0EffectivityExprBlock" description="" isExportable="false" isUninheritable="true" isUninstantiable="false" parentClassName="Fnd0EffectivityExprBlock" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Aps0MagThread" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Fnd0WSOThread" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Aps0ManagedAttributeGroup" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Aps0AttributeGroup" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Aps0PlantLocation" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="CompanyLocation"/>
+           
+        <TcClass className="Aps0VariantExprBlock" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Fnd0VariantExprBlock" revisabilityOption="Revisable"/>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.4.0" description="" id="int#Teamcenter::Aps0AbstractPlantInc::finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0AbstractPlantInc::finalizeReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="true" const="false" createRelease="tc11000.4.0" description="" id="int#Teamcenter::Aps0AbstractPlantInc::revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" name="Teamcenter::Aps0AbstractPlantInc::revise" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="newObjTag" freeOutputMemory="false" inputOutput="Input" name="newObjTag">
+                       
+                <OperationParameterDataTypeRef dataType="tag_t" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.4.0" description="" id="int#Teamcenter::Aps0AbstractPlantInc::revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0AbstractPlantInc::revisePost" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.4.0" description="" id="int#Teamcenter::Aps0AbstractPlantInc::setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" name="Teamcenter::Aps0AbstractPlantInc::setPropertiesFromReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.4.0" description="" id="int#Teamcenter::Aps0AbstractPlantInc::validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0AbstractPlantInc::validateReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.3" description="" id="int#Teamcenter::Aps0ManagedAttributeGroup::finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0ManagedAttributeGroup::finalizeReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="true" const="false" createRelease="tc11000.2.3" description="" id="int#Teamcenter::Aps0ManagedAttributeGroup::revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" name="Teamcenter::Aps0ManagedAttributeGroup::revise" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="newObjTag" freeOutputMemory="false" inputOutput="Input" name="newObjTag">
+                       
+                <OperationParameterDataTypeRef dataType="tag_t" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.3" description="" id="int#Teamcenter::Aps0ManagedAttributeGroup::revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0ManagedAttributeGroup::revisePost" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.3" description="" id="int#Teamcenter::Aps0ManagedAttributeGroup::setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" name="Teamcenter::Aps0ManagedAttributeGroup::setPropertiesFromReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.3" description="" id="int#Teamcenter::Aps0ManagedAttributeGroup::validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" name="Teamcenter::Aps0ManagedAttributeGroup::validateReviseInput" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="pReviseInput" freeOutputMemory="false" inputOutput="Input" name="pReviseInput">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ReviseInput" qualifier="*"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="vecDeepCopyData" freeOutputMemory="false" inputOutput="Input" name="vecDeepCopyData">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector&lt;Teamcenter::DeepCopyData*&gt;" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationInputType artifactName="Aps0AbstractPlantIncCreI" description="CreateInput object for &quot;Aps0AbstractPlantInc&quot; business object" isAbstract="true" parentTypeName="WorkspaceObjectCreI" typeClassName="Aps0AbstractPlantIncCreI" typeName="Aps0AbstractPlantIncCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="Fnd0ThreadType" compoundObjectType="" description="Workspace object revision anchor" fieldType="CompoundObject" propName="wso_thread" srcPropName="wso_thread"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="The Engineering record being consumed in the Plant." fieldType="SimpleProperty" propName="aps0Target" srcPropName="aps0Target"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0AbstractPlantIncRevI" description="" isAbstract="true" parentTypeName="ReviseInput" typeClassName="Aps0AbstractPlantIncRevI" typeName="Aps0AbstractPlantIncRevI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="name of the object" fieldType="SimpleProperty" propName="object_name" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="description of the object" fieldType="SimpleProperty" propName="object_desc" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="New revision ID" fieldType="SimpleProperty" propName="fnd0RevisionId" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0AbstractPlantIncSvAI" description="SaveAsInput object for &quot;Aps0AbstractPlantInc&quot; business object" isAbstract="true" parentTypeName="WorkspaceObjectSvAI" typeClassName="Aps0AbstractPlantIncSvAI" typeName="Aps0AbstractPlantIncSvAI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Revision Id for workspace object" fieldType="SimpleProperty" propName="fnd0RevisionId" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0AbstractPlantIncThdCreI" description="CreateInput object for &quot;Aps0AbstractPlantIncThd&quot; business object" isAbstract="true" parentTypeName="Fnd0WSOThreadCreI" typeClassName="Aps0AbstractPlantIncThdCreI" typeName="Aps0AbstractPlantIncThdCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="This the plant entity consuming the Engineering change." fieldType="SimpleProperty" propName="aps0UsingPlant" srcPropName="aps0UsingPlant"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0AbstractPlantIncThdSvAI" description="SaveAsInput object for &quot;Aps0AbstractPlantIncThd&quot; business object" isAbstract="true" parentTypeName="Fnd0WSOThreadSvAI" typeClassName="Aps0AbstractPlantIncThdSvAI" typeName="Aps0AbstractPlantIncThdSvAI"/>
+           
+        <OperationInputType artifactName="Aps0AttachAttrGroupCreI" description="CreateInput object for &quot;Aps0AttachAttrGroup&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Aps0AttachAttrGroupCreI" typeName="Aps0AttachAttrGroupCreI"/>
+           
+        <OperationInputType artifactName="Aps0AttachAttrGroupSvAI" description="SaveAsInput object for &quot;Aps0AttachAttrGroup&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Aps0AttachAttrGroupSvAI" typeName="Aps0AttachAttrGroupSvAI"/>
+           
+        <OperationInputType artifactName="Aps0AttributeGroupCreI" description="CreateInput object for &quot;Aps0AttributeGroup&quot; business object" isAbstract="true" parentTypeName="WorkspaceObjectCreI" typeClassName="Aps0AttributeGroupCreI" typeName="Aps0AttributeGroupCreI">
+                 
+            <TcProperty arrayLength="0" description="This is a tag of Primary Business Object to which this AttributeGroup is attached." isArray="false" propMaxStringLength="0" propName="aps0PrimaryBO" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="WorkspaceObject" referencedTypeConstant=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0AttributeGroupSvAI" description="SaveAsInput object for &quot;Aps0AttributeGroup&quot; business object" isAbstract="true" parentTypeName="WorkspaceObjectSvAI" typeClassName="Aps0AttributeGroupSvAI" typeName="Aps0AttributeGroupSvAI"/>
+           
+        <OperationInputType artifactName="Aps0EffectivityExprBlockCreI" description="CreateInput object for &quot;Aps0EffectivityExprBlock&quot; business object" isAbstract="false" parentTypeName="Fnd0EffectivityExprBlockCreI" typeClassName="Aps0EffectivityExprBlockCreI" typeName="Aps0EffectivityExprBlockCreI"/>
+           
+        <OperationInputType artifactName="Aps0EffectivityExprBlockSvAI" description="SaveAsInput object for &quot;Aps0EffectivityExprBlock&quot; business object" isAbstract="false" parentTypeName="Fnd0EffectivityExprBlockSvAI" typeClassName="Aps0EffectivityExprBlockSvAI" typeName="Aps0EffectivityExprBlockSvAI"/>
+           
+        <OperationInputType artifactName="Aps0MagThreadCreI" description="CreateInput object for &quot;Aps0MagThread&quot; business object" isAbstract="false" parentTypeName="Fnd0WSOThreadCreI" typeClassName="Aps0MagThreadCreI" typeName="Aps0MagThreadCreI"/>
+           
+        <OperationInputType artifactName="Aps0MagThreadSvAI" description="SaveAsInput object for &quot;Aps0MagThread&quot; business object" isAbstract="false" parentTypeName="Fnd0WSOThreadSvAI" typeClassName="Aps0MagThreadSvAI" typeName="Aps0MagThreadSvAI"/>
+           
+        <OperationInputType artifactName="Aps0ManagedAttributeGroupCreI" description="CreateInput object for &quot;Aps0ManagedAttributeGroup&quot; business object" isAbstract="true" parentTypeName="Aps0AttributeGroupCreI" typeClassName="Aps0ManagedAttributeGroupCreI" typeName="Aps0ManagedAttributeGroupCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="Fnd0ThreadType" compoundObjectType="" description="thread" fieldType="CompoundObject" propName="wso_thread" srcPropName="wso_thread"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Create operation input for Effectivity Formula" fieldType="SimpleProperty" propName="aps0effectivity_formula" srcPropName="aps0effectivity_formula"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Create operation input for Variant Formula" fieldType="SimpleProperty" propName="aps0variant_formula" srcPropName="aps0variant_formula"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0ManagedAttributeGroupRevI" description="" isAbstract="true" parentTypeName="ReviseInput" typeClassName="Aps0ManagedAttributeGroupRevI" typeName="Aps0ManagedAttributeGroupRevI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="name of the object" fieldType="SimpleProperty" propName="object_name" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="description of the object" fieldType="SimpleProperty" propName="object_desc" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="New revision ID" fieldType="SimpleProperty" propName="fnd0RevisionId" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Optional User input for Effectivity while performing Revise of Aps0ManagedAttributeGroup" fieldType="SimpleProperty" propName="aps0effectivity_formula" srcPropName="aps0effectivity_formula"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Optional User input for Variant while performing Revise of Aps0ManagedAttributeGroup" fieldType="SimpleProperty" propName="aps0variant_formula" srcPropName="aps0variant_formula"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Denotes whether a (major) revision is Discontinued or not. The default value is NULL. Flag is ignored for classes which do not revise" fieldType="SimpleProperty" propName="fnd0IsRevisionDiscontinued" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0ManagedAttributeGroupSvAI" description="SaveAsInput object for &quot;Aps0ManagedAttributeGroup&quot; business object" isAbstract="true" parentTypeName="Aps0AttributeGroupSvAI" typeClassName="Aps0ManagedAttributeGroupSvAI" typeName="Aps0ManagedAttributeGroupSvAI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Revision Id for workspace object" fieldType="SimpleProperty" propName="fnd0RevisionId" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Optional User input for Effectivity while performing SaveAs of Aps0ManagedAttributeGroup" fieldType="SimpleProperty" propName="aps0effectivity_formula" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Optional User input for Variant while performing Save As of Aps0ManagedAttributeGroup" fieldType="SimpleProperty" propName="aps0variant_formula" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0PlantLocationCreI" description="CreateInput object for &quot;Aps0PlantLocation&quot; business object" isAbstract="false" parentTypeName="CompanyLocationCreI" typeClassName="Aps0PlantLocationCreI" typeName="Aps0PlantLocationCreI"/>
+           
+        <OperationInputType artifactName="Aps0PlantLocationSvAI" description="SaveAsInput object for &quot;Aps0PlantLocation&quot; business object" isAbstract="false" parentTypeName="CompanyLocationSvAI" typeClassName="Aps0PlantLocationSvAI" typeName="Aps0PlantLocationSvAI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="LocationCode" fieldType="SimpleProperty" propName="fnd0LocationCode" srcPropName="fnd0LocationCode"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aps0VariantExprBlockCreI" description="CreateInput object for &quot;Aps0VariantExprBlock&quot; business object" isAbstract="false" parentTypeName="Fnd0VariantExprBlockCreI" typeClassName="Aps0VariantExprBlockCreI" typeName="Aps0VariantExprBlockCreI"/>
+           
+        <OperationInputType artifactName="Aps0VariantExprBlockSvAI" description="SaveAsInput object for &quot;Aps0VariantExprBlock&quot; business object" isAbstract="false" parentTypeName="Fnd0VariantExprBlockSvAI" typeClassName="Aps0VariantExprBlockSvAI" typeName="Aps0VariantExprBlockSvAI"/>
+           
+        <TcStandardType artifactName="Aps0AbstractPlantInc" description="This abstract BO provides the capability to consume an Engineering change by a Plant." functionality="Aps0ApsCore" isAbstract="true" parentTypeName="WorkspaceObject" typeClassName="Aps0AbstractPlantInc" typeName="Aps0AbstractPlantInc">
+                 
+            <TcProperty arrayLength="0" description="Runtime property representing the effectivity formula." isArray="false" propMaxStringLength="4000" propName="aps0EffectivityFormula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcStandardType>
+           
+        <TcStandardType artifactName="Aps0AbstractPlantIncThd" description="Provides generic anchor for all revisions of Plant Incorporation (Aps0AbstractPlantInc)." functionality="Aps0ApsCore" isAbstract="true" parentTypeName="Fnd0WSOThread" typeClassName="Aps0AbstractPlantIncThd" typeName="Aps0AbstractPlantIncThd"/>
+           
+        <TcStandardType artifactName="Aps0AttachAttrGroup" description="Aps0AttachAttrGroup is a POM Revisable class which extends the ImanRelation class.  It is used to attach Aps0MagThread to Owning Business Object." functionality="Aps0ApsCore" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Aps0AttachAttrGroup" typeName="Aps0AttachAttrGroup"/>
+           
+        <TcStandardType artifactName="Aps0AttributeGroup" description="Application should sub-type this POM Revisable class when they need to manage a group of related attributes for their Business Object where different access rules are required for the Group of attributes than for the primary element." functionality="Aps0ApsCore" isAbstract="true" parentTypeName="WorkspaceObject" typeClassName="Aps0AttributeGroup" typeName="Aps0AttributeGroup"/>
+           
+        <TcStandardType artifactName="Aps0EffectivityExprBlock" description="Aps0EffectivityExprBlock associates the functionality provided by Fnd0EffectivityExprBlock. It is used instead of Fnd0effectivityExprBlock because configurable application objects support minor versions and hence the Aps0EffectivityExprBlock must also support minor versions." functionality="Aps0ApsCore" isAbstract="false" parentTypeName="Fnd0EffectivityExprBlock" typeClassName="Aps0EffectivityExprBlock" typeName="Aps0EffectivityExprBlock"/>
+           
+        <TcStandardType artifactName="Aps0MagThread" description="An Aps0MAGThread is an anchor object that multiple revisions of a Aps0ManagedAttributeGroup share in common. Customers can subtype this Thread to host common attributes across all revisions of the MAG." functionality="Aps0ApsCore" isAbstract="false" parentTypeName="Fnd0WSOThread" typeClassName="Aps0MagThread" typeName="Aps0MagThread"/>
+           
+        <TcStandardType artifactName="Aps0ManagedAttributeGroup" description="Applications should sub-type this POM Revisable class when they need to manage a group of related attributes in a separate lifecycle than the primary Object. This class is Major Revisable." functionality="Aps0ApsCore" isAbstract="true" parentTypeName="Aps0AttributeGroup" typeClassName="Aps0ManagedAttributeGroup" typeName="Aps0ManagedAttributeGroup">
+                 
+            <TcProperty arrayLength="0" description="Runtime property representing the effectivity formula which is used to configure this object." isArray="false" propMaxStringLength="4000" propName="aps0effectivity_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="A user friendly text representation of the effectivity expression." isArray="false" propMaxStringLength="4000" propName="aps0effectivity_display" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="A system friendly (parsable) text representation (in configurator language) of the &quot;applicability&quot; effectivity expression." isArray="false" propMaxStringLength="4000" propName="aps0allowed_eff_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="A user friendly text representation of the &quot;applicability&quot; effectivity expression." isArray="false" propMaxStringLength="4000" propName="aps0allowed_eff_display" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Runtime property indicating if the object is revisable by currently logged user." isArray="false" propMaxStringLength="0" propName="aps0is_revisable" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Runtime property representing variant formula as it was assigned directly to this object." isArray="false" propMaxStringLength="4000" propName="aps0allowed_var_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Runtime property representing the variant formula which is used to configure this object when variant rule is applied." isArray="false" propMaxStringLength="4000" propName="aps0variant_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Runtime property indicating if the revision is configured by applying revision rules. It is set to true if the object is configured by revision rules and set to false otherwise." isArray="false" propMaxStringLength="0" propName="aps0IsConfigured" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="A list of major revision siblings including itself." isArray="true" propMaxStringLength="0" propName="aps0sibling_revisions" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcStandardType>
+           
+        <TcStandardType artifactName="Aps0PlantLocation" description="Aps0PlantLocation represents the Plant Location in 4G foundation. The property fnd0LocationCode holds the unique identifier for Aps0PlantLocation." functionality="Aps0ApsCore" isAbstract="false" parentTypeName="CompanyLocation" typeClassName="Aps0PlantLocation" typeName="Aps0PlantLocation"/>
+           
+        <TcStandardType artifactName="Aps0VariantExprBlock" description="Aps0VariantExprBlock associates the functionality provided by Fnd0VariantExprBlock (variant configuration). It is used instead of Fnd0VariantExprBlock because configurable application objects support minor versions and hence the Aps0VariantExprBlock must also support minor versions." functionality="Aps0ApsCore" isAbstract="false" parentTypeName="Fnd0VariantExprBlock" typeClassName="Aps0VariantExprBlock" typeName="Aps0VariantExprBlock"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.4.0" description="Interface Name for Business Object Aps0AbstractPlantInc" libraryName="aps0apscore" name="Aps0AbstractPlantInc" namespace="Teamcenter" primaryInterface="true" typeName="Aps0AbstractPlantInc"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0AttachAttrGroup" libraryName="aps0apscore" name="Aps0AttachAttrGroup" namespace="Teamcenter" primaryInterface="true" typeName="Aps0AttachAttrGroup"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0AttributeGroup" libraryName="aps0apscore" name="Aps0AttributeGroup" namespace="Teamcenter" primaryInterface="true" typeName="Aps0AttributeGroup"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0EffectivityExprBlock" libraryName="aps0apscore" name="Aps0EffectivityExprBlock" namespace="Teamcenter" primaryInterface="true" typeName="Aps0EffectivityExprBlock"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0MagThread" libraryName="aps0apscore" name="Aps0MagThread" namespace="Teamcenter" primaryInterface="true" typeName="Aps0MagThread"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0ManagedAttributeGroup" libraryName="aps0apscore" name="Aps0ManagedAttributeGroup" namespace="Teamcenter" primaryInterface="true" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.4.0" description="Interface Name for Business Object Aps0PlantLocation" libraryName="aps0apscore" name="Aps0PlantLocation" namespace="aps0apscore" primaryInterface="true" typeName="Aps0PlantLocation"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.3" description="Interface Name for Business Object Aps0VariantExprBlock" libraryName="aps0apscore" name="Aps0VariantExprBlock" namespace="Teamcenter" primaryInterface="true" typeName="Aps0VariantExprBlock"/>
+           
+        <Operation canOverride="true" component="" createRelease="tc11000.4.0" dependencies="" description="" exceptionCondition="" id="finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="finalizeReviseInput" opTemplate="int#Teamcenter::Aps0AbstractPlantInc::finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="Failure Code" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.4.0" description="Getter for a string Property" id="getAps0EffectivityFormula#std::string,&amp;$bool,&amp;" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0EffectivityFormula" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0EffectivityFormula" returnDescription="Status. 0 if successful"/>
+           
+        <Operation canOverride="true" component="" createRelease="tc11000.4.0" dependencies="" description="" exceptionCondition="" id="revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="revise" opTemplate="int#Teamcenter::Aps0AbstractPlantInc::revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" returnDescription="Failure Code" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+                 
+            <ParameterInfo description="newObjTag" parameterName="newObjTag"/>
+               
+        </Operation>
+           
+        <Operation canOverride="true" component="" createRelease="tc11000.4.0" dependencies="" description="" exceptionCondition="" id="revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="revisePost" opTemplate="int#Teamcenter::Aps0AbstractPlantInc::revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="Failure Code" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.4.0" description="Setter for a string Property" id="setAps0EffectivityFormula#const,std::string,&amp;$bool" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setAps0EffectivityFormula" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="aps0EffectivityFormula" returnDescription="Status. 0 if successful"/>
+           
+        <Operation canOverride="true" component="" createRelease="tc11000.4.0" dependencies="" description="" exceptionCondition="" id="setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="setPropertiesFromReviseInput" opTemplate="int#Teamcenter::Aps0AbstractPlantInc::setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" returnDescription="Failure Code" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+               
+        </Operation>
+           
+        <Operation canOverride="true" component="" createRelease="tc11000.4.0" dependencies="" description="" exceptionCondition="" id="validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0AbstractPlantInc" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="validateReviseInput" opTemplate="int#Teamcenter::Aps0AbstractPlantInc::validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="Failure Code" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="" createRelease="tc11000.2.3" dependencies="" description="" exceptionCondition="" id="finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="finalizeReviseInput" opTemplate="int#Teamcenter::Aps0ManagedAttributeGroup::finalizeReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.2.3" description="Getter for a string Property" id="getAps0allowed_eff_formula#std::string,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0allowed_eff_formula" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0allowed_eff_formula" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc11000.2.3" description="Getter for a string Property" id="getAps0allowed_var_formula#std::string,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0allowed_var_formula" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0allowed_var_formula" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.2.3" description="Getter for a string Property" id="getAps0effectivity_formula#std::string,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0effectivity_formula" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0effectivity_formula" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc11000.2.3" description="Getter for a Boolean Property" id="getAps0is_revisable#bool,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0is_revisable" opTemplate="int#get#bool,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0is_revisable" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc11000.2.3" description="Getter for a Boolean Property" id="getAps0IsConfigured#bool,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0IsConfigured" opTemplate="int#get#bool,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0IsConfigured" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.2.3" description="Getter for a Tag Array Property" id="getAps0sibling_revisions#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getAps0sibling_revisions" opTemplate="int#get#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;" operationType="Getter" propertyName="aps0sibling_revisions" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc11000.2.3" description="Getter for a string Property" id="getAps0variant_formula#std::string,&amp;$bool,&amp;" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAps0variant_formula" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="aps0variant_formula" returnDescription="Status. 0 if successful"/>
+           
+        <Operation canOverride="false" component="" createRelease="tc11000.2.3" dependencies="" description="" exceptionCondition="" id="revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="revise" opTemplate="int#Teamcenter::Aps0ManagedAttributeGroup::revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+                 
+            <ParameterInfo description="newObjTag" parameterName="newObjTag"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="" createRelease="tc11000.2.3" dependencies="" description="" exceptionCondition="" id="revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="revisePost" opTemplate="int#Teamcenter::Aps0ManagedAttributeGroup::revisePost#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <PropertyOperation canOverride="false" createRelease="tc11000.2.3" description="Setter for a string Property" id="setAps0effectivity_formula#const,std::string,&amp;$bool" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setAps0effectivity_formula" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="aps0effectivity_formula" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc11000.2.3" description="Setter for a string Property" id="setAps0variant_formula#const,std::string,&amp;$bool" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setAps0variant_formula" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="aps0variant_formula" returnDescription="Status. 0 if successful"/>
+           
+        <Operation canOverride="false" component="" createRelease="tc11000.2.3" dependencies="" description="" exceptionCondition="" id="setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="setPropertiesFromReviseInput" opTemplate="int#Teamcenter::Aps0ManagedAttributeGroup::setPropertiesFromReviseInput#Teamcenter::ReviseInput,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="" createRelease="tc11000.2.3" dependencies="" description="" exceptionCondition="" id="validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" interface="Teamcenter::Aps0ManagedAttributeGroup" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="validateReviseInput" opTemplate="int#Teamcenter::Aps0ManagedAttributeGroup::validateReviseInput#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="pReviseInput" parameterName="pReviseInput"/>
+                 
+            <ParameterInfo description="vecDeepCopyData" parameterName="vecDeepCopyData"/>
+               
+        </Operation>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="createPost#Teamcenter::CreateInput,*" typeName="Aps0AttachAttrGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="createPost#Teamcenter::CreateInput,*" typeName="Aps0AttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="createPost#Teamcenter::CreateInput,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.4.0" id="finalizeCreateInput#Teamcenter::CreateInput,*" typeName="Aps0AbstractPlantInc"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="finalizeCreateInput#Teamcenter::CreateInput,*" typeName="Aps0AttachAttrGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="finalizeCreateInput#Teamcenter::CreateInput,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.4.0" id="finalizeCreateInput#Teamcenter::CreateInput,*" typeName="Aps0PlantLocation"/>
+           
+        <OperationAttach createRelease="tc11000.4.0" id="finalizeSaveAsInput#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Aps0AbstractPlantInc"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="finalizeSaveAsInput#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="fnd0AskCopyStableLmd#date_t,*$bool,*#const" typeName="Aps0AttachAttrGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="performDeepCopy#Teamcenter::OperationInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Aps0AttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="performDeepCopy#Teamcenter::OperationInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="setPropertiesFromSaveAsInput#Teamcenter::SaveAsInput,*" typeName="Aps0AttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="setPropertiesFromSaveAsInput#Teamcenter::SaveAsInput,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.4.0" id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Aps0AbstractPlantInc"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Aps0AttachAttrGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Aps0AttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <OperationAttach createRelease="tc11000.3.0" id="validateSaveAsInput#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <TcPropertyAttach typeName="WorkspaceObjectCreI">
+                 
+            <TcProperty arrayLength="-1" description="aps0pending_AttachAttrGroup" isArray="true" propMaxStringLength="0" propName="aps0pending_AttachAttrGroup" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="WorkspaceObjectCreI">
+                 
+            <TcProperty arrayLength="-1" description="aps0pending_AttcAttrRIType" isArray="true" propMaxStringLength="0" propName="aps0pending_AttcAttrRIType" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" operationName="IMAN_delete" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" operationName="IMAN_save" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" operationName="revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <Condition description="Condition for Plant location Id naming rule Aps0PlantLocationNR" expression="1=1" name="Aps0PlantLocationNRCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <TcPropertyConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="List" defaultValue="Precise" description="Navigation model for the configuration of the secondary_object" isMultiValued="false" isValueAttachmentSecured="false" name="Fnd0NavigationModel">
+                 
+            <Choice name="Precise" secured="false"/>
+                 
+            <Choice name="Imprecise" secured="false"/>
+                 
+            <Scope propertyName="secondary_object" typeName="ImanRelation"/>
+               
+        </TcPropertyConstant>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0AbstractPlantInc" value="Aps0AbstractPlantIncCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0AbstractPlantIncThd" value="Aps0AbstractPlantIncThdCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0AttachAttrGroup" value="Aps0AttachAttrGroupCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0AttributeGroup" value="Aps0AttributeGroupCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0EffectivityExprBlock" value="Aps0EffectivityExprBlockCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0MagThread" value="Aps0MagThreadCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0ManagedAttributeGroup" value="Aps0ManagedAttributeGroupCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0PlantLocation" value="Aps0PlantLocationCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aps0VariantExprBlock" value="Aps0VariantExprBlockCreI"/>
+           
+        <TcTypeConstantAttach constantName="DisplayName" typeName="Aps0ManagedAttributeGroup" value="$object_name+&quot;/&quot;+$fnd0RevisionId+&quot;;&quot;+$revision_number"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0AllowCheckoutOnCreate" typeName="Aps0AttributeGroup" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0AllowCheckoutOnCreate" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0AllowReviseOperation" typeName="Aps0AbstractPlantInc" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0AllowReviseOperation" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Aps0AttributeGroup" value="aps0attribute_group_16.png"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Aps0MagThread" value="aps0managed_attribute_group_16.png"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Aps0ManagedAttributeGroup" value="aps0managed_attribute_group_16.png"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0ThreadType" isModifiable="false" typeName="Aps0AbstractPlantInc" value="Aps0AbstractPlantIncThd"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0ThreadType" typeName="Aps0ManagedAttributeGroup" value="Aps0MagThread"/>
+           
+        <TcTypeConstantAttach constantName="ReviseInput" typeName="Aps0AbstractPlantInc" value="Aps0AbstractPlantIncRevI"/>
+           
+        <TcTypeConstantAttach constantName="ReviseInput" typeName="Aps0ManagedAttributeGroup" value="Aps0ManagedAttributeGroupRevI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0AbstractPlantInc" value="Aps0AbstractPlantIncSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0AbstractPlantIncThd" value="Aps0AbstractPlantIncThdSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0AttachAttrGroup" value="Aps0AttachAttrGroupSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0AttributeGroup" value="Aps0AttributeGroupSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0EffectivityExprBlock" value="Aps0EffectivityExprBlockSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0MagThread" value="Aps0MagThreadSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0ManagedAttributeGroup" value="Aps0ManagedAttributeGroupSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0PlantLocation" value="Aps0PlantLocationSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aps0VariantExprBlock" value="Aps0VariantExprBlockSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0EffectivityFormula" typeName="Aps0AbstractPlantInc" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0Target" typeName="Aps0AbstractPlantInc" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0UsingPlant" typeName="Aps0AbstractPlantIncThd" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0allowed_eff_display" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0allowed_eff_formula" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0allowed_var_formula" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0effectivity_display" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0effectivity_formula" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0is_revisable" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0IsConfigured" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0sibling_revisions" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aps0variant_formula" typeName="Aps0ManagedAttributeGroup" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0NavigationModel" isModifiable="false" isOverridable="false" propertyName="secondary_object" typeName="Aps0AttachAttrGroup" value="Imprecise"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0EffectivityFormula" typeName="Aps0AbstractPlantInc" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0Target" typeName="Aps0AbstractPlantInc" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0UsingPlant" typeName="Aps0AbstractPlantIncThd" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0allowed_eff_display" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0allowed_eff_formula" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0allowed_var_formula" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0effectivity_display" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0effectivity_formula" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0is_revisable" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0IsConfigured" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0sibling_revisions" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aps0variant_formula" typeName="Aps0ManagedAttributeGroup" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="aps0Target" typeName="Aps0AbstractPlantIncCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="wso_thread" typeName="Aps0AbstractPlantIncCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="aps0UsingPlant" typeName="Aps0AbstractPlantIncThdCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="aps0PrimaryBO" typeName="Aps0AttributeGroupCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="wso_thread" typeName="Aps0ManagedAttributeGroupCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="fnd0LocationCode" typeName="Aps0PlantLocation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="fnd0LocationCode" typeName="Aps0PlantLocationCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0RevisionId" typeName="Aps0AbstractPlantIncRevI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0CheckoutOnCreate" typeName="Aps0AttributeGroupCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0CheckoutOnSaveAs" typeName="Aps0AttributeGroupSvAI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="aps0effectivity_formula" typeName="Aps0ManagedAttributeGroup" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="aps0variant_formula" typeName="Aps0ManagedAttributeGroup" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0CheckoutOnCreate" typeName="Aps0ManagedAttributeGroupCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="wso_thread" typeName="Aps0ManagedAttributeGroupCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0CheckoutOnSaveAs" typeName="Aps0ManagedAttributeGroupSvAI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fnd0RevisionId" typeName="Aps0ManagedAttributeGroupSvAI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="aps0pending_AttachAttrGroup" typeName="WorkspaceObjectCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="aps0pending_AttcAttrRIType" typeName="WorkspaceObjectCreI" value="false"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="true" isTargetPrimary="true" objectTypeName="Aps0AbstractPlantIncThd" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="wso_thread" secured="true" typeName="Aps0AbstractPlantInc"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="true" isTargetPrimary="true" objectTypeName="Aps0MagThread" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="wso_thread" secured="false" typeName="Aps0ManagedAttributeGroup"/>
+           
+        <TcExtension cannedExtension="true" description="This extension is provided to facilitate the creation one or more distinct AG/MAG instances along with the creation of the Primary Business object." functionality="Aps0ApsCore" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0CreateObjects">
+                 
+            <TcExtensionParameter parameter="objectName:String:M:QUERY:__METHOD_POM_objectTypes"/>
+                 
+            <TcExtensionParameter parameter="relationType:String:M:QUERY:__METHOD_CM_relationTypes"/>
+                 
+            <TcExtensionValidity parameter="TYPE:WorkspaceObject:createPost#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Aps0EffectivityConfigDeletePost" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0EffectivityConfigDeletePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:IMAN_delete:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Deletes data associated with the EffectivityConfigurable behavior before the owning object is deleted." functionality="Fnd0ConfigurationManagement" internal="false" languageType="CPlusPlus" libraryName="libfnd0booleansolve" name="Aps0EffectivityConfigDeletePre">
+                 
+            <TcExtensionValidity parameter="TYPE:RevisionRule:IMAN_delete:2"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Aps0EffectivityConfigSavePost" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0EffectivityConfigSavePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:IMAN_save:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Aps0ManagedAttributeGroup__revise_preCondition" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0ManagedAttributeGroup__revise_preCondition">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*:1"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0ManagedAttributeGroup__save_method">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:IMAN_save:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Aps0VariantConfigDeletePost" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0VariantConfigDeletePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:IMAN_delete:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Deletes data associated with the VariantConfigurable behavior before the owning object is deleted." functionality="Fnd0ConfigurationManagement" internal="false" languageType="CPlusPlus" libraryName="libfnd0booleansolve" name="Aps0VariantConfigDeletePre">
+                 
+            <TcExtensionValidity parameter="TYPE:StoredOptionSet:IMAN_delete:2"/>
+                 
+            <TcExtensionValidity parameter="TYPE:VariantRule:IMAN_delete:2"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Aps0VariantConfigSavePost" internal="false" languageType="CPlusPlus" libraryName="libaps0apscore" name="Aps0VariantConfigSavePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Aps0ManagedAttributeGroup:IMAN_save:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" extensionName="Aps0EffectivityConfigSavePost" extensionPointType="PostAction" isActive="true" operationName="IMAN_save"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" extensionName="Aps0ManagedAttributeGroup__save_method" extensionPointType="BaseAction" isActive="true" operationName="IMAN_save"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Aps0ManagedAttributeGroup" extendableElementType="Type" extensionName="Aps0VariantConfigSavePost" extensionPointType="PostAction" isActive="true" operationName="IMAN_save"/>
+           
+        <TcNamingRule name="Aps0PlantLocationNR">
+                 
+            <TcPattern description="Naming Rule attached to fnd0LocationCode for Aps0LocationCode objects." generateCounters="true" patternString="&quot;Plant&quot;nnn">
+                       
+                <TcCounter initialValue="Plant001" maximumValue="Plant999"/>
+                     
+            </TcPattern>
+                 
+            <TcPattern description="Decscribes the pattern to allow any user entered Plant Id." generateCounters="false" patternString="%^{1,128}"/>
+               
+        </TcNamingRule>
+           
+        <TcNamingRuleAttach case="Mix" conditionName="Aps0PlantLocationNRCond" description="" override="false" propertyName="fnd0LocationCode" ruleName="Aps0PlantLocationNR" ruleType="NamingRule" typeName="Aps0PlantLocation"/>
+           
+        <Functionality description="This is a placeholder for all the Advanced PLM Services core Template. Some of the examples of these features are Attribute Groups and Managed Attribute Groups." displayName="Aps0ApsCore" enabledForVerificationRules="false" name="Aps0ApsCore"/>
+           
+        <TcClass className="Mdl0AttachAttrGroup" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Mdl0CopyStableRelation" revisabilityOption="Revisable"/>
+           
+        <TcClass className="Mdl0CopyStableRelation" description="Copy Stable Relation" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation" revisabilityOption="Revisable">
+                 
+            <TcAttribute attributeName="mdl0cs_id" attributeType="POM_string" description="This ID is a copy stable identity for the relation.  It is guaranteed to be unique with respect to the primary object and relation type.  The value of this ID will be carried forward, if possible during copy of the relation from one primary object to another." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="false" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="mdl0secondary_revision_lmd" attributeType="POM_date" description="Last modified date of secondary object (or ancillary supporting objects) used when data in the primary object was last synchronized with data from the secondary object." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <OperationInputType artifactName="Mdl0AttachAttrGroupCreI" description="CreateInput object for &quot;Mdl0AttachAttrGroup&quot; business object" isAbstract="false" parentTypeName="Mdl0CopyStableRelationCreI" typeClassName="Mdl0AttachAttrGroupCreI" typeName="Mdl0AttachAttrGroupCreI"/>
+           
+        <OperationInputType artifactName="Mdl0AttachAttrGroupSvAI" description="SaveAsInput object for &quot;Mdl0AttachAttrGroup&quot; business object" isAbstract="false" parentTypeName="Mdl0CopyStableRelationSvAI" typeClassName="Mdl0AttachAttrGroupSvAI" typeName="Mdl0AttachAttrGroupSvAI"/>
+           
+        <OperationInputType artifactName="Mdl0CopyStableRelationCreI" description="CreateInput object for &quot;Mdl0CopyStableRelation&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Mdl0CopyStableRelationCreI" typeName="Mdl0CopyStableRelationCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Copy stable identifier for Mdl0CopyStableRelation" fieldType="SimpleProperty" propName="mdl0cs_id" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Mdl0CopyStableRelationSvAI" description="SaveAsInput object for &quot;Mdl0CopyStableRelation&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Mdl0CopyStableRelationSvAI" typeName="Mdl0CopyStableRelationSvAI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Copy Stable ID" fieldType="SimpleProperty" propName="mdl0cs_id" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <TcStandardType artifactName="Mdl0AttachAttrGroup" description="Mdl0AttachAttrGroup is a relation class which is used to attach Attribute Group and Managed Attribute Group objects to Model Elements for the purpose of customer specific extensions of groups of extra attributes (similar to the concept of form objects). Mdl0AttachAttrGroup is inherited from Copy Stable Relation to inherit the behavior required to relate objects to a sparse objects. Mdl0AttachAttrGroup is POM revisable.Mdl0AttachAttrGroup is used to attach Mdl0ManagedAttrGroup and Mdl0AttributeGroup objects to Rlz0RealizationMap object in case of sparse elements. This relation can also be used to attach Mdl0AttributeGroup to Mdl0ModelElement object.This business object can be extended by internal downstream applications or external customers.  However, the customization will also require the creation of a custom relation type to support the downstream implementation of the custom Mdl0AttachAttrGroup." functionality="Mdl0ApplicationModelElements" isAbstract="false" parentTypeName="Mdl0CopyStableRelation" typeClassName="Mdl0AttachAttrGroup" typeName="Mdl0AttachAttrGroup"/>
+           
+        <TcStandardType artifactName="Mdl0CopyStableRelation" description="Mdl0CopyStableRelation extends the ImanRelation class and has POM versioning behavior.  Applications using this business objects should sub-type this relation for specific uses that require a copy-stable identity for the relation or require POM versioning of the relation.   Use of POM versioning relation is required if relating objects that also support POM versioning." functionality="Mdl0ApplicationModelElements" isAbstract="true" parentTypeName="ImanRelation" typeClassName="Mdl0CopyStableRelation" typeName="Mdl0CopyStableRelation">
+                 
+            <TcProperty arrayLength="0" description="If set to true, synchronize secondary revision by setting the mdl0secondary_revision_lmd value to the relevant date of the current secondary object. This signifies that the secondary data as of that date has been synchronized with data on the primary object. This should only be done after making any required changes to the primary object. Depending on the secondary object type, the new secondary revision date tracked will be taken from among mdl0position_lmd, mdl0shape_lmd, last_mod_date, lsd (last saved date) attributes. E.g. if secondary object is a Mdl0PositionedModelElement, then latest date of mdl0position_lmd and mdl0shape_lmd is taken.If false, the mdl0secondary_revision_lmd value is reset to NULLDATE.fnd0CopyStableDate (on ImanRelation class level) is also synchronized likewise." isArray="false" propMaxStringLength="0" propName="mdl0sync_secondary_revision" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcStandardType>
+           
+        <BusinessObjectInterface createRelease="tc9000.0.0" description="Interface Name for Business Object Mdl0AttachAttrGroup" libraryName="aps0apscore" name="Mdl0AttachAttrGroup" namespace="Teamcenter::AppModel" primaryInterface="true" typeName="Mdl0AttachAttrGroup"/>
+           
+        <BusinessObjectInterface createRelease="tc9000.0.0" description="Interface Name for Business Object Mdl0CopyStableRelation" libraryName="aps0apscore" name="Mdl0CopyStableRelation" namespace="Teamcenter::AppModel" primaryInterface="true" typeName="Mdl0CopyStableRelation"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Date Property" id="getMdl0secondary_revision_lmd#date_t,&amp;$bool,&amp;" interface="Teamcenter::AppModel::Mdl0CopyStableRelation" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getMdl0secondary_revision_lmd" opTemplate="int#get#date_t,&amp;$bool,&amp;" operationType="Getter" propertyName="mdl0secondary_revision_lmd" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Boolean Property" id="getMdl0sync_secondary_revision#bool,&amp;$bool,&amp;" interface="Teamcenter::AppModel::Mdl0CopyStableRelation" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getMdl0sync_secondary_revision" opTemplate="int#get#bool,&amp;$bool,&amp;" operationType="Getter" propertyName="mdl0sync_secondary_revision" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Date Property" id="setMdl0secondary_revision_lmd#const,date_t,&amp;$bool" interface="Teamcenter::AppModel::Mdl0CopyStableRelation" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setMdl0secondary_revision_lmd" opTemplate="int#set#const,date_t,&amp;$bool" operationType="Setter" propertyName="mdl0secondary_revision_lmd" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Boolean Property" id="setMdl0sync_secondary_revision#bool$bool" interface="Teamcenter::AppModel::Mdl0CopyStableRelation" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setMdl0sync_secondary_revision" opTemplate="int#set#bool$bool" operationType="Setter" propertyName="mdl0sync_secondary_revision" returnDescription="Status. 0 if successful"/>
+           
+        <OperationAttach id="createPost#Teamcenter::CreateInput,*" typeName="Mdl0AttachAttrGroup"/>
+           
+        <OperationAttach id="createPost#Teamcenter::CreateInput,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach id="finalizeCreateInput#Teamcenter::CreateInput,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach id="fnd0AskCopyStableLmd#date_t,*$bool,*#const" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach createRelease="tc11000.6.0" id="fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*" typeName="Mdl0AttachAttrGroup"/>
+           
+        <OperationAttach createRelease="tc11000.6.0" id="fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach createRelease="tc11000.6.0" id="fnd0FinalizeCreateInput#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach id="fnd0Save#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach createRelease="tc11000.6.0" id="fnd0ValidateCreateInput#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <OperationAttach id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Mdl0CopyStableRelation"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mdl0AttachAttrGroup" value="Mdl0AttachAttrGroupCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mdl0CopyStableRelation" value="Mdl0CopyStableRelationCreI"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0SpaceEnabled" isModifiable="false" typeName="Mdl0CopyStableRelation" value="true"/>
+           
+        <TcTypeConstantAttach constantName="MultiFieldKey" typeName="Mdl0CopyStableRelation" value="Mdl0CopyStableRelation{primary_object,relation_type,mdl0cs_id}"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mdl0AttachAttrGroup" value="Mdl0AttachAttrGroupSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mdl0CopyStableRelation" value="Mdl0CopyStableRelationSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0NavigationModel" isModifiable="false" isOverridable="false" propertyName="secondary_object" typeName="Mdl0AttachAttrGroup" value="Imprecise"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0ReferenceRule" isModifiable="false" propertyName="primary_object" typeName="Mdl0AttachAttrGroup" value="NoValidation"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0ReferenceRule" isModifiable="false" propertyName="secondary_object" typeName="Mdl0AttachAttrGroup" value="NoValidation"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0ReferenceRule" isModifiable="false" propertyName="primary_object" typeName="Mdl0CopyStableRelation" value="SameSpace"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mdl0cs_id" typeName="Mdl0CopyStableRelation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mdl0secondary_revision_lmd" typeName="Mdl0CopyStableRelation" value="Write"/>
+           
+        <Functionality description="Defines the basic data management operations(revise,saveAs,deepcopy) for Application Model Elements,defines operations to create search expressions and execute search on Model Elements in an Application Model." displayName="Application Model Elements" enabledForVerificationRules="false" name="Mdl0ApplicationModelElements"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

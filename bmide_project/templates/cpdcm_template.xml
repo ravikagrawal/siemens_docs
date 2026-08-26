@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:29 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_strings" propertyName="cpc0DesignElements">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="getCpc0DesignElements">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:cpc0DesignElements:PROP_ask_value_strings:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getCpc0DesignElements" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_strings" propertyName="cpc0DesignElements"/>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                  
+            <TcProperty arrayLength="-1" description="The IDs of the realized Design Components" isArray="true" propMaxStringLength="128" propName="cpc0DesignElements" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Cpd0DesignSubsetElement" value="false"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Cpd0ShapeDesignRevision" value="false"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Cpd0WorksetRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cpc0DesignElements" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cpc0DesignElements" typeName="BOMLine" value="Write"/>
+           
+        <TcExtension cannedExtension="true" description="PostAction extension to BOMLine::IMANTYPE_init_intl_props and used for registering bulk loaders for runtime properties on BOMLine." internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="Cpc0BOMLine_init_intl_props_postAction">
+                  
+            <TcExtensionValidity parameter="TYPE:BOMLine:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Validate CreateInput post action while creating solution Item relation" internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="Cpc0CMHasSolutionItem_validateCreateInput_postAction">
+                  
+            <TcExtensionValidity parameter="TYPE:CMHasSolutionItem:validateCreateInput#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="PostAction extension on IMANTYPE_init_intl_props operation to do registration for postAction initialization." internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="Cpc0DesignModelElement_init_intl_props_postaction">
+                  
+            <TcExtensionValidity parameter="TYPE:Cpd0DesignModelElement:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Validations before creating subset" internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="Cpc0DesignSubsetElement_validateCreateInput_postAction">
+                  
+            <TcExtensionValidity parameter="TYPE:Cpd0DesignSubsetElement:validateCreateInput#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Validations on ModelRealizationMap post validate createInput" internal="false" languageType="CPlusPlus" libraryName="libCpc0cpdcm" name="Cpc0ModelRealizationMap_validateCreateInput_postAction">
+                  
+            <TcExtensionValidity parameter="TYPE:Rlz0ModelRealizationMap:validateCreateInput#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cpc0BOMLine_init_intl_props_postAction" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="CMHasSolutionItem" extendableElementType="Type" extensionName="Cpc0CMHasSolutionItem_validateCreateInput_postAction" extensionPointType="PostAction" isActive="true" operationName="validateCreateInput#Teamcenter::CreateInput,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cpd0DesignModelElement" extendableElementType="Type" extensionName="Cpc0DesignModelElement_init_intl_props_postaction" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cpd0DesignSubsetElement" extendableElementType="Type" extensionName="Cpc0DesignSubsetElement_validateCreateInput_postAction" extensionPointType="PostAction" isActive="true" operationName="validateCreateInput#Teamcenter::CreateInput,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Rlz0ModelRealizationMap" extendableElementType="Type" extensionName="Cpc0ModelRealizationMap_validateCreateInput_postAction" extensionPointType="PostAction" isActive="true" operationName="validateCreateInput#Teamcenter::CreateInput,*"/>
+           
+        <Library createRelease="tc11000.2.1" description="Library containing artifacts for Change Management CPD Interface." isThirdParty="false" name="Cpc0cpdcm" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

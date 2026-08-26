@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="ko_KR" status="Approved">4GD 제품 구조 제공자</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="ko_KR" status="Approved">설계 요소</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="ko_KR" status="Approved">서브세트</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="ko_KR" status="Approved">제공자에 의해 참조된 소스 개체</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="ko_KR" status="Approved">작업 세트 제공자에서 사용됨</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="ko_KR" status="Approved">소스 개체 적용일자/단위</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="ko_KR" status="Approved">소스 개체 최종 수정 사용자</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="ko_KR" status="Approved">소스 개체 소유 그룹</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="ko_KR" status="Approved">소스 개체 소유 사용자</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="ko_KR" status="Approved">소스 개체 릴리스 날짜</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="ko_KR" status="Approved">소스 개체 설명</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="ko_KR" status="Approved">소스 개체 릴리스 상태</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="ko_KR" status="Approved">소스 개체 리비전 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="ko_KR" status="Approved">소스 개체 이름</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="ko_KR" status="Approved">카테고리</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="ko_KR" status="Approved">소스 개체 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="ko_KR" status="Approved">소스 개체</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="ko_KR" status="Approved">소스 개체</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="ko_KR" status="Approved">이 조건은 4g 설계 솔루션에 "개정 표시" 명령을 표시해야 하는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="ko_KR" status="Approved">이 조건은 사용자에게 선택한 개체를 삭제할 충분한 권한이 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="ko_KR" status="Approved">서브세트 재생 방법 조건.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="ko_KR" status="Approved">이 조건은 통과한 비즈니스 개체에 "다른 이름으로 저장"/"개정" 명령을 표시할 수 있는 권한이 있는지 여부를 결정합니다. 이것은 조건 요소가 아닌 비즈니스 개체에 대해 true를 반환합니다.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

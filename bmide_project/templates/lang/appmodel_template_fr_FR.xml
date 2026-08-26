@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:26 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mdl0AbsOccFormRelation" locale="fr_FR" status="Approved">Relation Formulaire Occurrence absolue</key>
+           
+        <key id="BusinessObject{::}Mdl0ApplicationModel" locale="fr_FR" status="Approved">Modèle d'application</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtOptionSet" locale="fr_FR" status="Approved">Critères de recherche d'ensemble d'options de transfert</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtType" locale="fr_FR" status="Approved">Type de critère de recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchGeomConstraint" locale="fr_FR" status="Approved">Critères de recherche de contrainte géométrique</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchSlctContent" locale="fr_FR" status="Approved">Sélectionner les critères de recherche de contenu</key>
+           
+        <key id="BusinessObject{::}Mdl0AttributeGroup" locale="fr_FR" status="Approved">Groupe d'attributs 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineDefinition" locale="fr_FR" status="Approved">Définition de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMasterS" locale="fr_FR" status="Approved">Stockage master de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMaster" locale="fr_FR" status="Approved">Master de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineReference" locale="fr_FR" status="Approved">Référence de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevMasterS" locale="fr_FR" status="Approved">Stockage master de révision de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevisionMaster" locale="fr_FR" status="Approved">Master de révision de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevision" locale="fr_FR" status="Approved">Révision de référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0Baseline" locale="fr_FR" status="Approved">Référentiel</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalArtifact" locale="fr_FR" status="Approved">Artefact conditionnel</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalElement" locale="fr_FR" status="Approved">Elément conditionnel</key>
+           
+        <key id="BusinessObject{::}Mdl0ConstraintBucketView" locale="fr_FR" status="Approved">Vue Bucket de contraintes</key>
+           
+        <key id="BusinessObject{::}Mdl0DefaultGeometry" locale="fr_FR" status="Approved">Géométrie par défaut</key>
+           
+        <key id="BusinessObject{::}Mdl0ElementThread" locale="fr_FR" status="Approved">Processus élémentaire d'élément</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntBuckSavState" locale="fr_FR" status="Approved">Etat de sauvegarde de Bucket de contraintes géométriques</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntCollection" locale="fr_FR" status="Approved">Collection de contraintes géométriques</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConnGroup" locale="fr_FR" status="Approved">Groupe de connectivités géométriques</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintBucket" locale="fr_FR" status="Approved">Bucket de contraintes géométriques</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintMember" locale="fr_FR" status="Approved">Membre de contrainte géométrique</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomGroupLink" locale="fr_FR" status="Approved">Lien de groupe géométrique</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomLink" locale="fr_FR" status="Approved">Lien géométrique</key>
+           
+        <key id="BusinessObject{::}Mdl0IncludeAll" locale="fr_FR" status="Approved">Inclure toute la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0LinkReference" locale="fr_FR" status="Approved">Référence du lien</key>
+           
+        <key id="BusinessObject{::}Mdl0ManagedAttrGroup" locale="fr_FR" status="Approved">Groupe d'attributs gérés 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelArtifact" locale="fr_FR" status="Approved">Artefact de modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelElement" locale="fr_FR" status="Approved">Elément de modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelProcessState" locale="fr_FR" status="Approved">Etat de processus du modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0OriginalGeometry" locale="fr_FR" status="Approved">Géométrie originale</key>
+           
+        <key id="BusinessObject{::}Mdl0OverrideRelation" locale="fr_FR" status="Approved">Relation Remplacement</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedGeometry" locale="fr_FR" status="Approved">Géométrie positionnée</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedModelElement" locale="fr_FR" status="Approved">Elément de modèle positionné</key>
+           
+        <key id="BusinessObject{::}Mdl0RefAppModelProvider" locale="fr_FR" status="Approved">Modèles d'application du Fournisseur d'éléments référencés</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceExpression" locale="fr_FR" status="Approved">Expression de référence</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceGeometry" locale="fr_FR" status="Approved">Géométrie de référence</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchBoxZone" locale="fr_FR" status="Approved">Recherche de Zone de boîte</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchClassification" locale="fr_FR" status="Approved">Rechercher dans Classification</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchCursor" locale="fr_FR" status="Approved">Curseur de la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchDef" locale="fr_FR" status="Approved">Définition de la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGeomConstraint" locale="fr_FR" status="Approved">Rechercher Contrainte géométrique</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGroup" locale="fr_FR" status="Approved">Groupe de recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchOptionSet" locale="fr_FR" status="Approved">Ensemble d'options de recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchPlaneZone" locale="fr_FR" status="Approved">Recherche de Zone de plan</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchProximity" locale="fr_FR" status="Approved">Proximité de la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchResultType" locale="fr_FR" status="Approved">Type de résultat de la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSavedQuery" locale="fr_FR" status="Approved">Recherche dans requête sauvegardées</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSlctContent" locale="fr_FR" status="Approved">Sélection de contenu de la recherche</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefaults" locale="fr_FR" status="Approved">Valeurs par défaut de sous-ensemble abstrait 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefinition" locale="fr_FR" status="Approved">Définition de sous-ensemble 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SupportingBaseline" locale="fr_FR" status="Approved">Référentiel de support</key>
+           
+        <key id="ConditionDescription{::}Mdl0AttachedObjectIsNotObsolete" locale="fr_FR" status="Approved">Valider si l'élément de modèle attaché est obsolète ou non.</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsCopyMOG" locale="fr_FR" status="Approved">La condition évalue s'il faut copier Mdl0OriginalGeometry selon le type d'opération: clonage, réalisation, prise en instance ou sauvegarde sous.</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopyMA" locale="fr_FR" status="Approved">Cette condition évalue si l'opération copie entre deux modèles d'application différents (Copie inter-modèles).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopy" locale="fr_FR" status="Approved">Cette condition évalue si l'opération copie entre deux modèles d'application différents (Copie inter-modèles).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsIntraModelCopy" locale="fr_FR" status="Approved">Cette condition évalue si l'opération copie au sein du même modèle d'application (Copie intra-modèle).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsShapeOverridePresent" locale="fr_FR" status="Approved">Condition à vérifier si la position de l'élément de modèle a un remplacement de forme.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Baseline" locale="fr_FR" status="Approved">Référentiel du contenu validé seulement dans Modèle d'application.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="fr_FR" status="Approved">Instantané du contenu validé et de travail dans Modèle d'application.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Restore" locale="fr_FR" status="Approved">Rétablissez le contenu du Modèle d'application sur l'instantané spécifique.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Snapshot" locale="fr_FR" status="Approved">Capture le contenu du Modèle d'application</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Closed" locale="fr_FR" status="Approved">Fermé</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Open" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Baseline" locale="fr_FR" status="Approved">Référentiel</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="fr_FR" status="Approved">Instantané</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Restore" locale="fr_FR" status="Approved">Rétablir</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Snapshot" locale="fr_FR" status="Approved">Instantané</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0model_id" locale="fr_FR" status="Approved">ID de modèle</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0revision_id" locale="fr_FR" status="Approved">ID de révision majeure</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0model_id" locale="fr_FR" status="Approved">ID de modèle</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0revision_id" locale="fr_FR" status="Approved">ID de révision majeure</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0HistorySyncStatus" locale="fr_FR" status="Approved">Statut de synchro historique</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastRestoreDate" locale="fr_FR" status="Approved">Date du dernier rétablissement</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastSnapshotDate" locale="fr_FR" status="Approved">Date du dernier instantané</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0RunningProcessName" locale="fr_FR" status="Approved">Nom du processus en cours d'exécution</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0SupportsSnapshot" locale="fr_FR" status="Approved">Prend en charge Instantané</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_add_content" locale="fr_FR" status="Approved">Autorise Ajouter un contenu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_remove_content" locale="fr_FR" status="Approved">Autorise Supprimer le contenu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_prod_namespace" locale="fr_FR" status="Approved">Contexte de produit de configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_product_name" locale="fr_FR" status="Approved">Nom de produit de configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0model_id" locale="fr_FR" status="Approved">ID de modèle</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0revision_id" locale="fr_FR" status="Approved">Obsolète. Consulter le Release Bulletin de Teamcenter 11.2.2</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_namespace" locale="fr_FR" status="Approved">Contexte de produit de configurateur de variante</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_name" locale="fr_FR" status="Approved">Nom de produit de configurateur de variante</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionNames" locale="fr_FR" status="Approved">Noms d'options</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionSet" locale="fr_FR" status="Approved">Ensemble d'options</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionValues" locale="fr_FR" status="Approved">Valeurs de l'option</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0DomainViewKey" locale="fr_FR" status="Approved">Clé de vue Domaine</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0search_types" locale="fr_FR" status="Approved">Type de recherche</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="fr_FR" status="Approved">Indicateur de contrôle de processus</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0SourceCriteria" locale="fr_FR" status="Approved">Critère source</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0selected_contents" locale="fr_FR" status="Approved">Contenu sélectionné</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0unselected_contents" locale="fr_FR" status="Approved">Contenu non sélectionné</key>
+           
+        <key id="Property{::}Mdl0AttributeGroupSvAI{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0BaselineRevision" locale="fr_FR" status="Approved">Révision de référentiel</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ConfiguredModel" locale="fr_FR" status="Approved">Modèle configuré</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ModelObject" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineDefinition" locale="fr_FR" status="Approved">Définition de référentiel</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineType" locale="fr_FR" status="Approved">Type de référentiel</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0Closure" locale="fr_FR" status="Approved">Fermeture</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0SnapshotDate" locale="fr_FR" status="Approved">Date d'instantané</key>
+           
+        <key id="Property{::}Mdl0Baseline{::}mdl0ModelObject" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0IsConfigured" locale="fr_FR" status="Approved">Est Configuré</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_display" locale="fr_FR" status="Approved">Effectivité autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_formula" locale="fr_FR" status="Approved">Formule d'effectivité autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_var_formula" locale="fr_FR" status="Approved">Formule de variante autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_display" locale="fr_FR" status="Approved">Effectivité</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_formula" locale="fr_FR" status="Approved">Formule d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0variant_formula" locale="fr_FR" status="Approved">Formule de variante</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceEffExpr" locale="fr_FR" status="Approved">Is Effectivity Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceVarExpr" locale="fr_FR" status="Approved">Is Variant Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0TargetModel" locale="fr_FR" status="Approved">Objet Modèle cible</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0IsConfigured" locale="fr_FR" status="Approved">Est Configuré</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_display" locale="fr_FR" status="Approved">Effectivité autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_formula" locale="fr_FR" status="Approved">Formule d'effectivité autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_var_formula" locale="fr_FR" status="Approved">Formule de variante autorisée</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_display" locale="fr_FR" status="Approved">Effectivité</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_formula" locale="fr_FR" status="Approved">Formule d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0element_thread" locale="fr_FR" status="Approved">Thread d'élément - Obsolète. Voir le Release Bulletin.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0is_revisable" locale="fr_FR" status="Approved">Est Révisable</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0revision_id" locale="fr_FR" status="Approved">ID de révision - Obsolète. Voir le Release Bulletin.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0sibling_revisions" locale="fr_FR" status="Approved">Révisions soeurs</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0variant_formula" locale="fr_FR" status="Approved">Formule de variante</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0BackgroundMembers" locale="fr_FR" status="Approved">Membres d'arrière-plan</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ForegroundMembers" locale="fr_FR" status="Approved">Membres de premier plan</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0LatestState" locale="fr_FR" status="Approved">Dernier état</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0OwningObject" locale="fr_FR" status="Approved">Objet propriétaire</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ViewState" locale="fr_FR" status="Approved">Afficher Etat</key>
+           
+        <key id="Property{::}Mdl0ElementThread{::}mdl0ConfiguredRevision" locale="fr_FR" status="Approved">Révision configurée</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0AreConstrntsFullySolved" locale="fr_FR" status="Approved">Are Constraints Fully Solved</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Bucket" locale="fr_FR" status="Approved">Bucket de contraintes géométriques</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0ConstraintData" locale="fr_FR" status="Approved">Jeu de données de contrainte</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Iteration" locale="fr_FR" status="Approved">Itération d'état sauvegardé</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0BackgroundMembers" locale="fr_FR" status="Approved">Membres d'arrière-plan</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0ForegroundMembers" locale="fr_FR" status="Approved">Membres de premier plan</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedBackgroundMem" locale="fr_FR" status="Approved">Nb total de membres d'arrière-plan terminaux</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedForegroundMem" locale="fr_FR" status="Approved">Nb total de membres de premier plan terminaux</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalBackgroundMembers" locale="fr_FR" status="Approved">Nb total de membres d'arrière-plan</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalForegroundMembers" locale="fr_FR" status="Approved">Nb total de membres de premier plan</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0collection_id" locale="fr_FR" status="Approved">ID de collection</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0ConnectionId" locale="fr_FR" status="Approved">ID de connexion</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End1" locale="fr_FR" status="Approved">Fin 1</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End2" locale="fr_FR" status="Approved">Fin 2</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0GroupLinks" locale="fr_FR" status="Approved">Liens de groupe</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0LogicalId" locale="fr_FR" status="Approved">ID logique</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0IsSystemManaged" locale="fr_FR" status="Approved">Is System Managed</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0LatestIteration" locale="fr_FR" status="Approved">Dernière itération</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0OwningObject" locale="fr_FR" status="Approved">Objet propriétaire</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Bucket" locale="fr_FR" status="Approved">Bucket</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0CsId" locale="fr_FR" status="Approved">ID stable de la copie</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0ExtendedMember" locale="fr_FR" status="Approved">Membre étendu</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IsForeground" locale="fr_FR" status="Approved">Is Foreground</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationIn" locale="fr_FR" status="Approved">Itération entrée</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationOut" locale="fr_FR" status="Approved">Itération sortie</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Member" locale="fr_FR" status="Approved">Membre</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0FeatureId" locale="fr_FR" status="Approved">ID de primitive</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeomGroups" locale="fr_FR" status="Approved">Groupes géométriques</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeometryLMD" locale="fr_FR" status="Approved">LMD géométrique</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0ValidationStatus" locale="fr_FR" status="Approved">Statut de validation</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0LinkId" locale="fr_FR" status="Approved">ID de lien</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0TargetObject" locale="fr_FR" status="Approved">Objet cible</key>
+           
+        <key id="Property{::}Mdl0ManagedAttrGroupSvAI{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceEffExpr" locale="fr_FR" status="Approved">Is Effectivity Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceVarExpr" locale="fr_FR" status="Approved">Is Variant Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0TargetModel" locale="fr_FR" status="Approved">Objet Modèle cible</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0IsInterModelCopy" locale="fr_FR" status="Approved">Copier vers autre modèle</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttachAttrGroup" locale="fr_FR" status="Approved">Groupe d'attributs liés en attente</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttcAttrRlType" locale="fr_FR" status="Approved">Type de relation d'attribut lié en attente</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceEffExpr" locale="fr_FR" status="Approved">Is Effectivity Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceVarExpr" locale="fr_FR" status="Approved">Is Variant Expression Carried Forward</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0TargetModel" locale="fr_FR" status="Approved">Objet Modèle cible</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0AttributeGroups" locale="fr_FR" status="Approved">Groupes d'attributs</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0HistorySyncStatus" locale="fr_FR" status="Approved">Statut de synchro historique</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0Override" locale="fr_FR" status="Approved">Remplacement</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0is_obsolete" locale="fr_FR" status="Approved">Est Obsolète</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0pending_AttachAttrGroup" locale="fr_FR" status="Approved">Groupe d'attributs liés en attente</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Model" locale="fr_FR" status="Approved">Modèle</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Operation" locale="fr_FR" status="Approved">Opération</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Process" locale="fr_FR" status="Approved">Processus</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0AbsolutelyPositioned" locale="fr_FR" status="Approved">Positionné de façon absolue</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ContainerForIndexing" locale="fr_FR" status="Approved">Conteneur pour indexation</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0DefiningConstraintState" locale="fr_FR" status="Approved">Définir l'état de contrainte</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ExcludeFromSpatialSrch" locale="fr_FR" status="Approved">Exclure de la recherche spatiale</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0GeomLinks" locale="fr_FR" status="Approved">Liens géométriques</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ThumbnailDataset" locale="fr_FR" status="Approved">Jeu de données de vignette</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0UsedInConstraint" locale="fr_FR" status="Approved">Utilisé dans contrainte</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0absolute_transform" locale="fr_FR" status="Approved">Transformation absolue</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_data" locale="fr_FR" status="Approved">Jeu de données graphique simplifié au Niveau assemblage</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_file" locale="fr_FR" status="Approved">Fichier graphique simplifié au Niveau assemblage</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max0" locale="fr_FR" status="Approved">Maximum X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max1" locale="fr_FR" status="Approved">Maximum Y</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max2" locale="fr_FR" status="Approved">Maximum Z</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min0" locale="fr_FR" status="Approved">Minimum X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min1" locale="fr_FR" status="Approved">Minimum Y</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min2" locale="fr_FR" status="Approved">Minimum Z</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box" locale="fr_FR" status="Approved">Boîte d'encombrement</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0direct_model_data" locale="fr_FR" status="Approved">Données Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_invscale" locale="fr_FR" status="Approved">Elément de matrice 3,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per0" locale="fr_FR" status="Approved">Elément de matrice 3,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per1" locale="fr_FR" status="Approved">Elément de matrice 3,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per2" locale="fr_FR" status="Approved">Elément de matrice 3,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot00" locale="fr_FR" status="Approved">Elément de matrice 0,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot01" locale="fr_FR" status="Approved">Elément de matrice 0,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot02" locale="fr_FR" status="Approved">Elément de matrice 0,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot10" locale="fr_FR" status="Approved">Elément de matrice 1,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot11" locale="fr_FR" status="Approved">Elément de matrice 1,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot12" locale="fr_FR" status="Approved">Elément de matrice 1,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot20" locale="fr_FR" status="Approved">Elément de matrice 2,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot21" locale="fr_FR" status="Approved">Elément de matrice 2,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot22" locale="fr_FR" status="Approved">Elément de matrice 2,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra0" locale="fr_FR" status="Approved">Elément de matrice 0,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra1" locale="fr_FR" status="Approved">Elément de matrice 1,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra2" locale="fr_FR" status="Approved">Elément de matrice 2,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_file" locale="fr_FR" status="Approved">Fichier JT</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_ref_set" locale="fr_FR" status="Approved">Ensemble de références du fichier JT</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_constrained" locale="fr_FR" status="Approved">Position contrainte</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_lmd" locale="fr_FR" status="Approved">Date de dernière modification de Donnée de position</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0positioned_object" locale="fr_FR" status="Approved">Objet positionné</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0relative_to" locale="fr_FR" status="Approved">Relatif à</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0shape_lmd" locale="fr_FR" status="Approved">Date de dernière modification de Donnée de forme</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0source_bbox_uid" locale="fr_FR" status="Approved">Boîte multiple englobant source</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0trueshape_data" locale="fr_FR" status="Approved">Données TruShape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0absolute_transform" locale="fr_FR" status="Approved">Transformation absolue</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBoxOverride" locale="fr_FR" status="Approved">Remplacement de Boîte d'encombrement</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBox" locale="fr_FR" status="Approved">Boîte d'encombrement</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelDataset" locale="fr_FR" status="Approved">Jeu de données Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelOverrideDS" locale="fr_FR" status="Approved">Jeu de données Remplacement Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0geometryOverrideDS" locale="fr_FR" status="Approved">Jeu de données Remplacement de géométrie</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0shape_lmd" locale="fr_FR" status="Approved">Date de dernière modification de Donnée de forme</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0thumbnailOverrideDS" locale="fr_FR" status="Approved">Jeu de données Remplacement Vignette</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeDataset" locale="fr_FR" status="Approved">Jeu de données Forme vraie</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeOverrideDS" locale="fr_FR" status="Approved">Jeu de données Remplacement Forme vraie</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0BackgroundInCollections" locale="fr_FR" status="Approved">Arrière-plan dans la collection de contraintes géométriques</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ConstrainedInCollection" locale="fr_FR" status="Approved">Contraint dans la collection de contraintes géométriques</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0DefiningIteration" locale="fr_FR" status="Approved">Itération de définition</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ExcludeFromSpatialSrch" locale="fr_FR" status="Approved">Exclure de la recherche spatiale</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0GeomLinks" locale="fr_FR" status="Approved">Liens géométriques</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsAbsolutelyPositioned" locale="fr_FR" status="Approved">Est Positionné de façon absolue</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsUsedInConstraint" locale="fr_FR" status="Approved">Is Used In Constraint</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0OverrideDataset" locale="fr_FR" status="Approved">Remplacement du jeu de données</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ThumbnailDataset" locale="fr_FR" status="Approved">Jeu de données de vignette</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0absolute_transform" locale="fr_FR" status="Approved">Transformation absolue</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_data" locale="fr_FR" status="Approved">Jeu de données graphique simplifié au Niveau assemblage</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_file" locale="fr_FR" status="Approved">Fichier graphique simplifié au Niveau assemblage</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0bounding_box" locale="fr_FR" status="Approved">Boîte d'encombrement</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0delegate" locale="fr_FR" status="Approved">Déléguer</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0direct_model_data" locale="fr_FR" status="Approved">Jeu de données Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0jt_file" locale="fr_FR" status="Approved">Fichier JT</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0logical_designator" locale="fr_FR" status="Approved">Désignateur logique</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0position_lmd" locale="fr_FR" status="Approved">Date de dernière modification de Donnée de position</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0positioned_geometry" locale="fr_FR" status="Approved">Géométrie positionnée</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0relative_to" locale="fr_FR" status="Approved">Relatif à</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0shape_lmd" locale="fr_FR" status="Approved">Date de dernière modification de Donnée de forme</key>
+           
+        <key id="Property{::}Mdl0ReferenceExpression{::}mdl0AppRelationCount" locale="fr_FR" status="Approved">Nombre de relations d'Application</key>
+           
+        <key id="Property{::}Mdl0ReferenceGeometry{::}mdl0app_relation_count" locale="fr_FR" status="Approved">Nombre de relations de Modèle d'application</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0coordinates" locale="fr_FR" status="Approved">Coordonnées</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0operator" locale="fr_FR" status="Approved">Opérateur</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeExpressions" locale="fr_FR" status="Approved">Expressions d'attribut de Classification</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeIdList" locale="fr_FR" status="Approved">Liste ID d'attribut de Classification</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsClassId" locale="fr_FR" status="Approved">ID de classe</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsOption" locale="fr_FR" status="Approved">Option de recherche</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0count" locale="fr_FR" status="Approved">Nb de résultats</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0elements" locale="fr_FR" status="Approved">Eléments de résultats</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0index" locale="fr_FR" status="Approved">Indice des éléments de résultats</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0ReturnType" locale="fr_FR" status="Approved">Type de retour</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0RootType" locale="fr_FR" status="Approved">Type de racine</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0TraversalKey" locale="fr_FR" status="Approved">Clé de traversée</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0_tso_flag" locale="fr_FR" status="Approved">Trushape Flag</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0searchtype" locale="fr_FR" status="Approved">Type de recherche</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="fr_FR" status="Approved">Indicateur de contrôle de processus</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0SourceCriteria" locale="fr_FR" status="Approved">Critère source</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0Name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0operator" locale="fr_FR" status="Approved">Opérateur</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0searchdefs" locale="fr_FR" status="Approved">Définition de la recherche</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionNames" locale="fr_FR" status="Approved">Noms d'options</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionSet" locale="fr_FR" status="Approved">Ensemble d'options</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionValues" locale="fr_FR" status="Approved">Valeurs de l'option</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0coordinates" locale="fr_FR" status="Approved">Coordonnées</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0operator" locale="fr_FR" status="Approved">Opérateur</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0distance" locale="fr_FR" status="Approved">Distance</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0targetelement" locale="fr_FR" status="Approved">Elément cible</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0DomainViewKey" locale="fr_FR" status="Approved">Clé de vue Domaine</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0searchTypes" locale="fr_FR" status="Approved">Types de recherche</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0entries" locale="fr_FR" status="Approved">Entrées</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0query" locale="fr_FR" status="Approved">Requête</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0values" locale="fr_FR" status="Approved">Valeurs</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0selectedcontents" locale="fr_FR" status="Approved">Contenu sélectionné</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0unselectedcontents" locale="fr_FR" status="Approved">Contenu non sélectionné</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_effectivity_formula" locale="fr_FR" status="Approved">Formule d'effectivité cible</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_variant_formula" locale="fr_FR" status="Approved">Formule de variante cible</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinitionCreI{::}mdl0pending_AttcAttrRlType" locale="fr_FR" status="Approved">Type de relation d'attribut lié en attente</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0ConfiguredModel" locale="fr_FR" status="Approved">Modèle configuré</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0model_object" locale="fr_FR" status="Approved">Objet Modèle</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0pending_AttachAttrGroup" locale="fr_FR" status="Approved">Groupes d'attributs liés en attente</key>
+           
+        <key id="BusinessObject{::}Mdl0CompositeSearchDef" locale="fr_FR" status="Approved">Définition de recherche composite</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0CompositeSearchType" locale="fr_FR" status="Approved">Type de recherche composite</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0SearchDefinitions" locale="fr_FR" status="Approved">Définitions de recherches</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityExprBlock" locale="fr_FR" status="Approved">Bloc d'expression d'Effectivité de modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityInModel" locale="fr_FR" status="Approved">Effectivité dans le modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0HasConfiguratorContext" locale="fr_FR" status="Approved">A un Contexte de configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0eff_configurator_URL" locale="fr_FR" status="Approved">URL du Point final de service de configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_context" locale="fr_FR" status="Approved">Obsolète. Consulter le Release Bulletin de Teamcenter 10.1</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_item" locale="fr_FR" status="Approved">Obsolète. Consulter le Release Bulletin de Teamcenter 10.1</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0configurator_URL" locale="fr_FR" status="Approved">URL du Point final de service de configurateur</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0description" locale="fr_FR" status="Approved">Description du Configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0model" locale="fr_FR" status="Approved">Modèle</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0name" locale="fr_FR" status="Approved">Nom du configurateur d'effectivité</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_namespace" locale="fr_FR" status="Approved">Espace de nom de produit</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_name" locale="fr_FR" status="Approved">Nom de produit</key>
+           
+        <key id="BusinessObject{::}Mdl0HasVarConfiguratorCxt" locale="fr_FR" status="Approved">A un Contexte de configurateur de variante</key>
+           
+        <key id="BusinessObject{::}Mdl0VariantExprBlock" locale="fr_FR" status="Approved">Bloc d'expression de variante de modèle</key>
+           
+        <key id="BusinessObject{::}Mdl0VariationInModel" locale="fr_FR" status="Approved">Variation dans le modèle</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_configurator_URL" locale="fr_FR" status="Approved">URL du Point final de service de configurateur de variante</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0configurator_URL" locale="fr_FR" status="Approved">URL du Point final de service de configurateur</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0description" locale="fr_FR" status="Approved">Description du Configurateur de variante</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0model" locale="fr_FR" status="Approved">Modèle</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0name" locale="fr_FR" status="Approved">Nom du configurateur de variante</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_namespace" locale="fr_FR" status="Approved">Espace de nom de produit</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_name" locale="fr_FR" status="Approved">Nom de produit</key>
+           
+        <key id="Event{::}Mdl0Attach_Attribute_Group" locale="fr_FR" status="Approved">Attacher le groupe d'attributs</key>
+           
+        <key id="Event{::}Mdl0Detach_Attribute_Group" locale="fr_FR" status="Approved">Détacher le groupe d'attributs</key>
+           
+        <key id="Event{::}Mdl0Replace_Model_Element" locale="fr_FR" status="Approved">Remplacer l'élément de modèle</key>
+           
+        <key id="Event{::}Mdl0Revise_Model_Element" locale="fr_FR" status="Approved">Réviser l'élément de modèle</key>
+           
+        <key id="Event{::}Mdl0Unrealize_Model_Element" locale="fr_FR" status="Approved">Annuler révision d'élément de modèle</key>
+           
+        <key id="Event{::}__Add_Content" locale="fr_FR" status="Approved">Ajouter le contenu</key>
+           
+        <key id="Event{::}__Remove_Content" locale="fr_FR" status="Approved">Supprimer le contenu</key>
+           
+        <key id="Event{::}__Revision_Create" locale="fr_FR" status="Approved">Création d'une révision</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

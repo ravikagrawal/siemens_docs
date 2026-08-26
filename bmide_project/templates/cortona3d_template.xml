@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Fri Aug 11 02:27:54 PM 2023">
+<Add>
+   <TcClass className="C3D_DeliveryMap" parentClassName="Item" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_Item" parentClassName="Item" isExportable="true" isUninstantiable="false"
+       isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_itemType" description="Cortona3D Item Type" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" typedRefClassName="C3D_ItemType"/>
+   </TcClass>
+   <TcClass className="C3D_ItemContext" parentClassName="C3D_Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemPub" parentClassName="C3D_Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemType" parentClassName="Item" isExportable="true" isUninstantiable="false"
+       isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_rapidTool" description="Cortona3D Rapid Tool"
+         attributeType="POM_string" maxStringLength="32" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_deliveryMap" description="Cortona3D Delivery Map"
+         attributeType="POM_typed_reference" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         typedRefClassName="C3D_DeliveryMap"/>
+     <TcAttribute attributeName="c3d_transfermode" description="" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" typedRefClassName="TransferMode"/>
+   </TcClass>
+   <TcClass className="C3D_DeliveryMapRevision" parentClassName="ItemRevision" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemRevision" parentClassName="ItemRevision" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_icnlist" description="Illustrations" attributeType="POM_string"
+         maxStringLength="1024" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="c3d_icnmaster" description="Master Illustrations"
+         attributeType="POM_string" maxStringLength="128" isArray="true" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" arrayLength="-1" isTransient="false" exportAsString="false"
+         noBackpointer="false"/>
+     <TcAttribute attributeName="c3d_icnreused" description="Reused Illustrations"
+         attributeType="POM_string" maxStringLength="128" isArray="true" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" arrayLength="-1" isTransient="false" exportAsString="false"
+         noBackpointer="false"/>
+     <TcAttribute attributeName="c3d_revNR" description="New Revision Mask" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_contexts" description="Geometry Context Definitions"
+         attributeType="POM_string" maxStringLength="1024" isArray="true" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" arrayLength="-1" isTransient="false" exportAsString="false"
+         noBackpointer="false"/>
+   </TcClass>
+   <TcClass className="C3D_ItemContextRevision" parentClassName="C3D_ItemRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemPubRevision" parentClassName="C3D_ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemTypeRevision" parentClassName="ItemRevision" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_Comment" parentClassName="WorkspaceObject" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_itemRev" description="" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" typedRefClassName="ItemRevision"/>
+     <TcAttribute attributeName="c3d_comment" description="" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" typedRefClassName="C3D_Comment"/>
+     <TcAttribute attributeName="c3d_commentstatus" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_guid" description="" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="NULL"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_contents" description="" attributeType="POM_typed_reference"
+         maxStringLength="0" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"
+         typedRefClassName="WorkspaceObject"/>
+   </TcClass>
+   <TcClass className="C3D_MIMEType" parentClassName="WorkspaceObject" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_mime_type" description="MIME type" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="false"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_extension" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_DeliveryMapMasterS" parentClassName="ItemMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemMasterS" parentClassName="ItemMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemContextMasterS" parentClassName="C3D_ItemMasterS" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemPubMasterS" parentClassName="C3D_ItemMasterS" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemTypeMasterS" parentClassName="ItemMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_DeliveryMapRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemRevMasterS" parentClassName="ItemVersionMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemContextRevMasterS" parentClassName="C3D_ItemRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemPubRevMasterS" parentClassName="C3D_ItemRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemTypeRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcStandardType typeName="C3D_DeliveryMapRevision" parentTypeName="ItemRevision"
+       typeClassName="C3D_DeliveryMapRevision" description="ItemRevision object for &quot;C3D_DeliveryMap&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevision"/>
+   <TcStandardType typeName="C3D_ItemRevision" parentTypeName="ItemRevision" typeClassName="C3D_ItemRevision"
+       description="ItemRevision object for &quot;C3D_Item&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevision"/>
+   <TcStandardType typeName="C3D_ItemContextRevision" parentTypeName="C3D_ItemRevision"
+       typeClassName="C3D_ItemContextRevision" description="Cortona3D Geometry Context Item Revision"
+       isAbstract="false" artifactName="C3D_ItemContextRevision"/>
+   <TcStandardType typeName="C3D_ItemPubRevision" parentTypeName="C3D_ItemRevision"
+       typeClassName="C3D_ItemPubRevision" description="Cortona3D Publication Revision"
+       isAbstract="false" artifactName="C3D_ItemPubRevision"/>
+   <TcStandardType typeName="C3D_ItemTypeRevision" parentTypeName="ItemRevision" typeClassName="C3D_ItemTypeRevision"
+       description="Cortona3D Item Type Revision" isAbstract="false" artifactName="C3D_ItemTypeRevision"/>
+   <TcForm typeName="C3D_DeliveryMapMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="Cortona3D Delivery Map" isAbstract="false" artifactName="C3D_DeliveryMapMaster"
+       formStorageClassName="C3D_DeliveryMapMasterS"/>
+   <TcForm typeName="C3D_ItemMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="Cortona3D Item" isAbstract="false" artifactName="C3D_ItemMaster"
+       formStorageClassName="C3D_ItemMasterS"/>
+   <TcForm typeName="C3D_ItemContextMaster" parentTypeName="C3D_ItemMaster" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemContext&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMaster" formStorageClassName="C3D_ItemContextMasterS"/>
+   <TcForm typeName="C3D_ItemPubMaster" parentTypeName="C3D_ItemMaster" typeClassName="Form"
+       description="Cortona3D Publication Form" isAbstract="false" artifactName="C3D_ItemPubMaster"
+       formStorageClassName="C3D_ItemPubMasterS"/>
+   <TcForm typeName="C3D_ItemTypeMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="Cortona3D Item Type" isAbstract="false" artifactName="C3D_ItemTypeMaster"
+       formStorageClassName="C3D_ItemTypeMasterS"/>
+   <TcForm typeName="C3D_DeliveryMapRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_DeliveryMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisionMaster" formStorageClassName="C3D_DeliveryMapRevMasterS"/>
+   <TcForm typeName="C3D_ItemRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevisionMaster" formStorageClassName="C3D_ItemRevMasterS"/>
+   <TcForm typeName="C3D_ItemContextRevisionMaster" parentTypeName="C3D_ItemRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemContextRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisionMaster" formStorageClassName="C3D_ItemContextRevMasterS"/>
+   <TcForm typeName="C3D_ItemPubRevisionMaster" parentTypeName="C3D_ItemRevisionMaster"
+       typeClassName="Form" description="Cortona3D Publication Revision Form" isAbstract="false"
+       artifactName="C3D_ItemPubRevisionMaster" formStorageClassName="C3D_ItemPubRevMasterS"/>
+   <TcForm typeName="C3D_ItemTypeRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="Cortona3D Item Type Revision" isAbstract="false"
+       artifactName="C3D_ItemTypeRevisionMaster" formStorageClassName="C3D_ItemTypeRevMasterS"/>
+   <TcDataset typeName="VMBFILE" parentTypeName="Dataset" typeClassName="Dataset"
+       description="RapidAuthor build" isAbstract="false" artifactName="VMBFILE">
+     <TcDSViewTool name="UnZip"/>
+     <TcDSEditTool name="UnZip"/>
+     <TcDatasetReference name="build">
+       <TcDatasetReferenceInfo template="*.vmb" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="cortona3d">
+       <TcDatasetReferenceInfo template="*.*" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="thumbnail">
+       <TcDatasetReferenceInfo template="*.*" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="manifest">
+       <TcDatasetReferenceInfo template="*.*" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcDataset typeName="VMLFILE" parentTypeName="Dataset" typeClassName="Dataset"
+       description="RapidAuthor logging" isAbstract="false" artifactName="VMLFILE">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDatasetReference name="Text">
+       <TcDatasetReferenceInfo template="*.*" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetToolAction tool="TextEditor" action="Open">
+       <TcToolActionReference export="false" referenceName="Text"/>
+     </TcDatasetToolAction>
+   </TcDataset>
+   <TcDataset typeName="VMPFILE" parentTypeName="Dataset" typeClassName="Dataset"
+       description="RapidAuthor project" isAbstract="false" artifactName="VMPFILE">
+     <TcDSViewTool name="UnZip"/>
+     <TcDSEditTool name="UnZip"/>
+     <TcDatasetReference name="project">
+       <TcDatasetReferenceInfo template="*.vmp" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="document">
+       <TcDatasetReferenceInfo template="*.*" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcStandardType typeName="C3D_DeliveryMap" parentTypeName="Item" typeClassName="C3D_DeliveryMap"
+       description="Cortona3D Delivery Map" isAbstract="false" artifactName="C3D_DeliveryMap"/>
+   <TcStandardType typeName="C3D_Item" parentTypeName="Item" typeClassName="C3D_Item"
+       description="Cortona3D Item" isAbstract="false" artifactName="C3D_Item"/>
+   <TcStandardType typeName="C3D_ItemContext" parentTypeName="C3D_Item" typeClassName="C3D_ItemContext"
+       description="Cortona3D Geometry Context Item" isAbstract="false" artifactName="C3D_ItemContext"/>
+   <TcStandardType typeName="C3D_ItemPub" parentTypeName="C3D_Item" typeClassName="C3D_ItemPub"
+       description="Cortona3D Publication" isAbstract="false" artifactName="C3D_ItemPub"/>
+   <TcStandardType typeName="C3D_ItemType" parentTypeName="Item" typeClassName="C3D_ItemType"
+       description="Cortona3D Item Type" isAbstract="false" artifactName="C3D_ItemType"/>
+   <TcStandardType typeName="C3D_Comment" parentTypeName="WorkspaceObject" typeClassName="C3D_Comment"
+       description="" isAbstract="false" artifactName="C3D_Comment"/>
+   <TcStandardType typeName="C3D_MIMEType" parentTypeName="WorkspaceObject" typeClassName="C3D_MIMEType"
+       description="" isAbstract="false" artifactName="C3D_MIMEType"/>
+   <TcStandardType typeName="C3D_DeliveryMapMasterS" parentTypeName="ItemMaster" typeClassName="C3D_DeliveryMapMasterS"
+       description="Form Storage object for &quot;C3D_DeliveryMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapMasterS"/>
+   <TcStandardType typeName="C3D_ItemMasterS" parentTypeName="ItemMaster" typeClassName="C3D_ItemMasterS"
+       description="Form Storage object for &quot;C3D_ItemMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemMasterS"/>
+   <TcStandardType typeName="C3D_ItemContextMasterS" parentTypeName="C3D_ItemMasterS"
+       typeClassName="C3D_ItemContextMasterS" description="Form Storage object for &quot;C3D_ItemContextMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMasterS"/>
+   <TcStandardType typeName="C3D_ItemPubMasterS" parentTypeName="C3D_ItemMasterS"
+       typeClassName="C3D_ItemPubMasterS" description="Form Storage object for &quot;C3D_ItemPubMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubMasterS"/>
+   <TcStandardType typeName="C3D_ItemTypeMasterS" parentTypeName="ItemMaster" typeClassName="C3D_ItemTypeMasterS"
+       description="Form Storage object for &quot;C3D_ItemTypeMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeMasterS"/>
+   <TcStandardType typeName="C3D_DeliveryMapRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_DeliveryMapRevMasterS" description="Form Storage object for &quot;C3D_DeliveryMapRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_ItemRevMasterS" description="Form Storage object for &quot;C3D_ItemRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemContextRevMasterS" parentTypeName="C3D_ItemRevMasterS"
+       typeClassName="C3D_ItemContextRevMasterS" description="Form Storage object for &quot;C3D_ItemContextRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemPubRevMasterS" parentTypeName="C3D_ItemRevMasterS"
+       typeClassName="C3D_ItemPubRevMasterS" description="Form Storage object for &quot;C3D_ItemPubRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemTypeRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_ItemTypeRevMasterS" description="Form Storage object for &quot;C3D_ItemTypeRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevMasterS"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_DeliveryMapRevisionCreI" description="CreateInput object for &quot;C3D_DeliveryMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_ItemRevisionCreI" description="CreateInput object for &quot;C3D_ItemRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevisionCreI">
+     <OperationInputProperty propName="c3d_icnlist" compoundObjectConstant="" srcPropName=""
+         compoundObjectType="" fieldType="SimpleProperty" description="Illustrations"/>
+     <OperationInputProperty propName="c3d_icnmaster" compoundObjectConstant="" srcPropName=""
+         compoundObjectType="" fieldType="SimpleProperty" description="Master Illustrations"/>
+     <OperationInputProperty propName="c3d_icnreused" compoundObjectConstant="" srcPropName=""
+         compoundObjectType="" fieldType="SimpleProperty" description="Reused Illustrations"/>
+     <OperationInputProperty propName="c3d_revNR" compoundObjectConstant="" srcPropName="c3d_revNR"
+         compoundObjectType="" fieldType="SimpleProperty" description="New Revision Mask"/>
+     <OperationInputProperty propName="c3d_contexts" compoundObjectConstant="" srcPropName="c3d_contexts"
+         compoundObjectType="" fieldType="SimpleProperty" description="Geometry Context Definitions"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemContextRevisionCreI" parentTypeName="C3D_ItemRevisionCreI"
+       typeClassName="C3D_ItemContextRevisionCreI" description="CreateInput object for &quot;C3D_ItemContextRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemPubRevisionCreI" parentTypeName="C3D_ItemRevisionCreI"
+       typeClassName="C3D_ItemPubRevisionCreI" description="CreateInput object for &quot;C3D_ItemPubRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_ItemTypeRevisionCreI" description="CreateInput object for &quot;C3D_ItemTypeRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevisionCreI"/>
+   <OperationInputType typeName="C3D_DeliveryMapCreI" parentTypeName="ItemCreI" typeClassName="C3D_DeliveryMapCreI"
+       description="CreateInput object for &quot;C3D_DeliveryMap&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapCreI"/>
+   <OperationInputType typeName="C3D_ItemCreI" parentTypeName="ItemCreI" typeClassName="C3D_ItemCreI"
+       description="CreateInput object for &quot;C3D_Item&quot; business object" isAbstract="false"
+       artifactName="C3D_ItemCreI">
+     <OperationInputProperty propName="c3d_itemType" compoundObjectConstant="" srcPropName=""
+         compoundObjectType="" fieldType="SimpleProperty" description="Cortona3D Item Type"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemContextCreI" parentTypeName="C3D_ItemCreI"
+       typeClassName="C3D_ItemContextCreI" description="CreateInput object for &quot;C3D_ItemContext&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextCreI"/>
+   <OperationInputType typeName="C3D_ItemPubCreI" parentTypeName="C3D_ItemCreI" typeClassName="C3D_ItemPubCreI"
+       description="CreateInput object for &quot;C3D_ItemPub&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeCreI" parentTypeName="ItemCreI" typeClassName="C3D_ItemTypeCreI"
+       description="CreateInput object for &quot;C3D_ItemType&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeCreI">
+     <OperationInputProperty propName="c3d_rapidTool" compoundObjectConstant="" srcPropName=""
+         compoundObjectType="" fieldType="SimpleProperty" description="Cortona3D Rapid Tool"/>
+     <OperationInputProperty propName="c3d_deliveryMap" compoundObjectConstant=""
+         srcPropName="" compoundObjectType="" fieldType="SimpleProperty" description="Cortona3D Delivery Map"/>
+     <OperationInputProperty propName="c3d_transfermode" compoundObjectConstant=""
+         srcPropName="c3d_transfermode" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VMBFILECreI" parentTypeName="DatasetCreI" typeClassName="VMBFILECreI"
+       description="CreateInput object for &quot;VMBFILE&quot; business object" isAbstract="false"
+       artifactName="VMBFILECreI"/>
+   <OperationInputType typeName="VMLFILECreI" parentTypeName="DatasetCreI" typeClassName="VMLFILECreI"
+       description="CreateInput object for &quot;VMLFILE&quot; business object" isAbstract="false"
+       artifactName="VMLFILECreI"/>
+   <OperationInputType typeName="VMPFILECreI" parentTypeName="DatasetCreI" typeClassName="VMPFILECreI"
+       description="CreateInput object for &quot;VMPFILE&quot; business object" isAbstract="false"
+       artifactName="VMPFILECreI"/>
+   <OperationInputType typeName="C3D_DeliveryMapMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_DeliveryMapMasterCreI" description="CreateInput object for &quot;C3D_DeliveryMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_ItemMasterCreI" description="CreateInput object for &quot;C3D_ItemMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemContextMasterCreI" parentTypeName="C3D_ItemMasterCreI"
+       typeClassName="C3D_ItemContextMasterCreI" description="CreateInput object for &quot;C3D_ItemContextMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemPubMasterCreI" parentTypeName="C3D_ItemMasterCreI"
+       typeClassName="C3D_ItemPubMasterCreI" description="CreateInput object for &quot;C3D_ItemPubMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_ItemTypeMasterCreI" description="CreateInput object for &quot;C3D_ItemTypeMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeMasterCreI"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevisio_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_DeliveryMapRevisio_alt0CreI" description="CreateInput object for &quot;C3D_DeliveryMapRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemRevisionMasterCreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_ItemRevisionMasterCreI" description="CreateInput object for &quot;C3D_ItemRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevisionMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemContextRevisio_alt0CreI" parentTypeName="C3D_ItemRevisionMasterCreI"
+       typeClassName="C3D_ItemContextRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemContextRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemPubRevisionMasterCreI" parentTypeName="C3D_ItemRevisionMasterCreI"
+       typeClassName="C3D_ItemPubRevisionMasterCreI" description="CreateInput object for &quot;C3D_ItemPubRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevisionMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevisionMasterCreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_ItemTypeRevisionMasterCreI" description="CreateInput object for &quot;C3D_ItemTypeRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevisionMasterCreI"/>
+   <OperationInputType typeName="C3D_CommentCreI" parentTypeName="WorkspaceObjectCreI"
+       typeClassName="C3D_CommentCreI" description="CreateInput object for &quot;C3D_Comment&quot; business object"
+       isAbstract="false" artifactName="C3D_CommentCreI">
+     <OperationInputProperty propName="c3d_itemRev" compoundObjectConstant="" srcPropName="c3d_itemRev"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_comment" compoundObjectConstant="" srcPropName="c3d_comment"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_commentstatus" compoundObjectConstant=""
+         srcPropName="c3d_commentstatus" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="c3d_guid" compoundObjectConstant="" srcPropName="c3d_guid"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_contents" compoundObjectConstant="" srcPropName="c3d_contents"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_MIMETypeCreI" parentTypeName="WorkspaceObjectCreI"
+       typeClassName="C3D_MIMETypeCreI" description="CreateInput object for &quot;C3D_MIMEType&quot; business object"
+       isAbstract="false" artifactName="C3D_MIMETypeCreI">
+     <OperationInputProperty propName="c3d_mime_type" compoundObjectConstant="" srcPropName="c3d_mime_type"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_extension" compoundObjectConstant="" srcPropName="c3d_extension"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_DeliveryMapMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_DeliveryMapMasterSCreI" description="CreateInput object for &quot;C3D_DeliveryMapMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_ItemMasterSCreI" description="CreateInput object for &quot;C3D_ItemMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemContextMasterSCreI" parentTypeName="C3D_ItemMasterSCreI"
+       typeClassName="C3D_ItemContextMasterSCreI" description="CreateInput object for &quot;C3D_ItemContextMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemPubMasterSCreI" parentTypeName="C3D_ItemMasterSCreI"
+       typeClassName="C3D_ItemPubMasterSCreI" description="CreateInput object for &quot;C3D_ItemPubMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_ItemTypeMasterSCreI" description="CreateInput object for &quot;C3D_ItemTypeMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeMasterSCreI"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_DeliveryMapRevMasterSCreI" description="CreateInput object for &quot;C3D_DeliveryMapRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_ItemRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemContextRevMasterSCreI" parentTypeName="C3D_ItemRevMasterSCreI"
+       typeClassName="C3D_ItemContextRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemContextRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemPubRevMasterSCreI" parentTypeName="C3D_ItemRevMasterSCreI"
+       typeClassName="C3D_ItemPubRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemPubRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_ItemTypeRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemTypeRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_DeliveryMapRevisionRevI" description="ReviseInput object for &quot;C3D_DeliveryMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_ItemRevisionRevI" description="ReviseInput object for &quot;C3D_ItemRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevisionRevI">
+     <OperationInputProperty propName="c3d_revNR" compoundObjectConstant="" srcPropName="c3d_revNR"
+         compoundObjectType="" fieldType="SimpleProperty" description="New Revision Mask"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemContextRevisionRevI" parentTypeName="C3D_ItemRevisionRevI"
+       typeClassName="C3D_ItemContextRevisionRevI" description="ReviseInput object for &quot;C3D_ItemContextRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemPubRevisionRevI" parentTypeName="C3D_ItemRevisionRevI"
+       typeClassName="C3D_ItemPubRevisionRevI" description="ReviseInput object for &quot;C3D_ItemPubRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_ItemTypeRevisionRevI" description="ReviseInput object for &quot;C3D_ItemTypeRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevisionRevI"/>
+   <OperationInputType typeName="C3D_DeliveryMapSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_DeliveryMapSvAI"
+       description="SaveAsInput object for &quot;C3D_DeliveryMap&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapSvAI"/>
+   <OperationInputType typeName="C3D_ItemSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_ItemSvAI"
+       description="SaveAsInput object for &quot;C3D_Item&quot; business object" isAbstract="false"
+       artifactName="C3D_Item"/>
+   <OperationInputType typeName="C3D_ItemContextSvAI" parentTypeName="C3D_ItemSvAI"
+       typeClassName="C3D_ItemContextSvAI" description="SaveAsInput object for &quot;C3D_ItemContext&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextSvAI"/>
+   <OperationInputType typeName="C3D_ItemPubSvAI" parentTypeName="C3D_ItemSvAI" typeClassName="C3D_ItemPubSvAI"
+       description="SaveAsInput object for &quot;C3D_ItemPub&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_ItemTypeSvAI"
+       description="SaveAsInput object for &quot;C3D_ItemType&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemType"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_DeliveryMapRevisionSvAI" description="SaveAsInput object for &quot;C3D_DeliveryMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_ItemRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevision">
+     <OperationInputProperty propName="c3d_revNR" compoundObjectConstant="" srcPropName="c3d_revNR"
+         compoundObjectType="" fieldType="SimpleProperty" description="New Revision Mask"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemContextRevisionSvAI" parentTypeName="C3D_ItemRevisionSvAI"
+       typeClassName="C3D_ItemContextRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemContextRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemPubRevisionSvAI" parentTypeName="C3D_ItemRevisionSvAI"
+       typeClassName="C3D_ItemPubRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemPubRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_ItemTypeRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemTypeRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevision"/>
+   <OperationInputType typeName="VMBFILESvAI" parentTypeName="DatasetSvAI" typeClassName="VMBFILESvAI"
+       description="SaveAsInput object for &quot;VMBFILE&quot; business object" isAbstract="false"
+       artifactName="VMBFILE"/>
+   <OperationInputType typeName="VMLFILESvAI" parentTypeName="DatasetSvAI" typeClassName="VMLFILESvAI"
+       description="SaveAsInput object for &quot;VMLFILE&quot; business object" isAbstract="false"
+       artifactName="VMLFILESvAI"/>
+   <OperationInputType typeName="VMPFILESvAI" parentTypeName="DatasetSvAI" typeClassName="VMPFILESvAI"
+       description="SaveAsInput object for &quot;VMPFILE&quot; business object" isAbstract="false"
+       artifactName="VMPFILE"/>
+   <OperationInputType typeName="C3D_DeliveryMapMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_DeliveryMapMasterSvAI" description="SaveAsInput object for &quot;C3D_DeliveryMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_ItemMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemMaster"/>
+   <OperationInputType typeName="C3D_ItemContextMasterSvAI" parentTypeName="C3D_ItemMasterSvAI"
+       typeClassName="C3D_ItemContextMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemContextMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemPubMasterSvAI" parentTypeName="C3D_ItemMasterSvAI"
+       typeClassName="C3D_ItemPubMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemPubMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_ItemTypeMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemTypeMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeMaster"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevisio_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_DeliveryMapRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_DeliveryMapRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemRevisionMasterSvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_ItemRevisionMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevisionMaster"/>
+   <OperationInputType typeName="C3D_ItemContextRevisio_alt0SvAI" parentTypeName="C3D_ItemRevisionMasterSvAI"
+       typeClassName="C3D_ItemContextRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemContextRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemPubRevisionMasterSvAI" parentTypeName="C3D_ItemRevisionMasterSvAI"
+       typeClassName="C3D_ItemPubRevisionMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemPubRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevisionMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevisionMasterSvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_ItemTypeRevisionMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemTypeRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevisionMaster"/>
+   <OperationInputType typeName="C3D_CommentSvAI" parentTypeName="WorkspaceObjectSvAI"
+       typeClassName="C3D_CommentSvAI" description="SaveAsInput object for &quot;C3D_Comment&quot; business object"
+       isAbstract="false" artifactName="C3D_CommentSvAI"/>
+   <OperationInputType typeName="C3D_MIMETypeSvAI" parentTypeName="WorkspaceObjectSvAI"
+       typeClassName="C3D_MIMETypeSvAI" description="SaveAsInput object for &quot;C3D_MIMEType&quot; business object"
+       isAbstract="false" artifactName="C3D_MIMETypeSvAI"/>
+   <OperationInputType typeName="C3D_DeliveryMapMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_DeliveryMapMasterSSvAI" description="SaveAsInput object for &quot;C3D_DeliveryMapMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_ItemMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemMasterS"/>
+   <OperationInputType typeName="C3D_ItemContextMasterSSvAI" parentTypeName="C3D_ItemMasterSSvAI"
+       typeClassName="C3D_ItemContextMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemContextMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemPubMasterSSvAI" parentTypeName="C3D_ItemMasterSSvAI"
+       typeClassName="C3D_ItemPubMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemPubMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_ItemTypeMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemTypeMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeMasterS"/>
+   <OperationInputType typeName="C3D_DeliveryMapRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_DeliveryMapRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_DeliveryMapRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DeliveryMapRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_ItemRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemRevMasterS"/>
+   <OperationInputType typeName="C3D_ItemContextRevMasterSSvAI" parentTypeName="C3D_ItemRevMasterSSvAI"
+       typeClassName="C3D_ItemContextRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemContextRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemContextRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemPubRevMasterSSvAI" parentTypeName="C3D_ItemRevMasterSSvAI"
+       typeClassName="C3D_ItemPubRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemPubRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemPubRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemTypeRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_ItemTypeRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemTypeRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemTypeRevMasterS"/>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_Comment" value="C3D_CommentCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMap" value="C3D_DeliveryMapCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMapMaster"
+       value="C3D_DeliveryMapMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMapMasterS"
+       value="C3D_DeliveryMapMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMapRevision"
+       value="C3D_DeliveryMapRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMapRevisionMaster"
+       value="C3D_DeliveryMapRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DeliveryMapRevMasterS"
+       value="C3D_DeliveryMapRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_Item" value="C3D_ItemCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContext" value="C3D_ItemContextCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContextMaster"
+       value="C3D_ItemContextMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContextMasterS"
+       value="C3D_ItemContextMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContextRevision"
+       value="C3D_ItemContextRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContextRevisionMaster"
+       value="C3D_ItemContextRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemContextRevMasterS"
+       value="C3D_ItemContextRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemMaster" value="C3D_ItemMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemMasterS" value="C3D_ItemMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPub" value="C3D_ItemPubCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPubMaster" value="C3D_ItemPubMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPubMasterS"
+       value="C3D_ItemPubMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPubRevision"
+       value="C3D_ItemPubRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPubRevisionMaster"
+       value="C3D_ItemPubRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemPubRevMasterS"
+       value="C3D_ItemPubRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemRevision" value="C3D_ItemRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemRevisionMaster"
+       value="C3D_ItemRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemRevMasterS"
+       value="C3D_ItemRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemType" value="C3D_ItemTypeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemTypeMaster"
+       value="C3D_ItemTypeMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemTypeMasterS"
+       value="C3D_ItemTypeMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemTypeRevision"
+       value="C3D_ItemTypeRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemTypeRevisionMaster"
+       value="C3D_ItemTypeRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemTypeRevMasterS"
+       value="C3D_ItemTypeRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_MIMEType" value="C3D_MIMETypeCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VMBFILE" value="VMBFILECreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VMLFILE" value="VMLFILECreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VMPFILE" value="VMPFILECreI"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="C3D_MIMEType" value="$object_name+&quot;-&quot;+$c3d_mime_type"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_Comment" value="C3D_review_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_DeliveryMap" value="C3D_xml_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_DeliveryMapRevision"
+       value="C3D_xml_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_Item" value="C3D_item_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemContext" value="C3D_ItemContext_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemContextRevision"
+       value="C3D_ItemContext_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemRevision" value="C3D_item_rev_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemType" value="C3D_pub_type_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemTypeRevision" value="C3D_pub_type_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_MIMEType" value="C3D_mime_type_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VMBFILE" value="C3D_vmb_file.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VMPFILE" value="C3D_vmp_file.png"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_DeliveryMap" value="C3D_DeliveryMapRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_Item" value="C3D_ItemRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemContext" value="C3D_ItemContextRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemPub" value="C3D_ItemPubRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemType" value="C3D_ItemTypeRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_DeliveryMap" value="C3D_DeliveryMapMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_DeliveryMapRevision"
+       value="C3D_DeliveryMapRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_Item" value="C3D_ItemMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemContext" value="C3D_ItemContextMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemContextRevision"
+       value="C3D_ItemContextRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemPub" value="C3D_ItemPubMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemPubRevision"
+       value="C3D_ItemPubRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemRevision" value="C3D_ItemRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemType" value="C3D_ItemTypeMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemTypeRevision"
+       value="C3D_ItemTypeRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_DeliveryMapRevision"
+       value="C3D_DeliveryMapRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemContextRevision"
+       value="C3D_ItemContextRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemPubRevision"
+       value="C3D_ItemPubRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemRevision" value="C3D_ItemRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemTypeRevision"
+       value="C3D_ItemTypeRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_Comment" value="C3D_CommentSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMap" value="C3D_DeliveryMapSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMapMaster"
+       value="C3D_DeliveryMapMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMapMasterS"
+       value="C3D_DeliveryMapMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMapRevision"
+       value="C3D_DeliveryMapRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMapRevisionMaster"
+       value="C3D_DeliveryMapRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DeliveryMapRevMasterS"
+       value="C3D_DeliveryMapRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_Item" value="C3D_ItemSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContext" value="C3D_ItemContextSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContextMaster"
+       value="C3D_ItemContextMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContextMasterS"
+       value="C3D_ItemContextMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContextRevision"
+       value="C3D_ItemContextRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContextRevisionMaster"
+       value="C3D_ItemContextRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemContextRevMasterS"
+       value="C3D_ItemContextRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemMaster" value="C3D_ItemMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemMasterS" value="C3D_ItemMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPub" value="C3D_ItemPubSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPubMaster" value="C3D_ItemPubMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPubMasterS"
+       value="C3D_ItemPubMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPubRevision"
+       value="C3D_ItemPubRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPubRevisionMaster"
+       value="C3D_ItemPubRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemPubRevMasterS"
+       value="C3D_ItemPubRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemRevision" value="C3D_ItemRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemRevisionMaster"
+       value="C3D_ItemRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemRevMasterS"
+       value="C3D_ItemRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemType" value="C3D_ItemTypeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemTypeMaster"
+       value="C3D_ItemTypeMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemTypeMasterS"
+       value="C3D_ItemTypeMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemTypeRevision"
+       value="C3D_ItemTypeRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemTypeRevisionMaster"
+       value="C3D_ItemTypeRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemTypeRevMasterS"
+       value="C3D_ItemTypeRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_MIMEType" value="C3D_MIMETypeSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VMBFILE" value="VMBFILESvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VMLFILE" value="VMLFILESvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VMPFILE" value="VMPFILESvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Comment" propertyName="c3d_comment"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Comment" propertyName="c3d_commentstatus"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Comment" propertyName="c3d_contents"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Comment" propertyName="c3d_guid"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Comment" propertyName="c3d_itemRev"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_Item" propertyName="c3d_itemType"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevision" propertyName="c3d_contexts"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevision" propertyName="c3d_icnlist"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevision" propertyName="c3d_icnmaster"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevision" propertyName="c3d_icnreused"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevision" propertyName="c3d_revNR"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnlist" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnmaster" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnreused" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemType" propertyName="c3d_rapidTool"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemType" propertyName="c3d_transfermode"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_MIMEType" propertyName="c3d_extension"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_MIMEType" propertyName="c3d_mime_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Exportable" typeName="C3D_Item" propertyName="c3d_itemType"
+       value="Required"/>
+   <TcPropertyConstantAttach constantName="Exportable" typeName="C3D_ItemType" propertyName="c3d_rapidTool"
+       value="Required"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Comment" propertyName="c3d_comment"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Comment" propertyName="c3d_commentstatus"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Comment" propertyName="c3d_contents"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Comment" propertyName="c3d_guid"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Comment" propertyName="c3d_itemRev"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_Item" propertyName="c3d_itemType"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevision"
+       propertyName="c3d_contexts" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevision"
+       propertyName="c3d_icnlist" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevision"
+       propertyName="c3d_icnmaster" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevision"
+       propertyName="c3d_icnreused" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevision"
+       propertyName="c3d_revNR" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnlist" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnmaster" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemRevisionCreI"
+       propertyName="c3d_icnreused" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemType" propertyName="c3d_deliveryMap"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemType" propertyName="c3d_rapidTool"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemType" propertyName="c3d_transfermode"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_MIMEType" propertyName="c3d_extension"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_MIMEType" propertyName="c3d_mime_type"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="C3D_View"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_Item" propertyName="c3d_itemType"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_ItemTypeCreI" propertyName="c3d_rapidTool"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_MIMEType" propertyName="c3d_mime_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_MIMETypeCreI" propertyName="c3d_extension"
+       value="true"/>
+   <TcDeepCopyRule typeName="C3D_DeliveryMapRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMBFILE" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMLFILE" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMPFILE" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemTypeRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_DeliveryMapRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMBFILE" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMLFILE" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="VMPFILE" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemTypeRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="FullText" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="false" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcGRMRule primaryTypeName="C3D_DeliveryMapRevision" secondaryTypeName="FullText"
+       relationTypeName="IMAN_specification" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="WriteAccessReq" changeability="Changeable"
+       detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="C3D_ItemRevision" secondaryTypeName="FullText" relationTypeName="IMAN_specification"
+       conditionName="isTrue" primaryCardinality="-1" secondaryCardinality="-1" secured="false"
+       attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="C3D_ItemRevision" secondaryTypeName="VMBFILE" relationTypeName="IMAN_specification"
+       conditionName="isTrue" primaryCardinality="-1" secondaryCardinality="1" secured="false"
+       attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="C3D_ItemRevision" secondaryTypeName="VMLFILE" relationTypeName="IMAN_specification"
+       conditionName="isTrue" primaryCardinality="-1" secondaryCardinality="1" secured="false"
+       attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="C3D_ItemRevision" secondaryTypeName="VMPFILE" relationTypeName="IMAN_specification"
+       conditionName="isTrue" primaryCardinality="-1" secondaryCardinality="1" secured="false"
+       attachability="WriteAccessReq" changeability="Changeable" detachability="WriteAccessReq"
+       description=""/>
+   <TcGRMRule primaryTypeName="C3D_ItemTypeRevision" secondaryTypeName="FullText"
+       relationTypeName="IMAN_specification" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="WriteAccessReq" changeability="Changeable"
+       detachability="WriteAccessReq" description=""/>
+   <TcLOV name="C3D_CommentStatus" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Cortona3D Comment Status">
+     <TcLOVValue value="none" description="" conditionName="isTrue"/>
+     <TcLOVValue value="accepted" description="" conditionName="isTrue"/>
+     <TcLOVValue value="canceled" description="" conditionName="isTrue"/>
+     <TcLOVValue value="completed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="rejected" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="C3D_Tools" lovType="ListOfValuesString" usage="Exhaustive" description="Cortona3D RapidAuthor tools">
+     <TcLOVValue value="RC" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RM" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RT" description="" conditionName="isTrue"/>
+     <TcLOVValue value="RI" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="C3D_CommentStatus" typeName="C3D_Comment">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_commentstatus" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3D_Tools" typeName="C3D_ItemType">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_rapidTool" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcViewType viewTypeName="C3D_View" description="Cortona3D View"/>
+</Add>
+</TcBusinessData>

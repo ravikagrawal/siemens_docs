@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:06 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mci0InspectionRelation" locale="cs_CZ" status="Approved">Relace kontroly</key>
+           
+        <key id="BusinessObject{::}Mci0InspectionRevision" locale="cs_CZ" status="Approved">Revize kontroly</key>
+           
+        <key id="BusinessObject{::}Mci0Inspection" locale="cs_CZ" status="Approved">Kontrola</key>
+           
+        <key id="BusinessObject{::}Mci0PMIBop_Details" locale="cs_CZ" status="Approved">Podrobnosti technologického postupu PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMICharacteristic" locale="cs_CZ" status="Approved">Vlastnosti PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrmStrg" locale="cs_CZ" status="Approved">Úložiště vlastností tvaru PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrm" locale="cs_CZ" status="Approved">Vlastnosti tvaru PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIMetaData" locale="cs_CZ" status="Approved">Metadata PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIStorage" locale="cs_CZ" status="Approved">Úložiště PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXmlRel" locale="cs_CZ" status="Approved">Relace PMI XML</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXml" locale="cs_CZ" status="Approved">PMI XML</key>
+           
+        <key id="BusinessObject{::}Mci0PMI_Details" locale="cs_CZ" status="Approved">Podrobnosti PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMI" locale="cs_CZ" status="Approved">Informace o výrobě výrobku</key>
+           
+        <key id="PSOccurrence{::}Mci0MEInspect" locale="cs_CZ" status="Approved">Kontrola ME</key>
+           
+        <key id="Property{::}BOMLine{::}Characteristics Type" locale="cs_CZ" status="Approved">Typ vlastností PMI</key>
+           
+        <key id="Property{::}BOMLine{::}DCD Place Holder" locale="cs_CZ" status="Approved">Zástupce DCD</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Dimension Type" locale="cs_CZ" status="Approved">Typ kóty PMI </key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Code" locale="cs_CZ" status="Approved">Kód PMI GDT</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Text" locale="cs_CZ" status="Approved">Text PMI GDT</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Is Composite FCF" locale="cs_CZ" status="Approved">PMI je složený FCF</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Lower Spec Limit" locale="cs_CZ" status="Approved">Dolní mez specifikace PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Marked As Deleted" locale="cs_CZ" status="Approved">PMI označeno jako odstraněno</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Modifier" locale="cs_CZ" status="Approved">Modifikátor PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Nominal Value" locale="cs_CZ" status="Approved">Jmenovitá hodnota PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Not For Inspection" locale="cs_CZ" status="Approved">PMI není určeno ke kontrole</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Place Holder" locale="cs_CZ" status="Approved">Zástupce PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Primary Datum Ref" locale="cs_CZ" status="Approved">Primární značka základny PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Second Datum Ref" locale="cs_CZ" status="Approved">Sekundární značka základny PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tertiary Datum Ref" locale="cs_CZ" status="Approved">Terciární značka základny PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tolerance Is Absolute" locale="cs_CZ" status="Approved">Tolerance PMI je absolutní</key>
+           
+        <key id="Property{::}BOMLine{::}PMI UOM" locale="cs_CZ" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Upper Spec Limit" locale="cs_CZ" status="Approved">Horní mez specifikace PMI</key>
+           
+        <key id="Property{::}BOMLine{::}Tolerance Desc" locale="cs_CZ" status="Approved">Popis tolerance PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationId" locale="cs_CZ" status="Approved">ID asociace PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationType" locale="cs_CZ" status="Approved">Typ asociace PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Criticality" locale="cs_CZ" status="Approved">Kritičnost</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0DimensionType" locale="cs_CZ" status="Approved">Typ kóty PMI </key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0FrameLocation" locale="cs_CZ" status="Approved">Umístění rámu PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTCode" locale="cs_CZ" status="Approved">Kód GDT</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTText" locale="cs_CZ" status="Approved">Text GDT</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsAbsolutePMI" locale="cs_CZ" status="Approved">Tolerance PMI je absolutní</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPMICompositeFCF" locale="cs_CZ" status="Approved">PMI je složený FCF</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPartPmi" locale="cs_CZ" status="Approved">PMI je součást</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0LowerSpecLimit" locale="cs_CZ" status="Approved">Dolní mez specifikace</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0MarkedAsDeleted" locale="cs_CZ" status="Approved">Označeno jako odstraněné</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Modifier" locale="cs_CZ" status="Approved">Modifikátor PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0NominalValue" locale="cs_CZ" status="Approved">Nominální hodnota</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiBaseUUID" locale="cs_CZ" status="Approved">Základní UUID PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiDescription" locale="cs_CZ" status="Approved">Popis PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiExtensionID" locale="cs_CZ" status="Approved">ID rozšíření PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiID" locale="cs_CZ" status="Approved">ID PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Text" locale="cs_CZ" status="Approved">Text PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UOM" locale="cs_CZ" status="Approved">Měrné jednotky</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UpperSpecLimit" locale="cs_CZ" status="Approved">Horní mez specifikace</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristicsType" locale="cs_CZ" status="Approved">Typ vlastností</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristic" locale="cs_CZ" status="Approved">Vlastnost</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0pmiMetaData" locale="cs_CZ" status="Approved">Metadata PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0primaryDatumReference" locale="cs_CZ" status="Approved">Primární značka základny</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0secondaryDatumReference" locale="cs_CZ" status="Approved">Sekundární značka základny</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisI" locale="cs_CZ" status="Approved">Osa plochy I</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisJ" locale="cs_CZ" status="Approved">Osa plochy J</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisK" locale="cs_CZ" status="Approved">Osa plochy K</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceEntity" locale="cs_CZ" status="Approved">Entita plochy</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationX" locale="cs_CZ" status="Approved">Umístění plochy X</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationY" locale="cs_CZ" status="Approved">Umístění plochy Y</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationZ" locale="cs_CZ" status="Approved">Umístění plochy Z</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceRadius" locale="cs_CZ" status="Approved">Poloměr plochy</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceType" locale="cs_CZ" status="Approved">Typ povrchu</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0tertiaryDatumReference" locale="cs_CZ" status="Approved">Terciární značka základny</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0toleranceDesc" locale="cs_CZ" status="Approved">Popis tolerance</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DatumLabel" locale="cs_CZ" status="Approved">Popisek s datem</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DimensionType" locale="cs_CZ" status="Approved">Typ kóty PMI </key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTCode" locale="cs_CZ" status="Approved">Kód GDT</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTText" locale="cs_CZ" status="Approved">Text GDT</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsAbsolutePMI" locale="cs_CZ" status="Approved">Tolerance PMI je absolutní</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsPMICompositeFCF" locale="cs_CZ" status="Approved">PMI je složený FCF</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0LowerSpecLimit" locale="cs_CZ" status="Approved">Dolní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0MarkedAsDeleted" locale="cs_CZ" status="Approved">Označeno jako odstraněné</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Modifier" locale="cs_CZ" status="Approved">Modifikátor PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0NominalValue" locale="cs_CZ" status="Approved">Nominální hodnota</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiBaseUUID" locale="cs_CZ" status="Approved">Základní UUID PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiDescription" locale="cs_CZ" status="Approved">Popis PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiExtensionID" locale="cs_CZ" status="Approved">ID rozšíření PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiID" locale="cs_CZ" status="Approved">ID PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Text" locale="cs_CZ" status="Approved">Text PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UOM" locale="cs_CZ" status="Approved">Měrné jednotky</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UpperSpecLimit" locale="cs_CZ" status="Approved">Horní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0characteristicsType" locale="cs_CZ" status="Approved">Typ vlastností</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0pmiMetaData" locale="cs_CZ" status="Approved">Metadata PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0primaryDatumReference" locale="cs_CZ" status="Approved">Primární značka základny</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0secondaryDatumReference" locale="cs_CZ" status="Approved">Sekundární značka základny</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisI" locale="cs_CZ" status="Approved">Osa plochy I</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisJ" locale="cs_CZ" status="Approved">Osa plochy J</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisK" locale="cs_CZ" status="Approved">Osa plochy K</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceEntity" locale="cs_CZ" status="Approved">Entita plochy</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationX" locale="cs_CZ" status="Approved">Umístění plochy X</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationY" locale="cs_CZ" status="Approved">Umístění plochy Y</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationZ" locale="cs_CZ" status="Approved">Umístění plochy Z</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceRadius" locale="cs_CZ" status="Approved">Poloměr plochy</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceType" locale="cs_CZ" status="Approved">Typ povrchu</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0tertiaryDatumReference" locale="cs_CZ" status="Approved">Terciární značka základny</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0toleranceDesc" locale="cs_CZ" status="Approved">Popis tolerance</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0DimensionType" locale="cs_CZ" status="Approved">Typ kóty PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Frequency" locale="cs_CZ" status="Approved">Frekvence</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTCode" locale="cs_CZ" status="Approved">Kód GDT</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTText" locale="cs_CZ" status="Approved">Text GDT</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0InspectionType" locale="cs_CZ" status="Approved">Typ kontroly</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsAbsolutePMI" locale="cs_CZ" status="Approved">Tolerance PMI je absolutní</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsPMICompositeFCF" locale="cs_CZ" status="Approved">PMI je složený FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0LowerSpecLimit" locale="cs_CZ" status="Approved">Dolní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MarkedAsDeleted" locale="cs_CZ" status="Approved">Označeno jako odstraněno</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MeasurementMethod" locale="cs_CZ" status="Approved">Metoda měření</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Modifier" locale="cs_CZ" status="Approved">Modifikátor PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NominalValue" locale="cs_CZ" status="Approved">Jmenovitá hodnota</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NotForInspection" locale="cs_CZ" status="Approved">Ne pro kontrolu</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PlannerDescription" locale="cs_CZ" status="Approved">Popis plánovače</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PmiDescription" locale="cs_CZ" status="Approved">Popis PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Responsible" locale="cs_CZ" status="Approved">Zodpovědný</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0UpperSpecLimit" locale="cs_CZ" status="Approved">Horní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0characteristicsType" locale="cs_CZ" status="Approved">Typ vlastností</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0primaryDatumReference" locale="cs_CZ" status="Approved">Primární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0secondaryDatumReference" locale="cs_CZ" status="Approved">Sekundární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisI" locale="cs_CZ" status="Approved">Osa plochy I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisJ" locale="cs_CZ" status="Approved">Osa plochy J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisK" locale="cs_CZ" status="Approved">Osa plochy K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceEntity" locale="cs_CZ" status="Approved">Entita plochy</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationX" locale="cs_CZ" status="Approved">Umístění plochy X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationY" locale="cs_CZ" status="Approved">Umístění plochy Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationZ" locale="cs_CZ" status="Approved">Umístění plochy Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceRadius" locale="cs_CZ" status="Approved">Poloměr plochy</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceType" locale="cs_CZ" status="Approved">Typ povrchu</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0tertiaryDatumReference" locale="cs_CZ" status="Approved">Terciární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0toleranceDesc" locale="cs_CZ" status="Approved">Popis tolerance</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0DimensionType" locale="cs_CZ" status="Approved">Typ kóty PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Frequency" locale="cs_CZ" status="Approved">Frekvence</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTCode" locale="cs_CZ" status="Approved">Kód GDT</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTText" locale="cs_CZ" status="Approved">Text GDT</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0InspectionType" locale="cs_CZ" status="Approved">Typ kontroly</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsAbsolutePMI" locale="cs_CZ" status="Approved">Tolerance PMI je absolutní</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsPMICompositeFCF" locale="cs_CZ" status="Approved">PMI je složený FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0LowerSpecLimit" locale="cs_CZ" status="Approved">Dolní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MarkedAsDeleted" locale="cs_CZ" status="Approved">Označeno jako odstraněno</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MeasurementMethod" locale="cs_CZ" status="Approved">Metoda měření</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Modifier" locale="cs_CZ" status="Approved">Modifikátor PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NominalValue" locale="cs_CZ" status="Approved">Jmenovitá hodnota</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NotForInspection" locale="cs_CZ" status="Approved">Ne pro kontrolu</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PlannerDescription" locale="cs_CZ" status="Approved">Popis plánovače</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PmiDescription" locale="cs_CZ" status="Approved">Popis PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Responsible" locale="cs_CZ" status="Approved">Zodpovědný</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0UpperSpecLimit" locale="cs_CZ" status="Approved">Horní mez specifikace</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0characteristicsType" locale="cs_CZ" status="Approved">Typ vlastností</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0primaryDatumReference" locale="cs_CZ" status="Approved">Primární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0secondaryDatumReference" locale="cs_CZ" status="Approved">Sekundární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisI" locale="cs_CZ" status="Approved">Osa plochy I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisJ" locale="cs_CZ" status="Approved">Osa plochy J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisK" locale="cs_CZ" status="Approved">Osa plochy K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceEntity" locale="cs_CZ" status="Approved">Entita plochy</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationX" locale="cs_CZ" status="Approved">Umístění plochy X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationY" locale="cs_CZ" status="Approved">Umístění plochy Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationZ" locale="cs_CZ" status="Approved">Umístění plochy Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceRadius" locale="cs_CZ" status="Approved">Poloměr plochy</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceType" locale="cs_CZ" status="Approved">Typ povrchu</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0tertiaryDatumReference" locale="cs_CZ" status="Approved">Terciární značka základny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0toleranceDesc" locale="cs_CZ" status="Approved">Popis tolerance</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationId" locale="cs_CZ" status="Approved">ID asociace PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationType" locale="cs_CZ" status="Approved">Typ asociace PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0FrameLocation" locale="cs_CZ" status="Approved">Umístění rámu PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0IsPartPmi" locale="cs_CZ" status="Approved">PMI je součást</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0JTDataset" locale="cs_CZ" status="Approved">Dataset JT</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0NGIDs" locale="cs_CZ" status="Approved">NGID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0accountabilityID" locale="cs_CZ" status="Approved">ID odpovědnosti</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0connectedParts" locale="cs_CZ" status="Approved">Připojené součásti</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0context" locale="cs_CZ" status="Approved">Kontext</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0AccountabilityID" locale="cs_CZ" status="Approved">ID odpovědnosti</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMICharacteristicsUid" locale="cs_CZ" status="Approved">UID vlastnosti PMI</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMIReferencePart" locale="cs_CZ" status="Approved">Referenční součást PMI</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PmiID" locale="cs_CZ" status="Approved">ID PMI</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0OwningItemID" locale="cs_CZ" status="Approved">ID vlastnící položky</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0PMIDatasetLastModDate" locale="cs_CZ" status="Approved">Datum poslední úpravy datasetu PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0AccountabilityID" locale="cs_CZ" status="Approved">ID odpovědnosti</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMICharacteristicsUid" locale="cs_CZ" status="Approved">UID vlastnosti PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMIReferencePart" locale="cs_CZ" status="Approved">Referenční součást PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PmiID" locale="cs_CZ" status="Approved">ID PMI</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0Criticality" locale="cs_CZ" status="Approved">Kritičnost</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0KeyCharacteristics" locale="cs_CZ" status="Approved">Klíčové vlastnosti</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0UOM" locale="cs_CZ" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0Criticality" locale="cs_CZ" status="Approved">Kritičnost</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0KeyCharacteristics" locale="cs_CZ" status="Approved">Klíčové vlastnosti</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0UOM" locale="cs_CZ" status="Approved">PMI UOM</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Critical" locale="cs_CZ" status="Approved">Úroveň důležitosti je Kritická</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Documentation" locale="cs_CZ" status="Approved">Úroveň důležitosti je Dokumentace</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Major" locale="cs_CZ" status="Approved">Úroveň důležitosti je Hlavní</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Minor" locale="cs_CZ" status="Approved">Úroveň důležitosti je Vedlejší</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="cs_CZ" status="Approved">Klíčové vlastnosti návrhu</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="cs_CZ" status="Approved">Klíčové vlastnosti procesu</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Angularity" locale="cs_CZ" status="Approved">Typ vlastnosti sklon</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="cs_CZ" status="Approved">Typ vlastnosti průsečík os</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularity" locale="cs_CZ" status="Approved">Typ vlastnosti kruhovitost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="cs_CZ" status="Approved">Typ vlastnosti obvodové házení</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Concentricity" locale="cs_CZ" status="Approved">Typ vlastnosti soustřednost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="cs_CZ" status="Approved">Typ vlastnosti válcovitost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Flatness" locale="cs_CZ" status="Approved">Typ vlastnosti plochost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Parallelism" locale="cs_CZ" status="Approved">Typ vlastnosti rovnoběžnost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="cs_CZ" status="Approved">Typ vlastnosti kolmost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Position" locale="cs_CZ" status="Approved">Typ vlastnosti pozice</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="cs_CZ" status="Approved">Typ vlastnosti profil čáry</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="cs_CZ" status="Approved">Typ vlastnosti profil plochy</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Straightness" locale="cs_CZ" status="Approved">Typ vlastnosti přímost</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Symmetry" locale="cs_CZ" status="Approved">Typ vlastnosti symetrie</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="cs_CZ" status="Approved">Typ vlastnosti totální vyčerpání</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BLEND" locale="cs_CZ" status="Approved">Typ plochy zaoblení</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BSPLINE" locale="cs_CZ" status="Approved">Typ plochy B-spline</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CONE" locale="cs_CZ" status="Approved">Typ plochy kužel</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CYLINDER" locale="cs_CZ" status="Approved">Typ plochy válec</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}OFFSET" locale="cs_CZ" status="Approved">Typ plochy odsazení</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}PLANE" locale="cs_CZ" status="Approved">Typ plochy rovina</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPHERE" locale="cs_CZ" status="Approved">Typ plochy koule</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPUN" locale="cs_CZ" status="Approved">Typ plochy rotační</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SWEPT" locale="cs_CZ" status="Approved">Typ plochy tažení</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}TORUS" locale="cs_CZ" status="Approved">Typ plochy anuloid</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="cs_CZ" status="Approved">Typ plochy neznámý</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Critical" locale="cs_CZ" status="Approved">Kritické</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Documentation" locale="cs_CZ" status="Approved">Dokumentace</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Major" locale="cs_CZ" status="Approved">Hlavní</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Minor" locale="cs_CZ" status="Approved">Vedlejší</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Boolean" locale="cs_CZ" status="Approved">Booleovský</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Go-No Go" locale="cs_CZ" status="Approved">Přejít-Nepřejít</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Min-Max" locale="cs_CZ" status="Approved">Minimum-Maximum</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Numeric" locale="cs_CZ" status="Approved">Číselný</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Pass-Fail" locale="cs_CZ" status="Approved">Vyhovuje-Nevyhovuje</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}String" locale="cs_CZ" status="Approved">Řetězec</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}True-False" locale="cs_CZ" status="Approved">True-False</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Yes-No" locale="cs_CZ" status="Approved">Ano-Ne</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="cs_CZ" status="Approved">DKC</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="cs_CZ" status="Approved">PKC</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Angularity" locale="cs_CZ" status="Approved">Sklon</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="cs_CZ" status="Approved">Průsečík os</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularity" locale="cs_CZ" status="Approved">Kruhovitost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="cs_CZ" status="Approved">Obvodové házení</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Concentricity" locale="cs_CZ" status="Approved">Soustřednost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="cs_CZ" status="Approved">Válcovitost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Flatness" locale="cs_CZ" status="Approved">Plochost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Parallelism" locale="cs_CZ" status="Approved">Rovnoběžnost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="cs_CZ" status="Approved">Kolmost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Position" locale="cs_CZ" status="Approved">Pozice</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="cs_CZ" status="Approved">Profil čáry</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="cs_CZ" status="Approved">Profil plochy</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Straightness" locale="cs_CZ" status="Approved">Přímost</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Symmetry" locale="cs_CZ" status="Approved">Symetrie</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="cs_CZ" status="Approved">Totální vyčerpání</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BLEND" locale="cs_CZ" status="Approved">Zaoblení</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BSPLINE" locale="cs_CZ" status="Approved">B-spline</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CONE" locale="cs_CZ" status="Approved">Kužel</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CYLINDER" locale="cs_CZ" status="Approved">Válec</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}OFFSET" locale="cs_CZ" status="Approved">Odsazení</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}PLANE" locale="cs_CZ" status="Approved">Rovina</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPHERE" locale="cs_CZ" status="Approved">Koule</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPUN" locale="cs_CZ" status="Approved">Rotační</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SWEPT" locale="cs_CZ" status="Approved">Tažení</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}TORUS" locale="cs_CZ" status="Approved">Anuloid</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="cs_CZ" status="Approved">Neznámý</key>
+           
+        <key id="BusinessObject{::}Mci0BvrBopPMI" locale="cs_CZ" status="Approved">PMI BOP BVR</key>
+           
+        <key id="Property{::}BOMLine{::}mci0PMIAttachedDataset" locale="cs_CZ" status="Approved">Připojený dataset PMI</key>
+           
+        <key id="Property{::}BOMLine{::}mciJTAttachedDataset" locale="cs_CZ" status="Approved">Připojený dataset JT PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0AccountabilityID" locale="cs_CZ" status="Approved">ID odpovědnosti PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0Criticality" locale="cs_CZ" status="Approved">Důležitost PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0KeyCharacteristics" locale="cs_CZ" status="Approved">Klíčové vlastnosti PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMICharacteristicsUid" locale="cs_CZ" status="Approved">UID vlastnosti PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIDescription" locale="cs_CZ" status="Approved">Popis PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIReferencePart" locale="cs_CZ" status="Approved">Referenční součást PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PmiID" locale="cs_CZ" status="Approved">ID PMI</key>
+           
+        <key id="Property{::}GDELine{::}PMI Inspection Type" locale="cs_CZ" status="Approved">Typ inspekce PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Criticality" locale="cs_CZ" status="Approved">Důležitost PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Frequency" locale="cs_CZ" status="Approved">Frekvence PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0InspectionProcedure" locale="cs_CZ" status="Approved">Postup kontroly PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0MeasurementMethod" locale="cs_CZ" status="Approved">Metoda měření PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0PlannerDescription" locale="cs_CZ" status="Approved">Popis plánovače PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Responsible" locale="cs_CZ" status="Approved">Zodpovědnost PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisI" locale="cs_CZ" status="Approved">Osa plochy I</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisJ" locale="cs_CZ" status="Approved">Osa plochy J</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisK" locale="cs_CZ" status="Approved">Osa plochy K</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceEntity" locale="cs_CZ" status="Approved">Entita plochy</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationX" locale="cs_CZ" status="Approved">Umístění plochy X</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationY" locale="cs_CZ" status="Approved">Umístění plochy Y</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationZ" locale="cs_CZ" status="Approved">Umístění plochy Z</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceName" locale="cs_CZ" status="Approved">Název plochy</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceRadius" locale="cs_CZ" status="Approved">Poloměr plochy</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceType" locale="cs_CZ" status="Approved">Typ povrchu</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceName" locale="cs_CZ" status="Approved">Název plochy</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

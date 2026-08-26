@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="fr_FR" status="Approved">Modifier l'élément d'historique</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="fr_FR" status="Approved">Fournisseur d'analyse d'impact</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="fr_FR" status="Approved">Fournisseur d'objet impacté pour Lignée</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="fr_FR" status="Approved">Mon fournisseur de modifications</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="fr_FR" status="Approved">Gestionnaire des modifications</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="fr_FR" status="Approved">Approuvé par CIB</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="fr_FR" status="Approved">La CIB a approuvé la modification simultanée</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="fr_FR" status="Approved">Modification validée</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="fr_FR" status="Approved">La modification simultanée a été validée</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="fr_FR" status="Approved">Gestionnaire des modifications</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="fr_FR" status="Approved">Approuvé par CIB</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="fr_FR" status="Approved">La CIB a approuvé la modification simultanée</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="fr_FR" status="Approved">Modification validée</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="fr_FR" status="Approved">La modification simultanée a été validée</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="fr_FR" status="Approved">Autorise la Notification de modification</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="fr_FR" status="Approved">Autorise la Notification de modification</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="fr_FR" status="Approved">Fermeture</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="fr_FR" status="Approved">Disposition</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="fr_FR" status="Approved">Article impacté</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="fr_FR" status="Approved">Incorporé par</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="fr_FR" status="Approved">Incorporé dans</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="fr_FR" status="Approved">Statut Incorporé</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="fr_FR" status="Approved">Incorpore les modifications de</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="fr_FR" status="Approved">Annotation</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="fr_FR" status="Approved">Maturité</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="fr_FR" status="Approved">Solution</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="fr_FR" status="Approved">Article de solution</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="fr_FR" status="Approved">Filtres</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="fr_FR" status="Approved">Effectivité de Statut de validation</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="fr_FR" status="Approved">Signaler un problème</key>
+           
+        <key id="CommandDisplayName{::}Cm1RevertChanges" locale="fr_FR" status="Approved">Annuler les modifications</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="fr_FR" status="Approved">Modification de séquence</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="fr_FR" status="Approved">Créer une modification</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="fr_FR" status="Approved">Créer une modification</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="fr_FR" status="Approved">Dériver la modification</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="fr_FR" status="Approved">Définir la lignée</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="fr_FR" status="Approved">Annuler définition de lignée</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="fr_FR" status="Approved">La condition pour ECN est définie comme contexte pour objets 4GD</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="fr_FR" status="Approved">Cette condition définit le critère d'activation pour les commandes d'édition de dépendance GnChangeNoticeRevision. Cette condition permet la vérification des critères en fonction de l'objet de gestion en contexte et de la session utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="fr_FR" status="Approved">L'utilisateur a-t-il une licence de modification?</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="fr_FR" status="Approved">Condition pour cacher la commande de cadre de travail pour affecter l'effectivité de statut. La commande spécifique au Gestionnaire des modifications est affichée en remplacement.</key>
+           
+        <key id="ConditionDescription{::}Cm1RevertCmdCond" locale="fr_FR" status="Approved">Détermine si l'élément peut être rétabli.</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="fr_FR" status="Approved">Cette condition définit le critère d'activation pour les commandes d'édition de dépendance GnChangeNoticeRevision. Cette condition permet la vérification des critères en fonction de la Révision de notification de modification en contexte et de la session utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="fr_FR" status="Approved">Condition de commande Créer une modification en contexte</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="fr_FR" status="Approved">Condition pour afficher ou masquer la commande Dériver.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="fr_FR" status="Approved">Active la commande Définir la lignée si des objets sélectionnés n'ont pas de lignée et sont de même type.</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="fr_FR" status="Approved">Active la commande Annuler définition de lignée si des objets sélectionnés ont une lignée et sont de même type.</key>
+           
+        <key id="BusinessObject{::}Cm1AffectedItemsProvider" locale="fr_FR" status="Approved">Fournisseur d'articles concernés</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="fr_FR" status="Approved">Elément résumé de modification</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="fr_FR" status="Approved">Modification active pour révision d'occurrence</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="fr_FR" status="Approved">Modification active</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="fr_FR" status="Approved">ECN entrante</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="fr_FR" status="Approved">ECN sortante</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="fr_FR" status="Approved">Elément de conception sous-jacent</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="fr_FR" status="Approved">Est une Feuille</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="fr_FR" status="Approved">Frère de</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="fr_FR" status="Approved">Objet principal sous-jacent</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="fr_FR" status="Approved">Objet secondaire sous-jacent</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="fr_FR" status="Approved">Fusionner sortant requis</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="fr_FR" status="Approved">Mise à jour en masse autorisée?</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="fr_FR" status="Approved">Action de modification</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="fr_FR" status="Approved">Changer Relation</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:56:10 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="Awp03.3.0" description="Library containing artifacts for InContextChange." isThirdParty="false" name="Icc0awincontextchange" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationInputType artifactName="Icc0ChangeContextProviderCreI" description="CreateInput object for &quot;Icc0ChangeContextProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Icc0ChangeContextProviderCreI" typeName="Icc0ChangeContextProviderCreI"/>
+           
+        <OperationInputType artifactName="Icc0ChangeContextProviderSvAI" description="SaveAsInput object for &quot;Icc0ChangeContextProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Icc0ChangeContextProviderSvAI" typeName="Icc0ChangeContextProviderSvAI"/>
+           
+        <TcRuntimeType artifactName="Icc0ChangeContextProvider" description="Interface Name for Business Object Icc0ChangeContextProvider. It is invoked to enlist all the active Change Contexts for current user." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Icc0ChangeContextProvider" typeName="Icc0ChangeContextProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.3.0" description="Interface Name for Business Object Icc0ChangeContextProvider" libraryName="Icc0awincontextchange" name="Icc0ChangeContextProvider" namespace="Icc0awincontextchange" primaryInterface="true" typeName="Icc0ChangeContextProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Icc0ChangeContextProvider"/>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Fnd0AbstractMarkupSpace" value="true"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Icc0ChangeContextProvider" value="Icc0ChangeContextProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Icc0ChangeContextProvider" value="Icc0ChangeContextProviderSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="fnd0EditContextState" typeName="Fnd0AbstractMarkupSpace" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" propertyName="fnd0EditContextState" typeName="Fnd0AbstractMarkupSpace" value="250"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="fnd0EditContextId" typeName="Fnd0AbstractMarkupSpace" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="fnd0EditContextState" typeName="Fnd0AbstractMarkupSpace" value="true"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

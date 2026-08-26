@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mat1BaseUnit" locale="de_DE" status="Approved">Basiseinheit</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMasterS" locale="de_DE" status="Approved">Verbundmaterial-Master-Speicher</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMaster" locale="de_DE" status="Approved">Verbundmaterial-Master</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevMasterS" locale="de_DE" status="Approved">Verbundmaterialänderungsstand-Master-Speicher</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevisionMaster" locale="de_DE" status="Approved">Verbundmaterialänderungsstand-Master</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevision" locale="de_DE" status="Approved">Verbundmaterialänderungsstand</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterial" locale="de_DE" status="Approved">Verbundmaterial</key>
+           
+        <key id="BusinessObject{::}Mat1DerivedUnit" locale="de_DE" status="Approved">Abgeleitete Einheit</key>
+           
+        <key id="BusinessObject{::}Mat1HasAlternateMaterial" locale="de_DE" status="Approved">Alternatives Material</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamBoolean" locale="de_DE" status="Approved">Geerbte boolesche Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDate" locale="de_DE" status="Approved">Geerbte Datumseigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDouble" locale="de_DE" status="Approved">Geerbter Parameter "Double"</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamInteger" locale="de_DE" status="Approved">Geerbte ganzzahlige Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamRichtext" locale="de_DE" status="Approved">Geerbte Rich-Text-Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamSmrtTbl" locale="de_DE" status="Approved">Geerbter Parameter "Smart Table"</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamString" locale="de_DE" status="Approved">Geerbter Parameter "String"</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParameter" locale="de_DE" status="Approved">Geerbter Parameter</key>
+           
+        <key id="BusinessObject{::}Mat1MadeFromMaterial" locale="de_DE" status="Approved">Hergestellt aus Material</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMasterS" locale="de_DE" status="Approved">Materialkatalog-Master-Speicher</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMaster" locale="de_DE" status="Approved">Materialkatalog-Master</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevMasterS" locale="de_DE" status="Approved">Materialkatalogänderungsstand-Master-Speicher</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevisionMaster" locale="de_DE" status="Approved">Materialkatalogänderungsstand-Master</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevision" locale="de_DE" status="Approved">Materialkatalogänderungsstand</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalog" locale="de_DE" status="Approved">Materialkatalog</key>
+           
+        <key id="BusinessObject{::}Mat1MatClassification" locale="de_DE" status="Approved">Materialklasse</key>
+           
+        <key id="BusinessObject{::}Mat1MatML" locale="de_DE" status="Approved">MatML</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialClassification" locale="de_DE" status="Approved">Materialklasse</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialInfo" locale="de_DE" status="Approved">Material-Informationen</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMasterS" locale="de_DE" status="Approved">Material-Master-Speicherung</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMaster" locale="de_DE" status="Approved">Material-Master</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRanking" locale="de_DE" status="Approved">Materialrangfolge in der Materialklasse</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevMasterS" locale="de_DE" status="Approved">Materialänderungsstand-Master-Speicherung</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevisionMaster" locale="de_DE" status="Approved">Materialänderungsstand-Master</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevision" locale="de_DE" status="Approved">Materialänderungsstand</key>
+           
+        <key id="BusinessObject{::}Mat1Material" locale="de_DE" status="Approved">Material</key>
+           
+        <key id="BusinessObject{::}Mat1MetaParameter" locale="de_DE" status="Approved">Abstrakter Eigenschaftsdeskriptor</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSingleParameter" locale="de_DE" status="Approved">Eigenschaftsdeskriptor</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSmartTable" locale="de_DE" status="Approved">Intelligente Tabellenbeschreibung</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterBoolean" locale="de_DE" status="Approved">Boolesche Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDate" locale="de_DE" status="Approved">Parameterdatum</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDouble" locale="de_DE" status="Approved">Doppelte Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterInteger" locale="de_DE" status="Approved">Ganzzahlige Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterRichtext" locale="de_DE" status="Approved">Rich-Text-Eigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterSmartTable" locale="de_DE" status="Approved">Intelligente Tabelleneigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterString" locale="de_DE" status="Approved">Zeichenfolgeeigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1Parameter" locale="de_DE" status="Approved">Materialeigenschaft</key>
+           
+        <key id="BusinessObject{::}Mat1PrefMaterialForCoating" locale="de_DE" status="Approved">Bevorzugte Beschichtungsmaterialien</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMasterS" locale="de_DE" status="Approved">Rohmaterial-Master-Speicherung</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMaster" locale="de_DE" status="Approved">Rohmaterial-Master</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevMasterS" locale="de_DE" status="Approved">Rohmaterialänderungsstand-Master-Speicherung</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevisionMaster" locale="de_DE" status="Approved">Rohmaterialänderungsstand-Master</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevision" locale="de_DE" status="Approved">Rohmaterialänderungsstand</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterial" locale="de_DE" status="Approved">Rohmaterial</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnitCategory" locale="de_DE" status="Approved">Sitzungseinheitskategorie</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnits" locale="de_DE" status="Approved">Sitzungseinheiten</key>
+           
+        <key id="BusinessObject{::}Mat1SmartCurve" locale="de_DE" status="Approved">Intelligente Kurve</key>
+           
+        <key id="BusinessObject{::}Mat1SubstanceInfo" locale="de_DE" status="Approved">Substanz-Informationen</key>
+           
+        <key id="BusinessObject{::}Mat1Substance" locale="de_DE" status="Approved">Substanz</key>
+           
+        <key id="BusinessObject{::}Mat1UnitAltName" locale="de_DE" status="Approved">Einheit - alternativer Name</key>
+           
+        <key id="BusinessObject{::}Mat1UnitCategory" locale="de_DE" status="Approved">Einheitskategorie</key>
+           
+        <key id="BusinessObject{::}Mat1UnitNamesOfADimension" locale="de_DE" status="Approved">Einheitennamen einer Bemaßung</key>
+           
+        <key id="BusinessObject{::}Mat1Units" locale="de_DE" status="Approved">Einheiten</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterialForCoating" locale="de_DE" status="Approved">Materialien für Beschichtung</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterial" locale="de_DE" status="Approved">Materialien</key>
+           
+        <key id="BusinessObject{::}Mat1UsesSubstance" locale="de_DE" status="Approved">Substanzen</key>
+           
+        <key id="BusinessObject{::}Mat1ValidDerviedUnits" locale="de_DE" status="Approved">Gültige abgeleitete Einheiten</key>
+           
+        <key id="BusinessObject{::}Mat1ValidUnitAltNames" locale="de_DE" status="Approved">Alternative Namen für gültige Einheit</key>
+           
+        <key id="BusinessObject{::}RawMaterial" locale="de_DE" status="Approved">Abstraktes Rohmaterial</key>
+           
+        <key id="ConditionDescription{::}Mat1IsMaterialCompositionRestricted" locale="de_DE" status="Approved">Bedingung zum Einschränken der Materialzusammensetzungssichtbarkeit.</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;=" locale="de_DE" status="Approved">Kleiner oder gleich</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;" locale="de_DE" status="Approved">Kleiner als</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;=" locale="de_DE" status="Approved">Größer oder gleich</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;" locale="de_DE" status="Approved">Größer als</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="de_DE" status="Approved">Für Stärke Zentimeter und für Fläche Quadratzentimeter.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}in" locale="de_DE" status="Approved">Für Stärke Zoll und für Fläche Quadratzoll.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="de_DE" status="Approved">(10^-3 mm). Für Stärke Mikrometer und für Fläche Quadratmikrometer.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="de_DE" status="Approved">Für Stärke Millimeter und für Fläche Quadratmillimeter.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}m" locale="de_DE" status="Approved">Für Stärke Meter und für Fläche Quadratmeter.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="de_DE" status="Approved">(10^-6 mm). Für Stärke Nanometer und für Fläche Quadratnanometer.</key>
+           
+        <key id="LOVValueDescription{::}Mat1ExternalSources{::}0" locale="de_DE" status="Approved">MatML</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="de_DE" status="Approved">Boolesch: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Boolesch" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Date" locale="de_DE" status="Approved">Datum: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Datum" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Double" locale="de_DE" status="Approved">Double: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Zahl", "Double", "Dezimal", "Numerisch" oder "Exponential" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="de_DE" status="Approved">Ganzzahl: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Ganzzahl" oder "int" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="de_DE" status="Approved">Rich Text: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Langtext", "Rich Text" und "Hyperlink" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}String" locale="de_DE" status="Approved">Zeichenfolge: Typ des Werts für den Materialparameter, der beim Importieren Eingabedaten vom Typ "Zeichenfolge" oder "Text" abdecken kann.</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}0.001" locale="de_DE" status="Approved">Für mg</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1" locale="de_DE" status="Approved">Für g</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1000" locale="de_DE" status="Approved">Für kg</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}kg" locale="de_DE" status="Approved">Kilogramm</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}mg" locale="de_DE" status="Approved">Milligramm</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;=" locale="de_DE" status="Approved">&lt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;" locale="de_DE" status="Approved">&lt;</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;=" locale="de_DE" status="Approved">&gt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;" locale="de_DE" status="Approved">&gt;</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="de_DE" status="Approved">Zentimeter</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}in" locale="de_DE" status="Approved">Zoll</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="de_DE" status="Approved">Mikrometer</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="de_DE" status="Approved">Millimeter</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}m" locale="de_DE" status="Approved">Meter</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="de_DE" status="Approved">Nanometer</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}approved" locale="de_DE" status="Approved">Genehmigt</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}obsolete" locale="de_DE" status="Approved">Veraltet</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}rejected" locale="de_DE" status="Approved">Zurückgewiesen</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}unapproved" locale="de_DE" status="Approved">Nicht genehmigt</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="de_DE" status="Approved">Boolesch</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Date" locale="de_DE" status="Approved">Datum</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Double" locale="de_DE" status="Approved">Doppelzahl</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="de_DE" status="Approved">Ganzzahl</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="de_DE" status="Approved">Rich Text</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}String" locale="de_DE" status="Approved">Zeichenfolge</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}g" locale="de_DE" status="Approved">Gramm</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}kg" locale="de_DE" status="Approved">Kilogramm</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}mg" locale="de_DE" status="Approved">Milligramm</key>
+           
+        <key id="Property{::}ItemRevision{::}mat1CumulativeMaterialsMass" locale="de_DE" status="Approved">Kumulierte Materialmasse</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1BaseUnitSymbol" locale="de_DE" status="Approved">Basiseinheitssymbol</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1UnitCategory" locale="de_DE" status="Approved">Kategorie der übergeordneten Einheit</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1BaseUnit" locale="de_DE" status="Approved">Symbol der übergeordneten Basis</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitFactor" locale="de_DE" status="Approved">Abgeleiteter Einheitsfaktor</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitOffset" locale="de_DE" status="Approved">Abgeleiteter Einheits-Offset</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitSymbol" locale="de_DE" status="Approved">Abgeleitetes Einheitssymbol</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitValueFormat" locale="de_DE" status="Approved">Abgeleitetes Einheitswertformat</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1BoundSymbol" locale="de_DE" status="Approved">Grenzsymbol</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1IsInRange" locale="de_DE" status="Approved">Ist in Reichweite</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayUnitAlName" locale="de_DE" status="Approved">Bevorzugte Anzeigeeinheit</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValueMax" locale="de_DE" status="Approved">Bevorzugter Anzeigemaximalwert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValue" locale="de_DE" status="Approved">Bevorzugter Anzeigewert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnitAlias" locale="de_DE" status="Approved">Einheit</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnit" locale="de_DE" status="Approved">Abgeleitete Einheit</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValueMax" locale="de_DE" status="Approved">Max. Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValue" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1UnitAliasName" locale="de_DE" status="Approved">Einheit - Aliasname</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Unit" locale="de_DE" status="Approved">Einheit</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ValueMax" locale="de_DE" status="Approved">Max. Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1ListOfCurves" locale="de_DE" status="Approved">Kurvenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitXAlias" locale="de_DE" status="Approved">Einheit X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitX" locale="de_DE" status="Approved">Abgeleitete Einheit X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitYAlias" locale="de_DE" status="Approved">Einheit Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitY" locale="de_DE" status="Approved">Abgeleitete Einheit Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitXAliasName" locale="de_DE" status="Approved">Aliasname für Einheit X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitX" locale="de_DE" status="Approved">Einheit X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitYAliasName" locale="de_DE" status="Approved">Aliasname für Einheit Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitY" locale="de_DE" status="Approved">Einheit Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1XQualifier" locale="de_DE" status="Approved">X-Achsen-Kennungsname</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1SessionValue" locale="de_DE" status="Approved">Anzeigewert</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Category" locale="de_DE" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1MetaParameter" locale="de_DE" status="Approved">Eigenschaftsdeskriptor</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1OwningMaterialRevision" locale="de_DE" status="Approved">Eigentümermaterialänderungsstand</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Parameter" locale="de_DE" status="Approved">Parameter</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1RealName" locale="de_DE" status="Approved">Reeller Name</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition_in_range" locale="de_DE" status="Approved">Verbund im Bereich</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition" locale="de_DE" status="Approved">Komposition (in %)</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1max_composition" locale="de_DE" status="Approved">Max. Komposition (in %)</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1DataVersionInSource" locale="de_DE" status="Approved">Katalogänderungsstandversion der Daten</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MatClassifications" locale="de_DE" status="Approved">Materialklassen</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MaterialRevisions" locale="de_DE" status="Approved">Katalogmaterialien</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MetaParameters" locale="de_DE" status="Approved">Parameterdeskriptoren</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataIdentityInSource" locale="de_DE" status="Approved">Katalogdatenidentität</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataSource" locale="de_DE" status="Approved">Katalogdatenquelle</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1MetaParameters" locale="de_DE" status="Approved">Parameterbeschreibungen</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatCatalog" locale="de_DE" status="Approved">Materialkatalog</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatClassPath" locale="de_DE" status="Approved">Materialklasse - vollständiger Pfad</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1ParentClassification" locale="de_DE" status="Approved">Übergeordnete Klasse</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1RealName" locale="de_DE" status="Approved">Echter Klassenname</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1DisplayName" locale="de_DE" status="Approved">Klassenanzeigename</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatCatalog" locale="de_DE" status="Approved">Materialkatalog</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatClassPath" locale="de_DE" status="Approved">Materialklasse - vollständiger Pfad</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1Name" locale="de_DE" status="Approved">Materialklassenname</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1ParentClassification" locale="de_DE" status="Approved">Übergeordnete Klasse</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1mass" locale="de_DE" status="Approved">Masse</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1material" locale="de_DE" status="Approved">Material</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1uom_tag" locale="de_DE" status="Approved">Maßeinheit</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1MatClassification" locale="de_DE" status="Approved">Zugehörige Materialklasse</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1PreferredMaterialRevs" locale="de_DE" status="Approved">Bevorzugte Materialänderungsstände</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1AlternateNames" locale="de_DE" status="Approved">Materialbezeichnungen</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Applications" locale="de_DE" status="Approved">Anwendungen</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1DataVersionInSource" locale="de_DE" status="Approved">Materialänderungsstandversion in Quelle</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1ExtendsMaterial" locale="de_DE" status="Approved">Übernommen von</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1InheritedParameters" locale="de_DE" status="Approved">Geerbte Parameter</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsInactive" locale="de_DE" status="Approved">Ist inaktiv</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsRecylateable" locale="de_DE" status="Approved">Enthält das Material Rezyklat?</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRevisions" locale="de_DE" status="Approved">Referenzmaterialkataloge</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRev" locale="de_DE" status="Approved">Hauptmaterialkatalogänderungsstand</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatClassifications" locale="de_DE" status="Approved">Materialklassen</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MaterialClasses" locale="de_DE" status="Approved">Materialklasse</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Parameters" locale="de_DE" status="Approved">Parameter</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylFrom" locale="de_DE" status="Approved">Post-Consumer Rezyklat Von %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylTo" locale="de_DE" status="Approved">Post-Consumer Rezyklat Bis %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylFrom" locale="de_DE" status="Approved">Pre-Consumer Rezyklat Von %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylTo" locale="de_DE" status="Approved">Pre-consumer Recylate Bis %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1external_import" locale="de_DE" status="Approved">Ist extern importiertes Material</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1remarks" locale="de_DE" status="Approved">Hinweise</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1status" locale="de_DE" status="Approved">Zur MSD-Anfrage nach Excel exportieren</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substance_details" locale="de_DE" status="Approved">Substanz-Details</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substances" locale="de_DE" status="Approved">Zusammenstellung</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1DataSource" locale="de_DE" status="Approved">Name der Materialdatenquelle</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1ExternalSource" locale="de_DE" status="Approved">Materialquelle</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1MatCatalog" locale="de_DE" status="Approved">Materialkatalog</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1cas_number" locale="de_DE" status="Approved">CAS-Nummer</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_identifier" locale="de_DE" status="Approved">Externe Kennung</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_import" locale="de_DE" status="Approved">Ist extern importiertes Material</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1non_library" locale="de_DE" status="Approved">Ist die Nicht-Materialbibliothek</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1unique_identifier" locale="de_DE" status="Approved">Teamcenter-UID</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1Category" locale="de_DE" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataIdentityInSource" locale="de_DE" status="Approved">Datenidentität</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataSource" locale="de_DE" status="Approved">Datenquelle</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1ParameterID" locale="de_DE" status="Approved">Parameter-ID</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1RealName" locale="de_DE" status="Approved">Reeller Name</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1DataType" locale="de_DE" status="Approved">Datentyp</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Dimension" locale="de_DE" status="Approved">Bemaßung</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1UnitAliasName" locale="de_DE" status="Approved">Einheit - Aliasname</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Unit" locale="de_DE" status="Approved">Maßeinheit</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionX" locale="de_DE" status="Approved">Dimension X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionY" locale="de_DE" status="Approved">Dimension Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitXAliasName" locale="de_DE" status="Approved">Aliasname für Einheit X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitX" locale="de_DE" status="Approved">Maßeinheit für X-Achse</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitYAliasName" locale="de_DE" status="Approved">Aliasname für Einheit Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitY" locale="de_DE" status="Approved">Maßeinheit für Y-Achse</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1XQualifier" locale="de_DE" status="Approved">X-Achsen-Kennungsname</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1ParameterDoubleCreI{::}mat1UnitName" locale="de_DE" status="Approved">Einheitenname</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1BoundSymbol" locale="de_DE" status="Approved">Grenzsymbol</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1IsInRange" locale="de_DE" status="Approved">Befindet der Wert sich im Bereich?</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayUnitAlName" locale="de_DE" status="Approved">Bevorzugte Anzeigeeinheit</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValueMax" locale="de_DE" status="Approved">Bevorzugter Anzeigewert - Maximum</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValue" locale="de_DE" status="Approved">Bevorzugter Anzeigewert</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnitAlias" locale="de_DE" status="Approved">Einheit</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnit" locale="de_DE" status="Approved">Abgeleitete Einheit</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValueMax" locale="de_DE" status="Approved">Max. Anzeigewert</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValue" locale="de_DE" status="Approved">Anzeigewert</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1UnitAliasName" locale="de_DE" status="Approved">Einheit - Aliasname</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Unit" locale="de_DE" status="Approved">Maßeinheit</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ValueMax" locale="de_DE" status="Approved">Max. Wert</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1SessionValue" locale="de_DE" status="Approved">Sitzungswert</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameX" locale="de_DE" status="Approved">Einheitenname X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameY" locale="de_DE" status="Approved">Einheitenname Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1ListOfCurves" locale="de_DE" status="Approved">Kurvenliste</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitXAlias" locale="de_DE" status="Approved">Einheit X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitX" locale="de_DE" status="Approved">Maßeinheit für X-Achse</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitYAlias" locale="de_DE" status="Approved">Einheit Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitY" locale="de_DE" status="Approved">Maßeinheit für Y-Achse</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitXAliasName" locale="de_DE" status="Approved">Aliasname für Einheit X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitX" locale="de_DE" status="Approved">Maßeinheit für X-Achse</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitYAliasName" locale="de_DE" status="Approved">Aliasname für Einheit Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitY" locale="de_DE" status="Approved">Maßeinheit für Y-Achse</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1XQualifier" locale="de_DE" status="Approved">X-Achsen-Kennungsname</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzparameterliste</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1SessionValue" locale="de_DE" status="Approved">Anzeigewert</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1Value" locale="de_DE" status="Approved">Wert</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1Category" locale="de_DE" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1MetaParameter" locale="de_DE" status="Approved">Parameterbeschreibung</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1OwningMaterialRevision" locale="de_DE" status="Approved">Eigentümermaterialänderungsstand</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1ParameterID" locale="de_DE" status="Approved">Parameter-ID</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1RealName" locale="de_DE" status="Approved">Reeller Name</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1AlternateNames" locale="de_DE" status="Approved">Materialbezeichnungen</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Applications" locale="de_DE" status="Approved">Anwendungen</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1DataVersionInSource" locale="de_DE" status="Approved">Materialänderungsstandversion in Quelle</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1ExtendsMaterial" locale="de_DE" status="Approved">Übernommen von</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1InheritedParameters" locale="de_DE" status="Approved">Geerbte Parameter</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRevisions" locale="de_DE" status="Approved">Referenzmaterialkataloge</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRev" locale="de_DE" status="Approved">Hauptmaterialkatalogänderungsstand</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatClassifications" locale="de_DE" status="Approved">Materialklassen</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Parameters" locale="de_DE" status="Approved">Parameter</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1DataSource" locale="de_DE" status="Approved">Name der Materialdatenquelle</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1MatCatalog" locale="de_DE" status="Approved">Materialkatalog</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1external_identifier" locale="de_DE" status="Approved">Externe Kennung</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1DerivedUnit" locale="de_DE" status="Approved">Abgeleitete Einheit</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitAltName" locale="de_DE" status="Approved">Einheitsalias</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitCategory" locale="de_DE" status="Approved">Einheitskategorie</key>
+           
+        <key id="Property{::}Mat1SessionUnits{::}mat1SessionUnitCategoryArr" locale="de_DE" status="Approved">Sitzungseinheitskategoriearray</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1IsMathFormula" locale="de_DE" status="Approved">Mathematische Formel?</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfQualifiers" locale="de_DE" status="Approved">Qualifiziererliste</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfRefParameters" locale="de_DE" status="Approved">Referenzwerteliste</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfUncertainties" locale="de_DE" status="Approved">Unschärfenliste</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1MathFormula" locale="de_DE" status="Approved">Mathematische Formel</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueX" locale="de_DE" status="Approved">Anzeigewerte X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueY" locale="de_DE" status="Approved">Anzeigewerte Y</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesX" locale="de_DE" status="Approved">Werte X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesY" locale="de_DE" status="Approved">Werte Y</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1mass_in_range" locale="de_DE" status="Approved">Befindet sich die Masse im zulässigen Bereich?</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1max_mass" locale="de_DE" status="Approved">Max. Masse</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1min_mass" locale="de_DE" status="Approved">Min. Masse</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1substance" locale="de_DE" status="Approved">Substanz</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1uom_tag" locale="de_DE" status="Approved">Maßeinheit</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EINEC_ELINCS_Number" locale="de_DE" status="Approved">EINECS/ELINCS-Code</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EUIndexCode" locale="de_DE" status="Approved">EU-Index-Code</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1ExternalSource" locale="de_DE" status="Approved">Substanzquelle</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1INN" locale="de_DE" status="Approved">Internationaler nichtproprietärer Name</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1IsInActive" locale="de_DE" status="Approved">Inaktiv</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceName" locale="de_DE" status="Approved">Substanz-Name</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceReplacements" locale="de_DE" status="Approved">Alternative Substanzen</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1Synonym" locale="de_DE" status="Approved">Synonyme</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1cas_number" locale="de_DE" status="Approved">CAS</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_identifier" locale="de_DE" status="Approved">Externe Kennung</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_import" locale="de_DE" status="Approved">Ist eine extern importierte Substanz</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1is_wildcard" locale="de_DE" status="Approved">Platzhaltersubstanz</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1unique_identifier" locale="de_DE" status="Approved">Teamcenter-UID</key>
+           
+        <key id="Property{::}Mat1UnitAltName{::}mat1DerivedUnit" locale="de_DE" status="Approved">Abgeleitete übergeordnete Einheit</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingSurfaceArea" locale="de_DE" status="Approved">Beschichtungsfläche</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingThickness" locale="de_DE" status="Approved">Beschichtungsstärke</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingUnitOfMeasure" locale="de_DE" status="Approved">Basiseinheit Beschichtungsfläche und -stärke</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1IsRecylateable" locale="de_DE" status="Approved">Enthält das Material Rezyklat?</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylFrom" locale="de_DE" status="Approved">Post-Consumer Rezyklat Von %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylTo" locale="de_DE" status="Approved">Post-Consumer Rezyklat Bis %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylFrom" locale="de_DE" status="Approved">Pre-Consumer Rezyklat Von %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylTo" locale="de_DE" status="Approved">Pre-consumer Recylate Bis %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1active_in_external_tool" locale="de_DE" status="Approved">Ist das Material im externen Werkzeug aktiv?</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1external_import" locale="de_DE" status="Approved">Ist extern importiertes Material</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1is_preferred" locale="de_DE" status="Approved">Ist das Material bevorzugt?</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass_in_grams" locale="de_DE" status="Approved">Masse in Gramm</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass" locale="de_DE" status="Approved">Masse</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1uom_tag" locale="de_DE" status="Approved">Maßeinheit</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1OriginalUsesSubstance" locale="de_DE" status="Approved">Erbt von</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition_in_range" locale="de_DE" status="Approved">Befindet sich die Komposition im zulässigen Bereich?</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition" locale="de_DE" status="Approved">% Zusammensetzung</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1external_import" locale="de_DE" status="Approved">Ist eine extern importierte Substanz</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1max_composition" locale="de_DE" status="Approved">% Maximale Zusammensetzung</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

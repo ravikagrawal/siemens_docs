@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="zh_TW" status="Approved">設計到 BOM 連結提供程式</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="zh_TW" status="Approved">控制在建立零件時是否建立並對應設計的條件。</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="zh_TW" status="Approved">控制在建立設計時是否建立零件並將其與設計對應的條件。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="zh_TW" status="Approved">用於啟用產生產品 EBOM 工作流程的工作流程篩選條件。</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="zh_TW" status="Approved">已對應設計關聯</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="zh_TW" status="Approved">對應的設計</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="zh_TW" status="Approved">已對應零件關聯</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="zh_TW" status="Approved">已對應零件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="zh_TW" status="Approved">設計已對應</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="zh_TW" status="Approved">需要設計</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="zh_TW" status="Approved">零件已對應</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="zh_TW" status="Approved">需要零件</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="zh_TW" status="Approved">要對齊的零件</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="zh_TW" status="Approved">保留現有零件</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="zh_TW" status="Approved">要對齊的零件</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="zh_TW" status="Approved">自動建立零件</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="zh_TW" status="Approved">需要零件</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="zh_TW" status="Approved">已對應零件關聯</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="zh_TW" status="Approved">已對應零件</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="zh_TW" status="Approved">零件已對應</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="zh_TW" status="Approved">需要零件</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="zh_TW" status="Approved">要對齊的設計</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="zh_TW" status="Approved">自動建立設計</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="zh_TW" status="Approved">已中斷</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="zh_TW" status="Approved">隱式主要表示</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="zh_TW" status="Approved">設計處於「TCM 已發佈」狀態時該規則啟用設計更新的「設計變更動作」LOV。該條件啟用 Pma0DsgnChangeActionsLOV。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="zh_TW" status="Approved">零件處於「TCM 已發佈」狀態時該規則啟用零件更新的「零件變更動作」LOV。該條件啟用 Pma0PartChangeActionsLOV。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="zh_TW" status="Approved">該規則啟用設計更新的「重用設計動作」LOV。該條件啟用 Pma0ReuseDesignActionsLOV。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="zh_TW" status="Approved">零件和設計處於工作中狀態時該規則啟用零件更新的「重用零件動作」LOV。該條件啟用 Pma0ReusePartActionsLOV。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="zh_TW" status="Approved">設計處於「凍結」狀態時該規則啟用設計更新的「修訂設計動作」LOV。該條件啟用 Pma0ReviseDesignActionLOV。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="zh_TW" status="Approved">零件處於「凍結」狀態時該規則啟用零件更新的「修訂零件動作」LOV。該條件啟用 Pma0RevisePartActionLOV。</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計的現有版本</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="zh_TW" status="Approved">修訂目前與變更中的零件對應的設計。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="zh_TW" status="Approved">對變更中的零件使用新設計</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計的現有版本</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="zh_TW" status="Approved">修訂目前與變更中的零件對應的設計。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="zh_TW" status="Approved">對變更中的設計使用新零件。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="zh_TW" status="Approved">重用零件的現有版本</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="zh_TW" status="Approved">修訂目前與變更中的設計對應的零件。</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="zh_TW" status="Approved">為變更中的零件建立新設計</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="zh_TW" status="Approved">為變更中的設計建立新零件</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="zh_TW" status="Approved">對變更中的設計使用新零件。</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂目前與變更中的設計對應的零件。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計的現有版本</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="zh_TW" status="Approved">重用零件的現有版本</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂目前與變更中的設計對應的零件。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="zh_TW" status="Approved">修訂目前與變更中的零件對應的設計。</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂目前與變更中的設計對應的零件。</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="zh_TW" status="Approved">在修訂設計</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="zh_TW" status="Approved">新建設計</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="zh_TW" status="Approved">在修訂設計</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="zh_TW" status="Approved">新建零件</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="zh_TW" status="Approved">重用零件</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="zh_TW" status="Approved">修訂零件</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="zh_TW" status="Approved">新建設計</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="zh_TW" status="Approved">新建零件</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="zh_TW" status="Approved">新建零件</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂零件</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="zh_TW" status="Approved">重用設計</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="zh_TW" status="Approved">重用零件</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="zh_TW" status="Approved">重用零件</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂零件</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="zh_TW" status="Approved">在修訂設計</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="zh_TW" status="Approved">修訂零件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="zh_TW" status="Approved">對應的設計發佈狀態</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="zh_TW" status="Approved">對應的零件發佈狀態</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="zh_TW" status="Approved">更新動作</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="zh_TW" status="Approved">為更新模式開</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="zh_TW" status="Approved">複製零件對應</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="zh_TW" status="Approved">複製設計對應</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="zh_TW" status="Approved">設計屬性</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="zh_TW" status="Approved">零件屬性</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="zh_TW" status="Approved">零件版本屬性</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="zh_TW" status="Approved">表示由顏色屬性定義的零件</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="zh_TW" status="Approved">表示沒有加工的零件</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="zh_TW" status="Approved">表示沒有顏色的零件</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="zh_TW" status="Approved">顏色</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="zh_TW" status="Approved">本色件</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="zh_TW" status="Approved">無</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="zh_TW" status="Approved">外包設計</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="zh_TW" status="Approved">外購設計</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="zh_TW" status="Approved">內部設計</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="zh_TW" status="Approved">未指派</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="zh_TW" status="Approved">對應為一般零件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="zh_TW" status="Approved">標準</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="zh_TW" status="Approved">標準</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="zh_TW" status="Approved">對應為一般零件</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="zh_TW" status="Approved">對應為一般零件</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="zh_TW" status="Approved">標準</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="zh_TW" status="Approved">標準</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="zh_TW" status="Approved">對應為一般零件</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="zh_TW" status="Approved">所有權物件</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="zh_TW" status="Approved">本色件類型</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="zh_TW" status="Approved">多體件</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="zh_TW" status="Approved">所有權物件</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="zh_TW" status="Approved">保險件</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="zh_TW" status="Approved">標準</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="zh_TW" status="Approved">所有權物件</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="zh_TW" status="Approved">備件</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="zh_TW" status="Approved">技術意圖</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="zh_TW" status="Approved">變更驗證結果提供程式</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="zh_TW" status="Approved">變更包驗證結果</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="zh_TW" status="Approved">原因</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="zh_TW" status="Approved">問題</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="zh_TW" status="Approved">解決方案項目</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

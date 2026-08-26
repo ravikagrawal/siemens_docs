@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="ru_RU" status="Approved">Бизнес-объект настраиваемого списка значений конфигурации печати</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="ru_RU" status="Approved">Среда выполнения конфигурации печати</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="ru_RU" status="Approved">Условие проверяет, будет ли будет ли применен экземпляр Конфигурация определения ревизии элемента (IRDC) Dma1DocumentRevisionIRDC для бизнес объекта "Ревизия документа". Если для параметра "Fnd0DM_IsSimpleDocumentEnabled" установлено значение "true", то будет применен параметр Dma1DocumentRevisionIRDC, в противном случае - нет. Это не относится к дочернему элементу ревизии документа.</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="ru_RU" status="Approved">Условие проверяет, будет ли применен экземпляр Конфигурация определения ревизии элемента (IRDC) для ревизии элемента в соответствии с параметром "Dma1UseCOTSIRDC". Неприменимо для дочерней ревизии элемента.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ru_RU" status="Approved">Все</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ru_RU" status="Approved">Выкл.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ru_RU" status="Approved">Одна</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="ru_RU" status="Approved">Цвет</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ru_RU" status="Approved">Черно-белое</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ru_RU" status="Approved">Наилучшее заполнение</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ru_RU" status="Approved">Альбомная</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ru_RU" status="Approved">Книжная</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ru_RU" status="Approved">Все страницы</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ru_RU" status="Approved">Пробная страница</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ru_RU" status="Approved">Первая страница</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ru_RU" status="Approved">Все</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ru_RU" status="Approved">Выкл.</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ru_RU" status="Approved">Одна</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="ru_RU" status="Approved">Цвет</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ru_RU" status="Approved">Черно-белое</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ru_RU" status="Approved">Наилучшее заполнение</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ru_RU" status="Approved">Альбомная</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ru_RU" status="Approved">Книжная</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ru_RU" status="Approved">Все страницы</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ru_RU" status="Approved">Пробная страница</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ru_RU" status="Approved">Первая страница</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="ru_RU" status="Approved">Пробная страница</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="ru_RU" status="Approved">Разложить по копиям</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="ru_RU" status="Approved">Цвет</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="ru_RU" status="Approved">Копии</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="ru_RU" status="Approved">Ориентация</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="ru_RU" status="Approved">Размеры бумаги</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="ru_RU" status="Approved">Имя конфигурации печати</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="ru_RU" status="Approved">Имя принтера</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="ru_RU" status="Approved">Диапазон</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="ru_RU" status="Approved">Шкала</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="ru_RU" status="Approved">Поддерживаемые штампы:</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="ru_RU" status="Approved">Системная метка</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="ru_RU" status="Approved">Штамп пользователя</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

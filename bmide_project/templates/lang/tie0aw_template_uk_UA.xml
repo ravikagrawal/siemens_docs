@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="uk_UA" status="Approved">Карта схем</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="uk_UA" status="Approved">Експорт та імпорт актовки</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="uk_UA" status="Approved">Масове вилучення і завантаження</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="uk_UA" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="uk_UA" status="Approved">Експорт та імпорт PLM XML</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="uk_UA" status="Approved">Актовка</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="uk_UA" status="Approved">Пакетні операції</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="uk_UA" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="uk_UA" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="uk_UA" status="Approved">Експорт актовки завершено</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="uk_UA" status="Approved">Не вдалося експортувати актовку</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="uk_UA" status="Approved">Імпорт актовки завершено</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="uk_UA" status="Approved">Не вдалося імпортувати актовку</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="uk_UA" status="Approved">Пакетне витягування завершено</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="uk_UA" status="Approved">Не вдалося виконати пакетне вилучення</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="uk_UA" status="Approved">Пакетне копіювання завершено</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="uk_UA" status="Approved">Масове копіювання не вдалося</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="uk_UA" status="Approved">Експорт PLM XML завершено</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="uk_UA" status="Approved">Не вдалося експортувати PLM XML</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="uk_UA" status="Approved">Імпорт PLM XML завершено</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="uk_UA" status="Approved">Помилка імпорту PLM XML</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="uk_UA" status="Approved">PDX-експорт завершено</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="uk_UA" status="Approved">Не вдалося експортувати PDX</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="uk_UA" status="Approved">Розгортання правил відображення завершено</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="uk_UA" status="Approved">Розгортання правил зіставлення не вдалося</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="uk_UA" status="Approved">Відновлення права власності завершено</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="uk_UA" status="Approved">Не вдалося повернути право власності</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:55:51 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc10000.1.2" description="Active Workspace library for 4G foundation template." isThirdParty="false" name="Fgf0aw4gfoundation" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+                 
+            <DependentOn name="awb0occmgmt"/>
+                 
+            <DependentOn name="awp0aws2"/>
+                 
+            <DependentOn name="mdl0model"/>
+                 
+            <DependentOn name="ptn0partition"/>
+               
+        </Library>
+           
+        <TcClass className="Fgf0BookmarkData" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="Awb0BookmarkData">
+                 
+            <TcAttribute attributeName="fgf0Recipe" attributeType="POM_long_string" description="A serialized string format of the 4G search recipe by which the user had last filtered the application model." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="fgf0PartitionContext" attributeType="POM_external_reference" description="Deprecated. The tag of the configuration context by which the user had last configured partitions in an application model." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="fgf0ModelContext" attributeType="POM_external_reference" description="Deprecated. The tag of the configuration context by which the user had last configured model elements except partitions in an application model." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="fgf0PartitionScheme" attributeType="POM_external_reference" description="The tag of the partition scheme by which the user had last traversed partitions in an application model." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="fgf0EffectivityFormula" attributeType="POM_long_string" description="Last used effectivity formula string.  This string is used to configure structure when opened next time. This is internal formula string to allow effectivity expression reconstruction." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="fgf0VariantFormula" attributeType="POM_long_string" description="Deprecated. Last used variant formula string.  This string is used to configure structure when opened next time. This is internal formula string to allow variant." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <TcAttributeAttach className="Awb0BookmarkProductData">
+                 
+            <TcAttribute attributeName="fgf0PartitionScheme" attributeType="POM_external_reference" description="The tag of the partition scheme by which the user had last traversed partitions in a BVR structure." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+               
+        </TcAttributeAttach>
+           
+        <OperationInputType artifactName="Fgf0ApplicationModelCreI" description="CreateInput object for &quot;Fgf0ApplicationModel&quot; business object" isAbstract="false" parentTypeName="Awb0ElementCreI" typeClassName="Fgf0ApplicationModelCreI" typeName="Fgf0ApplicationModelCreI"/>
+           
+        <OperationInputType artifactName="Fgf0ApplicationModelSvAI" description="SaveAsInput object for &quot;Fgf0ApplicationModel&quot; business object" isAbstract="false" parentTypeName="Awb0ElementSvAI" typeClassName="Fgf0ApplicationModelSvAI" typeName="Fgf0ApplicationModelSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0BaselineRevProviderCreI" description="" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0BaselineRevProviderCreI" typeName="Fgf0BaselineRevProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgf0BaselineRevProviderSvAI" description="" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0BaselineRevProviderSvAI" typeName="Fgf0BaselineRevProviderSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0BaselineRevisionCreI" description="" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Fgf0BaselineRevisionCreI" typeName="Fgf0BaselineRevisionCreI"/>
+           
+        <OperationInputType artifactName="Fgf0BaselineRevisionSvAI" description="" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Fgf0BaselineRevisionSvAI" typeName="Fgf0BaselineRevisionSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0BookmarkDataCreI" description="CreateInput object for &quot;Fgf0BookmarkData&quot; business object" isAbstract="false" parentTypeName="Awb0BookmarkDataCreI" typeClassName="Fgf0BookmarkDataCreI" typeName="Fgf0BookmarkDataCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Recipe" fieldType="SimpleProperty" propName="fgf0Recipe" srcPropName="fgf0Recipe"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Model Context" fieldType="SimpleProperty" propName="fgf0ModelContext" srcPropName="fgf0ModelContext"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Partition Context" fieldType="SimpleProperty" propName="fgf0PartitionContext" srcPropName="fgf0PartitionContext"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Partition Scheme" fieldType="SimpleProperty" propName="fgf0PartitionScheme" srcPropName="fgf0PartitionScheme"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Last used effectivity formula string.  This string is used to configure structure when opened next time.  This is internal formula to allow effectivity expression reconstruction." fieldType="SimpleProperty" propName="fgf0EffectivityFormula" srcPropName="fgf0EffectivityFormula"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Last used variant formula string.  This string is used to configure structure when opened next time.  This is internal formula to allow variant expression reconstruction." fieldType="SimpleProperty" propName="fgf0VariantFormula" srcPropName="fgf0VariantFormula"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Fgf0BookmarkDataSvAI" description="SaveAsInput object for &quot;Fgf0BookmarkData&quot; business object" isAbstract="false" parentTypeName="Awb0BookmarkDataSvAI" typeClassName="Fgf0BookmarkDataSvAI" typeName="Fgf0BookmarkDataSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0BuildConditionElementCreI" description="CreateInput object for &quot;Fgf0BuildConditionElement&quot; business object" isAbstract="false" parentTypeName="Awb0ElementCreI" typeClassName="Fgf0BuildConditionElementCreI" typeName="Fgf0BuildConditionElementCreI"/>
+           
+        <OperationInputType artifactName="Fgf0BuildConditionElementSvAI" description="SaveAsInput object for &quot;Fgf0BuildConditionElement&quot; business object" isAbstract="false" parentTypeName="Awb0ElementSvAI" typeClassName="Fgf0BuildConditionElementSvAI" typeName="Fgf0BuildConditionElementSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0BuildConditionInfoCreI" description="CreateInput object for &quot;Fgf0BuildConditionInfo&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Fgf0BuildConditionInfoCreI" typeName="Fgf0BuildConditionInfoCreI"/>
+           
+        <OperationInputType artifactName="Fgf0BuildConditionInfoSvAI" description="SaveAsInput object for &quot;Fgf0BuildConditionInfo&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Fgf0BuildConditionInfoSvAI" typeName="Fgf0BuildConditionInfoSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0CompositionCreI" description="CreateInput object for &quot;Fgf0Composition&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Fgf0CompositionCreI" typeName="Fgf0CompositionCreI"/>
+           
+        <OperationInputType artifactName="Fgf0CompositionSvAI" description="SaveAsInput object for &quot;Fgf0Composition&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Fgf0CompositionSvAI" typeName="Fgf0CompositionSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0ConfiguredAttrGrou_alt0CreI" description="CreateInput object for &quot;Fgf0ConfiguredAttrGroupProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0ConfiguredAttrGrou_alt0CreI" typeName="Fgf0ConfiguredAttrGrou_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgf0ConfiguredAttrGrou_alt0SvAI" description="SaveAsInput object for &quot;Fgf0ConfiguredAttrGroupProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0ConfiguredAttrGrou_alt0SvAI" typeName="Fgf0ConfiguredAttrGrou_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgf0MappedPartitionsPr_alt0CreI" description="CreateInput object for &quot;Fgf0MappedPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0MappedPartitionsPr_alt0CreI" typeName="Fgf0MappedPartitionsPr_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgf0MappedPartitionsPr_alt0SvAI" description="SaveAsInput object for &quot;Fgf0MappedPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0MappedPartitionsPr_alt0SvAI" typeName="Fgf0MappedPartitionsPr_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgf0ModelArtifactCreI" description="CreateInput object for &quot;Fgf0ModelArtifact&quot; business object" isAbstract="false" parentTypeName="Awb0ElementCreI" typeClassName="Fgf0ModelArtifactCreI" typeName="Fgf0ModelArtifactCreI"/>
+           
+        <OperationInputType artifactName="Fgf0ModelArtifactSvAI" description="SaveAsInput object for &quot;Fgf0ModelArtifact&quot; business object" isAbstract="false" parentTypeName="Awb0ElementSvAI" typeClassName="Fgf0ModelArtifactSvAI" typeName="Fgf0ModelArtifactSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0ParentPartitionsPr_alt0CreI" description="CreateInput object for &quot;Fgf0ParentPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0ParentPartitionsPr_alt0CreI" typeName="Fgf0ParentPartitionsPr_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgf0ParentPartitionsPr_alt0SvAI" description="SaveAsInput object for &quot;Fgf0ParentPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0ParentPartitionsPr_alt0SvAI" typeName="Fgf0ParentPartitionsPr_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgf0PartitionElementCreI" description="CreateInput object for &quot;Fgf0PartitionElement&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Fgf0PartitionElementCreI" typeName="Fgf0PartitionElementCreI"/>
+           
+        <OperationInputType artifactName="Fgf0PartitionElementSvAI" description="SaveAsInput object for &quot;Fgf0PartitionElement&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Fgf0PartitionElementSvAI" typeName="Fgf0PartitionElementSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0PartitionSchemePro_alt0CreI" description="CreateInput object for &quot;Fgf0PartitionSchemeProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0PartitionSchemePro_alt0CreI" typeName="Fgf0PartitionSchemePro_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgf0PartitionSchemePro_alt0SvAI" description="SaveAsInput object for &quot;Fgf0PartitionSchemeProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0PartitionSchemePro_alt0SvAI" typeName="Fgf0PartitionSchemePro_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgf0PtnMapSrcPtnsProviderCreI" description="CreateInput object for &quot;Fgf0PtnMapSrcPtnsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0PtnMapSrcPtnsProviderCreI" typeName="Fgf0PtnMapSrcPtnsProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgf0PtnMapSrcPtnsProviderSvAI" description="SaveAsInput object for &quot;Fgf0PtnMapSrcPtnsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0PtnMapSrcPtnsProviderSvAI" typeName="Fgf0PtnMapSrcPtnsProviderSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0PtnSchemeTypeProviderCreI" description="CreateInput object for &quot;Fgf0PtnSchemeTypeProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0PtnSchemeTypeProviderCreI" typeName="Fgf0PtnSchemeTypeProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgf0PtnSchemeTypeProviderSvAI" description="SaveAsInput object for &quot;Fgf0PtnSchemeTypeProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0PtnSchemeTypeProviderSvAI" typeName="Fgf0PtnSchemeTypeProviderSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0RealizedPartitions_alt0CreI" description="CreateInput object for &quot;Fgf0RealizedPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0RealizedPartitions_alt0CreI" typeName="Fgf0RealizedPartitions_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgf0RealizedPartitions_alt0SvAI" description="SaveAsInput object for &quot;Fgf0RealizedPartitionsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0RealizedPartitions_alt0SvAI" typeName="Fgf0RealizedPartitions_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgf0SourceContextProviderCreI" description="CreateInput object for &quot;Fgf0SourceContextProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgf0SourceContextProviderCreI" typeName="Fgf0SourceContextProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgf0SourceContextProviderSvAI" description="SaveAsInput object for &quot;Fgf0SourceContextProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgf0SourceContextProviderSvAI" typeName="Fgf0SourceContextProviderSvAI"/>
+           
+        <OperationInputType artifactName="Fgf0SubsetElementCreI" description="CreateInput object for &quot;Fgf0SubsetElement&quot; business object" isAbstract="false" parentTypeName="Awb0ElementCreI" typeClassName="Fgf0SubsetElementCreI" typeName="Fgf0SubsetElementCreI"/>
+           
+        <OperationInputType artifactName="Fgf0SubsetElementSvAI" description="SaveAsInput object for &quot;Fgf0SubsetElement&quot; business object" isAbstract="false" parentTypeName="Awb0ElementSvAI" typeClassName="Fgf0SubsetElementSvAI" typeName="Fgf0SubsetElementSvAI"/>
+           
+        <TcRuntimeType artifactName="Fgf0ApplicationModel" description="This is a facade business object representing a container for all the 4G data that defines a product or program. For example &quot;Partition Template&quot; or &quot;Collaborative Design&quot;." isAbstract="false" parentTypeName="Awb0Element" typeClassName="Fgf0ApplicationModel" typeName="Fgf0ApplicationModel"/>
+           
+        <TcRuntimeType artifactName="Fgf0BaselineRevProvider" description="Deprecated. A data provider to fetch all Baseline Revisions that are associated to a given Application Model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0BaselineRevProvider" typeName="Fgf0BaselineRevProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0BaselineRevisionElement" description="Fgf0BaselineRevisionElement is a facade object in Active Workspace and its corresponding persistent object is  Mdl0BaselineRevision. Fgf0BaselineRevisionElement contains revision-specific properties of a revision of Mdl0Baseline. Fgf0BaselineRevisionElement is used as a stable snapshot of the 4GD product, it do not form structures and intended to be used by 4G applications only. Fgf0BaselineRevisionElement is session recoverable object." isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Fgf0BaselineRevisionElement" typeName="Fgf0BaselineRevisionElement"/>
+           
+        <TcRuntimeType artifactName="Fgf0BuildConditionElement" description="The Build Condition Element is a business object used for presentation that wraps an underlying build condition object. A build condition object holds a variant formula string that Teamcenter Configurator generated on a product item based on the various rules defined on the product item." isAbstract="false" parentTypeName="Awb0Element" typeClassName="Fgf0BuildConditionElement" typeName="Fgf0BuildConditionElement">
+                 
+            <TcProperty arrayLength="0" description="String representing build condition expression formula" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0BuildExpression" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Display string for build condition expression" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0BuildExpressionDisplay" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="A text representation of effectivity expression." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="4000" propName="fgf0Effectivity_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="A text representation of variant expression." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="4000" propName="fgf0Variant_formula" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="The last release status of the element." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0ElementReleaseStatus" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcRuntimeType artifactName="Fgf0BuildConditionInfo" description="Object representing a build condition. A build condition is a variant formula string computed by Teamcenter Configurator. This variant formula string is generated based on different rules defined on the product item." isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Fgf0BuildConditionInfo" typeName="Fgf0BuildConditionInfo">
+                 
+            <TcProperty arrayLength="0" description="String representing build condition expression formula" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0BuildExpression" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Display string for build condition expression" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0BuildExpressionDisplay" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Underlying Object" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0UnderlyingObject" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Mdl0ConditionalElement" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcRuntimeType artifactName="Fgf0Composition" description="A facade Business Object representing a Composition ( Rlz0Composition )" isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Fgf0Composition" typeName="Fgf0Composition"/>
+           
+        <TcRuntimeType artifactName="Fgf0ConfiguredAttrGroupProvider" description="Search provider to fetch a list of attribute group and configured managed attribute group objects." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0ConfiguredAttrGroupProvider" typeName="Fgf0ConfiguredAttrGroupProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0MappedPartitionsProvider" description="This data provider returns all mapped Partitions for a selected owning Partition." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0MappedPartitionsProvider" typeName="Fgf0MappedPartitionsProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0ModelArtifact" description="A facade Business Object representing a model artifact ( Mdl0ModelArtifact )" isAbstract="false" parentTypeName="Awb0Element" typeClassName="Fgf0ModelArtifact" typeName="Fgf0ModelArtifact"/>
+           
+        <TcRuntimeType artifactName="Fgf0ParentPartitionsProvider" description="A data provider to fetch all un-configured parent partitions for a given partition within the context of the current application model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0ParentPartitionsProvider" typeName="Fgf0ParentPartitionsProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0PartitionElement" description="A facade business object representing partitions." isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Fgf0PartitionElement" typeName="Fgf0PartitionElement"/>
+           
+        <TcRuntimeType artifactName="Fgf0PartitionSchemeProvider" description="A data provider to fetch all Partition Schemes that are created for a given application model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0PartitionSchemeProvider" typeName="Fgf0PartitionSchemeProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0PtnMapSrcPtnsProvider" description="This data provider returns all source partitions for the selected mapped partition." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0PtnMapSrcPtnsProvider" typeName="Fgf0PtnMapSrcPtnsProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0PtnSchemeTypeProvider" description="A data provider to fetch allowed Partition Scheme types to create for a structure or application model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0PtnSchemeTypeProvider" typeName="Fgf0PtnSchemeTypeProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0RealizedPartitionsProvider" description="A data provider to fetch all Partition Schemes that are created for a given application model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0RealizedPartitionsProvider" typeName="Fgf0RealizedPartitionsProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0SourceContextProvider" description="A data provider to fetch all source context objects (BaselineRevision and SubsetDefintion)  that are associated to a given Application Model." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgf0SourceContextProvider" typeName="Fgf0SourceContextProvider"/>
+           
+        <TcRuntimeType artifactName="Fgf0SubsetElement" description="A facade business object representing a subset definition." isAbstract="false" parentTypeName="Awb0Element" typeClassName="Fgf0SubsetElement" typeName="Fgf0SubsetElement"/>
+           
+        <TcStandardType artifactName="Fgf0BookmarkData" description="This class is used for storing currently applied configuration context, recipe, and partition scheme for a given product and user. It is used for internal purposes only to track user choices on an opened product. These will not be exposed as objects to be created by end-user actions." isAbstract="false" parentTypeName="Awb0BookmarkData" typeClassName="Fgf0BookmarkData" typeName="Fgf0BookmarkData"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.0.0" description="Interface Name for Business Object Awb0Element" libraryName="Fgf0aw4gfoundation" name="Awb0Element" namespace="fgf0::Teamcenter::Fgf0aw4gfoundation" primaryInterface="false" typeName="Awb0Element"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.0.0" description="Interface Name for Business Object Fgf0BaselineRevProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0BaselineRevProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0BaselineRevProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0BookmarkData" libraryName="Fgf0aw4gfoundation" name="Fgf0BookmarkData" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0BookmarkData"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0ConfiguredAttrGroupProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0ConfiguredAttrGroupProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0ConfiguredAttrGroupProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0MappedPartitionsProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0MappedPartitionsProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0MappedPartitionsProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0ParentPartitionsProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0ParentPartitionsProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0ParentPartitionsProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0PartitionSchemeProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0PartitionSchemeProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0PartitionSchemeProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0PtnMapSrcPtnsProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0PtnMapSrcPtnsProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0PtnMapSrcPtnsProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.2.0" description="Interface Name for Business Object Fgf0PtnSchemeTypeProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0PtnSchemeTypeProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0PtnSchemeTypeProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.1.0" description="Interface Name for Business Object Fgf0RealizedPartitionsProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0RealizedPartitionsProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0RealizedPartitionsProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.1.0" description="Interface Name for Business Object Fgf0SourceContextProvider" libraryName="Fgf0aw4gfoundation" name="Fgf0SourceContextProvider" namespace="Teamcenter::Fgf0aw4gfoundation" primaryInterface="true" typeName="Fgf0SourceContextProvider"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.0.0" description="Getter for a Tag Property" id="getFgf0CurrentConfiguration#tag_t,&amp;$bool,&amp;" interface="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getFgf0CurrentConfiguration" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="fgf0CurrentConfiguration" returnDescription="Status. 0 if successful"/>
+           
+        <OperationAttach id="fnd0Delete#" typeName="Fgf0BookmarkData"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0BaselineRevProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0ConfiguredAttrGroupProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0MappedPartitionsProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0ParentPartitionsProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0PartitionSchemeProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0PtnMapSrcPtnsProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0PtnSchemeTypeProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0RealizedPartitionsProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgf0SourceContextProvider"/>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="User who checked out the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0CheckedOutUser" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Current Configuration Context used for configuring Model Element." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0CurrentConfiguration" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ConfigurationContext" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Is Partitionable" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0IsPartitionable" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Last modified date of the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0LastModDate" propTypeName="Runtime" propValueType="PROP_date" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Last modified user of the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0LastModUser" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="User" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Owning user of the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0OwningGroup" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Group" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Owning user of the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0OwningUser" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="User" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Description of the underlying object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="240" propName="fgf0UnderlyingObjDesc" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="Deprecated. The underlying object's type represented by this facade business object. For example, if this facade object is representing &quot;Partition Design&quot; (Ptn0Design), the property would return &quot;Partition Design.&quot;" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="fgf0UnderlyingObjectType" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0Element">
+                 
+            <TcProperty arrayLength="0" description="The list of Partitions which contain the BOMLine as a member. The Partitions are listed in a comma separated format of Scheme and Partition ID (Scheme1=PartitionID1, Scheme2=PartitionID2,...)" fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="4000" propName="fgf0WherePartitioned" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ConditionalElement">
+                 
+            <TcProperty arrayLength="0" description="Revision ID of underlying business object represented by this facade object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0ElementRevId" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ConditionalElement">
+                 
+            <TcProperty arrayLength="0" description="The source object name of the underlying object represented by input facade business object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="fgf0UnderlyingSourceObjName" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ConditionalElement">
+                 
+            <TcProperty arrayLength="0" description="The source object type of the underlying object represented by input facade business object." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="fgf0UnderlyingSourceObjType" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0PositionedElement">
+                 
+            <TcProperty arrayLength="0" description="Property to show the number of positions of a member under a Fnd0DgnProduct. In all other cases this property will return 0." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0NumberOfPositions" propTypeName="Runtime" propValueType="PROP_int" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the currently applied change context." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0ChangeContext" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="RuntimeBusinessObject" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the Baseline Revision currently associated to a Product." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0CurrentBaseline" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Mdl0BaselineRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the source context currently associated to a Product." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0CurrentSourceContext" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="WorkspaceObject" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="This property contains the context ID for the effectivity configuration context item associated to a product, like a Collaborative Design." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="fgf0EffContextId" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="This property contains the context namespace for the effectivity configuration context item associated to a product, like a Collaborative Design." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="44" propName="fgf0EffContextNamespace" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="The display string of the effectivity formula currently configured for a product." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="400" propName="fgf0EffectivityDisplay" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="-1" description="This property will contain all the intent formulas currently applied to the product in the form of effectivity  ranges." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="400" propName="fgf0IntentFormulaList" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the currently applied Configuration Context used for configuring Model Elements in a Product." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0ModelConfigContext" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ConfigurationContext" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the currently applied Configuration Context used for configuring Partitions in a Product." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0PartitionConfigContext" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ConfigurationContext" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Stores a reference to the currently applied partition scheme." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0PartitionScheme" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Ptn0PartitionScheme" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="0" description="Indicates whether build conditions should be shown for given product or not." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="fgf0ShowBuildConditions" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ProductContextInfo">
+                 
+            <TcProperty arrayLength="-1" description="This stores the View information depending upon the selection." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="128" propName="fgf0ViewList" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Awb0ConditionalElement" extendableElementType="Type" operationName="PROP_ask_value_string" propertyName="fgf0ElementRevId">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcTypeConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="String" defaultValue="" description="This maps a Business Object from the 4G world to the Occurrence." isMultiValued="false" isValueAttachmentSecured="false" name="Fgf04GToOccurrence">
+                 
+            <Scope typeName="Awb0Element"/>
+               
+        </TcTypeConstant>
+           
+        <TcPropertyConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="String" defaultValue="" description="This property specifies which property in the 4G world maps to the occurrence property." isMultiValued="false" isValueAttachmentSecured="false" name="Fgf04GToOccurrence">
+                 
+            <Scope propertyName="*" typeName="Awb0Element"/>
+               
+        </TcPropertyConstant>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Mdl0BaselineRevision"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Mdl0SubsetDefinition"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Ptn0PartitionTemplateModel"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <TcTypeConstantAttach constantName="Awb0AssociatedElement" typeName="Ptn0Partition" value="Fgf0PartitionElement"/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="Fgf0PartitionElement" value=""/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMToOccurrence" typeName="Fgf0PartitionElement" value="Ptn0PartitionLine"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Mdl0SubsetDefinition" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0Design" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0Functional" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0Mfg" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0PartitionTemplateModel" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0ProductArchModel" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0System" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Ptn0Zone" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchRevRuleIsExported" typeName="Ptn0Design" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchRevRuleIsExported" typeName="Ptn0Functional" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchRevRuleIsExported" typeName="Ptn0Mfg" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchRevRuleIsExported" typeName="Ptn0System" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchRevRuleIsExported" typeName="Ptn0Zone" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchUnsupportedRevRuleEntries" isModifiable="false" typeName="Ptn0Design" value="CFM_entry_latest,CFM_entry_precise"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchUnsupportedRevRuleEntries" isModifiable="false" typeName="Ptn0Functional" value="CFM_entry_latest,CFM_entry_precise"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchUnsupportedRevRuleEntries" isModifiable="false" typeName="Ptn0Mfg" value="CFM_entry_latest,CFM_entry_precise"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchUnsupportedRevRuleEntries" isModifiable="false" typeName="Ptn0System" value="CFM_entry_latest,CFM_entry_precise"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchUnsupportedRevRuleEntries" isModifiable="false" typeName="Ptn0Zone" value="CFM_entry_latest,CFM_entry_precise"/>
+           
+        <TcTypeConstantAttach constantName="Awp0WorkflowSubmittable" typeName="Mdl0ApplicationModel" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0WorkflowSubmittable" typeName="Mdl0ConditionalElement" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Awp0WorkflowSubmittable" typeName="Mdl0SubsetDefinition" value="true"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0ApplicationModel" value="Fgf0ApplicationModelCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0BaselineRevisionElement" value="Fgf0BaselineRevisionCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0BaselineRevProvider" value="Fgf0BaselineRevProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0BookmarkData" value="Fgf0BookmarkDataCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0BuildConditionElement" value="Fgf0BuildConditionElementCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0BuildConditionInfo" value="Fgf0BuildConditionInfoCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0Composition" value="Fgf0CompositionCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0ConfiguredAttrGroupProvider" value="Fgf0ConfiguredAttrGrou_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0MappedPartitionsProvider" value="Fgf0MappedPartitionsPr_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0ModelArtifact" value="Fgf0ModelArtifactCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0ParentPartitionsProvider" value="Fgf0ParentPartitionsPr_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0PartitionElement" value="Fgf0PartitionElementCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0PartitionSchemeProvider" value="Fgf0PartitionSchemePro_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0PtnMapSrcPtnsProvider" value="Fgf0PtnMapSrcPtnsProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0PtnSchemeTypeProvider" value="Fgf0PtnSchemeTypeProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0RealizedPartitionsProvider" value="Fgf0RealizedPartitions_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0SourceContextProvider" value="Fgf0SourceContextProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgf0SubsetElement" value="Fgf0SubsetElementCreI"/>
+           
+        <TcTypeConstantAttach constantName="DisplayName" typeName="Fgf0BuildConditionInfo" value="&quot;Build Condition&quot;"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgf0ApplicationModel" value="Mdl0ApplicationModel"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgf0BaselineRevisionElement" value="Mdl0BaselineRevision"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgf0BuildConditionElement" value="Fgf0BuildConditionInfo"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgf0PartitionElement" value="Ptn0Partition"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgf0SubsetElement" value="Mdl0SubsetDefinition"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0RuntimeTraceProperty" typeName="Ptn0Partition" value="true"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0ApplicationModel" value="Fgf0ApplicationModelSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0BaselineRevisionElement" value="Fgf0BaselineRevisionSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0BaselineRevProvider" value="Fgf0BaselineRevProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0BookmarkData" value="Fgf0BookmarkDataSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0BuildConditionElement" value="Fgf0BuildConditionElementSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0BuildConditionInfo" value="Fgf0BuildConditionInfoSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0Composition" value="Fgf0CompositionSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0ConfiguredAttrGroupProvider" value="Fgf0ConfiguredAttrGrou_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0MappedPartitionsProvider" value="Fgf0MappedPartitionsPr_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0ModelArtifact" value="Fgf0ModelArtifactSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0ParentPartitionsProvider" value="Fgf0ParentPartitionsPr_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0PartitionElement" value="Fgf0PartitionElementSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0PartitionSchemeProvider" value="Fgf0PartitionSchemePro_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0PtnMapSrcPtnsProvider" value="Fgf0PtnMapSrcPtnsProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0PtnSchemeTypeProvider" value="Fgf0PtnSchemeTypeProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0RealizedPartitionsProvider" value="Fgf0RealizedPartitions_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0SourceContextProvider" value="Fgf0SourceContextProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgf0SubsetElement" value="Fgf0SubsetElementSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="fgf0WherePartitioned" typeName="Awb0Element" value="ptn0WherePartitioned"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="fgf0NumberOfPositions" typeName="Awb0PositionedElement" value="ptn0NumberOfPositions"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0ArchetypeId" typeName="Fgf0PartitionElement" value="bl_partition_ptn0partition_id"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0ArchetypeRevDescription" typeName="Fgf0PartitionElement" value="bl_partition_object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0ArchetypeRevId" typeName="Fgf0PartitionElement" value="bl_partition_mdl0revision_id"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0ArchetypeRevName" typeName="Fgf0PartitionElement" value="bl_partition_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="mdl0model_object" typeName="Mdl0ModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="mdl0model_object" typeName="Mdl0SubsetDefinition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" propertyName="ptn0partition_scheme_type" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="110"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" propertyName="mdl0model_object" typeName="Mdl0ModelElement" value="110"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" propertyName="mdl0model_object" typeName="Mdl0SubsetDefinition" value="110"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchFilterPriority" propertyName="ptn0partition_scheme_type" typeName="Ptn0Partition" value="115"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="mdl0model_object" typeName="Mdl0SubsetDefinition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="mdl0model_object" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="ptn0partition_id" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="ptn0partition_scheme_type" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="mdl0model_id" typeName="Ptn0PartitionTemplateModel" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="mdl0model_id" typeName="Ptn0ProductArchModel" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchPropFromRefType" propertyName="mdl0model_object" typeName="Mdl0ModelElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchPropFromRefType" propertyName="mdl0model_object" typeName="Mdl0SubsetDefinition" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchPropFromRefType" propertyName="ptn0partition_scheme_type" typeName="Ptn0Partition" value="type_name"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchRefTypeNames" propertyName="mdl0model_object" typeName="Mdl0ModelElement" value="Mdl0ApplicationModel"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchRefTypeNames" propertyName="mdl0model_object" typeName="Mdl0SubsetDefinition" value="Mdl0ApplicationModel"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchRefTypeNames" propertyName="ptn0partition_scheme_type" typeName="Ptn0Partition" value="ImanType"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0PartitionScheme" typeName="Awb0BookmarkProductData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ElementRevId" typeName="Awb0ConditionalElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0UnderlyingSourceObjName" typeName="Awb0ConditionalElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0UnderlyingSourceObjType" typeName="Awb0ConditionalElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0CheckedOutUser" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0CurrentConfiguration" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0IsPartitionable" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0LastModDate" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0LastModUser" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0OwningGroup" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0OwningUser" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0UnderlyingObjDesc" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0UnderlyingObjectType" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0WherePartitioned" typeName="Awb0Element" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0NumberOfPositions" typeName="Awb0PositionedElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ChangeContext" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0CurrentBaseline" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0CurrentSourceContext" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0EffContextId" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0EffContextNamespace" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0EffectivityDisplay" typeName="Awb0ProductContextInfo" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0IntentFormulaList" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ModelConfigContext" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0PartitionConfigContext" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0PartitionScheme" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ShowBuildConditions" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ViewList" typeName="Awb0ProductContextInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0EffectivityFormula" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ModelContext" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0PartitionContext" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0PartitionScheme" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Recipe" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0VariantFormula" typeName="Fgf0BookmarkData" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0BuildExpression" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0BuildExpressionDisplay" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Effectivity_formula" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ElementReleaseStatus" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Type" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Variant_formula" typeName="Fgf0BuildConditionElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0BuildExpression" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0BuildExpressionDisplay" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Effectivity_formula" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ElementReleaseStatus" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Name" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0UnderlyingObject" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0Variant_formula" typeName="Fgf0BuildConditionInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ModelObject" typeName="Fgf0SubsetElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjectDesc" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjectRelStatus" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjectRevId" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjEffText" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjLastModUser" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjOwningGroup" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjOwningUser" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgf0SourceObjRelDate" typeName="Ptn0Partition" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0EffectivityFormula" typeName="Awb0ConditionalElement" value="mdl0effectivity_formula"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementReleaseStatus" typeName="Awb0ConditionalElement" value="release_status_list"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Awb0Element" value="object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjectType" typeName="Awb0Element" value="object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementId" typeName="Fgf0ApplicationModel" value="mdl0model_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgf0ApplicationModel" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0CheckedOutUser" typeName="Fgf0ApplicationModel" value="checked_out_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModDate" typeName="Fgf0ApplicationModel" value="last_mod_date"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModUser" typeName="Fgf0ApplicationModel" value="last_mod_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningGroup" typeName="Fgf0ApplicationModel" value="owning_group"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningUser" typeName="Fgf0ApplicationModel" value="owning_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Fgf0ApplicationModel" value="object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0EffectivityFormula" typeName="Fgf0BaselineRevisionElement" value=""/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgf0BaselineRevisionElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgf0BuildConditionElement" value="fgf0Name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Fgf0BuildConditionElement" value=""/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0BuildExpression" typeName="Fgf0BuildConditionElement" value="fgf0BuildExpression"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0BuildExpressionDisplay" typeName="Fgf0BuildConditionElement" value="fgf0BuildExpressionDisplay"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0Effectivity_formula" typeName="Fgf0BuildConditionElement" value="fgf0Effectivity_formula"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0ElementReleaseStatus" typeName="Fgf0BuildConditionElement" value="fgf0ElementReleaseStatus"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjectType" typeName="Fgf0BuildConditionElement" value=""/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0Variant_formula" typeName="Fgf0BuildConditionElement" value="fgf0Variant_formula"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="object_string" typeName="Fgf0BuildConditionElement" value="object_string"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeId" typeName="Fgf0PartitionElement" value="ptn0source_object_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevDescription" typeName="Fgf0PartitionElement" value="fgf0SourceObjectDesc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevEffText" typeName="Fgf0PartitionElement" value="fgf0SourceObjEffText"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevId" typeName="Fgf0PartitionElement" value="fgf0SourceObjectRevId"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevLastModUser" typeName="Fgf0PartitionElement" value="fgf0SourceObjLastModUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevName" typeName="Fgf0PartitionElement" value="ptn0source_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningGroup" typeName="Fgf0PartitionElement" value="fgf0SourceObjOwningGroup"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningUser" typeName="Fgf0PartitionElement" value="fgf0SourceObjOwningUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevReleaseDate" typeName="Fgf0PartitionElement" value="fgf0SourceObjRelDate"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevRelStatus" typeName="Fgf0PartitionElement" value="fgf0SourceObjectRelStatus"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementId" typeName="Fgf0PartitionElement" value="ptn0partition_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgf0PartitionElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0OccName" typeName="Fgf0PartitionElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0CheckedOutUser" typeName="Fgf0PartitionElement" value="checked_out_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModDate" typeName="Fgf0PartitionElement" value="last_mod_date"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModUser" typeName="Fgf0PartitionElement" value="last_mod_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningGroup" typeName="Fgf0PartitionElement" value="owning_group"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningUser" typeName="Fgf0PartitionElement" value="owning_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Fgf0PartitionElement" value="object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjName" typeName="Fgf0PartitionElement" value="ptn0source_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjType" typeName="Fgf0PartitionElement" value="ptn0source_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgf0SubsetElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0CheckedOutUser" typeName="Fgf0SubsetElement" value="checked_out_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModDate" typeName="Fgf0SubsetElement" value="last_mod_date"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModUser" typeName="Fgf0SubsetElement" value="last_mod_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningGroup" typeName="Fgf0SubsetElement" value="owning_group"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningUser" typeName="Fgf0SubsetElement" value="owning_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Fgf0SubsetElement" value="object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0PartitionScheme" typeName="Awb0BookmarkProductData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ElementRevId" typeName="Awb0ConditionalElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjName" typeName="Awb0ConditionalElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjType" typeName="Awb0ConditionalElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0CheckedOutUser" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0CurrentConfiguration" typeName="Awb0Element" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0IsPartitionable" typeName="Awb0Element" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0LastModDate" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0LastModUser" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0OwningGroup" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0OwningUser" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingObjDesc" typeName="Awb0Element" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingObjectType" typeName="Awb0Element" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0WherePartitioned" typeName="Awb0Element" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0NumberOfPositions" typeName="Awb0PositionedElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ChangeContext" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0CurrentBaseline" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0CurrentSourceContext" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0EffContextId" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0EffContextNamespace" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0EffectivityDisplay" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0IntentFormulaList" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ModelConfigContext" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0PartitionConfigContext" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0PartitionScheme" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ShowBuildConditions" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ViewList" typeName="Awb0ProductContextInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0EffectivityFormula" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ModelContext" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0PartitionContext" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0PartitionScheme" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Recipe" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0VariantFormula" typeName="Fgf0BookmarkData" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Effectivity_formula" typeName="Fgf0BuildConditionElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ElementReleaseStatus" typeName="Fgf0BuildConditionElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Type" typeName="Fgf0BuildConditionElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Variant_formula" typeName="Fgf0BuildConditionElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0BuildExpression" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0BuildExpressionDisplay" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Effectivity_formula" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ElementReleaseStatus" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Name" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingObject" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0Variant_formula" typeName="Fgf0BuildConditionInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0EffectivityFormula" typeName="Fgf0PartitionElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0Name" typeName="Fgf0PartitionElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjName" typeName="Fgf0PartitionElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ModelObject" typeName="Fgf0SubsetElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjectDesc" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjectRelStatus" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjectRevId" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjEffText" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjLastModUser" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjOwningGroup" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjOwningUser" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0SourceObjRelDate" typeName="Ptn0Partition" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fgf0EffectivityFormula" typeName="Fgf0BookmarkDataCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="fgf0ModelObjectName" typeName="Mdl0BaselineRevision" value="false"/>
+           
+        <TcCompoundPropertyRule description="Business Object type from which the build condition expression is derived." destPropertyName="fgf0Type" destTypeName="Fgf0BuildConditionElement" isReadOnly="true" pathToSource="REF(awb0UnderlyingObject,Mdl0ConditionalElement).object_type" sourcePropertyName="object_type" sourceTypeName="Mdl0ConditionalElement"/>
+           
+        <TcCompoundPropertyRule description="A text representation of effectivity expression." destPropertyName="fgf0Effectivity_formula" destTypeName="Fgf0BuildConditionInfo" isReadOnly="true" pathToSource="REF(fgf0UnderlyingObject,Mdl0ConditionalElement).mdl0effectivity_formula" sourcePropertyName="mdl0effectivity_formula" sourceTypeName="Mdl0ConditionalElement"/>
+           
+        <TcCompoundPropertyRule description="The last release status of the element." destPropertyName="fgf0ElementReleaseStatus" destTypeName="Fgf0BuildConditionInfo" isReadOnly="true" pathToSource="REF(fgf0UnderlyingObject,Mdl0ConditionalElement).last_release_status" sourcePropertyName="last_release_status" sourceTypeName="Mdl0ConditionalElement"/>
+           
+        <TcCompoundPropertyRule description="Name of the object" destPropertyName="fgf0Name" destTypeName="Fgf0BuildConditionInfo" isReadOnly="false" pathToSource="REF(fgf0UnderlyingObject,Mdl0ConditionalElement).object_name" sourcePropertyName="object_name" sourceTypeName="Mdl0ConditionalElement"/>
+           
+        <TcCompoundPropertyRule description="A text representation of variant expression." destPropertyName="fgf0Variant_formula" destTypeName="Fgf0BuildConditionInfo" isReadOnly="true" pathToSource="REF(fgf0UnderlyingObject,Mdl0ConditionalElement).mdl0variant_formula" sourcePropertyName="mdl0variant_formula" sourceTypeName="Mdl0ConditionalElement"/>
+           
+        <TcCompoundPropertyRule description="The model object ( e.g. Collaborative Design ) of the underlying object represented by this facade object." destPropertyName="fgf0ModelObject" destTypeName="Fgf0SubsetElement" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Mdl0SubsetDefinition).mdl0model_object" sourcePropertyName="mdl0model_object" sourceTypeName="Mdl0SubsetDefinition"/>
+           
+        <TcCompoundPropertyRule description="Name of Model Object associated with Baseline Revision" destPropertyName="fgf0ModelObjectName" destTypeName="Mdl0BaselineRevision" isReadOnly="false" pathToSource="REF(items_tag,Mdl0Baseline).REF(mdl0ModelObject,Mdl0ApplicationModel).object_name" sourcePropertyName="object_name" sourceTypeName="Mdl0ApplicationModel"/>
+           
+        <TcCompoundPropertyRule description="The object description of source object." destPropertyName="fgf0SourceObjectDesc" destTypeName="Ptn0Partition" isReadOnly="false" pathToSource="REF(ptn0source_object,ItemRevision).object_desc" sourcePropertyName="object_desc" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The list of release statuses of source object." destPropertyName="fgf0SourceObjectRelStatus" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).release_status_list" sourcePropertyName="release_status_list" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The revision ID of source object." destPropertyName="fgf0SourceObjectRevId" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).item_revision_id" sourcePropertyName="item_revision_id" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The effectivity text of source object." destPropertyName="fgf0SourceObjEffText" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).effectivity_text" sourcePropertyName="effectivity_text" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The last modified user of source object." destPropertyName="fgf0SourceObjLastModUser" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).last_mod_user" sourcePropertyName="last_mod_user" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The owning group of source object." destPropertyName="fgf0SourceObjOwningGroup" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).owning_group" sourcePropertyName="owning_group" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The owning user of source object." destPropertyName="fgf0SourceObjOwningUser" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).owning_user" sourcePropertyName="owning_user" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The release date of source object." destPropertyName="fgf0SourceObjRelDate" destTypeName="Ptn0Partition" isReadOnly="true" pathToSource="REF(ptn0source_object,ItemRevision).date_released" sourcePropertyName="date_released" sourceTypeName="ItemRevision"/>
+           
+        <TcExtension cannedExtension="true" description="Fgf0_PostAction_init_intl_props is PostAction extension to Awb0Element::IMANTYPE_init_intl_props and used for registering bulk loaders for runtime properties on Awb0Element." functionality="Fgf0AW4GFoundation" internal="false" languageType="CPlusPlus" libraryName="libFgf0aw4gfoundation" name="Fgf0_PostAction_init_intl_props">
+                 
+            <TcExtensionValidity parameter="TYPE:Awb0Element:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libFgf0aw4gfoundation" name="getfgf0ElementRevIdBase">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Awb0ConditionalElement:fgf0ElementRevId:PROP_ask_value_string:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Awb0Element" extendableElementType="Type" extensionName="Fgf0_PostAction_init_intl_props" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Awb0ConditionalElement" extendableElementType="Type" extensionName="getfgf0ElementRevIdBase" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_string" propertyName="fgf0ElementRevId"/>
+           
+        <Library createRelease="tc11000.2.1" description="SOA Service Library for Active Worspace 4GFoundation Template." isThirdParty="false" name="Fgf0SoaAW4GFoundation" namespace="Fgf0::Soa::AW4GFoundation" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="tc11000.2.1" dependencies="" description="&lt;i&gt;BuildConditionManagement&lt;/i&gt; provides the capability to manipulate build condition expression on the content that it is associated with. This service is applicable for the contents of 4G structures that support variant expressions." libraryName="Fgf0SoaAW4GFoundation" name="BuildConditionManagement" namespace="Fgf0::Soa::AW4GFoundation" serviceLibraryRef=""/>
+           
+        <ServiceInterface createRelease="tc11000.2.1" dependencies="" description="SubsetManagement service provides the capability to save recipe on recipe container for Active Workspace. This service is available for 4G structures which uses subsets." libraryName="Fgf0SoaAW4GFoundation" name="SubsetManagement" namespace="Fgf0::Soa::AW4GFoundation" serviceLibraryRef=""/>
+           
+        <Struct createRelease="tc11000.2.1" description="DetachBuildConditionDataInput List of contents variant configurable elements from which build condition expression needs to be detached." isPublished="false" name="DetachBuildConditionDataInput" namespace="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement" scope="Fgf0::Soa::AW4GFoundation::BuildConditionManagement">
+                 
+            <StructElement description="&lt;b&gt;Awb0ProductContextInfo&lt;/b&gt; object containing the product with its configuration information." name="productInfo">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of variant configurable elements to be detached from build condition." name="contentsToDetach">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Awb0Element"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc11000.2.1" description="DetachBuildConditionResponse contain variant configurable elements from which input expressions are removed and build conditions those are not associated with any other content." isPublished="false" name="DetachBuildConditionResponse" namespace="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement" scope="Fgf0::Soa::AW4GFoundation::BuildConditionManagement">
+                 
+            <StructElement description="List of variant configurable elements detached from their respective build conditions." name="detachedContents">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Awb0Element"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of build conditions not associated with any content." name="buildConditions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Awb0Element"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Contains the list of all Business Objects that make up the output, as well as any errors that might have occurred as part of the service invocation." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc11000.2.1" description="Criteria provide information about recipe to search occurrences in a product." isPublished="false" name="Criteria" namespace="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement" scope="Fgf0::Soa::AW4GFoundation::SubsetManagement">
+                 
+            <StructElement description="The type of search criteria represented in this structure. The list of valid values are: &lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Attribute&lt;/b&gt;: Indicates a property based search term&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;BoxZone&lt;/b&gt;: Indicates a type of spatial search term&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;PlaneZone&lt;/b&gt;: Indicates a type of spatial search term&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Proximity&lt;/b&gt;: Indicates a type spatial search term&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;ClosureRule&lt;/b&gt;: Indicates a closure rule search term&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Group&lt;/b&gt;: Indicates a groups of multiple search terms&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Partition&lt;/b&gt;: Indicates a partition based search term&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" name="criteriaType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of internal values used within this search term." name="criteriaValues">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A user-friendly string representation of this search term." name="criteriaDisplayValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The search term operator indicating the logic for combining this search term. The list of valid values are:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Include&lt;/b&gt; (OR)&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Filter&lt;/b&gt; (AND)&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&lt;b&gt;Exclude&lt;/b&gt; (NOT)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" name="criteriaOperatorType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A grouping of multiple search terms. This will be empty if the recipe contains no groups." name="subCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::Criteria"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc11000.2.1" description="SaveRecipeDataInput contains recipe container on which recipe to be saved, product configuration and list of recipe." isPublished="false" name="SaveRecipeDataInput" namespace="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement" scope="Fgf0::Soa::AW4GFoundation::SubsetManagement">
+                 
+            <StructElement description="Awb0ProductContextInfo object containing the product and configuration." name="productInfo">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Recipe container on which recipe to be saved. Valid business object types are Mdl0SubsetDefinition and Cpd0Workset." name="recipeContainer">
+                       
+                <DataTypeRefParam dataType="Teamcenter::WorkspaceObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of search criteria which are to be saved and set on recipe container recipeContainer." name="recipe">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::Criteria"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.1" description="This operation removes the build condition expression and updates the expression on input &lt;b&gt;Awb0Element&lt;/b&gt;." id="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionResponse#Fgf0::Soa::AW4GFoundation::BuildConditionManagement::detachBuildCondition#const,Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionDataInput,&amp;" name="Fgf0::Soa::AW4GFoundation::BuildConditionManagement::detachBuildCondition" returnConst="false" returnDescription="The contents from which build condition expressions are removed and updated.The following partial errors may be returned.&lt;br /&gt;174005 - Detach build condition action failed. Please report this error to your system administrator." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="contentsToBeDetached List of variant configurable elements from which build condition expression needs to be removed and updated." freeOutputMemory="false" inputOutput="Input" name="contentsToBeDetached">
+                       
+                <OperationParameterDataTypeRef dataType="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionDataInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc11000.2.1" description="This operation saves the recipe on recipe container." id="Teamcenter::Soa::Server::ServiceData#Fgf0::Soa::AW4GFoundation::SubsetManagement::saveRecipe#const,std::vector&lt;Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::SaveRecipeDataInput&gt;,&amp;" name="Fgf0::Soa::AW4GFoundation::SubsetManagement::saveRecipe" returnConst="false" returnDescription="The updated recipeContainer.The following partial errors may be returned.&lt;br /&gt;174002 : Failed to save recipe on selected recipe container." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="List of input data containing recipe container, product configuration and list of recipes to be saved." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::SaveRecipeDataInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Awb0ActiveWorkspaceBOM" createRelease="tc11000.2.1" dependencies="" description="This operation removes the build condition expression and updates the expression on input &lt;b&gt;Awb0Element&lt;/b&gt;." exceptionCondition="" id="detachBuildCondition#const,Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionDataInput,&amp;" interface="Fgf0::Soa::AW4GFoundation::BuildConditionManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="detachBuildCondition" opTemplate="Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionResponse#Fgf0::Soa::AW4GFoundation::BuildConditionManagement::detachBuildCondition#const,Fgf0::Soa::Internal::AW4GFoundation::_2016_04::BuildConditionManagement::DetachBuildConditionDataInput,&amp;" returnDescription="The contents from which build condition expressions are removed and updated.The following partial errors may be returned.&lt;br /&gt;174005 - Detach build condition action failed. Please report this error to your system administrator." useCase="">
+                 
+            <ParameterInfo description="contentsToBeDetached List of variant configurable elements from which build condition expression needs to be removed and updated." parameterName="contentsToBeDetached"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Fgf0AW4GFoundation" createRelease="tc11000.2.1" dependencies="" description="This operation saves the recipe on recipe container." exceptionCondition="" id="saveRecipe#const,std::vector&lt;Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::SaveRecipeDataInput&gt;,&amp;" interface="Fgf0::Soa::AW4GFoundation::SubsetManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="saveRecipe" opTemplate="Teamcenter::Soa::Server::ServiceData#Fgf0::Soa::AW4GFoundation::SubsetManagement::saveRecipe#const,std::vector&lt;Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::SaveRecipeDataInput&gt;,&amp;" returnDescription="The updated recipeContainer.The following partial errors may be returned.&lt;br /&gt;174002 : Failed to save recipe on selected recipe container." useCase="">
+                 
+            <ParameterInfo description="List of input data containing recipe container, product configuration and list of recipes to be saved." parameterName="input"/>
+               
+        </Operation>
+           
+        <Functionality description="Teamcenter component for Fgf0aw4gfoundation template" displayName="AW4GFoundation" enabledForVerificationRules="false" name="Fgf0AW4GFoundation"/>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc14000.0.0" description="Determines if the object can be deleted." id="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanDelete#bool,*" name="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanDelete" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="Can delete an Awb0Element" freeOutputMemory="false" inputOutput="Output" name="verdict">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="tc14000.0.0" description="Checks if the object be unassigned from the parent partition object." id="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanUnassignPtnMember#bool,*" name="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanUnassignPtnMember" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="Determines if the element can be unassigned from its parent partition element." freeOutputMemory="false" inputOutput="Output" name="verdict">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp04.3.0" description="Check if Organization command is visible for input Business Object." id="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0IsOrganizationCmdVisible#bool,*" name="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0IsOrganizationCmdVisible" returnConst="false" returnDescription="" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="This is the verdict if the Organization command is visible or not." freeOutputMemory="false" inputOutput="Output" name="verdict">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="" createRelease="tc14000.0.0" dependencies="" description="Determines if the object can be deleted." exceptionCondition="" id="fgf0CanDelete#bool,*" interface="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="fgf0CanDelete" opTemplate="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanDelete#bool,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="Can delete an Awb0Element" parameterName="verdict"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="" createRelease="tc14000.0.0" dependencies="" description="Checks if the object be unassigned from the parent partition object." exceptionCondition="" id="fgf0CanUnassignPtnMember#bool,*" interface="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="fgf0CanUnassignPtnMember" opTemplate="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0CanUnassignPtnMember#bool,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="Determines if the element can be unassigned from its parent partition element." parameterName="verdict"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="" createRelease="Awp04.3.0" dependencies="" description="Check if Organization command is visible for input Business Object." exceptionCondition="" id="fgf0IsOrganizationCmdVisible#bool,*" interface="fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="fgf0IsOrganizationCmdVisible" opTemplate="int#fgf0::Teamcenter::Fgf0aw4gfoundation::Awb0Element::fgf0IsOrganizationCmdVisible#bool,*" returnDescription="" useCase="">
+                 
+            <ParameterInfo description="This is the verdict if the Organization command is visible or not." parameterName="verdict"/>
+               
+        </Operation>
+           
+        <Condition description="Determines if the Delete command is visible for the given Business Object." expression="o.fgf0CanDelete()" name="Fgf0DeleteCmdCnd" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Awb0Element"/>
+               
+        </Condition>
+           
+        <Condition description="This determines if Organization can be created for given Business Object." expression="o.fgf0IsOrganizationCmdVisible()" name="Fgf0IsOrganizationCmdVisibleCnd" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Awb0Element"/>
+               
+        </Condition>
+           
+        <Condition description="Replay Partition recipe condition" expression="( (u.fnd0ConditionHelper.awp0IsObjectType(c.awp0GetContextValueTag(&quot;UrlParameter_uid&quot;),&quot;Mdl0ApplicationModel&quot;)=true) AND (u.fnd0ConditionHelper.awp0IsObjectType(c.awp0GetContextValueTag(&quot;UrlParameter_uid&quot;),&quot;Ptn0ProductArchModel&quot;)=false) AND (u.fnd0ConditionHelper.awp0IsObjectType(c.awp0GetContextValueTag(&quot;UrlParameter_uid&quot;),&quot;Ptn0PartitionTemplateModel&quot;)=false) ) AND (u.fnd0ConditionHelper.awp0HasPrivilege(o.awb0UnderlyingObject,&quot;ADD_CONTENT&quot;)=true) AND (u.fnd0ConditionHelper.awp0isArrayOrRefPropertyValueEmpty(o.awb0UnderlyingObject,&quot;ptn0partition_recipe&quot;,true)=false)" name="Fgf0ReplayPartitionRecipeCmdCnd" secured="false">
+                 
+            <ConditionParameter name="c" parameterTypeName="Fnd0ClientContext"/>
+                 
+            <ConditionParameter name="o" parameterTypeName="Fgf0PartitionElement"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition would make SaveAs/Revise command visible for partition" expression="(u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Ptn0Partition&quot;)=false) OR (u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Ptn0Partition&quot;) AND u.fnd0ConditionHelper.awp0IsObjectType(c.awp0GetContextValueTag(&quot;UrlParameter_uid&quot;),&quot;Mdl0ApplicationModel&quot;)=true AND u.fnd0ConditionHelper.awp0HasPrivilege( c.awp0GetContextValueTag(&quot;UrlParameter_uid&quot;), &quot;ADD_CONTENT&quot; ))" name="Fgf0ShowSaveAsCmdCond" secured="false">
+                 
+            <ConditionParameter name="c" parameterTypeName="Fnd0ClientContext"/>
+                 
+            <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if build conditions toggle command can be enabled." expression="(u.fnd0ConditionHelper.fnd0isValuePresentInPref( &quot;AW_4G_VIEW&quot;, &quot;BOM&quot; ) = true) AND (u.fnd0ConditionHelper.fnd0isValuePresentInPref( &quot;AW_BuildConditions_Enabled&quot;, &quot;true&quot; ) = true) AND ( u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Ptn0Partition&quot;)=true ) AND ( u.fnd0ConditionHelper.awp0isArrayOrRefPropertyValueEmpty(o.mdl0model_object,&quot;Mdl0HasVarConfiguratorCxt&quot;,true) = false)" name="Fgf0ToggleBuildConditionsCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Mdl0ModelElement"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="Determines if the Unassign command is visible for the given Business Object." expression="o.fgf0CanUnassignPtnMember()" name="Fgf0UnassignCmdCnd" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Awb0Element"/>
+               
+        </Condition>
+           
+        <Command commandId="Fgf0ConfigurationFilter" description="Show 4G Configuration Filter" displayName="Configuration" icon="Awb0ConfigurationFilter" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Configuration"/>
+           
+        <Command commandId="Fgf0CreateMapping" description="UI Command for add mapping" displayName="Add" icon="Awp0AddIcon" mnemonic="" requiresUserInput="true" selectionModel="Single" tooltip="Add"/>
+           
+        <Command commandId="Fgf0DeleteCmd" description="Determines if the given Business Object can be deleted." displayName="Delete" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Delete the element from parent."/>
+           
+        <Command commandId="Fgf0DissociateFromBC" description="Detach selected content from build condition" displayName="Remove" icon="Awb0RemoveOcc" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Remove"/>
+           
+        <Command commandId="Fgf0Organization" description="This determines if Organization can be created for given Business Object." displayName="Organization" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+           
+        <Command commandId="Fgf0ReplayPartitionRecipe" description="Command to replay Partition recipe" displayName="Replay Partition Recipe" icon="Fgf0ReplaySubsetIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Replay"/>
+           
+        <Command commandId="Fgf0ReplayRecipe" description="Command to replay subset under workset." displayName="Replay Subset Recipe" icon="Fgf0ReplaySubsetIcon" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Replay"/>
+           
+        <Command commandId="Fgf0ToggleBuildConditions" description="Command for toggling the display of build conditions. Default mode is toggle off so default display name and tooltip is &quot;Show Build Conditions&quot;. Display name and tooltip will be set to &quot;Hide Build Conditions&quot; whenever toggle is on." displayName="Show Build Conditions" icon="Fgf0ToggleBuildConditions" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Show Build Conditions"/>
+           
+        <Command commandId="Fgf0UnMapping" description="UI Command for remove mapping" displayName="Remove" icon="Awp0RemoveIcon" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Remove"/>
+           
+        <Command commandId="Fgf0UnassignPtnMember" description="Determines if the given Business Object can be unassigned from its parent partition." displayName="Unassign" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Unassign from parent partition"/>
+           
+        <CommandAttach anchorId="Fgf0ReplayRecipe" childCommandId="Fgf0ReplayPartitionRecipe" commandCollectionId="Awb0OccurrenceManagement_display" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Fgf0ToggleBuildConditions" childCommandId="Fgf0ReplayRecipe" commandCollectionId="Awb0OccurrenceManagement_display" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0ModelObjListDisplayToggles" childCommandId="Fgf0ToggleBuildConditions" commandCollectionId="Awb0OccurrenceManagement_display" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0SaveEdits" childCommandId="Fgf0DissociateFromBC" commandCollectionId="Awb0OccurrenceManagement_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0CancelEdits" childCommandId="Fgf0CreateMapping" commandCollectionId="Awp0GlobalCommands_xrt" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Fgf0CreateMapping" childCommandId="Fgf0UnMapping" commandCollectionId="Awp0GlobalCommands_xrt" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <Icon description="Replay subset icon" name="Fgf0ReplaySubsetIcon"/>
+           
+        <Icon description="Icon for Toggle Build Conditions command" name="Fgf0ToggleBuildConditions"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ShowRevise" conditionName="Fgf0ShowSaveAsCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ShowSaveAs" conditionName="Fgf0ShowSaveAsCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0DeleteCmd" conditionName="Fgf0DeleteCmdCnd"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0Organization" conditionName="Fgf0IsOrganizationCmdVisibleCnd"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0ReplayPartitionRecipe" conditionName="Fgf0ReplayPartitionRecipeCmdCnd"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0ToggleBuildConditions" conditionName="Fgf0ToggleBuildConditionsCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0UnassignPtnMember" conditionName="Fgf0UnassignCmdCnd"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

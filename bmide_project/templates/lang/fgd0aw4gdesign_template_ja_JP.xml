@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="ja_JP" status="Approved">4GD製品構成プロバイダ</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="ja_JP" status="Approved">デザイン要素</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="ja_JP" status="Approved">サブセット</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="ja_JP" status="Approved">プロバイダにより参照されているソースオブジェクト</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="ja_JP" status="Approved">ワークセットプロバイダで使用</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="ja_JP" status="Approved">ソースオブジェクト有効期限</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="ja_JP" status="Approved">ソースオブジェクト最終修正者</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="ja_JP" status="Approved">ソースオブジェクト所有グループ</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="ja_JP" status="Approved">ソースオブジェクト所有ユーザ</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="ja_JP" status="Approved">ソースオブジェクトリリース日</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="ja_JP" status="Approved">ソースオブジェクト説明</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="ja_JP" status="Approved">ソースオブジェクトリリースステータス</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="ja_JP" status="Approved">ソースオブジェクトリビジョンID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="ja_JP" status="Approved">ソースオブジェクト名</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="ja_JP" status="Approved">ソースオブジェクトID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="ja_JP" status="Approved">この条件は、4g Designソリューションで「リビジョンアップを表示」コマンドを表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="ja_JP" status="Approved">この条件は、選択したオブジェクトを削除する十分な権限をユーザが持つかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="ja_JP" status="Approved">再生サブセットレシピ条件です。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="ja_JP" status="Approved">この条件は、パスしたビジネスオブジェクトが、「名前を変えて保存」/「リビジョンアップ」コマンドを表示するパーミッションを持つかを決定します。 条件要素以外のビジネスオブジェクトに対して「はい」を返します。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

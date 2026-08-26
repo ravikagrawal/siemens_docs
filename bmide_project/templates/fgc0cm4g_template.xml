@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:55:48 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Functionality description="This feature provides support for 4th Generation objects to be managed by Change Management. With this feature, Mdl0ConditionalElement objects may be related to ChangeItemRevision objects as Problem, Impacted, or Solution items." displayName="Change Management 4th Generation Interface" enabledForVerificationRules="false" name="Fgc0cm4g"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Mdl0AttributeGroup" value="false"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" isModifiable="false" isOverridable="false" typeName="Mdl0BaselineRevision" value="false"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Mdl0ConditionalElement" value="true"/>
+           
+        <Library createRelease="tc11000.2.2" description="Library containing artifacts for Change Management for 4GD." isThirdParty="false" name="Fgc0cm4g" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:52:57 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc11000.2.2" description="Build Conditions" isThirdParty="false" name="Bcs0buildconditions" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcOperation description="The return value for operation getCanonicalVariability is a runtime business object representing the configured search recipe to get canonical variability. On excuting this search recipe will return a ResultTable with six columns. The columns in the ResultTable are: container (tag_t), family namespace (string), value scope (string), family id (string), family mode (int), and value id (string)." operationName="getCanonicalVariability" operationType="TypeOperation"/>
+           
+        <TcOperation description="The return value for operation getConfigurableContent is a runtime business object representing the configured search recipe to get configurable content. On excuting this search recipe will return a ResultTable with two tag_t columns, one for the container and the other for its content." operationName="getConfigurableContent" operationType="TypeOperation"/>
+           
+        <TcOperation description="The return value for operation getImpactingVariability is a runtime business object representing the configured search recipe to get impacting variability. On excuting this search recipe will return a ResultTable with six columns. The columns in the ResultTable are: container (tag_t), family namespace (string), value scope (string), family id (string), family mode (int), and value id (string)." operationName="getImpactingVariability" operationType="TypeOperation"/>
+           
+        <TcOperationAttach description="An abstract operation is attached to WorkspaceObject with the expectation that content providers overwrite the operation on specific containers to return their respective content." extendableElementName="WorkspaceObject" extendableElementType="Type" operationName="getConfigurableContent">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="An abstract operation is attached to WorkspaceObject with the expectation that content providers overwrite the operation on specific containers to return their impacting variability." extendableElementName="WorkspaceObject" extendableElementType="Type" operationName="getImpactingVariability">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="An abstract operation is attached to WorkspaceObject with the expectation that content providers overwrite the operation on specific containers to return their canonical variability." extendableElementName="WorkspaceObject" extendableElementType="Type" operationName="getCanonicalVariability">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcExtension cannedExtension="false" description="Business objects for which build condition functionality for canonical variability is required need to overwrite this operation with a suitable implementation of the contract. E.g. the business object type &quot;Partition Admissibility&quot; in the &quot;Configurator Partition Interface&quot; template (Cfg1) will need to overwrite the base action." internal="false" languageType="CPlusPlus" libraryName="libBcs0buildconditions" name="WSO__getCanonicalVariability_method" packageName="">
+                 
+            <TcExtensionValidity parameter="TYPE:WorkspaceObject:getCanonicalVariability:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Business objects containing variant and/or effectivity configurable content for which build condition functionality is required need to overwrite this operation with a suitable implementation of the contract. E.g. the business object type &quot;Partition&quot; in the &quot;Advanced PLM Services for Partitioning&quot; template (Ptn0) will need to overwrite the base action." internal="false" languageType="CPlusPlus" libraryName="libBcs0buildconditions" name="WSO__getConfigurableContent_method" packageName="">
+                 
+            <TcExtensionValidity parameter="TYPE:WorkspaceObject:getConfigurableContent:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Business objects for which build condition functionality for impacting variability is required need to overwrite this operation with a suitable implementation of the contract. E.g. the business object type &quot;Partitioned Admissibility&quot; in the &quot;Partitioned Design Guidelines&quot; template (Pdg0) will need to overwrite the base action." internal="false" languageType="CPlusPlus" libraryName="libBcs0buildconditions" name="WSO__getImpactingVariability_method" packageName="">
+                 
+            <TcExtensionValidity parameter="TYPE:WorkspaceObject:getImpactingVariability:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="Attaches extension WSO__getConfigurableContent_method to overwrite the default behavior of operation getConfigurableContent for POM objects." extendableElementName="WorkspaceObject" extendableElementType="Type" extensionName="WSO__getConfigurableContent_method" extensionPointType="BaseAction" isActive="true" operationName="getConfigurableContent"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="Attaches extension WSO__getImpactingVariability_method to overwrite the default behavior of operation getImpactingVariability for POM objects." extendableElementName="WorkspaceObject" extendableElementType="Type" extensionName="WSO__getImpactingVariability_method" extensionPointType="BaseAction" isActive="true" operationName="getImpactingVariability"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="Attaches extension WSO__getCanonicalVariability_method to overwrite the default behavior of operation getCanonicalVariability for POM objects." extendableElementName="WorkspaceObject" extendableElementType="Type" extensionName="WSO__getCanonicalVariability_method" extensionPointType="BaseAction" isActive="true" operationName="getCanonicalVariability"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

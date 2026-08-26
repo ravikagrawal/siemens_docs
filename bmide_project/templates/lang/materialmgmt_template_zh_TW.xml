@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mat1BaseUnit" locale="zh_TW" status="Approved">基本單位</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMasterS" locale="zh_TW" status="Approved">複合材質主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMaster" locale="zh_TW" status="Approved">複合材質主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevMasterS" locale="zh_TW" status="Approved">複合材質版本主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevisionMaster" locale="zh_TW" status="Approved">複合材質版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevision" locale="zh_TW" status="Approved">複合材質版本</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterial" locale="zh_TW" status="Approved">複合材質</key>
+           
+        <key id="BusinessObject{::}Mat1DerivedUnit" locale="zh_TW" status="Approved">衍生單位</key>
+           
+        <key id="BusinessObject{::}Mat1HasAlternateMaterial" locale="zh_TW" status="Approved">備選材質</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamBoolean" locale="zh_TW" status="Approved">繼承的布林屬性</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDate" locale="zh_TW" status="Approved">繼承的日期屬性</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDouble" locale="zh_TW" status="Approved">繼承的雙精度參數</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamInteger" locale="zh_TW" status="Approved">繼承的整數屬性</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamRichtext" locale="zh_TW" status="Approved">繼承的富文字屬性</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamSmrtTbl" locale="zh_TW" status="Approved">繼承的智慧表參數</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamString" locale="zh_TW" status="Approved">繼承的字串參數</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParameter" locale="zh_TW" status="Approved">繼承的參數</key>
+           
+        <key id="BusinessObject{::}Mat1MadeFromMaterial" locale="zh_TW" status="Approved">組成材質</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMasterS" locale="zh_TW" status="Approved">材質目錄主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMaster" locale="zh_TW" status="Approved">材質目錄主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevMasterS" locale="zh_TW" status="Approved">材質目錄版本主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevisionMaster" locale="zh_TW" status="Approved">材質目錄版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevision" locale="zh_TW" status="Approved">材質目錄版本</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalog" locale="zh_TW" status="Approved">材質目錄</key>
+           
+        <key id="BusinessObject{::}Mat1MatClassification" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="BusinessObject{::}Mat1MatML" locale="zh_TW" status="Approved">MatML</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialClassification" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialInfo" locale="zh_TW" status="Approved">材質資訊</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMasterS" locale="zh_TW" status="Approved">材質主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMaster" locale="zh_TW" status="Approved">材質主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRanking" locale="zh_TW" status="Approved">材質類內部的材質定級</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevMasterS" locale="zh_TW" status="Approved">材質版本主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevisionMaster" locale="zh_TW" status="Approved">材質版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevision" locale="zh_TW" status="Approved">材質版本</key>
+           
+        <key id="BusinessObject{::}Mat1Material" locale="zh_TW" status="Approved">材質</key>
+           
+        <key id="BusinessObject{::}Mat1MetaParameter" locale="zh_TW" status="Approved">抽象屬性描述元</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSingleParameter" locale="zh_TW" status="Approved">屬性描述元</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSmartTable" locale="zh_TW" status="Approved">智慧表描述元</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterBoolean" locale="zh_TW" status="Approved">布林屬性</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDate" locale="zh_TW" status="Approved">參數日期</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDouble" locale="zh_TW" status="Approved">雙精度屬性</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterInteger" locale="zh_TW" status="Approved">整數屬性</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterRichtext" locale="zh_TW" status="Approved">富文字屬性</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterSmartTable" locale="zh_TW" status="Approved">智慧表屬性</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterString" locale="zh_TW" status="Approved">字串屬性</key>
+           
+        <key id="BusinessObject{::}Mat1Parameter" locale="zh_TW" status="Approved">材質屬性</key>
+           
+        <key id="BusinessObject{::}Mat1PrefMaterialForCoating" locale="zh_TW" status="Approved">首選塗層材質</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMasterS" locale="zh_TW" status="Approved">原材質主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMaster" locale="zh_TW" status="Approved">原材質主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevMasterS" locale="zh_TW" status="Approved">原材質版本主屬性表儲存</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevisionMaster" locale="zh_TW" status="Approved">原材質版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevision" locale="zh_TW" status="Approved">原材質版本</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterial" locale="zh_TW" status="Approved">原材質</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnitCategory" locale="zh_TW" status="Approved">階段作業單位目錄</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnits" locale="zh_TW" status="Approved">階段作業單位</key>
+           
+        <key id="BusinessObject{::}Mat1SmartCurve" locale="zh_TW" status="Approved">智慧曲線</key>
+           
+        <key id="BusinessObject{::}Mat1SubstanceInfo" locale="zh_TW" status="Approved">物質資訊</key>
+           
+        <key id="BusinessObject{::}Mat1Substance" locale="zh_TW" status="Approved">物質</key>
+           
+        <key id="BusinessObject{::}Mat1UnitAltName" locale="zh_TW" status="Approved">單位備選名稱</key>
+           
+        <key id="BusinessObject{::}Mat1UnitCategory" locale="zh_TW" status="Approved">單位類別</key>
+           
+        <key id="BusinessObject{::}Mat1UnitNamesOfADimension" locale="zh_TW" status="Approved">維度單位名稱</key>
+           
+        <key id="BusinessObject{::}Mat1Units" locale="zh_TW" status="Approved">單位</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterialForCoating" locale="zh_TW" status="Approved">塗層材質</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterial" locale="zh_TW" status="Approved">材質</key>
+           
+        <key id="BusinessObject{::}Mat1UsesSubstance" locale="zh_TW" status="Approved">物質</key>
+           
+        <key id="BusinessObject{::}Mat1ValidDerviedUnits" locale="zh_TW" status="Approved">有效的衍生單位</key>
+           
+        <key id="BusinessObject{::}Mat1ValidUnitAltNames" locale="zh_TW" status="Approved">有效的單位備選名稱</key>
+           
+        <key id="BusinessObject{::}RawMaterial" locale="zh_TW" status="Approved">抽象原材質</key>
+           
+        <key id="ConditionDescription{::}Mat1IsMaterialCompositionRestricted" locale="zh_TW" status="Approved">限制材質成分可見性的條件。</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;=" locale="zh_TW" status="Approved">小於或等於</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;" locale="zh_TW" status="Approved">小於</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;=" locale="zh_TW" status="Approved">大於或等於</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;" locale="zh_TW" status="Approved">大於</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="zh_TW" status="Approved">對於厚度，它是公分；對於面積，它是平方公分。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}in" locale="zh_TW" status="Approved">對於厚度，它是英寸；對於面積，它是平方英寸。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="zh_TW" status="Approved">(10^-3 mm)。對於厚度，它是微米；對於面積，它是平方微米。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="zh_TW" status="Approved">對於厚度，它是公釐；對於面積，它是平方公釐。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}m" locale="zh_TW" status="Approved">對於厚度，它是公尺；對於面積，它是平方公尺。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="zh_TW" status="Approved">(10^-6 mm)。對於厚度，它是奈米；對於面積，它是平方奈米。</key>
+           
+        <key id="LOVValueDescription{::}Mat1ExternalSources{::}0" locale="zh_TW" status="Approved">MatML</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="zh_TW" status="Approved">布林值：材質參數中的值類型，可涵蓋匯入類型為「布林值」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Date" locale="zh_TW" status="Approved">日期：材質參數中的值類型，可涵蓋匯入類型為「日期」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Double" locale="zh_TW" status="Approved">雙精度：材質參數中的值類型，可涵蓋匯入類型為「數值」、「雙精度」、「十進位」、「數值型」或「指數型」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="zh_TW" status="Approved">整數：材質參數中的值類型，可涵蓋匯入類型為「整數」或「整數型」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="zh_TW" status="Approved">富文字：材質參數中的值類型，可涵蓋匯入類型為「長文字」、「富文字」和「超連結」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}String" locale="zh_TW" status="Approved">字串：材質參數中的值類型，可涵蓋匯入類型為「字串」或「文字」時的輸入資料。</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}0.001" locale="zh_TW" status="Approved">表示 mg</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1" locale="zh_TW" status="Approved">表示 g</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1000" locale="zh_TW" status="Approved">表示 kg</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}kg" locale="zh_TW" status="Approved">公斤</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}mg" locale="zh_TW" status="Approved">毫克</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;=" locale="zh_TW" status="Approved">&lt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;" locale="zh_TW" status="Approved">&lt;</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;=" locale="zh_TW" status="Approved">&gt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;" locale="zh_TW" status="Approved">&gt;</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="zh_TW" status="Approved">公分</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}in" locale="zh_TW" status="Approved">英寸</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="zh_TW" status="Approved">微米</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="zh_TW" status="Approved">公釐</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}m" locale="zh_TW" status="Approved">公尺</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="zh_TW" status="Approved">奈米</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}approved" locale="zh_TW" status="Approved">已批准</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}obsolete" locale="zh_TW" status="Approved">廢棄</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}rejected" locale="zh_TW" status="Approved">已拒絕</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}unapproved" locale="zh_TW" status="Approved">未批准</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="zh_TW" status="Approved">布林型</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Date" locale="zh_TW" status="Approved">日期</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Double" locale="zh_TW" status="Approved">雙精度型</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="zh_TW" status="Approved">整數</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="zh_TW" status="Approved">富文字</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}String" locale="zh_TW" status="Approved">字串型</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}g" locale="zh_TW" status="Approved">克</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}kg" locale="zh_TW" status="Approved">公斤</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}mg" locale="zh_TW" status="Approved">毫克</key>
+           
+        <key id="Property{::}ItemRevision{::}mat1CumulativeMaterialsMass" locale="zh_TW" status="Approved">累積材質質量</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1BaseUnitSymbol" locale="zh_TW" status="Approved">基礎單位符號</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1UnitCategory" locale="zh_TW" status="Approved">父單位類別</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1BaseUnit" locale="zh_TW" status="Approved">父基礎單位</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitFactor" locale="zh_TW" status="Approved">衍生單位因數</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitOffset" locale="zh_TW" status="Approved">衍生單位偏置</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitSymbol" locale="zh_TW" status="Approved">衍生單位符號</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitValueFormat" locale="zh_TW" status="Approved">衍生單位值格式</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1BoundSymbol" locale="zh_TW" status="Approved">界限符號</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1IsInRange" locale="zh_TW" status="Approved">在範圍內</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayUnitAlName" locale="zh_TW" status="Approved">首選顯示單位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValueMax" locale="zh_TW" status="Approved">首選顯示最大值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValue" locale="zh_TW" status="Approved">首選顯示值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnitAlias" locale="zh_TW" status="Approved">單位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnit" locale="zh_TW" status="Approved">衍生單位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValueMax" locale="zh_TW" status="Approved">最大值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValue" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1UnitAliasName" locale="zh_TW" status="Approved">單位別名</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Unit" locale="zh_TW" status="Approved">單位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ValueMax" locale="zh_TW" status="Approved">最大值</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1ListOfCurves" locale="zh_TW" status="Approved">曲線清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitXAlias" locale="zh_TW" status="Approved">單位 X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitX" locale="zh_TW" status="Approved">衍生單位 X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitYAlias" locale="zh_TW" status="Approved">單位 Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitY" locale="zh_TW" status="Approved">衍生單位 Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitXAliasName" locale="zh_TW" status="Approved">單位 X 別名</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitX" locale="zh_TW" status="Approved">單位 X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitYAliasName" locale="zh_TW" status="Approved">單位 Y 別名</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitY" locale="zh_TW" status="Approved">單位 Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1XQualifier" locale="zh_TW" status="Approved">X 軸限定詞名稱</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1SessionValue" locale="zh_TW" status="Approved">顯示值</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Category" locale="zh_TW" status="Approved">類別</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1MetaParameter" locale="zh_TW" status="Approved">屬性描述元</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1OwningMaterialRevision" locale="zh_TW" status="Approved">所有權材質版本</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Parameter" locale="zh_TW" status="Approved">參數</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1RealName" locale="zh_TW" status="Approved">真實名稱</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition_in_range" locale="zh_TW" status="Approved">範圍內成分</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition" locale="zh_TW" status="Approved">成分（以 % 計）</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1max_composition" locale="zh_TW" status="Approved">最大成分（以 % 計）</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1DataVersionInSource" locale="zh_TW" status="Approved">資料的目錄修訂版本</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MatClassifications" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MaterialRevisions" locale="zh_TW" status="Approved">目錄材質</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MetaParameters" locale="zh_TW" status="Approved">參數描述元</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataIdentityInSource" locale="zh_TW" status="Approved">目錄資料識別</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataSource" locale="zh_TW" status="Approved">目錄資料來源</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1MetaParameters" locale="zh_TW" status="Approved">參數描述元</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatCatalog" locale="zh_TW" status="Approved">材質目錄</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatClassPath" locale="zh_TW" status="Approved">材質類完整路徑</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1ParentClassification" locale="zh_TW" status="Approved">父類</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1RealName" locale="zh_TW" status="Approved">真實類名</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1DisplayName" locale="zh_TW" status="Approved">類顯示名稱</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatCatalog" locale="zh_TW" status="Approved">材質目錄</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatClassPath" locale="zh_TW" status="Approved">材質類完整路徑</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1Name" locale="zh_TW" status="Approved">材質類名</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1ParentClassification" locale="zh_TW" status="Approved">父類</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1mass" locale="zh_TW" status="Approved">質量</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1material" locale="zh_TW" status="Approved">材質</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1uom_tag" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1MatClassification" locale="zh_TW" status="Approved">對應的材質類</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1PreferredMaterialRevs" locale="zh_TW" status="Approved">首選材質版本</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1AlternateNames" locale="zh_TW" status="Approved">材質指派</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Applications" locale="zh_TW" status="Approved">應用程式</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1DataVersionInSource" locale="zh_TW" status="Approved">來源中的材質修訂版本</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1ExtendsMaterial" locale="zh_TW" status="Approved">繼承自</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1InheritedParameters" locale="zh_TW" status="Approved">繼承的參數</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsInactive" locale="zh_TW" status="Approved">是否非使用中</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsRecylateable" locale="zh_TW" status="Approved">此材質中是否包含可回收材質？</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRevisions" locale="zh_TW" status="Approved">參照材質目錄</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRev" locale="zh_TW" status="Approved">主材質目錄版本</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatClassifications" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MaterialClasses" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Parameters" locale="zh_TW" status="Approved">參數</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylFrom" locale="zh_TW" status="Approved">消耗後回收自 %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylTo" locale="zh_TW" status="Approved">消耗後回收至 %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylFrom" locale="zh_TW" status="Approved">消耗前回收自 %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylTo" locale="zh_TW" status="Approved">消耗前回收至 %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1external_import" locale="zh_TW" status="Approved">材質是否為外部匯入的</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1remarks" locale="zh_TW" status="Approved">備註</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1status" locale="zh_TW" status="Approved">即時匯出至 Excel 以要求 MSD</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substance_details" locale="zh_TW" status="Approved">物質詳細資訊</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substances" locale="zh_TW" status="Approved">成分</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1DataSource" locale="zh_TW" status="Approved">材質資料來源名稱</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1ExternalSource" locale="zh_TW" status="Approved">材質來源</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1MatCatalog" locale="zh_TW" status="Approved">材質目錄</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1cas_number" locale="zh_TW" status="Approved">CAS 編號</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_identifier" locale="zh_TW" status="Approved">外部識別碼</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_import" locale="zh_TW" status="Approved">材質是否為外部匯入的</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1non_library" locale="zh_TW" status="Approved">材質是否為非庫</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1unique_identifier" locale="zh_TW" status="Approved">Teamcenter 唯一識別碼</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1Category" locale="zh_TW" status="Approved">類別</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataIdentityInSource" locale="zh_TW" status="Approved">資料識別</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataSource" locale="zh_TW" status="Approved">資料來源</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1ParameterID" locale="zh_TW" status="Approved">參數 ID</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1RealName" locale="zh_TW" status="Approved">真實名稱</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1DataType" locale="zh_TW" status="Approved">資料類型</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Dimension" locale="zh_TW" status="Approved">尺寸</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1UnitAliasName" locale="zh_TW" status="Approved">單位別名</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Unit" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionX" locale="zh_TW" status="Approved">尺寸 X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionY" locale="zh_TW" status="Approved">尺寸 Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitXAliasName" locale="zh_TW" status="Approved">單位 X 別名</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitX" locale="zh_TW" status="Approved">X 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitYAliasName" locale="zh_TW" status="Approved">單位 Y 別名</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitY" locale="zh_TW" status="Approved">Y 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1XQualifier" locale="zh_TW" status="Approved">X 軸限定詞名稱</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1ParameterDoubleCreI{::}mat1UnitName" locale="zh_TW" status="Approved">單位名稱</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1BoundSymbol" locale="zh_TW" status="Approved">界限符號</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1IsInRange" locale="zh_TW" status="Approved">值是否在範圍內？</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayUnitAlName" locale="zh_TW" status="Approved">首選顯示單位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValueMax" locale="zh_TW" status="Approved">首選顯示最大值</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValue" locale="zh_TW" status="Approved">首選顯示值</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnitAlias" locale="zh_TW" status="Approved">單位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnit" locale="zh_TW" status="Approved">衍生單位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValueMax" locale="zh_TW" status="Approved">顯示值，最大值</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValue" locale="zh_TW" status="Approved">顯示值</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1UnitAliasName" locale="zh_TW" status="Approved">單位別名</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Unit" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ValueMax" locale="zh_TW" status="Approved">最大值</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1SessionValue" locale="zh_TW" status="Approved">階段作業值</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameX" locale="zh_TW" status="Approved">單位名稱 X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameY" locale="zh_TW" status="Approved">單位名稱 Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1ListOfCurves" locale="zh_TW" status="Approved">曲線清單</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitXAlias" locale="zh_TW" status="Approved">單位 X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitX" locale="zh_TW" status="Approved">X 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitYAlias" locale="zh_TW" status="Approved">單位 Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitY" locale="zh_TW" status="Approved">Y 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitXAliasName" locale="zh_TW" status="Approved">單位 X 別名</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitX" locale="zh_TW" status="Approved">X 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitYAliasName" locale="zh_TW" status="Approved">單位 Y 別名</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitY" locale="zh_TW" status="Approved">Y 軸的度量單位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1XQualifier" locale="zh_TW" status="Approved">X 軸限定詞名稱</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參考參數清單</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1SessionValue" locale="zh_TW" status="Approved">顯示值</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1Category" locale="zh_TW" status="Approved">類別</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1MetaParameter" locale="zh_TW" status="Approved">參數描述元</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1OwningMaterialRevision" locale="zh_TW" status="Approved">所有權材質版本</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1ParameterID" locale="zh_TW" status="Approved">參數 ID</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1RealName" locale="zh_TW" status="Approved">真實名稱</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1AlternateNames" locale="zh_TW" status="Approved">材質指派</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Applications" locale="zh_TW" status="Approved">應用程式</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1DataVersionInSource" locale="zh_TW" status="Approved">來源中的材質修訂版本</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1ExtendsMaterial" locale="zh_TW" status="Approved">繼承自</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1InheritedParameters" locale="zh_TW" status="Approved">繼承的參數</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRevisions" locale="zh_TW" status="Approved">參照材質目錄</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRev" locale="zh_TW" status="Approved">主材質目錄版本</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatClassifications" locale="zh_TW" status="Approved">材質類</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Parameters" locale="zh_TW" status="Approved">參數</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1DataSource" locale="zh_TW" status="Approved">材質資料來源名稱</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1MatCatalog" locale="zh_TW" status="Approved">材質目錄</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1external_identifier" locale="zh_TW" status="Approved">外部識別碼</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1DerivedUnit" locale="zh_TW" status="Approved">衍生單位</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitAltName" locale="zh_TW" status="Approved">單位別名</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitCategory" locale="zh_TW" status="Approved">單位類別</key>
+           
+        <key id="Property{::}Mat1SessionUnits{::}mat1SessionUnitCategoryArr" locale="zh_TW" status="Approved">階段作業單位類別陣列</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1IsMathFormula" locale="zh_TW" status="Approved">是否為數學公式？</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfQualifiers" locale="zh_TW" status="Approved">限定詞清單</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfRefParameters" locale="zh_TW" status="Approved">參照值清單</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfUncertainties" locale="zh_TW" status="Approved">不確定性清單</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1MathFormula" locale="zh_TW" status="Approved">數學公式</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueX" locale="zh_TW" status="Approved">顯示值 X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueY" locale="zh_TW" status="Approved">顯示值 Y</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesX" locale="zh_TW" status="Approved">X 值</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesY" locale="zh_TW" status="Approved">Y 值</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1mass_in_range" locale="zh_TW" status="Approved">質量是否在範圍內</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1max_mass" locale="zh_TW" status="Approved">最大質量</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1min_mass" locale="zh_TW" status="Approved">最小質量</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1substance" locale="zh_TW" status="Approved">物質</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1uom_tag" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EINEC_ELINCS_Number" locale="zh_TW" status="Approved">EINECS/ELINCS 程式碼</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EUIndexCode" locale="zh_TW" status="Approved">EU 索引程式碼</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1ExternalSource" locale="zh_TW" status="Approved">物質來源</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1INN" locale="zh_TW" status="Approved">國際非專有名稱</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1IsInActive" locale="zh_TW" status="Approved">非使用中</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceName" locale="zh_TW" status="Approved">物質名稱</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceReplacements" locale="zh_TW" status="Approved">備選物質</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1Synonym" locale="zh_TW" status="Approved">同義詞</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1cas_number" locale="zh_TW" status="Approved">CAS</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_identifier" locale="zh_TW" status="Approved">外部識別碼</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_import" locale="zh_TW" status="Approved">物質是否已外部匯入</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1is_wildcard" locale="zh_TW" status="Approved">通配物質</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1unique_identifier" locale="zh_TW" status="Approved">Teamcenter 唯一識別碼</key>
+           
+        <key id="Property{::}Mat1UnitAltName{::}mat1DerivedUnit" locale="zh_TW" status="Approved">父衍生單位</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingSurfaceArea" locale="zh_TW" status="Approved">塗層表面積</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingThickness" locale="zh_TW" status="Approved">塗層厚度</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingUnitOfMeasure" locale="zh_TW" status="Approved">塗層面積和厚度基本單位</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1IsRecylateable" locale="zh_TW" status="Approved">此材質中是否包含可回收材質？</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylFrom" locale="zh_TW" status="Approved">消耗後回收自 %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylTo" locale="zh_TW" status="Approved">消耗後回收至 %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylFrom" locale="zh_TW" status="Approved">消耗前回收自 %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylTo" locale="zh_TW" status="Approved">消耗前回收至 %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1active_in_external_tool" locale="zh_TW" status="Approved">材質是否在外部工具中處於使用中狀態</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1external_import" locale="zh_TW" status="Approved">材質是否為外部匯入的</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1is_preferred" locale="zh_TW" status="Approved">材質是否為首選</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass_in_grams" locale="zh_TW" status="Approved">質量以克為單位</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass" locale="zh_TW" status="Approved">質量</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1uom_tag" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1OriginalUsesSubstance" locale="zh_TW" status="Approved">繼承自</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition_in_range" locale="zh_TW" status="Approved">成分是否在範圍內</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition" locale="zh_TW" status="Approved">% 成分</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1external_import" locale="zh_TW" status="Approved">物質是否已外部匯入</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1max_composition" locale="zh_TW" status="Approved">最大成分 (%)</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

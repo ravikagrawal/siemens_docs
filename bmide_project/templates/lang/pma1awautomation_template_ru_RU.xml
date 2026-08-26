@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="ru_RU" status="Approved">Поставщик выровненных целей</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="ru_RU" status="Approved">Возможные действия обновления</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="ru_RU" status="Approved">Обновление структуры</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="ru_RU" status="Approved">Указывает, чувствительна ли деталь к цвету</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="ru_RU" status="Approved">Указывает, имеет ли деталь состояние Не готово</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="ru_RU" status="Approved">Обновление структуры</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="ru_RU" status="Approved">Цветная деталь</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="ru_RU" status="Approved">Не готово</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="ru_RU" status="Approved">Нет</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="ru_RU" status="Approved">Аутсорсинг разработки</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="ru_RU" status="Approved">Разработка приобретена</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="ru_RU" status="Approved">Внутренняя разработка</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="ru_RU" status="Approved">Не назначено</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="ru_RU" status="Approved">Выровнять по общей детали</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="ru_RU" status="Approved">Контекст выровненной детали</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="ru_RU" status="Approved">Статус выпуска выровненной детали</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="ru_RU" status="Approved">Выровненные детали</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="ru_RU" status="Approved">Деталь выровнена?</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="ru_RU" status="Approved">Требуется деталь</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="ru_RU" status="Approved">Выровненные детали</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="ru_RU" status="Approved">Контексты выровненной разработки</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="ru_RU" status="Approved">Статус выпуска выровненной разработки</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="ru_RU" status="Approved">Выровненные разработки</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="ru_RU" status="Approved">Разработка выровнена?</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="ru_RU" status="Approved">Требуется разработка</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="ru_RU" status="Approved">Выровненные разработки</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="ru_RU" status="Approved">Несколько тел</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="ru_RU" status="Approved">Действие обновления</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="ru_RU" status="Approved">Структура успешно сгенерирована</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="ru_RU" status="Approved">Структура успешно обновлена</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="ru_RU" status="Approved">Выравнивание существует</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Создать и обновить". Доступно только для объектов проектирования.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

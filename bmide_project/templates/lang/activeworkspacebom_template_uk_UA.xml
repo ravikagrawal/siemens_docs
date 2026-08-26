@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:33 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="uk_UA" status="Approved">Постачальник компонування</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="uk_UA" status="Approved">Автоматичне створення закладок</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="uk_UA" status="Approved">Адміністративні дані індексу Відомості матеріалів</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="uk_UA" status="Approved">Дані закладки</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="uk_UA" status="Approved">Дані навігації закладками</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="uk_UA" status="Approved">Додати в закладки дані виробу</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="uk_UA" status="Approved">Підмножина даних</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="uk_UA" status="Approved">Клонувати стабільні ID-ланцюги до провайдера елементів</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="uk_UA" status="Approved">Постачальник правил закриття</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="uk_UA" status="Approved">Порівняти результат</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="uk_UA" status="Approved">Умовний елемент</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="uk_UA" status="Approved">Постачальник контексту</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="uk_UA" status="Approved">Елемент конфігурації дати набуття чинності</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="uk_UA" status="Approved">Елемент конструкції</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="uk_UA" status="Approved">Постачальник діапазону застосування</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="uk_UA" status="Approved">Елемент</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="uk_UA" status="Approved">Список елементів</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="uk_UA" status="Approved">Елемент плоскої структури</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="uk_UA" status="Approved">Елемент пошуку за повним текстом</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="uk_UA" status="Approved">Провайдер повнотекстового пошуку</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="uk_UA" status="Approved">Провайдер керованих атрибутів</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="uk_UA" status="Approved">Перевизначити постачальника набору даних</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="uk_UA" status="Approved">Елемент розділення</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="uk_UA" status="Approved">Розташований елемент</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="uk_UA" status="Approved">Інформація про контекст виробу</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="uk_UA" status="Approved">Елемент виробу</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="uk_UA" status="Approved">Елемент кореневого екземпляра</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="uk_UA" status="Approved">Елемент "Збереження робочого контексту"</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="uk_UA" status="Approved">Збережений Робочий Контекст</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="uk_UA" status="Approved">Постачальник збережених запитів</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="uk_UA" status="Approved">Постачальник замінників</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="uk_UA" status="Approved">Елемент конфігурації дієвості одиниці</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="uk_UA" status="Approved">Варіантний елемент</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="uk_UA" status="Approved">Постачальник типу подання</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="uk_UA" status="Approved">Елемент переглядача</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="uk_UA" status="Approved">Deprecated. see support announcement Teamcenter 2606. Zone Provider</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="uk_UA" status="Approved">Ця операція клонує елемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="uk_UA" status="Approved">Ця операція посилається на елемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="uk_UA" status="Approved">Ця операція вносить зміни до елемента.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="uk_UA" status="Approved">Ця операція замінює елемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="uk_UA" status="Approved">Ця операція ігнорує елемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="uk_UA" status="Approved">Збережений робочий контекст не є спільним.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="uk_UA" status="Approved">Збережений робочий контекст доступний лише для читання.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="uk_UA" status="Approved">Збережений робочий контекст доступний для читання й запису</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="uk_UA" status="Approved">Досвід роботи з активним вмістом</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="uk_UA" status="Approved">Зміни не збережено</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="uk_UA" status="Approved">Зміни збережено</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="uk_UA" status="Approved">Порівняти</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="uk_UA" status="Approved">Зберегти як і замінити</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="uk_UA" status="Approved">Довідник</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="uk_UA" status="Approved">Редагувати</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="uk_UA" status="Approved">Замінити</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="uk_UA" status="Approved">Видалити</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="uk_UA" status="Approved">Приватний</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="uk_UA" status="Approved">Тільки для читання</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="uk_UA" status="Approved">Читання/Запис</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="uk_UA" status="Approved">Досвід роботи з активним вмістом</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="uk_UA" status="Approved">Зміни не збережено</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="uk_UA" status="Approved">Зміни збережено</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="uk_UA" status="Approved">Порівняти</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="uk_UA" status="Approved">Активний виріб</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="uk_UA" status="Approved">Дата останнього доступу</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="uk_UA" status="Approved">Дата останнього збереження збереженої закладки</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="uk_UA" status="Approved">Відкритий об'єкт</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="uk_UA" status="Approved">Незбережені зміни</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="uk_UA" status="Approved">Користувач</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="uk_UA" status="Approved">Базове правило ревізії</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="uk_UA" status="Approved">Правило замикання</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="uk_UA" status="Approved">Дата набрання чинності</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="uk_UA" status="Approved">Кінцевий елемент дії</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="uk_UA" status="Approved">Номер одиниці чинності</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="uk_UA" status="Approved">Стан даних індексу Відомості матеріалів</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="uk_UA" status="Approved">Дата останнього доступу</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="uk_UA" status="Approved">Дата останнього оновлення</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="uk_UA" status="Approved">Кількість входжень</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="uk_UA" status="Approved">Виріб</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="uk_UA" status="Approved">Тип структури</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="uk_UA" status="Approved">Статус підписників</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="uk_UA" status="Approved">Підписники</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="uk_UA" status="Approved">Ревізії, які містять варіантне правило</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="uk_UA" status="Approved">Правила варіантів</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="uk_UA" status="Approved">Ідентифікатор вікна</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="uk_UA" status="Approved">Активне підрозташування</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="uk_UA" status="Approved">Чи стиснуті дані розширення?</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="uk_UA" status="Approved">Дані розширення</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="uk_UA" status="Approved">Перевизначити Контекст</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="uk_UA" status="Approved">Шлях вибраного елемента</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="uk_UA" status="Approved">Застосоване розміщення</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="uk_UA" status="Approved">Правило замикання</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="uk_UA" status="Approved">Конфігураційний контекст</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="uk_UA" status="Approved">Дані конфігурації</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="uk_UA" status="Approved">Дата набуття чинності</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="uk_UA" status="Approved">Діє зараз</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="uk_UA" status="Approved">Номер ефективної одиниці</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="uk_UA" status="Approved">Групи застосування</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="uk_UA" status="Approved">Кінцевий виріб</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="uk_UA" status="Approved">Глобальне правило ревізії додано до закладок</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="uk_UA" status="Approved">Незбережені зміни</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="uk_UA" status="Approved">Виріб</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="uk_UA" status="Approved">Рядки правил ревізії</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="uk_UA" status="Approved">Правило ревізії</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="uk_UA" status="Approved">Збережені правила варіантів</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="uk_UA" status="Approved">Ревізія елемента-власника варіанта</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="uk_UA" status="Approved">Тип відображення</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="uk_UA" status="Approved">Список екземплярів</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="uk_UA" status="Approved">Критерії порівняння</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="uk_UA" status="Approved">Порівняти варіанти</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="uk_UA" status="Approved">Порівняти Ключ</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="uk_UA" status="Approved">Глибина</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="uk_UA" status="Approved">Альтернативний список</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="uk_UA" status="Approved">Статуси випуску</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="uk_UA" status="Approved">Термін дії ревізії</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="uk_UA" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="uk_UA" status="Approved">Опис</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="uk_UA" status="Approved">Дієвість випуску</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="uk_UA" status="Approved">Ревізія</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="uk_UA" status="Approved">Назва ревізії</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="uk_UA" status="Approved">Статус випуску</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="uk_UA" status="Approved">Індикатор збірки</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="uk_UA" status="Approved">Дієвість елементів</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="uk_UA" status="Approved">ID чинності елемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="uk_UA" status="Approved">Елемент відфільтровано?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="uk_UA" status="Approved">Ефективність елемента мережі</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="uk_UA" status="Approved">Ідентифікатор ревізії елемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="uk_UA" status="Approved">VOC - Екземпляр варіанта налаштовано</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="uk_UA" status="Approved">Стан складання кінцевого виробу</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="uk_UA" status="Approved">Індикатор завершення</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="uk_UA" status="Approved">Має активну розмітку</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="uk_UA" status="Approved">Глобальна альтернатива</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="uk_UA" status="Approved">Дієвість елемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="uk_UA" status="Approved">Замінити</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="uk_UA" status="Approved">Варіант</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="uk_UA" status="Approved">Чи є екземпляр замінником?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="uk_UA" status="Approved">Упаковано</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="uk_UA" status="Approved">Точний</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="uk_UA" status="Approved">Чи є вторинним компонентом?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="uk_UA" status="Approved">Варіантний елемент</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="uk_UA" status="Approved">Назви властивостей розмітки</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="uk_UA" status="Approved">Значення властивостей розмітки</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="uk_UA" status="Approved">Дія</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="uk_UA" status="Approved">Рівень зрілості</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="uk_UA" status="Approved">Потрібно кілька вирівнювань</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="uk_UA" status="Approved">Чиста варіабельність</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="uk_UA" status="Approved">Кількість упаковок</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="uk_UA" status="Approved">Дія</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="uk_UA" status="Approved">Позначення позиції</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="uk_UA" status="Approved">Основні компоненти</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="uk_UA" status="Approved">Керована кількість</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="uk_UA" status="Approved">Правило налаштоване користувачем</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="uk_UA" status="Approved">Показати компоненти-замінники</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="uk_UA" status="Approved">Пропустити вирівнювання</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="uk_UA" status="Approved">Індикатор заміщення</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="uk_UA" status="Approved">Адреса використання</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="uk_UA" status="Approved">Формула варіанта</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="uk_UA" status="Approved">ID в контексті (верхній рівень)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="uk_UA" status="Approved">ID у контексті (усі рівні)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="uk_UA" status="Approved">Дата останньої зміни</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="uk_UA" status="Approved">Останній користувач, який вніс зміни</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="uk_UA" status="Approved">Ідентифікатор групи</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="uk_UA" status="Approved">Власник</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="uk_UA" status="Approved">Дата випуску</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="uk_UA" status="Approved">Архетип</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="uk_UA" status="Approved">Обмежувальна рамка</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="uk_UA" status="Approved">Попередній елемент хлібних крихт</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="uk_UA" status="Approved">Скопіювати стабільний ідентифікатор екземпляра</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="uk_UA" status="Approved">Копіювати шлях стабільного ідентифікатора</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="uk_UA" status="Approved">Елемент</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="uk_UA" status="Approved">EOC - сконфігуровано ефективний екземпляр</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="uk_UA" status="Approved">Ідентифікатор елемента</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="uk_UA" status="Approved">Статус випуску елемента</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="uk_UA" status="Approved">Перевизначення</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="uk_UA" status="Approved">Класифікація IP</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="uk_UA" status="Approved">Чи вимкнено елемент?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="uk_UA" status="Approved">Чи можна змінювати структуру?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="uk_UA" status="Approved">Підозрілий</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="uk_UA" status="Approved">Перетворення перевизначено?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="uk_UA" status="Approved">Останній збережений набір посилань</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="uk_UA" status="Approved">Рівень</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="uk_UA" status="Approved">Кількість дочірніх елементів</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="uk_UA" status="Approved">Назва екземпляра</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="uk_UA" status="Approved">Тип екземпляра</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="uk_UA" status="Approved">Перевизначені властивості</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="uk_UA" status="Approved">Перевизначити контексти</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="uk_UA" status="Approved">Батьківський елемент</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="uk_UA" status="Approved">Ідентифікатор контексту продукту</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="uk_UA" status="Approved">Проєкти</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="uk_UA" status="Approved">Кількість</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="uk_UA" status="Approved">Відносне перетворення</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="uk_UA" status="Approved">Номер пошуку</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="uk_UA" status="Approved">Сервісний адаптер</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="uk_UA" status="Approved">Відстежити зв'язок</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="uk_UA" status="Approved">Абсолютне перетворення</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="uk_UA" status="Approved">Тип</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="uk_UA" status="Approved">Базовий об'єкт</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="uk_UA" status="Approved">Одиниця виміру</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="uk_UA" status="Approved">Журнали аудиту структури</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="uk_UA" status="Approved">Можна змінювати</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="uk_UA" status="Approved">Елемент</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="uk_UA" status="Approved">Доступні елементи</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="uk_UA" status="Approved">Незмінювані елементи</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="uk_UA" status="Approved">Має віддзеркалення</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="uk_UA" status="Approved">Позначення елементу</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="uk_UA" status="Approved">Системи координат</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="uk_UA" status="Approved">Аналоги</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="uk_UA" status="Approved">Активне компонування</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="uk_UA" status="Approved">Альтернативна конфігурація</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="uk_UA" status="Approved">Застосоване компонування</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="uk_UA" status="Approved">Автоматична закладка</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="uk_UA" status="Approved">Правило розгортання відомості матеріалів</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="uk_UA" status="Approved">URI клієнтської області</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="uk_UA" status="Approved">Правило замикання</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="uk_UA" status="Approved">Об'єкт контексту</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="uk_UA" status="Approved">Поточне правило ревізії</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="uk_UA" status="Approved">Застаріло. Поточні варіантні правила</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="uk_UA" status="Approved">Застаріле. Поточне правило варіанта</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="uk_UA" status="Approved">Дата набрання чинності</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="uk_UA" status="Approved">Кінцевий елемент дії</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="uk_UA" status="Approved">Номер одиниці вступу в дію</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="uk_UA" status="Approved">Групи чинності</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="uk_UA" status="Approved">Дати закінчення терміну дії</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="uk_UA" status="Approved">Кінцеві ефективні одиниці</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="uk_UA" status="Approved">Кількість фільтрів</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="uk_UA" status="Approved">Фільтрований структурний рецепт</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="uk_UA" status="Approved">Дата оновлення індексу</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="uk_UA" status="Approved">Deprecated. See Support Announcement 2412. Pack Similar Elements</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="uk_UA" status="Approved">Інформація про контекст виробу</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="uk_UA" status="Approved">Застаріло. Див. оголошення служби підтримки 2412. Показати зміну</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="uk_UA" status="Approved">Deprecated. See Support Announcement 2412. Show Exploded Lines</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="uk_UA" status="Approved">Застаріло. Див. оголошення служби підтримки 2412. Показати розмітку</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="uk_UA" status="Approved">Знімок</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="uk_UA" status="Approved">Дати початку дії</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="uk_UA" status="Approved">Запустити ефективні одиниці</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="uk_UA" status="Approved">Рецептура структури</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="uk_UA" status="Approved">Підтримувані елементи</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="uk_UA" status="Approved">Використовувати Глобальне Правило Ревізії</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="uk_UA" status="Approved">Ревізія-власник варіантного правила</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="uk_UA" status="Approved">Правила варіантів</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="uk_UA" status="Approved">Перемикачі вигляду</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="uk_UA" status="Approved">Тип перегляду</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="uk_UA" status="Approved">Перемикачі стану вікна</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="uk_UA" status="Approved">Назви контейнерів</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="uk_UA" status="Approved">Активний виріб</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="uk_UA" status="Approved">Дозволити іншим переглядати</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="uk_UA" status="Approved">Дозволити іншим редагувати</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="uk_UA" status="Approved">Предок у хлібних крихтах</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="uk_UA" status="Approved">CAD-дані інтероперабельної сесії</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="uk_UA" status="Approved">Чи можна змінити структуру?</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="uk_UA" status="Approved">Незбережені зміни</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="uk_UA" status="Approved">Рівень спільного доступу</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="uk_UA" status="Approved">Контекст</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="uk_UA" status="Approved">Підключений кінець 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="uk_UA" status="Approved">З'єднаний кінець 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="uk_UA" status="Approved">Тип об'єкта</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="uk_UA" status="Approved">Має структуру</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="uk_UA" status="Approved">UID вузлів траєкторії вигляду рядка BOM</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="uk_UA" status="Approved">ID об'єкта</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="uk_UA" status="Approved">ID ревізії</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="uk_UA" status="Approved">Дата останньої зміни</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="uk_UA" status="Approved">Користувач, який востаннє вніс зміни</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="uk_UA" status="Approved">Група власника</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="uk_UA" status="Approved">Користувач-власник</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="uk_UA" status="Approved">Статуси випусків</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="uk_UA" status="Approved">Дата випуску</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="uk_UA" status="Approved">З'єднання</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="uk_UA" status="Approved">Інтерфейс</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="uk_UA" status="Approved">Підключений кінець 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="uk_UA" status="Approved">З'єднаний кінець 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="uk_UA" status="Approved">Підключено до</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="uk_UA" status="Approved">Напрямок</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="uk_UA" status="Approved">Дочірній</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="uk_UA" status="Approved">Додати</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="uk_UA" status="Approved">Дочірній елемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="uk_UA" status="Approved">Допоміжний компонент</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="uk_UA" status="Approved">Сусідній елемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="uk_UA" status="Approved">Додати</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="uk_UA" status="Approved">Сусідній елемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="uk_UA" status="Approved">Додати замінники</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="uk_UA" status="Approved">Застосувати розмітку</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="uk_UA" status="Approved">Налаштувати за виділенням</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="uk_UA" status="Approved">Скасувати елемент розмітки</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="uk_UA" status="Approved">Скасувати рівень розмітки</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="uk_UA" status="Approved">Порівняти</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="uk_UA" status="Approved">Налаштувати За Дійсними Накладаннями</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="uk_UA" status="Approved">Редагувати Чинність</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="uk_UA" status="Approved">Вставити рівень</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="uk_UA" status="Approved">Елемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="uk_UA" status="Approved">Упакувати</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="uk_UA" status="Approved">Відпустити</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="uk_UA" status="Approved">Видалити елемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="uk_UA" status="Approved">Видалити рівень</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="uk_UA" status="Approved">Видалити замінники</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="uk_UA" status="Approved">Заміна</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="uk_UA" status="Approved">Зберегти як</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="uk_UA" status="Approved">Зберегти як</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="uk_UA" status="Approved">Зберегти</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="uk_UA" status="Approved">Зберегти</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="uk_UA" status="Approved">Зберегти робочий контекст</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="uk_UA" status="Approved">Задати в контексті</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="uk_UA" status="Approved">Підмножина</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="uk_UA" status="Approved">Переключити допоміжні компоненти</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="uk_UA" status="Approved">Перемкнути заміщувальні компоненти</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="uk_UA" status="Approved">Розпакувати</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="uk_UA" status="Approved">Використати заміну</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="uk_UA" status="Approved">Переглянути дієвість елемента</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна додати дочірній елемент до вхідного елемента.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна додати дочірній виріб до збереженої закладки.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="uk_UA" status="Approved">Визначає, чи можна додати вторинний компонент до елемента введення.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="uk_UA" status="Approved">Це визначає, чи можна додати до вхідного елемента сусідній елемент.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна до збереженої закладки додати продукт, сусідній до вибраного продукту.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна додати заміну</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="uk_UA" status="Approved">Умова видимості серверної команди "Застосувати розмітку". Ця команда повинна бути видимою лише, якщо користувач має доступ до зміни структури.</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="uk_UA" status="Approved">Визначає умову відображення користувачу попереджувального банера про клонування Відомості матеріалів під час натискання команди "Дублювати" у Клієнті Active Workspace.</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="uk_UA" status="Approved">Це визначає, чи доступна команда "Налаштувати за виділенням" для вхідного елемента.</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="uk_UA" status="Approved">Умова видимості серверної команди "Скасувати розмітку"</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="uk_UA" status="Approved">Умова видимості серверної команди "Порівняти". Ця команда буде видимою лише за умови, що обидва вибрані об'єкти належать до типу ItemRevision і відповідають вимогам мінімальної версії платформи.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="uk_UA" status="Approved">Умова увімкнення команди "Видалити" для кількох об'єктів збереженого робочого контексту.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="uk_UA" status="Approved">Умова увімкнення команди Видалити для збереженого робочого контексту</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="uk_UA" status="Approved">Умова команди для приховування команди "Видалити" в контексті сеансового об'єкта</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна для об'єктів типу Awb0Element створювати спільні ефективності, редагувати їх, додавати до елемента та видаляти з елемента.</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="uk_UA" status="Approved">Визначає, чи має бути видимою команда "Вставити рівень".</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="uk_UA" status="Approved">Визначає, чи можна відобразити команду "Налаштувати за дійсними накладеннями" для заданого бізнес-об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="uk_UA" status="Approved">Перевірити наявність ліцензії Structure Manager Pro для зміни контексту</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="uk_UA" status="Approved">Умова команди для приховування "Відкрити в SEEC" у контексті об'єкта сесії.</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="uk_UA" status="Approved">Визначає, чи має відображатися команда "Упакувати" для вибраного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна застосувати дієвість ревізії до вибраного об'єкта</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="uk_UA" status="Approved">Це визначає, чи можна видалити елементи зі структури.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="uk_UA" status="Approved">Визначає, чи відображати команду "Видалити рівень".</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна видаляти замінники</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="uk_UA" status="Approved">Це визначає, чи можна замінювати елементи зі структури.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="uk_UA" status="Approved">Визначає, чи слід відображати "Зберегти робочий контекст".</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="uk_UA" status="Approved">Визначає, чи слід відображати "Зберегти як" у контексті виробу.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="uk_UA" status="Approved">Цей параметр визначає, чи слід відображати команду "Зберегти як" для збереженої закладки.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="uk_UA" status="Approved">Визначає, чи слід відображати кнопку "Зберегти" у контексті продукту.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="uk_UA" status="Approved">Визначає, чи відображати кнопку "Зберегти" для збереженої закладки.</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="uk_UA" status="Approved">Це визначає, чи слід відображати команду "Встановити у контексті" для вибраного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="uk_UA" status="Approved">Визначає, чи відображаються вторинні компоненти під обраним Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="uk_UA" status="Approved">Це визначає, чи відображаються замінні компоненти під вибраним Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="uk_UA" status="Approved">Визначає, чи має відображатися команда "Розпакувати" для вибраного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна використовувати замінник</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна переглянути застосовані дієвості для об'єктів типу Awb0Element.</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="uk_UA" status="Approved">Розмітка для постачальника рівня</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="uk_UA" status="Approved">Провайдер анотацій</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="uk_UA" status="Approved">Дата останнього відтворення</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="uk_UA" status="Approved">Відкладені зміни</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="uk_UA" status="Approved">ID міститься в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="uk_UA" status="Approved">Назва міститься в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="uk_UA" status="Approved">Тип міститься в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="uk_UA" status="Approved">Продукти в сеансі</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="uk_UA" status="Approved">Останнє оновлення індексу Smart Discovery</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="uk_UA" status="Approved">Індексовано Smart Discovery</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="uk_UA" status="Approved">Постачальник контекстних продуктів</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="uk_UA" status="Approved">LOV збереженого запиту в контексті</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="uk_UA" status="Approved">Постачальник даних SD-індексатора</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="uk_UA" status="Approved">Назва збереженого запиту в контексті</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="uk_UA" status="Approved">Індексована точка відліку</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="uk_UA" status="Approved">Елемент деталі</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="uk_UA" status="Approved">Виробництво/Закупівля</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="uk_UA" status="Approved">Вирівняти</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Вирівняти". Доступна лише для об'єктів Конструкції та Деталі.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

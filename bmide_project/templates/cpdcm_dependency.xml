@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Change Management 4th Generation Design Interface" enableOpsDataDeploy="false" guid="12EBCA7ED53D0F5C5761C89EEFF28663" isDescriptionMandatory="true" name="cpdcm" optional="true" prefixes="Cpc0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="fgc0cm4g_template.xml"/>
+    <include file="realization_template.xml"/>
+    <include file="partition_template.xml"/>
+    <include file="rzc0rlzcm_template.xml"/>
+    <include file="cpd_template.xml"/>
+</TcBusinessDataIncludes>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Fr. Juni 03 03:10:18 nachm. 2022">
+<Add>
+   <TcDataset typeName="BctInspector" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BctInspector">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSViewTool name="Notepad"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDSEditTool name="Notepad"/>
+     <TcDatasetReference name="CnTable">
+       <TcDatasetReferenceInfo template="*.xml" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.dtd" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.csv" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.csvHdr" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.ipxml" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="Image">
+       <TcDatasetReferenceInfo template="*.tif" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.pdf" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.cals" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="Direct-Model-Data">
+       <TcDatasetReferenceInfo template="*.jt" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcDataset typeName="BctInspectorProject" parentTypeName="Dataset" typeClassName="Dataset"
+       description="" isAbstract="false" artifactName="BctInspectorProject">
+     <TcDSViewTool name="Notepad"/>
+     <TcDSEditTool name="Notepad"/>
+     <TcDatasetReference name="CnProject">
+       <TcDatasetReferenceInfo template="*.ipxml" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="Direct-Model-Data">
+       <TcDatasetReferenceInfo template="*.jt" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcStandardType typeName="BCT_INSPECTOR" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       description="" isAbstract="false" artifactName="BCT_INSPECTOR"/>
+   <TcStandardType typeName="BCT_INSPECTOR_CAQ" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       description="" isAbstract="false" artifactName="BCT_INSPECTOR_CAQ"/>
+   <OperationInputType typeName="BctInspectorCreI" parentTypeName="DatasetCreI" typeClassName="BctInspectorCreI"
+       description="CreateInput object for &quot;BctInspector&quot; business object"
+       isAbstract="false" artifactName="BctInspectorCreI"/>
+   <OperationInputType typeName="BctInspectorProjectCreI" parentTypeName="DatasetCreI"
+       typeClassName="BctInspectorProjectCreI" description="CreateInput object for &quot;BctInspectorProject&quot; business object"
+       isAbstract="false" artifactName="BctInspectorProjectCreI"/>
+   <OperationInputType typeName="BCT_INSPECTORCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BCT_INSPECTORCreI" description="CreateInput object for &quot;BCT_INSPECTOR&quot; business object"
+       isAbstract="false" artifactName="BCT_INSPECTORCreI"/>
+   <OperationInputType typeName="BCT_INSPECTOR_CAQCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="BCT_INSPECTOR_CAQCreI" description="CreateInput object for &quot;BCT_INSPECTOR_CAQ&quot; business object"
+       isAbstract="false" artifactName="BCT_INSPECTOR_CAQCreI"/>
+   <OperationInputType typeName="BctInspectorProjectSvAI" parentTypeName="DatasetSvAI"
+       typeClassName="BctInspectorProjectSvAI" description="SaveAsInput object for &quot;BctInspectorProject&quot; business object"
+       isAbstract="false" artifactName="BctInspectorProject"/>
+   <OperationInputType typeName="BctInspectorSvAI" parentTypeName="DatasetSvAI" typeClassName="BctInspectorSvAI"
+       description="SaveAsInput object for &quot;BctInspector&quot; business object"
+       isAbstract="false" artifactName="BctInspector"/>
+   <OperationInputType typeName="BCT_INSPECTORSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BCT_INSPECTORSvAI" description="SaveAsInput object for &quot;BCT_INSPECTOR&quot; business object"
+       isAbstract="false" artifactName="BCT_INSPECTOR"/>
+   <OperationInputType typeName="BCT_INSPECTOR_CAQSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="BCT_INSPECTOR_CAQSvAI" description="SaveAsInput object for &quot;BCT_INSPECTOR_CAQ&quot; business object"
+       isAbstract="false" artifactName="BCT_INSPECTOR_CAQ"/>
+   <TcPropertyAttach typeName="Item">
+     <TcProperty propName="BCT_INSPECTOR" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="BCT Inspector relation between BCT Inspector (Project) Datasets and Items"
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Item">
+     <TcProperty propName="BCT_INSPECTOR_CAQ" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="BCT Inspector relation between NX Part Items and CAQ Items (with BCT Inspector Datasets)"
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BCT_INSPECTOR" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="BCT Inspector relation between BCT Inspector (Project) Datasets and Item Revisions"
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="BCT_INSPECTOR_CAQ" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="BCT Inspector relation between NX Part Item Revisions and CAQ Item Revisions (with BCT Inspector Datasets)"
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BCT_INSPECTOR" value="BCT_INSPECTORCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BCT_INSPECTOR_CAQ" value="BCT_INSPECTOR_CAQCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BctInspector" value="BctInspectorCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="BctInspectorProject"
+       value="BctInspectorProjectCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="BctInspector" value="Bc3dBctInspector.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="BctInspectorProject" value="Bc3dBctInspectorProject.png"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BCT_INSPECTOR" value="BCT_INSPECTORSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BCT_INSPECTOR_CAQ" value="BCT_INSPECTOR_CAQSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BctInspector" value="BctInspectorSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="BctInspectorProject"
+       value="BctInspectorProjectSvAI"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Item" propertyName="BCT_INSPECTOR"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Item" propertyName="BCT_INSPECTOR_CAQ"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BCT_INSPECTOR"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="BCT_INSPECTOR_CAQ"
+       value="Write"/>
+</Add>
+</TcBusinessData>

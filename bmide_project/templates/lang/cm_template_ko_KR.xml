@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:00 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="ko_KR" status="Approved">분석자</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="ko_KR" status="Approved">영향 받음</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="ko_KR" status="Approved">문제</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="ko_KR" status="Approved">솔루션</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="ko_KR" status="Approved">계획</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="ko_KR" status="Approved">구현</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="ko_KR" status="Approved">변경 참조</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="ko_KR" status="Approved">변경 관리 관계</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="ko_KR" status="Approved">솔루션 - 영향 받는 아이템</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="ko_KR" status="Approved">변경 구현 위원회</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="ko_KR" status="Approved">변경 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="ko_KR" status="Approved">변경 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="ko_KR" status="Approved">변경 아이템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="ko_KR" status="Approved">변경 아이템 버전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="ko_KR" status="Approved">변경 아이템</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="ko_KR" status="Approved">변경 통보 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="ko_KR" status="Approved">변경 통보 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="ko_KR" status="Approved">변경 통보 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="ko_KR" status="Approved">변경 통보 버전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="ko_KR" status="Approved">변경 통보</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="ko_KR" status="Approved">변경 요청 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="ko_KR" status="Approved">변경 요청 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="ko_KR" status="Approved">변경 요청 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="ko_KR" status="Approved">변경 요청 버전 마스터</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="ko_KR" status="Approved">변경 요청</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="ko_KR" status="Approved">변경 검토 위원회</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="ko_KR" status="Approved">변경 전문가 I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="ko_KR" status="Approved">변경 전문가 II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="ko_KR" status="Approved">변경 전문가 III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="ko_KR" status="Approved">작업 아이템 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="ko_KR" status="Approved">작업 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="ko_KR" status="Approved">작업 아이템 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="ko_KR" status="Approved">작업 아이템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="ko_KR" status="Approved">작업 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="ko_KR" status="Approved">작업 아이템</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="ko_KR" status="Approved">감사 아이템</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="ko_KR" status="Approved">권한 부여 마크업 변경</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="ko_KR" status="Approved">BOM에 수퍼시저 폼이 있음</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="ko_KR" status="Approved">이전 종속성</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="ko_KR" status="Approved">구성 감사 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="ko_KR" status="Approved">구성 감사 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="ko_KR" status="Approved">구성 감사 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="ko_KR" status="Approved">구성 감사 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="ko_KR" status="Approved">구성 감사 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="ko_KR" status="Approved">구성 감사</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="ko_KR" status="Approved">참가자</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="ko_KR" status="Approved">변경 편집</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="ko_KR" status="Approved">동시 종속성</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="ko_KR" status="Approved">편차 요청 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="ko_KR" status="Approved">편차 요청 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="ko_KR" status="Approved">편차 요청 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="ko_KR" status="Approved">편차 요청 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="ko_KR" status="Approved">편차 요청 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="ko_KR" status="Approved">편차 요청</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="ko_KR" status="Approved">적용일자/단위 식 블록 변경</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="ko_KR" status="Approved">일반 검토 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="ko_KR" status="Approved">일반 검토 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="ko_KR" status="Approved">일반 검토 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="ko_KR" status="Approved">일반 검토 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="ko_KR" status="Approved">일반 검토 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="ko_KR" status="Approved">일반 검토</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="ko_KR" status="Approved">일반 작업 지시 마스터 수퍼시저</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="ko_KR" status="Approved">일반 작업 지시 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="ko_KR" status="Approved">일반 작업 지시 리비전 마스터 수퍼시저</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="ko_KR" status="Approved">일반 작업 지시 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="ko_KR" status="Approved">일반 작업 지시 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="ko_KR" status="Approved">일반 작업 지시</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="ko_KR" status="Approved">변경 공간</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="ko_KR" status="Approved">계약</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="ko_KR" status="Approved">영향을 받지 않음</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="ko_KR" status="Approved">제안</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="ko_KR" status="Approved">통합</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="ko_KR" status="Approved">병합됨</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="ko_KR" status="Approved">이전 적용일자/단위</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="ko_KR" status="Approved">속성 편집</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="ko_KR" status="Approved">제안된 영향 받는 개체</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="ko_KR" status="Approved">작업 아이템 증가</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="ko_KR" status="Approved">제거된 행</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="ko_KR" status="Approved">단순 변경 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="ko_KR" status="Approved">단순 변경 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="ko_KR" status="Approved">단순 변경 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="ko_KR" status="Approved">단순 변경 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="ko_KR" status="Approved">단순 변경 리비전</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="ko_KR" status="Approved">단순 변경</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="ko_KR" status="Approved">작업 중인 환경</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="ko_KR" status="Approved">일반 변경 통보 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="ko_KR" status="Approved">일반 변경 통보 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="ko_KR" status="Approved">일반 변경 통보 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="ko_KR" status="Approved">일반 변경 통보 리비전</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="ko_KR" status="Approved">일반 변경 통보 버전 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="ko_KR" status="Approved">일반 변경 통보</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="ko_KR" status="Approved">일반 변경 요청 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="ko_KR" status="Approved">일반 변경 요청 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="ko_KR" status="Approved">일반 변경 요청 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="ko_KR" status="Approved">일반 변경 요청 리비전</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="ko_KR" status="Approved">일반 변경 요청 버전 마스터</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="ko_KR" status="Approved">일반 변경 요청</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="ko_KR" status="Approved">일반 문제 보고서 마스터</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="ko_KR" status="Approved">일반 문제 보고서 마스터</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="ko_KR" status="Approved">일반 문제 보고서 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="ko_KR" status="Approved">일반 문제 보고서 리비전</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="ko_KR" status="Approved">일반 문제 보고서 버전 마스터</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="ko_KR" status="Approved">일반 문제 보고서</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="ko_KR" status="Approved">문제 보고서 마스터</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="ko_KR" status="Approved">문제 보고서 마스터</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="ko_KR" status="Approved">문제 보고서 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="ko_KR" status="Approved">문제 보고서 버전 마스터</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="ko_KR" status="Approved">문제 보고서</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="ko_KR" status="Approved">요청자</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="ko_KR" status="Approved">이 조건은 Cm0BeforeDependency 및 Cm0ConcurrentDependency를 사용할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="ko_KR" status="Approved">이 조건은 Cm0BeforeDependency 및 Cm0ConcurrentDependency를 사용할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="ko_KR" status="Approved">이 조건은 Cm0BeforeDependency 및 Cm0ConcurrentDependency를 사용할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="ko_KR" status="Approved">이 조건은 CMHasImpactedItem 관계의 cm0Disposition 속성을 편집할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="ko_KR" status="Approved">이 조건은 단순 변경 리비전 유형 및 하위 유형에 대한 템플릿 필터링을 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMHasImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 CMHasImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="ko_KR" status="Approved">영향 받는 아이템을 추가하려면 해당 변경 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="ko_KR" status="Approved">영향 받는 아이템을 추가하려면 사용자가 작성 중인 작성 라이선스 수준을 가지고 있고, 요청자 또는 분석자 또는 변경 참가자여야 하고, 변경 아이템에 대한 쓰기 권한이 있어야 하며, 해당 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 Cm0HasNonImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 Cm0HasNonImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="ko_KR" status="Approved">영향을 받지 않는 아이템을 추가하려면 사용자가 작성 중인 작성 라이선스 수준을 가지고 있고, 요청자, 분석자 또는 변경 참가자여야 하고, 변경 아이템에 대한 쓰기 권한이 있어야 하며, 해당 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMHasProblemItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 CMHasProblemItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="ko_KR" status="Approved">문제 아이템을 추가하려면 해당 변경 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="ko_KR" status="Approved">문제 아이템을 추가하려면 사용자가 변경 아이템에 대한 쓰기 권한이 있어야 하며 해당 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMHasSolutionItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="ko_KR" status="Approved">이 조건을 사용하면 변경 통보가 실행, 승인됨 및 열림인 경우에만 작성 중인 라이선스 수준의 분석자 참가자로 할당된 사용자가 솔루션 항목을 추가할 수 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="ko_KR" status="Approved">솔루션 아이템을 추가하려면 사용자가 분석자 또는 변경 참가자 또는 일정 타스크 담당자여야 하며 변경 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="ko_KR" status="Approved">솔루션 아이템을 추가하려면 사용자가 작성 중인 라이선스 수준을 가지고 있고, 분석자 또는 변경 참가자여야 하고, 변경 아이템에 대한 쓰기 권한이 있어야 하며, 해당 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="ko_KR" status="Approved">이 조건은 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="ko_KR" status="Approved">참조 아이템을 추가하려면 해당 변경 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="ko_KR" status="Approved">이 조건은 변경 구성기가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="ko_KR" status="Approved">이 조건은 변경 실행이 허용되는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="ko_KR" status="Approved">이 조건은 사용자가 변경 통보를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="ko_KR" status="Approved">이 조건은 사용자가 변경 요청을 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="ko_KR" status="Approved">이 조건은 사용자가 작업 아이템을 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="ko_KR" status="Approved">이 조건은 구성 감사의 상태를 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="ko_KR" status="Approved">이 조건은 사용자가 편차 요청을 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="ko_KR" status="Approved">이 조건은 구성 감사의 상태를 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 Cm0Incorporates 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 Cm0Incorporates 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="ko_KR" status="Approved">이 조건은 Cm0Incorporates 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="ko_KR" status="Approved">이 조건은 구성 감사의 상태를 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="ko_KR" status="Approved">영향 받는 아이템에 대해 통합 상태를 편집할 수 있는지 여부를 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="ko_KR" status="Approved">이 조건은 사용자가 문제 보고서를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="ko_KR" status="Approved">변경 유형 생성의 허용 여부를 결정하는 조건입니다.</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="ko_KR" status="Approved">이 조건은 지정된 아이템 리비전 순서가 활성 상태인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="ko_KR" status="Approved">이 조건은 분석자가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 변경 아이템 리비전의 변경 분석자인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 작성자인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 1차 개체에 대해 CMHasImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 2차 개체에 대해 CMHasImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 타스크에 대해 CMHasImpactedItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 CMHasImpactedItem 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 1차 개체에 대해 CMHasProblemItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 2차 개체에 대해 CMHasProblemItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 타스크에 대해 CMHasProblemItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 CMHasProblemItem 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 1차 개체에 대해 CMHasSolutionItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 2차 개체에 대해 CMHasSolutionItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 타스크에 대해 CMHasSolutionItem 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 CMHasSolutionItem 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 1차 개체에 대해 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 지정된 2차 개체에 대해 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 CMHasWorkBreakdown 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMImplements 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 CMImplements 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="ko_KR" status="Approved">변경 아이템 사이에서 변경을 파생하고 구현 관계를 추가하려면 사용자가 작성 중인 라이선스 수준을 가지고 있고 해당 변경 아이템이 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="ko_KR" status="Approved">이 조건은 지정된 1차 개체에 대해 CMReferences 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="ko_KR" status="Approved">이 조건은 지정된 2차 개체에 대해 CMReferences 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="ko_KR" status="Approved">이 조건은 타스크와 함께 CMReferences 유형의 관계를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="ko_KR" status="Approved">참조 아이템을 추가하려면 사용자가 변경 아이템에 대한 쓰기 권한이 있어야 하며 해당 아이템 열린 상태여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="ko_KR" status="Approved">이 조건은 변경 실행이 허용되는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="ko_KR" status="Approved">이 조건은 변경 구현 위원회가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 사용자가 변경 통보를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 사용자가 변경 요청을 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="ko_KR" status="Approved">이 조건은 변경 검토 위원회가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="ko_KR" status="Approved">이 조건은 변경 전문가 1이 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 변경 아이템 리비전의 변경 전문가 1인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="ko_KR" status="Approved">이 조건은 변경 전문가 2가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 변경 아이템 리비전의 변경 전문가 2인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="ko_KR" status="Approved">이 조건은 변경 전문가 3이 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 변경 아이템 리비전의 변경 전문가 3인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 사용자가 편차 요청을 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="ko_KR" status="Approved">이 조건은 연결된 변경 아이템 리비전에 대한 적용일자/단위를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="ko_KR" status="Approved">이 조건은 연결된 변경 아이템 리비전에 대한 영향 받는 아이템을 개정할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="ko_KR" status="Approved">이 조건은 연결된 타스크에 대한 영향 받는 아이템을 개정할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 13.1 참조 - 이 조건은 사용자가 문제 보고서를 생성할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="ko_KR" status="Approved">이 조건은 요청자가 할당 가능한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="ko_KR" status="Approved">이 조건은 현재 로그인 사용자가 변경 아이템 리비전의 변경 요청자인지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="ko_KR" status="Approved">이 조건은 사용자가 롤업을 커밋할 수 있는지 결정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="ko_KR" status="Approved">병합 완료</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="ko_KR" status="Approved">부분 병합</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="ko_KR" status="Approved">요청된 변경은 영향받는 아이템을 교체할 새 아이템을 생성하는 것입니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="ko_KR" status="Approved">요청된 변경은 영향받는 아이템을 기존 아이템으로 교체하는 것입니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="ko_KR" status="Approved">요청된 변경은 영향받는 아이템을 개정하는 것입니다.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ko_KR" status="Approved">활성 변경 또는 공개의 최신 버전.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ko_KR" status="Approved">타겟 변경만 또는 공개의 최신 버전.</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="ko_KR" status="Approved">완료</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="ko_KR" status="Approved">부분</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="ko_KR" status="Approved">새 항목 생성</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="ko_KR" status="Approved">기존 항목으로 교체</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="ko_KR" status="Approved">개정</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="ko_KR" status="Approved">승인</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="ko_KR" status="Approved">참가</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="ko_KR" status="Approved">상세</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="ko_KR" status="Approved">릴리스됨</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ko_KR" status="Approved">모든 활성 ECN</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ko_KR" status="Approved">현재 ECN만</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="ko_KR" status="Approved">병합된 어커런스 데이터 포함</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="ko_KR" status="Approved">컷백 어커런스</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="ko_KR" status="Approved">병합된 속성</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="ko_KR" status="Approved">업데이트된 속성</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="ko_KR" status="Approved">내부 변경 모드</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="ko_KR" status="Approved">동시 변경</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="ko_KR" status="Approved">처리</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="ko_KR" status="Approved">변경 통보를 구현하는 중</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="ko_KR" status="Approved">솔루션</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="ko_KR" status="Approved">통합 상태</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="ko_KR" status="Approved">계보</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="ko_KR" status="Approved">부모</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="ko_KR" status="Approved">요청된 변경</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="ko_KR" status="Approved">계보</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="ko_KR" status="Approved">제안된 설계 소유 사이트</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="ko_KR" status="Approved">계보</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="ko_KR" status="Approved">다음에서 파생</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="ko_KR" status="Approved">In Context 개체</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="ko_KR" status="Approved">분석자 사용자 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="ko_KR" status="Approved">변경 전문가 I 사용자 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="ko_KR" status="Approved">변경 전문가 II 사용자 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="ko_KR" status="Approved">변경 전문가 III 사용자 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="ko_KR" status="Approved">분석자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="ko_KR" status="Approved">전문가</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="ko_KR" status="Approved">외부 발신자?</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="ko_KR" status="Approved">발신자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="ko_KR" status="Approved">원격 워크플로 작업 UID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="ko_KR" status="Approved">요청자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="ko_KR" status="Approved">요청자 사용자 ID</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="ko_KR" status="Approved">개요</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="ko_KR" status="Approved">영향</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="ko_KR" status="Approved">주석</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="ko_KR" status="Approved">사무소 기본 담당자</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="ko_KR" status="Approved">감사에 의해 발생됨</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="ko_KR" status="Approved">영역</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="ko_KR" status="Approved">작업 유형</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="ko_KR" status="Approved">작업 아이템 번호</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="ko_KR" status="Approved">주석</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="ko_KR" status="Approved">프로세스 날짜</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="ko_KR" status="Approved">감사 번호</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="ko_KR" status="Approved">변경 개체</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="ko_KR" status="Approved">업데이트된 개체</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="ko_KR" status="Approved">반복적 편차</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="ko_KR" status="Approved">반복적 편차의 근거</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="ko_KR" status="Approved">EDR 번호</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="ko_KR" status="Approved">편차 유형</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="ko_KR" status="Approved">EDR 번호</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="ko_KR" status="Approved">감사 아이템 있음</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="ko_KR" status="Approved">감사 유형</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="ko_KR" status="Approved">병합 상태</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="ko_KR" status="Approved">변경 편집</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="ko_KR" status="Approved">속성 이름</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="ko_KR" status="Approved">속성 초기 값</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="ko_KR" status="Approved">속성 업데이트된 값</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="ko_KR" status="Approved">자식</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="ko_KR" status="Approved">자식을 소유</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="ko_KR" status="Approved">이미 영향 받음</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="ko_KR" status="Approved">문제 개체</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="ko_KR" status="Approved">제안된 영향 받는 개체 이름</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="ko_KR" status="Approved">제안된 영향 받는 개체</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="ko_KR" status="Approved">제안된 영향 받는 유형</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="ko_KR" status="Approved">관련 부모 리비전</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="ko_KR" status="Approved">관련 사용 리비전</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="ko_KR" status="Approved">관계</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="ko_KR" status="Approved">소스 개체 유형</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="ko_KR" status="Approved">원본 개체</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="ko_KR" status="Approved">파트 사용</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="ko_KR" status="Approved">SC 번호</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="ko_KR" status="Approved">SC 번호</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="ko_KR" status="Approved">빠른 추적</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="ko_KR" status="Approved">제안 적용일자/단위</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="ko_KR" status="Approved">ECN 번호</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="ko_KR" status="Approved">ECN 번호</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="ko_KR" status="Approved">빠른 추적</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="ko_KR" status="Approved">ECR 번호</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="ko_KR" status="Approved">ECR 번호</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="ko_KR" status="Approved">PR 번호</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="ko_KR" status="Approved">PR 번호</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="ko_KR" status="Approved">공유됨</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="ko_KR" status="Approved">주요 설계 검토</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="ko_KR" status="Approved">기능적 구성 감사</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="ko_KR" status="Approved">물리적 구성 감사</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="ko_KR" status="Approved">초기 설계 검토</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="ko_KR" status="Approved">테스트 준비 검토</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="ko_KR" status="Approved">사용자의 요구 사항이 위에 해당되지 않을 경우입니다. 예를 들어, 사용자가 답을 모르거나 나중에 결정하고 싶을 수도 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="ko_KR" status="Approved">파트를 수정하고 동일한 어셈블리에서 사용합니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="ko_KR" status="Approved">나머지 파트는 사용하지 마십시오.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="ko_KR" status="Approved">생산 중인 파트를 현재 상태로 유지합니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ko_KR" status="Approved">영향을 받는 아이템에 대해 정의된 변경 사항이 해당 솔루션 아이템에 구현되어, 정의된 변경 사항을 완전히 통합하기 위한 후속 변경이 필요하지 않습니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ko_KR" status="Approved">영향 받는 아이템에 대해 정의된 변경이 해당 솔루션 아이템에 부분적으로 구현되었습니다. 이 변경 사항은 아이템 리비전의 기본 체인에 완전히 통합하기 위해 후속 변경이 필요합니다.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ko_KR" status="Approved">영향 받는 아이템에 대해 정의된 변경 사항이 해당 솔루션 아이템에 아직 구현되지 않았습니다.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ko_KR" status="Approved">자동 병합</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ko_KR" status="Approved">동시 변경</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="ko_KR" status="Approved">승인</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="ko_KR" status="Approved">비승인</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="ko_KR" status="Approved">수리</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="ko_KR" status="Approved">개선</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="ko_KR" status="Approved">방지</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="ko_KR" status="Approved">취소</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="ko_KR" status="Approved">닫힘</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="ko_KR" status="Approved">보류 중</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="ko_KR" status="Approved">승인</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="ko_KR" status="Approved">지연됨</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="ko_KR" status="Approved">비승인</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="ko_KR" status="Approved">검토</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="ko_KR" status="Approved">없음</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="ko_KR" status="Approved">완료</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="ko_KR" status="Approved">상세</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="ko_KR" status="Approved">실행</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="ko_KR" status="Approved">검토</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="ko_KR" status="Approved">낮음</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="ko_KR" status="Approved">중간</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="ko_KR" status="Approved">높음</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="ko_KR" status="Approved">심각</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="ko_KR" status="Approved">다른 문제</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="ko_KR" status="Approved">확인된 문제</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="ko_KR" status="Approved">확인되지 않은 문제</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="ko_KR" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="ko_KR" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="ko_KR" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="ko_KR" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="ko_KR" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="ko_KR" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="ko_KR" status="Approved">아니요</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="ko_KR" status="Approved">예</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="ko_KR" status="Approved">실패</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="ko_KR" status="Approved">없음</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="ko_KR" status="Approved">통과</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="ko_KR" status="Approved">완료</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="ko_KR" status="Approved">상세</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="ko_KR" status="Approved">진행 중</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="ko_KR" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="ko_KR" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="ko_KR" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="ko_KR" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="ko_KR" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="ko_KR" status="Approved">기타</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="ko_KR" status="Approved">재작업</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="ko_KR" status="Approved">스크랩</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="ko_KR" status="Approved">있는 그대로 사용</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="ko_KR" status="Approved">취소됨</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ko_KR" status="Approved">병합됨</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ko_KR" status="Approved">병합 필요</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ko_KR" status="Approved">병합 필요 없음</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ko_KR" status="Approved">자동 병합</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ko_KR" status="Approved">동시 변경</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="ko_KR" status="Approved">BOM 편집</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="ko_KR" status="Approved">BOM 수퍼시저</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="ko_KR" status="Approved">변경 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="ko_KR" status="Approved">변경 통보 리비전</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="ko_KR" status="Approved">변경 요청 리비전</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="ko_KR" status="Approved">문제 보고서 리비전</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="ko_KR" status="Approved">BOM 수퍼시저</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="ko_KR" status="Approved">BOM 편집 수량</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="ko_KR" status="Approved">BOM 뷰 리비전</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="ko_KR" status="Approved">변경 리비전</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="ko_KR" status="Approved">변경 유형</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="ko_KR" status="Approved">사용자 정의 개체</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="ko_KR" status="Approved">파생됨</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="ko_KR" status="Approved">개체 전체 이름</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="ko_KR" status="Approved">개체 이름</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="ko_KR" status="Approved">개체 문자열</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="ko_KR" status="Approved">개체 유형</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="ko_KR" status="Approved">어커런스</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="ko_KR" status="Approved">문제 BOM 뷰 리비전</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="ko_KR" status="Approved">수량 차이</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="ko_KR" status="Approved">어커런스 리비전 활성 변경</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="ko_KR" status="Approved">활성 변경</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="ko_KR" status="Approved">취소</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="ko_KR" status="Approved">취소</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="ko_KR" status="Approved">변경 리비전</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="ko_KR" status="Approved">사용자 정의 폼잉</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="ko_KR" status="Approved">영향 받은 BOM 뷰 리비전</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="ko_KR" status="Approved">전송</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="ko_KR" status="Approved">개체 전체 이름</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="ko_KR" status="Approved">개체 이름</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="ko_KR" status="Approved">개체 문자열</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="ko_KR" status="Approved">개체 유형</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="ko_KR" status="Approved">문제 BOM 뷰 리비전</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="ko_KR" status="Approved">변경 아이템 리비전 기본 상태</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="ko_KR" status="Approved">변경 아이템 리비전</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="ko_KR" status="Approved">변경 통보 리비전 공유 모드</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="ko_KR" status="Approved">분석자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="ko_KR" status="Approved">종결 주석</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="ko_KR" status="Approved">종결 날짜</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="ko_KR" status="Approved">종결</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="ko_KR" status="Approved">처리 주석</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="ko_KR" status="Approved">처리 날짜</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="ko_KR" status="Approved">처리</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="ko_KR" status="Approved">구현자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="ko_KR" status="Approved">변경 만기일</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="ko_KR" status="Approved">변경 구현 위원회</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="ko_KR" status="Approved">변경 검토 위원회</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="ko_KR" status="Approved">변경 전문가 I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="ko_KR" status="Approved">변경 전문가 II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="ko_KR" status="Approved">변경 전문가 III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="ko_KR" status="Approved">요청자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="ko_KR" status="Approved">자동 전파 관계</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="ko_KR" status="Approved">구매자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="ko_KR" status="Approved">변경 참가자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="ko_KR" status="Approved">파생할 수 있는 유형</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="ko_KR" status="Approved">설계자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="ko_KR" status="Approved">제조 엔지니어</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="ko_KR" status="Approved">재정 견적인</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="ko_KR" status="Approved">문제 수정 가능</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="ko_KR" status="Approved">참조 수정 가능</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="ko_KR" status="Approved">리드 설계자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="ko_KR" status="Approved">문제 파트 리비전</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="ko_KR" status="Approved">제품 엔지니어</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="ko_KR" status="Approved">프로그램 관리자</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="ko_KR" status="Approved">품질 엔지니어</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="ko_KR" status="Approved">파생 시 자동 전파할 관계</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="ko_KR" status="Approved">영업</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="ko_KR" status="Approved">고객</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="ko_KR" status="Approved">개요</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="ko_KR" status="Approved">고객 승인일</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="ko_KR" status="Approved">구현 우선순위</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="ko_KR" status="Approved">고객 승인 필요</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="ko_KR" status="Approved">특별 지침</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="ko_KR" status="Approved">고객 승인 상태</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="ko_KR" status="Approved">영향</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="ko_KR" status="Approved">영향 받는 관계 수정 가능</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="ko_KR" status="Approved">솔루션 관계 수정 가능</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="ko_KR" status="Approved">비반복적 비용</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="ko_KR" status="Approved">제안된 솔루션</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="ko_KR" status="Approved">이유</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="ko_KR" status="Approved">반복적 비용</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="ko_KR" status="Approved">기술 권고 날짜</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="ko_KR" status="Approved">기술적 검토 우선순위</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="ko_KR" status="Approved">기술 권고</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="ko_KR" status="Approved">기술적 검토</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="ko_KR" status="Approved">테스트 결과 첨부</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="ko_KR" status="Approved">타이밍 계수</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="ko_KR" status="Approved">영향</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="ko_KR" status="Approved">보증 영향</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="ko_KR" status="Approved">영향 받는 관계 수정 가능</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="ko_KR" status="Approved">환경 설명</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="ko_KR" status="Approved">영향</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="ko_KR" status="Approved">이벤트 순서</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="ko_KR" status="Approved">심각도 수준</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="ko_KR" status="Approved">기술적 검토 우선순위</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="ko_KR" status="Approved">검증</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="ko_KR" status="Approved">활성 변경</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="ko_KR" status="Approved">작성 변경</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="ko_KR" status="Approved">전역 변경 컨텍스트 LOV</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="ko_KR" status="Approved">ECN In</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="ko_KR" status="Approved">ECN Out</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="ko_KR" status="Approved">전역 변경 컨텍스트</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="ko_KR" status="Approved">전역 변경 컨텍스트</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="ko_KR" status="Approved">구매자</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="ko_KR" status="Approved">설계자</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="ko_KR" status="Approved">제조 엔지니어</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="ko_KR" status="Approved">재정 견적인</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="ko_KR" status="Approved">리드 설계자</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="ko_KR" status="Approved">제품 엔지니어</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="ko_KR" status="Approved">프로그램 관리자</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="ko_KR" status="Approved">품질 엔지니어</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="ko_KR" status="Approved">영업</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="ko_KR" status="Approved">변경 작업</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="ko_KR" status="Approved">관계 변경</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

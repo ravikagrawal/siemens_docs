@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="en_US" status="Approved">4GD Product Structure Provider</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="en_US" status="Approved">Design Element</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="en_US" status="Approved">Subset</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="en_US" status="Approved">Source Object Referenced By Provider</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="en_US" status="Approved">Used In Workset Provider</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="en_US" status="Approved">Source Object Effectivity</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="en_US" status="Approved">Source Object Last Modified User</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="en_US" status="Approved">Source Object Owning Group</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="en_US" status="Approved">Source Object Owning User</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="en_US" status="Approved">Source Object Release Date</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="en_US" status="Approved">Source Object Description</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="en_US" status="Approved">Source Object Release Status</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="en_US" status="Approved">Source Object Revision ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="en_US" status="Approved">Source Object Name</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="en_US" status="Approved">Category</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="en_US" status="Approved">Source Object ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="en_US" status="Approved">Source Object</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="en_US" status="Approved">Source Object</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="en_US" status="Approved">This condition determines if the "Show Revise" command should be visible in the 4g Design solution.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="en_US" status="Approved">This condition determines if the user has sufficient privileges to delete the selected object.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="en_US" status="Approved">Replay subset recipe condition.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="en_US" status="Approved">This condition determines if the passed business object has permission to display "Save As"/"Revise" command. It returns true for business objects other than conditional element.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="uk_UA" status="Approved">Діапазон варіабельності</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="uk_UA" status="Approved">Постачальник інформації про варіанти рішення</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="uk_UA" status="Approved">Зв'язок між ідентифікатором варіанта рішення та автором</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="uk_UA" status="Approved">Інформація про джерело варіанта рішення</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="uk_UA" status="Approved">Інформація про варіант рішення</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="uk_UA" status="Approved">Постачальник варіантів рішень</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="uk_UA" status="Approved">Конфігурований за варіантом об'єкт</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="uk_UA" status="Approved">Зв'язок джерела варіанта рішення</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="uk_UA" status="Approved">Критерії перевірки для визначення того, чи є правило варіанта та вихідний рядок Відомості матеріалів дійсними для операції створення та оновлення варіанта рішення</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="uk_UA" status="Approved">Варіант рішення</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="uk_UA" status="Approved">Некерований варіант рішення</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="uk_UA" status="Approved">Варіант керованого рішення</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="uk_UA" status="Approved">Повторно використати варіант рішення</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="uk_UA" status="Approved">Варіант рішення</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="uk_UA" status="Approved">Некерований</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="uk_UA" status="Approved">Керований</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="uk_UA" status="Approved">Використати повторно</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="uk_UA" status="Approved">Варіант рішення</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="uk_UA" status="Approved">Категорія варіанта рішення</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="uk_UA" status="Approved">Перспектива конфігуратора</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="uk_UA" status="Approved">Поточний контекст конфігуратора варіантів</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="uk_UA" status="Approved">Категорія варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="uk_UA" status="Approved">Рядок вихідної відомості матеріалів</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="uk_UA" status="Approved">Категорія</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="uk_UA" status="Approved">Варіант рішення вже існує на тому ж рівні</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="uk_UA" status="Approved">Варіант рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="uk_UA" status="Approved">Правило варіанта змінено</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="uk_UA" status="Approved">Варіантне правило дійсне</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="uk_UA" status="Approved">Дійсний для варіанту рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="uk_UA" status="Approved">Правило варіанту</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="uk_UA" status="Approved">Змінено вихідне складання</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="uk_UA" status="Approved">Торкнутий об'єкт</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="uk_UA" status="Approved">Конфігурація елемента варіанта рішення</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="uk_UA" status="Approved">Джерело варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="uk_UA" status="Approved">Дата останньої модифікації ревізії подання BOM загального варіанта</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="uk_UA" status="Approved">Дія варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="uk_UA" status="Approved">Дата останньої зміни ревізії виду BOM варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="uk_UA" status="Approved">Категорія варіанта рішення</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="uk_UA" status="Approved">Постачальник перспективи конфігуратора</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="uk_UA" status="Approved">Атрибути входження варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="uk_UA" status="Approved">Входження джерела варіанта рішення</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="uk_UA" status="Approved">Критерії варіанта</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="uk_UA" status="Approved">Результат комбінації побудов</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="uk_UA" status="Approved">Інформація про комбінації побудов</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="uk_UA" status="Approved">Змінність вузла організації</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="uk_UA" status="Approved">Постачальник змінності області</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="uk_UA" status="Approved">Рішення</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="uk_UA" status="Approved">Побудувати смугу кольорів комбінації</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="uk_UA" status="Approved">ЗАСТАРІЛЕ. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 2506. Покриття</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="uk_UA" status="Approved">Формула комбінації побудов</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="uk_UA" status="Approved">Комбінація побудов</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="uk_UA" status="Approved">Побудувати JSON-вираз</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="uk_UA" status="Approved">Відповідність виразу</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="uk_UA" status="Approved">ЗАСТАРІЛИЙ. ДИВ. ПОВІДОМЛЕННЯ СЛУЖБИ ПІДТРИМКИ 2512. Сімейства</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="uk_UA" status="Approved">ЗАСТАРІЛИЙ. ДИВ. ПОВІДОМЛЕННЯ СЛУЖБИ ПІДТРИМКИ 2512. Функції</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="uk_UA" status="Approved">Згруповано за</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="uk_UA" status="Approved">Застарілий. Див. повідомлення служби підтримки 2506. Індекс</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="uk_UA" status="Approved">Діапазон</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="uk_UA" status="Approved">UID рішення комбінації побудови</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="uk_UA" status="Approved">Покриття</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="uk_UA" status="Approved">Індекс</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="uk_UA" status="Approved">Критерії конфігурації</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="uk_UA" status="Approved">Призначення комбінацій побудови входжень</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="uk_UA" status="Approved">Змінність вузла організації</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="uk_UA" status="Approved">Комбінації побудов</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="uk_UA" status="Approved">Сімейства конфігурацій</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="uk_UA" status="Approved">Посилання на вузол організації</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

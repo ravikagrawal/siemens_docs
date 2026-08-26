@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="ru_RU" status="Approved">Провайдер поиска дисциплины  </key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="ru_RU" status="Approved">Служба поиска план-графика</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="ru_RU" status="Approved">Служба поиска запланированных задач</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="ru_RU" status="Approved">Конец-Конец</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="ru_RU" status="Approved">Конец-Начало</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="ru_RU" status="Approved">Фаза-Контрольная точка</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="ru_RU" status="Approved">Начало-Конец</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="ru_RU" status="Approved">Начало-Начало</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ru_RU" status="Approved">Пользователь, который может изменять свойства планирования и выполнения план-графика.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="ru_RU" status="Approved">Пользователь, который может просматривать план-график и задачи, но не может изменить свойства.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="ru_RU" status="Approved">Пользователь, который может изменять свойства выполнения задачи.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="ru_RU" status="Approved">Единицы времени: дни.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="ru_RU" status="Approved">Единицы времени: часы.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="ru_RU" status="Approved">Единицы времени: месяцы.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="ru_RU" status="Approved">Единицы времени: недели.</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="ru_RU" status="Approved">Как можно позже</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="ru_RU" status="Approved">Как можно раньше</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="ru_RU" status="Approved">Фиксированное</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="ru_RU" status="Approved">Нет ограничений</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="ru_RU" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="ru_RU" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="ru_RU" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="ru_RU" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="ru_RU" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="ru_RU" status="Approved">Фиксированная продолжительность</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="ru_RU" status="Approved">Фиксированный ресурс</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="ru_RU" status="Approved">Фиксированная работа</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="ru_RU" status="Approved">Самый высокий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="ru_RU" status="Approved">Высокий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="ru_RU" status="Approved">Самый низкий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="ru_RU" status="Approved">Низкий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="ru_RU" status="Approved">Умеренно низкий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="ru_RU" status="Approved">Средний</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="ru_RU" status="Approved">Очень высокий</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ru_RU" status="Approved">Координатор</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="ru_RU" status="Approved">Наблюдатель</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="ru_RU" status="Approved">Участник</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="ru_RU" status="Approved">Дни</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="ru_RU" status="Approved">Часы</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="ru_RU" status="Approved">Месяцы</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="ru_RU" status="Approved">Недели</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="ru_RU" status="Approved">Планируемая дата начала и выполнение предшественников</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="ru_RU" status="Approved">Планируемая дата начала или выполнение предшественников</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="ru_RU" status="Approved">Нет триггера процесса</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="ru_RU" status="Approved">Предыдущие элементы выполнены</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="ru_RU" status="Approved">Планируемая дата начала</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="ru_RU" status="Approved">Тип</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="ru_RU" status="Approved">Привилегированный пользователь</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="ru_RU" status="Approved">Дата завершения в план-графике</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="ru_RU" status="Approved">Роль в план-графике</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="ru_RU" status="Approved">Статус пользователя</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="ru_RU" status="Approved">Количество результатов</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="ru_RU" status="Approved">Длительность</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="ru_RU" status="Approved">Элемент плана для изменения план-графика</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="ru_RU" status="Approved">Задача шаблона</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="ru_RU" status="Approved">Зависимость предшественников</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="ru_RU" status="Approved">Предшественники</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="ru_RU" status="Approved">Идентификатор</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="ru_RU" status="Approved">Зависимость последующих элементов</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="ru_RU" status="Approved">Преемники</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="ru_RU" status="Approved">Работа завершена</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="ru_RU" status="Approved">Трудозатраты</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="ru_RU" status="Approved">Оставшаяся работа</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="ru_RU" status="Approved">Шаблон процесса</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="ru_RU" status="Approved">Триггер процесса</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="ru_RU" status="Approved">Сметные затраты</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="ru_RU" status="Approved">Мастер-план-графики</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="ru_RU" status="Approved">Фактическая дата завершения</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="ru_RU" status="Approved">Фактическая дата начала</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="ru_RU" status="Approved">Завершение работы в процентах</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="ru_RU" status="Approved">Состояние</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="ru_RU" status="Approved">Статус</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="ru_RU" status="Approved">Работа завершена</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="ru_RU" status="Approved">Трудозатраты</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="ru_RU" status="Approved">Участники план-графика</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="ru_RU" status="Approved">Единица измерения времени</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="ru_RU" status="Approved">Тип</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="ru_RU" status="Approved">Задержка</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="ru_RU" status="Approved">Состояние записи</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="ru_RU" status="Approved">Самый высокий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="ru_RU" status="Approved">Высокий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="ru_RU" status="Approved">Самый низкий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="ru_RU" status="Approved">Низкий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="ru_RU" status="Approved">Умеренно низкий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="ru_RU" status="Approved">Средний</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="ru_RU" status="Approved">Очень высокий</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="ru_RU" status="Approved">Добавить поставляемый объект</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="ru_RU" status="Approved">Добавить участника</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="ru_RU" status="Approved">Добавить поставляемый объект</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="ru_RU" status="Approved">Назначить ресурс</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="ru_RU" status="Approved">Назначить ресурс</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="ru_RU" status="Approved">Базовая линия план-графика</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="ru_RU" status="Approved">Отмена</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="ru_RU" status="Approved">Создать зависимость</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="ru_RU" status="Approved">Добавить задачу план-графика</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="ru_RU" status="Approved">Сохранить как</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="ru_RU" status="Approved">Добавить задачу план-графика</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="ru_RU" status="Approved">Создать план-график</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="ru_RU" status="Approved">Вырезать</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="ru_RU" status="Approved">Удалить зависимость</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="ru_RU" status="Approved">Удалить план-графики</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="ru_RU" status="Approved">Удалить задачи</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="ru_RU" status="Approved">Понижение уровня задачи</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="ru_RU" status="Approved">Вставить вложенный план-график</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="ru_RU" status="Approved">Запустить рабочий процесс</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="ru_RU" status="Approved">Месяц</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="ru_RU" status="Approved">Повышение уровня задачи</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="ru_RU" status="Approved">Повысить уровень</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="ru_RU" status="Approved">Квартал</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="ru_RU" status="Approved">Повторно рассчитать</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="ru_RU" status="Approved">Удалить назначения </key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="ru_RU" status="Approved">Удалить результаты</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="ru_RU" status="Approved">Удалить участника</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="ru_RU" status="Approved">Исключить</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="ru_RU" status="Approved">Переназначить задачи</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="ru_RU" status="Approved">Shift</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="ru_RU" status="Approved">Показать критический путь</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="ru_RU" status="Approved">Запустить анализ типа "что, если"</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="ru_RU" status="Approved">Отменить назначение ресурса</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="ru_RU" status="Approved">Неделя</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="ru_RU" status="Approved">Год</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Добавление участника.</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Добавить планируемый результат.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Назначить ресурс.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды Назначить ресурс для нескольких задач.</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Базовая линия план-графика</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Создать зависимость.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Создать задачу план-графика.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды "Создать план-график".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Создать план-график из шаблона.</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Вырезать задачу план-графика.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="ru_RU" status="Approved">Данное условие задает, относится ли выбранный объект к типу План-график.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Задача план-графика.</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команд во вложенных папках "Зависимость".</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Понижение уровня задачи.</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Вставить вложенный план-график.</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды "Запустить рабочий процесс".</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Повышение уровня задачи</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команд "Продолжить анализ типа "что если" и "Отменить анализ типа "что если".</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды "Повторно рассчитать".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Удалить назначения.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды "Удалить планируемый результат".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Удалить участника.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды "Удалить результат задачи".</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Заменить участника.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость команды Сдвинуть план-график.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды "Показать /скрыть критический путь".</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="ru_RU" status="Approved">Это условие определяет видимость команды "Запустить анализ "что если"".</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="ru_RU" status="Approved">Данное условие задает видимость выполнения команды Отменить назначение ресурса.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

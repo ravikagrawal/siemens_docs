@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="zh_CN" status="Approved">4GD 产品结构提供程序</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="zh_CN" status="Approved">设计元素</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="zh_CN" status="Approved">子集</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="zh_CN" status="Approved">源对象引用者提供程序</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="zh_CN" status="Approved">所用工作集提供程序</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="zh_CN" status="Approved">源对象有效性</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="zh_CN" status="Approved">源对象上次修改用户</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="zh_CN" status="Approved">源对象所有权组</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="zh_CN" status="Approved">源对象所有权用户</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="zh_CN" status="Approved">源对象发布日期</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="zh_CN" status="Approved">源对象描述</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="zh_CN" status="Approved">源对象发布状态</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="zh_CN" status="Approved">源对象版本 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="zh_CN" status="Approved">源对象名称</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="zh_CN" status="Approved">类别</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="zh_CN" status="Approved">源对象 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="zh_CN" status="Approved">源对象</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="zh_CN" status="Approved">源对象</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="zh_CN" status="Approved">此条件确定“显示修订”命令在 4g 设计解决方案中是否可见。</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="zh_CN" status="Approved">此条件确定用户是否具有足够的权限来删除所选对象。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="zh_CN" status="Approved">重播子集配置方式条件。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="zh_CN" status="Approved">此条件决定通过的业务对象是否有权显示“另存为/修订”命令。它对除条件元素之外的业务对象返回 true。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

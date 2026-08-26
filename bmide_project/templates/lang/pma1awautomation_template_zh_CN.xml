@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="zh_CN" status="Approved">对应的目标提供程序</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="zh_CN" status="Approved">可能的更新操作</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="zh_CN" status="Approved">BOM 更新</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="zh_CN" status="Approved">指示零件是否对颜色敏感</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="zh_CN" status="Approved">指示零件是否为本色件</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="zh_CN" status="Approved">BOM 更新</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="zh_CN" status="Approved">有色件</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="zh_CN" status="Approved">本色件</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="zh_CN" status="Approved">无</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="zh_CN" status="Approved">外包设计</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="zh_CN" status="Approved">外购设计</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="zh_CN" status="Approved">内部设计</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="zh_CN" status="Approved">未指派</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="zh_CN" status="Approved">对应为一般零件</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="zh_CN" status="Approved">已对应零件关联</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="zh_CN" status="Approved">对应的零件发布状态</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="zh_CN" status="Approved">已对应零件</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="zh_CN" status="Approved">零件是否已对应</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="zh_CN" status="Approved">需要零件</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="zh_CN" status="Approved">已对应零件</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="zh_CN" status="Approved">标准</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="zh_CN" status="Approved">已对应设计关联</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="zh_CN" status="Approved">对应的设计发布状态</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="zh_CN" status="Approved">对应的设计</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="zh_CN" status="Approved">设计是否已对应</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="zh_CN" status="Approved">需要设计</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="zh_CN" status="Approved">对应的设计</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="zh_CN" status="Approved">本色件类型</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="zh_CN" status="Approved">多体</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="zh_CN" status="Approved">保险件</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="zh_CN" status="Approved">备件</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="zh_CN" status="Approved">技术意图</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="zh_CN" status="Approved">更新操作</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="zh_CN" status="Approved">BOM 已成功生成</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="zh_CN" status="Approved">BOM 已成功更新</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="zh_CN" status="Approved">对应已存在</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="zh_CN" status="Approved">定义“创建与更新”命令的可见性。它仅可用于设计对象。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mat1BaseUnit" locale="ja_JP" status="Approved">基本単位</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMasterS" locale="ja_JP" status="Approved">複合材料マスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMaster" locale="ja_JP" status="Approved">複合材料マスタ</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevMasterS" locale="ja_JP" status="Approved">複合材料リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevisionMaster" locale="ja_JP" status="Approved">複合材料リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevision" locale="ja_JP" status="Approved">複合材料リビジョン</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterial" locale="ja_JP" status="Approved">複合材料</key>
+           
+        <key id="BusinessObject{::}Mat1DerivedUnit" locale="ja_JP" status="Approved">導出された単位</key>
+           
+        <key id="BusinessObject{::}Mat1HasAlternateMaterial" locale="ja_JP" status="Approved">代替材料</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamBoolean" locale="ja_JP" status="Approved">継承されたブーリアンプロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDate" locale="ja_JP" status="Approved">継承された日付プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDouble" locale="ja_JP" status="Approved">継承されたダブルパラメータ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamInteger" locale="ja_JP" status="Approved">継承された整数プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamRichtext" locale="ja_JP" status="Approved">継承されたリッチテキストプロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamSmrtTbl" locale="ja_JP" status="Approved">継承されたスマートテーブルパラメータ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamString" locale="ja_JP" status="Approved">継承された文字列パラメータ</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParameter" locale="ja_JP" status="Approved">継承されたパラメータ</key>
+           
+        <key id="BusinessObject{::}Mat1MadeFromMaterial" locale="ja_JP" status="Approved">原材料</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMasterS" locale="ja_JP" status="Approved">材料カタログマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMaster" locale="ja_JP" status="Approved">材料カタログマスタ</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevMasterS" locale="ja_JP" status="Approved">材料カタログリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevisionMaster" locale="ja_JP" status="Approved">材料カタログリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevision" locale="ja_JP" status="Approved">材料カタログリビジョン</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalog" locale="ja_JP" status="Approved">材料カタログ</key>
+           
+        <key id="BusinessObject{::}Mat1MatClassification" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="BusinessObject{::}Mat1MatML" locale="ja_JP" status="Approved">MatML</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialClassification" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialInfo" locale="ja_JP" status="Approved">材料情報</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMasterS" locale="ja_JP" status="Approved">材料マスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMaster" locale="ja_JP" status="Approved">材料マスタ</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRanking" locale="ja_JP" status="Approved">材料クラス内の材料ランキング</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevMasterS" locale="ja_JP" status="Approved">材料リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevisionMaster" locale="ja_JP" status="Approved">材料リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevision" locale="ja_JP" status="Approved">材料リビジョン</key>
+           
+        <key id="BusinessObject{::}Mat1Material" locale="ja_JP" status="Approved">材料</key>
+           
+        <key id="BusinessObject{::}Mat1MetaParameter" locale="ja_JP" status="Approved">抽象プロパティ記述子</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSingleParameter" locale="ja_JP" status="Approved">プロパティ記述子</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSmartTable" locale="ja_JP" status="Approved">スマートテーブル記述子</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterBoolean" locale="ja_JP" status="Approved">ブーリアンプロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDate" locale="ja_JP" status="Approved">パラメータ日付</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDouble" locale="ja_JP" status="Approved">倍精度プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterInteger" locale="ja_JP" status="Approved">整数プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterRichtext" locale="ja_JP" status="Approved">リッチテキストプロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterSmartTable" locale="ja_JP" status="Approved">スマートテーブルプロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterString" locale="ja_JP" status="Approved">文字列プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1Parameter" locale="ja_JP" status="Approved">材料プロパティ</key>
+           
+        <key id="BusinessObject{::}Mat1PrefMaterialForCoating" locale="ja_JP" status="Approved">優先コーティング材料</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMasterS" locale="ja_JP" status="Approved">原材料マスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMaster" locale="ja_JP" status="Approved">原材料マスタ</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevMasterS" locale="ja_JP" status="Approved">原材料リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevisionMaster" locale="ja_JP" status="Approved">原材料リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevision" locale="ja_JP" status="Approved">原材料リビジョン</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterial" locale="ja_JP" status="Approved">原材料</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnitCategory" locale="ja_JP" status="Approved">セッション単位カテゴリ</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnits" locale="ja_JP" status="Approved">セッション単位</key>
+           
+        <key id="BusinessObject{::}Mat1SmartCurve" locale="ja_JP" status="Approved">スマート曲線</key>
+           
+        <key id="BusinessObject{::}Mat1SubstanceInfo" locale="ja_JP" status="Approved">物質情報</key>
+           
+        <key id="BusinessObject{::}Mat1Substance" locale="ja_JP" status="Approved">物質</key>
+           
+        <key id="BusinessObject{::}Mat1UnitAltName" locale="ja_JP" status="Approved">単位代替名</key>
+           
+        <key id="BusinessObject{::}Mat1UnitCategory" locale="ja_JP" status="Approved">単位カテゴリ</key>
+           
+        <key id="BusinessObject{::}Mat1UnitNamesOfADimension" locale="ja_JP" status="Approved">寸法の単位名</key>
+           
+        <key id="BusinessObject{::}Mat1Units" locale="ja_JP" status="Approved">単位</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterialForCoating" locale="ja_JP" status="Approved">コーティングの材料</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterial" locale="ja_JP" status="Approved">材料</key>
+           
+        <key id="BusinessObject{::}Mat1UsesSubstance" locale="ja_JP" status="Approved">物質</key>
+           
+        <key id="BusinessObject{::}Mat1ValidDerviedUnits" locale="ja_JP" status="Approved">有効な派生単位</key>
+           
+        <key id="BusinessObject{::}Mat1ValidUnitAltNames" locale="ja_JP" status="Approved">有効な単位代替名</key>
+           
+        <key id="BusinessObject{::}RawMaterial" locale="ja_JP" status="Approved">抽象原材料</key>
+           
+        <key id="ConditionDescription{::}Mat1IsMaterialCompositionRestricted" locale="ja_JP" status="Approved">材料コンポジション可視性を制限する条件です。</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;=" locale="ja_JP" status="Approved">以下</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;" locale="ja_JP" status="Approved">より小さい</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;=" locale="ja_JP" status="Approved">以上</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;" locale="ja_JP" status="Approved">より大きい</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="ja_JP" status="Approved">厚さに対してはセンチメートルで、面積に対しては平方センチメートルです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}in" locale="ja_JP" status="Approved">厚さに対してはインチで、面積に対しては平方インチです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="ja_JP" status="Approved">(10^-3 mm). 厚さに対してそれはマイクロメートルで、面積に対してそれは平方マイクロメートルです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="ja_JP" status="Approved">厚さに対してはミリメートルで、面積に対しては平方ミリメートルです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}m" locale="ja_JP" status="Approved">厚さに対してはメートルで、面積に対しては平方メートルです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="ja_JP" status="Approved">(10^-6 mm). 厚さに対してそれはナノメートルで、面積に対してそれは平方ナノメートルです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1ExternalSources{::}0" locale="ja_JP" status="Approved">MatML</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="ja_JP" status="Approved">Boolean: タイプ'Boolean'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Date" locale="ja_JP" status="Approved">Date: タイプ'Date'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Double" locale="ja_JP" status="Approved">Double: タイプ'number'、'double'、'decimal'、'numerical'または'exponential'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="ja_JP" status="Approved">Integer: タイプ'integer'または'int'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="ja_JP" status="Approved">Rich Text: タイプ'Long Text'、'Rich Text'および'Hyperlink'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}String" locale="ja_JP" status="Approved">String: タイプ'string'または'text'のインポート中に入力データをカバーできる材料パラメータの値のタイプです。</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}0.001" locale="ja_JP" status="Approved">ミリグラム</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1" locale="ja_JP" status="Approved">グラム</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1000" locale="ja_JP" status="Approved">キログラム</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}kg" locale="ja_JP" status="Approved">キログラム</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}mg" locale="ja_JP" status="Approved">ミリグラム</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;=" locale="ja_JP" status="Approved">&lt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;" locale="ja_JP" status="Approved">&lt;</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;=" locale="ja_JP" status="Approved">&gt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;" locale="ja_JP" status="Approved">&gt;</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="ja_JP" status="Approved">センチメートル</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}in" locale="ja_JP" status="Approved">インチ</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="ja_JP" status="Approved">マイクロメートル</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="ja_JP" status="Approved">ミリメートル</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}m" locale="ja_JP" status="Approved">メートル</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="ja_JP" status="Approved">ナノメートル</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}approved" locale="ja_JP" status="Approved">承認済み</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}obsolete" locale="ja_JP" status="Approved">廃止</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}rejected" locale="ja_JP" status="Approved">否認済み</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}unapproved" locale="ja_JP" status="Approved">未承認</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="ja_JP" status="Approved">ブーリアン</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Date" locale="ja_JP" status="Approved">日付</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Double" locale="ja_JP" status="Approved">倍精度実数</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="ja_JP" status="Approved">整数</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="ja_JP" status="Approved">リッチテキスト</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}String" locale="ja_JP" status="Approved">文字列</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}g" locale="ja_JP" status="Approved">グラム</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}kg" locale="ja_JP" status="Approved">キログラム</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}mg" locale="ja_JP" status="Approved">ミリグラム</key>
+           
+        <key id="Property{::}ItemRevision{::}mat1CumulativeMaterialsMass" locale="ja_JP" status="Approved">累積材料質量</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1BaseUnitSymbol" locale="ja_JP" status="Approved">ベース単位シンボル</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1UnitCategory" locale="ja_JP" status="Approved">親単位カテゴリ</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1BaseUnit" locale="ja_JP" status="Approved">親ベース単位</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitFactor" locale="ja_JP" status="Approved">導出単位係数</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitOffset" locale="ja_JP" status="Approved">導出単位オフセット</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitSymbol" locale="ja_JP" status="Approved">導出単位シンボル</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitValueFormat" locale="ja_JP" status="Approved">導出単位値フォーマット</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1BoundSymbol" locale="ja_JP" status="Approved">境界シンボル</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1IsInRange" locale="ja_JP" status="Approved">範囲内</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayUnitAlName" locale="ja_JP" status="Approved">優先表示単位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValueMax" locale="ja_JP" status="Approved">優先表示 ValueMax</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValue" locale="ja_JP" status="Approved">優先表示値</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnitAlias" locale="ja_JP" status="Approved">単位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnit" locale="ja_JP" status="Approved">導出された単位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValueMax" locale="ja_JP" status="Approved">値最大</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValue" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1UnitAliasName" locale="ja_JP" status="Approved">単位エイリアス名</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Unit" locale="ja_JP" status="Approved">単位</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ValueMax" locale="ja_JP" status="Approved">値最大</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1ListOfCurves" locale="ja_JP" status="Approved">曲線のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitXAlias" locale="ja_JP" status="Approved">単位X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitX" locale="ja_JP" status="Approved">導出された単位X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitYAlias" locale="ja_JP" status="Approved">単位Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitY" locale="ja_JP" status="Approved">導出された単位Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitXAliasName" locale="ja_JP" status="Approved">単位Xエイリアス名</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitX" locale="ja_JP" status="Approved">単位X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitYAliasName" locale="ja_JP" status="Approved">単位Yエイリアス名</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitY" locale="ja_JP" status="Approved">単位Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1XQualifier" locale="ja_JP" status="Approved">X軸修飾子名</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1SessionValue" locale="ja_JP" status="Approved">表示値</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1MetaParameter" locale="ja_JP" status="Approved">プロパティ記述子</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1OwningMaterialRevision" locale="ja_JP" status="Approved">所有する材料リビジョン</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Parameter" locale="ja_JP" status="Approved">パラメータ</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1RealName" locale="ja_JP" status="Approved">実名</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition_in_range" locale="ja_JP" status="Approved">範囲内のコンポジション</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition" locale="ja_JP" status="Approved">コンポジション(%で)</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1max_composition" locale="ja_JP" status="Approved">最大コンポジション(%で)</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1DataVersionInSource" locale="ja_JP" status="Approved">データのカタログリビジョンバージョン</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MatClassifications" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MaterialRevisions" locale="ja_JP" status="Approved">カタログ材料</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MetaParameters" locale="ja_JP" status="Approved">パラメータ記述子</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataIdentityInSource" locale="ja_JP" status="Approved">カタログデータアンデンティティ</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataSource" locale="ja_JP" status="Approved">カタログデータソース</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1MetaParameters" locale="ja_JP" status="Approved">パラメータ記述子</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatCatalog" locale="ja_JP" status="Approved">材料カタログ</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatClassPath" locale="ja_JP" status="Approved">材料クラスフルパス</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1ParentClassification" locale="ja_JP" status="Approved">親クラス</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1RealName" locale="ja_JP" status="Approved">実際のクラス名</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1DisplayName" locale="ja_JP" status="Approved">クラス表示名</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatCatalog" locale="ja_JP" status="Approved">材料カタログ</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatClassPath" locale="ja_JP" status="Approved">材料クラスフルパス</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1Name" locale="ja_JP" status="Approved">材料クラス名</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1ParentClassification" locale="ja_JP" status="Approved">親クラス</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1mass" locale="ja_JP" status="Approved">質量</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1material" locale="ja_JP" status="Approved">材料</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1uom_tag" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1MatClassification" locale="ja_JP" status="Approved">コレスポンデント材料クラス</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1PreferredMaterialRevs" locale="ja_JP" status="Approved">優先材料リビジョン</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1AlternateNames" locale="ja_JP" status="Approved">材料指定</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Applications" locale="ja_JP" status="Approved">アプリケーション</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1DataVersionInSource" locale="ja_JP" status="Approved">ソースの材料リビジョンバージョン</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1ExtendsMaterial" locale="ja_JP" status="Approved">継承元</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1InheritedParameters" locale="ja_JP" status="Approved">継承されたパラメータ</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsInactive" locale="ja_JP" status="Approved">非アクティブ</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsRecylateable" locale="ja_JP" status="Approved">材料にリサイクル品が含まれますか?</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRevisions" locale="ja_JP" status="Approved">参照材料カタログ</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRev" locale="ja_JP" status="Approved">メイン材料カタログリビジョン</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatClassifications" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MaterialClasses" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Parameters" locale="ja_JP" status="Approved">パラメータ</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylFrom" locale="ja_JP" status="Approved">ポストコンシューマリサイクル元%</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylTo" locale="ja_JP" status="Approved">ポストコンシューマリサイクル先%</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylFrom" locale="ja_JP" status="Approved">プリコンシューマリサイクル元%</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylTo" locale="ja_JP" status="Approved">プリコンシューマリサイクル先%</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1external_import" locale="ja_JP" status="Approved">材料は外部インポート</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1remarks" locale="ja_JP" status="Approved">備考</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1status" locale="ja_JP" status="Approved">MSDを要求するためにExcelライブにエクスポート</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substance_details" locale="ja_JP" status="Approved">物質詳細</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substances" locale="ja_JP" status="Approved">組成</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1DataSource" locale="ja_JP" status="Approved">材料データソース名</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1ExternalSource" locale="ja_JP" status="Approved">材料ソース</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1MatCatalog" locale="ja_JP" status="Approved">材料カタログ</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1cas_number" locale="ja_JP" status="Approved">CAS番号</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_identifier" locale="ja_JP" status="Approved">外部識別子</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_import" locale="ja_JP" status="Approved">材料は外部インポート</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1non_library" locale="ja_JP" status="Approved">材料は非ライブラリ</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1unique_identifier" locale="ja_JP" status="Approved">Teamcenter一意識別子</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataIdentityInSource" locale="ja_JP" status="Approved">データアイデンティティ</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataSource" locale="ja_JP" status="Approved">データソース</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1ParameterID" locale="ja_JP" status="Approved">パラメータID</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1RealName" locale="ja_JP" status="Approved">実数名</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1DataType" locale="ja_JP" status="Approved">データタイプ</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Dimension" locale="ja_JP" status="Approved">寸法</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1UnitAliasName" locale="ja_JP" status="Approved">単位エイリアス名</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Unit" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionX" locale="ja_JP" status="Approved">寸法X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionY" locale="ja_JP" status="Approved">寸法Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitXAliasName" locale="ja_JP" status="Approved">単位Xエイリアス名</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitX" locale="ja_JP" status="Approved">軸Xに対する測定単位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitYAliasName" locale="ja_JP" status="Approved">単位Yエイリアス名</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitY" locale="ja_JP" status="Approved">軸Yに対する測定単位</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1XQualifier" locale="ja_JP" status="Approved">X軸修飾子名</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1ParameterDoubleCreI{::}mat1UnitName" locale="ja_JP" status="Approved">単位名</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1BoundSymbol" locale="ja_JP" status="Approved">境界シンボル</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1IsInRange" locale="ja_JP" status="Approved">値は範囲内ですか?</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayUnitAlName" locale="ja_JP" status="Approved">優先表示単位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValueMax" locale="ja_JP" status="Approved">優先表示値最大</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValue" locale="ja_JP" status="Approved">優先表示値</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnitAlias" locale="ja_JP" status="Approved">単位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnit" locale="ja_JP" status="Approved">導出された単位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValueMax" locale="ja_JP" status="Approved">値最大を表示</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValue" locale="ja_JP" status="Approved">表示値</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1UnitAliasName" locale="ja_JP" status="Approved">単位エイリアス名</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Unit" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ValueMax" locale="ja_JP" status="Approved">値最大</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1SessionValue" locale="ja_JP" status="Approved">セッション値</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameX" locale="ja_JP" status="Approved">単位名X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameY" locale="ja_JP" status="Approved">単位名Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1ListOfCurves" locale="ja_JP" status="Approved">曲線のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitXAlias" locale="ja_JP" status="Approved">単位X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitX" locale="ja_JP" status="Approved">軸Xに対する測定単位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitYAlias" locale="ja_JP" status="Approved">単位Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitY" locale="ja_JP" status="Approved">軸Yに対する測定単位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitXAliasName" locale="ja_JP" status="Approved">単位Xエイリアス名</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitX" locale="ja_JP" status="Approved">軸Xに対する測定単位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitYAliasName" locale="ja_JP" status="Approved">単位Yエイリアス名</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitY" locale="ja_JP" status="Approved">軸Yに対する測定単位</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1XQualifier" locale="ja_JP" status="Approved">X軸修飾子名</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照パラメータのリスト</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1SessionValue" locale="ja_JP" status="Approved">表示値</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1MetaParameter" locale="ja_JP" status="Approved">パラメータ記述子</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1OwningMaterialRevision" locale="ja_JP" status="Approved">所有する材料リビジョン</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1ParameterID" locale="ja_JP" status="Approved">パラメータID</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1RealName" locale="ja_JP" status="Approved">実数名</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1AlternateNames" locale="ja_JP" status="Approved">材料指定</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Applications" locale="ja_JP" status="Approved">アプリケーション</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1DataVersionInSource" locale="ja_JP" status="Approved">ソースの材料リビジョンバージョン</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1ExtendsMaterial" locale="ja_JP" status="Approved">継承元</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1InheritedParameters" locale="ja_JP" status="Approved">継承されたパラメータ</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRevisions" locale="ja_JP" status="Approved">参照材料カタログ</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRev" locale="ja_JP" status="Approved">メイン材料カタログリビジョン</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatClassifications" locale="ja_JP" status="Approved">材料クラス</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Parameters" locale="ja_JP" status="Approved">パラメータ</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1DataSource" locale="ja_JP" status="Approved">材料データソース名</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1MatCatalog" locale="ja_JP" status="Approved">材料カタログ</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1external_identifier" locale="ja_JP" status="Approved">外部識別子</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1DerivedUnit" locale="ja_JP" status="Approved">導出された単位</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitAltName" locale="ja_JP" status="Approved">単位エイリアス</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitCategory" locale="ja_JP" status="Approved">単位カテゴリ</key>
+           
+        <key id="Property{::}Mat1SessionUnits{::}mat1SessionUnitCategoryArr" locale="ja_JP" status="Approved">セッション単位カテゴリ配列</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1IsMathFormula" locale="ja_JP" status="Approved">数式ですか?</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfQualifiers" locale="ja_JP" status="Approved">修飾子のリスト</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfRefParameters" locale="ja_JP" status="Approved">参照値のリスト</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfUncertainties" locale="ja_JP" status="Approved">不確実性のリスト</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1MathFormula" locale="ja_JP" status="Approved">数式</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueX" locale="ja_JP" status="Approved">値Xを表示</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueY" locale="ja_JP" status="Approved">値Yを表示</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesX" locale="ja_JP" status="Approved">値X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesY" locale="ja_JP" status="Approved">値Y</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1mass_in_range" locale="ja_JP" status="Approved">質量は範囲内</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1max_mass" locale="ja_JP" status="Approved">最大質量</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1min_mass" locale="ja_JP" status="Approved">最小質量</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1substance" locale="ja_JP" status="Approved">物質</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1uom_tag" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EINEC_ELINCS_Number" locale="ja_JP" status="Approved">EINECS/ELINCSコード</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EUIndexCode" locale="ja_JP" status="Approved">EUインデックスコード</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1ExternalSource" locale="ja_JP" status="Approved">物質ソース</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1INN" locale="ja_JP" status="Approved">国際非プロパティ名</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1IsInActive" locale="ja_JP" status="Approved">非アクティブ</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceName" locale="ja_JP" status="Approved">物質名</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceReplacements" locale="ja_JP" status="Approved">代替物質</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1Synonym" locale="ja_JP" status="Approved">同意語</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1cas_number" locale="ja_JP" status="Approved">CAS</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_identifier" locale="ja_JP" status="Approved">外部識別子</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_import" locale="ja_JP" status="Approved">サブスタンスは外部インポート</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1is_wildcard" locale="ja_JP" status="Approved">ワイルドカードサブスタンス</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1unique_identifier" locale="ja_JP" status="Approved">Teamcenter一意識別子</key>
+           
+        <key id="Property{::}Mat1UnitAltName{::}mat1DerivedUnit" locale="ja_JP" status="Approved">親導出単位</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingSurfaceArea" locale="ja_JP" status="Approved">コーティング表面積</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingThickness" locale="ja_JP" status="Approved">コーティング厚さ</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingUnitOfMeasure" locale="ja_JP" status="Approved">コーティング面積および厚さベース単位</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1IsRecylateable" locale="ja_JP" status="Approved">材料にリサイクル品が含まれますか?</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylFrom" locale="ja_JP" status="Approved">ポストコンシューマリサイクル元%</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylTo" locale="ja_JP" status="Approved">ポストコンシューマリサイクル先%</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylFrom" locale="ja_JP" status="Approved">プリコンシューマリサイクル元%</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylTo" locale="ja_JP" status="Approved">プリコンシューマリサイクル先%</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1active_in_external_tool" locale="ja_JP" status="Approved">材料が外部ツールでアクティブ</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1external_import" locale="ja_JP" status="Approved">材料は外部インポート</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1is_preferred" locale="ja_JP" status="Approved">材料は優先</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass_in_grams" locale="ja_JP" status="Approved">質量(グラム)</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass" locale="ja_JP" status="Approved">質量</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1uom_tag" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1OriginalUsesSubstance" locale="ja_JP" status="Approved">継承元</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition_in_range" locale="ja_JP" status="Approved">コンポジションは範囲内</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition" locale="ja_JP" status="Approved">% コンポジション</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1external_import" locale="ja_JP" status="Approved">サブスタンスは外部インポート</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1max_composition" locale="ja_JP" status="Approved">% 最大コンポジション</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

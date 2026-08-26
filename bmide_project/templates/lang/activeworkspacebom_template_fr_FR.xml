@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:32 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="fr_FR" status="Approved">Fournisseur d'arrangements</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="fr_FR" status="Approved">Signet automatique</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="fr_FR" status="Approved">Données administratives d'index de nomenclature</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="fr_FR" status="Approved">Donnée de signet</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="fr_FR" status="Approved">Données de navigation de signet</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="fr_FR" status="Approved">Données de produit de signet</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="fr_FR" status="Approved">Donnée de sous-ensemble</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="fr_FR" status="Approved">ID stable du clone chaîné à Fournisseur d'éléments</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="fr_FR" status="Approved">Fournisseur de règles de fermeture</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="fr_FR" status="Approved">Résultat de comparaison</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="fr_FR" status="Approved">Elément conditionnel</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="fr_FR" status="Approved">Prestataire de contexte</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="fr_FR" status="Approved">Fonctionnalité de configuration d'effectivité de date</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="fr_FR" status="Approved">Elément de conception</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="fr_FR" status="Approved">Fournisseur d'effectivité</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="fr_FR" status="Approved">Elément</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="fr_FR" status="Approved">Liste de primitives</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="fr_FR" status="Approved">Fonctionnalité de structure uniforme</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="fr_FR" status="Approved">Fonctionnalité de recherche de texte intégral (FTS)</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de texte intégral</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="fr_FR" status="Approved">Fournisseur d'attributs gérés</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="fr_FR" status="Approved">Fournisseur de Jeu de données Remplacement</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="fr_FR" status="Approved">Fonctionnalité de partition</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="fr_FR" status="Approved">Elément positionné</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="fr_FR" status="Approved">Informations contextuelles sur le produit</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="fr_FR" status="Approved">Fonctionnalité du produit</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="fr_FR" status="Approved">Fonctionnalité d'occurrence racine</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="fr_FR" status="Approved">Enregistrer la primitive de contexte de travail</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="fr_FR" status="Approved">Contexte de travail sauvegardé</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="fr_FR" status="Approved">Fournisseur de requêtes sauvegardées</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="fr_FR" status="Approved">Fournisseur de substitutions</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="fr_FR" status="Approved">Fonctionnalité de configuration d'effectivité d'unité</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="fr_FR" status="Approved">Fonctionnalité de variante</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="fr_FR" status="Approved">Fournisseur de type de vue</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="fr_FR" status="Approved">Fonctionnalité d'afficheur</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="fr_FR" status="Approved">Obsolète. Consulter l'Annonce support Teamcenter 2606. Fournisseur de zone</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="fr_FR" status="Approved">Cette opération clone l'élément.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="fr_FR" status="Approved">Cette opération référence l'élément.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="fr_FR" status="Approved">Cette opération révise l'élément.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="fr_FR" status="Approved">Cette opération remplace l'élément.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="fr_FR" status="Approved">Cette opération ignore l'élément.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="fr_FR" status="Approved">Le contexte de travail enregistré n'est pas partagé.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="fr_FR" status="Approved">Le contexte de travail enregistré est partagé à des fins de lecture uniquement.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="fr_FR" status="Approved">Le contexte de travail enregistré est partagé en lecture et en écriture</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="fr_FR" status="Approved">Expérience Active Content</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="fr_FR" status="Approved">Modifications non enregistrées</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="fr_FR" status="Approved">Modifications enregistrées</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="fr_FR" status="Approved">Comparer</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="fr_FR" status="Approved">Sauvegarder sous et remplacer</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="fr_FR" status="Approved">Référencer</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="fr_FR" status="Approved">Réviser</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="fr_FR" status="Approved">Remplacer</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="fr_FR" status="Approved">Supprimer</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="fr_FR" status="Approved">Privé</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="fr_FR" status="Approved">Lecture seule</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="fr_FR" status="Approved">Lecture/Ecriture</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="fr_FR" status="Approved">Expérience Active Content</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="fr_FR" status="Approved">Modifications non enregistrées</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="fr_FR" status="Approved">Modifications enregistrées</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="fr_FR" status="Approved">Comparer</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="fr_FR" status="Approved">Produit actif</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="fr_FR" status="Approved">Date de dernier accès</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="fr_FR" status="Approved">Date de dernière sauvegarde de Signet sauvegardé</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="fr_FR" status="Approved">Objet ouvert</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="fr_FR" status="Approved">Modifications non sauvegardées</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="fr_FR" status="Approved">Utilisateur</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="fr_FR" status="Approved">Règle de révision de base</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="fr_FR" status="Approved">Règle de fermeture</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="fr_FR" status="Approved">Date d'effectivité</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="fr_FR" status="Approved">Article final d'effectivité</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="fr_FR" status="Approved">Numéro d'unité d'effectivité</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="fr_FR" status="Approved">Etat des données d'index de nomenclature</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="fr_FR" status="Approved">Date de dernier accès</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="fr_FR" status="Approved">Date de dernière mise à jour</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="fr_FR" status="Approved">Nombre d'occurrences</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="fr_FR" status="Approved">Produit</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="fr_FR" status="Approved">Type de structure</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="fr_FR" status="Approved">Statut du souscripteur</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="fr_FR" status="Approved">Souscripteurs</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="fr_FR" status="Approved">Révisions de propriétaires de règle de variante</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="fr_FR" status="Approved">Règles de variante</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="fr_FR" status="Approved">UID de fenêtre</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="fr_FR" status="Approved">Objet propriétaire</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="fr_FR" status="Approved">Sous-emplacement actif</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="fr_FR" status="Approved">Données d'expansion compactées?</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="fr_FR" status="Approved">Données d'expansion</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="fr_FR" status="Approved">Remplacer le contexte</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="fr_FR" status="Approved">Chemin de l'élément sélectionné</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="fr_FR" status="Approved">Arrangement appliqué</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="fr_FR" status="Approved">Règle de fermeture</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="fr_FR" status="Approved">Contexte de configuration</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="fr_FR" status="Approved">Données de configuration</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="fr_FR" status="Approved">Date d'effectivité</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="fr_FR" status="Approved">Effectif maintenant</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="fr_FR" status="Approved">Numéro d'unité effectif</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="fr_FR" status="Approved">Groupes d'effectivité</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="fr_FR" status="Approved">Article final</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="fr_FR" status="Approved">Règle de révision globale marquée par signet</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="fr_FR" status="Approved">Modifications non sauvegardées</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="fr_FR" status="Approved">Produit</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="fr_FR" status="Approved">Chaînes de règles de révision</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="fr_FR" status="Approved">Règle de révision</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="fr_FR" status="Approved">Règles de variantes sauvegardées</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="fr_FR" status="Approved">Révision d'article de variante propriétaire</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="fr_FR" status="Approved">Type de vue</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="fr_FR" status="Approved">Liste d'occurrences</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="fr_FR" status="Approved">Comparer des critères</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="fr_FR" status="Approved">Options de comparaison</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="fr_FR" status="Approved">Clé de comparaison</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="fr_FR" status="Approved">Profondeur</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="fr_FR" status="Approved">Liste d'alternatives</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="fr_FR" status="Approved">Statuts de validation</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="fr_FR" status="Approved">Effectivité de révision</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="fr_FR" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="fr_FR" status="Approved">Description</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="fr_FR" status="Approved">Effectivité de version</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="fr_FR" status="Approved">Révision</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="fr_FR" status="Approved">Nom de révision</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="fr_FR" status="Approved">Statut de validation</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="fr_FR" status="Approved">Indicateur d'assemblage</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="fr_FR" status="Approved">Effectivités d'élément</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="fr_FR" status="Approved">ID d'effectivité de l'élément</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="fr_FR" status="Approved">L'élément est-il éliminé par filtrage?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="fr_FR" status="Approved">Effectivité nette d'élément</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="fr_FR" status="Approved">ID de révision d'élément</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="fr_FR" status="Approved">VOC - Occurrence de variante configurée</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="fr_FR" status="Approved">Etat d'assemblage d'article final</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="fr_FR" status="Approved">Indicateur de finition</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="fr_FR" status="Approved">A une annotation active</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="fr_FR" status="Approved">Alternative globale</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="fr_FR" status="Approved">Effectivité de l'élément</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="fr_FR" status="Approved">Substitution</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="fr_FR" status="Approved">Variante</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="fr_FR" status="Approved">Est Substitution d'occurrence</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="fr_FR" status="Approved">Est Compacté</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="fr_FR" status="Approved">Figé</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="fr_FR" status="Approved">Est Composant secondaire</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="fr_FR" status="Approved">Est Article de variante</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="fr_FR" status="Approved">Noms de propriétés Annotation</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="fr_FR" status="Approved">Valeurs de propriétés Annotation</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="fr_FR" status="Approved">Action</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="fr_FR" status="Approved">Maturité</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="fr_FR" status="Approved">Il faut plusieurs alignements</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="fr_FR" status="Approved">Variabilité nette</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="fr_FR" status="Approved">Nb compactées</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="fr_FR" status="Approved">Action</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="fr_FR" status="Approved">Désignateur de position</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="fr_FR" status="Approved">Composants principaux</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="fr_FR" status="Approved">Quantité gérée</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="fr_FR" status="Approved">Règle configurée par</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="fr_FR" status="Approved">Afficher les composants de substitution</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="fr_FR" status="Approved">Ignorer l'alignement</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="fr_FR" status="Approved">Indicateur de substitution</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="fr_FR" status="Approved">Adresse d'utilisation</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="fr_FR" status="Approved">Formule de variante</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="fr_FR" status="Approved">ID En contexte (Niveau sup.)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="fr_FR" status="Approved">ID En contexte (Tous les niveaux)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="fr_FR" status="Approved">Date de dernière modification</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="fr_FR" status="Approved">Utilisateur de la dernière modification</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="fr_FR" status="Approved">ID de groupe</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="fr_FR" status="Approved">Propriétaire</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="fr_FR" status="Approved">Date de validation</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="fr_FR" status="Approved">Archétype</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="fr_FR" status="Approved">Boîte limite</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="fr_FR" status="Approved">Ancêtre sur fil d'Ariane</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="fr_FR" status="Approved">Copie d'ID d'occurrence stable</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="fr_FR" status="Approved">Chemin d'ID stable de la copie</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="fr_FR" status="Approved">Elément</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="fr_FR" status="Approved">EOC - Occurrence effective configurée</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="fr_FR" status="Approved">ID d'élément</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="fr_FR" status="Approved">Statut de validation d'élément</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="fr_FR" status="Approved">Remplacements</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="fr_FR" status="Approved">Classification IP</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="fr_FR" status="Approved">Is Element Suppressed?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="fr_FR" status="Approved">Avec structure modifiable</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="fr_FR" status="Approved">Est suspect</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="fr_FR" status="Approved">Is Transform Overridden?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="fr_FR" status="Approved">Dernier ensemble de référence sauvegardé</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="fr_FR" status="Approved">Niveau</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="fr_FR" status="Approved">Nombre d'enfants</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="fr_FR" status="Approved">Nom d'occurrence</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="fr_FR" status="Approved">Type d'occurrence</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="fr_FR" status="Approved">Propriétés remplacées</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="fr_FR" status="Approved">Remplacer les contextes</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="fr_FR" status="Approved">Parent</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="fr_FR" status="Approved">ID de contexte de produit</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="fr_FR" status="Approved">Projets</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="fr_FR" status="Approved">Quantité</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="fr_FR" status="Approved">Transformation relative</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="fr_FR" status="Approved">Numéro de séquence</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="fr_FR" status="Approved">Service Adapter</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="fr_FR" status="Approved">Lien de trace</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="fr_FR" status="Approved">Transformation absolue</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="fr_FR" status="Approved">Type</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="fr_FR" status="Approved">Objet sous-jacent</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="fr_FR" status="Approved">Unité de mesure</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="fr_FR" status="Approved">Journaux d'audit de structure</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="fr_FR" status="Approved">Est modifiable</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="fr_FR" status="Approved">Elément</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="fr_FR" status="Approved">Fonctions disponibles</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="fr_FR" status="Approved">Primitives non modifiables</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="fr_FR" status="Approved">A une Réflexion</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="fr_FR" status="Approved">Désignateur de référence</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="fr_FR" status="Approved">Systèmes de coordonnées</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="fr_FR" status="Approved">Substitutions</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="fr_FR" status="Approved">Arrangement actif</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="fr_FR" status="Approved">Configuration alternative</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="fr_FR" status="Approved">Arrangement appliqué</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="fr_FR" status="Approved">Signet automatique</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="fr_FR" status="Approved">Règle d'expansion de Nomenclature</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="fr_FR" status="Approved">URI de Domaine client</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="fr_FR" status="Approved">Règle de fermeture</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="fr_FR" status="Approved">Objet contexte</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="fr_FR" status="Approved">Règle de révision courante</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="fr_FR" status="Approved">Obsolète. Règles de variante courante</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="fr_FR" status="Approved">Obsolète. Règle de variante courante</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="fr_FR" status="Approved">Date d'effectivité</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="fr_FR" status="Approved">Article final d'effectivité</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="fr_FR" status="Approved">Numéro d'unité d'effectivité</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="fr_FR" status="Approved">Groupes d'effectivité</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="fr_FR" status="Approved">Dates effectives finales</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="fr_FR" status="Approved">Unités effectives finales</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="fr_FR" status="Approved">Filtrage Comptage</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="fr_FR" status="Approved">Recette de structure structurée</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="fr_FR" status="Approved">Date de mise à jour de l'index</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="fr_FR" status="Approved">Obsolète. Consultez l'Annonce support 2412. Compacter les éléments similaires</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="fr_FR" status="Approved">Infos contextuelles du produit</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="fr_FR" status="Approved">Obsolète. Consultez l'Annonce support 2412. Afficher la modification</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="fr_FR" status="Approved">Obsolète. Consultez l'Annonce support 2412. Afficher les lignes d'éclaté</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="fr_FR" status="Approved">Obsolète. Consulter l'Annonce support 2412. Définir l'annotation</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="fr_FR" status="Approved">Instantané</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="fr_FR" status="Approved">Dates effectives initiales</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="fr_FR" status="Approved">Unités effectives initiales</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="fr_FR" status="Approved">Recette de structure</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="fr_FR" status="Approved">Fonctionnalités prises en charge</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="fr_FR" status="Approved">Utiliser la règle de révision globale</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="fr_FR" status="Approved">Révision de propriété de règle de variante</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="fr_FR" status="Approved">Règles de variante</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="fr_FR" status="Approved">Bascules de vue</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="fr_FR" status="Approved">Type de vue</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="fr_FR" status="Approved">Bascules d'état de la fenêtre</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="fr_FR" status="Approved">Noms de conteneur</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="fr_FR" status="Approved">Produit actif</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="fr_FR" status="Approved">Partager l'affichage</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="fr_FR" status="Approved">Partager l'édition</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="fr_FR" status="Approved">Ancêtre sur fil d'Ariane</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="fr_FR" status="Approved">Données CAO de session interopérables</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="fr_FR" status="Approved">Avec structure modifiable</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="fr_FR" status="Approved">Modifications non sauvegardées</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="fr_FR" status="Approved">Niveau de partage</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="fr_FR" status="Approved">Contexte</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="fr_FR" status="Approved">Extrémité connectée 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="fr_FR" status="Approved">Extrémité connectée 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="fr_FR" status="Approved">Type d'objet</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="fr_FR" status="Approved">A une Structure</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="fr_FR" status="Approved">UID des noeuds de chemin d'apparence de lignes de Nomenclature</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="fr_FR" status="Approved">ID d'article</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="fr_FR" status="Approved">ID de révision</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="fr_FR" status="Approved">Date de dernière modification</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="fr_FR" status="Approved">Utilisateur de dernière modification</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="fr_FR" status="Approved">Groupe propriétaire</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="fr_FR" status="Approved">Utilisateur propriétaire</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="fr_FR" status="Approved">Statuts de validation</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="fr_FR" status="Approved">Date de validation</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="fr_FR" status="Approved">Connexion</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="fr_FR" status="Approved">Interface</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="fr_FR" status="Approved">Extrémité connectée 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="fr_FR" status="Approved">Extrémité connectée 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="fr_FR" status="Approved">Connecté à</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="fr_FR" status="Approved">Direction</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="fr_FR" status="Approved">Enfant</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="fr_FR" status="Approved">Ajouter</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="fr_FR" status="Approved">Enfant</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="fr_FR" status="Approved">Composant secondaire</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="fr_FR" status="Approved">Frère</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="fr_FR" status="Approved">Ajouter</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="fr_FR" status="Approved">Frère</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="fr_FR" status="Approved">Ajouter des substitutions</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="fr_FR" status="Approved">Appliquer l'annotation</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="fr_FR" status="Approved">Configurer par sélection</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="fr_FR" status="Approved">Annuler l'élément d'annotation</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="fr_FR" status="Approved">Annuler le niveau d'annotation</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="fr_FR" status="Approved">Comparer</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="fr_FR" status="Approved">Configurer par superpositions valables</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="fr_FR" status="Approved">Editer l'effectivité</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="fr_FR" status="Approved">Insérer un niveau</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="fr_FR" status="Approved">Elément</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="fr_FR" status="Approved">Compacter</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="fr_FR" status="Approved">Version</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="fr_FR" status="Approved">Supprimer l'élément</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="fr_FR" status="Approved">Supprimer le niveau</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="fr_FR" status="Approved">Supprimer les substitutions</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="fr_FR" status="Approved">Remplacement</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="fr_FR" status="Approved">Sauvegarder sous</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="fr_FR" status="Approved">Sauvegarder sous</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="fr_FR" status="Approved">Sauvegarder</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="fr_FR" status="Approved">Sauvegarder</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="fr_FR" status="Approved">Sauvegarder le contexte de travail</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="fr_FR" status="Approved">Définir en contexte</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="fr_FR" status="Approved">Sous-ensemble</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="fr_FR" status="Approved">Basculer les composants secondaires</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="fr_FR" status="Approved">Basculer les composants de substitution</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="fr_FR" status="Approved">Décompacter</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="fr_FR" status="Approved">Utiliser une substitution</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="fr_FR" status="Approved">Afficher l'effectivité de l'élément</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="fr_FR" status="Approved">Détermine si le fils peut être ajouté à l'élément d'entrée.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="fr_FR" status="Approved">Détermine si le produit fils peut être ajouté sous le signet sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="fr_FR" status="Approved">Détermine si le composant secondaire peut être ajouté à l'élément d'entrée.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="fr_FR" status="Approved">Détermine si le frère peut être ajouté à l'élément d'entrée.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="fr_FR" status="Approved">Détermine si le produit frère du produit sélectionné peut être ajouté sous le signet sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="fr_FR" status="Approved">Détermine si la substitution peut être ajoutée ou non</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="fr_FR" status="Approved">Condition de visibilité des commandes côté serveur pour la commande Appliquer l'annotation. Cette commande ne doit être visible que si l'utilisateur a accès à la modification de structure.</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="fr_FR" status="Approved">Définit la condition pour afficher la bannière d'avertissement Clone de nomenclature à l'utilisateur lorsqu'il clique sur la commande Dupliquer dans le client Active Workspace.</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="fr_FR" status="Approved">Détermine si la commande Configurer en fonction de la sélection est valable pour l'élément d'entrée.</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de commande côté serveur pour la commande Annuler l'annotation.</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de la commande côté serveur. Cette commande doit être rendue visible seulement si les deux objets sélectionnés sont de type RévisionArticle et satisfont au critère de version de plateforme minimum.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="fr_FR" status="Approved">Condition permettant d'activer la commande de suppression pour plusieurs objets de contexte de travail sauvegardés.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="fr_FR" status="Approved">Condition pour activer la commande Détruire pour un Contexte de travail sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="fr_FR" status="Approved">Condition de commande pour masquer "Détruire" dans le contexte de l'objet de session.</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="fr_FR" status="Approved">Détermine si des effectivités partagées peuvent être créées, éditées, ajoutées à l'élément, supprimées de l'élément pour des objets de type Awb0Element.</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="fr_FR" status="Approved">Ceci détermine si la commande Insérer un niveau doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="fr_FR" status="Approved">Détermine si la commande Configurer par superpositions valables peut être rendue visible pour l'objet de gestion indiqué.</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="fr_FR" status="Approved">Pour vérifier si la licence Gestionnaire de structures Pro est disponible pour le contexte de modification</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="fr_FR" status="Approved">Condition de commande pour masquer "Ouvrir dans SEEC" dans le contexte de l'objet de session.</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="fr_FR" status="Approved">Détermine si la commande Compacter doit être affichée pour l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="fr_FR" status="Approved">Détermine si l'Effectivité de révision peut être appliquée à l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="fr_FR" status="Approved">Détermine si les éléments peuvent être supprimés de la structure.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="fr_FR" status="Approved">Ceci détermine si la commande Supprimer le niveau doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="fr_FR" status="Approved">Détermine si les substitutions peuvent être supprimées ou non</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="fr_FR" status="Approved">Détermine si les éléments peuvent être remplacés dans la structure.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="fr_FR" status="Approved">Détermine si Sauvegarder le contexte de travail doit être affiché.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="fr_FR" status="Approved">Détermine si Sauvegarder sous doit être affiché pour le Contexte de produit.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="fr_FR" status="Approved">Détermine si Sauvegarder sous doit être affiché pour le Signet sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="fr_FR" status="Approved">Détermine si Sauvegarder doit être affiché pour le Contexte de produit.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="fr_FR" status="Approved">Détermine si Sauvegarder doit être affiché pour le Signet sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="fr_FR" status="Approved">Détermine si la commande Définir en contexte doit être affichée pour l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="fr_FR" status="Approved">Détermine si les composants secondaires sont visibles sous le Awb0ConditionalElement sélectionné</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="fr_FR" status="Approved">Détermine si les composants de substitution sont visibles sous le Awb0ConditionalElement sélectionné</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="fr_FR" status="Approved">Détermine si la commande Décompacter doit être affichée pour l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="fr_FR" status="Approved">Détermine si la substitution peut être utilisée ou non</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="fr_FR" status="Approved">Détermine si des effectivités appliquées peuvent être visualisées pour des objets de type Awb0Element.</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="fr_FR" status="Approved">Fournisseur d'annotations pour niveau</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="fr_FR" status="Approved">Fournisseur d'annotations</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="fr_FR" status="Approved">Date de dernière réexécution</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="fr_FR" status="Approved">Modifications en attente</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="fr_FR" status="Approved">ID contenu dans:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="fr_FR" status="Approved">Nom contenu dans:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="fr_FR" status="Approved">Type contenu dans:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="fr_FR" status="Approved">Produits dans la session</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="fr_FR" status="Approved">Index Smart Discovery Dernière mise à jour</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="fr_FR" status="Approved">Smart Discovery indexé</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="fr_FR" status="Approved">Fournisseur de produits de contexte</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="fr_FR" status="Approved">Requête sauvegardée en contexte LOV</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="fr_FR" status="Approved">Fournisseur de données d'indexeur SD</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="fr_FR" status="Approved">Nom de la requête sauvegardée en contexte</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="fr_FR" status="Approved">Source indexée</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="fr_FR" status="Approved">Elément de pièce</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="fr_FR" status="Approved">Fabriquer/Acheter</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="fr_FR" status="Approved">Aligner</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="fr_FR" status="Approved">Définit la visibilité de la commande "Aligner". Disponible seulement pour des objets Conception et Pièce.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

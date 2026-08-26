@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 06:00:45 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <OperationInputType artifactName="Tie0SchemaMapCreI" description="CreateInput object for &quot;Tie0SchemaMap&quot; business object" isAbstract="false" parentTypeName="DatasetCreI" typeClassName="Tie0SchemaMapCreI" typeName="Tie0SchemaMapCreI"/>
+           
+        <OperationInputType artifactName="Tie0SchemaMapSvAI" description="SaveAsInput object for &quot;Tie0SchemaMap&quot; business object" isAbstract="false" parentTypeName="DatasetSvAI" typeClassName="Tie0SchemaMapSvAI" typeName="Tie0SchemaMapSvAI"/>
+           
+        <TcDataset artifactName="Tie0SchemaMap" description="Dataset type for TC XML schema mapping. It contains TC XML schema mapping project meta data and attachments. Extension of the external files are &quot;json&quot;, &quot;bcz&quot;, &quot;xml&quot;, &quot;csv&quot; and &quot;html&quot;." functionality="Tie0aw" isAbstract="false" parentTypeName="Dataset" typeClassName="Dataset" typeName="Tie0SchemaMap">
+                 
+            <TcDSViewTool name="UnZip"/>
+                 
+            <TcDSViewTool name="TextEditor"/>
+                 
+            <TcDSEditTool name="UnZip"/>
+                 
+            <TcDSEditTool name="TextEditor"/>
+                 
+            <TcDatasetReference name="Tie0ProjectInfo">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.json"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0SourceSchemaFile">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.json"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0TargetSchemaFile">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.json"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0MappingRule">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.csv"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0TestBriefcase">
+                       
+                <TcDatasetReferenceInfo format="BINARY" template="*.bcz"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0TestFile">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.xml"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Tie0ValidationReport">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.html"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetToolAction action="OpenUsing" tool="TextEditor">
+                       
+                <TcToolActionReference export="false" referenceName="Tie0ProjectInfo"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0SourceSchemaFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TargetSchemaFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0MappingRule"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TestFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0ValidationReport"/>
+                       
+                <TcToolParameter name="$Tie0ProjectInfo"/>
+                       
+                <TcToolParameter name="$Tie0SourceSchemaFile"/>
+                       
+                <TcToolParameter name="$Tie0TargetSchemaFile"/>
+                       
+                <TcToolParameter name="$Tie0MappingRule"/>
+                       
+                <TcToolParameter name="$Tie0TestFile"/>
+                       
+                <TcToolParameter name="$Tie0ValidationReport"/>
+                     
+            </TcDatasetToolAction>
+                 
+            <TcDatasetToolAction action="Open" tool="TextEditor">
+                       
+                <TcToolActionReference export="false" referenceName="Tie0ProjectInfo"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0SourceSchemaFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TargetSchemaFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0MappingRule"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TestFile"/>
+                       
+                <TcToolActionReference export="false" referenceName="Tie0ValidationReport"/>
+                       
+                <TcToolParameter name="$Tie0ProjectInfo"/>
+                       
+                <TcToolParameter name="$Tie0SourceSchemaFile"/>
+                       
+                <TcToolParameter name="$Tie0TargetSchemaFile"/>
+                       
+                <TcToolParameter name="$Tie0MappingRule"/>
+                       
+                <TcToolParameter name="$Tie0TestFile"/>
+                       
+                <TcToolParameter name="$Tie0ValidationReport"/>
+                     
+            </TcDatasetToolAction>
+                 
+            <TcDatasetToolAction action="Open" tool="UnZip">
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TestBriefcase"/>
+                       
+                <TcToolParameter name="$Tie0TestBriefcase"/>
+                     
+            </TcDatasetToolAction>
+                 
+            <TcDatasetToolAction action="OpenUsing" tool="UnZip">
+                       
+                <TcToolActionReference export="false" referenceName="Tie0TestBriefcase"/>
+                       
+                <TcToolParameter name="$Tie0TestBriefcase"/>
+                     
+            </TcDatasetToolAction>
+               
+        </TcDataset>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Tie0SchemaMap" value="Tie0SchemaMapCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Tie0SchemaMap" value="Tie0SchemaMapSvAI"/>
+           
+        <Functionality description="Component for the template - tie0aw" displayName="TC XML Import and Export in Active Workspace" enabledForVerificationRules="false" name="Tie0aw"/>
+           
+        <Library createRelease="Awp05.1.0" description="TC XML import export service library" isThirdParty="false" name="Awp0SoaTCXMLImportExport" namespace="Awp0::Soa::TCXMLImportExport" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="Awp05.1.0" dependencies="" description="The Briefcase Services exposes the operations that are used to execute Briefcase export/import operations in TCXML format and the related operations for supporting data synchronization between different data export/import sessions." libraryName="Awp0SoaTCXMLImportExport" name="Briefcase" namespace="Awp0::Soa::TCXMLImportExport" serviceLibraryRef=""/>
+           
+        <ServiceInterface createRelease="Awp05.2.0" dependencies="" description="The PLM XML Services exposes the operations that are used to execute PLM XML export/import operations." libraryName="Awp0SoaTCXMLImportExport" name="PLMXML" namespace="Awp0::Soa::TCXMLImportExport" serviceLibraryRef=""/>
+           
+        <ServiceInterface createRelease="Awp06.2.0" dependencies="" description="SchemaMap service expose the operations for attach,detach of schema rule file to a transfer mode." libraryName="Awp0SoaTCXMLImportExport" name="SchemaMap" namespace="Awp0::Soa::TCXMLImportExport" serviceLibraryRef=""/>
+           
+        <Struct createRelease="Awp05.1.0" description="The struct for defining the input arguments required by the exportObjectsToBriefcase operation." isPublished="false" name="ExportObjectsToBriefcaseInput" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase" scope="Awp0::Soa::TCXMLImportExport::Briefcase">
+                 
+            <StructElement description="The root objects to be exported." name="rootObjects">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The target site." name="targetSite">
+                       
+                <DataTypeRefParam dataType="Teamcenter::POM_imc"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Transfer Option Set object used for data scoping." name="transferOptionSet">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TransferOptionSet"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pairs of options that will override the same options defined in the input Transfer Option Set." name="overrideOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pair options to control the export session behavior. The supported options are:&lt;br /&gt;1. pkgDatasetName: valid values are &amp;quot;Dataset name&amp;quot;, specifies the output briefcase Dataset name.&lt;br /&gt;2. revRule: valid values are &amp;quot;Revision Rule name&amp;quot;, specifies the Reivsion Rule that will be applied on the root object for configured BOM export.&lt;br /&gt;3. varRule: valid values are &amp;quot;Variant Rule name&amp;quot;, specifies the Variant Rule that associated to the root object for configured BOM export.&lt;br /&gt;4. dry_run: valid values are True/False, specifies that the briefcase export report is generated which has discrepancy if any.&lt;br /&gt;5. validateXML: valid values are True/False, specifies that the TCXML is validated against any discrepancy.&lt;br /&gt;6. validateXMLBeforeXslt: valid values are True/False, specifies that the TCXML is validated before mapping is done.&lt;br /&gt;7. modified_objects_only: valid values are True/False, specifies the option for delta export.&lt;br /&gt;8. opt_sync_previous_delta: valid values are True/False, specifies the option for force re-export.&lt;br /&gt;9. OwnershipTransfer: valid values are True/False, specifies the option to do ownership transfer.&lt;br /&gt;10. objsForOwnXfer: valid values are in the format of &amp;quot;&amp;lt;site-id&amp;gt;:&amp;lt;object-uid1,object-uid2&amp;hellip;&amp;gt;&amp;quot;, specifies the objects for ownership transfer.&lt;br /&gt;11. processUnconfiguredVariants: valid values are True/False, specifies the option to process the BOMLines that are configured out by the Variant Rule.&lt;br /&gt;12. processUnconfiguredByOccEff: valid values are True/False, specifies the option to process the BOMLines that are configured out by Occurrence Effectivity.&lt;br /&gt;13. processSuppressedOcc: valid values are True/False, specifies the option to process the suppressed BOMLines.&lt;br /&gt;14. processUnconfiguredChanges: valid values are True/False, specifies the option to process the BOMLines that are configured out by Incremental Change.&lt;br /&gt;15. ContinueOnError: valid values are True/False, specifies the option to continue the export on partial error." name="sessionOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.1.0" description="The struct for defining the input arguments required by the importObjectsFromBriefcase operation." isPublished="false" name="ImportObjectsFromBriefcaseInput" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase" scope="Awp0::Soa::TCXMLImportExport::Briefcase">
+                 
+            <StructElement description="The FMS file ticket for the source briefcase file. User needs to upload the briefcase file to the FMS transient volume to generate the file ticket." name="bczFileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Transfer Option Set object used for data scoping." name="transferOptionSet">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TransferOptionSet"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pairs of options that will override the same options defined in the input Transfer Option Set." name="overrideOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pair options to control the export session behavior. The supported options are:&lt;br /&gt;1. dry_run: valid values are True/False, specifies that the briefcase import report is generated which has discrepancy if any.&lt;br /&gt;2. ValidateImport: valid values are True/False, specifies that the TCXML is validated against any discrepancy.&lt;br /&gt;3. validateXMLBeforeXslt: valid values are True/False, specifies that the TCXML is validated before mapping is done." name="sessionOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.1.0" description="NameAndValue structure represents an option name-value pair." isPublished="false" name="NameAndValue" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase" scope="Awp0::Soa::TCXMLImportExport::Briefcase">
+                 
+            <StructElement description="The name of the option name-value pair." name="optionName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The value of the option name-value pair." name="optionValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.2.0" description="Specifies the PLM XML export criteria." isPublished="false" name="ExportObjectsToPLMXMLInput" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML" scope="Awp0::Soa::TCXMLImportExport::PLMXML">
+                 
+            <StructElement description="The root objects to be exported." name="rootObjects">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The TransferMode object used for data scoping." name="transferMode">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TransferMode"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The RevisionRule object used to configure BOM structure for the root object." name="revisionRule">
+                       
+                <DataTypeRefParam dataType="Teamcenter::RevisionRule"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The language code list for properties&amp;rsquo; translations export. The languages code follows the Java locale naming conventions: 2letterlanguage_2LETTERAREA that follows the template ISO639_ISO3166 (e.g: en_US, fr_FR, de_DE)." name="languages">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pair options to control the export session behavior. The supported options are:" name="sessionOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The output .zip file name. The .zip file contains the same named XML file, and the same named folder if any Dataset associated physical files were exported. The .zip file contains only the XML file when there is  no Dataset associated physial files were exported." name="outputFileName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.2.0" description="Specifies the PLM XML import criteria." isPublished="false" name="ImportObjectsFromPLMXMLInput" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML" scope="Awp0::Soa::TCXMLImportExport::PLMXML">
+                 
+            <StructElement description="The FMS file ticket for the source PLM XML .zip file. User needs to upload the PLM XML .zip file to the FMS transient volume to generate the file ticket." name="zipFileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The TransferMode object used for data scoping." name="transferMode">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TransferMode"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The name and value pair options to control the import session behavior. The supported options are:" name="sessionOptions">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::NameAndValue"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.2.0" description="NameAndValue structure represents an option name-value pair." isPublished="false" name="NameAndValue" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML" scope="Awp0::Soa::TCXMLImportExport::PLMXML">
+                 
+            <StructElement description="The name of the option name-value pair." name="optionName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The value of the option name-value pair." name="optionValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.2.0" description="Specifies the &lt;b&gt;TransferMode&lt;/b&gt; to which rule file from &lt;b&gt;Dataset&lt;/b&gt;  of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt;  from  needs to be attached." isPublished="false" name="AttachSchemaMapRuleToXferModeInput" namespace="Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap" scope="Awp0::Soa::TCXMLImportExport::SchemaMap">
+                 
+            <StructElement description="The &lt;b&gt;TransferMode&lt;/b&gt; to which the rule file needs to be attached." name="transferMode">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TransferMode"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; from where the rule file is obtained." name="schemaMap">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate const="false" createRelease="Awp05.1.0" description="Exports the objects to the target site into a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The export user will be notified with the export resultant data when the export is completed." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" name="Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcase" returnConst="false" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request.&lt;br /&gt;203408: Transfer Option Set could not be found.&lt;br /&gt;11122: No Multi-Site license (key: multisite_server) is available to export to, or import from, the offline site. Please obtain the license and try again.&lt;br /&gt;11227: The Consumer license &amp;quot;teamcenter_consumer&amp;quot; is not available for the user to export to the offline site. &lt;br /&gt;11098: There are no candidates for synchronization.&lt;br /&gt;11220: An error has occurred when validating the TCXML file (tcxml-file-path). For more information, please check for the &amp;quot;Error Summary&amp;quot; string in the report (report-file-path)." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the export criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.1.0" description="Imports the objects from a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The import user will be notified with the import results when the import is completed." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" name="Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcase" returnConst="false" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request.&lt;br /&gt;203409: Transfer Option Sets could not be retrieved.&lt;br /&gt;228002: Could not open the briefcase file.&lt;br /&gt;11122: No Multi-Site license (key: multisite_server) is available to export to, or import from, the offline site. Please obtain the license and try again.&lt;br /&gt;11228: The Author license &amp;quot;teamcenter_author&amp;quot; is not available for the user to import to the offline site." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the import criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc13000.2.0" description="This operation recovers the site ownership of all the objects associated with a briefcase transaction that includes ownership transfer (OT). This operation makes objects locally owned when run on exporting site and as replica if run on importing site. The current user will be notified once the operation is complete, and a report will be generated. This report lists the objects for which ownership has been recovered. The operation also supports a dry run mode to review the objects for which ownership would be changed before actually applying the ownership changes. The current user will be notified, and a report will be generated in order to review the objects that are candidates for ownership recovery.&lt;br /&gt;This will recover the ownership only if briefcase was exported or imported by the current logged in user or current logged in user is DBA." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcase#const,std::string,&amp;$bool$bool" name="Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcase" returnConst="false" returnDescription="Errors if any are returned in the ServiceData.&lt;br /&gt;The following errors may be returned:&lt;br /&gt;11128:  The given string is not a valid UID&lt;br /&gt;11223:  No read access for briefcase OT transaction.&lt;br /&gt;11230:  For given input briefcase, there are either no objects found to recover the ownership or the wnership had already been recovered." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The UID of the Briefcase that includes OT for the  recovery of ownership of its associated objects." freeOutputMemory="false" inputOutput="Input" name="briefcaseUID">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, the ownerhip of the objects will not change and the user will be notified. The report will have details of all candidate objects for which the ownership would change.&lt;br /&gt;If false, the ownership of the objects will change and the user will get notified. The report will be generated, which has information about the objects whose ownership is recovered." freeOutputMemory="false" inputOutput="Input" name="dryRun">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, the operation will be performed in background mode in a  separate asynchronous server session; otherwise, the operation will be performed synchronously." freeOutputMemory="false" inputOutput="Input" name="runInBackground">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.2.0" description="Exports the objects into a PLM XML package file (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for scoping data. The export user will be notified with the export resultant data when the export is completed." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" name="Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXML" returnConst="false" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the PLM XML export criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.2.0" description="Imports the objects from a PLM XML package (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for data scoping. The user will be notified with the import results when the import is completed." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" name="Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXML" returnConst="false" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the PLM XML import criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp06.2.0" description="This operation attaches schema map rule file from the given &lt;b&gt;Dataset&lt;/b&gt; to the &lt;b&gt;TransferMode&lt;/b&gt; given in the input. &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; is expected.&lt;br /&gt;A schema map rule file is a comma separated values (CSV) formatted file. It is generated by Advanced Multi-Schema Exhanger application. It is attached as a named reference to &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; and used later during export/import operation after attaching to the export/import &lt;b&gt;TransferMode&lt;/b&gt;." id="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferMode#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;$bool" name="Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferMode" returnConst="false" returnDescription="Errors if any are returned in the ServiceData.&lt;br /&gt;The following errors may be returned:&lt;br /&gt;213003:   Unable to create instance of Dispatcher Request.&lt;br /&gt;203421:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Failed to find transfer mode.&lt;br /&gt;9040:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Dataset could not be found." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the &lt;b&gt;TransferMode&lt;/b&gt; to which  rule file from &lt;b&gt;Dataset&lt;/b&gt; needs to be attached." freeOutputMemory="false" inputOutput="Input" name="inPut">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, the operation will be performed in background mode in a separate asynchronous server session; otherwise perform the operation synchronously." freeOutputMemory="false" inputOutput="Input" name="runInBackground">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.1.0" description="Exports the objects to the target site into a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The export user will be notified with the export resultant data when the export is completed." id="void#Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" name="Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcaseAsync" returnConst="false" returnDescription="void." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the export criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.1.0" description="Imports the objects from a Briefcase package in asynchronous mode using the specified Transfer Option Set object and the additional options for data scoping. The user will be notified with the import results when the import is completed." id="void#Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" name="Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcaseAsync" returnConst="false" returnDescription="void." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the import criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc13000.2.0" description="This asynchronous operation recovers the site ownership of all the objects associated with a briefcase transaction that includes ownership transfer (OT). This operation makes objects locally owned when run on exporting site and as replica if run on importing site. The current user will be notified once operation is complete, and a report will be generated. This report lists the objects for which ownership has been recovered. The operation also supports a dry run mode to review the objects for which ownership would be changed before actually applying the ownership change.&lt;br /&gt;The current user will be notified, and a report will be generated in order to review the objects that are candidates for ownership recovery.&lt;br /&gt;This will recover the ownership only if the briefcase was exported or imported by the current logged in user or current logged in user is DBA." id="void#Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcaseAsync#const,std::string,&amp;$bool" name="Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcaseAsync" returnConst="false" returnDescription="In asynchronous mode void is returned." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The UID of the Briefcase that includes OT for the  recovery of ownership of its associated objects." freeOutputMemory="false" inputOutput="Input" name="briefcaseUID">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, the ownership of the objects will not change and user will be notified. The report will have details of all candidate objects for which the ownership would change. &lt;br /&gt; If false, the ownership of objects will change and user will get notified. The report will be generated which has information about objects whose ownership is recovered." freeOutputMemory="false" inputOutput="Input" name="dryRun">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.2.0" description="Exports the objects into a PLM XML package file (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for scoping data. The export user will be notified with the export resultant data when the export is completed." id="void#Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" name="Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXMLAsync" returnConst="false" returnDescription="void." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the PLM XML export criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.2.0" description="Imports the objects from a PLM XML package (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for data scoping. The user will be notified with the import results when the import is completed." id="void#Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" name="Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXMLAsync" returnConst="false" returnDescription="void." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the PLM XML import criteria." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp06.2.0" description="This asynchronous operation attaches the schema map rule file from the given &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; to the &lt;b&gt;TransferMode&lt;/b&gt;.. &lt;br /&gt;A schema map rule file is a comma separated values (CSV) formatted file. It is generated by Advanced Multi-Schema Exhanger application. It is attached as a named reference to &lt;b&gt;Dataset&lt;/b&gt; and used later during export/import operation after attaching it to the &lt;b&gt;TransferMode&lt;/b&gt;." id="void#Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferModeAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;" name="Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferModeAsync" returnConst="false" returnDescription="void: In asynchronous mode void is returned." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Specifies the &lt;b&gt;TransferMode&lt;/b&gt; to which  rule file from &lt;b&gt;Dataset&lt;/b&gt; needs to be attached." freeOutputMemory="false" inputOutput="Input" name="inPut">
+                       
+                <OperationParameterDataTypeRef dataType="Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.1.0" dependencies="" description="Exports the objects to the target site into a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The export user will be notified with the export resultant data when the export is completed." exceptionCondition="" id="exportObjectsToBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportObjectsToBriefcase" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request.&lt;br /&gt;203408: Transfer Option Set could not be found.&lt;br /&gt;11122: No Multi-Site license (key: multisite_server) is available to export to, or import from, the offline site. Please obtain the license and try again.&lt;br /&gt;11227: The Consumer license &amp;quot;teamcenter_consumer&amp;quot; is not available for the user to export to the offline site. &lt;br /&gt;11098: There are no candidates for synchronization.&lt;br /&gt;11220: An error has occurred when validating the TCXML file (tcxml-file-path). For more information, please check for the &amp;quot;Error Summary&amp;quot; string in the report (report-file-path)." useCase="">
+                 
+            <ParameterInfo description="Specifies the export criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.1.0" dependencies="" description="Exports the objects to the target site into a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The export user will be notified with the export resultant data when the export is completed." exceptionCondition="" id="exportObjectsToBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportObjectsToBriefcaseAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::Briefcase::exportObjectsToBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ExportObjectsToBriefcaseInput,&amp;" returnDescription="void." useCase="">
+                 
+            <ParameterInfo description="Specifies the export criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.1.0" dependencies="" description="Imports the objects from a briefcase package file (.bcz) in asynchronous mode using the specified Transfer Option Set object and the additional options for scoping data. The import user will be notified with the import results when the import is completed." exceptionCondition="" id="importObjectsFromBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="importObjectsFromBriefcase" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcase#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request.&lt;br /&gt;203409: Transfer Option Sets could not be retrieved.&lt;br /&gt;228002: Could not open the briefcase file.&lt;br /&gt;11122: No Multi-Site license (key: multisite_server) is available to export to, or import from, the offline site. Please obtain the license and try again.&lt;br /&gt;11228: The Author license &amp;quot;teamcenter_author&amp;quot; is not available for the user to import to the offline site." useCase="">
+                 
+            <ParameterInfo description="Specifies the import criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.1.0" dependencies="" description="Imports the objects from a Briefcase package in asynchronous mode using the specified Transfer Option Set object and the additional options for data scoping. The user will be notified with the import results when the import is completed." exceptionCondition="" id="importObjectsFromBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="importObjectsFromBriefcaseAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::Briefcase::importObjectsFromBriefcaseAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2020_12::Briefcase::ImportObjectsFromBriefcaseInput,&amp;" returnDescription="void." useCase="">
+                 
+            <ParameterInfo description="Specifies the import criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="tc13000.2.0" dependencies="" description="This operation recovers the site ownership of all the objects associated with a briefcase transaction that includes ownership transfer (OT). This operation makes objects locally owned when run on exporting site and as replica if run on importing site. The current user will be notified once the operation is complete, and a report will be generated. This report lists the objects for which ownership has been recovered. The operation also supports a dry run mode to review the objects for which ownership would be changed before actually applying the ownership changes. The current user will be notified, and a report will be generated in order to review the objects that are candidates for ownership recovery.&lt;br /&gt;This will recover the ownership only if briefcase was exported or imported by the current logged in user or current logged in user is DBA." exceptionCondition="" id="recoverOwnershipInBriefcase#const,std::string,&amp;$bool$bool" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="recoverOwnershipInBriefcase" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcase#const,std::string,&amp;$bool$bool" returnDescription="Errors if any are returned in the ServiceData.&lt;br /&gt;The following errors may be returned:&lt;br /&gt;11128:  The given string is not a valid UID&lt;br /&gt;11223:  No read access for briefcase OT transaction.&lt;br /&gt;11230:  For given input briefcase, there are either no objects found to recover the ownership or the wnership had already been recovered." useCase="This operation is used to recover ownership of objects associated with a briefcase transaction that includes OT when that ownership has been inadvertently transferred. The UID of the &lt;b&gt;Briefcase&lt;/b&gt; is used to recover the ownership of its associated objects.">
+                 
+            <ParameterInfo description="The UID of the Briefcase that includes OT for the  recovery of ownership of its associated objects." parameterName="briefcaseUID"/>
+                 
+            <ParameterInfo description="If true, the ownerhip of the objects will not change and the user will be notified. The report will have details of all candidate objects for which the ownership would change.&lt;br /&gt;If false, the ownership of the objects will change and the user will get notified. The report will be generated, which has information about the objects whose ownership is recovered." parameterName="dryRun"/>
+                 
+            <ParameterInfo description="If true, the operation will be performed in background mode in a  separate asynchronous server session; otherwise, the operation will be performed synchronously." parameterName="runInBackground"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="tc13000.2.0" dependencies="" description="This asynchronous operation recovers the site ownership of all the objects associated with a briefcase transaction that includes ownership transfer (OT). This operation makes objects locally owned when run on exporting site and as replica if run on importing site. The current user will be notified once operation is complete, and a report will be generated. This report lists the objects for which ownership has been recovered. The operation also supports a dry run mode to review the objects for which ownership would be changed before actually applying the ownership change.&lt;br /&gt;The current user will be notified, and a report will be generated in order to review the objects that are candidates for ownership recovery.&lt;br /&gt;This will recover the ownership only if the briefcase was exported or imported by the current logged in user or current logged in user is DBA." exceptionCondition="" id="recoverOwnershipInBriefcaseAsync#const,std::string,&amp;$bool" interface="Awp0::Soa::TCXMLImportExport::Briefcase" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="recoverOwnershipInBriefcaseAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::Briefcase::recoverOwnershipInBriefcaseAsync#const,std::string,&amp;$bool" returnDescription="In asynchronous mode void is returned." useCase="This operation is used to recover ownership of objects associated with a briefcase transaction that includes OT when that ownership has been inadvertently transferred. The UID of the &lt;b&gt;Briefcase&lt;/b&gt; is used to recover the ownership of its associated objects.">
+                 
+            <ParameterInfo description="The UID of the Briefcase that includes OT for the  recovery of ownership of its associated objects." parameterName="briefcaseUID"/>
+                 
+            <ParameterInfo description="If true, the ownership of the objects will not change and user will be notified. The report will have details of all candidate objects for which the ownership would change. &lt;br /&gt; If false, the ownership of objects will change and user will get notified. The report will be generated which has information about objects whose ownership is recovered." parameterName="dryRun"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.2.0" dependencies="" description="Exports the objects into a PLM XML package file (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for scoping data. The export user will be notified with the export resultant data when the export is completed." exceptionCondition="" id="exportObjectsToPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::PLMXML" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportObjectsToPLMXML" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request." useCase="">
+                 
+            <ParameterInfo description="Specifies the PLM XML export criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.2.0" dependencies="" description="Exports the objects into a PLM XML package file (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for scoping data. The export user will be notified with the export resultant data when the export is completed." exceptionCondition="" id="exportObjectsToPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::PLMXML" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="exportObjectsToPLMXMLAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::PLMXML::exportObjectsToPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ExportObjectsToPLMXMLInput,&amp;" returnDescription="void." useCase="">
+                 
+            <ParameterInfo description="Specifies the PLM XML export criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.2.0" dependencies="" description="Imports the objects from a PLM XML package (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for data scoping. The user will be notified with the import results when the import is completed." exceptionCondition="" id="importObjectsFromPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::PLMXML" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="importObjectsFromPLMXML" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXML#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" returnDescription="The following partial error may be returned:&lt;br /&gt;213003: Unable to create instance of Dispatcher Request." useCase="">
+                 
+            <ParameterInfo description="Specifies the PLM XML import criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp05.2.0" dependencies="" description="Imports the objects from a PLM XML package (.zip) in asynchronous mode using the specified Transfer Mode object and the additional session options for data scoping. The user will be notified with the import results when the import is completed." exceptionCondition="" id="importObjectsFromPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::PLMXML" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="importObjectsFromPLMXMLAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::PLMXML::importObjectsFromPLMXMLAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2021_06::PLMXML::ImportObjectsFromPLMXMLInput,&amp;" returnDescription="void." useCase="">
+                 
+            <ParameterInfo description="Specifies the PLM XML import criteria." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp06.2.0" dependencies="" description="This operation attaches schema map rule file from the given &lt;b&gt;Dataset&lt;/b&gt; to the &lt;b&gt;TransferMode&lt;/b&gt; given in the input. &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; is expected.&lt;br /&gt;A schema map rule file is a comma separated values (CSV) formatted file. It is generated by Advanced Multi-Schema Exhanger application. It is attached as a named reference to &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; and used later during export/import operation after attaching to the export/import &lt;b&gt;TransferMode&lt;/b&gt;." exceptionCondition="" id="attachSchemaMapFileToXferMode#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;$bool" interface="Awp0::Soa::TCXMLImportExport::SchemaMap" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="attachSchemaMapFileToXferMode" opTemplate="Teamcenter::Soa::Server::ServiceData#Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferMode#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;$bool" returnDescription="Errors if any are returned in the ServiceData.&lt;br /&gt;The following errors may be returned:&lt;br /&gt;213003:   Unable to create instance of Dispatcher Request.&lt;br /&gt;203421:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Failed to find transfer mode.&lt;br /&gt;9040:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Dataset could not be found." useCase="">
+                 
+            <ParameterInfo description="Specifies the &lt;b&gt;TransferMode&lt;/b&gt; to which  rule file from &lt;b&gt;Dataset&lt;/b&gt; needs to be attached." parameterName="inPut"/>
+                 
+            <ParameterInfo description="If true, the operation will be performed in background mode in a separate asynchronous server session; otherwise perform the operation synchronously." parameterName="runInBackground"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp06.2.0" dependencies="" description="This asynchronous operation attaches the schema map rule file from the given &lt;b&gt;Dataset&lt;/b&gt; of type &lt;b&gt;Tie0SchemaMap&lt;/b&gt; to the &lt;b&gt;TransferMode&lt;/b&gt;.. &lt;br /&gt;A schema map rule file is a comma separated values (CSV) formatted file. It is generated by Advanced Multi-Schema Exhanger application. It is attached as a named reference to &lt;b&gt;Dataset&lt;/b&gt; and used later during export/import operation after attaching it to the &lt;b&gt;TransferMode&lt;/b&gt;." exceptionCondition="" id="attachSchemaMapFileToXferModeAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;" interface="Awp0::Soa::TCXMLImportExport::SchemaMap" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="attachSchemaMapFileToXferModeAsync" opTemplate="void#Awp0::Soa::TCXMLImportExport::SchemaMap::attachSchemaMapFileToXferModeAsync#const,Awp0::Soa::Internal::TCXMLImportExport::_2022_12::SchemaMap::AttachSchemaMapRuleToXferModeInput,&amp;" returnDescription="void: In asynchronous mode void is returned." useCase="">
+                 
+            <ParameterInfo description="Specifies the &lt;b&gt;TransferMode&lt;/b&gt; to which  rule file from &lt;b&gt;Dataset&lt;/b&gt; needs to be attached." parameterName="inPut"/>
+               
+        </Operation>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Briefcase" value="true"/>
+           
+        <EventType description="Trigger event when asynchronous briefcase export is complete." id="Awp0Briefcase_Export_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous briefcase export failed." id="Awp0Briefcase_Export_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous briefcase import is complete." id="Awp0Briefcase_Import_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous briefcase import failed." id="Awp0Briefcase_Import_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous bulk extract is complete." id="Awp0Bulk_Extract_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous bulk extract failed." id="Awp0Bulk_Extract_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous bulk copy is complete." id="Awp0Bulk_Import_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous bulk copy failed." id="Awp0Bulk_Import_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous PLM XML export is complete." id="Awp0PLMXML_Export_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous PLM XML export failed." id="Awp0PLMXML_Export_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous PLM XML import is complete." id="Awp0PLMXML_Import_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous PLM XML import failed." id="Awp0PLMXML_Import_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous PDX export is complete." id="Awp0Pdx_Export_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous PDX export failed." id="Awp0Pdx_Export_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous schema map deployment is complete." id="Awp0Schema_map_deploy_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous schema map deployment failed." id="Awp0Schema_map_deploy_Failed"/>
+           
+        <EventType description="Trigger event when asynchronous reclaim ownership is complete." id="Awp0Reclaim_ownership_Complete"/>
+           
+        <EventType description="Trigger event when asynchronous reclaim ownership failed." id="Awp0Reclaim_ownership_Failed"/>
+           
+        <Condition description="This condition determines if instances of a particular business object type can be checked-in from briefcase export. This depends upon the following checks: if the instance is briefcase checked-out; if the instance is local or the briefcase checked-out site is the current site; if the user is the briefcase checked-out user or the user is from dba group." expression="o.checked_out = &quot;Y&quot; AND u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;site_reserved&quot; ) = &quot;true&quot; AND ( o.owning_site = null OR ( o.owning_site != null AND u.fnd0ConditionHelper.awp0GetPropertyValue( u.site, &quot;object_string&quot;, u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;remote_site&quot; ), false ) ) ) AND ( u.fnd0ConditionHelper.awp0GetPropertyValue( u.user, &quot;object_string&quot;, u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;user_object&quot; ), false ) OR u.group_name = &quot;dba&quot; )" name="Awp0BriefcaseCheckinCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if instances of a particular business object type can be checked-out for briefcase export. This depends upon the following checks: if the instance is checkout-able; if the instance is modifiable at the current site; if the type is in the preference Briefcase_checkout_supported_types defined supported type list." expression="o.fnd0IsCheckoutable=true AND o.is_modifiable=true AND u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;Briefcase_checkout_supported_types&quot;,o)=true" name="Awp0BriefcaseCheckoutCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if instances of a particular business object type can be cancelled checked-out for briefcase export. This depends upon the following checks: if the instance is briefcase checked-out; if the instance is local or the briefcase checked-out site is the current site; if the user is the briefcase checked-out user or the user is from dba group." expression="o.checked_out = &quot;Y&quot; AND u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;site_reserved&quot; ) = &quot;true&quot; AND ( o.owning_site = null OR ( o.owning_site != null AND u.fnd0ConditionHelper.awp0GetPropertyValue( u.site, &quot;object_string&quot;, u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;remote_site&quot; ), false ) ) ) AND ( u.fnd0ConditionHelper.awp0GetPropertyValue( u.user, &quot;object_string&quot;, u.fnd0ConditionHelper.fnd0getPropValueOnRefObj( o, &quot;reservation&quot;, &quot;user_object&quot; ), false ) OR u.group_name = &quot;dba&quot; )" name="Awp0CancelBriefcaseCheckoutCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if instances of a particular business object type can be marked for site ownership transfer for briefcase export. This depends upon the following checks: if the instance is local object; if the instance is modifiable at the current site; if the object is not checked out; if the instance has not been marked for site ownership transfer already; if the type is in the preference Briefcase_ownership_transfer_supported_types defined supported type list." expression="o.isReplica() = false AND o.is_modifiable = true AND o.checked_out  != &quot;Y&quot; AND u.fnd0ConditionHelper.awp0isObjectTypePresentInPref(&quot;Briefcase_ownership_transfer_supported_types&quot;,o)=true" name="Awp0MarkOwnershipTransferCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines the visibility of the &quot;Awp0ViewOwnershipTransfer&quot; command." expression="true" name="Awp0ViewOwnershipTransferCmdCond" secured="false">
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Command commandId="Awp0BriefcaseCheckin" description="Check in Teamcenter WorkspaceObjects from briefcase export" displayName="Briefcase Check In" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Briefcase Check In"/>
+           
+        <Command commandId="Awp0BriefcaseCheckout" description="Check out Teamcenter WorkspaceObjects for briefcase export." displayName="Briefcase Check Out" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Briefcase Check Out"/>
+           
+        <Command commandId="Awp0CancelBriefcaseCheckout" description="Cancel check out Teamcenter WorkspaceObjects for briefcase export" displayName="Cancel Briefcase Check Out" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Cancel Briefcase Check Out"/>
+           
+        <Command commandId="Awp0MarkOwnershipTransfer" description="Transfer the site ownership for the selections for briefcase export." displayName="Transfer Ownership" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+           
+        <Command commandId="Awp0ViewOwnershipTransfer" description="Pending Ownership Transfers" displayName="Pending Ownership Transfer" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip=""/>
+           
+        <CommandAttach anchorId="Awp0BriefcaseCheckout" childCommandId="Awp0BriefcaseCheckin" commandCollectionId="Awp0GlobalCommands_footer" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0DeletePAL" childCommandId="Awp0BriefcaseCheckout" commandCollectionId="Awp0GlobalCommands_footer" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0BriefcaseCheckin" childCommandId="Awp0CancelBriefcaseCheckout" commandCollectionId="Awp0GlobalCommands_footer" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0CancelBriefcaseCheckout" childCommandId="Awp0MarkOwnershipTransfer" commandCollectionId="Awp0GlobalCommands_footer" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Awp0MarkOwnershipTransfer" childCommandId="Awp0ViewOwnershipTransfer" commandCollectionId="Awp0GlobalCommands_footer" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0BriefcaseCheckin" conditionName="Awp0BriefcaseCheckinCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0BriefcaseCheckout" conditionName="Awp0BriefcaseCheckoutCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0CancelBriefcaseCheckout" conditionName="Awp0CancelBriefcaseCheckoutCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0MarkOwnershipTransfer" conditionName="Awp0MarkOwnershipTransferCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ViewOwnershipTransfer" conditionName="Awp0ViewOwnershipTransferCmdCond"/>
+        
+    </Add>
+    <Change>
+           
+        <TcLOV description="LOV for various Teamcenter Applications that may trigger Messages from Teamcenter" lovType="ListOfValuesString" name="Fnd0SourceApplicationType" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Briefcase Export and Import" value="BRIEFCASE"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="PLM XML Export and Import" value="PLMXML"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Bulk Operations" value="BULK_OPERATIONS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Schema Mapping" value="SCHEMA_MAPPING"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="PDX Export" value="PDX"/>
+               
+        </TcLOV>
+        
+    </Change>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="ru_RU" status="Approved">Поставщик структуры продукта 4GD</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="ru_RU" status="Approved">Элемент проектирования</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="ru_RU" status="Approved">Поднабор</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="ru_RU" status="Approved">Исходный объект, на который ссылается поставщик</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="ru_RU" status="Approved">Используется в поставщике рабочих наборов</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="ru_RU" status="Approved">Применяемость исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="ru_RU" status="Approved">Автор последнего изменения исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="ru_RU" status="Approved">Группа-владелец исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="ru_RU" status="Approved">Пользователь-владелец исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="ru_RU" status="Approved">Дата выпуска исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="ru_RU" status="Approved">Описание исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="ru_RU" status="Approved">Состояние выпуска исходного объекта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="ru_RU" status="Approved">Идентификатор ревизии исходного объекта</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="ru_RU" status="Approved">Имя исходного объекта</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="ru_RU" status="Approved">Идентификатор исходного объекта</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="ru_RU" status="Approved">Исходный объект</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="ru_RU" status="Approved">Исходный объект</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="ru_RU" status="Approved">This condition determines if the "Show Revise" command should be visible in the 4g Design solution.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="ru_RU" status="Approved">Данное условие определяет наличие у пользователя достаточных прав для удаления выбранного объекта.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="ru_RU" status="Approved">Условие воспроизведения метода поднабора.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="ru_RU" status="Approved">Это условие определяет, имеет ли переданный бизнес-объект право на отображение команды "Сохранить как"/"Пересмотреть". Возвращает значение true для бизнес-объектов, которые не являются условными элементами.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="ja_JP" status="Approved">変更履歴要素</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="ja_JP" status="Approved">影響解析プロバイダ</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="ja_JP" status="Approved">系列に対して影響を受けるオブジェクトプロバイダ</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="ja_JP" status="Approved">自分の変更プロバイダ</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="ja_JP" status="Approved">変更マネージャ</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ja_JP" status="Approved">CIBは承認されました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ja_JP" status="Approved">CIBがコンカレント変更を承認しました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ja_JP" status="Approved">変更がリリースされました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ja_JP" status="Approved">コンカレント変更がリリースされました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="ja_JP" status="Approved">変更マネージャ</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ja_JP" status="Approved">CIBは承認されました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ja_JP" status="Approved">CIBがコンカレント変更を承認しました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ja_JP" status="Approved">変更がリリースされました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ja_JP" status="Approved">コンカレント変更がリリースされました</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="ja_JP" status="Approved">認証変更通知</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="ja_JP" status="Approved">認証変更通知</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="ja_JP" status="Approved">クロージャ</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="ja_JP" status="Approved">処理</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="ja_JP" status="Approved">影響を受けるアイテム</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="ja_JP" status="Approved">~による統合</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="ja_JP" status="Approved">~への統合</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="ja_JP" status="Approved">統合されたステータス</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="ja_JP" status="Approved">~の変化を統合</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="ja_JP" status="Approved">マークアップ</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="ja_JP" status="Approved">マチュリティ</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="ja_JP" status="Approved">ソリューション</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="ja_JP" status="Approved">ソリューションアイテム</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="ja_JP" status="Approved">フィルタ</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="ja_JP" status="Approved">リリースステータス有効期限</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="ja_JP" status="Approved">問題をレポート</key>
+           
+        <key id="CommandDisplayName{::}Cm1RevertChanges" locale="ja_JP" status="Approved">変更を元に戻す</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="ja_JP" status="Approved">シーケンス変更</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="ja_JP" status="Approved">変更を作成</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="ja_JP" status="Approved">変更を作成</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="ja_JP" status="Approved">変更の派生</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="ja_JP" status="Approved">系統の設定</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="ja_JP" status="Approved">系統の設定解除</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="ja_JP" status="Approved">ECNに対する条件が4GDオブジェクトのコンテキストとして設定されています</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="ja_JP" status="Approved">この条件は、edit GnChangeNoticeRevision依存関係コマンドを使用可能にする基準を定義します。 この条件は、インコンテキストビジネスオブジェクトおよびユーザセッションを基準とした、基準のチェックを許可します。</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="ja_JP" status="Approved">ユーザにはライセンスの変更がありますか?</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="ja_JP" status="Approved">リリースステータス有効期限を割当てるためのフレームワークコマンドを非表示にする条件です。 代わりに変更マネージャ固有のコマンドが表示されます。</key>
+           
+        <key id="ConditionDescription{::}Cm1RevertCmdCond" locale="ja_JP" status="Approved">これは、要素を元に戻すことができるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="ja_JP" status="Approved">この条件は、edit GnChangeNoticeRevision依存関係コマンドを使用可能にする基準を定義します。 この条件は、インコンテキスト変更通知リビジョンオブジェクトおよびユーザセッションを基準とした、基準のチェックを許可します。</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="ja_JP" status="Approved">コンテキストで変更を作成コマンド条件</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="ja_JP" status="Approved">派生コマンドを表示または非表示にする条件です。</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="ja_JP" status="Approved">選択したオブジェクトが、系列セットを含まずにそれらが同じタイプのものである場合に、系列を設定コマンドを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="ja_JP" status="Approved">選択したオブジェクトが、系列セットを含みそれらが同じタイプのものである場合に、系列を設定解除コマンドを使用可能にします。</key>
+           
+        <key id="BusinessObject{::}Cm1AffectedItemsProvider" locale="ja_JP" status="Approved">影響を受けるアイテムプロバイダ</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="ja_JP" status="Approved">変更サマリ要素</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="ja_JP" status="Approved">オカレンスリビジョンのアクティブな変更</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="ja_JP" status="Approved">アクティブな変更</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="ja_JP" status="Approved">ECNイン</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="ja_JP" status="Approved">ECNアウト</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="ja_JP" status="Approved">基底デザイン要素</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="ja_JP" status="Approved">リーフ</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="ja_JP" status="Approved">兄弟</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="ja_JP" status="Approved">基底プライマリオブジェクト</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="ja_JP" status="Approved">基底セカンダリオブジェクト</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="ja_JP" status="Approved">マージアウトが必要</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="ja_JP" status="Approved">一括更新は許可されていますか</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="ja_JP" status="Approved">変更アクション</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="ja_JP" status="Approved">変更リレーション</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

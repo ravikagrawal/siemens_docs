@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:53:27 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc14000.1.0" description="Library for Color BOM" isThirdParty="false" name="Cb0colorbom" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcClass className="Cb0ColorTheme" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="WorkspaceObject">
+                 
+            <TcAttribute attributeName="cb0ColorThemeInfo" attributeType="POM_long_string" description="This property holds the information of all Color Specifications associated with a theme in Long String Json." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="cb0OwningObject" attributeType="POM_typed_reference" description="This property holds the information of the context for which the theme is created." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="WorkspaceObject"/>
+                 
+            <TcAttribute attributeName="cb0ColorThemeCode" attributeType="POM_string" description="cb0ColorThemeCode represents a Code defined for a Theme." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <TcClass className="Cb0RelatedAppearanceBrkdwn" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcClass className="Cb0RelatedColorSpec" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcClass className="Cb0SVMReference" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcClass className="Cb0ScopedColor" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcAttributeAttach className="Smc0SVOccAttrs">
+                 
+            <TcAttribute attributeName="cb0AppearanceArea" attributeType="POM_typed_reference" description="Appearance Area associated with an occurrence" exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="Clr0AppearanceArea"/>
+               
+        </TcAttributeAttach>
+           
+        <OperationInputType artifactName="Cb0AppearanceLOVCreI" description="CreateInput object for &quot;Cb0AppearanceLOV&quot; business object" isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamicCreI" typeClassName="Cb0AppearanceLOVCreI" typeName="Cb0AppearanceLOVCreI"/>
+           
+        <OperationInputType artifactName="Cb0AppearanceLOVSvAI" description="SaveAsInput object for &quot;Cb0AppearanceLOV&quot; business object" isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamicSvAI" typeClassName="Cb0AppearanceLOVSvAI" typeName="Cb0AppearanceLOVSvAI"/>
+           
+        <OperationInputType artifactName="Cb0ColorInfoProviderCreI" description="CreateInput object for &quot;Cb0ColorInfoProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Cb0ColorInfoProviderCreI" typeName="Cb0ColorInfoProviderCreI"/>
+           
+        <OperationInputType artifactName="Cb0ColorInfoProviderSvAI" description="SaveAsInput object for &quot;Cb0ColorInfoProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Cb0ColorInfoProviderSvAI" typeName="Cb0ColorInfoProviderSvAI"/>
+           
+        <OperationInputType artifactName="Cb0ColorThemeCreI" description="CreateInput object for &quot;Cb0ColorTheme&quot; business object" isAbstract="false" parentTypeName="WorkspaceObjectCreI" typeClassName="Cb0ColorThemeCreI" typeName="Cb0ColorThemeCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="This property holds the information of all Color Specifications associated with a theme in Long String Json." fieldType="SimpleProperty" propName="cb0ColorThemeInfo" srcPropName="cb0ColorThemeInfo"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="This property holds the information of the context for which the theme is created." fieldType="SimpleProperty" propName="cb0OwningObject" srcPropName="cb0OwningObject"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="cb0ColorThemeCode represents a Code defined for a Theme." fieldType="SimpleProperty" propName="cb0ColorThemeCode" srcPropName="cb0ColorThemeCode"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Cb0ColorThemeSvAI" description="SaveAsInput object for &quot;Cb0ColorTheme&quot; business object" isAbstract="false" parentTypeName="WorkspaceObjectSvAI" typeClassName="Cb0ColorThemeSvAI" typeName="Cb0ColorThemeSvAI"/>
+           
+        <OperationInputType artifactName="Cb0RelatedAppearanceBrkdwnCreI" description="CreateInput object for &quot;Cb0RelatedAppearanceBrkdwn&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Cb0RelatedAppearanceBrkdwnCreI" typeName="Cb0RelatedAppearanceBrkdwnCreI"/>
+           
+        <OperationInputType artifactName="Cb0RelatedAppearanceBrkdwnSvAI" description="SaveAsInput object for &quot;Cb0RelatedAppearanceBrkdwn&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Cb0RelatedAppearanceBrkdwnSvAI" typeName="Cb0RelatedAppearanceBrkdwnSvAI"/>
+           
+        <OperationInputType artifactName="Cb0RelatedColorSpecCreI" description="CreateInput object for &quot;Cb0RelatedColorSpec&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Cb0RelatedColorSpecCreI" typeName="Cb0RelatedColorSpecCreI"/>
+           
+        <OperationInputType artifactName="Cb0RelatedColorSpecSvAI" description="SaveAsInput object for &quot;Cb0RelatedColorSpec&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Cb0RelatedColorSpecSvAI" typeName="Cb0RelatedColorSpecSvAI"/>
+           
+        <OperationInputType artifactName="Cb0SVMReferenceCreI" description="CreateInput object for &quot;Cb0SVMReference&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Cb0SVMReferenceCreI" typeName="Cb0SVMReferenceCreI"/>
+           
+        <OperationInputType artifactName="Cb0SVMReferenceSvAI" description="SaveAsInput object for &quot;Cb0SVMReference&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Cb0SVMReferenceSvAI" typeName="Cb0SVMReferenceSvAI"/>
+           
+        <OperationInputType artifactName="Cb0ScopedColorCreI" description="CreateInput object for &quot;Cb0ScopedColor&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Cb0ScopedColorCreI" typeName="Cb0ScopedColorCreI"/>
+           
+        <OperationInputType artifactName="Cb0ScopedColorSvAI" description="SaveAsInput object for &quot;Cb0ScopedColor&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Cb0ScopedColorSvAI" typeName="Cb0ScopedColorSvAI"/>
+           
+        <TcRuntimeType artifactName="Cb0ColorInfoProvider" description="Provider to display Color Appearances for given Less Finish Part and Color Theme based on the Color Appearances associated to both that Part and Color Theme." functionality="Cb0colorbom" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Cb0ColorInfoProvider" typeName="Cb0ColorInfoProvider"/>
+           
+        <TcStandardType artifactName="Cb0AppearanceLOV" description="Cb0AppearanceLOV is a dynamic LOV Business Object which returns filtered list of the appearance breakdown and appearance areas linked with BOM." functionality="Cb0colorbom" isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamic" typeClassName="Fnd0ListOfValuesDynamic" typeName="Cb0AppearanceLOV"/>
+           
+        <TcStandardType artifactName="Cb0ColorTheme" description="Color Theme persists the color specification information which is mapping between Appearance area and Color Appearance." functionality="Cb0colorbom" isAbstract="false" parentTypeName="WorkspaceObject" typeClassName="Cb0ColorTheme" typeName="Cb0ColorTheme"/>
+           
+        <TcStandardType artifactName="Cb0RelatedAppearanceBrkdwn" description="This Relation object which associates Part with the Appearance Breakdown object." functionality="Cb0colorbom" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Cb0RelatedAppearanceBrkdwn" typeName="Cb0RelatedAppearanceBrkdwn"/>
+           
+        <TcStandardType artifactName="Cb0RelatedColorSpec" description="This Business object associates Color Part Revision with Color Scheme object." functionality="Cb0colorbom" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Cb0RelatedColorSpec" typeName="Cb0RelatedColorSpec"/>
+           
+        <TcStandardType artifactName="Cb0SVMReference" description="A Relation object which associates Color Appearance and Visual Material Definition Dataset" functionality="Cb0colorbom" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Cb0SVMReference" typeName="Cb0SVMReference"/>
+           
+        <TcStandardType artifactName="Cb0ScopedColor" description="A Relation object which associates Product, Part or Color Theme with Color Appearance specification object." functionality="Cb0colorbom" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Cb0ScopedColor" typeName="Cb0ScopedColor"/>
+           
+        <BusinessObjectInterface createRelease="tc2512" description="Interface Name for Business Object BOMLine" libraryName="Cb0colorbom" name="BOMLine" namespace="cb0::cb0colorbom" primaryInterface="false" typeName="BOMLine"/>
+           
+        <BusinessObjectInterface createRelease="tc2512" description="Interface Name for Business Object Cb0AppearanceLOV" libraryName="Cb0colorbom" name="Cb0AppearanceLOV" namespace="cb0colorbom" primaryInterface="true" typeName="Cb0AppearanceLOV"/>
+           
+        <BusinessObjectInterface createRelease="tc2606" description="Interface Name for Business Object Cb0ColorInfoProvider" libraryName="Cb0colorbom" name="Cb0ColorInfoProvider" namespace="cb0colorbom" primaryInterface="true" typeName="Cb0ColorInfoProvider"/>
+           
+        <BusinessObjectInterface createRelease="tc2506" description="Interface Name for Business Object Cb0ColorTheme" libraryName="Cb0colorbom" name="Cb0ColorTheme" namespace="cb0colorbom" primaryInterface="true" typeName="Cb0ColorTheme"/>
+           
+        <BusinessObjectInterface createRelease="tc2512" description="Interface Name for Business Object Cb0RelatedAppearanceBrkdwn" libraryName="Cb0colorbom" name="Cb0RelatedAppearanceBrkdwn" namespace="cb0colorbom" primaryInterface="true" typeName="Cb0RelatedAppearanceBrkdwn"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc2512" description="Getter for a Tag Property" id="getCb0Appearance#tag_t,&amp;$bool,&amp;$bool,&amp;" interface="cb0::cb0colorbom::BOMLine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getCb0Appearance" opTemplate="int#get#tag_t,&amp;$bool,&amp;$bool,&amp;" operationType="Getter" propertyName="cb0Appearance" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc2512" description="Getter for a Tag Array Property" id="getCb0AppearanceDesignators#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" interface="cb0::cb0colorbom::BOMLine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getCb0AppearanceDesignators" opTemplate="int#get#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" operationType="Getter" propertyName="cb0AppearanceDesignators" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc2512" description="Getter for a Tag Array Property" id="getCb0ColorAppearances#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" interface="cb0::cb0colorbom::BOMLine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getCb0ColorAppearances" opTemplate="int#get#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" operationType="Getter" propertyName="cb0ColorAppearances" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc2512" description="Getter for a Tag Array Property" id="getCb0VisualMaterials#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" interface="cb0::cb0colorbom::BOMLine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getCb0VisualMaterials" opTemplate="int#get#std::vector&lt;tag_t&gt;,&amp;$std::vector&lt;int&gt;,&amp;$bool,&amp;" operationType="Getter" propertyName="cb0VisualMaterials" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc2512" description="Setter for a Tag Property" id="setCb0Appearance#const,tag_t,&amp;$bool" interface="cb0::cb0colorbom::BOMLine" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setCb0Appearance" opTemplate="int#set#const,tag_t,&amp;$bool" operationType="Setter" propertyName="cb0Appearance" returnDescription="Status. 0 if successful"/>
+           
+        <OperationAttach createRelease="tc2512" id="fnd0askLOVValues#const,tag_t$const,std::string,*$const,std::string,*$const,char,*$const,int$int,*$tag_t,**#const" typeName="Cb0AppearanceLOV"/>
+           
+        <OperationAttach createRelease="tc2512" id="fnd0Create#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*" typeName="Cb0RelatedAppearanceBrkdwn"/>
+           
+        <OperationAttach createRelease="tc2512" id="fnd0isValueValid#const,tag_t$const,std::string,*$const,tag_t$bool,*#const" typeName="Cb0AppearanceLOV"/>
+           
+        <OperationAttach createRelease="tc2606" id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Cb0ColorInfoProvider"/>
+           
+        <OperationAttach createRelease="tc2512" id="validateCreateInput#Teamcenter::CreateInput,*" typeName="Cb0RelatedAppearanceBrkdwn"/>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="cb0Appearance is a runtime property that represents the connection between appearance breakdowns and BOMLine items or appearance areas. cb0Appearance helps in user experience by providing convenience for the association of appearance data with the BOM. cb0Appearance adds value by providing ease to user in process of assigning appearance objects." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="cb0Appearance" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Clr0AppearanceDesignator used as a placeholders in 3D design to associate variations of visual materials into 3D design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="cb0AppearanceDesignators" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Clr0AppearanceDesignator" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Visual Appearance business object. This object holds all the visual properties of a color rule." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="cb0ColorAppearances" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Clr0Appearance" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Reference to the Visual Material Definition Dataset for the line." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="cb0VisualMaterials" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Fnd0VisualMaterialDef" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" operationName="IMAN_delete">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" operationName="IMAN_save">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_bulk_loader" propertyName="cb0Appearance">
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_bulk_loader" propertyName="cb0AppearanceDesignators">
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_bulk_loader" propertyName="cb0ColorAppearances">
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_bulk_loader" propertyName="cb0VisualMaterials">
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Clr0Appearance" value="true"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0AppearanceLOV" value="Cb0AppearanceLOVCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0ColorInfoProvider" value="Cb0ColorInfoProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0ColorTheme" value="Cb0ColorThemeCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0RelatedAppearanceBrkdwn" value="Cb0RelatedAppearanceBrkdwnCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0RelatedColorSpec" value="Cb0RelatedColorSpecCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0ScopedColor" value="Cb0ScopedColorCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Cb0SVMReference" value="Cb0SVMReferenceCreI"/>
+           
+        <TcTypeConstantAttach constantName="DisplayName" typeName="Clr0AppearanceDesignator" value="$object_name"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0AppearanceLOV" value="Cb0AppearanceLOVSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0ColorInfoProvider" value="Cb0ColorInfoProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0ColorTheme" value="Cb0ColorThemeSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0RelatedAppearanceBrkdwn" value="Cb0RelatedAppearanceBrkdwnSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0RelatedColorSpec" value="Cb0RelatedColorSpecSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0ScopedColor" value="Cb0ScopedColorSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Cb0SVMReference" value="Cb0SVMReferenceSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0Appearance" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0AppearanceDesignators" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0ColorAppearances" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0VisualMaterials" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0ColorThemeCode" typeName="Cb0ColorTheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0ColorThemeInfo" typeName="Cb0ColorTheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0OwningObject" typeName="Cb0ColorTheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fnd0IsRevisionDiscontinued" typeName="Cb0ColorTheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="cb0AppearanceArea" typeName="Smc0SVOccAttrs" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0Appearance" typeName="BOMLine" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0AppearanceDesignators" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0ColorAppearances" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0VisualMaterials" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0ColorThemeCode" typeName="Cb0ColorTheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0ColorThemeInfo" typeName="Cb0ColorTheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0OwningObject" typeName="Cb0ColorTheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fnd0IsRevisionDiscontinued" typeName="Cb0ColorTheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="cb0AppearanceArea" typeName="Smc0SVOccAttrs" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="cb0OwningObject" typeName="Cb0ColorTheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="cb0OwningObject" typeName="Cb0ColorThemeCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="clr0Color" typeName="Clr0AppearanceCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="cb0ColorThemeCode" typeName="Cb0ColorThemeCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="cb0ColorThemeInfo" typeName="Cb0ColorThemeCreI" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="cb0OwningObject" typeName="Cb0ColorThemeCreI" value="true"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Cb0ColorTheme" operationName="ITEM_copy_rev" propertyType="ReferenceProperty" relRefPropName="cb0OwningObject" secured="true" typeName="ItemRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsReference" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Clr0AreaAppSchmRevision" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="Cb0RelatedColorSpec" secured="true" typeName="ItemRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="true" isTargetPrimary="false" objectTypeName="Fnd0VariantExprBlock" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="fnd0affectedObject" secured="true" typeName="Cb0ColorTheme"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsReference" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Clr0Appearance" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Cb0ScopedColor" secured="true" typeName="Cb0ColorTheme"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsReference" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Clr0AppearanceAreaBreakdown" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Cb0RelatedAppearanceBrkdwn" secured="true" typeName="Item"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsReference" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Clr0ProductAppBreakdown" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Cb0RelatedAppearanceBrkdwn" secured="true" typeName="Item"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsReference" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Clr0Appearance" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Cb0ScopedColor" secured="true" typeName="Item"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Cb0ColorTheme" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="cb0OwningObject" secured="true" typeName="ItemRevision"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="Cb0ColorTheme" relationTypeName="Cb0ScopedColor" secondaryCardinality="-1" secondaryTypeName="Clr0Appearance" secured="false"/>
+           
+        <TcGRMRule attachability="WriteAccessReq" changeability="Changeable" conditionName="isTrue" description="" detachability="WriteAccessReq" primaryCardinality="-1" primaryTypeName="Clr0Appearance" relationTypeName="Cb0SVMReference" secondaryCardinality="1" secondaryTypeName="Fnd0VisualMaterialDef" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="Item" relationTypeName="Cb0ScopedColor" secondaryCardinality="-1" secondaryTypeName="Clr0Appearance" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="Item" relationTypeName="Cb0RelatedAppearanceBrkdwn" secondaryCardinality="1" secondaryTypeName="Clr0ProductAppBreakdown" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="ItemRevision" relationTypeName="Cb0RelatedColorSpec" secondaryCardinality="1" secondaryTypeName="Clr0AreaAppSchmRevision" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="WorkspaceObject" relationTypeName="Cb0RelatedAppearanceBrkdwn" secondaryCardinality="1" secondaryTypeName="Clr0AppearanceAreaBreakdown" secured="false"/>
+           
+        <TcExtension cannedExtension="false" description="This is a baseAction extension on PROP_bulk_loader operation for runtime property cb0Appearance on BOMLine." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0AppearancePropBulkLoaderFn">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:cb0Appearance:PROP_bulk_loader:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This is a baseAction extension on PROP_bulk_loader operation for color bom related runtime properties on BOMLine." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0ColorPropertyBulkLoaderFn">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:cb0VisualMaterials:PROP_bulk_loader:4"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:cb0AppearanceDesignators:PROP_bulk_loader:4"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:cb0ColorAppearances:PROP_bulk_loader:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This post action extension recomputes rolldown conditions for objects that were impacted by the object that was deleted in this operation." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0ColorThemeDeletePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Cb0ColorTheme:IMAN_delete:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Deletes data associated with the VariantConfigurable behavior before the owning object is deleted." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0ColorThemeDeletePre">
+                 
+            <TcExtensionValidity parameter="TYPE:Cb0ColorTheme:IMAN_delete:2"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Saves data associated with the VariantConfigurable behavior after the owning object was saved." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0ColorThemeSavePost">
+                 
+            <TcExtensionValidity parameter="TYPE:Cb0ColorTheme:IMAN_save:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension sets Solution Variant category to &amp;quot;Reuse&amp;quot; when Finish Indicator is set to Less Finish." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0FinishIndicatorPropSetPostAction">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ExtdPartDesignAttrs:fnd0FinishIndicator:PROP_set_value_string:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension performs validations for new value of fnd0FinishIndicator property." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0FinishIndicatorPropSetPreCond">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ExtdPartDesignAttrs:fnd0FinishIndicator:PROP_set_value_string:1"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension sets Solution Variant category to &amp;quot;Reuse&amp;quot; when Finish Indicator is set to Less Finish." functionality="Cb0colorbom" internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0Fnd0ExtdPartDesignAttrsCreatePostAction">
+                 
+            <TcExtensionValidity parameter="TYPE:Fnd0ExtdPartDesignAttrs:create#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension sets Solution Variant category on the basis of Finish Indicator property values for items in bulk." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0Fnd0ExtdPartDesignAttrsCreatePostActionBulk">
+                 
+            <TcExtensionValidity parameter="TYPE:Fnd0ExtdPartDesignAttrs:fnd0Create#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension validates if pma0LessFinish property is modifiable." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0IsLessFinishPropModifiable">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Pma0PartAttrs:pma0LessFinish:PROP_is_modifiable:3"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0_bl_Pma0PartAttrs_pma0LessFinish:PROP_is_modifiable:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension performs validations for new value for pma0LessFinish property." internal="false" languageType="CPlusPlus" libraryName="libCb0colorbom" name="Cb0LessFinishPropSetPreCond">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Pma0PartAttrs:pma0LessFinish:PROP_set_value_string:1"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" extensionName="Fnd0VariantConfigBulkSavePost" extensionPointType="PostAction" isActive="true" operationName="fnd0Save#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cb0AppearancePropBulkLoaderFn" extensionPointType="BaseAction" isActive="true" operationName="PROP_bulk_loader" propertyName="cb0Appearance"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cb0ColorPropertyBulkLoaderFn" extensionPointType="BaseAction" isActive="true" operationName="PROP_bulk_loader" propertyName="cb0AppearanceDesignators"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cb0ColorPropertyBulkLoaderFn" extensionPointType="BaseAction" isActive="true" operationName="PROP_bulk_loader" propertyName="cb0ColorAppearances"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cb0ColorPropertyBulkLoaderFn" extensionPointType="BaseAction" isActive="true" operationName="PROP_bulk_loader" propertyName="cb0VisualMaterials"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" extensionName="Cb0ColorThemeDeletePost" extensionPointType="PostAction" isActive="true" operationName="IMAN_delete"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" extensionName="Cb0ColorThemeDeletePre" extensionPointType="PreAction" isActive="true" operationName="IMAN_delete"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Cb0ColorTheme" extendableElementType="Type" extensionName="Cb0ColorThemeSavePost" extensionPointType="PostAction" isActive="true" operationName="IMAN_save"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ExtdPartDesignAttrs" extendableElementType="Type" extensionName="Cb0FinishIndicatorPropSetPostAction" extensionPointType="PostAction" isActive="true" operationName="PROP_set_value_string" propertyName="fnd0FinishIndicator"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ExtdPartDesignAttrs" extendableElementType="Type" extensionName="Cb0FinishIndicatorPropSetPreCond" extensionPointType="PreCondition" isActive="true" operationName="PROP_set_value_string" propertyName="fnd0FinishIndicator"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Cb0IsLessFinishPropModifiable" extensionPointType="PostAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" extensionName="Cb0IsLessFinishPropModifiable" extensionPointType="PostAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0LessFinish"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" extensionName="Cb0LessFinishPropSetPreCond" extensionPointType="PreCondition" isActive="true" operationName="PROP_set_value_string" propertyName="pma0LessFinish"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ExtdPartDesignAttrs" extendableElementType="Type" extensionName="Cb0Fnd0ExtdPartDesignAttrsCreatePostAction" extensionPointType="PostAction" isActive="true" operationName="create#Teamcenter::CreateInput,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ExtdPartDesignAttrs" extendableElementType="Type" extensionName="Cb0Fnd0ExtdPartDesignAttrsCreatePostActionBulk" extensionPointType="PostAction" isActive="true" operationName="fnd0Create#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*"/>
+           
+        <LOVDynamic dataType="PROP_typed_reference" description="Dynamic LOV to show filtered Appearance Area and Appearance Breakdown objects." lovType="Cb0AppearanceLOV" lovValueAttribute="object_name" lovValueDescriptionAttribute="" name="Cb0AppearanceDynamicLOV" queryClause="SELECT qid FROM WorkspaceObject WHERE &quot;object_name&quot; LIKE &quot;*&quot;" queryType="WorkspaceObject" usage="Exhaustive"/>
+           
+        <TcLOVAttach lovName="Cb0AppearanceDynamicLOV" typeName="BOMLine">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="cb0Appearance"/>
+               
+        </TcLOVAttach>
+           
+        <Functionality description="Create and Manage Less Finish, Color Parts, Color Assemblies and their Usages in a Product and associate Color definitions to enable downstream consumption." displayName="Color BOM" enabledForVerificationRules="false" name="Cb0colorbom"/>
+        
+    </Add>
+    <Change>
+           
+        <TcLOV description="LOV for various Teamcenter Applications that may trigger Messages from Teamcenter" lovType="ListOfValuesString" name="Fnd0SourceApplicationType" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Subscription Manager" value="SUB_MAN"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Schedule Manager" value="SCHED_MAN"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Workflow" value="EPM_WORKFLOW"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Async Print" value="PRINT"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Social Collaboration" value="SOCIAL_COLLABORATION"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Document Management" value="DOCMGMT"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Requirement Manager" value="REQ_MAN"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Asynchronous Reports" value="REPORTS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Multisite Transfer" value="MULTISITE"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Multisite Check In" value="MULTISITE_CHECKIN"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Multisite Checkout" value="MULTISITE_CHECKOUT"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Multisite Publish" value="MULTISITE_PUBLISH"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Multisite Unpublish" value="MULTISITE_UNPUBLISH"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Solution Variant" value="SOLUTION_VARIANT"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Color Parts" value="COLOR_PARTS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="BOM Import Successful" value="BOM_IMPORT_SUCCESS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="BOM Import Failed" value="BOM_IMPORT_FAILED"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Schema Mapping" value="SCHEMA_MAPPING"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Create Objects" value="CREATE OBJECTS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Configuration Baseline" value="CONFIG_BASELINE"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Task Assignment Sync" value="EPM_WORKFLOW_SYNCDP"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Excel Import Failed" value="EXCEL_IMPORT_FAILED"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Excel Import Successful" value="EXCEL_IMPORT_SUCCESS"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Product Configurator Async" value="PRODUCT_CONFIGURATOR"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Auto-merge" value="AUTO_MERGE"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Concurrent Change" value="CONCURRENT_CHANGES"/>
+               
+        </TcLOV>
+        
+    </Change>
+    <Delete/>
+</TcBusinessData>

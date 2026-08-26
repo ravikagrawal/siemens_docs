@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:52:28 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="Awp04.0.0" description="Active Workspace library for APS template." isThirdParty="false" name="Aps1apscore" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationTemplate const="false" createRelease="Awp04.0.0" description="This operation will return TRUE if selected object supports APS effectivity." id="int#aps1::Teamcenter::Aps1apscore::Fnd0ConditionHelper::aps1IsEffectivitySupported#tag_t$bool,*" name="aps1::Teamcenter::Aps1apscore::Fnd0ConditionHelper::aps1IsEffectivitySupported" returnConst="false" returnDescription="Return Value&lt;br /&gt;ITK_ok on success and error code on failure" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="This is object of Fnd0Selection" freeOutputMemory="false" inputOutput="Input" name="selection">
+                       
+                <OperationParameterDataTypeRef dataType="tag_t" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="true if command is visible, false otherwise" freeOutputMemory="false" inputOutput="Output" name="isVisible">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <BusinessObjectInterface createRelease="Awp04.0.0" description="Interface Name for Business Object Fnd0ConditionHelper" libraryName="Aps1apscore" name="Fnd0ConditionHelper" namespace="aps1::Teamcenter::Aps1apscore" primaryInterface="false" typeName="Fnd0ConditionHelper"/>
+           
+        <Operation canOverride="false" component="" createRelease="Awp04.0.0" dependencies="" description="This operation will return TRUE if selected object supports APS effectivity." exceptionCondition="" id="aps1IsEffectivitySupported#tag_t$bool,*" interface="aps1::Teamcenter::Aps1apscore::Fnd0ConditionHelper" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="aps1IsEffectivitySupported" opTemplate="int#aps1::Teamcenter::Aps1apscore::Fnd0ConditionHelper::aps1IsEffectivitySupported#tag_t$bool,*" returnDescription="Return Value&lt;br /&gt;ITK_ok on success and error code on failure" useCase="">
+                 
+            <ParameterInfo description="This is object of Fnd0Selection" parameterName="selection"/>
+                 
+            <ParameterInfo description="true if command is visible, false otherwise" parameterName="isVisible"/>
+               
+        </Operation>
+           
+        <Functionality description="Component for the template - aps1apscore" displayName="Active Workspace Advanced PLM Services Core" enabledForVerificationRules="false" name="Aps1apscore"/>
+           
+        <Condition description="This condition will return TRUE if selected object supports APS effectivity." expression="u.fnd0ConditionHelper.aps1IsEffectivitySupported(o)=true" name="Aps1EffectivityCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Fnd0Selection"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Command commandId="Aps1Effectivity" description="APS Effectivity Command" displayName="Effectivity" icon="" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Effectivity"/>
+           
+        <CommandAttach anchorId="Awp0ObjectInfo" childCommandId="Aps1Effectivity" commandCollectionId="Awp0GlobalStableCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Aps1Effectivity" conditionName="Aps1EffectivityCmdCond"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

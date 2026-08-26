@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="zh_TW" status="Approved">變更歷程記錄元素</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="zh_TW" status="Approved">影響分析提供程式</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="zh_TW" status="Approved">關聯項的受影響物件提供程式</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="zh_TW" status="Approved">我的變更提供程式</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="zh_TW" status="Approved">變更管理器</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="zh_TW" status="Approved">CIB 已批准</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="zh_TW" status="Approved">CIB 已批准併發變更</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="zh_TW" status="Approved">變更已發佈</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="zh_TW" status="Approved">併發變更已發佈</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="zh_TW" status="Approved">變更管理器</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="zh_TW" status="Approved">CIB 已批准</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="zh_TW" status="Approved">CIB 已批准併發變更</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="zh_TW" status="Approved">變更已發佈</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="zh_TW" status="Approved">併發變更已發佈</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="zh_TW" status="Approved">編創變更通知</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="zh_TW" status="Approved">編創變更通知</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="zh_TW" status="Approved">結束</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="zh_TW" status="Approved">處置</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="zh_TW" status="Approved">受影響的項目</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="zh_TW" status="Approved">實作者</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="zh_TW" status="Approved">實作到</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="zh_TW" status="Approved">實作狀態</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="zh_TW" status="Approved">實作變更</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="zh_TW" status="Approved">註記</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="zh_TW" status="Approved">成熟度</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="zh_TW" status="Approved">解決方案</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="zh_TW" status="Approved">解決方案項目</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="zh_TW" status="Approved">篩選器</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="zh_TW" status="Approved">發佈狀態有效性</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="zh_TW" status="Approved">報告問題</key>
+           
+        <key id="CommandDisplayName{::}Cm1RevertChanges" locale="zh_TW" status="Approved">還原變更</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="zh_TW" status="Approved">序列變更</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="zh_TW" status="Approved">建立變更</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="zh_TW" status="Approved">建立變更</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="zh_TW" status="Approved">衍生變更</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="zh_TW" status="Approved">設定關聯項</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="zh_TW" status="Approved">取消設定關聯項</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="zh_TW" status="Approved">ECN 的條件被設定為 4GD 物件的關聯</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="zh_TW" status="Approved">此條件定義啟用編輯 GnChangeNoticeRevision 相依性指令的啟用準則。此條件允許準則根據關聯業務物件和使用者階段作業來進行檢查。</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="zh_TW" status="Approved">使用者有變更授權嗎？</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="zh_TW" status="Approved">用於隱藏框架指令來指派發佈狀態有效性的條件。將改為顯示特定於變更管理器的指令。</key>
+           
+        <key id="ConditionDescription{::}Cm1RevertCmdCond" locale="zh_TW" status="Approved">此條件決定該元素是否可以還原。</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="zh_TW" status="Approved">此條件定義啟用編輯 GnChangeNoticeRevision 相依性指令的啟用準則。此條件允許準則根據關聯變更通知版本物件和使用者階段作業來進行檢查。</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="zh_TW" status="Approved">「建立關聯的變更」指令的條件</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="zh_TW" status="Approved">用於顯示或隱藏衍生指令的條件。</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="zh_TW" status="Approved">當所選物件沒有設定關聯項並且屬於同一類型時，啟用設定關聯項指令。</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="zh_TW" status="Approved">當所選物件設定了關聯項並且屬於同一類型時，啟用取消設定關聯項指令。</key>
+           
+        <key id="BusinessObject{::}Cm1AffectedItemsProvider" locale="zh_TW" status="Approved">受影響的項目提供程式</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="zh_TW" status="Approved">變更匯總元素</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="zh_TW" status="Approved">事例版本的使用中變更</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="zh_TW" status="Approved">使用中變更</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="zh_TW" status="Approved">ECN 輸入</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="zh_TW" status="Approved">ECN 輸出</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="zh_TW" status="Approved">底層設計元素</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="zh_TW" status="Approved">是葉節點</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="zh_TW" status="Approved">同級</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="zh_TW" status="Approved">底層主物件</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="zh_TW" status="Approved">底層次物件</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="zh_TW" status="Approved">需要接合輸出</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="zh_TW" status="Approved">是否允許批量更新</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="zh_TW" status="Approved">變更動作</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="zh_TW" status="Approved">變更關係</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:25 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mdl0AbsOccFormRelation" locale="cs_CZ" status="Approved">Absolutní vztah formuláře výskytu</key>
+           
+        <key id="BusinessObject{::}Mdl0ApplicationModel" locale="cs_CZ" status="Approved">Model aplikace</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtOptionSet" locale="cs_CZ" status="Approved">Kritéria hledání sady možností přenosu</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtType" locale="cs_CZ" status="Approved">Typ kritérií hledání</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchGeomConstraint" locale="cs_CZ" status="Approved">Kritéria hledání geometrických vazeb</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchSlctContent" locale="cs_CZ" status="Approved">Kritéria hledání výběrem obsahu</key>
+           
+        <key id="BusinessObject{::}Mdl0AttributeGroup" locale="cs_CZ" status="Approved">Skupina atributů 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineDefinition" locale="cs_CZ" status="Approved">Definice základny</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní základny</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMaster" locale="cs_CZ" status="Approved">Hlavní základna</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineReference" locale="cs_CZ" status="Approved">Reference základny</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize základny</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize základny</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevision" locale="cs_CZ" status="Approved">Revize základny</key>
+           
+        <key id="BusinessObject{::}Mdl0Baseline" locale="cs_CZ" status="Approved">Základna...</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalArtifact" locale="cs_CZ" status="Approved">Podmínečný artefakt</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalElement" locale="cs_CZ" status="Approved">Podmínečný objekt</key>
+           
+        <key id="BusinessObject{::}Mdl0ConstraintBucketView" locale="cs_CZ" status="Approved">Pohled stroje</key>
+           
+        <key id="BusinessObject{::}Mdl0DefaultGeometry" locale="cs_CZ" status="Approved">Výchozí geometrie</key>
+           
+        <key id="BusinessObject{::}Mdl0ElementThread" locale="cs_CZ" status="Approved">Vlákno objektu</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntBuckSavState" locale="cs_CZ" status="Approved">Stav uložení geometrické vazby</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntCollection" locale="cs_CZ" status="Approved">Kolekce geometrické vazby</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConnGroup" locale="cs_CZ" status="Approved">Skupina geometrické konektivity</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintBucket" locale="cs_CZ" status="Approved">Geometrická vazby</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintMember" locale="cs_CZ" status="Approved">Člen geometrické vazby</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomGroupLink" locale="cs_CZ" status="Approved">Propojení geometrické skupiny</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomLink" locale="cs_CZ" status="Approved">Geometrické propojení</key>
+           
+        <key id="BusinessObject{::}Mdl0IncludeAll" locale="cs_CZ" status="Approved">Zahrnout všechna hledání</key>
+           
+        <key id="BusinessObject{::}Mdl0LinkReference" locale="cs_CZ" status="Approved">Reference propojení</key>
+           
+        <key id="BusinessObject{::}Mdl0ManagedAttrGroup" locale="cs_CZ" status="Approved">Spravovaná skupina atributů 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelArtifact" locale="cs_CZ" status="Approved">Artefakt modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelElement" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelProcessState" locale="cs_CZ" status="Approved">Stav procesu modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0OriginalGeometry" locale="cs_CZ" status="Approved">Původní geometrie</key>
+           
+        <key id="BusinessObject{::}Mdl0OverrideRelation" locale="cs_CZ" status="Approved">Předefinovat relaci</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedGeometry" locale="cs_CZ" status="Approved">Umístěná geometrie</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedModelElement" locale="cs_CZ" status="Approved">Umístěný objekt modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0RefAppModelProvider" locale="cs_CZ" status="Approved">Modely aplikace poskytovatele odkazovaných objektů</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceExpression" locale="cs_CZ" status="Approved">Výraz reference</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceGeometry" locale="cs_CZ" status="Approved">Referenční geometrie</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchBoxZone" locale="cs_CZ" status="Approved">Hledání obdélníkové oblasti</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchClassification" locale="cs_CZ" status="Approved">Hledat v klasifikaci</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchCursor" locale="cs_CZ" status="Approved">Hledat kurzor</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchDef" locale="cs_CZ" status="Approved">Hledat definici</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGeomConstraint" locale="cs_CZ" status="Approved">Hledat geometrickou vazbu</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGroup" locale="cs_CZ" status="Approved">Hledat skupinu</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchOptionSet" locale="cs_CZ" status="Approved">Hledat sadu možností</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchPlaneZone" locale="cs_CZ" status="Approved">Hledat rovinnou oblast</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchProximity" locale="cs_CZ" status="Approved">Blízkost hledání</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchResultType" locale="cs_CZ" status="Approved">Typ výsledku hledání</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSavedQuery" locale="cs_CZ" status="Approved">Hledání uloženého dotazu</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSlctContent" locale="cs_CZ" status="Approved">Výběr obsahu hledání</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefaults" locale="cs_CZ" status="Approved">Výchozí nastavení abstraktní podmnožiny 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefinition" locale="cs_CZ" status="Approved">Definice podmnožiny 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SupportingBaseline" locale="cs_CZ" status="Approved">Podpůrná základna</key>
+           
+        <key id="ConditionDescription{::}Mdl0AttachedObjectIsNotObsolete" locale="cs_CZ" status="Approved">Ověřte, zda je připojený prvek modelu zastaralý nebo ne.</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsCopyMOG" locale="cs_CZ" status="Approved">Podmínka vyhodnocuje podle typu operace, například klonování, realizace, tvorba instancí nebo uložit jako, zda se má kopírovat Mdl0OriginalGeometry.</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopyMA" locale="cs_CZ" status="Approved">Tato podmínka vyhodnocuje, jestli operace kopíruje mezi dvěma odlišnými modely aplikace (Kopírování mezi modely).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopy" locale="cs_CZ" status="Approved">Tato podmínka vyhodnocuje, jestli operace kopíruje mezi dvěma odlišnými modely aplikace (Kopírování mezi modely).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsIntraModelCopy" locale="cs_CZ" status="Approved">Tato podmínka vyhodnocuje, jestli operace kopíruje v rámci stejného modelu aplikace (Kopírování v rámci modelu).</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsShapeOverridePresent" locale="cs_CZ" status="Approved">Podmínka pro kontrolu, zda má objekt modelu pozice předefinovaný tvar.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Baseline" locale="cs_CZ" status="Approved">Základna vydaného obsahu pouze v modelu aplikace.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="cs_CZ" status="Approved">Snímek vydaného a pracovního obsahu v modelu aplikace.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Restore" locale="cs_CZ" status="Approved">Obnovit model aplikace obsahu na specifický snímek.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Snapshot" locale="cs_CZ" status="Approved">Zachytí obsah modelu aplikace</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Closed" locale="cs_CZ" status="Approved">Uzavřeno</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Open" locale="cs_CZ" status="Approved">Otevřít</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Baseline" locale="cs_CZ" status="Approved">Základna...</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="cs_CZ" status="Approved">Snímek</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Restore" locale="cs_CZ" status="Approved">Obnovit</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Snapshot" locale="cs_CZ" status="Approved">Snímek</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0model_id" locale="cs_CZ" status="Approved">ID modelu</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0revision_id" locale="cs_CZ" status="Approved">ID hlavní revize</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0model_id" locale="cs_CZ" status="Approved">ID modelu</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0revision_id" locale="cs_CZ" status="Approved">ID hlavní revize</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0HistorySyncStatus" locale="cs_CZ" status="Approved">Stav synchronizace historie</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastRestoreDate" locale="cs_CZ" status="Approved">Datum posledního obnovení</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastSnapshotDate" locale="cs_CZ" status="Approved">Datum posledního snímku</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0RunningProcessName" locale="cs_CZ" status="Approved">Název běžícího procesu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0SupportsSnapshot" locale="cs_CZ" status="Approved">Podporuje snímky</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_add_content" locale="cs_CZ" status="Approved">Povoluje přidání obsahu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_remove_content" locale="cs_CZ" status="Approved">Povoluje odebrání obsahu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_prod_namespace" locale="cs_CZ" status="Approved">Kontext výrobku konfigurátoru platnosti</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_product_name" locale="cs_CZ" status="Approved">Název výrobku konfigurátoru platnosti</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0model_id" locale="cs_CZ" status="Approved">ID modelu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0revision_id" locale="cs_CZ" status="Approved">Zrušeno. Viz zpráva o verzi Teamcenteru 11.2.2.</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_namespace" locale="cs_CZ" status="Approved">Kontext výrobku konfigurátoru varianty</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_name" locale="cs_CZ" status="Approved">Název výrobku konfigurátoru varianty</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionNames" locale="cs_CZ" status="Approved">Názvy možností</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionSet" locale="cs_CZ" status="Approved">Nastavení možnosti</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionValues" locale="cs_CZ" status="Approved">Hodnoty možnosti</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0DomainViewKey" locale="cs_CZ" status="Approved">Klíč zobrazení domény</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0search_types" locale="cs_CZ" status="Approved">Hledat typ</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="cs_CZ" status="Approved">Příznak řízení procesu</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0SourceCriteria" locale="cs_CZ" status="Approved">Zdrojová kritéria</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0selected_contents" locale="cs_CZ" status="Approved">Vybraný obsah</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0unselected_contents" locale="cs_CZ" status="Approved">Nevybraný obsah</key>
+           
+        <key id="Property{::}Mdl0AttributeGroupSvAI{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0BaselineRevision" locale="cs_CZ" status="Approved">Revize základny</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ConfiguredModel" locale="cs_CZ" status="Approved">Konfigurovaný model</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ModelObject" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineDefinition" locale="cs_CZ" status="Approved">Definice základny</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineType" locale="cs_CZ" status="Approved">Typ základny</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0Closure" locale="cs_CZ" status="Approved">Uzavření</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0SnapshotDate" locale="cs_CZ" status="Approved">Datum snímku</key>
+           
+        <key id="Property{::}Mdl0Baseline{::}mdl0ModelObject" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0IsConfigured" locale="cs_CZ" status="Approved">Je konfigurováno</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_display" locale="cs_CZ" status="Approved">Povolená platnost</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_formula" locale="cs_CZ" status="Approved">Povolený vzorec platnosti</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_var_formula" locale="cs_CZ" status="Approved">Vzorec povoleného varianty</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_display" locale="cs_CZ" status="Approved">Platnost</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_formula" locale="cs_CZ" status="Approved">Vzorec platnosti</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0variant_formula" locale="cs_CZ" status="Approved">Vzorec varianty</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceEffExpr" locale="cs_CZ" status="Approved">Je výraz platnosti přenášen?</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceVarExpr" locale="cs_CZ" status="Approved">Je výraz varianty přenášen?</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0TargetModel" locale="cs_CZ" status="Approved">Cílový objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0IsConfigured" locale="cs_CZ" status="Approved">Je konfigurováno</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_display" locale="cs_CZ" status="Approved">Povolená platnost</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_formula" locale="cs_CZ" status="Approved">Povolený vzorec platnosti</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_var_formula" locale="cs_CZ" status="Approved">Vzorec povoleného varianty</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_display" locale="cs_CZ" status="Approved">Platnost</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_formula" locale="cs_CZ" status="Approved">Vzorec platnosti</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0element_thread" locale="cs_CZ" status="Approved">Vlákno objektu - zrušeno. Viz zpráva o verzi.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0is_revisable" locale="cs_CZ" status="Approved">Je revidovatelný</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0revision_id" locale="cs_CZ" status="Approved">ID revize - zrušeno. Viz zpráva o verzi.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0sibling_revisions" locale="cs_CZ" status="Approved">Revize sourozenců</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0variant_formula" locale="cs_CZ" status="Approved">Vzorec varianty</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0BackgroundMembers" locale="cs_CZ" status="Approved">Členové pozadí</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ForegroundMembers" locale="cs_CZ" status="Approved">Členové popředí</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0LatestState" locale="cs_CZ" status="Approved">Poslední stav</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ViewState" locale="cs_CZ" status="Approved">Stav pohledu</key>
+           
+        <key id="Property{::}Mdl0ElementThread{::}mdl0ConfiguredRevision" locale="cs_CZ" status="Approved">Konfigurovaná revize</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0AreConstrntsFullySolved" locale="cs_CZ" status="Approved">Všechny vazby jsou plně vyřešené</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Bucket" locale="cs_CZ" status="Approved">Geometrická vazby</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0ConstraintData" locale="cs_CZ" status="Approved">Dataset vazby</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Iteration" locale="cs_CZ" status="Approved">Iterace uloženého stavu</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0BackgroundMembers" locale="cs_CZ" status="Approved">Členové pozadí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0ForegroundMembers" locale="cs_CZ" status="Approved">Členové popředí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedBackgroundMem" locale="cs_CZ" status="Approved">Celkem omezených členů pozadí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedForegroundMem" locale="cs_CZ" status="Approved">Celkem omezených členů popředí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalBackgroundMembers" locale="cs_CZ" status="Approved">Celkem členů pozadí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalForegroundMembers" locale="cs_CZ" status="Approved">Celkem členů popředí</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0collection_id" locale="cs_CZ" status="Approved">ID kolekce</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0ConnectionId" locale="cs_CZ" status="Approved">ID propojení</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End1" locale="cs_CZ" status="Approved">Konec 1</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End2" locale="cs_CZ" status="Approved">Konec 2</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0GroupLinks" locale="cs_CZ" status="Approved">Propojení skupin</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0LogicalId" locale="cs_CZ" status="Approved">Logický ID</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0IsSystemManaged" locale="cs_CZ" status="Approved">Je systém spravován?</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0LatestIteration" locale="cs_CZ" status="Approved">Poslední iterace</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Bucket" locale="cs_CZ" status="Approved">Stroj</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0CsId" locale="cs_CZ" status="Approved">Stabilní ID kopie</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0ExtendedMember" locale="cs_CZ" status="Approved">Rozšířený člen</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IsForeground" locale="cs_CZ" status="Approved">Je popředí</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationIn" locale="cs_CZ" status="Approved">Iterace do</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationOut" locale="cs_CZ" status="Approved">Iterace ven</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Member" locale="cs_CZ" status="Approved">Člen</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0FeatureId" locale="cs_CZ" status="Approved">ID funkce</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeomGroups" locale="cs_CZ" status="Approved">Geometrické skupiny</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeometryLMD" locale="cs_CZ" status="Approved">LMD geometrie</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0ValidationStatus" locale="cs_CZ" status="Approved">Stav ověření platnosti</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0LinkId" locale="cs_CZ" status="Approved">ID propojení</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0TargetObject" locale="cs_CZ" status="Approved">Cílový objekt</key>
+           
+        <key id="Property{::}Mdl0ManagedAttrGroupSvAI{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceEffExpr" locale="cs_CZ" status="Approved">Je výraz platnosti přenášen?</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceVarExpr" locale="cs_CZ" status="Approved">Je výraz varianty přenášen?</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0TargetModel" locale="cs_CZ" status="Approved">Cílový objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0IsInterModelCopy" locale="cs_CZ" status="Approved">Kopírovat do jiného modelu</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttachAttrGroup" locale="cs_CZ" status="Approved">Čekající skupina s připojeným atributem</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttcAttrRlType" locale="cs_CZ" status="Approved">Nevyřešený typ relace připojeného atributu</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceEffExpr" locale="cs_CZ" status="Approved">Je výraz platnosti přenášen?</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceVarExpr" locale="cs_CZ" status="Approved">Je výraz varianty přenášen?</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0TargetModel" locale="cs_CZ" status="Approved">Cílový objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0AttributeGroups" locale="cs_CZ" status="Approved">Skupiny atributů</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0HistorySyncStatus" locale="cs_CZ" status="Approved">Stav synchronizace historie</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0Override" locale="cs_CZ" status="Approved">Předefinovat</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0is_obsolete" locale="cs_CZ" status="Approved">Je zastaralý</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0pending_AttachAttrGroup" locale="cs_CZ" status="Approved">Čekající skupina s připojeným atributem</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Model" locale="cs_CZ" status="Approved">Model</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Operation" locale="cs_CZ" status="Approved">Operace</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Process" locale="cs_CZ" status="Approved">Proces</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0AbsolutelyPositioned" locale="cs_CZ" status="Approved">Absolutně umístěný</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ContainerForIndexing" locale="cs_CZ" status="Approved">Kontejner k indexování</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0DefiningConstraintState" locale="cs_CZ" status="Approved">Stav definující vazby</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ExcludeFromSpatialSrch" locale="cs_CZ" status="Approved">Vyloučit z prostorového hledání</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0GeomLinks" locale="cs_CZ" status="Approved">Geometrická propojení</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ThumbnailDataset" locale="cs_CZ" status="Approved">Dataset náhledu</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0UsedInConstraint" locale="cs_CZ" status="Approved">Použit ve vazbě</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0absolute_transform" locale="cs_CZ" status="Approved">Absolutní transformace</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_data" locale="cs_CZ" status="Approved">Dataset zjednodušené grafiky na úrovni sestavy</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_file" locale="cs_CZ" status="Approved">Soubor zjednodušené grafiky na úrovni sestavy</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max0" locale="cs_CZ" status="Approved">Maximum X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max1" locale="cs_CZ" status="Approved">Maximum Y</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max2" locale="cs_CZ" status="Approved">Maximum Z</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min0" locale="cs_CZ" status="Approved">Minimum X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min1" locale="cs_CZ" status="Approved">Minimum Y</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min2" locale="cs_CZ" status="Approved">Minimum Z</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box" locale="cs_CZ" status="Approved">Hraniční rámeček</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0direct_model_data" locale="cs_CZ" status="Approved">Direct Model Data</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_invscale" locale="cs_CZ" status="Approved">Prvek matice 3,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per0" locale="cs_CZ" status="Approved">Prvek matice 3,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per1" locale="cs_CZ" status="Approved">Prvek matice 3,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per2" locale="cs_CZ" status="Approved">Prvek matice 3,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot00" locale="cs_CZ" status="Approved">Prvek matice 0,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot01" locale="cs_CZ" status="Approved">Prvek matice 0,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot02" locale="cs_CZ" status="Approved">Prvek matice 0,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot10" locale="cs_CZ" status="Approved">Prvek matice 1,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot11" locale="cs_CZ" status="Approved">Prvek matice 1,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot12" locale="cs_CZ" status="Approved">Prvek matice 1,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot20" locale="cs_CZ" status="Approved">Prvek matice 2,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot21" locale="cs_CZ" status="Approved">Prvek matice 2,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot22" locale="cs_CZ" status="Approved">Prvek matice 2,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra0" locale="cs_CZ" status="Approved">Prvek matice 0,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra1" locale="cs_CZ" status="Approved">Prvek matice 1,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra2" locale="cs_CZ" status="Approved">Prvek matice 2,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_file" locale="cs_CZ" status="Approved">Soubor JT</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_ref_set" locale="cs_CZ" status="Approved">Referenční sada souboru JT</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_constrained" locale="cs_CZ" status="Approved">Pozice omezena</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_lmd" locale="cs_CZ" status="Approved">Datum poslední úpravy dat pozice</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0positioned_object" locale="cs_CZ" status="Approved">Umístěný objekt</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0relative_to" locale="cs_CZ" status="Approved">Relativní k</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0shape_lmd" locale="cs_CZ" status="Approved">Datum poslední úpravy dat tvaru</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0source_bbox_uid" locale="cs_CZ" status="Approved">Multibox ohraničení zdroje</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0trueshape_data" locale="cs_CZ" status="Approved">Data TruShape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0absolute_transform" locale="cs_CZ" status="Approved">Absolutní transformace</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBoxOverride" locale="cs_CZ" status="Approved">P5edefinování hraničního rámečku</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBox" locale="cs_CZ" status="Approved">Hraniční kvádr</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelDataset" locale="cs_CZ" status="Approved">Dataset Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelOverrideDS" locale="cs_CZ" status="Approved">Dataset předefinování přímého modelu</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0geometryOverrideDS" locale="cs_CZ" status="Approved">Dataset předefinování geometrie</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0shape_lmd" locale="cs_CZ" status="Approved">Datum poslední úpravy dat tvaru</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0thumbnailOverrideDS" locale="cs_CZ" status="Approved">Dataset předefinování miniatury</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeDataset" locale="cs_CZ" status="Approved">Dataset True Shape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeOverrideDS" locale="cs_CZ" status="Approved">Dataset předefinování True Shape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0BackgroundInCollections" locale="cs_CZ" status="Approved">Pozadí v kolekci geometrických vazeb</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ConstrainedInCollection" locale="cs_CZ" status="Approved">Popředí v kolekci geometrických vazeb</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0DefiningIteration" locale="cs_CZ" status="Approved">Definující iterace</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ExcludeFromSpatialSrch" locale="cs_CZ" status="Approved">Vyloučit z prostorového hledání</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0GeomLinks" locale="cs_CZ" status="Approved">Geometrická propojení</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsAbsolutelyPositioned" locale="cs_CZ" status="Approved">Je absolutně umístěný?</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsUsedInConstraint" locale="cs_CZ" status="Approved">Je použit ve vazbě?</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0OverrideDataset" locale="cs_CZ" status="Approved">Předefinování datasetu</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ThumbnailDataset" locale="cs_CZ" status="Approved">Dataset náhledu</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0absolute_transform" locale="cs_CZ" status="Approved">Absolutní transformace</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_data" locale="cs_CZ" status="Approved">Dataset zjednodušené grafiky na úrovni sestavy</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_file" locale="cs_CZ" status="Approved">Soubor zjednodušené grafiky na úrovni sestavy</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0bounding_box" locale="cs_CZ" status="Approved">Hraniční rámeček</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0delegate" locale="cs_CZ" status="Approved">Delegovat</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0direct_model_data" locale="cs_CZ" status="Approved">Dataset Direct Model</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0jt_file" locale="cs_CZ" status="Approved">Soubor JT</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0logical_designator" locale="cs_CZ" status="Approved">Logické označení</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0position_lmd" locale="cs_CZ" status="Approved">Datum poslední úpravy dat pozice</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0positioned_geometry" locale="cs_CZ" status="Approved">Umístěná geometrie</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0relative_to" locale="cs_CZ" status="Approved">Relativní k</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0shape_lmd" locale="cs_CZ" status="Approved">Datum poslední úpravy dat tvaru</key>
+           
+        <key id="Property{::}Mdl0ReferenceExpression{::}mdl0AppRelationCount" locale="cs_CZ" status="Approved">Počet relací modulu</key>
+           
+        <key id="Property{::}Mdl0ReferenceGeometry{::}mdl0app_relation_count" locale="cs_CZ" status="Approved">Počet relací aplikačního modelu</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0coordinates" locale="cs_CZ" status="Approved">Souřadnice</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0operator" locale="cs_CZ" status="Approved">Operátor</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeExpressions" locale="cs_CZ" status="Approved">Výrazy atributu klasifikace</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeIdList" locale="cs_CZ" status="Approved">Seznam ID atributu klasifikace</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsClassId" locale="cs_CZ" status="Approved">ID třídy</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsOption" locale="cs_CZ" status="Approved">Možnost hledání</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0count" locale="cs_CZ" status="Approved">Počet výsledků</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0elements" locale="cs_CZ" status="Approved">Výsledné objekty</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0index" locale="cs_CZ" status="Approved">Index výsledných objektů</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0ReturnType" locale="cs_CZ" status="Approved">Vrátit typ</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0RootType" locale="cs_CZ" status="Approved">Typ kořene</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0TraversalKey" locale="cs_CZ" status="Approved">Klíč převodu</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0_tso_flag" locale="cs_CZ" status="Approved">Příznak Trueshape</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0searchtype" locale="cs_CZ" status="Approved">Hledat typ</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="cs_CZ" status="Approved">Příznak řízení procesu</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0SourceCriteria" locale="cs_CZ" status="Approved">Zdrojová kritéria</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0Name" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0operator" locale="cs_CZ" status="Approved">Operátor</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0searchdefs" locale="cs_CZ" status="Approved">Definice hledání</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionNames" locale="cs_CZ" status="Approved">Názvy možností</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionSet" locale="cs_CZ" status="Approved">Nastavení možnosti</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionValues" locale="cs_CZ" status="Approved">Hodnoty možnosti</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0coordinates" locale="cs_CZ" status="Approved">Souřadnice</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0operator" locale="cs_CZ" status="Approved">Operátor</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0distance" locale="cs_CZ" status="Approved">Vzdálenost</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0targetelement" locale="cs_CZ" status="Approved">Objekt cíle</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0DomainViewKey" locale="cs_CZ" status="Approved">Klíč zobrazení domény</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0searchTypes" locale="cs_CZ" status="Approved">Typy hledání</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0entries" locale="cs_CZ" status="Approved">Položky</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0query" locale="cs_CZ" status="Approved">Dotaz</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0values" locale="cs_CZ" status="Approved">Hodnoty</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0selectedcontents" locale="cs_CZ" status="Approved">Vybraný obsah</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0unselectedcontents" locale="cs_CZ" status="Approved">Nevybraný obsah</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_effectivity_formula" locale="cs_CZ" status="Approved">vzorec cílové platnosti</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_variant_formula" locale="cs_CZ" status="Approved">Vzorec cílového varianty</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinitionCreI{::}mdl0pending_AttcAttrRlType" locale="cs_CZ" status="Approved">Nevyřešený typ relace připojeného atributu</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0ConfiguredModel" locale="cs_CZ" status="Approved">Konfigurovaný model</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0model_object" locale="cs_CZ" status="Approved">Objekt modelu</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0pending_AttachAttrGroup" locale="cs_CZ" status="Approved">Čekající skupiny s připojeným atributem</key>
+           
+        <key id="BusinessObject{::}Mdl0CompositeSearchDef" locale="cs_CZ" status="Approved">Definice složeného hledání</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0CompositeSearchType" locale="cs_CZ" status="Approved">Typ složeného hledání</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0SearchDefinitions" locale="cs_CZ" status="Approved">Definice vyhledávání</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityExprBlock" locale="cs_CZ" status="Approved">Blok výrazu účinnosti modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityInModel" locale="cs_CZ" status="Approved">Účinnost v modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0HasConfiguratorContext" locale="cs_CZ" status="Approved">Obsahuje kontext efektivity konfigurátoru</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0eff_configurator_URL" locale="cs_CZ" status="Approved">Adresa URL koncového bodu služby konfigurátoru účinnosti</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_context" locale="cs_CZ" status="Approved">Zrušeno. Viz zpráva o verzi Teamcenteru 10.1</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_item" locale="cs_CZ" status="Approved">Zrušeno. Viz zpráva o verzi Teamcenteru 10.1</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0configurator_URL" locale="cs_CZ" status="Approved">Adresa URL koncového bodu služby konfigurátoru</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0description" locale="cs_CZ" status="Approved">Popis konfigurátoru účinnosti</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0model" locale="cs_CZ" status="Approved">Model</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0name" locale="cs_CZ" status="Approved">Název konfigurátoru účinnosti</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_namespace" locale="cs_CZ" status="Approved">Prostor názvů produktu</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_name" locale="cs_CZ" status="Approved">Název produktu</key>
+           
+        <key id="BusinessObject{::}Mdl0HasVarConfiguratorCxt" locale="cs_CZ" status="Approved">Obsahuje kontext konfigurátoru variant</key>
+           
+        <key id="BusinessObject{::}Mdl0VariantExprBlock" locale="cs_CZ" status="Approved">Blok výrazu varianty modelu</key>
+           
+        <key id="BusinessObject{::}Mdl0VariationInModel" locale="cs_CZ" status="Approved">Variace v modelu</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_configurator_URL" locale="cs_CZ" status="Approved">Adresa URL koncového bodu služby konfigurátoru varianty</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0configurator_URL" locale="cs_CZ" status="Approved">Adresa URL koncového bodu služby konfigurátoru</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0description" locale="cs_CZ" status="Approved">Popis konfigurátoru varianty</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0model" locale="cs_CZ" status="Approved">Model</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0name" locale="cs_CZ" status="Approved">Název konfigurátoru varianty</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_namespace" locale="cs_CZ" status="Approved">Prostor názvů produktu</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_name" locale="cs_CZ" status="Approved">Název produktu</key>
+           
+        <key id="Event{::}Mdl0Attach_Attribute_Group" locale="cs_CZ" status="Approved">Připojit skupinu atributů</key>
+           
+        <key id="Event{::}Mdl0Detach_Attribute_Group" locale="cs_CZ" status="Approved">Odpojit skupinu atributů</key>
+           
+        <key id="Event{::}Mdl0Replace_Model_Element" locale="cs_CZ" status="Approved">Nahradit objekt modelu</key>
+           
+        <key id="Event{::}Mdl0Revise_Model_Element" locale="cs_CZ" status="Approved">Revidovat objekt modelu</key>
+           
+        <key id="Event{::}Mdl0Unrealize_Model_Element" locale="cs_CZ" status="Approved">Vrátit realizaci objektu modelu</key>
+           
+        <key id="Event{::}__Add_Content" locale="cs_CZ" status="Approved">Přidat obsah</key>
+           
+        <key id="Event{::}__Remove_Content" locale="cs_CZ" status="Approved">Odebrat obsah</key>
+           
+        <key id="Event{::}__Revision_Create" locale="cs_CZ" status="Approved">Tvorba revize</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

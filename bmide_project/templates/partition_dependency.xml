@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Advanced PLM Services for Partitioning" enableOpsDataDeploy="false" guid="8BF58CB036C8E3E53C5C38E9D7E471F8" isDescriptionMandatory="true" name="partition" optional="true" prefixes="Ptn0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="realization_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+</TcBusinessDataIncludes>

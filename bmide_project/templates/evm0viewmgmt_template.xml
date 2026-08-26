@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:55:35 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc12000.2.0" description="Library for Engineering Views Managment" isThirdParty="false" name="Evm0ViewMgmt" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="base_utils"/>
+                 
+            <DependentOn name="bom"/>
+                 
+            <DependentOn name="cfm"/>
+                 
+            <DependentOn name="extensionframework"/>
+                 
+            <DependentOn name="fclasses"/>
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="mld"/>
+                 
+            <DependentOn name="pie"/>
+                 
+            <DependentOn name="pom"/>
+                 
+            <DependentOn name="rdv"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="textsrv"/>
+                 
+            <DependentOn name="tie"/>
+               
+        </Library>
+           
+        <Functionality description="Component for the template - evm0viewmgmt" displayName="Engineering Views Mgmt" enabledForVerificationRules="false" name="Evm0ViewMgmt"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

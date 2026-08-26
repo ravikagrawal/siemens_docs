@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:26 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mdl0AbsOccFormRelation" locale="zh_CN" status="Approved">完整事例表单关系</key>
+           
+        <key id="BusinessObject{::}Mdl0ApplicationModel" locale="zh_CN" status="Approved">应用模型</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtOptionSet" locale="zh_CN" status="Approved">传递选项集搜索准则</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtType" locale="zh_CN" status="Approved">搜索准则类型</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchGeomConstraint" locale="zh_CN" status="Approved">几何约束搜索准则</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchSlctContent" locale="zh_CN" status="Approved">选择内容搜索准则</key>
+           
+        <key id="BusinessObject{::}Mdl0AttributeGroup" locale="zh_CN" status="Approved">4G 属性组</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineDefinition" locale="zh_CN" status="Approved">基线定义</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMasterS" locale="zh_CN" status="Approved">基线主属性表存储</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMaster" locale="zh_CN" status="Approved">基线主属性表</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineReference" locale="zh_CN" status="Approved">基线引用</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevMasterS" locale="zh_CN" status="Approved">基线版本主属性表存储</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevisionMaster" locale="zh_CN" status="Approved">基线版本主属性表</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevision" locale="zh_CN" status="Approved">基线版本</key>
+           
+        <key id="BusinessObject{::}Mdl0Baseline" locale="zh_CN" status="Approved">基线</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalArtifact" locale="zh_CN" status="Approved">条件构件</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalElement" locale="zh_CN" status="Approved">条件元素</key>
+           
+        <key id="BusinessObject{::}Mdl0ConstraintBucketView" locale="zh_CN" status="Approved">约束存储段视图</key>
+           
+        <key id="BusinessObject{::}Mdl0DefaultGeometry" locale="zh_CN" status="Approved">默认几何体</key>
+           
+        <key id="BusinessObject{::}Mdl0ElementThread" locale="zh_CN" status="Approved">元素线程</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntBuckSavState" locale="zh_CN" status="Approved">几何约束存储段保存状态</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntCollection" locale="zh_CN" status="Approved">几何约束集合</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConnGroup" locale="zh_CN" status="Approved">几何连接组</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintBucket" locale="zh_CN" status="Approved">几何约束存储段</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintMember" locale="zh_CN" status="Approved">几何约束成员</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomGroupLink" locale="zh_CN" status="Approved">几何组链接</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomLink" locale="zh_CN" status="Approved">几何链接</key>
+           
+        <key id="BusinessObject{::}Mdl0IncludeAll" locale="zh_CN" status="Approved">包括全部搜索</key>
+           
+        <key id="BusinessObject{::}Mdl0LinkReference" locale="zh_CN" status="Approved">链接参考</key>
+           
+        <key id="BusinessObject{::}Mdl0ManagedAttrGroup" locale="zh_CN" status="Approved">4G 受管属性组</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelArtifact" locale="zh_CN" status="Approved">模型构件</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelElement" locale="zh_CN" status="Approved">模型元素</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelProcessState" locale="zh_CN" status="Approved">模型过程状态</key>
+           
+        <key id="BusinessObject{::}Mdl0OriginalGeometry" locale="zh_CN" status="Approved">原始几何体</key>
+           
+        <key id="BusinessObject{::}Mdl0OverrideRelation" locale="zh_CN" status="Approved">替代关系</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedGeometry" locale="zh_CN" status="Approved">定位几何体</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedModelElement" locale="zh_CN" status="Approved">定位模型元素</key>
+           
+        <key id="BusinessObject{::}Mdl0RefAppModelProvider" locale="zh_CN" status="Approved">引用元素应用模型提供程序</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceExpression" locale="zh_CN" status="Approved">引用表达式</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceGeometry" locale="zh_CN" status="Approved">引用几何体</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchBoxZone" locale="zh_CN" status="Approved">框区域搜索</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchClassification" locale="zh_CN" status="Approved">在分类中搜索</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchCursor" locale="zh_CN" status="Approved">搜索光标</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchDef" locale="zh_CN" status="Approved">搜索定义</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGeomConstraint" locale="zh_CN" status="Approved">搜索几何约束</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGroup" locale="zh_CN" status="Approved">搜索组</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchOptionSet" locale="zh_CN" status="Approved">搜索选项集</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchPlaneZone" locale="zh_CN" status="Approved">面区域搜索</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchProximity" locale="zh_CN" status="Approved">搜索邻近度</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchResultType" locale="zh_CN" status="Approved">搜索结果类型</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSavedQuery" locale="zh_CN" status="Approved">已保存的查询搜索</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSlctContent" locale="zh_CN" status="Approved">搜索选择内容</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefaults" locale="zh_CN" status="Approved">4G 抽象子集默认设置</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefinition" locale="zh_CN" status="Approved">4G 子集定义</key>
+           
+        <key id="BusinessObject{::}Mdl0SupportingBaseline" locale="zh_CN" status="Approved">支持基线</key>
+           
+        <key id="ConditionDescription{::}Mdl0AttachedObjectIsNotObsolete" locale="zh_CN" status="Approved">验证附加的模型元素是否已废弃。</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsCopyMOG" locale="zh_CN" status="Approved">该条件评估是否根据克隆、实现、实例化或另存为等操作类型来复制 Mdl0OriginalGeometry。</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopyMA" locale="zh_CN" status="Approved">此条件评估是否在两个不同的应用程序模型之间进行复制操作（模型间复制）。</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopy" locale="zh_CN" status="Approved">此条件评估是否在两个不同的应用程序模型之间进行复制操作（模型间复制）。</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsIntraModelCopy" locale="zh_CN" status="Approved">此条件评估是否在同一应用程序模型内进行复制操作（模型内复制）。</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsShapeOverridePresent" locale="zh_CN" status="Approved">条件，用于检查放置模型元素时是否替代了形状。</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Baseline" locale="zh_CN" status="Approved">应用程序模型中仅已发布内容的基线。</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="zh_CN" status="Approved">应用程序模型中已发布内容和工作内容的快照。</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Restore" locale="zh_CN" status="Approved">将应用模型内容恢复为特定快照。</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Snapshot" locale="zh_CN" status="Approved">捕获应用模型内容</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Closed" locale="zh_CN" status="Approved">已结束</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Open" locale="zh_CN" status="Approved">开放</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Baseline" locale="zh_CN" status="Approved">基线</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="zh_CN" status="Approved">快照</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Restore" locale="zh_CN" status="Approved">恢复</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Snapshot" locale="zh_CN" status="Approved">快照</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0model_id" locale="zh_CN" status="Approved">模型 ID</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0revision_id" locale="zh_CN" status="Approved">主版本 ID</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0model_id" locale="zh_CN" status="Approved">模型 ID</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0revision_id" locale="zh_CN" status="Approved">主版本 ID</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0HistorySyncStatus" locale="zh_CN" status="Approved">历史记录同步状态</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastRestoreDate" locale="zh_CN" status="Approved">最近恢复日期</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastSnapshotDate" locale="zh_CN" status="Approved">最近快照日期</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0RunningProcessName" locale="zh_CN" status="Approved">正在运行的流程名称</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0SupportsSnapshot" locale="zh_CN" status="Approved">支持快照</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_add_content" locale="zh_CN" status="Approved">允许添加内容</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_remove_content" locale="zh_CN" status="Approved">允许移除内容</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_prod_namespace" locale="zh_CN" status="Approved">有效性配置器产品关联</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_product_name" locale="zh_CN" status="Approved">有效性配置器产品名称</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0model_id" locale="zh_CN" status="Approved">模型 ID</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0revision_id" locale="zh_CN" status="Approved">已弃用。参见“发行公告 Teamcenter 11.2.2”。</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_namespace" locale="zh_CN" status="Approved">变量配置器产品关联</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_name" locale="zh_CN" status="Approved">变量配置器产品名称</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionNames" locale="zh_CN" status="Approved">选项名称</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionSet" locale="zh_CN" status="Approved">选项集</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionValues" locale="zh_CN" status="Approved">选项值</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0DomainViewKey" locale="zh_CN" status="Approved">域查看键</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0search_types" locale="zh_CN" status="Approved">搜索类型</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="zh_CN" status="Approved">流程控制标志</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0SourceCriteria" locale="zh_CN" status="Approved">源准则</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0selected_contents" locale="zh_CN" status="Approved">选定的内容</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0unselected_contents" locale="zh_CN" status="Approved">未选定的内容</key>
+           
+        <key id="Property{::}Mdl0AttributeGroupSvAI{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0BaselineRevision" locale="zh_CN" status="Approved">基线版本</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ConfiguredModel" locale="zh_CN" status="Approved">已配置的模型</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ModelObject" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineDefinition" locale="zh_CN" status="Approved">基线定义</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineType" locale="zh_CN" status="Approved">基线类型</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0Closure" locale="zh_CN" status="Approved">结束</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0SnapshotDate" locale="zh_CN" status="Approved">快照日期</key>
+           
+        <key id="Property{::}Mdl0Baseline{::}mdl0ModelObject" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0IsConfigured" locale="zh_CN" status="Approved">已配置</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_display" locale="zh_CN" status="Approved">允许的有效性</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_formula" locale="zh_CN" status="Approved">允许的有效性公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_var_formula" locale="zh_CN" status="Approved">允许的变量公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_display" locale="zh_CN" status="Approved">有效性</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_formula" locale="zh_CN" status="Approved">有效性公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0variant_formula" locale="zh_CN" status="Approved">变量公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceEffExpr" locale="zh_CN" status="Approved">是否转结有效性表达式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceVarExpr" locale="zh_CN" status="Approved">是否转结变量表达式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0TargetModel" locale="zh_CN" status="Approved">目标模型对象</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0IsConfigured" locale="zh_CN" status="Approved">已配置</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_display" locale="zh_CN" status="Approved">允许的有效性</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_formula" locale="zh_CN" status="Approved">允许的有效性公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_var_formula" locale="zh_CN" status="Approved">允许的变量公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_display" locale="zh_CN" status="Approved">有效性</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_formula" locale="zh_CN" status="Approved">有效性公式</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0element_thread" locale="zh_CN" status="Approved">元素线程 - 已弃用。参见“发行公告”。</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0is_revisable" locale="zh_CN" status="Approved">可修订</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0revision_id" locale="zh_CN" status="Approved">主版本 ID - 已弃用。参见“发行公告”。</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0sibling_revisions" locale="zh_CN" status="Approved">同代版本</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0variant_formula" locale="zh_CN" status="Approved">变量公式</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0BackgroundMembers" locale="zh_CN" status="Approved">后台成员</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ForegroundMembers" locale="zh_CN" status="Approved">前台成员</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0LatestState" locale="zh_CN" status="Approved">最新状态</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0OwningObject" locale="zh_CN" status="Approved">所有权对象</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ViewState" locale="zh_CN" status="Approved">查看状态</key>
+           
+        <key id="Property{::}Mdl0ElementThread{::}mdl0ConfiguredRevision" locale="zh_CN" status="Approved">已配置的版本</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0AreConstrntsFullySolved" locale="zh_CN" status="Approved">是否完全解析约束</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Bucket" locale="zh_CN" status="Approved">几何约束存储段</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0ConstraintData" locale="zh_CN" status="Approved">约束数据集</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Iteration" locale="zh_CN" status="Approved">已保存的状态迭代</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0BackgroundMembers" locale="zh_CN" status="Approved">后台成员</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0ForegroundMembers" locale="zh_CN" status="Approved">前台成员</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedBackgroundMem" locale="zh_CN" status="Approved">存根背景成员总数</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedForegroundMem" locale="zh_CN" status="Approved">存根前景成员总数</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalBackgroundMembers" locale="zh_CN" status="Approved">背景成员总数</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalForegroundMembers" locale="zh_CN" status="Approved">前景成员总数</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0collection_id" locale="zh_CN" status="Approved">集 ID</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0ConnectionId" locale="zh_CN" status="Approved">连接 ID</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End1" locale="zh_CN" status="Approved">末端 1</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End2" locale="zh_CN" status="Approved">末端 2</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0GroupLinks" locale="zh_CN" status="Approved">组链接</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0LogicalId" locale="zh_CN" status="Approved">逻辑 ID</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0IsSystemManaged" locale="zh_CN" status="Approved">系统是否受管</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0LatestIteration" locale="zh_CN" status="Approved">最新迭代</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0OwningObject" locale="zh_CN" status="Approved">所有权对象</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Bucket" locale="zh_CN" status="Approved">存储段</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0CsId" locale="zh_CN" status="Approved">复制稳定 ID</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0ExtendedMember" locale="zh_CN" status="Approved">扩展成员</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IsForeground" locale="zh_CN" status="Approved">是否前台运行</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationIn" locale="zh_CN" status="Approved">迭代输入</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationOut" locale="zh_CN" status="Approved">迭代输出</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Member" locale="zh_CN" status="Approved">成员</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0FeatureId" locale="zh_CN" status="Approved">特征 ID</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeomGroups" locale="zh_CN" status="Approved">几何组</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeometryLMD" locale="zh_CN" status="Approved">几何 LMD</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0ValidationStatus" locale="zh_CN" status="Approved">验证状态</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0LinkId" locale="zh_CN" status="Approved">链接 ID</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0TargetObject" locale="zh_CN" status="Approved">目标对象</key>
+           
+        <key id="Property{::}Mdl0ManagedAttrGroupSvAI{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceEffExpr" locale="zh_CN" status="Approved">是否转结有效性表达式</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceVarExpr" locale="zh_CN" status="Approved">是否转结变量表达式</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0TargetModel" locale="zh_CN" status="Approved">目标模型对象</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0IsInterModelCopy" locale="zh_CN" status="Approved">复制到其他模型</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttachAttrGroup" locale="zh_CN" status="Approved">待处理的附加属性组</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttcAttrRlType" locale="zh_CN" status="Approved">待处理的附加属性关系类型</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceEffExpr" locale="zh_CN" status="Approved">是否转结有效性表达式</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceVarExpr" locale="zh_CN" status="Approved">是否转结变量表达式</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0TargetModel" locale="zh_CN" status="Approved">目标模型对象</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0AttributeGroups" locale="zh_CN" status="Approved">属性组</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0HistorySyncStatus" locale="zh_CN" status="Approved">历史记录同步状态</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0Override" locale="zh_CN" status="Approved">替代</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0is_obsolete" locale="zh_CN" status="Approved">已废弃</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0pending_AttachAttrGroup" locale="zh_CN" status="Approved">待处理的附加属性组</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Model" locale="zh_CN" status="Approved">模型</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Operation" locale="zh_CN" status="Approved">操作</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Process" locale="zh_CN" status="Approved">流程</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0AbsolutelyPositioned" locale="zh_CN" status="Approved">绝对定位</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ContainerForIndexing" locale="zh_CN" status="Approved">索引编制容器</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0DefiningConstraintState" locale="zh_CN" status="Approved">定义约束状态</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ExcludeFromSpatialSrch" locale="zh_CN" status="Approved">从空间搜索中排除</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0GeomLinks" locale="zh_CN" status="Approved">几何链接</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ThumbnailDataset" locale="zh_CN" status="Approved">缩略图数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0UsedInConstraint" locale="zh_CN" status="Approved">已在约束中使用</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0absolute_transform" locale="zh_CN" status="Approved">绝对变换</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_data" locale="zh_CN" status="Approved">装配层简化的图形数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_file" locale="zh_CN" status="Approved">装配层简化的图形文件</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max0" locale="zh_CN" status="Approved">X 最大值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max1" locale="zh_CN" status="Approved">Y 最大值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max2" locale="zh_CN" status="Approved">Z 最大值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min0" locale="zh_CN" status="Approved">X 最小值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min1" locale="zh_CN" status="Approved">Y 最小值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min2" locale="zh_CN" status="Approved">Z 最小值</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box" locale="zh_CN" status="Approved">限定框</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0direct_model_data" locale="zh_CN" status="Approved">直接模型数据</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_invscale" locale="zh_CN" status="Approved">矩阵元素 3,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per0" locale="zh_CN" status="Approved">矩阵元素 3,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per1" locale="zh_CN" status="Approved">矩阵元素 3,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per2" locale="zh_CN" status="Approved">矩阵元素 3,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot00" locale="zh_CN" status="Approved">矩阵元素 0,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot01" locale="zh_CN" status="Approved">矩阵元素 0,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot02" locale="zh_CN" status="Approved">矩阵元素 0,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot10" locale="zh_CN" status="Approved">矩阵元素 1,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot11" locale="zh_CN" status="Approved">矩阵元素 1,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot12" locale="zh_CN" status="Approved">矩阵元素 1,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot20" locale="zh_CN" status="Approved">矩阵元素 2,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot21" locale="zh_CN" status="Approved">矩阵元素 2,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot22" locale="zh_CN" status="Approved">矩阵元素 2,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra0" locale="zh_CN" status="Approved">矩阵元素 0,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra1" locale="zh_CN" status="Approved">矩阵元素 1,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra2" locale="zh_CN" status="Approved">矩阵元素 2,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_file" locale="zh_CN" status="Approved">JT 文件</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_ref_set" locale="zh_CN" status="Approved">JT 文件引用集</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_constrained" locale="zh_CN" status="Approved">位置受约束</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_lmd" locale="zh_CN" status="Approved">位置数据上次修改日期</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0positioned_object" locale="zh_CN" status="Approved">已定位对象</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0relative_to" locale="zh_CN" status="Approved">相对于</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0shape_lmd" locale="zh_CN" status="Approved">形状数据上次修改日期</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0source_bbox_uid" locale="zh_CN" status="Approved">多重源限定框</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0trueshape_data" locale="zh_CN" status="Approved">TruShape 数据</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0absolute_transform" locale="zh_CN" status="Approved">绝对变换</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBoxOverride" locale="zh_CN" status="Approved">限定框替代</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBox" locale="zh_CN" status="Approved">限定框</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelDataset" locale="zh_CN" status="Approved">直接模型数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelOverrideDS" locale="zh_CN" status="Approved">直接模型替代数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0geometryOverrideDS" locale="zh_CN" status="Approved">几何体替代数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0shape_lmd" locale="zh_CN" status="Approved">形状数据上次修改日期</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0thumbnailOverrideDS" locale="zh_CN" status="Approved">缩略图替代数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeDataset" locale="zh_CN" status="Approved">真实形状数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeOverrideDS" locale="zh_CN" status="Approved">真实形状替代数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0BackgroundInCollections" locale="zh_CN" status="Approved">在几何约束集合中后台运行</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ConstrainedInCollection" locale="zh_CN" status="Approved">在几何约束集合中被约束</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0DefiningIteration" locale="zh_CN" status="Approved">定义迭代</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ExcludeFromSpatialSrch" locale="zh_CN" status="Approved">从空间搜索中排除</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0GeomLinks" locale="zh_CN" status="Approved">几何链接</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsAbsolutelyPositioned" locale="zh_CN" status="Approved">是否绝对定位</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsUsedInConstraint" locale="zh_CN" status="Approved">是否已在约束中使用</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0OverrideDataset" locale="zh_CN" status="Approved">替代数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ThumbnailDataset" locale="zh_CN" status="Approved">缩略图数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0absolute_transform" locale="zh_CN" status="Approved">绝对变换</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_data" locale="zh_CN" status="Approved">装配层简化的图形数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_file" locale="zh_CN" status="Approved">装配层简化的图形文件</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0bounding_box" locale="zh_CN" status="Approved">限定框</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0delegate" locale="zh_CN" status="Approved">委派</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0direct_model_data" locale="zh_CN" status="Approved">直接模型数据集</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0jt_file" locale="zh_CN" status="Approved">JT 文件</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0logical_designator" locale="zh_CN" status="Approved">逻辑指示符</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0position_lmd" locale="zh_CN" status="Approved">位置数据上次修改日期</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0positioned_geometry" locale="zh_CN" status="Approved">定位几何体</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0relative_to" locale="zh_CN" status="Approved">相对于</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0shape_lmd" locale="zh_CN" status="Approved">形状数据上次修改日期</key>
+           
+        <key id="Property{::}Mdl0ReferenceExpression{::}mdl0AppRelationCount" locale="zh_CN" status="Approved">应用程序关系计数</key>
+           
+        <key id="Property{::}Mdl0ReferenceGeometry{::}mdl0app_relation_count" locale="zh_CN" status="Approved">应用程序模型关系计数</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0coordinates" locale="zh_CN" status="Approved">坐标</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0operator" locale="zh_CN" status="Approved">运算符</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeExpressions" locale="zh_CN" status="Approved">分类属性表达式</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeIdList" locale="zh_CN" status="Approved">分类属性 ID 列表</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsClassId" locale="zh_CN" status="Approved">类 ID</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsOption" locale="zh_CN" status="Approved">搜索选项</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0count" locale="zh_CN" status="Approved">结果计数 </key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0elements" locale="zh_CN" status="Approved">结果元素</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0index" locale="zh_CN" status="Approved">结果元素索引</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0ReturnType" locale="zh_CN" status="Approved">返回类型</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0RootType" locale="zh_CN" status="Approved">根类型</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0TraversalKey" locale="zh_CN" status="Approved">遍历关键字</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0_tso_flag" locale="zh_CN" status="Approved">真实形状标志</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0searchtype" locale="zh_CN" status="Approved">搜索类型</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="zh_CN" status="Approved">流程控制标志</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0SourceCriteria" locale="zh_CN" status="Approved">源准则</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0Name" locale="zh_CN" status="Approved">名称</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0operator" locale="zh_CN" status="Approved">运算符</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0searchdefs" locale="zh_CN" status="Approved">搜索定义</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionNames" locale="zh_CN" status="Approved">选项名称</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionSet" locale="zh_CN" status="Approved">选项集</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionValues" locale="zh_CN" status="Approved">选项值</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0coordinates" locale="zh_CN" status="Approved">坐标</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0operator" locale="zh_CN" status="Approved">运算符</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0distance" locale="zh_CN" status="Approved">距离</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0targetelement" locale="zh_CN" status="Approved">目标元素</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0DomainViewKey" locale="zh_CN" status="Approved">域查看键</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0searchTypes" locale="zh_CN" status="Approved">搜索类型</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0entries" locale="zh_CN" status="Approved">条目</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0query" locale="zh_CN" status="Approved">查询</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0values" locale="zh_CN" status="Approved">值</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0selectedcontents" locale="zh_CN" status="Approved">选定的内容</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0unselectedcontents" locale="zh_CN" status="Approved">未选定的内容</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_effectivity_formula" locale="zh_CN" status="Approved">目标有效性公式</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_variant_formula" locale="zh_CN" status="Approved">目标变量公式</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinitionCreI{::}mdl0pending_AttcAttrRlType" locale="zh_CN" status="Approved">待处理的附加属性关系类型</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0ConfiguredModel" locale="zh_CN" status="Approved">已配置的模型</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0model_object" locale="zh_CN" status="Approved">模型对象</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0pending_AttachAttrGroup" locale="zh_CN" status="Approved">待处理的附加属性组</key>
+           
+        <key id="BusinessObject{::}Mdl0CompositeSearchDef" locale="zh_CN" status="Approved">复合搜索定义</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0CompositeSearchType" locale="zh_CN" status="Approved">复合搜索类型</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0SearchDefinitions" locale="zh_CN" status="Approved">搜索定义</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityExprBlock" locale="zh_CN" status="Approved">模型有效性表达式块</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityInModel" locale="zh_CN" status="Approved">模型的有效性</key>
+           
+        <key id="BusinessObject{::}Mdl0HasConfiguratorContext" locale="zh_CN" status="Approved">具有有效性的配置器关联</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0eff_configurator_URL" locale="zh_CN" status="Approved">有效性配置器服务端点 URL</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_context" locale="zh_CN" status="Approved">已弃用。参见“发行公告 Teamcenter 10.1”。</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_item" locale="zh_CN" status="Approved">已弃用。参见“发行公告 Teamcenter 10.1”。</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0configurator_URL" locale="zh_CN" status="Approved">配置器服务端点 URL</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0description" locale="zh_CN" status="Approved">有效性配置器描述</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0model" locale="zh_CN" status="Approved">模型</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0name" locale="zh_CN" status="Approved">有效性配置器名称</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_namespace" locale="zh_CN" status="Approved">产品命名空间</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_name" locale="zh_CN" status="Approved">产品名称</key>
+           
+        <key id="BusinessObject{::}Mdl0HasVarConfiguratorCxt" locale="zh_CN" status="Approved">具有变量的配置器关联</key>
+           
+        <key id="BusinessObject{::}Mdl0VariantExprBlock" locale="zh_CN" status="Approved">模型变量表达式块</key>
+           
+        <key id="BusinessObject{::}Mdl0VariationInModel" locale="zh_CN" status="Approved">模型变化</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_configurator_URL" locale="zh_CN" status="Approved">变量配置器服务端点 URL</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0configurator_URL" locale="zh_CN" status="Approved">配置器服务端点 URL</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0description" locale="zh_CN" status="Approved">变量配置器描述</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0model" locale="zh_CN" status="Approved">模型</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0name" locale="zh_CN" status="Approved">变量配置器名称</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_namespace" locale="zh_CN" status="Approved">产品命名空间</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_name" locale="zh_CN" status="Approved">产品名称</key>
+           
+        <key id="Event{::}Mdl0Attach_Attribute_Group" locale="zh_CN" status="Approved">附加属性组</key>
+           
+        <key id="Event{::}Mdl0Detach_Attribute_Group" locale="zh_CN" status="Approved">拆离属性组</key>
+           
+        <key id="Event{::}Mdl0Replace_Model_Element" locale="zh_CN" status="Approved">替换模型元素</key>
+           
+        <key id="Event{::}Mdl0Revise_Model_Element" locale="zh_CN" status="Approved">修订模型元素</key>
+           
+        <key id="Event{::}Mdl0Unrealize_Model_Element" locale="zh_CN" status="Approved">取消实现模型元素</key>
+           
+        <key id="Event{::}__Add_Content" locale="zh_CN" status="Approved">添加内容</key>
+           
+        <key id="Event{::}__Remove_Content" locale="zh_CN" status="Approved">移除内容</key>
+           
+        <key id="Event{::}__Revision_Create" locale="zh_CN" status="Approved">版本创建</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

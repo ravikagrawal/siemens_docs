@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="uk_UA" status="Approved">Постачальник зв'язку проєкту з Відомістю матеріалів</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="uk_UA" status="Approved">Умова, яка визначає, чи слід створювати проєкт і вирівнювати його під час створення деталі.</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="uk_UA" status="Approved">Умова, яка визначає, чи слід під час створення проєкту створювати деталь і вирівнювати її відповідно до нього</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="uk_UA" status="Approved">Умова фільтра робочого процесу для увімкнення робочого процесу "Генерація EBOM виробу"</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="uk_UA" status="Approved">Вирівняні контексти проєктування</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="uk_UA" status="Approved">Вирівняні моделі</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="uk_UA" status="Approved">Контексти вирівняних деталей</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="uk_UA" status="Approved">Вирівняні деталі</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="uk_UA" status="Approved">Дизайн вирівняно</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="uk_UA" status="Approved">Потрібне проєктування</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="uk_UA" status="Approved">Деталь вирівняна</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="uk_UA" status="Approved">Вкажіть деталь</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="uk_UA" status="Approved">Деталі для вирівнювання</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="uk_UA" status="Approved">Зберегти існуючу деталь</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="uk_UA" status="Approved">Деталі для вирівнювання</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="uk_UA" status="Approved">Автоматично створити деталь</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="uk_UA" status="Approved">Необхідна деталь</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="uk_UA" status="Approved">Контексти вирівняних деталей</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="uk_UA" status="Approved">Вирівняні деталі</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="uk_UA" status="Approved">Деталь вирівняна</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="uk_UA" status="Approved">Необхідна деталь</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="uk_UA" status="Approved">Об'єкти для вирівнювання</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="uk_UA" status="Approved">Автоматично створити проєкт</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="uk_UA" status="Approved">Припинено</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="uk_UA" status="Approved">Неявне первинне представлення</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="uk_UA" status="Approved">Це правило активує LOV "Дії зміни конструкції" для оновлення конструкції, коли вона перебуває в стані "TCM Released". Ця умова активує Pma0DsgnChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="uk_UA" status="Approved">Це правило активує LOV "Дії при зміні деталі" для оновлення деталі, коли деталь перебуває в стані "TCM Випущено". Ця умова активує Pma0PartChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="uk_UA" status="Approved">Це правило активує LOV "Повторне використання дій проєктування" для оновлення проєкту. Ця умова активує Pma0ReuseDesignActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="uk_UA" status="Approved">Це правило активує LOV "Дії повторного використання деталі" для оновлення деталі, коли деталь і проєкт перебувають у робочому стані. Ця умова активує Pma0ReusePartActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="uk_UA" status="Approved">Це правило активує LOV "Revise Design Action" для оновлення проєкту, коли він перебуває в стані "Заморожений". Ця умова активує Pma0ReviseDesignActionLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="uk_UA" status="Approved">Це правило активує LOV "Revise Part Action" для оновлення деталі, коли вона перебуває в стані "Заморожено". Ця умова активує Pma0RevisePartActionLOV.</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати наявну ревізію проєкту</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="uk_UA" status="Approved">Відкоригувати конструкцію, яка наразі вирівняна з деталлю, яку змінюють.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="uk_UA" status="Approved">Використати нову конструкцію для змінюваної деталі</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати існуючу ревізію конструкції</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="uk_UA" status="Approved">Відредагувати модель, вирівняну з деталлю, що змінюється.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="uk_UA" status="Approved">Використовуйте нову деталь для проєкту, що редагується.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="uk_UA" status="Approved">Повторно використати існуючу ревізію деталі</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="uk_UA" status="Approved">Відредагувати деталь, що наразі вирівняна відповідно до моделі, яку змінюють.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="uk_UA" status="Approved">Створює новий проєкт для змінюваної деталі</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="uk_UA" status="Approved">Створити нову деталь для змінюваної конструкції</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="uk_UA" status="Approved">Використати нову деталь для моделі, що змінюється.</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="uk_UA" status="Approved">Змінити деталь, що наразі вирівняна з конструкцією, яка змінюється.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати існуючу ревізію проєкту</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="uk_UA" status="Approved">Повторно використати наявну ревізію деталі</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="uk_UA" status="Approved">Відредагувати деталь, що наразі вирівняна відповідно до моделі, яку змінюють.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="uk_UA" status="Approved">Відкоригувати конструкцію, яка наразі вирівняна з деталлю, яку змінюють.</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="uk_UA" status="Approved">Відредагувати деталь, що наразі вирівняна відповідно до моделі, яку змінюють.</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати дизайн</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="uk_UA" status="Approved">Змінити конструкцію</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="uk_UA" status="Approved">Новий дизайн</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати проєкт</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="uk_UA" status="Approved">Редагувати конструкцію</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="uk_UA" status="Approved">Нова деталь</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="uk_UA" status="Approved">Повторно використати деталь</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="uk_UA" status="Approved">Створити ревізію деталі</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="uk_UA" status="Approved">Новий дизайн</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="uk_UA" status="Approved">Нова деталь</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="uk_UA" status="Approved">Нова деталь</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="uk_UA" status="Approved">Редагувати деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="uk_UA" status="Approved">Повторно використати проєкт</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="uk_UA" status="Approved">Повторно використати деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="uk_UA" status="Approved">Повторно використати деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="uk_UA" status="Approved">Створити ревізію деталі</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="uk_UA" status="Approved">Змінити конструкцію</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="uk_UA" status="Approved">Створити ревізію деталі</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="uk_UA" status="Approved">Статус випуску вирівняної конструкції</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="uk_UA" status="Approved">Статус випуску вирівняної деталі</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="uk_UA" status="Approved">Оновити дію</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="uk_UA" status="Approved">Чи увімкнено режим оновлення?</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="uk_UA" status="Approved">Копіювати вирівнювання деталі</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="uk_UA" status="Approved">Копіювати вирівнювання конструкції</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="uk_UA" status="Approved">Атрибути конструкції</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="uk_UA" status="Approved">Атрибути деталі</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="uk_UA" status="Approved">Атрибути ревізії деталі</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="uk_UA" status="Approved">Позначає деталь, визначену атрибутами кольору</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="uk_UA" status="Approved">Позначає деталь без фінішної обробки</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="uk_UA" status="Approved">Позначає деталь без кольору</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="uk_UA" status="Approved">Колір</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="uk_UA" status="Approved">Менша фінішна обробка</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="uk_UA" status="Approved">None</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="uk_UA" status="Approved">Конструкція передана в аутсорсинг</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="uk_UA" status="Approved">Конструкція придбана</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="uk_UA" status="Approved">Власна конструкція</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="uk_UA" status="Approved">Не призначено</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="uk_UA" status="Approved">Вирівняти по типовій деталі</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="uk_UA" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="uk_UA" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="uk_UA" status="Approved">Вирівняти по типовій деталі</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="uk_UA" status="Approved">Вирівняти по типовій деталі</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="uk_UA" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="uk_UA" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="uk_UA" status="Approved">Вирівняти по типовій деталі</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="uk_UA" status="Approved">Тип чистової обробки</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="uk_UA" status="Approved">Багатотільний</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="uk_UA" status="Approved">Деталь безпеки</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="uk_UA" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="uk_UA" status="Approved">Запчастина</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="uk_UA" status="Approved">Технологічний намір</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="uk_UA" status="Approved">Змінити постачальника результатів валідації</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="uk_UA" status="Approved">Результат валідації пакета змін</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="uk_UA" status="Approved">Причина</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="uk_UA" status="Approved">Помилка</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="uk_UA" status="Approved">Елемент рішення</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="en_US" status="Approved">Change History Element</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="en_US" status="Approved">Impact Analysis Provider</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="en_US" status="Approved">Impacted Object Provider for Lineage</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="en_US" status="Approved">My Changes Provider</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="en_US" status="Approved">Change Manager</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="en_US" status="Approved">CIB Approved</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="en_US" status="Approved">CIB Approved the Concurrent Change</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="en_US" status="Approved">Change Released</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="en_US" status="Approved">Concurrent Change was Released</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="en_US" status="Approved">Change Manager</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="en_US" status="Approved">CIB Approved</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="en_US" status="Approved">CIB Approved the Concurrent Change</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="en_US" status="Approved">Change Released</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="en_US" status="Approved">Concurrent Change was Released</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="en_US" status="Approved">Authorizing Change Notice</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="en_US" status="Approved">Authorizing Change Notice</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="en_US" status="Approved">Closure</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="en_US" status="Approved">Disposition</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="en_US" status="Approved">Impacted Item</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="en_US" status="Approved">Incorporated by</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="en_US" status="Approved">Incorporated into</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="en_US" status="Approved">Incorporated Status</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="en_US" status="Approved">Incorporates Changes of</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="en_US" status="Approved">Markup</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="en_US" status="Approved">Maturity</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="en_US" status="Approved">Solution</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="en_US" status="Approved">Solution Item</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="en_US" status="Approved">Filters</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="en_US" status="Approved">Release Status Effectivity</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="en_US" status="Approved">Report a Problem</key>
+           
+        <key id="CommandDisplayName{::}Cm1RevertChanges" locale="en_US" status="Approved">Revert Changes</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="en_US" status="Approved">Sequence Change</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="en_US" status="Approved">Create Change</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="en_US" status="Approved">Create Change</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="en_US" status="Approved">Derive Change</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="en_US" status="Approved">Set Lineage</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="en_US" status="Approved">Unset Lineage</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="en_US" status="Approved">Condition for ECN is set as context for 4GD objects</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="en_US" status="Approved">This condition defines the enablement criteria for enabling the edit GnChangeNoticeRevision dependency commands. This condition allows for criteria checking based on the in-context Business Object and user session.</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="en_US" status="Approved">Does user have Change License?</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="en_US" status="Approved">Condition to hide framework command for assigning release status effectivity. Command specific to change manager is displayed instead.</key>
+           
+        <key id="ConditionDescription{::}Cm1RevertCmdCond" locale="en_US" status="Approved">This determines if the element can be reverted.</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="en_US" status="Approved">This condition defines the enablement criteria for enabling the edit GnChangeNoticeRevision dependency commands. This condition allows for criteria checking based on the in-context Change Notice Revision object and user session.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="en_US" status="Approved">Create Change in Context Command Condition</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="en_US" status="Approved">Condition to show or hide derive command.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="en_US" status="Approved">Enables set lineage command when selected objects have no lineage set and are of same types.</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="en_US" status="Approved">Enables unset lineage command when selected objects have lineage set and are of same types.</key>
+           
+        <key id="BusinessObject{::}Cm1AffectedItemsProvider" locale="en_US" status="Approved">Affected Items Provider</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="en_US" status="Approved">Change Summary Element</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="en_US" status="Approved">Active Change For Occurrence Revision</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="en_US" status="Approved">Active Change</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="en_US" status="Approved">ECN In</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="en_US" status="Approved">ECN Out</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="en_US" status="Approved">Underlying Design Element</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="en_US" status="Approved">Is Leaf</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="en_US" status="Approved">Sibling Of</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="en_US" status="Approved">Underlying Primary Object</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="en_US" status="Approved">Underlying Secondary Object</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="en_US" status="Approved">Merge Out Required</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="en_US" status="Approved">Is Mass Update Allowed</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="en_US" status="Approved">Change Action</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="en_US" status="Approved">Change Relation</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

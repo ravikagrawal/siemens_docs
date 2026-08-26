@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="ru_RU" status="Approved">Область вариативности</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="ru_RU" status="Approved">Solution Variant Information Provider</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="ru_RU" status="Approved">Solution Variant ID Creator Relation</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="ru_RU" status="Approved">Информация об источнике варианта решения</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="ru_RU" status="Approved">Solution Variant Information</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="ru_RU" status="Approved">Поставщик вариантов решения</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="ru_RU" status="Approved">Вариантный объект конфигурации</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="ru_RU" status="Approved">Отношение источника варианта решения</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="ru_RU" status="Approved">Validation Criteria to determine if a Variant Rule and source BOM Line is valid for Solution Variant Creation and Update operation</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ru_RU" status="Approved">Вариант решения</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="ru_RU" status="Approved">Неуправляемый вариант решения</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="ru_RU" status="Approved">Управляемый вариант решения</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="ru_RU" status="Approved">Повторное использование варианта решения</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ru_RU" status="Approved">Вариант решения</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="ru_RU" status="Approved">Неуправляемый</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="ru_RU" status="Approved">Управляемый</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="ru_RU" status="Approved">Повторное использование</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="ru_RU" status="Approved">Вариант решения</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="ru_RU" status="Approved">Категория варианта решения  </key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="ru_RU" status="Approved">Перспектива конфигуратора</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="ru_RU" status="Approved">Текущий вариантный контекст конфигуратора</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="ru_RU" status="Approved">Категория варианта решения  </key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="ru_RU" status="Approved">Исходная строка структуры</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="ru_RU" status="Approved">Solution Variant Exists as Sibling</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="ru_RU" status="Approved">Вариант решения</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="ru_RU" status="Approved">Variant Rule Modified</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="ru_RU" status="Approved">Variant Rule Valid</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="ru_RU" status="Approved">Valid for Solution Variant</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="ru_RU" status="Approved">Вариантное правило</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="ru_RU" status="Approved">Source Assembly Modified</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="ru_RU" status="Approved">Затронутые объекты</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="ru_RU" status="Approved">Конфигурация элемента варианта решения  </key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="ru_RU" status="Approved">Источник варианта решения</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="ru_RU" status="Approved">Дата последнего изменения ревизии вида структуры общего варианта</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="ru_RU" status="Approved">Действие варианта решения</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="ru_RU" status="Approved">Дата последнего изменения ревизии вида структуры варианта решения</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="ru_RU" status="Approved">Категория варианта решения  </key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="ru_RU" status="Approved">Configurator Perspective Provider</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="ru_RU" status="Approved">Solution Variant Occurrence Attributes</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="ru_RU" status="Approved">Solution Variant Source Occurrence</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="ru_RU" status="Approved">Вариантные условия</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="ru_RU" status="Approved">Build Combination Result</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="ru_RU" status="Approved">Build Combinations Information</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="ru_RU" status="Approved">Organization Node Variability</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="ru_RU" status="Approved">Scoped Variability Provider</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="ru_RU" status="Approved">Решение</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="ru_RU" status="Approved">Build Combination Color Band</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="ru_RU" status="Approved">DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2506. Coverage</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="ru_RU" status="Approved">Build Combination Formula</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="ru_RU" status="Approved">Build Combination</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="ru_RU" status="Approved">Build Expression JSON</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="ru_RU" status="Approved">Expression Match</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="ru_RU" status="Approved">DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2512. Families</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="ru_RU" status="Approved">DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2512. Features</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="ru_RU" status="Approved">Grouped By</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="ru_RU" status="Approved">DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2506. Index</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="ru_RU" status="Approved">Область</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="ru_RU" status="Approved">Build Combination Solution UID</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="ru_RU" status="Approved">Область действия</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="ru_RU" status="Approved">Индекс</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="ru_RU" status="Approved">Configuration Criteria</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="ru_RU" status="Approved">Occurrence Build Combination Assignments</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="ru_RU" status="Approved">Organization Node Variability</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="ru_RU" status="Approved">Build Combinations</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="ru_RU" status="Approved">Configuration Families</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="ru_RU" status="Approved">Organization Node Reference</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

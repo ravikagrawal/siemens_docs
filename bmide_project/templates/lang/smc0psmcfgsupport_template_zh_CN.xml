@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="zh_CN" status="Approved">可变性范围</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="zh_CN" status="Approved">解决方案变量信息提供程序</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="zh_CN" status="Approved">解决方案变量 ID 创建者关系</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="zh_CN" status="Approved">解决方案变量源信息</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="zh_CN" status="Approved">解决方案变量信息</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="zh_CN" status="Approved">解决方案变量提供程序</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="zh_CN" status="Approved">变量可配置对象</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="zh_CN" status="Approved">解决方案变量源关系</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="zh_CN" status="Approved">用于确定变量规则和源 BOM 行在解决方案变量创建和更新操作中是否有效的验证准则</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="zh_CN" status="Approved">解决方案变量</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="zh_CN" status="Approved">非受管解决方案变量</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="zh_CN" status="Approved">受管解决方案变量</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="zh_CN" status="Approved">重用解决方案变量</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="zh_CN" status="Approved">解决方案变量</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="zh_CN" status="Approved">非受管</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="zh_CN" status="Approved">受管</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="zh_CN" status="Approved">重用</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="zh_CN" status="Approved">解决方案变量</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="zh_CN" status="Approved">解决方案变量类别</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="zh_CN" status="Approved">配置器透视图</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="zh_CN" status="Approved">当前变量配置器关联</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="zh_CN" status="Approved">解决方案变量类别</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="zh_CN" status="Approved">源 BOM 行</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="zh_CN" status="Approved">类别</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="zh_CN" status="Approved">解决方案变量作为同代存在</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="zh_CN" status="Approved">解决方案变量</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="zh_CN" status="Approved">变量规则已修改</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="zh_CN" status="Approved">变量规则有效</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="zh_CN" status="Approved">对解决方案变量有效</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="zh_CN" status="Approved">变量规则</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="zh_CN" status="Approved">源装配已修改</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="zh_CN" status="Approved">受影响的对象</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="zh_CN" status="Approved">解决方案变量项配置</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="zh_CN" status="Approved">解决方案变量源</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="zh_CN" status="Approved">一般变量 BOM 视图版本上次修改日期</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="zh_CN" status="Approved">解决方案变量操作</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="zh_CN" status="Approved">解决方案变量 BOM 视图版本上次修改日期</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="zh_CN" status="Approved">解决方案变量类别</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="zh_CN" status="Approved">配置器透视图提供程序</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="zh_CN" status="Approved">解决方案变量事例属性</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="zh_CN" status="Approved">解决方案变量源事例</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="zh_CN" status="Approved">变量准则</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="zh_CN" status="Approved">构建组合结果</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="zh_CN" status="Approved">构建组合信息</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="zh_CN" status="Approved">组织节点可变性</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="zh_CN" status="Approved">作用域可变性提供程序</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="zh_CN" status="Approved">解决方案</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="zh_CN" status="Approved">构建组合色带</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="zh_CN" status="Approved">已弃用。请参见支持声明 2506。范围</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="zh_CN" status="Approved">构建组合公式</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="zh_CN" status="Approved">构建组合</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="zh_CN" status="Approved">构建表达式 JSON</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="zh_CN" status="Approved">表达式匹配</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="zh_CN" status="Approved">已弃用。请参见支持声明 2512。族</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="zh_CN" status="Approved">已弃用。请参见支持声明 2512。特征</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="zh_CN" status="Approved">分组依据</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="zh_CN" status="Approved">已弃用。请参见支持声明 2506。索引</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="zh_CN" status="Approved">范围</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="zh_CN" status="Approved">构建组合解决方案 UID</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="zh_CN" status="Approved">范围</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="zh_CN" status="Approved">索引</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="zh_CN" status="Approved">配置准则</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="zh_CN" status="Approved">事例构建组合指派</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="zh_CN" status="Approved">组织节点可变性</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="zh_CN" status="Approved">构建组合</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="zh_CN" status="Approved">配置族</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="zh_CN" status="Approved">组织节点引用</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

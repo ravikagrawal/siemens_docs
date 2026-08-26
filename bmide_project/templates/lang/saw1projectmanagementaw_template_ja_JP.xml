@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="ja_JP" status="Approved">Discipline Search Provider</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="ja_JP" status="Approved">スケジュール検索プロバイダ</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="ja_JP" status="Approved">スケジュールタスク検索プロバイダ</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="ja_JP" status="Approved">終了-終了関係</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="ja_JP" status="Approved">終了-開始関係</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="ja_JP" status="Approved">フェーズゲート</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="ja_JP" status="Approved">開始-終了関係</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="ja_JP" status="Approved">開始-開始関係</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ja_JP" status="Approved">スケジュールの実行および計画プロパティを変更できるユーザです。</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="ja_JP" status="Approved">スケジュールおよびタスクを表示できますがプロパティは修正できないユーザです。</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="ja_JP" status="Approved">タスクの実行プロパティを変更できるユーザ</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="ja_JP" status="Approved">時間単位(日)です。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="ja_JP" status="Approved">時間単位(時)です。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="ja_JP" status="Approved">時間単位(月)です。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="ja_JP" status="Approved">時間単位(週)です。</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="ja_JP" status="Approved">できるだけ遅く </key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="ja_JP" status="Approved">できるだけ早く</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="ja_JP" status="Approved">固定済</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="ja_JP" status="Approved">制約なし</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="ja_JP" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="ja_JP" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="ja_JP" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="ja_JP" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="ja_JP" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="ja_JP" status="Approved">固定期間</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="ja_JP" status="Approved">固定リソース</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="ja_JP" status="Approved">固定作業</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="ja_JP" status="Approved">最も高い</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="ja_JP" status="Approved">高</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="ja_JP" status="Approved">最も低い</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="ja_JP" status="Approved">低</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="ja_JP" status="Approved">やや低い</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="ja_JP" status="Approved">中</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="ja_JP" status="Approved">非常に高い</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ja_JP" status="Approved">コーディネータ</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="ja_JP" status="Approved">オブザーバ</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="ja_JP" status="Approved">参加者</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="ja_JP" status="Approved">日 (d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="ja_JP" status="Approved">時 (h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="ja_JP" status="Approved">月 (mo)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="ja_JP" status="Approved">週 (w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="ja_JP" status="Approved">スケジュールされた開始日と先行タスクの完了、両方</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="ja_JP" status="Approved">スケジュールされた開始日または先行タスクの完了、どちらか</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="ja_JP" status="Approved">ワークフロートリガがありません</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="ja_JP" status="Approved">先行タスクの完了</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="ja_JP" status="Approved">スケジュールされた開始日</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="ja_JP" status="Approved">タイプ</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="ja_JP" status="Approved">権限を持つユーザ</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="ja_JP" status="Approved">スケジュール完了日</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="ja_JP" status="Approved">スケジュール内のロール</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="ja_JP" status="Approved">ユーザステイタス</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="ja_JP" status="Approved">成果物数</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="ja_JP" status="Approved">期間</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="ja_JP" status="Approved">スケジュール変更プランアイテム</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="ja_JP" status="Approved">テンプレートタスク</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="ja_JP" status="Approved">先行依存関係</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="ja_JP" status="Approved">先行</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="ja_JP" status="Approved">後続依存関係</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="ja_JP" status="Approved">後続</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="ja_JP" status="Approved">作業完了</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="ja_JP" status="Approved">作業成果</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="ja_JP" status="Approved">残りの作業</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="ja_JP" status="Approved">ワークフローテンプレート</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="ja_JP" status="Approved">ワークフロートリガ</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="ja_JP" status="Approved">予算計上努力</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="ja_JP" status="Approved">マスタスケジュール</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="ja_JP" status="Approved">実績完了日</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="ja_JP" status="Approved">実績開始日</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="ja_JP" status="Approved">作業達成率</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="ja_JP" status="Approved">状態</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="ja_JP" status="Approved">ステータス</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="ja_JP" status="Approved">作業完了</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="ja_JP" status="Approved">作業成果</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="ja_JP" status="Approved">スケジュールメンバー</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="ja_JP" status="Approved">指定時間単位</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="ja_JP" status="Approved">タイプ</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="ja_JP" status="Approved">ラグ</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="ja_JP" status="Approved">エントリステータス</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="ja_JP" status="Approved">最も高い</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="ja_JP" status="Approved">高</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="ja_JP" status="Approved">最も低い</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="ja_JP" status="Approved">低</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="ja_JP" status="Approved">やや低い</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="ja_JP" status="Approved">中</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="ja_JP" status="Approved">非常に高い</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="ja_JP" status="Approved">成果物を追加</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="ja_JP" status="Approved">メンバを追加</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="ja_JP" status="Approved">成果物を追加</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="ja_JP" status="Approved">リソースの割当て</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="ja_JP" status="Approved">リソースの割当て</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="ja_JP" status="Approved">ベースラインスケジュール</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="ja_JP" status="Approved">キャンセル</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="ja_JP" status="Approved">依存関係を作成</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="ja_JP" status="Approved">スケジュールタスクを追加</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="ja_JP" status="Approved">名前を変えて保存</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="ja_JP" status="Approved">スケジュールタスクを追加</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="ja_JP" status="Approved">スケジュールを作成</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="ja_JP" status="Approved">切取り</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="ja_JP" status="Approved">依存関係を削除</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="ja_JP" status="Approved">スケジュールを削除</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="ja_JP" status="Approved">タスクを削除</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="ja_JP" status="Approved">タスクのインデント</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="ja_JP" status="Approved">サブスケジュールを挿入</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="ja_JP" status="Approved">ワークフローを起動</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="ja_JP" status="Approved">月</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="ja_JP" status="Approved">タスクのインデント解除</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="ja_JP" status="Approved">一階層上へ</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="ja_JP" status="Approved">四半期</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="ja_JP" status="Approved">再計算</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="ja_JP" status="Approved">割当てを除去</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="ja_JP" status="Approved">成果物を除去</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="ja_JP" status="Approved">メンバーを除去</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="ja_JP" status="Approved">割当て解除</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="ja_JP" status="Approved">タスクを再割当て</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="ja_JP" status="Approved">シフト</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="ja_JP" status="Approved">クリティカルパスを表示</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="ja_JP" status="Approved">what-if解析を開始</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="ja_JP" status="Approved">リソースを割当て解除</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="ja_JP" status="Approved">週</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="ja_JP" status="Approved">年</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="ja_JP" status="Approved">この条件は、メンバを追加コマンドの表示/非表示を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="ja_JP" status="Approved">この条件は、スケジュール成果物を追加コマンドの表示条件を決定します</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="ja_JP" status="Approved">この条件は、リソースを割当てコマンドの可視性を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="ja_JP" status="Approved">この条件は、リソースを複数タスクに割当てコマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="ja_JP" status="Approved">この条件は、「ベースラインスケジュール」コマンドの表示を決定します</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="ja_JP" status="Approved">この条件は、依存関係を作成コマンドの表示/非表示を決定します</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="ja_JP" status="Approved">この条件は、スケジュールを作成タスクコマンドの可視性を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="ja_JP" status="Approved">この条件は、「スケジュールを作成」コマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="ja_JP" status="Approved">この条件は、テンプレートからスケジュールを作成コマンドの可視性を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="ja_JP" status="Approved">この条件は、スケジュールを切取りコマンドの可視性を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="ja_JP" status="Approved">この条件は、選択したオブジェクトが、スケジュールのタイプであるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="ja_JP" status="Approved">この条件は、選択したオブジェクトが、スケジュールタスクのタイプであるかを決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="ja_JP" status="Approved">この条件は、「依存関係」サブロケーションでのコマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="ja_JP" status="Approved">この条件は、タスクをインデントコマンドの可視性を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="ja_JP" status="Approved">この条件は、「サブスケジュールを挿入」コマンドの表示を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="ja_JP" status="Approved">この条件は、「ワークフローを起動」コマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="ja_JP" status="Approved">この条件は、タスクをインデント解除コマンドの可視性を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="ja_JP" status="Approved">この条件は、「what-if解析をプロモート」および「what-if解析をキャンセル」コマンドの表示を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="ja_JP" status="Approved">この条件は、「再計算」コマンドの表示を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="ja_JP" status="Approved">この条件は、割当てを除去コマンドの表示/非表示を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="ja_JP" status="Approved">この条件は、「スケジュール成果物を除去」コマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="ja_JP" status="Approved">この条件は、メンバを除去コマンドの表示/非表示を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="ja_JP" status="Approved">この条件は、「タスク成果物を除去」コマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="ja_JP" status="Approved">この条件は、メンバを置換コマンドの表示/非表示を決定します.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="ja_JP" status="Approved">この条件は、スケジュールをシフトコマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="ja_JP" status="Approved">この条件は、シミュレーションサブロケーションにおける「クリティカルパスを表示/表示」コマンドの表示条件を決定します</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="ja_JP" status="Approved">この条件は、「what-if解析を開始」コマンドの表示条件を決定します。</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="ja_JP" status="Approved">この条件は、リソースを割当て解除コマンドの可視性を決定します.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

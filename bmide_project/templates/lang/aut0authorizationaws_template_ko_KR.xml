@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="ko_KR" status="Approved">라이센스</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="ko_KR" status="Approved">라이센스</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="ko_KR" status="Approved">프로젝트 추가</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="ko_KR" status="Approved">라이선스 명령에 대한 서버 측 명령 가시성 조건. 이 명령은 Teamcenter 버전 11.2.3 이하에서 보여야 합니다. 선택한 개체가 WorkspaceObject, Dataset 또는 Form 유형인 경우에만 보여야 합니다. 선택한 개체가 EPMTask 또는 Signoff 유형인 경우에는 보이지 않아야 합니다. 이것은 로그인한 사용자가 dba 그룹의 구성원이거나 ITAR 관리자 또는 IP 관리자 역할을 가진 경우 보여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="ko_KR" status="Approved">라이선스 명령에 대한 서버 측 명령 가시성 조건. 이 명령은 Teamcenter 버전 11.3 이상에서 보여야 합니다. 선택한 개체가 WorkspaceObject, Dataset 또는 Form 유형인 경우에만 보여야 합니다. 선택한 개체가 EPMTask 또는 Signoff 유형인 경우에는 보이지 않아야 합니다. 이것은 로그인한 사용자가 dba 그룹의 구성원이거나 ITAR 관리자 또는 IP 관리자 역할을 가진 경우 보여야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="ko_KR" status="Approved">프로젝트 추가 명령에 대한 서버 측 명령 가시성 조건. 이 명령은 사용자가 권한 있는 그룹 또는 프로젝트 관리자 그룹과 프로젝트 관리자 역할로 로그인한 경우에만 표시되어야 합니다.</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="ko_KR" status="Approved">프로젝트 제공자</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="ko_KR" status="Approved">프로젝트 팀 제공자</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="ko_KR" status="Approved">수정 가능?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

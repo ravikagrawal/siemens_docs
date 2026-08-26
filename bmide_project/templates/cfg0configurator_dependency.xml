@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Teamcenter Configurator" enableOpsDataDeploy="false" guid="0B0888D6D9955ACA4F9B6B51C3EF2063" isDescriptionMandatory="true" name="cfg0configurator" optional="true" prefixes="Cfg0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+</TcBusinessDataIncludes>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="pl_PL" status="Approved">Definicja zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="pl_PL" status="Approved">Pole wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="pl_PL" status="Approved">Element tekstu standardowego</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="pl_PL" status="Approved">Opis</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="pl_PL" status="Approved">Czy jest opcjonalny?</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="pl_PL" status="Approved">Lista wartości</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="pl_PL" status="Approved">Maks</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="pl_PL" status="Approved">Min</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="pl_PL" status="Approved">Nazwa</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="pl_PL" status="Approved">Numer zlecenia DCD</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="pl_PL" status="Approved">Długość maksymalna</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="pl_PL" status="Approved">Format czasu</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="pl_PL" status="Approved">Typ</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="pl_PL" status="Approved">Definicje gromadzenia danych powiązanych</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="pl_PL" status="Approved">Czy element tekstu standardowego jest aktywny?</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="pl_PL" status="Approved">Dane elementu</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="pl_PL" status="Approved">Powiązane pola planera</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="pl_PL" status="Approved">Definicje gromadzenia danych powiązanych</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="pl_PL" status="Approved">Powiązane elementy tekstu standardowego</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="pl_PL" status="Approved">Definicje gromadzenia danych powiązanych</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="pl_PL" status="Approved">Definicje gromadzenia danych powiązanych</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="pl_PL" status="Approved">Powiązane elementy tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu logicznego definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="pl_PL" status="Approved">Pobieranie danych logicznych</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu logicznego pola wprowadzania planera ZASTĄPIONE</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="pl_PL" status="Approved">Pole planera, typ logiczny ZASTĄPIONE</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu buyoff definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="pl_PL" status="Approved">Pobieranie danych typu buyoff</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza podstawy definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="pl_PL" status="Approved">Formularz podstawy pobierania danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="pl_PL" status="Approved">Miejsce przechowywania definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="pl_PL" status="Approved">Szczegóły pobierania danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="pl_PL" status="Approved">Zastąpienie pobierania danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="pl_PL" status="Approved">Definicja zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="pl_PL" status="Approved">DurationDCDFrmStorage definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="pl_PL" status="Approved">Pobieranie danych czasu trwania</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza czasu zakończenia definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="pl_PL" status="Approved">Pobieranie danych o zakończeniu procedury</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza obrazu definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="pl_PL" status="Approved">Zbiór danych obrazu</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu całkowitego definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="pl_PL" status="Approved">Pobieranie danych liczby całkowitej</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu całkowitego pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="pl_PL" status="Approved">Pole planera, typ całkowity</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza listy wartości definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="pl_PL" status="Approved">Pobieranie danych listy wartości</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu listy wartości pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="pl_PL" status="Approved">Lista wartości podstawy pola planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="pl_PL" status="Approved">Podstawa pola planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="pl_PL" status="Approved">Miejsce przechowywania pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="pl_PL" status="Approved">Szczegóły pola planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="pl_PL" status="Approved">Zastąpienie pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="pl_PL" status="Approved">Pole wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu rzeczywistego definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="pl_PL" status="Approved">Pobieranie danych liczby rzeczywistej</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu rzeczywistego pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="pl_PL" status="Approved">Pole planera, typ rzeczywisty</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="pl_PL" status="Approved">Główny formularz elementu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="pl_PL" status="Approved">Główny formularz elementu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="pl_PL" status="Approved">Główny formularz rewizji elementu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="pl_PL" status="Approved">Główny formularz rewizji elementu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="pl_PL" status="Approved">Rewizja elementu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="pl_PL" status="Approved">Element tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="pl_PL" status="Approved">Główny formularz folderu biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="pl_PL" status="Approved">Główny formularz folderu biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="pl_PL" status="Approved">Główny formularz rewizji folderu biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="pl_PL" status="Approved">Główny formularz rewizji folderu biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="pl_PL" status="Approved">Rewizja folderu tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="pl_PL" status="Approved">Folder tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="pl_PL" status="Approved">Główny formularz biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="pl_PL" status="Approved">Główny formularz biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="pl_PL" status="Approved">Główny formularz rewizji biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="pl_PL" status="Approved">Główny formularz rewizji biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="pl_PL" status="Approved">Rewizja biblioteki tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="pl_PL" status="Approved">Biblioteka tekstu standardowego</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu tekstowego definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="pl_PL" status="Approved">Pobieranie danych łańcucha tekstowego</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu tekstowego pola wprowadzania planera</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="pl_PL" status="Approved">Pole planera, typ tekstowy</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="pl_PL" status="Approved">Folder symbolu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="pl_PL" status="Approved">Biblioteka symbolu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="pl_PL" status="Approved">Relacja symbolu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="pl_PL" status="Approved">Symbol instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu czasowego definicji zbioru danych</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="pl_PL" status="Approved">Pobieranie danych znacznika czasu</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza typu czasowego pola wprowadzania planera ZASTĄPIONE</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="pl_PL" status="Approved">Pole planera, typ czasowy ZASTĄPIONE</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="pl_PL" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="pl_PL" status="Approved">Pobieranie danych listy wartości zdefiniowanych przez użytkownika</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="pl_PL" status="Approved">Relacja składników instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="pl_PL" status="Approved">Składniki instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="pl_PL" status="Approved">Główny formularz szablonu elementu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="pl_PL" status="Approved">Główny formularz rewizji szablonu elementu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="pl_PL" status="Approved">Główny formularz rewizji szablonu elementu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="pl_PL" status="Approved">Rewizja szablonu elementu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="pl_PL" status="Approved">Szablon elementu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="pl_PL" status="Approved">Relacja podglądu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="pl_PL" status="Approved">Podgląd instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="pl_PL" status="Approved">Główny formularz szablonu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="pl_PL" status="Approved">Główny formularz rewizji szablonu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="pl_PL" status="Approved">Główny formularz rewizji szablonu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="pl_PL" status="Approved">Rewizja szablonu dokumentu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="pl_PL" status="Approved">Szablon dokumentu instrukcji pracy</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="pl_PL" status="Approved">Relacja zawartości raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="pl_PL" status="Approved">Relacja wejść raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="pl_PL" status="Approved">Wejścia raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="pl_PL" status="Approved">Relacja wejść raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="pl_PL" status="Approved">Relacja raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="pl_PL" status="Approved">Szablon raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="pl_PL" status="Approved">Raport PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="pl_PL" status="Approved">Relacja szablonu raportu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="pl_PL" status="Approved">Miejsce przechowywania formularza informacji o odwołaniach tekstowych instrukcji roboczych</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="pl_PL" status="Approved">Formularz informacji o odwołaniach tekstowych instrukcji roboczych</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="pl_PL" status="Approved">Relacja formularza informacji o odwołaniach tekstowych instrukcji roboczych</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="pl_PL" status="Approved">Łańcuch może składać się ze spacji i cyfr.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="pl_PL" status="Approved">Łańcuch może składać się ze spacji i wielkich liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="pl_PL" status="Approved">Łańcuch może składać się ze spacji, małych i wielkich liter alfabetu angielskiego oraz cyfr.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="pl_PL" status="Approved">Łańcuch może składać się z małych liter i wielkich liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="pl_PL" status="Approved">Łańcuch może składać się ze spacji i małych liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="pl_PL" status="Approved">Łańcuch może składać się z cyfr.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="pl_PL" status="Approved">Łańcuch może składać się z wielkich liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="pl_PL" status="Approved">Łańcuch może składać się z małych liter i wielkich liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="pl_PL" status="Approved">Łańcuch może składać się z małych liter alfabetu angielskiego.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="pl_PL" status="Approved">Łańcuch może składać się z małych liter alfabetu angielskiego, wielkich liter alfabetu angielskiego, cyfr oraz podkreślenia.</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="pl_PL" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="pl_PL" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="pl_PL" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="pl_PL" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="pl_PL" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="pl_PL" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="pl_PL" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="pl_PL" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="pl_PL" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="pl_PL" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="pl_PL" status="Approved">Zbiór danych</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="pl_PL" status="Approved">Pole planera</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="pl_PL" status="Approved">Instancja tekstu standardowego</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="pl_PL" status="Approved">Blokowanie edycji pola w MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="pl_PL" status="Approved">ID przywracania</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="pl_PL" status="Approved">Czy jest opcjonalny?</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="pl_PL" status="Approved">Blokowanie edycji pola w MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="pl_PL" status="Approved">ID przywracania</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="pl_PL" status="Approved">Łańcuch Miejsce na</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="pl_PL" status="Approved">Czy jest opcjonalny?</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="pl_PL" status="Approved">Numer zlecenia DCD</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="pl_PL" status="Approved">Numer zlecenia DCD</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna alarmu</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="pl_PL" status="Approved">Zachowanie poza limitami</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="pl_PL" status="Approved">Wartość maksymalna alarmu</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna alarmu</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="pl_PL" status="Approved">Wartość maksymalna przestrogi</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="pl_PL" status="Approved">Wartość minimalna przestrogi</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="pl_PL" status="Approved">Zachowanie poza limitami</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="pl_PL" status="Approved">ID przywracania</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="pl_PL" status="Approved">Pomiń sprawdzanie poprawności</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="pl_PL" status="Approved">ID przywracania</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="pl_PL" status="Approved">Czy jest opcjonalny?</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="pl_PL" status="Approved">Pomiń sprawdzanie poprawności</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna alarmu</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="pl_PL" status="Approved">Liczba miejsc dziesiętnych</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="pl_PL" status="Approved">Zachowanie poza limitami</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="pl_PL" status="Approved">Wartość maksymalna alarmu</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna alarmu</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="pl_PL" status="Approved">Wartość maksymalna przestrogi</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="pl_PL" status="Approved">Wartość minimalna przestrogi</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="pl_PL" status="Approved">Metoda gromadzenia danych</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="pl_PL" status="Approved">Liczba miejsc dziesiętnych</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="pl_PL" status="Approved">Zachowanie poza limitami</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="pl_PL" status="Approved">Liczba miejsc dziesiętnych</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="pl_PL" status="Approved">Dozwolona wartość maksymalna</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="pl_PL" status="Approved">Dozwolona wartość minimalna</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="pl_PL" status="Approved">Czy element tekstu standardowego jest aktywny?</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="pl_PL" status="Approved">Liczba znaków</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="pl_PL" status="Approved">Dozwolone znaki</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="pl_PL" status="Approved">Liczba znaków</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="pl_PL" status="Approved">Dozwolone znaki</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="pl_PL" status="Approved">Długość maksymalna</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="pl_PL" status="Approved">Dozwolone znaki</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="pl_PL" status="Approved">Wartość domyślna</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="pl_PL" status="Approved">Format czasu</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="pl_PL" status="Approved">Format czasu</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="pl_PL" status="Approved">Wartość</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="pl_PL" status="Approved">Lista wartości</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="pl_PL" status="Approved">Lista wartości</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="pl_PL" status="Approved">Klucze łańcucha instrukcji pracy</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="pl_PL" status="Approved">Łańcuchy instrukcji pracy</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="pl_PL" status="Approved">Źródło danych szablonu</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="pl_PL" status="Approved">Zawiera składniki 2D?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="pl_PL" status="Approved">Zawiera składniki 3D?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="pl_PL" status="Approved">Zawiera składniki symulacji?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="pl_PL" status="Approved">Specyfikacja szablonu</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="pl_PL" status="Approved">Obiekty z odwołaniem</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="pl_PL" status="Approved">ID powiązań</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="pl_PL" status="Approved">Obiekty z odwołaniem</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="pl_PL" status="Approved">ID powiązań</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="pl_PL" status="Approved">Status wydania tekstu standardowego</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="pl_PL" status="Approved">Automatic</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="pl_PL" status="Approved">Ręcznie</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="pl_PL" status="Approved">Półautomatycznie</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="pl_PL" status="Approved">Komunikat jest wyświetlany operatorowi</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="pl_PL" status="Approved">Wynik jest częścią, która jest wadliwa</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="pl_PL" status="Approved">Spowoduje niezgodność</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="pl_PL" status="Approved">Planer procesu wytwarzania</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="pl_PL" status="Approved">Symulacja procesu</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

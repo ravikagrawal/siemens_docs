@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:42 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Functionality description="Component for the template - csi1cmsmawinterface" displayName="Change Management Schedule Management Active Workspace Interface" enabledForVerificationRules="false" name="Csi1cmsmawinterface"/>
+           
+        <Library createRelease="Awp03.1.0" description="Csi1SoaCmSmAwInterface" isThirdParty="false" name="Csi1SoaCmSmAwInterface" namespace="Csi1::Soa::CmSmAwInterface" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="Awp03.1.0" dependencies="" description="Relations" libraryName="Csi1SoaCmSmAwInterface" name="RelationManagement" namespace="Csi1::Soa::CmSmAwInterface" serviceLibraryRef=""/>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp03.1.0" description="Propagate or rollup relations between &lt;b&gt;ChangeItemRevision&lt;/b&gt; and &lt;b&gt;Schedule&lt;/b&gt;. Propagate will push all change relations from &lt;b&gt;ChangeItemRevision&lt;/b&gt; to leaf level tasks in all of the schedules. Rollup will pull all change relations from schedules to &lt;b&gt;ChangeItemRevision&lt;/b&gt;. &lt;br /&gt;List of relation considered during Rollup and Propagate are : &lt;b&gt;CMHasProblemItem&lt;/b&gt; / &lt;b&gt;CMHasImpactedItem&lt;/b&gt; / &lt;b&gt;CMReferences&lt;/b&gt; / &lt;b&gt;CMHasSolutionItem&lt;/b&gt;." id="Teamcenter::Soa::Server::ServiceData#Csi1::Soa::CmSmAwInterface::RelationManagement::propagateOrRollupRelations#bool$const,Teamcenter::ChangeItemRevision,&amp;$const,std::vector&lt;Teamcenter::Schedule&gt;,&amp;" name="Csi1::Soa::CmSmAwInterface::RelationManagement::propagateOrRollupRelations" returnConst="false" returnDescription="The ServiceData containing newly created relations in the created list. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;233043:  The condition is not satisfied. (Note : This is very common failure scenario. In change manager, user cannot create relations with change object or schedule if specific condition is not satisfied. In case of condition validation failure this error will be shown along with condition description)&lt;br /&gt;233018:  The Relation creation is not allowed.&lt;br /&gt;233013:  The specified tag is invalid or null." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, : Rollup is performed; &lt;br /&gt;Otherwise, Propagate is performed." freeOutputMemory="false" inputOutput="Input" name="isRollup">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="The Change Item Revision." freeOutputMemory="false" inputOutput="Input" name="changeRev">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::ChangeItemRevision" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="List of Schedules. Propagate or Rollup is performed on all of the leaf level tasks of this schedule list.." freeOutputMemory="false" inputOutput="Input" name="planItems">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="Teamcenter::Schedule" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Csi1cmsmawinterface" createRelease="Awp03.1.0" dependencies="" description="Propagate or rollup relations between &lt;b&gt;ChangeItemRevision&lt;/b&gt; and &lt;b&gt;Schedule&lt;/b&gt;. Propagate will push all change relations from &lt;b&gt;ChangeItemRevision&lt;/b&gt; to leaf level tasks in all of the schedules. Rollup will pull all change relations from schedules to &lt;b&gt;ChangeItemRevision&lt;/b&gt;. &lt;br /&gt;List of relation considered during Rollup and Propagate are : &lt;b&gt;CMHasProblemItem&lt;/b&gt; / &lt;b&gt;CMHasImpactedItem&lt;/b&gt; / &lt;b&gt;CMReferences&lt;/b&gt; / &lt;b&gt;CMHasSolutionItem&lt;/b&gt;." exceptionCondition="" id="propagateOrRollupRelations#bool$const,Teamcenter::ChangeItemRevision,&amp;$const,std::vector&lt;Teamcenter::Schedule&gt;,&amp;" interface="Csi1::Soa::CmSmAwInterface::RelationManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="propagateOrRollupRelations" opTemplate="Teamcenter::Soa::Server::ServiceData#Csi1::Soa::CmSmAwInterface::RelationManagement::propagateOrRollupRelations#bool$const,Teamcenter::ChangeItemRevision,&amp;$const,std::vector&lt;Teamcenter::Schedule&gt;,&amp;" returnDescription="The ServiceData containing newly created relations in the created list. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;233043:  The condition is not satisfied. (Note : This is very common failure scenario. In change manager, user cannot create relations with change object or schedule if specific condition is not satisfied. In case of condition validation failure this error will be shown along with condition description)&lt;br /&gt;233018:  The Relation creation is not allowed.&lt;br /&gt;233013:  The specified tag is invalid or null." useCase="">
+                 
+            <ParameterInfo description="If true, : Rollup is performed; &lt;br /&gt;Otherwise, Propagate is performed." parameterName="isRollup"/>
+                 
+            <ParameterInfo description="The Change Item Revision." parameterName="changeRev"/>
+                 
+            <ParameterInfo description="List of Schedules. Propagate or Rollup is performed on all of the leaf level tasks of this schedule list.." parameterName="planItems"/>
+               
+        </Operation>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <Command commandId="Csi1PropagateChangeContent" description="Propagate Change Content to Schedule." displayName="Propagate" icon="Csi1PropagateChangeContent" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Propagate"/>
+           
+        <Command commandId="Csi1RollupChangeContent" description="Rollup Change Content from Schedule." displayName="Rollup" icon="Csi1RollupChangeContent" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Rollup"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Awp0ShowObject_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Awp0ShowObject_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Cm1AllChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Cm1AllChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Cm1ApprovedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Cm1ApprovedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Cm1DisapprovedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Cm1DisapprovedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Cm1SavedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Cm1SavedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="" childCommandId="Csi1PropagateChangeContent" commandCollectionId="Cm1SubmittedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Csi1PropagateChangeContent" childCommandId="Csi1RollupChangeContent" commandCollectionId="Cm1SubmittedChanges_oneStep" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <Icon description="Propagate Change content to schedule." name="Csi1PropagateChangeContent"/>
+           
+        <Icon description="Rollup Change content from Schedule to Change." name="Csi1RollupChangeContent"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="ja_JP" status="Approved">整合ターゲットプロバイダ</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="ja_JP" status="Approved">可能な更新アクション</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="ja_JP" status="Approved">BOM更新</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="ja_JP" status="Approved">パートの色が重要であるかを指示</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="ja_JP" status="Approved">パートが未仕上げかを指示</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="ja_JP" status="Approved">BOM更新</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="ja_JP" status="Approved">色付きパート</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="ja_JP" status="Approved">未仕上げ</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="ja_JP" status="Approved">なし</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="ja_JP" status="Approved">外注したデザイン</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="ja_JP" status="Approved">購入したデザイン</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="ja_JP" status="Approved">社内デザイン</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="ja_JP" status="Approved">未割当て</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="ja_JP" status="Approved">一般パートに整合</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="ja_JP" status="Approved">整合されたパートコンテキスト</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="ja_JP" status="Approved">整合済みパートリリースステータス</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="ja_JP" status="Approved">整合されたパート</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="ja_JP" status="Approved">パートは整合されている</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="ja_JP" status="Approved">必要なパート</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="ja_JP" status="Approved">整合されたパート</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="ja_JP" status="Approved">整合されたデザインコンテキスト</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="ja_JP" status="Approved">整合済みデザインリリースステータス</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="ja_JP" status="Approved">整合されたデザイン</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="ja_JP" status="Approved">デザインは整合されている</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="ja_JP" status="Approved">必要なデザイン</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="ja_JP" status="Approved">整合されたデザイン</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="ja_JP" status="Approved">更新アクション</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="ja_JP" status="Approved">BOM生成が成功しました</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="ja_JP" status="Approved">BOM更新に成功しました</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="ja_JP" status="Approved">整合が存在します</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="ja_JP" status="Approved">「作成および更新」コマンドの可視性を定義します。 それは、デザインオブジェクトでのみ使用可能です。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

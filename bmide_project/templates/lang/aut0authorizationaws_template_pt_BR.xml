@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="pt_BR" status="Approved">Licenças</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="pt_BR" status="Approved">Licenças</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="pt_BR" status="Approved">Adicionar projeto</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="pt_BR" status="Approved">Condição de visibilidade de comando no lado do servidor para o comando Licenças. Este comando deve ficar visível para o Teamcenter versão &lt;=11.2.3. Ele deve ficar visível apenas se o objeto selecionado for de tipo WorkspaceObject, Dataset ou formulário. Ele não deve ficar visível se o objeto selecionado for de tipo EPMTask ou aprovação. Ele deve ficar visível se o usuário conectado for um membro do grupo dba ou estiver na função de administrador do ITAR ou administrador de IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="pt_BR" status="Approved">Condição de visibilidade de comando no lado do servidor para o comando Licenças. Este comando deve ficar visível para o Teamcenter versão &gt;=11.3. Ele deve ficar visível apenas se o objeto selecionado for de tipo WorkspaceObject, Dataset ou formulário. Ele não deve ficar visível se o objeto selecionado for de tipo EPMTask ou aprovação. Ele deve ficar visível se o usuário conectado for um membro do grupo dba ou estiver na função de administrador do ITAR ou administrador de IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="pt_BR" status="Approved">Condição de visibilidade do comando do lado do servidor para o comando Adicionar projeto. Este comando somente deve estar visível se o usuário estiver conectado com um grupo privilegiado ou com o grupo de administração do projeto e a função de Administrador do projeto.</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="pt_BR" status="Approved">Provedor de projeto</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="pt_BR" status="Approved">Provedor da equipe do projeto</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="pt_BR" status="Approved">Pode ser modificado?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

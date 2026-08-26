@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="ru_RU" status="Approved">Добавить альтернативу</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="ru_RU" status="Approved">Применяемость</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="ru_RU" status="Approved">Релиз</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="ru_RU" status="Approved">Удалить альтернативу</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="ru_RU" status="Approved">Create Revision Baseline</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="ru_RU" status="Approved">Determines whether "Add Alternate" command should be visible or not.</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="ru_RU" status="Approved">Проверяет, поддерживается ли применяемость выражения.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="ru_RU" status="Approved">Определяет возможность выполнения команды "Применяемость ревизии" для выбранного объекта.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="ru_RU" status="Approved">Determines whether "Remove Alternate" command should be visible or not.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="ru_RU" status="Approved">This condition determines whether Create Revision Baseline command is supported or not for input object.</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="ru_RU" status="Approved">Базовый объект внешней системы</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="ru_RU" status="Approved">Дополнительные условия запроса</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="ru_RU" status="Approved">Дополнительные условия поиска</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="ru_RU" status="Approved">Альтернативные поставщики</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="ru_RU" status="Approved">Фильтр поиска по дате</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="ru_RU" status="Approved">Задание столбцов для динамического составного свойства </key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="ru_RU" status="Approved">Индексация полнотекстового поиска</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="ru_RU" status="Approved">Выполнение полнотекстового поиска</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="ru_RU" status="Approved">Избранное</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="ru_RU" status="Approved">Поставщик избранных объектов</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="ru_RU" status="Approved">Folder Collection Provider</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="ru_RU" status="Approved">Folder Collection</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="ru_RU" status="Approved">Поиск по ключевым словам</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="ru_RU" status="Approved">Получить дочерний провайдер</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="ru_RU" status="Approved">Список значений контекстного идентификатора</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="ru_RU" status="Approved">Провайдер</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="ru_RU" status="Approved">Последняя использованная конфигурация столбцов</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="ru_RU" status="Approved">Именованная конфигурация столбцов</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="ru_RU" status="Approved">Фильтр поиска чисел</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="ru_RU" status="Approved">Поставщик строки набора объектов</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="ru_RU" status="Approved">Быстрый поиск списка значений</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="ru_RU" status="Approved">Поставщик последних объектов</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="ru_RU" status="Approved">Провайдер ссылок</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="ru_RU" status="Approved">Настраиваемый бизнес-объект LOV для отношений</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="ru_RU" status="Approved">Провайдер ресурсов</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="ru_RU" status="Approved">Список значений правил ревизии</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="ru_RU" status="Approved">Провайдер подписи</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="ru_RU" status="Approved">Фильтр поиска строк</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="ru_RU" status="Approved">Поставщик свойств таблицы</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="ru_RU" status="Approved">Служба поиска типов</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="ru_RU" status="Approved">Назначение пользователя</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="ru_RU" status="Approved">Поставщик VNC</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="ru_RU" status="Approved">Отношение сопоставления рабочего пространства</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="ru_RU" status="Approved">Определение рабочего пространства</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="ru_RU" status="Approved">Столбец набора объектов</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="ru_RU" status="Approved">Строка набора объектов</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="ru_RU" status="Approved">Набор объектов</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="ru_RU" status="Approved">Контекст клиента</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="ru_RU" status="Approved">Выбор</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="ru_RU" status="Approved">Расширенный поиск</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ru_RU" status="Approved">Ошибка импорта структуры</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ru_RU" status="Approved">Структура импортирована успешно</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ru_RU" status="Approved">Excel Import Failed</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ru_RU" status="Approved">Excel Import Successful</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ru_RU" status="Approved">Команды по работе с ячейками Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ru_RU" status="Approved">Команды контекстного меню Active Workspace.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ru_RU" status="Approved">Глобальная панель инструментов Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ru_RU" status="Approved">Прочие команды Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ru_RU" status="Approved">Команды профиля Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ru_RU" status="Approved">Команды инструментов просмотра Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ru_RU" status="Approved">Команды XRT Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ru_RU" status="Approved">Ошибка импорта структуры</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ru_RU" status="Approved">Структура импортирована успешно</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ru_RU" status="Approved">Excel Import Failed</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ru_RU" status="Approved">Excel Import Successful</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ru_RU" status="Approved">Ячейка Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ru_RU" status="Approved">Контекстное меню Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ru_RU" status="Approved">Глобальная панель инструментов Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ru_RU" status="Approved">Прочие команды Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ru_RU" status="Approved">Команды профиля Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ru_RU" status="Approved">Инструменты просмотра</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ru_RU" status="Approved">Active Workspace XRT</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="ru_RU" status="Approved">Имя класса объекта внешней системы</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="ru_RU" status="Approved">Имя внешней системы</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="ru_RU" status="Approved">URI-адрес внешней системы</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="ru_RU" status="Approved">Список имен свойств</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="ru_RU" status="Approved">Имя расширенного запроса</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="ru_RU" status="Approved">Имя для быстрого поиска</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="ru_RU" status="Approved">Дата окончания</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="ru_RU" status="Approved">Имя фильтра</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="ru_RU" status="Approved">Дата начала</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="ru_RU" status="Approved">Отображаемое имя столбца</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="ru_RU" status="Approved">Путь к динамическому составному свойству</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="ru_RU" status="Approved">Тип объекта</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="ru_RU" status="Approved">Имя свойства</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="ru_RU" status="Approved">Пользователь, выполняющий операцию</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="ru_RU" status="Approved">Время последнего выполнения</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="ru_RU" status="Approved">Сохраненный поиск</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="ru_RU" status="Approved">Диаграмма</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="ru_RU" status="Approved">Язык сохраненного поиска</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="ru_RU" status="Approved">Фильтры</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="ru_RU" status="Approved">Фильтры по дате</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="ru_RU" status="Approved">Allow Others to View</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="ru_RU" status="Approved">Числовые фильтры</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="ru_RU" status="Approved">Критерии</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="ru_RU" status="Approved">Фильтры строк</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="ru_RU" status="Approved">Ссылка на конфигурацию столбцов</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="ru_RU" status="Approved">Кем использовано последним</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="ru_RU" status="Approved">Идентификатор конфигурации столбцов</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="ru_RU" status="Approved">Имя конфигурации столбцов</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="ru_RU" status="Approved">Конфигурация столбцов Является администратором</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="ru_RU" status="Approved">Конечное значение</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="ru_RU" status="Approved">Имя фильтра</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="ru_RU" status="Approved">Начальное значение</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="ru_RU" status="Approved">Имя фильтра</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="ru_RU" status="Approved">Электронная почта</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="ru_RU" status="Approved">Дата окончания</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="ru_RU" status="Approved">Телефон</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="ru_RU" status="Approved">Дата начала</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="ru_RU" status="Approved">Пользователь</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="ru_RU" status="Approved">Рабочее пространство по умолчанию</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="ru_RU" status="Approved">Идентификатор рабочего пространства</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="ru_RU" status="Approved">Длина массива</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="ru_RU" status="Approved">Тип данных</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="ru_RU" status="Approved">Массив</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="ru_RU" status="Approved">Свойство связи</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="ru_RU" status="Approved">Длина</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="ru_RU" status="Approved">Отображаемое имя свойства</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="ru_RU" status="Approved">Имя свойства</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="ru_RU" status="Approved">Сортируемый пользователем</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="ru_RU" status="Approved">Допускается сокращение</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="ru_RU" status="Approved">Первичное</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="ru_RU" status="Approved">Имя ссылочного свойства</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="ru_RU" status="Approved">Имя отображения типа отношения</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="ru_RU" status="Approved">Имя типа отношения</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="ru_RU" status="Approved">Отношение</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="ru_RU" status="Approved">Отношение</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="ru_RU" status="Approved">Вторичное</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="ru_RU" status="Approved">Конечный объект</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="ru_RU" status="Approved">Изменяемый</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="ru_RU" status="Approved">Столбцы набора объектов</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="ru_RU" status="Approved">Строки набора объектов</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="ru_RU" status="Approved">Total number of object set rows</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="ru_RU" status="Approved">Свойства ячеек объекта</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="ru_RU" status="Approved">Сертификат FMS на эскиз изображения</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="ru_RU" status="Approved">Объект</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="ru_RU" status="Approved">Добавить проверяющего по режиму выполнения</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="ru_RU" status="Approved">Добавить задачу по режиму выполнения</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="ru_RU" status="Approved">Назначаемый</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="ru_RU" status="Approved">Исполняемый</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="ru_RU" status="Approved">Продвигаемый</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="ru_RU" status="Approved">Область клиента</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="ru_RU" status="Approved">Выбор</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="ru_RU" status="Approved">Отображаемое имя столбца</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="ru_RU" status="Approved">Фильтры</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="ru_RU" status="Approved">Фильтр включен?</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="ru_RU" status="Approved">Столбец заморожен?</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="ru_RU" status="Approved">Is Text Wrapped</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="ru_RU" status="Approved">Имена настроек</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="ru_RU" status="Approved">Значения опции</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="ru_RU" status="Approved">Имя контекста</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="ru_RU" status="Approved">Выбор родительского объекта</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="ru_RU" status="Approved">Выбранные объекты</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="ru_RU" status="Approved">Имеет потомков</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="ru_RU" status="Approved">Изменяемый</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="ru_RU" status="Approved">Идентификатор</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="ru_RU" status="Approved">Идентификатор псевдонима</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="ru_RU" status="Approved">Альтернативный идентификатор</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="ru_RU" status="Approved">Настроенная ревизия</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="ru_RU" status="Approved">Идентификатор</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="ru_RU" status="Approved">Необходимые участники</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="ru_RU" status="Approved">Участники для отображения</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="ru_RU" status="Approved">Идентификатор псевдонима</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="ru_RU" status="Approved">Альтернативный идентификатор</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="ru_RU" status="Approved">Флажок</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="ru_RU" status="Approved">Удаленный тип</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="ru_RU" status="Approved">Удаленные сайты</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="ru_RU" status="Approved">Дата создания</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="ru_RU" status="Approved">Удаленный тип</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="ru_RU" status="Approved">Удаленные сайты</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="ru_RU" status="Approved">Добавить проверяющего по режиму выполнения</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="ru_RU" status="Approved">Добавить задачу по режиму выполнения</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="ru_RU" status="Approved">Назначаемый</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="ru_RU" status="Approved">Исполняемый</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="ru_RU" status="Approved">Продвигаемый</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="ru_RU" status="Approved">Структуры</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="ru_RU" status="Approved">Участники проектной команды</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="ru_RU" status="Approved">Правило ревизии</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="ru_RU" status="Approved">Замещающие</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="ru_RU" status="Approved">Замещающее для</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="ru_RU" status="Approved">Базовая линия создана</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="ru_RU" status="Approved">Прокси-объект отношения</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="ru_RU" status="Approved">Провайдер трассировки</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="ru_RU" status="Approved">Прокси-объект трассировки  </key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="ru_RU" status="Approved">Матрица трассируемости</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="ru_RU" status="Approved">Этот параметр позволяет процессу экспорта экспортировать все вложения набора данных с экспортированным файлом Excel в формате zip.</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="ru_RU" status="Approved">Вхождение -&gt; Вхождение</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="ru_RU" status="Approved">Вхождение -&gt; Ревизия</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="ru_RU" status="Approved">Ревизия -&gt; Вхождение</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="ru_RU" status="Approved">Ревизия -&gt; Ревизия</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="ru_RU" status="Approved">Включить вложения</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="ru_RU" status="Approved">Направление</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="ru_RU" status="Approved">Связанный объект</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="ru_RU" status="Approved">Объект отношения</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="ru_RU" status="Approved">Тип трассировки связи</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="ru_RU" status="Approved">Выбранный объект</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="ru_RU" status="Approved">Имеет потомков</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="ru_RU" status="Approved">Является трассировкой вхождений</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="ru_RU" status="Approved">Linked Item Type</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="ru_RU" status="Approved">Заданный элемент</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="ru_RU" status="Approved">Open Object Info</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="ru_RU" status="Approved">Родитель</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="ru_RU" status="Approved">Тип связанного объекта</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="ru_RU" status="Approved">Вложенная матрица</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="ru_RU" status="Approved">Комментарии</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="ru_RU" status="Approved">Требует проверки</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="ru_RU" status="Approved">Создать трассировку</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="ru_RU" status="Approved">Редактировать в Word</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="ru_RU" status="Approved">Экспорт в Office</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="ru_RU" status="Approved">Команда Сравнить текст</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Сравнить текст". Доступно только для объектов Требований и подтипов.</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="ru_RU" status="Approved">Задает условия для редактирования объекта в приложении MSWord.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна или нет быть видимой команда Arm0CreateTraceLink.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="ru_RU" status="Approved">Это условие скрывает команду Заменить для объектов типа 'FullText'..</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="ru_RU" status="Approved">Список значений расширенного поиска</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="ru_RU" status="Approved">Избранный сохраненный поиск</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="ru_RU" status="Approved">Активные папки</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="ru_RU" status="Approved">Проекты</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="ru_RU" status="Approved">Project Data Provider</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="ru_RU" status="Approved">Project Data Templates</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="ru_RU" status="Approved">Project Data Template</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="ru_RU" status="Approved">Project Folder Provider</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="ru_RU" status="Approved">Project Folder</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="ru_RU" status="Approved">Project Sub-folder</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="ru_RU" status="Approved">Saved Query List Provider</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="ru_RU" status="Approved">Solr Property Provider</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="ru_RU" status="Approved">Поставщик папки поиска</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="ru_RU" status="Approved">Правило общего доступа к активной папке</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="ru_RU" status="Approved">Активная папка</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="ru_RU" status="Approved">Идентификатор группы</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="ru_RU" status="Approved">Тип</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="ru_RU" status="Approved">Проекты</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="ru_RU" status="Approved">Статус выпуска</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="ru_RU" status="Approved">Дата создания</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="ru_RU" status="Approved">Дата изменения</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="ru_RU" status="Approved">Дата выпуска</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="ru_RU" status="Approved">Стандартный</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="ru_RU" status="Approved">Дата</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="ru_RU" status="Approved">Классификация</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="ru_RU" status="Approved">Сохраненный поиск</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="ru_RU" status="Approved">Пользователь</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="ru_RU" status="Approved">Is Active Template</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="ru_RU" status="Approved">Имеет потомков</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="ru_RU" status="Approved">Изменяемый</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="ru_RU" status="Approved">Описание</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="ru_RU" status="Approved">Проект</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="ru_RU" status="Approved">Активная папка</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="ru_RU" status="Approved">Активная папка</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="ru_RU" status="Approved">Целевые аксессоры</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="ru_RU" status="Approved">Может выполнить поиск</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="ru_RU" status="Approved">Общая</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="ru_RU" status="Approved">Правило</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="ru_RU" status="Approved">Определение активной папки</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="ru_RU" status="Approved">Тип поиска</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="ru_RU" status="Approved">Personalization data</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="ru_RU" status="Approved">Добавить компонент</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="ru_RU" status="Approved">Добавить подпись</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="ru_RU" status="Approved">Добавить изображение профиля</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="ru_RU" status="Approved">Добавить проект</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="ru_RU" status="Approved">Добавить в Избранное</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="ru_RU" status="Approved">Сведения</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="ru_RU" status="Approved">Расширенный поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="ru_RU" status="Approved">Скрыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="ru_RU" status="Approved">Переместить вниз</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="ru_RU" status="Approved">Переместить вверх</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="ru_RU" status="Approved">Расположить</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="ru_RU" status="Approved">Отобразить</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="ru_RU" status="Approved">Назначить проекты (Устарело) </key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="ru_RU" status="Approved">Проекты</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="ru_RU" status="Approved">Отменить блокировку</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="ru_RU" status="Approved">Отменить изменения</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="ru_RU" status="Approved">Изменение владельца</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="ru_RU" status="Approved">Изменить пароль</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="ru_RU" status="Approved">Изменить тему</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="ru_RU" status="Approved">Разблокировать</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="ru_RU" status="Approved">Заблокировать</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="ru_RU" status="Approved">Показать цветовой фильтр</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="ru_RU" status="Approved">Расположить</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="ru_RU" status="Approved">Метки</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="ru_RU" status="Approved">Копировать</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="ru_RU" status="Approved">Создать альтернативный идентификатор</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="ru_RU" status="Approved">Папка "Рабочая область"</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="ru_RU" status="Approved">Вырезать</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="ru_RU" status="Approved">Удалить</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="ru_RU" status="Approved">Удалить</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="ru_RU" status="Approved">Удалить сечение</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="ru_RU" status="Approved">Удалить</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="ru_RU" status="Approved">Очистить выбранное</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="ru_RU" status="Approved">Отсоединить лицензию</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="ru_RU" status="Approved">Правка локализации (Single)</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="ru_RU" status="Approved">Сохранить поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="ru_RU" status="Approved">Выйти из полноэкранного режима</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="ru_RU" status="Approved">Полный экран</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="ru_RU" status="Approved">Полнотекстовый поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="ru_RU" status="Approved">Главная</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="ru_RU" status="Approved">Создать отчет</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="ru_RU" status="Approved">Фильтры</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="ru_RU" status="Approved">Метка</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="ru_RU" status="Approved">Открыть в узле</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="ru_RU" status="Approved">Открыть в узле</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="ru_RU" status="Approved">Метка</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="ru_RU" status="Approved">Переключить список отображения</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="ru_RU" status="Approved">Создать значение имени</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="ru_RU" status="Approved">Навигация</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="ru_RU" status="Approved">Сведения</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="ru_RU" status="Approved">Открыть в NX</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="ru_RU" status="Approved">Открыть в новой вкладке</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="ru_RU" status="Approved">Открыть в новом окне</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="ru_RU" status="Approved">Открыть в клиенте Office</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="ru_RU" status="Approved">Открыть в толстом клиенте</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="ru_RU" status="Approved">Открыть новый вид в узле</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="ru_RU" status="Approved">Открыть в визуализации</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="ru_RU" status="Approved">Вставить</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="ru_RU" status="Approved">Закрепить на главной странице</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="ru_RU" status="Approved">Прикрепить поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="ru_RU" status="Approved">Ось</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="ru_RU" status="Approved">Отсутствует обработчик команды</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="ru_RU" status="Approved">Печать</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="ru_RU" status="Approved">Открыть в виде для печати</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="ru_RU" status="Approved">Удалить из Избранного</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="ru_RU" status="Approved">Удалить проект</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="ru_RU" status="Approved">Заменить файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="ru_RU" status="Approved">Создать отчет</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="ru_RU" status="Approved">Сохранить изменения</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="ru_RU" status="Approved">Сохранить поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="ru_RU" status="Approved">Фильтры поиска</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="ru_RU" status="Approved">Поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="ru_RU" status="Approved">Выбрать все</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="ru_RU" status="Approved">Задать или очистить код расположения</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="ru_RU" status="Approved">Копировать связь</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="ru_RU" status="Approved">Добавить к</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="ru_RU" status="Approved">Администрирование</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="ru_RU" status="Approved">Оповещения</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="ru_RU" status="Approved">Создать документ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="ru_RU" status="Approved">Добавить</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="ru_RU" status="Approved">Создать документ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="ru_RU" status="Approved">Рабочая область</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="ru_RU" status="Approved">Изображения</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="ru_RU" status="Approved">Список</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="ru_RU" status="Approved">Выгрузить файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="ru_RU" status="Approved">Преобразовать</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="ru_RU" status="Approved">Пересмотреть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="ru_RU" status="Approved">Сохранить как или Пересмотреть</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="ru_RU" status="Approved">Список с отчетом</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="ru_RU" status="Approved">Таблица с отчетом</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="ru_RU" status="Approved">Таблица</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="ru_RU" status="Approved">Визуализация</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="ru_RU" status="Approved">Выход</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="ru_RU" status="Approved">Общая</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="ru_RU" status="Approved">Таблица</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="ru_RU" status="Approved">Начать изменение</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="ru_RU" status="Approved">Открепить с главной страницы</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="ru_RU" status="Approved">Открепить</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="ru_RU" status="Approved">Открепить поиск</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="ru_RU" status="Approved">Экспорт файла</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="ru_RU" status="Approved">Выгрузить файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="ru_RU" status="Approved">Отображение</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="ru_RU" status="Approved">Аннулировать подпись</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="ru_RU" status="Approved">Данное условие задает, будет ли объект пользователя представлять текущего зарегистрированного пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли быть видимой команда Awp0AddToFavorites</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="ru_RU" status="Approved">Данное условие скрывает команду Вырезать для объектов типа Альтернативный ID.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="ru_RU" status="Approved">Условие видимости команды Назначить проекты на стороне сервера. Эта команда должна отображаться, только если тип выбранного объекта: WorkspaceObject, набор данных или форма. Команда не отображается, если тип объекта: EPMTask или Подписание. Команда не отображается, если свойство assignable_projects не задано для текущего пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Назначить проекты" на стороне сервера. Эта команда должна быть видимой в версии Teamcenter &gt;=10.1.5 и &lt;=11.2.3 и только если тип выбранного объекта: WorkspaceObject, набор данных или форма. Команда не должна отображаться, если тип выбранного объекта: EPMTask или Подписание. Команда не отображается, если свойство assignable_projects не задано для текущего пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="ru_RU" status="Approved">Данное условие задает, будет ли возможно отменить блокировку экземпляров определенного типа бизнес-объекта в текущем состоянии.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="ru_RU" status="Approved">Данное условие задает возможность изменения владения экземпляров определенного типа бизнес-объектов.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="ru_RU" status="Approved">Определяет, будет ли объект пользователя представлять текущего зарегистрированного пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="ru_RU" status="Approved">Данное условие задает, будет ли возможно выполнить разблокировку экземпляров определенного типа бизнес-объекта в текущем состоянии.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="ru_RU" status="Approved">Данное условие задает, будет ли возможно выполнить блокировку экземпляров определенного типа бизнес-объектов. Зависит от следующих проверок: возможна ли блокировка типа; если экземпляр является изменяемым в текущем состоянии.</key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="ru_RU" status="Approved">Условие проверяет, что объект не является Null и не является сохраненным типом поиска.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="ru_RU" status="Approved">Видимость команды Создать альтернативный идентификатор.</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="ru_RU" status="Approved">Данное условие задает, будет ли переданный объект Fnd0Selection и его выбранное родительское свойство иметь значение не Null.</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="ru_RU" status="Approved">Это условие определяет, разрешается ли удаление запрашиваемого вида объекта.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="ru_RU" status="Approved">Это условие определяет, есть ли у пользователя доступ на перевод выбранного бизнес-объекта.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, что для сохраненного поиск не задано Null.</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли быть видимой команда Awp0InContextReports.</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="ru_RU" status="Approved">Данное условие используется для проверки, является ли команда видимой при выбранном ACE объекте. Проверка самого объекта ACE будет выполняться на стороне клиента.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="ru_RU" status="Approved">Данное условие задает, имеет ли экземпляр переданного бизнес-объекта тип "Awp0AWCExternalSystemObject".</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="ru_RU" status="Approved">Проверяет необходимость отображения команды Awp0PinObject. Исключением являются типы объектов Сохраненные запросы, где эта команда не отображается. </key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="ru_RU" status="Approved">Проверяет необходимость отображения команды Awp0PinSearch.</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли быть видимой команда Awp0Print.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли быть видимой команда Awp0RemoveFromFavorites</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="ru_RU" status="Approved">Данное условие задает, являются ли экземпляры бизнес-объекта Набор данных изменяемыми.</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="ru_RU" status="Approved">Отключить команду навигации для поиска из вспомогательного расположения Расширенный поиск </key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет набор видимых команд или команду очистить расположение</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="ru_RU" status="Approved">This condition determines whether a ReviseInput Constant is not empty.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="ru_RU" status="Approved">Данное условие задает, является ли переданный бизнес-объект ревизией элемента или значение константы ReviseInput не является пустым.</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="ru_RU" status="Approved">Проверяет, является ли выбранный образец доступным для подписки.</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="ru_RU" status="Approved">Данное условие задает, имеет ли экземпляр переданного бизнес-объекта тип "ReportDefinition".</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="ru_RU" status="Approved">Проверяет необходимость отображения команды Awp0UnPinObjec. Исключением являются типы объектов Сохраненные запросы, где эта команда не отображается. </key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="ru_RU" status="Approved">Проверяет необходимость отображения команды Awp0UnPinSearch.</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="ru_RU" status="Approved">Checks if the Awp0ViewFile command should be visible.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ru_RU" status="Approved">Команды с набором объектов Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ru_RU" status="Approved">Команды таблиц Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ru_RU" status="Approved">Набор объектов Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ru_RU" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="ru_RU" status="Approved">Описание</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="ru_RU" status="Approved">Скрыто</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="ru_RU" status="Approved">Данные JSON</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="ru_RU" status="Approved">Personalization data ID</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="ru_RU" status="Approved">Personalization data subtype</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="ru_RU" status="Approved">Personalization data type</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="ru_RU" status="Approved">Область</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="ru_RU" status="Approved">Стартовые плитки</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="ru_RU" status="Approved">Коллекция плитки</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="ru_RU" status="Approved">Прокси-сервер для плиточных приложений</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="ru_RU" status="Approved">Шаблон плитки</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="ru_RU" status="Approved">Плитка</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="ru_RU" status="Approved">По умолчанию</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="ru_RU" status="Approved">Внешняя ссылка</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="ru_RU" status="Approved">Статический ресурс</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="ru_RU" status="Approved">Команда</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="ru_RU" status="Approved">Мелкий</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="ru_RU" status="Approved">Широкий</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="ru_RU" status="Approved">Большой</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="ru_RU" status="Approved">Расположения администратора</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="ru_RU" status="Approved">Прикрепленные объекты</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="ru_RU" status="Approved">Расположения</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="ru_RU" status="Approved">Команды и действия</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="ru_RU" status="Approved">Сохраненные настройки поиска</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="ru_RU" status="Approved">Избранное</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="ru_RU" status="Approved">Главное</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="ru_RU" status="Approved">Быстрые ссылки</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="ru_RU" status="Approved">Группа плиток</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="ru_RU" status="Approved">Интеракт.</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="ru_RU" status="Approved">Номер заявки</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="ru_RU" status="Approved">Защищено</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="ru_RU" status="Approved">Скрыто</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="ru_RU" status="Approved">Размер плитки</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="ru_RU" status="Approved">Исходная коллекция</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="ru_RU" status="Approved">Область</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="ru_RU" status="Approved">Идентификатор шаблона плитки</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="ru_RU" status="Approved">Плитка</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="ru_RU" status="Approved">Тип действия</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="ru_RU" status="Approved">Действие</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="ru_RU" status="Approved">Имя содержимого</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="ru_RU" status="Approved">Источник значков</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="ru_RU" status="Approved">Значок</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="ru_RU" status="Approved">Поддерживаемые размеры плитки</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="ru_RU" status="Approved">Идентификатор шаблона</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="ru_RU" status="Approved">Индекс темы</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="ru_RU" status="Approved">Сконфигурированный объект</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="ru_RU" status="Approved">Значения содержимого</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="ru_RU" status="Approved">Отображаемое имя</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="ru_RU" status="Approved">Сообщения</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="ru_RU" status="Approved">Идентификатор прикрепленного объекта</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="ru_RU" status="Approved">Прикрепленный объект</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="ru_RU" status="Approved">Параметры действия</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="ru_RU" status="Approved">Стиль</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="ru_RU" status="Approved">Идентификатор плитки</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="ru_RU" status="Approved">Шаблон плитки</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="ru_RU" status="Approved">Dynamic Participant Sync Tasks View Provider</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="ru_RU" status="Approved">Поставщик списка назначений процесса</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="ru_RU" status="Approved">Participant Key Roles</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="ru_RU" status="Approved">Participant Type Provider</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="ru_RU" status="Approved">Поставщик подбора людей</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="ru_RU" status="Approved">Process History Tree Provider</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="ru_RU" status="Approved">Process History Row Info</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="ru_RU" status="Approved">Служба поиска задач</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="ru_RU" status="Approved">Поставщик отчетов рабочего процесса</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="ru_RU" status="Approved">Бизнес-объект списка значений шаблона рабочего процесса</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="ru_RU" status="Approved">Условие для оценки постоянной бизнес-объекта Awp0WorkflowSubmittable и результатов ограничений динамического списка объектов Awp0WorkflowTemplateLOV.</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="ru_RU" status="Approved">Is Multi-Valued</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="ru_RU" status="Approved">Participant Handler Keyword</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="ru_RU" status="Approved">Participant Key Role Type</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="ru_RU" status="Approved">Participant Key Role</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="ru_RU" status="Approved">Audit Record</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="ru_RU" status="Approved">Терминальный узел</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="ru_RU" status="Approved">Parent audit record</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="ru_RU" status="Approved">Утверждающие</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="ru_RU" status="Approved">Уведомляемые</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="ru_RU" status="Approved">Утверждающие</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="ru_RU" status="Approved">Участники для отображения</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="ru_RU" status="Approved">Участники для отображения</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="ru_RU" status="Approved">Рабочий процесс</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="ru_RU" status="Approved">Прервать задачу</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="ru_RU" status="Approved">Добавить</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="ru_RU" status="Approved">Добавить</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="ru_RU" status="Approved">Добавить замещающее</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="ru_RU" status="Approved">Запросить права на задачу рабочего процесса</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="ru_RU" status="Approved">Передать в рабочий процесс</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="ru_RU" status="Approved">Открыть папку "Мои задачи"</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="ru_RU" status="Approved">Передать задачи (вне офиса)</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="ru_RU" status="Approved">Завершить задачу</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="ru_RU" status="Approved">Задача повышения уровня</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="ru_RU" status="Approved">Задача "Переназначить"</key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="ru_RU" status="Approved">Релиз</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="ru_RU" status="Approved">Удалить участника</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="ru_RU" status="Approved">Удалить замещающее</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="ru_RU" status="Approved">Переназначить участников</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="ru_RU" status="Approved">Заменить</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="ru_RU" status="Approved">Замещение</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="ru_RU" status="Approved">This condition determines if the user belongs to 'Workflow Admin' role.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет или нет видимой команда Awp0AddReviewer. Определяет, принимает ли условие Fnd0AddReviewerPrivilege true или false.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет ли отображаться команда Awp0AddSurrogate. Задает, был ли пользовательский объект выбран текущим пользователем или проверяет условие Fnd0ManageSurrogatePrivilege для текущего пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли отображаться команда Awp0NewWorkflowProcess. Включает команду, если входные бизнес-объекты являются объектами реплики и заблокированы или не являются объектами реплики и не являются заблокированными. Будет дополнительно задано значение Null для свойства fnd0CurrentChangeContext, при котором будет включаться команда. Кроме того, на стороне клиента задана дополнительная логика видимости, определяющая действительные типы поддерживаемых объектов для включения команды в зависимости от провайдера.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет ли отображаться команда Awp0OpenInboxLocation. Задает, был ли пользовательский объект выбран текущим пользователем или проверяет условие Fnd0AccessInboxPrivilege для текущего пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет ли отображаться команда Awp0OutOfOffice. Определяет, будет ли выбранный объект пользователя представлять текущего зарегистрированного пользователя.</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет или нет видимой команда Awp0PerformTask. Определяет, является ли пользователь, выполнивший вход, допустимым для выполнения выбранного объекта подписания или EPMTask.</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет ли отображаться команда Awp0PromoteTask. Определяет, является ли входной бизнес-объект задачей Подписание или EPMTask, а также включает команду "Повысить уровень" в соответствии со значением свойства  awp0PromoteableByMeBehavior.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли отображаться команда Awp0ReassignTask. Определяет, что корневая задача выбранного объекта не является выполненной и удовлетворяет условию Fnd0AssignTaskPrivilege.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли отображаться команда Awp0Release. Определяет, является ли пользователь, выполнивший вход, активным заместителем EPMTask или объектом подписания.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, должна ли отображаться команда Awp0ReplaceMultipleParticipants. Данное условие определяет, являются ли входные бизнес-объекты ревизиями элементов или подтипами ревизий элементов. Кроме того, на стороне клиента задана дополнительная логика видимости, управляющая выбором не менее двух объектов.</key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет или нет видимой команда Awp0StandIn. Разрешает выполнение команды, если пользователь, выполнивший вход, является допустимым заместителем, и не задано активное заменяющее значение EPMTask или объекта подписания.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет или нет видимой команда Awp0RemoveSurrogate. Определяет, имеет ли пользователь, выполнивший вход, право на изменение пользователей-земестителей.</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="ru_RU" status="Approved">Данное условие проверяет, будет или нет видимой команда "Awp0ClaimTask". Определяет, является ли результатом условия "Fnd0AssignTaskPrivilege" значение true или false, а также, является ли вошедший пользователь участником пула ресурсов для EPMTask или подписания.</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="ru_RU" status="Approved">Условие команды Прервать задачу</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="ru_RU" status="Approved">Классифицировать</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="ru_RU" status="Approved">Условие проверки, если текущий пользователь может классифицировать активный объект.</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="ru_RU" status="Approved">Провайдер данных взаимодействия</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="ru_RU" status="Approved">Добавить компонент</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="ru_RU" status="Approved">Открыть в 3D Publishing</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="ru_RU" status="Approved">Открыть в Creo</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="ru_RU" status="Approved">Открыть в Solid Edge</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="ru_RU" status="Approved">Открыть в Solid Edge - Illustrator</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="ru_RU" status="Approved">Open in Solid Edge Structure Editor</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="ru_RU" status="Approved">Открыть в SolidWorks</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="ru_RU" status="Approved">Открыть в AutoCAD</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="ru_RU" status="Approved">Открыть в Inventor</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="ru_RU" status="Approved">Открыть в CATIA</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="ru_RU" status="Approved">Открыть в SampleCAD</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="ru_RU" status="Approved">Условие видимости на стороне сервера задает видимость команды "Добавить компонент". Применяется за счет проверки значений параметров поддерживаемых типов для каждого приложения CAD. Кроме того, будут доступны связанные дополнительные условия видимости, такие как определение режима работы Active Workspace (например, в режиме хоста, прежде чем команда станет видимой).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в 3D Publishing". Проверяет значения параметров для открытых поддерживаемых типов приложения 3D Publishing. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в Creo". Проверяет значения параметров для открытых поддерживаемых типов приложения Creo. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в Solid Edge". Проверяет значения параметров для открытых поддерживаемых типов приложения Solid Edge. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в Solid Edge - Illustrator". Проверяет значения параметров для открытых поддерживаемых типов приложения Solid Edge - Illustrator. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="ru_RU" status="Approved">Determines the visibility of the "Open in Solid Edge Structure Editor" command. It checks the preference values for the supported open types for the Solid Edge Structure Editor application. Additional client-side visibility conditions are associated (such as the one to determine if Active Workspace is running in the hosted mode) before the command is made visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в SolidWorks". Проверяет значения параметров для открытых поддерживаемых типов приложения SolidWorks. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в AutoCAD". Проверяет значения параметров для открытых поддерживаемых типов приложения AutoCAD. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в Inventor". Проверяет значения параметров для открытых поддерживаемых типов приложения Inventor. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в CATIA". Проверяет значения параметров для открытых поддерживаемых типов приложения CATIA. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="ru_RU" status="Approved">Задает видимость команды "Открыть в SampleCAD". Проверяет значения параметров для открытых поддерживаемых типов приложения SampleCAD. Ассоциации с дополнительными условиями видимости команды на стороне клиента (например, те, которые определяют, запущен ли Active Workspace в хост-режиме) создаются, прежде чем команда станет видимой.</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="ru_RU" status="Approved">Calendar Data Provider</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="ru_RU" status="Approved">Organization Tree Provider</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="ru_RU" status="Approved">Task Provider</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

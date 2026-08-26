@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes ActiveRelease="tc2512" currentTemplateVersion="2512.0_0" displayName="Assembly BOM" enableOpsDataDeploy="false" guid="B180F80BA3F3A9BA244F0914AD5CAC46" isDescriptionMandatory="true" name="asm1assemblybom" optional="true" prefixes="Asm1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="pma0automation_template.xml"/>
+    <include file="pma1awautomation_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="partition_template.xml"/>
+    <include file="realization_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+</TcBusinessDataIncludes>

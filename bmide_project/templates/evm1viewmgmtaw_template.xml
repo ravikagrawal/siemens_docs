@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:55:38 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Functionality description="Component for the template - evm1viewmgmtaw" displayName="Engineering Views Active Workspace" enabledForVerificationRules="false" name="evm1viewmgmtaw"/>
+           
+        <Library createRelease="Awp04.3.0" description="Library for Recipe execution in Relationship Browser." isThirdParty="false" name="Evm1RecipeRB" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="ae"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+                 
+            <DependentOn name="property"/>
+                 
+            <DependentOn name="pom"/>
+               
+        </Library>
+           
+        <TcClass className="Evm1AWSavedSearch" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ApprSearchCriteria">
+                 
+            <TcAttribute attributeName="evm1SavedSearchCriteria" attributeType="POM_typed_reference" description="The Active Workspace Saved Search object" exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="Awp0FullTextSavedSearch"/>
+               
+        </TcClass>
+           
+        <OperationInputType artifactName="Evm1AWSavedSearchCreI" description="CreateInput object for &quot;Evm1AWSavedSearch&quot; business object" isAbstract="false" parentTypeName="ApprSearchCriteriaCreI" typeClassName="Evm1AWSavedSearchCreI" typeName="Evm1AWSavedSearchCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="" fieldType="SimpleProperty" propName="evm1SavedSearchCriteria" srcPropName="evm1SavedSearchCriteria"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Evm1AWSavedSearchSvAI" description="SaveAsInput object for &quot;Evm1AWSavedSearch&quot; business object" isAbstract="false" parentTypeName="ApprSearchCriteriaSvAI" typeClassName="Evm1AWSavedSearchSvAI" typeName="Evm1AWSavedSearchSvAI"/>
+           
+        <OperationInputType artifactName="Evm1RecipeResultProxyCreI" description="CreateInput object for &quot;Evm1RecipeResultProxy&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Evm1RecipeResultProxyCreI" typeName="Evm1RecipeResultProxyCreI"/>
+           
+        <OperationInputType artifactName="Evm1RecipeResultProxySvAI" description="SaveAsInput object for &quot;Evm1RecipeResultProxy&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Evm1RecipeResultProxySvAI" typeName="Evm1RecipeResultProxySvAI"/>
+           
+        <OperationInputType artifactName="Evm1ShowRecipeRsltsPro_alt0CreI" description="CreateInput object for &quot;Evm1ShowRecipeRsltsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Evm1ShowRecipeRsltsPro_alt0CreI" typeName="Evm1ShowRecipeRsltsPro_alt0CreI"/>
+           
+        <OperationInputType artifactName="Evm1ShowRecipeRsltsPro_alt0SvAI" description="SaveAsInput object for &quot;Evm1ShowRecipeRsltsProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Evm1ShowRecipeRsltsPro_alt0SvAI" typeName="Evm1ShowRecipeRsltsPro_alt0SvAI"/>
+           
+        <TcRuntimeType artifactName="Evm1RecipeResultProxy" description="Evm1RecipeResultProxy is a sub class of RuntimeBusinessObject. It is the proxy object that represents the recipe results alignment displayed in the Active Workspace." functionality="evm1viewmgmtaw" isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Evm1RecipeResultProxy" typeName="Evm1RecipeResultProxy">
+                 
+            <TcProperty arrayLength="0" description="evm1UnderlyingObject is a UntypedReference which represents the underlying object for the recipe output object ( i.e evm1Source Object) . It is a runtime property." isArray="false" propMaxStringLength="0" propName="evm1UnderlyingObject" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="evm1UnderlyingObjType is a string which represents the type for the recipe output object ( i.e evm1SourceObject ). It is a runtime property." isArray="false" propMaxStringLength="128" propName="evm1UnderlyingObjType" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="evm1SourceObject is a BusinessObject which represents the actual recipe output object ( i.e Awb0Element, ItemRevision, ImanRelation ) . It is a runtime property." isArray="false" propMaxStringLength="0" propName="evm1SourceObject" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="BusinessObject" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="evm1IsOccurrence is a Boolean, true if evm1SourceObject is of type Awb0Element else false." isArray="false" propMaxStringLength="0" propName="evm1IsOccurrence" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="evm1HasChildren is a Boolean property, true if the element has children." isArray="false" propMaxStringLength="0" propName="evm1HasChildren" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="evm1Parent has a reference to the parent proxy element." isArray="false" propMaxStringLength="0" propName="evm1Parent" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Evm1RecipeResultProxy" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcRuntimeType artifactName="Evm1ShowRecipeRsltsProvider" description="This class is subclass of Fnd0BaseProvider. It returns the execute recipe search results." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Evm1ShowRecipeRsltsProvider" typeName="Evm1ShowRecipeRsltsProvider"/>
+           
+        <TcStandardType artifactName="Evm1AWSavedSearch" description="DEPRECATED. SEE SUPPORT ANNOUNCEMENT 2506. Evm1AWSavedSearch will hold a reference to the AW Saved Search object which in turn will have individual filters for object search." functionality="evm1viewmgmtaw" isAbstract="false" parentTypeName="ApprSearchCriteria" typeClassName="Evm1AWSavedSearch" typeName="Evm1AWSavedSearch"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.2.0" description="Interface Name for Business Object Evm1RecipeResultProxy" libraryName="Evm1ViewMgmtAW" name="Evm1RecipeResultProxy" namespace="evm1viewmgmtaw" primaryInterface="true" typeName="Evm1RecipeResultProxy"/>
+           
+        <BusinessObjectInterface createRelease="Awp04.2.0" description="Interface Name for Business Object Evm1ShowRecipeRsltsProvider" libraryName="Evm1ViewMgmtAW" name="Evm1ShowRecipeRsltsProvider" namespace="evm1viewmgmtaw" primaryInterface="true" typeName="Evm1ShowRecipeRsltsProvider"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp05.0.0" description="Getter for a Boolean Property" id="getEvm1HasChildren#bool,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1HasChildren" opTemplate="int#get#bool,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1HasChildren" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.2.0" description="Getter for a Boolean Property" id="getEvm1IsOccurrence#bool,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1IsOccurrence" opTemplate="int#get#bool,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1IsOccurrence" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp05.0.0" description="Getter for a Tag Property" id="getEvm1Parent#tag_t,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1Parent" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1Parent" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.2.0" description="Getter for a Tag Property" id="getEvm1SourceObject#tag_t,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1SourceObject" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1SourceObject" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.2.0" description="Getter for a Tag Property" id="getEvm1UnderlyingObject#tag_t,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1UnderlyingObject" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1UnderlyingObject" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.2.0" description="Getter for a string Property" id="getEvm1UnderlyingObjType#std::string,&amp;$bool,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1UnderlyingObjType" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="evm1UnderlyingObjType" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="Awp04.2.0" description="Getter for Property Display Value" id="getEvm1UnderlyingObjTypeDisplayableValues#std::vector&lt;std::string&gt;,&amp;" interface="evm1viewmgmtaw::Evm1RecipeResultProxy" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getEvm1UnderlyingObjTypeDisplayableValues" opTemplate="int#getDisplayableValues#std::vector&lt;std::string&gt;,&amp;" operationType="GetDisplayableValues" propertyName="evm1UnderlyingObjType" returnDescription="Status. 0 if successful"/>
+           
+        <OperationAttach id="fnd0AskSRUid#std::string,*$bool,*#const" typeName="Evm1RecipeResultProxy"/>
+           
+        <OperationAttach id="fnd0GenerateRecipe#std::string,*" typeName="Evm1RecipeResultProxy"/>
+           
+        <OperationAttach id="fnd0IsRecoverable#bool,*$bool,*#const" typeName="Evm1RecipeResultProxy"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Evm1ShowRecipeRsltsProvider"/>
+           
+        <OperationAttach id="fnd0SetSRUid#const,std::string,*" typeName="Evm1RecipeResultProxy"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Evm1AWSavedSearch" value="Evm1AWSavedSearchCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Evm1RecipeResultProxy" value="Evm1RecipeResultProxyCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Evm1ShowRecipeRsltsProvider" value="Evm1ShowRecipeRsltsPro_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="DisplayName" typeName="Evm1RecipeResultProxy" value="$evm1UnderlyingObject"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Evm1AWSavedSearch" value="Evm1AWSavedSearchSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Evm1RecipeResultProxy" value="Evm1RecipeResultProxySvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Evm1ShowRecipeRsltsProvider" value="Evm1ShowRecipeRsltsPro_alt0SvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1SavedSearchCriteria" typeName="Evm1AWSavedSearch" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1HasChildren" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1IsOccurrence" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1Parent" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1SourceObject" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1UnderlyingObject" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="evm1UnderlyingObjType" typeName="Evm1RecipeResultProxy" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1SavedSearchCriteria" typeName="Evm1AWSavedSearch" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1HasChildren" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1IsOccurrence" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1Parent" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1SourceObject" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1UnderlyingObject" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="evm1UnderlyingObjType" typeName="Evm1RecipeResultProxy" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="evm1SavedSearchCriteria" typeName="Evm1AWSavedSearch" value="true"/>
+           
+        <OperationAttach id="saveAsPost#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*" typeName="Fnd0SearchRecipe"/>
+           
+        <TcExtension cannedExtension="true" description="" internal="false" languageType="CPlusPlus" libraryName="libEvm1ViewMgmtAW" name="Evm1RecipeSaveAsFunction">
+                  
+            <TcExtensionValidity parameter="TYPE:Fnd0SearchRecipe:saveAsPost#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0SearchRecipe" extendableElementType="Type" extensionName="Evm1RecipeSaveAsFunction" extensionPointType="PostAction" isActive="true" operationName="saveAsPost#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*"/>
+            
+   
+        <Library createRelease="Awp04.2.0" description="Service Library for Engineering View Management AW." isThirdParty="false" name="Evm1SoaViewMgmtAW" namespace="Evm1::Soa::ViewMgmtAW" serviceLibrary="true"/>
+           
+        <Library createRelease="Awp04.2.0" description="Library for Engineering View Management AW." isThirdParty="false" name="Evm1ViewMgmtAW" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <ServiceInterface createRelease="Awp04.2.0" dependencies="" description="Service Interface for Engineering View Management AW." libraryName="Evm1SoaViewMgmtAW" name="ViewDataManagement" namespace="Evm1::Soa::ViewMgmtAW" serviceLibraryRef=""/>
+           
+        <Typedef createRelease="Awp04.2.0" description="Map (string, string) of attribute names and values (key type/value type)." isPublished="false" name="AttributeMap" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the complete set of configuration rules including RevisionRule, Effectivity and VariantRule to configure content." isPublished="false" name="ConfigSet2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="RevisionRule to use in order to configure the product." name="revisionRule">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;VariantRule&lt;/b&gt; and &lt;b&gt;StoredOptionSet&lt;/b&gt; to use in order to configure the product." name="variantRules">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unit number to use to configure the product." name="effectivityUnit">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the end Item which governs the unit effectivity." name="effectivityEndItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the date Effectivity to use in order to configure the product." name="effectivityDate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::DateTime"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;Fnd0EffectvtyGrpRevision&lt;/b&gt; to use in order to configure the product." name="effectivityGroups">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="CreateInpt represents the input structure for recipe object create." isPublished="false" name="CreateInpt" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Business Object type name. For Eg: &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;." name="boName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of strings) of property name (key) and to property values (values) in string format, to be set on new object being created. Note: The calling client is responsible for converting the different property types (int, float, date etc.) to a string using the appropriate function(s) in the client framework Property class (i.e. Property.toDateString)." name="propertyNameValues">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::PropertyValuesMap"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of CreateInpt) of reference or relation property name (key) to list of secondary CreateInpt (values) for compounded objects." name="compoundCreateInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInputMap"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp04.2.0" description="Map of reference or relation property name (key) to list of secondary CreateInpt (values)." isPublished="false" name="CreateInputMap" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInpt"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.2.0" description="Input criteria for create of Recipe or update. For create, new criteria will be created for each type of criteria. For update scenario, criteria input passed in will be compared against existing recipe criteria and will be updated accordingly." isPublished="false" name="CriteriaData" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Context for the recipe, which will set on the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;. In case of update, input contextObject will be set on recipe object always. If existing recipe has a context object and input is empty, null value will be set on the recipe object." name="contextObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::POM_object"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of selected objects which acts as seed for the recipe. Eg: &lt;b&gt;WorkspaceObject&lt;/b&gt;, &lt;b&gt;Item&lt;/b&gt;, &lt;b&gt;ItemRevision&lt;/b&gt;, &lt;b&gt;Datatset&lt;/b&gt;, &lt;b&gt;BOMLine&lt;/b&gt;, &lt;b&gt;Awb0Element&lt;/b&gt;. For this input, &lt;b&gt;ApprSearchCriteriaSlctState&lt;/b&gt; object will be created and associated to recipe. In case of update scenario, if both existing recipe and input has selected objects criteria details, the input list of objects will be set on the recipe as selected objects. If existing recipe has selected objects and input for update is empty, that criteria will be deleted from the recipe. If existing recipe do not have any selected objects, but input for update has selected objects, a new &lt;b&gt;ApprSearchCriteriaSlctState&lt;/b&gt; criteria object will be created and associated to the recipe object. If input is non bom objects, object of type &lt;b&gt;Fnd0ApprSrchObjSlctState&lt;/b&gt; will be created." name="selectContentInputs">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A revision rule  name to be used  for the recipe. A &lt;b&gt;ConfigurationContext&lt;/b&gt; object will be created using the input revision rule name and set on &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object. Optional input. If selectContentInputs is passed in, this will be ignored. In case of update, if there is an existing &lt;b&gt;ConfigurationContext&lt;/b&gt; of &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;, its revision rule name will be compared with input. If the revision rule name is different, &lt;b&gt;ConfigurationContext&lt;/b&gt; will be updated with the new revision rule. If input revision rule name is empty or the update input has selected objects, existing configuration context of the recipe will be deleted.  If update input do not have selected objects, and recipe do not have &lt;b&gt;ConfigurationContext&lt;/b&gt; and a revision rule name is passed in, a new &lt;b&gt;ConfigurationContext&lt;/b&gt; will be created with the input revision rule name and will be set on the recipe object." name="revRuleName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The recipe criteria to be evaluated as search criteria." name="criteriaSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaSet"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Each kind of supported criteria for a recipe." isPublished="false" name="CriteriaSet" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Type names of the Business Objects to be returned. All objects returned will be of these type, or sub-type of the these types. For Example: &lt;i&gt;Item, ItemRevision.&lt;/i&gt; For every input type passed in a new criteria of type &lt;b&gt;Mdl0ApprSrchCrtType&lt;/b&gt; object will be created and associated to the recipe object. In case of update scenario, if both existing recipe and input has type criteria details, it will be compared. If the input has a new type and if the existing recipe do not have it, a new &lt;b&gt;Mdl0ApprSrchCrtType&lt;/b&gt; will be created and associated to recipe. If the existing recipe has type criteria and input for the update is empty or if the input do not have that particular type, that &lt;b&gt;Mdl0ApprSrchCrtType&lt;/b&gt; criteria will be deleted from the recipe." name="returnTypes">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A saved search name for creating saved query search expressions. Optional input. For the input &lt;b&gt;ApprSearchCriteriaSavedQry&lt;/b&gt; object will be created and associated to recipe. If selectContentInputs is passed in, this can be empty and even if this is passed in, will be ignored. In case of update scenario, both existing recipe and input have saved search name, the input saved search details will be set on the recipe saved search criteria. If existing recipe has saved search criteria and input for update is empty, that criteria will be deleted from the recipe. If the existing recipe do not have any saved search criteria, but the input for update has a new saved search name criteria, a new &lt;b&gt;ApprSearchCriteriaSavedQry&lt;/b&gt;  object will be  created and associated to the recipe object. If Saved search name passed is for type &lt;b&gt;Awp0FullTextSavedSearch&lt;/b&gt;, then criteria object of type &lt;b&gt;Evm1AWSavedSearch&lt;/b&gt; will  be created." name="savedSearchName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of closure rule names. For every closure rule passed in, a new criteria of type &lt;b&gt;Mdl0ApprSrchCrtClosure&lt;/b&gt; object will be created and associated to the recipe object. In case of update scenario, if both existing recipe and input have closure rule names, it will be compared. If input has new closure rule name and if the existing recipe do not have it, a new &lt;b&gt;Mdl0ApprSrchCrtClosure&lt;/b&gt; will be created and associated to the recipe. If the existing recipe has a closure rule name and input for update is empty or the input do not have that particular that  closure rule name, the &lt;b&gt;Mdl0ApprSrchCrtClosure&lt;/b&gt; criteria will be deleted from the recipe." name="closureRuleNames">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Sql query for querying light weight objects. For example: query: &lt;font face=&quot;courier&quot; height=&quot;10&quot;&gt;select * from Item where item_id=&amp;rdquo;00001&amp;rdquo;&lt;/font&gt; . For the input query, &lt;b&gt;Fnd0ApprSearchLWO&lt;/b&gt; will be created and associated to recipe. In case of update scenario, if both existing recipe and input has light weight query criteria details, the input light weight query will be set on the recipe criteria. If existing recipe has light weight query criteria and input for update is empty, that criteria will be deleted from recipe. If the existing recipe does not have any query criteria, but the input for update has a new criteria, &lt;b&gt;Fnd0ApprSearchLWO&lt;/b&gt; criteria object will be created and associated to the recipe object." name="lwoQueryExpression">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Each kind of supported criteria for a recipe." isPublished="false" name="CriteriaSet2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of ClosureRule names. For every closure rule passed in, a new criteria of type &lt;b&gt;Mdl0ApprSrchCrtClosure&lt;/b&gt; object will be created and associated to the recipe object." name="closureRuleNames">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="SQL query for querying light weight objects. For the input query, &lt;b&gt;Evm0ApprSearchCriteriaLWO&lt;/b&gt; will be created and associated to recipe. For example:&lt;br /&gt;query: select * from Item where item_id=&amp;rdquo;00001&amp;rdquo;;" name="lwoQueryExpression">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <MetaEnum createRelease="Awp04.2.0" description="Action value to determine the behavior of the SOA operation." isPublished="false" name="ManageActions" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <MetaEnumLiteral description="" name="Create"/>
+                 
+            <MetaEnumLiteral description="" name="Update"/>
+                 
+            <MetaEnumLiteral description="" name="Read"/>
+                 
+            <MetaEnumLiteral description="" name="ApplyConfig"/>
+               
+        </MetaEnum>
+           
+        <Struct createRelease="Awp04.2.0" description="Input structure for manageRecipe operation." isPublished="false" name="ManageRecipeData" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Action which determines it is a create or update or read scenario. Supported values are&lt;i&gt; Create, Update, Read.&lt;/i&gt;" name="manageAction">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageActions"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Create input structure with required inputs for creating &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object. This data is ignored if the &lt;font face=&quot;courier&quot; height=&quot;10&quot;&gt;recipeObject&lt;/font&gt; is set, and the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; is being updated." name="recipeCreInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInpt"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object for update and read scenario. Set to NULL for create." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Fnd0RecipeContainer"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, string) of attribute names and values (key type/value type) to be updated on the recipeObject. This map is ignored for creates or read scenario." name="attributeValues">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::AttributeMap"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input criteria for the recipe create or update. It is empty for read scenario." name="criteriaInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Response for a &lt;font face=&quot;courier&quot; height=&quot;10&quot;&gt;manageRecipe&lt;/font&gt; operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="ManageRecipeResponse" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Holds any partial errors occurred during the operation." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of recipe objects which are created or updated is returned. For read scenario, along with recipe object all its criteria details will be returned." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeOutputData"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Input structure for manageRecipes2 operation." isPublished="false" name="ManageRecipesInput" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Action which determines it is a create or update or read scenario. Supported values are: &lt;i&gt;Create&lt;/i&gt;, &lt;i&gt;Update, Read&lt;/i&gt;" name="manageAction">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageActions"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Create input structure with required inputs for creating &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object. This data is ignored if the recipeObject is set, and the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; is being updated." name="recipeCreInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCreateInput"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object for update and read scenario. Set to NULL for create." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, string) of attribute names and values (key type/value type) to be updated on the recipeObject. This map is ignored for creates or read scenario." name="attributeValues">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::AttributeMap"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input criteria for the recipe create or update. It is empty for read scenario." name="criteriaInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCriteriaData2"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Response for a manageRecipe operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="ManageRecipesResponse2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Populated with any partial errors occurred during the operation." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of recipe objects which are created or updated is returned. For read scenario, along with recipe object all its criteria details will be returned." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeOutputData2"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp04.2.0" description="Property value map of property name (key) to property values (values) in string format." isPublished="false" name="PropertyValuesMap" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.2.0" description="CreateInput represents the input structure for recipe object create." isPublished="false" name="RecipeCreateInput" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Business Object type name. For Eg: &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; and its subclass names." name="boName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of strings) of property name (key) and to property values (values) in string format, to be set on new object being created. Note: The calling client is responsible for converting the different property types (int, float, date etc.) to a string using the appropriate function(s) in the client framework Property class (i.e. Property.toDateString)." name="propertyNameValues">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::PropertyValuesMap"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of CreateInput)  of reference or relation property name (key) to list of secondary CreateInput (values) for compounded objects. The key value of the map could be any relation or reference type property name on the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object." name="compoundCreateInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInputMap"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Input criteria for create of Recipe or update. For create, new criteria will be created for each type of criteria. For update scenario, criteria input passed in will be compared against existing recipe criteria and will be updated accordingly." isPublished="false" name="RecipeCriteriaData2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of business objects on which the recipe will be executed.This is optional input.&lt;br /&gt;Supported types are: &lt;b&gt;WorkspaceObject&lt;/b&gt;, &lt;b&gt;Item&lt;/b&gt;, &lt;b&gt;ItemRevision&lt;/b&gt;, &lt;b&gt;Datatset&lt;/b&gt;, &lt;b&gt;BOMLine&lt;/b&gt;, and &lt;b&gt;Awb0Element&lt;/b&gt;." name="selectContentInputs">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A set of configurations to be applied on input business objects on which the recipe will be executed." name="configSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ConfigSet2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Recipe criteria to be evaluated as search criteria." name="criteriaSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaSet2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Awb0ProductContextInfo&lt;/b&gt; object which represents the product along with the configuration." name="productContext">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, the configuration has been changed." name="isConfigChanged">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the output of the RecipeExecution." isPublished="false" name="RecipeExecutionOutput" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="FMS ticket string for JSON file with the desired filtered business objects." name="jSONFileFMSTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="FMS ticket string for additional output files. This is an optional input and can contain one or more SVG files." name="zipFileFMSTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the response of the Recipe execution." isPublished="false" name="RecipeExecutionResponse" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="The service data." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of output results containing the desired filtered buisness objects." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeExecutionOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the input data required for the execution of a recipe." isPublished="false" name="RecipeInputData" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The input object can be Fnd0SearchRecipe object or view object, which is to be executed. This input is optional and will be ignored when a set of criteria/clauses are executed without being associated to a recipe." name="inputObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::POM_object"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The input object name which can be either of a recipe name or views name. This is optional and will be ignored when a set of criteria/clauses are executed without being associated to a recipe." name="inputObjectName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Business object/s on which a saved recipe is to be executed.This is an optional input, which if provided, overrides the criteria/clauses associated with the saved recipe.&lt;br /&gt;If it specifies only selections, then it will override the selections associated with the saved recipe,if any, and rest of the clasues will be used from the recipe. If it specifies other criteria/clauses then it will override the criteria/clasues associated with the saved recipe." name="criteria">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Response for a &lt;font face=&quot;courier&quot; height=&quot;10&quot;&gt;manageRecipe&lt;/font&gt; operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="RecipeOutputData" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A recipe object which was created, updated or read." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Fnd0RecipeContainer"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The criteria details, context object, and all criteria details applicable for a recipe will be returned. Criteria details will be returned only for read scenario." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Response for a manageRecipes2 operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="RecipeOutputData2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A recipe object which was created, updated or read." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The criteria details, context object, and all criteria details applicable for a recipe will be returned. Criteria details will be returned only for read scenario." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCriteriaData2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Awb0ProductContextInfo&lt;/b&gt; object which represents the product along with the configuration." name="productContext">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp04.3.0" description="Map (string, string) of attribute names and values (key type/value type)." isPublished="false" name="AttributeMap2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.3.0" description="Structure represents the complete set of configuration rules including RevisionRule, Effectivity, VariantRule and VariantRule owning item to configure content." isPublished="false" name="ConfigSet3" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="RevisionRule name to use in order to configure the product." name="revisionRule">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;VariantRule&lt;/b&gt; and &lt;b&gt;StoredOptionSet&lt;/b&gt; to use in order to configure the product." name="variantRules">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies owning item of the input &lt;b&gt;VariantRule&lt;/b&gt;." name="svrOwningItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unit number to use to configure the product." name="effectivityUnit">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the end Item which governs the unit effectivity." name="effectivityEndItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the date Effectivity to use in order to configure the product." name="effectivityDate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::DateTime"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;Fnd0EffectvtyGrpRevision&lt;/b&gt; to use in order to configure the product." name="effectivityGroups">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="Input structure for manageRecipes3 operation." isPublished="false" name="ManageRecipesInput2" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Action which determines it is a create or update or read scenario. Supported values are: &lt;i&gt;Create&lt;/i&gt;, &lt;i&gt;Update&lt;/i&gt;, &lt;i&gt;Read&lt;/i&gt;, &lt;i&gt;ApplyConfig&lt;/i&gt;, &lt;i&gt;GetProductContext&lt;/i&gt;." name="manageAction">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Create input structure with required inputs for creating &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object. This data is ignored if the recipeObject is set, and the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; is being updated." name="recipeCreInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCreateInput"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; object for update and read scenario. Set to NULL for create." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, string) of attribute names and values (key type/value type) to be updated on the recipeObject. This map is ignored for creates or read scenario." name="attributeValues">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::AttributeMap2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Input criteria for the recipe create or update. It is empty for read scenario." name="criteriaInput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::RecipeCriteriaData3"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="Response for a manageRecipes3 operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="ManageRecipesResponse3" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Populated with any partial errors occurred during the operation." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of recipe objects which are created or updated is returned. For read scenario, along with recipe object all its criteria details will be returned." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::RecipeOutputData3"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="Input criteria for create of Recipe or update. For create, new criteria will be created for each type of criteria. For update scenario, criteria input passed in will be compared against existing recipe criteria and will be updated accordingly." isPublished="false" name="RecipeCriteriaData3" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of business objects on which the recipe will be executed.This is optional input.&lt;br /&gt;Supported types are: &lt;b&gt;Item&lt;/b&gt;, &lt;b&gt;ItemRevision&lt;/b&gt;, &lt;b&gt;Datatset&lt;/b&gt;, &lt;b&gt;BOMLine&lt;/b&gt;, and &lt;b&gt;Awb0Element&lt;/b&gt;." name="selectContentInputs">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A set of configurations to be applied on input business objects on which the recipe will be executed." name="configSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ConfigSet3"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Recipe criteria to be evaluated as search criteria." name="criteriaSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CriteriaSet2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Awb0ProductContextInfo&lt;/b&gt; object which represents the product along with the configuration." name="productContext">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, the configuration has been changed." name="isConfigChanged">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Awb0SavedBookmark object associated with the BOM seed. If all seed objects are non BOM or no BOM seed objects have any associated saved bookmark then context will be empty." name="context">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of SeedInfo structures each containing rootElement and seeds belonging to that rootElement." name="seedInfos">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::SeedInfo"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="Response for a manageRecipes3 operation. Returns the recipe and the criteria details for the recipe." isPublished="false" name="RecipeOutputData3" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A recipe object which was created, updated or read." name="recipeObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The criteria details, context object, and all criteria details applicable for a recipe will be returned. Criteria details will be returned only for read scenario." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::RecipeCriteriaData3"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Awb0ProductContextInfo&lt;/b&gt; object which represents the product along with the configuration." name="productContext">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Awb0ProductContextInfo"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="Structure represents rootElement and seeds belonging to that rootElement for BOM seeds. For non-BOM seeds the rootElement will be empty." isPublished="false" name="SeedInfo" namespace="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="Top node of the BOM seed objects." name="rootElement">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Recipe seed objects belonging to rootElement." name="seeds">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the complete set of configuration rules including RevisionRule, Effectivity and VariantRule to configure content." isPublished="true" name="ConfigSet" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="RevisionRule to use in order to configure the product." name="revisionRule">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;VariantRule&lt;/b&gt; and &lt;b&gt;StoredOptionSet&lt;/b&gt; to use in order to configure the product." name="variantRules">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unit number to use to configure the product. Valid value is non zero positive integer number." name="effectivityUnit">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the end Item which governs the unit effectivity." name="effectivityEndItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the date Effectivity to use in order to configure the product." name="effectivityDate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::DateTime"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;Fnd0EffectvtyGrpRevision&lt;/b&gt; to use in order to configure the product." name="effectivityGroups">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the criteria comprising of all the criteria which is associated with a recipe." isPublished="true" name="ExecuteRecipesInputData" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Object of type &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; or &lt;b&gt;Evm0Views&lt;/b&gt;, which is to be executed and getting a resultant set of desired business objects. This input is optional and will be ignored when a set of criteria are executed without being associated to a recipe." name="inputObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The object name which can be either be of a &amp;ldquo;recipe&amp;rdquo; or &amp;ldquo;views&amp;rdquo;. This is optional and will be ignored when a set of criteria are executed without being associated to a recipe." name="inputObjectName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Structure represents the input data required for the execution of a recipe" name="criteria">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCriteriaData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map conatining objects and properties of those objects to output in JSON response. Valid keys are the type names of the Business Object. Valid values are the property names of the Business Object defined in key. e.g. For &amp;ldquo;ItemRevision&amp;rdquo; key, valid values can be &amp;ldquo;item_id&amp;rdquo;, &amp;ldquo;object_string&amp;rdquo;. For &amp;ldquo;WorkspaceObject&amp;rdquo; key, valid value can be &amp;ldquo;object_name&amp;rdquo;." name="objectPropsToOutput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ObjectPropsToOutput"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, outputs the desired filtered business objects in the JSON string format. Default value is false." name="outputJSONString">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the output of the recipe execution." isPublished="true" name="ExecuteRecipesOutput" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="FMS ticket for a JSON file with the desired filtered business objects. This is empty when &lt;b&gt;outputJSONString&lt;/b&gt; flag is set to true in input." name="jSONFileFMSTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="FMS ticket for additional output files. This is optional and may contain one or more SVG files." name="zipFileFMSTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description=" JSON string with desired filtered business objects. This is empty when &lt;b&gt;outputJSONString&lt;/b&gt; flag is set to false in input." name="jSONString">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the response of the Recipe execution." isPublished="true" name="ExecuteRecipesResponse" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of recipe output which has desired filtered buisness objects." name="recipeOutput">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The service data." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp04.2.0" description="Map containing objects and properties of those objects to output in JSON response." isPublished="true" name="ObjectPropsToOutput" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the criteria comprising of all the  criteria which is associated with a recipe." isPublished="true" name="RecipeCriteriaData" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of business objects on which the recipe will be executed to get a resultant set of desired business objects.This is optional input.&lt;br /&gt;Supported types are: &lt;b&gt;WorkspaceObject&lt;/b&gt;, &lt;b&gt;Item&lt;/b&gt;, &lt;b&gt;ItemRevision&lt;/b&gt;, &lt;b&gt;Datatset&lt;/b&gt;, &lt;b&gt;BOMLine&lt;/b&gt;, and &lt;b&gt;Awb0Element&lt;/b&gt;." name="selectContentInputs">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A set of configurations to be applied on input business objects on which the recipe will be executed." name="configSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ConfigSet"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Recipe criteria to be evaluated as search criteria." name="criteriaSet">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeCriteriaSet"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.2.0" description="Structure represents the criteria data comprising each criteria which is associated with a Recipe." isPublished="true" name="RecipeCriteriaSet" namespace="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="A list of ClosureRule names. For every closure rule passed in, a new criteria of type &lt;b&gt;Mdl0ApprSrchCrtClosure&lt;/b&gt; object will be created and associated to the recipe object." name="closureRuleNames">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="SQL query for querying light weight objects. For the input query, &lt;b&gt;Evm0ApprSearchCriteriaLWO&lt;/b&gt; will be created and associated to recipe. For example:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;query: select * from Item where item_id=&amp;rdquo;00001&amp;rdquo;;" name="lwoQueryExpression">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.0.0" description="Structure represents the input data required for the execution of a recipe." isPublished="true" name="ExecuteRecipesInputData3" namespace="Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <StructElement description="This unique ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Object of type Fnd0SearchRecipe or Evm0Views, which are executed to get the resultant set of desired objects by applying revision rule, closure rules stored on the object.This input is optional and will check for inputObjectName if this input is not specified." name="inputObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The object name of a &amp;ldquo;recipe&amp;rdquo; or &amp;ldquo;view&amp;rdquo;. This is optional and will be ignored when inputObject is specified." name="inputObjectName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of business objects on which the recipe will be executed to get the resultant set of desired business objects by applying revision rule, closure rules.This is optional input.&lt;br /&gt;Supported types are: WorkspaceObject, Item, ItemRevision, Datatset, BOMLine, and Awb0Element." name="newSeeds">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Awb0SavedBookmark object containing multiple structures. This input is optional and required when multipleBomSupport is set to true." name="savedBookmark">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, outputs the desired filtered business objects by resolving to occurrence in input savedbookmark." name="multipleBomSupport">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of strings) conatining objects and properties of those objects to output in JSON response. Valid keys are the type names of the Business Object. Valid values are the property names of the Business Object defined in key. e.g. For &amp;ldquo;ItemRevision&amp;rdquo; key, valid values Are: &amp;ldquo;item_id&amp;rdquo;, &amp;ldquo;object_string&amp;rdquo;. For &amp;ldquo;WorkspaceObject&amp;rdquo; key, valid value are: &amp;ldquo;object_name&amp;rdquo;." name="objectPropsToOutput">
+                       
+                <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement::ObjectPropsToOutput3"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, outputs the desired filtered business objects in the JSON string format." name="outputJSONString">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, resolves the output objects to occurrence." name="resolveResultsToOccurrence">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp05.0.0" description="Map containing objects and properties of those objects to output in JSON response." isPublished="true" name="ObjectPropsToOutput3" namespace="Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement" scope="Evm1::Soa::ViewMgmtAW::ViewDataManagement">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <OperationTemplate const="false" createRelease="Awp04.2.0" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation.  When the recipe object is passed as input, it can be an update of recipe scenario or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is be used between different criteria for execution of recipe.&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." id="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipe#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeData&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipe" returnConst="false" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData.  Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. &lt;br /&gt;&lt;br /&gt;Errors:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;404001: The recipe object cannot be created&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404002:  The input recipe object is an invalid object for update or reading the criteria.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404002: The recipe object update failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404003: The update of saved searches criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404004: The update of closure rule criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404005: The update of light weight query criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404006: The update of  selected objects list of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404008: The update of  type criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404009: The saved searches criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404010: The closure rule criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404011: The light weight query criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404012: The selected objects list criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404014: The type criteria creation for the recipe failed.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of input data which contains information about the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; to be managed." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp04.2.0" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation. When the recipe object is passed as input, it can be an update of recipe scenario or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is be used between different criteria for execution of recipe.&lt;br /&gt;&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." id="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesResponse2#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes2#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesInput&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes2" returnConst="false" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData. Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Errors&lt;/b&gt;:&lt;br /&gt;&lt;br /&gt;* 404001: The recipe object cannot be created&lt;br /&gt;&lt;br /&gt;* 404002: The input recipe object is an invalid object for update or reading the criteria.&lt;br /&gt;&lt;br /&gt;* 404002: The recipe object update failed.&lt;br /&gt;&lt;br /&gt;* 404003: The update of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404004: The update of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404005: The update of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404006: The update of selected objects list of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404008: The update of type criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404009: The saved searches criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404010: The closure rule criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404011: The light weight query criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404012: The selected objects list criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404014: The type criteria creation for the recipe failed." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesResponse2" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of input data which contains information about the Fnd0SearchRecipe to be managed." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp04.2.0" description="A recipe object represents a set of ordered criteria/clauses which can be used to get the desired set of filtered objects according to the criteria/clauses associated with them. &lt;br /&gt;This operation is used for executing a recipe and getting a resultant set of desired business object/s." id="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeExecutionResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeInputData&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes" returnConst="false" returnDescription="Response structure containing business objects and the ServiceData&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404016: The input clauses are invalid for execution.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404017: The execution of saved searches criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404018: The execution of closure rule criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404019: The execution of light weight query criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404020: The execution of selected objects list of recipe failed." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeExecutionResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of structures which holds the required information to perform the execution of recipe." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp04.3.0" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation.  When the recipe object is passed as input, it could be an update scenario of recipe object or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is used between different criteria for execution of recipe.&lt;br /&gt;&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, a new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." id="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesResponse3#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes3#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesInput2&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes3" returnConst="false" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData.  Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors.&lt;br /&gt;&lt;br /&gt;Errors:&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404001: The recipe object cannot be created&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404002:  The input recipe object is an invalid object for update or reading the criteria.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404002: The recipe object update failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404003: The update of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404004: The update of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404005: The update of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404006: The update of  selected objects list of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404008: The update of  type criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404009: The saved searches criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404010: The closure rule criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404011: The light weight query criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404012: The selected objects list criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404014: The type criteria creation for the recipe failed." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesResponse3" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of input data which contains information about the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; to be managed." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesInput2" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp04.2.0" description="A recipe object represents a set of ordered criteria which can be used to get the desired set of filtered objects according to the criteria associated with them. This operation is used for executing a recipe and getting a resultant set of desired business objects." id="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes2#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesInputData&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes2" returnConst="false" returnDescription="Response structure containing business objects and the ServiceData&lt;br /&gt;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&lt;br /&gt;* 404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&lt;br /&gt;* 404016: The input criteria are invalid for execution.&lt;br /&gt;&lt;br /&gt;* 404017: The execution of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404018: The execution of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404019: The execution of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404020: The execution of selected objects list of recipe failed." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of structures which holds the required information to perform the execution of recipe." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="Awp05.0.0" description="A recipe object represents a set of ordered criteria which can be used to get the desired set of filtered objects according to the criteria associated with them. This operation reads the BOM configuration and closure rules from input recipe object to apply them on the input seed objects to returns the resultant set of desired business objects in JSON string format." id="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes3#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement::ExecuteRecipesInputData3&gt;,&amp;" name="Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes3" returnConst="false" returnDescription="An FMS ticket for a JSON file with the desired filtered business objects or JSON string with desired filtered business objects.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404021: The input newSeeds list contain non-supported object type.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404022: The input Saved Bookmark object is not of type Awb0SavedBookmark.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404023: The input objectPropsToOutput list contain invalid object type or property name." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of structures which holds the required information to perform the execution of recipe." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement::ExecuteRecipesInputData3" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp04.2.0" dependencies="" description="A recipe object represents a set of ordered criteria/clauses which can be used to get the desired set of filtered objects according to the criteria/clauses associated with them. &lt;br /&gt;This operation is used for executing a recipe and getting a resultant set of desired business object/s." exceptionCondition="" id="executeRecipes#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeInputData&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="executeRecipes" opTemplate="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeExecutionResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::RecipeInputData&gt;,&amp;" returnDescription="Response structure containing business objects and the ServiceData&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404016: The input clauses are invalid for execution.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404017: The execution of saved searches criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404018: The execution of closure rule criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404019: The execution of light weight query criteria of recipe failed.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404020: The execution of selected objects list of recipe failed." useCase="1.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user can associate a set of criteria/clauses to a recipe (using Recipe Builder in AWC UI) and execute it to get the desired set of filtered objects.&lt;br /&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user can use a saved recipe and execute it on a seed selection/s, to get the desired set of filtered objects. Seed selections can be, but not limits to, one or more components of a working context or one or more saved bookmarks.&lt;br /&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user can use a saved recipe, modify the clauses associated with it and execute it to get the desired set of filtered objects.">
+                 
+            <DeprecationInfo deprecatedDescription="Deprecated. See Support Announcement 2606." deprecatedRelease="tc2606"/>
+                 
+            <ParameterInfo description="A list of structures which holds the required information to perform the execution of recipe." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp04.2.0" dependencies="" description="A recipe object represents a set of ordered criteria which can be used to get the desired set of filtered objects according to the criteria associated with them. This operation is used for executing a recipe and getting a resultant set of desired business objects." exceptionCondition="" id="executeRecipes2#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesInputData&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="executeRecipes2" opTemplate="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes2#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesInputData&gt;,&amp;" returnDescription="Response structure containing business objects and the ServiceData&lt;br /&gt;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&lt;br /&gt;* 404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&lt;br /&gt;* 404016: The input criteria are invalid for execution.&lt;br /&gt;&lt;br /&gt;* 404017: The execution of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404018: The execution of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404019: The execution of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404020: The execution of selected objects list of recipe failed." useCase="1. A user can associate a set of criteria to a recipe (using Recipe Builder in AWC UI) and execute it to get the desired set of filtered objects.&lt;br /&gt;&lt;br /&gt;2. A user can use a saved recipe and execute it on a seed selections, to get the desired set of filtered objects. Seed selections can be, but not limits to, one or more components of a working context or one or more saved bookmarks.&lt;br /&gt;&lt;br /&gt;3. A user can use a saved recipe, modify the criteria associated with it and execute it to get the desired set of filtered objects.">
+                 
+            <DeprecationInfo deprecatedDescription="This operation is deprecated as it does not support&#10;1) Multiple BOM&#10;2) Resolving output results to occurrence&#10;Use executeRecipes3 operation." deprecatedRelease="Awp05.0.0"/>
+                 
+            <ParameterInfo description="A list of structures which holds the required information to perform the execution of recipe." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp05.0.0" dependencies="" description="A recipe object represents a set of ordered criteria which can be used to get the desired set of filtered objects according to the criteria associated with them. This operation reads the BOM configuration and closure rules from input recipe object to apply them on the input seed objects to returns the resultant set of desired business objects in JSON string format." exceptionCondition="" id="executeRecipes3#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement::ExecuteRecipesInputData3&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="executeRecipes3" opTemplate="Evm1::Soa::ViewMgmtAW::_2019_06::ViewDataManagement::ExecuteRecipesResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::executeRecipes3#const,std::vector&lt;Evm1::Soa::ViewMgmtAW::_2020_05::ViewDataManagement::ExecuteRecipesInputData3&gt;,&amp;" returnDescription="An FMS ticket for a JSON file with the desired filtered business objects or JSON string with desired filtered business objects.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. Following error codes are returned in the ServiceData.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404015: The input recipe object is an invalid object for execution of Recipe.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404021: The input newSeeds list contain non-supported object type.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404022: The input Saved Bookmark object is not of type Awb0SavedBookmark.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404023: The input objectPropsToOutput list contain invalid object type or property name." useCase="1.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user can associate a set of criteria to a recipe (using Recipe Builder in AWC UI) and execute it to get the desired set of filtered objects.&lt;br /&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A user can use a saved recipe and execute it on a seed selections, to get the desired set of filtered objects. Seed selections can be, but not limits to, one or more components of a working context or one or more saved bookmarks.">
+                 
+            <DeprecationInfo deprecatedDescription="Deprecated. See Support Announcement 2606." deprecatedRelease="tc2606"/>
+                 
+            <ParameterInfo description="A list of structures which holds the required information to perform the execution of recipe." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp04.2.0" dependencies="" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation.  When the recipe object is passed as input, it can be an update of recipe scenario or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is be used between different criteria for execution of recipe.&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." exceptionCondition="" id="manageRecipe#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeData&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="manageRecipe" opTemplate="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeResponse#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipe#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipeData&gt;,&amp;" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData.  Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors. &lt;br /&gt;&lt;br /&gt;Errors:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;404001: The recipe object cannot be created&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404002:  The input recipe object is an invalid object for update or reading the criteria.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404002: The recipe object update failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404003: The update of saved searches criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404004: The update of closure rule criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404005: The update of light weight query criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404006: The update of  selected objects list of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404008: The update of  type criteria of recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404009: The saved searches criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404010: The closure rule criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404011: The light weight query criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404012: The selected objects list criteria creation for the recipe failed.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;404014: The type criteria creation for the recipe failed.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" useCase="The &lt;font face=&quot;courier&quot; height=&quot;10&quot;&gt;manageRecipe&lt;/font&gt; operation is used to manage search recipes.&lt;br /&gt;Once a recipe is created it can be updated later for adding or removing any search criteria, update of the values for any criteria.&lt;br /&gt;When user opens a recipe in AWC UI or recipe input is passed in, the various criteria of it can also be read using this service operation to show in the UI of recipe builder.">
+                 
+            <DeprecationInfo deprecatedDescription="Deprecated. See Support Announcement 2606. This operation is being deprecated, use manageRecipes3 instead." deprecatedRelease="tc2606"/>
+                 
+            <ParameterInfo description="A list of input data which contains information about the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; to be managed." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp04.2.0" dependencies="" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation. When the recipe object is passed as input, it can be an update of recipe scenario or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is be used between different criteria for execution of recipe.&lt;br /&gt;&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." exceptionCondition="" id="manageRecipes2#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesInput&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="manageRecipes2" opTemplate="Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesResponse2#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes2#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::ManageRecipesInput&gt;,&amp;" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData. Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Errors&lt;/b&gt;:&lt;br /&gt;&lt;br /&gt;* 404001: The recipe object cannot be created&lt;br /&gt;&lt;br /&gt;* 404002: The input recipe object is an invalid object for update or reading the criteria.&lt;br /&gt;&lt;br /&gt;* 404002: The recipe object update failed.&lt;br /&gt;&lt;br /&gt;* 404003: The update of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404004: The update of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404005: The update of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404006: The update of selected objects list of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404008: The update of type criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;* 404009: The saved searches criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404010: The closure rule criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404011: The light weight query criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404012: The selected objects list criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;* 404014: The type criteria creation for the recipe failed." useCase="The manageRecipe operation is used to manage search recipes.&lt;br /&gt;&lt;br /&gt;Once a recipe is created it can be updated later for adding or removing any search criteria, update of the values for any criteria.&lt;br /&gt;&lt;br /&gt;When user opens a recipe in AWC UI or recipe input is passed in, the various criteria of it can also be read using this service operation to show in the UI of recipe builder.">
+                 
+            <DeprecationInfo deprecatedDescription="Deprecated. See Support Announcement 2606. This operation is being deprecated, use manageRecipes3 instead." deprecatedRelease="tc2606"/>
+                 
+            <ParameterInfo description="A list of input data which contains information about the Fnd0SearchRecipe to be managed." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="evm1viewmgmtaw" createRelease="Awp04.3.0" dependencies="" description="This operation creates a recipe object (&lt;b&gt;Fnd0SearchRecipe&lt;/b&gt;) along with its recipe criteria as persistent objects in Teamcenter. The recipe criteria can be updated later using this service operation.  When the recipe object is passed as input, it could be an update scenario of recipe object or reading all the criteria of input recipe. The behaviour of this operation is based on manageAction input.&lt;br /&gt;&lt;br /&gt;Apart from capturing the combination of search criteria, the manageRecipe operation also stores the current configuration conditions (including &lt;b&gt;RevisionRule&lt;/b&gt; and optional effectivity and variant configuration), and context for the recipe. The search recipes are stored as &lt;b&gt;ApprSearchCriteria&lt;/b&gt; objects in Teamcenter and &lt;b&gt;ApprSearchCriteria&lt;/b&gt; object hierarchy has a subclass to store each Search expression separately. The AND operator is used between different criteria for execution of recipe.&lt;br /&gt;&lt;br /&gt;In case of update scenario, the existing criteria of the recipe will be compared against the criteria input. For every supported criteria type (eg: saved search, selected objects, closure rule etc.) if both the existing recipe and criteria input has the same type of criteria, input criteria information will be updated on the criteria object. If existing recipe do not have a criteria type and soa input has it, a new criteria object will be created and associated with recipe object. If existing recipe has a criteria type, and input for update do not have it, that criteria for the recipe will be deleted." exceptionCondition="" id="manageRecipes3#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesInput2&gt;,&amp;" interface="Evm1::Soa::ViewMgmtAW::ViewDataManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="manageRecipes3" opTemplate="Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesResponse3#Evm1::Soa::ViewMgmtAW::ViewDataManagement::manageRecipes3#const,std::vector&lt;Evm1::Soa::Internal::ViewMgmtAW::_2019_12::ViewDataManagement::ManageRecipesInput2&gt;,&amp;" returnDescription="The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects. If the input action is to read the recipe criteria, the different criteria along with its values will be returned. The created or updated &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; objects are also returned in the appropriate Created or Update list in the ServiceData.  Any failure will be returned with clientId mapped to error message in the ServiceData list of partial errors.&lt;br /&gt;&lt;br /&gt;Errors:&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404001: The recipe object cannot be created&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404002:  The input recipe object is an invalid object for update or reading the criteria.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404002: The recipe object update failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404003: The update of saved searches criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404004: The update of closure rule criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404005: The update of light weight query criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404006: The update of  selected objects list of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404008: The update of  type criteria of recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404009: The saved searches criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404010: The closure rule criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404011: The light weight query criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404012: The selected objects list criteria creation for the recipe failed.&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;404014: The type criteria creation for the recipe failed." useCase="The manageRecipe operation is used to manage search recipes.&lt;br /&gt;&lt;br /&gt;Once a recipe is created it can be updated later for adding or removing any search criteria, update of the values for any criteria.&lt;br /&gt;&lt;br /&gt;When user opens a recipe in AWC UI or recipe input is passed in, the various criteria of it can also be read using this service operation to show in the UI of recipe builder.">
+                 
+            <ParameterInfo description="A list of input data which contains information about the &lt;b&gt;Fnd0SearchRecipe&lt;/b&gt; to be managed." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Condition description="This condition determines if Awp0ShowRevise command should be visible in evm1viewmgmtaw solution." expression="u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Fnd0SearchRecipe&quot;)=false" name="Evm1ShowReviseCondition" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="POM_object"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ShowRevise" conditionName="Evm1ShowReviseCondition"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

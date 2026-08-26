@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="ja_JP" status="Approved">ライセンス</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="ja_JP" status="Approved">ライセンス</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="ja_JP" status="Approved">プロジェクトを追加</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="ja_JP" status="Approved">ライセンスコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、Teamcenterバージョンが、11.2.3およびそれ未満であるときに表示されます。 それは、選択したオブジェクトのタイプが、Workspaceオブジェクト、データセットまたはフォームである場合にのみ表示されます。 それは、選択したオブジェクトのタイプが、EPMTaskまたはサインオフの場合には、表示されません。 それは、ログインユーザが、dbaグループのメンバであるかまたはITAR AdminまたはIP Adminロールである場合に、表示されます。</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="ja_JP" status="Approved">ライセンスコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、Teamcenterバージョンが、11.3およびそれ以上であるときに表示されます。 それは、選択したオブジェクトのタイプが、Workspaceオブジェクト、データセットまたはフォームである場合にのみ表示されます。 それは、選択したオブジェクトのタイプが、EPMTaskまたはサインオフの場合には、表示されません。 それは、ログインユーザが、dbaグループのメンバであるかまたはITAR AdminまたはIP Adminロールである場合に、表示されます。</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="ja_JP" status="Approved">プロジェクトを追加コマンドに対するサーバーサイドコマンド表示条件です。 このコマンドは、特権のあるグループでまたはプロジェクト管理グループおよびプロジェクト管理者ロールでユーザがログインした場合にのみ表示されます。</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="ja_JP" status="Approved">プロジェクトプロバイダ</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="ja_JP" status="Approved">プロジェクトチームプロバイダ</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="ja_JP" status="Approved">修正可能?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

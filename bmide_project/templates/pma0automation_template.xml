@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:58:16 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc12000.3.0" description="Library for Product Master Automation" isThirdParty="false" name="Pma0automation" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcOperation description="User Exit operation for customizing the find ITEM during generation of Part BOM from Design BOM and vice-versa." operationName="BMF_Pma0_find_target_items_for_sources" operationType="TypeOperation" packageName="com.teamcenter.core.rules.operation"/>
+           
+        <TcOperation description="User Exit operation for customizing the creating ITEM during generation of Part BOM from Design BOM and vice-versa." operationName="BMF_Pma0_populate_target_item_creI_for_sources" operationType="TypeOperation" packageName="com.teamcenter.core.rules.operation"/>
+           
+        <TcAttributeAttach className="Design">
+                 
+            <TcAttribute attributeName="pma0IsPartRequired" attributeType="POM_logical" description="pma0IsPartRequired is boolean property which represents if the Design requires a Part. Default value is true. NULL value is not allowed." exportAsString="false" followOnExport="false" initialValue="true" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+               
+        </TcAttributeAttach>
+           
+        <OperationInputType artifactName="Pma0DesignToBomLinkPro_alt0CreI" description="CreateInput object for &quot;Pma0DesignToBomLinkProvider&quot; business object" isAbstract="true" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Pma0DesignToBomLinkPro_alt0CreI" typeName="Pma0DesignToBomLinkPro_alt0CreI"/>
+           
+        <OperationInputType artifactName="Pma0DesignToBomLinkPro_alt0SvAI" description="SaveAsInput object for &quot;Pma0DesignToBomLinkProvider&quot; business object" isAbstract="true" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Pma0DesignToBomLinkPro_alt0SvAI" typeName="Pma0DesignToBomLinkPro_alt0SvAI"/>
+           
+        <TcRuntimeType artifactName="Pma0DesignToBomLinkProvider" description="Pma0DesignToBomLinkProvider is a data provider which returns the linked Design top to the selected ProductEBOM." functionality="Pma0automation" isAbstract="true" parentTypeName="Fnd0BaseProvider" typeClassName="Pma0DesignToBomLinkProvider" typeName="Pma0DesignToBomLinkProvider"/>
+           
+        <BusinessObjectInterface createRelease="tc2412" description="Interface Name for Business Object Pma0DesignToBomLinkProvider" libraryName="Pma0automation" name="Pma0DesignToBomLinkProvider" namespace="pma0automation" primaryInterface="true" typeName="Pma0DesignToBomLinkProvider"/>
+           
+        <OperationAttach createRelease="tc2412" id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Pma0DesignToBomLinkProvider"/>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Represents the context in which designs are aligned to part." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedDesignContexts" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Represents the designs aligned to the part." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedDesigns" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Represents the context in which parts are aligned to design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedPartContexts" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Represents the list of parts aligned to design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedParts" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="Represents if the design is aligned with part." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsDesignAligned" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="Represents if the part requires a design." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsDesignRequired" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="Represents if the part is aligned with design." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsPartAligned" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="Represents if the design requires a part." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsPartRequired" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Fnd0ItemLineLite">
+                 
+            <TcProperty arrayLength="-1" description="Represents the context in which parts are aligned to design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedPartContexts" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Fnd0ItemLineLite">
+                 
+            <TcProperty arrayLength="-1" description="Represents the list of parts aligned to design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedParts" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Fnd0ItemLineLite">
+                 
+            <TcProperty arrayLength="0" description="Represents if the part is aligned with design." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsPartAligned" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Fnd0ItemLineLite">
+                 
+            <TcProperty arrayLength="0" description="Represents if the design requires a part." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0IsPartRequired" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="DesignCreI">
+                 
+            <TcProperty arrayLength="0" description="pma0CreateAlignedPart is boolean runtime property which defines if the new Part needs to be created and aligned with source Design. Default value is false. NULL value is not allowed." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0CreateAlignedPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="DesignCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="pma0IsPartRequired is boolean property which represents if the Design requires a Part. Default value is true. NULL value is not allowed." fieldType="SimpleProperty" propName="pma0IsPartRequired" srcPropName="pma0IsPartRequired"/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="PartCreI">
+                 
+            <TcProperty arrayLength="0" description="pma0CreateAlignedDesign is boolean runtime property which defines if new Design needs to be created and aligned with source Part. Default value is false. NULL value is not allowed." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0CreateAlignedDesign" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Design RevisionCreI">
+                 
+            <TcProperty arrayLength="-1" description="pma0PartsToAlign is TypedReference runtime property which takes Item Revisions." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0PartsToAlign" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Part RevisionCreI">
+                 
+            <TcProperty arrayLength="-1" description="pma0DesignsToAlign is TypedReference runtime property which takes Item Revisions." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0DesignsToAlign" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Design RevisionRevI">
+                 
+            <TcProperty arrayLength="0" description="pma0KeepExistingPart is Boolean runtime property which represents if the Existing Part Alignments should be kept or not." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0KeepExistingPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Design RevisionRevI">
+                 
+            <TcProperty arrayLength="-1" description="pma0PartsToAlign is TypedReference runtime property which takes Item Revisions." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0PartsToAlign" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" operationName="IMANTYPE_init_intl_props" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsDesignAligned">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsDesignRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsPartAligned">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsPartAligned">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsPartRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" operationName="PROP_ask_value_logical" propertyName="pma0IsPartRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDesignContexts">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDesigns">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPartContexts">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPartContexts">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedParts">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedParts">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Part" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="is_designrequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="pma0IsDesignRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="pma0IsPartRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Design" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="pma0IsPartRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_set_value_logical" propertyName="pma0IsDesignRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_set_value_logical" propertyName="pma0IsPartRequired">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Item" extendableElementType="Type" operationName="BMF_Pma0_find_target_items_for_sources" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Item" extendableElementType="Type" operationName="BMF_Pma0_populate_target_item_creI_for_sources" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <Condition description="Condition to govern if a Design should be created and aligned on creation of a Part." expression="o.is_designrequired=true" name="Pma0CreateImplicitDesignCondition" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Part"/>
+               
+        </Condition>
+           
+        <Condition description="Condition to govern if a Part should be created and aligned to design on creation of a Design" expression="o.pma0IsPartRequired=true" name="Pma0CreateImplicitPartCondition" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Design"/>
+               
+        </Condition>
+           
+        <Condition description="Workflow filter condition for enabling the Generate Product EBOM Workflow." expression="1 = 0" name="Pma0EnableProductEBOMWF" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="t" parameterTypeName="ImanType"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <TcGlobalConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="String" defaultValue="" description="This constant helps user to identify which Boolean property will be used to decide whether design is required or not. It has two segments separated by a &quot;:&quot; where first segment represents type name of part and second represents property." isMultiValued="true" isValueAttachmentSecured="false" name="Pma0DesignReqdPropNameOnPart">
+                 
+            <ConstantDefaultValue value="Part:is_designrequired"/>
+               
+        </TcGlobalConstant>
+           
+        <TcGlobalConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="String" defaultValue="" description="This constant helps user to identify which Boolean property will be used to decide whether part is required or not. It has two segments separated by a &quot;:&quot; where first segment represents type name of design and second represents property." isMultiValued="true" isValueAttachmentSecured="false" name="Pma0PartReqdPropNameOnDesign">
+                 
+            <ConstantDefaultValue value="Design:pma0IsPartRequired"/>
+               
+        </TcGlobalConstant>
+           
+        <TcGlobalConstantAttach constantName="Pma0DesignReqdPropNameOnPart" value="">
+                 
+            <ConstantValue value="Part:is_designrequired"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Pma0PartReqdPropNameOnDesign" value="">
+                 
+            <ConstantValue value="Design:pma0IsPartRequired"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0DesignToBomLinkProvider" value="Pma0DesignToBomLinkPro_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0DesignToBomLinkProvider" value="Pma0DesignToBomLinkPro_alt0SvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedDesignContexts" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedDesigns" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedPartContexts" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedParts" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsDesignAligned" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsDesignRequired" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsPartAligned" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsPartRequired" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsPartRequired" typeName="Design" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedPartContexts" typeName="Fnd0ItemLineLite" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedParts" typeName="Fnd0ItemLineLite" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsPartAligned" typeName="Fnd0ItemLineLite" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsPartRequired" typeName="Fnd0ItemLineLite" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fnd0IsRevisionDiscontinued" typeName="Part Revision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0InheritFrom" propertyName="object_desc" typeName="Design" value="Part.object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0InheritFrom" propertyName="object_name" typeName="Design" value="Part.object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0InheritFrom" propertyName="object_desc" typeName="Part" value="Design.object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fnd0InheritFrom" propertyName="object_name" typeName="Part" value="Design.object_name"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="fnd0Maturity" typeName="Design Revision" value="10"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="fnd0Maturity" typeName="Part Revision" value="10"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fnd0bl_is_designrequired" typeName="BOMLine" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedDesignContexts" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedDesigns" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedPartContexts" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedParts" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsDesignAligned" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsDesignRequired" typeName="BOMLine" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsPartAligned" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsPartRequired" typeName="BOMLine" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsPartRequired" typeName="Design" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedPartContexts" typeName="Fnd0ItemLineLite" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedParts" typeName="Fnd0ItemLineLite" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsPartAligned" typeName="Fnd0ItemLineLite" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsPartRequired" typeName="Fnd0ItemLineLite" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fnd0IsRevisionDiscontinued" typeName="Part Revision" value="Write"/>
+           
+        <TcExtension cannedExtension="true" description="A wrapper extension to conditionally execute automateAndLink extension on basis of specified create input property value of source Item. The target object type is choosen from the preference Pma0_Part_Design_Type. If valid type is not found from the preference then the target object type is taken from extension parameter 'TargetObjectType'." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0AutomateAndAlign">
+                 
+            <TcExtensionParameter parameter="TargetObjectType:String:M:QUERY:__METHOD_POM_objectTypes"/>
+                 
+            <TcExtensionParameter parameter="CreIPropNameToEnableExtn:String:M"/>
+                 
+            <TcExtensionValidity parameter="TYPE:Item:create#Teamcenter::CreateInput,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Pma0BulkLoaderForBOMLineProperties is a PostAction extension to BOMLine::IMANTYPE_init_intl_props and used for registering bulk loaders for runtime properties on BOMLine." functionality="Fnd0ProductStructureAuthoring" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0BulkLoaderForBOMLineProperties">
+                 
+            <TcExtensionValidity parameter="TYPE:BOMLine:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Pma0BulkLoaderForFnd0ItemLineLiteProperties is a PostAction extension to Fnd0ItemLineLite::IMANTYPE_init_intl_props and used for registering bulk loaders for runtime properties on Fnd0ItemLineLite." functionality="Fnd0ProductStructureAuthoring" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0BulkLoaderForFnd0ItemLineLiteProperties">
+                 
+            <TcExtensionValidity parameter="TYPE:Fnd0ItemLineLite:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedDesignContexts." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedDesignContexts">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedDesignContexts:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedDesigns." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedDesigns">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedDesigns:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedPartContexts." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedPartContexts">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedPartContexts:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedPartContexts." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedPartContextsLite">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ItemLineLite:pma0AlignedPartContexts:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedParts." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedParts">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedParts:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a Type Reference Property pma0AlignedParts." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedPartsLite">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ItemLineLite:pma0AlignedParts:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsDesignAligned." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsDesignAligned">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsDesignAligned:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsDesignRequired." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsDesignRequired">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsDesignRequired:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsPartAligned." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsPartAligned">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsPartAligned:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsPartAligned." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsPartAlignedLite">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ItemLineLite:pma0IsPartAligned:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsPartRequired." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsPartRequired">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsPartRequired:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Getter for a boolean Property pma0IsPartRequired." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0IsPartRequiredLite">
+                 
+            <TcExtensionValidity parameter="PROPERTY:Fnd0ItemLineLite:pma0IsPartRequired:PROP_ask_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Validates if the property pma0IsDesignRequired is modifiable or not." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="pma0IsDesignReqdModifiable">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsDesignRequired:PROP_is_modifiable:4"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:Item:PROP_MATCH_ALL:PROP_is_modifiable:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Validates if the property pma0IsPartRequired is modifiable or not." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="pma0IsPartReqdModifiable">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsPartRequired:PROP_is_modifiable:4"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:Design:pma0IsPartRequired:PROP_is_modifiable:4"/>
+                 
+            <TcExtensionValidity parameter="PROPERTY:Item:PROP_MATCH_ALL:PROP_is_modifiable:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Setter for a boolean Property pma0IsDesignRequired." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="setPma0IsDesignRequired">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsDesignRequired:PROP_set_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Setter for a boolean Property pma0IsPartRequired." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="setPma0IsPartRequired">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0IsPartRequired:PROP_set_value_logical:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="Pma0CreateImplicitDesignCondition" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0AutomateAndAlign" extensionPointType="PostAction" isActive="true" operationName="create#Teamcenter::CreateInput,*">
+                 
+            <TcExtensionArguments parameter="Design::pma0CreateAlignedDesign"/>
+               
+        </TcExtensionAttach>
+           
+        <TcExtensionAttach conditionName="Pma0CreateImplicitPartCondition" description="" extendableElementName="Design" extendableElementType="Type" extensionName="Pma0AutomateAndAlign" extensionPointType="PostAction" isActive="true" operationName="create#Teamcenter::CreateInput,*">
+                 
+            <TcExtensionArguments parameter="Part::pma0CreateAlignedPart"/>
+               
+        </TcExtensionAttach>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0BulkLoaderForBOMLineProperties" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" extensionName="Pma0BulkLoaderForFnd0ItemLineLiteProperties" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedDesignContexts" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDesignContexts"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedDesigns" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDesigns"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedPartContexts" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPartContexts"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" extensionName="getPma0AlignedPartContextsLite" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPartContexts"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedParts" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedParts"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" extensionName="getPma0AlignedPartsLite" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedParts"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0IsDesignAligned" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsDesignAligned"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0IsDesignRequired" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsDesignRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0IsPartAligned" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsPartAligned"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" extensionName="getPma0IsPartAlignedLite" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsPartAligned"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0IsPartRequired" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsPartRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Fnd0ItemLineLite" extendableElementType="Type" extensionName="getPma0IsPartRequiredLite" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_logical" propertyName="pma0IsPartRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="pma0IsDesignReqdModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="is_designrequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="pma0IsDesignReqdModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0IsDesignRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="pma0IsPartReqdModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0IsPartRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design" extendableElementType="Type" extensionName="pma0IsPartReqdModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0IsPartRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="setPma0IsDesignRequired" extensionPointType="BaseAction" isActive="true" operationName="PROP_set_value_logical" propertyName="pma0IsDesignRequired"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="setPma0IsPartRequired" extensionPointType="BaseAction" isActive="true" operationName="PROP_set_value_logical" propertyName="pma0IsPartRequired"/>
+           
+        <Functionality description="Component for the template - pma0automation" displayName="pma0automation" enabledForVerificationRules="false" name="Pma0automation"/>
+           
+        <TcClass className="Pma0ImplicitPrimaryRep" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <OperationInputType artifactName="Pma0ImplicitPrimaryRepCreI" description="CreateInput object for &quot;Pma0ImplicitPrimaryRep&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Pma0ImplicitPrimaryRepCreI" typeName="Pma0ImplicitPrimaryRepCreI"/>
+           
+        <OperationInputType artifactName="Pma0ImplicitPrimaryRepSvAI" description="SaveAsInput object for &quot;Pma0ImplicitPrimaryRep&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Pma0ImplicitPrimaryRepSvAI" typeName="Pma0ImplicitPrimaryRepSvAI"/>
+           
+        <TcStandardType artifactName="Pma0ImplicitPrimaryRep" description="Defines the implicit primary relationship between the Design revision and the Part revision. This relation is for system use only and will be used during update automation of BOM structures." functionality="Pma0automation" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Pma0ImplicitPrimaryRep" typeName="Pma0ImplicitPrimaryRep"/>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Release status for the aligned design." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedDsgnReleaseStat" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ReleaseStatus" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="-1" description="Release status for the aligned part." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="pma0AlignedPrtReleaseStatus" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ReleaseStatus" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMLine">
+                 
+            <TcProperty arrayLength="0" description="This attribute stores the user selected action." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="pma0UpdateAction" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOMWindow">
+                 
+            <TcProperty arrayLength="0" description="Indicates if the window is configured for update automation. This changes the way aligned Part/Design properties are computed on BOMLine.&#10;false - Update mode ON. true - Update mode OFF." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0BomUpdateMode" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Design RevisionSvAI">
+                 
+            <TcProperty arrayLength="0" description="Boolean property to identify if aligned Part Revision, for which input Design Revision is primary, need to undergo saveAs as well." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0CopyAlignedPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Part RevisionSvAI">
+                 
+            <TcProperty arrayLength="0" description="Boolean property to identify if primary aligned Design Revision needs to undergo saveAs as well." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0CopyAlignedDesign" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_string" propertyName="pma0UpdateAction">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDsgnReleaseStat">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPrtReleaseStatus">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_set_value_string" propertyName="pma0UpdateAction">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+               
+        </TcOperationAttach>
+           
+        <Condition description="This rule enables &quot;Design Change Actions&quot; LOV for Design update when the Design is in &quot;TCM Released&quot; state. This condition enables the Pma0DsgnChangeActionsLOV." expression="Function::INLIST(&quot;TCM Released&quot;, o.pma0AlignedDsgnReleaseStat, &quot;name&quot;)" name="Pma0EnableDsgnChangeActionsOnPart" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <Condition description="This rule enables &quot;Part Change Actions&quot; LOV for Part update when the part is in &quot;TCM Released&quot; state. This condition enables the Pma0PartChangeActionsLOV." expression="Function::INLIST(&quot;TCM Released&quot;, o.pma0AlignedPrtReleaseStatus, &quot;name&quot;)" name="Pma0EnablePartChangeActionsOnDesign" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <Condition description="This rule enables &quot;Reuse Design Actions&quot; LOV for Design update. This condition enables the Pma0ReuseDesignActionsLOV." expression="1=1" name="Pma0EnableReuseDsgnActionOnPart" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <Condition description="This rule enables &quot;Reuse Part Actions&quot; LOV for Part update when Part and Design is in working state. This condition enables the Pma0ReusePartActionsLOV." expression="1=1" name="Pma0EnableReusePartActionOnDesign" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <Condition description="This rule enables &quot;Revise Design Action&quot; LOV for Design update when the Design is in &quot;Frozen&quot; state. This condition enables the Pma0ReviseDesignActionLOV." expression="Function::INLIST(&quot;Frozen&quot;, o.pma0AlignedDsgnReleaseStat, &quot;name&quot;)" name="Pma0EnableReviseDesignActionOnPart" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <Condition description="This rule enables &quot;Revise Part Action&quot; LOV for Part update when the part is in &quot;Frozen&quot; state. This condition enables the Pma0RevisePartActionLOV." expression="Function::INLIST(&quot;Frozen&quot;, o.pma0AlignedPrtReleaseStatus, &quot;name&quot;)" name="Pma0EnableRevisePartActionOnDesign" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BOMLine"/>
+               
+        </Condition>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0ImplicitPrimaryRep" value="Pma0ImplicitPrimaryRepCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0ImplicitPrimaryRep" value="Pma0ImplicitPrimaryRepSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedDsgnReleaseStat" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignedPrtReleaseStatus" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0UpdateAction" typeName="BOMLine" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0BomUpdateMode" typeName="BOMWindow" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedDsgnReleaseStat" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignedPrtReleaseStatus" typeName="BOMLine" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0UpdateAction" typeName="BOMLine" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0BomUpdateMode" typeName="BOMWindow" value="Write"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="false" isTargetPrimary="true" objectTypeName="ItemRevision" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="Pma0ImplicitPrimaryRep" secured="true" typeName="ItemRevision"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="ItemRevision" relationTypeName="Pma0ImplicitPrimaryRep" secondaryCardinality="-1" secondaryTypeName="ItemRevision" secured="false"/>
+           
+        <TcExtension cannedExtension="true" description="Bulk operation for deleting the Pma0ImplicitPrimaryRep relation that is existing between the Design and Part revision." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0BulkDeleteImplicitPrimaryRep">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*:2"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Bulk operation to propagate the Part-CAD alignment on the new Design revision when the existing Design revision is revised." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0BulkPropagatePCAOnDesignRevise">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:fnd0Revise#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="Bulk operation to SaveAs aligned Part/Design Revision and propagate the primary Part-CAD alignment when the existing Design/Part revision is SavedAs." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0BulkPropagatePCAOnSaveAs">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:fnd0SaveAs#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Delete the Pma0ImplicitPrimaryRep relation that is existing between the Design and Part revision." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0DeleteImplicitPrimaryRep">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:IMAN_delete:2"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="true" description="Propagate the Part-CAD alignment on the new Design/Part revision when the existing Design/Part revision is revised." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PropagatePCAOnDesignRevise">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="SaveAs aligned Part/Design Revision and propagate the primary Part-CAD alignment when the existing Design/Part revision is SavedAs." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PropagatePCAOnSaveAs">
+                 
+            <TcExtensionValidity parameter="TYPE:ItemRevision:saveAs#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedDsgnReleaseStat">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedDsgnReleaseStat:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0AlignedPrtReleaseStatus">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0AlignedPrtReleaseStatus:PROP_ask_value_tags:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="getPma0UpdateAction">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0UpdateAction:PROP_ask_value_string:4"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="setPma0UpdateAction">
+                 
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0UpdateAction:PROP_set_value_string:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design Revision" extendableElementType="Type" extensionName="Pma0BulkPropagatePCAOnSaveAs" extensionPointType="PostAction" isActive="true" operationName="fnd0SaveAs#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0BulkPropagatePCAOnSaveAs" extensionPointType="PostAction" isActive="true" operationName="fnd0SaveAs#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="ItemRevision" extendableElementType="Type" extensionName="Pma0DeleteImplicitPrimaryRep" extensionPointType="PreAction" isActive="true" operationName="IMAN_delete"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="ItemRevision" extendableElementType="Type" extensionName="Pma0PropagatePCAOnDesignRevise" extensionPointType="PostAction" isActive="true" operationName="revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design Revision" extendableElementType="Type" extensionName="Pma0PropagatePCAOnSaveAs" extensionPointType="PostAction" isActive="true" operationName="saveAs#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0PropagatePCAOnSaveAs" extensionPointType="PostAction" isActive="true" operationName="saveAs#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedDsgnReleaseStat" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedDsgnReleaseStat"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0AlignedPrtReleaseStatus" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tags" propertyName="pma0AlignedPrtReleaseStatus"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="getPma0UpdateAction" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_string" propertyName="pma0UpdateAction"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="setPma0UpdateAction" extensionPointType="BaseAction" isActive="true" operationName="PROP_set_value_string" propertyName="pma0UpdateAction"/>
+           
+        <TcLOV description="The LOV is available when Pma0EnableDsgnChangeActionsOnPart condition is true." lovType="ListOfValuesString" name="Pma0DsgnChangeActionsLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Design currently aligned to the Part under change." value="ReviseDesign"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Reuse existing revision of Design" value="ReuseDesign"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on Design on a Part change based on Design maturity." lovType="ListOfValuesString" name="Pma0ListOfDsgnUpdateActionOnPrt" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Reuse existing revision of Design" value="ReuseDesign"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Design currently aligned to the Part under change." value="ReviseDesign"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Use a new Design for the Part under change" value="NewDesign"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on Part on a Design change based on Part's maturity." lovType="ListOfValuesString" name="Pma0ListOfPartUpdateActionOnDsgn" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Reuse existing revision of Part" value="ReusePart"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Part currently aligned to the Design under change." value="RevisePart"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Use a new Part for the Design under change." value="NewPart"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="This LOV is available  when Design is required for the Part but there is no Design aligned to the Design." lovType="ListOfValuesString" name="Pma0NewDesignActionLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Creates a new Design for the Part under change" value="NewDesign"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="This LOV is available  when Part is required for the design but there is no Part aligned to the Design." lovType="ListOfValuesString" name="Pma0NewPartActionLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Create a new Part for the Design under change" value="NewPart"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on Part on a Design change based on the part maturity status. The LOV is available when Pma0EnablePartChangeActions condition is true." lovType="ListOfValuesString" name="Pma0PartChangeActionsLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Use a new Part for the Design under change." value="NewPart"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Part currently aligned to the Design under change." value="RevisePart"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="The LOV is available when Pma0EnableReuseDsgnActionOnPart condition is true." lovType="ListOfValuesString" name="Pma0ReuseDesignActionsLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Reuse existing revision of Design" value="ReuseDesign"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on Part on a Design change based on the part maturity status. The LOV is available when Pma0EnableReusePartActionOnDesign condition is true." lovType="ListOfValuesString" name="Pma0ReusePartActionsLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="ReusePart"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on aligned Part when there are structural changes on any of the design child skipped node." lovType="ListOfValuesString" name="Pma0ReviseAndReusePartActionLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Part currently aligned to the Design under change." value="RevisePart"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Reuse existing revision of Part" value="ReusePart"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="The LOV is available when Pma0EnableDsgnChangeActionsOnPart condition is true." lovType="ListOfValuesString" name="Pma0ReviseDesignActionLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Design currently aligned to the Part under change." value="ReviseDesign"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Lists the possible actions user can take on Part on a Design change based on the part maturity status. The LOV is available when Pma0EnableRevisePartActionOnDesign condition is true." lovType="ListOfValuesString" name="Pma0RevisePartActionLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Revise the Part currently aligned to the Design under change." value="RevisePart"/>
+               
+        </TcLOV>
+           
+        <TcLOVAttach lovName="Pma0ListOfPartUpdateActionOnDsgn" typeName="BOMLine">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0UpdateAction"/>
+               
+        </TcLOVAttach>
+           
+        <TcExtension cannedExtension="false" description="This extension is used in Part Master Automation to copy aligned Design when a Part is copied to the target Part structure." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0CopyAlignedDesignPostExtn">
+                 
+            <TcExtensionValidity parameter="TYPE:BOMLine:fnd0CopyLine#tag_t$tag_t$tag_t,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension is used in Part Master Automation to clone aligned Design structure when a Part structure is Duplicated. It also creates alignments between cloned Part and Design structure based on the alignment information from the source structures." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0DuplicatePostExtnForAlignedDesignCarryover">
+                 
+            <TcExtensionValidity parameter="TYPE:BOMLine:fnd0Duplicate#const,tag_t,*$tag_t,*:3"/>
+               
+        </TcExtension>
+           
+        <TcExtension cannedExtension="false" description="This extension is used in Part Master Automation to save the Design BOMWindow when corresponding Part window is getting saved during copy paste operation. It also creates alignments between copied Part(s) and Design(s) in context of the target structure, once both the BOMWindows are saved." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0SaveAlignedDesignPostExtn">
+                 
+            <TcExtensionValidity parameter="TYPE:BOMWindow:BOMWindow_save:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0DuplicatePostExtnForAlignedDesignCarryover" extensionPointType="PostAction" isActive="true" operationName="fnd0Duplicate#const,tag_t,*$tag_t,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0CopyAlignedDesignPostExtn" extensionPointType="PostAction" isActive="true" operationName="fnd0CopyLine#tag_t$tag_t$tag_t,*"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMWindow" extendableElementType="Type" extensionName="Pma0SaveAlignedDesignPostExtn" extensionPointType="PostAction" isActive="true" operationName="BOMWindow_save"/>
+                
+        <TcClass className="Pma0DesignAttrs" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="POM_object">
+                        
+            <TcAttribute attributeName="pma0AlignToGenericPart" attributeType="POM_logical" description="This is Boolean type property. User can set this value. When set to True, the Part created for this design will have the Assembly Indicator as &quot;Generic Part&quot;. The default value is False" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                        
+            <TcAttribute attributeName="pma0OwningObject" attributeType="POM_typed_reference" description="pma0OwningObject is a typed reference property that represents an owner of a Design Attributes. Owning object manages the life cycle of a Pma0DesignAttrs. This cannot be NULL." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="true" maxStringLength="0" noBackpointer="false" typedRefClassName="Item"/>
+                    
+        </TcClass>
+                
+        <TcClass className="Pma0PartAttrs" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="POM_object">
+                        
+            <TcAttribute attributeName="pma0SafetyPart" attributeType="POM_logical" description="pma0SafetyPart is a boolean. Safety Part indicates if Part is a Safety Critical. A Safety Critical Part Needs a set of Approvals. The default value is False." exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                        
+            <TcAttribute attributeName="pma0MultiBody" attributeType="POM_logical" description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                        
+            <TcAttribute attributeName="pma0LessFinish" attributeType="POM_string" description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." exportAsString="false" followOnExport="false" initialValue="None" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                        
+            <TcAttribute attributeName="pma0OwningObject" attributeType="POM_typed_reference" description="pma0OwningObject is a typed reference property that represents an owner of a Part Attributes. Owning object manages the life cycle of a Pma0PartAttrs. This cannot be NULL." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="true" maxStringLength="0" noBackpointer="false" typedRefClassName="Item"/>
+                    
+        </TcClass>
+                
+        <TcClass className="Pma0PartRevAttrs" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="POM_object">
+                        
+            <TcAttribute attributeName="pma0SparePart" attributeType="POM_logical" description="Indicates if the part is available as a spare. Default value is True." exportAsString="false" followOnExport="false" initialValue="true" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                        
+            <TcAttribute attributeName="pma0TechnologyIntent" attributeType="POM_string" description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." exportAsString="false" followOnExport="false" initialValue="In-house Design" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                        
+            <TcAttribute attributeName="pma0OwningObject" attributeType="POM_typed_reference" description="pma0OwningObject is a typed reference property that represents an owner of a Part Attributes. Owning object manages the life cycle of a Pma0PartRevAttrs. This cannot be NULL." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="true" maxStringLength="0" noBackpointer="false" typedRefClassName="ItemRevision"/>
+                        
+            <TcAttribute attributeName="pma0IsStandard" attributeType="POM_logical" description="pma0IsStandard is a bool attribute used to represent if the part is standard part or not." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                    
+        </TcClass>
+                
+        <OperationInputType artifactName="Pma0DesignAttrsCreI" description="CreateInput object for &quot;Pma0DesignAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectCreI" typeClassName="Pma0DesignAttrsCreI" typeName="Pma0DesignAttrsCreI">
+                        
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="pma0OwningObject is a typed reference property that represents an owner of a Design Attributes. Owning object manages the life cycle of a Pma0DesignAttrs. This cannot be NULL." fieldType="SimpleProperty" propName="pma0OwningObject" srcPropName="pma0OwningObject"/>
+                    
+        </OperationInputType>
+                
+        <OperationInputType artifactName="Pma0DesignAttrsSvAI" description="SaveAsInput object for &quot;Pma0DesignAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="Pma0DesignAttrsSvAI" typeName="Pma0DesignAttrsSvAI"/>
+                
+        <OperationInputType artifactName="Pma0PartAttrsCreI" description="CreateInput object for &quot;Pma0PartAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectCreI" typeClassName="Pma0PartAttrsCreI" typeName="Pma0PartAttrsCreI">
+                        
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="pma0OwningObject is a typed reference property that represents an owner of a Part Attributes. Owning object manages the life cycle of a Pma0PartAttrs. This cannot be NULL." fieldType="SimpleProperty" propName="pma0OwningObject" srcPropName="pma0OwningObject"/>
+                    
+        </OperationInputType>
+                
+        <OperationInputType artifactName="Pma0PartAttrsSvAI" description="SaveAsInput object for &quot;Pma0PartAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="Pma0PartAttrsSvAI" typeName="Pma0PartAttrsSvAI"/>
+                
+        <OperationInputType artifactName="Pma0PartRevAttrsCreI" description="CreateInput object for &quot;Pma0PartRevAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectCreI" typeClassName="Pma0PartRevAttrsCreI" typeName="Pma0PartRevAttrsCreI">
+                        
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="pma0OwningObject is a typed reference property that represents an owner of a Part Attributes. Owning object manages the life cycle of a Pma0PartRevAttrs. This cannot be NULL." fieldType="SimpleProperty" propName="pma0OwningObject" srcPropName="pma0OwningObject"/>
+                    
+        </OperationInputType>
+                
+        <OperationInputType artifactName="Pma0PartRevAttrsSvAI" description="SaveAsInput object for &quot;Pma0PartRevAttrs&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="Pma0PartRevAttrsSvAI" typeName="Pma0PartRevAttrsSvAI"/>
+                
+        <TcStandardType artifactName="Pma0DesignAttrs" description="Design Attributes represents group of revision independent design properties." functionality="Pma0automation" isAbstract="false" parentTypeName="POM_object" typeClassName="Pma0DesignAttrs" typeName="Pma0DesignAttrs"/>
+                
+        <TcStandardType artifactName="Pma0PartAttrs" description="Part Attributes represents a group of revision independent part properties. Part Attributes is associated with Part or any Item sub class which is declared as Part through Fnd0PartDesignQualifier BO constant." functionality="Pma0automation" isAbstract="false" parentTypeName="POM_object" typeClassName="Pma0PartAttrs" typeName="Pma0PartAttrs"/>
+                
+        <TcStandardType artifactName="Pma0PartRevAttrs" description="Part Revision Attributes represents a group of revision specific part properties. Part Revision Attributes is associated with Part Revision or any Item Revision sub class which is declared as Part." functionality="Pma0automation" isAbstract="false" parentTypeName="POM_object" typeClassName="Pma0PartRevAttrs" typeName="Pma0PartRevAttrs"/>
+           
+        <BusinessObjectInterface createRelease="tc14000.2.0" description="Interface Name for Business Object Pma0DesignAttrs" libraryName="Pma0automation" name="Pma0DesignAttrs" namespace="pma0automation" primaryInterface="true" typeName="Pma0DesignAttrs"/>
+                
+        <BusinessObjectInterface createRelease="tc13000.2.0" description="Interface Name for Business Object Pma0PartAttrs" libraryName="Pma0automation" name="Pma0PartAttrs" namespace="pma0automation" primaryInterface="true" typeName="Pma0PartAttrs"/>
+                
+        <BusinessObjectInterface createRelease="tc13000.2.0" description="Interface Name for Business Object Pma0PartRevAttrs" libraryName="Pma0automation" name="Pma0PartRevAttrs" namespace="pma0automation" primaryInterface="true" typeName="Pma0PartRevAttrs"/>
+                
+        <PropertyOperation canOverride="true" createRelease="tc14000.1.0" description="Setter for a string Property" id="setPma0LessFinish#const,std::string,&amp;$bool" interface="pma0automation::Pma0PartAttrs" isPostActionAllowed="true" isPreActionAllowed="true" isPreConditionAllowed="true" isPublished="true" name="setPma0LessFinish" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="pma0LessFinish" returnDescription="Status. 0 if successful"/>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="Expose the property added by user on the Pma0DesignAttrs as Runtime Property" isArray="false" propMaxStringLength="0" propName="bl_Pma0DesignAttrs_pma0AlignToGenericPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="pma0_bl_Pma0PartAttrs_pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." isArray="false" propMaxStringLength="128" propName="pma0_bl_Pma0PartAttrs_pma0LessFinish" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="pma0_bl_Pma0PartAttrs_pma0MultiBody is a Boolean property. A multi-body part Indicates if Piece Part is made up of multiple materials. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_bl_Pma0PartAttrs_pma0MultiBody" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="pma0_bl_Pma0PartAttrs_pma0SafetyPart is a Boolean. Safety Part indicates if Part is safety critical. A Safety Critical Part needs a set of approvals. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_bl_Pma0PartAttrs_pma0SafetyPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                      
+            <TcProperty arrayLength="0" description="pma0IsStandard is a bool attribute used to represent if the part is standard part or not." isArray="false" propMaxStringLength="0" propName="pma0_bl_Pma0PartRevAttrs_pma0IsStandard" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="Indicates if the part is available as a spare. Default value is True." isArray="false" propMaxStringLength="0" propName="pma0_bl_Pma0PartRevAttrs_pma0SparePart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="BOMLine">
+                        
+            <TcProperty arrayLength="0" description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." isArray="false" propMaxStringLength="128" propName="pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Design">
+                        
+            <TcProperty arrayLength="0" description="Expose the property added by user on the Pma0DesignAttrs as Runtime Property" isArray="false" propMaxStringLength="0" propName="des_Pma0DesignAttrs_pma0AlignToGenericPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part">
+                        
+            <TcProperty arrayLength="0" description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." isArray="false" propMaxStringLength="0" propName="pma0_part_Pma0PartAttrs_pma0LessFinish" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part">
+                        
+            <TcProperty arrayLength="0" description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_part_Pma0PartAttrs_pma0MultiBody" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part">
+                        
+            <TcProperty arrayLength="0" description="pma0SafetyPart is a boolean. Safety Part indicates if Part is a Safety Critical. A Safety Critical Part Needs a set of Approvals. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_part_Pma0PartAttrs_pma0SafetyPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Design Revision">
+                        
+            <TcProperty arrayLength="0" description="Expose the property added by user on the Pma0DesignAttrs as Runtime Property" isArray="false" propMaxStringLength="0" propName="desRev_Pma0DesignAttrs_pma0AlignToGenericPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                        
+            <TcProperty arrayLength="0" description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartAttrs_pma0LessFinish" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                        
+            <TcProperty arrayLength="0" description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartAttrs_pma0MultiBody" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                        
+            <TcProperty arrayLength="0" description="pma0SafetyPart is a boolean. Safety Part indicates if Part is a Safety Critical. A Safety Critical Part Needs a set of Approvals. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartAttrs_pma0SafetyPart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                      
+            <TcProperty arrayLength="0" description="pma0IsStandard is a bool attribute used to represent if the part is standard part or not." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                        
+            <TcProperty arrayLength="0" description="Indicates if the part is available as a spare. Default value is True." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartRevAttrs_pma0SparePart" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part Revision">
+                        
+            <TcProperty arrayLength="0" description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." isArray="false" propMaxStringLength="0" propName="pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="PartCreI">
+                        
+            <TcProperty arrayLength="0" description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." isArray="false" propMaxStringLength="128" propName="pma0LessFinishInput" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="PartCreI">
+                        
+            <TcProperty arrayLength="0" description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0MultiBodyInput" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="PartCreI">
+                        
+            <TcProperty arrayLength="0" description="pma0SafetyPart is a boolean. Safety Part indicates if Part is safety critical. A Safety Critical Part needs a set of approvals. The default value is False." isArray="false" propMaxStringLength="0" propName="pma0SafetyPartInput" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part RevisionCreI">
+                        
+            <TcProperty arrayLength="0" description="Indicates if the part is available as a spare. Default value is True." isArray="false" propMaxStringLength="0" propName="pma0SparePartInput" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcPropertyAttach typeName="Part RevisionCreI">
+                        
+            <TcProperty arrayLength="0" description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." isArray="false" propMaxStringLength="128" propName="pma0TechnologyIntentInput" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                    
+        </TcPropertyAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" operationName="IMAN_delete" packageName="com.teamcenter.core.rules.operationattach">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartRevAttrs" extendableElementType="Type" operationName="IMAN_delete" packageName="com.teamcenter.core.rules.operationattach">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+           
+        <TcOperationAttach description="" extendableElementName="Pma0DesignAttrs" extendableElementType="Type" operationName="IMAN_save" packageName="com.teamcenter.core.rules.operationattach">
+                 
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                 
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" operationName="IMAN_save" packageName="com.teamcenter.core.rules.operationattach">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartRevAttrs" extendableElementType="Type" operationName="IMAN_save" packageName="com.teamcenter.core.rules.operationattach">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="pma0LessFinish">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" operationName="PROP_set_value_string" propertyName="pma0LessFinish">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcOperationAttach description="" extendableElementName="BOMLine" extendableElementType="Type" operationName="PROP_is_modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish">
+                        
+            <TcExtensionPoint extensionPointType="PreCondition" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="PreAction" isOverridable="true"/>
+                        
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="false"/>
+                        
+            <TcExtensionPoint extensionPointType="PostAction" isOverridable="true"/>
+                    
+        </TcOperationAttach>
+                
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0DesignAttrs" value="Pma0DesignAttrsCreI"/>
+                
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0PartAttrs" value="Pma0PartAttrsCreI"/>
+                
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0PartRevAttrs" value="Pma0PartRevAttrsCreI"/>
+                
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0DesignAttrs" value="Pma0DesignAttrsSvAI"/>
+                
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0PartAttrs" value="Pma0PartAttrsSvAI"/>
+                
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0PartRevAttrs" value="Pma0PartRevAttrsSvAI"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="bl_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartAttrs_pma0MultiBody" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartAttrs_pma0SafetyPart" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartRevAttrs_pma0SparePart" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartRevAttrs_pma0IsStandard" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" typeName="BOMLine" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="desRev_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="Design Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="des_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="Design" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartAttrs_pma0LessFinish" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartAttrs_pma0MultiBody" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartAttrs_pma0SafetyPart" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0SparePart" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0SparePart" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsStandard" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0TechnologyIntent" typeName="Part Revision" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0AlignToGenericPart" typeName="Pma0DesignAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0LessFinish" typeName="Pma0PartAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0MultiBody" typeName="Pma0PartAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0OwningObject" typeName="Pma0PartAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0SafetyPart" typeName="Pma0PartAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0IsStandard" typeName="Pma0PartRevAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0OwningObject" typeName="Pma0PartRevAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0SparePart" typeName="Pma0PartRevAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0TechnologyIntent" typeName="Pma0PartRevAttrs" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="pma0LessFinishInput" typeName="PartCreI" value="None"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="bl_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0MultiBody" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0SafetyPart" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartRevAttrs_pma0SparePart" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartRevAttrs_pma0IsStandard" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" typeName="BOMLine" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="desRev_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="Design Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="des_Pma0DesignAttrs_pma0AlignToGenericPart" typeName="Design" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartAttrs_pma0LessFinish" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartAttrs_pma0MultiBody" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartAttrs_pma0SafetyPart" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0SparePart" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0SparePart" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsStandard" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0TechnologyIntent" typeName="Part Revision" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_part_Pma0PartAttrs_pma0LessFinish" typeName="Part" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_part_Pma0PartAttrs_pma0MultiBody" typeName="Part" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0_part_Pma0PartAttrs_pma0SafetyPart" typeName="Part" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0AlignToGenericPart" typeName="Pma0DesignAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0LessFinish" typeName="Pma0PartAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0MultiBody" typeName="Pma0PartAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0OwningObject" typeName="Pma0PartAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0SafetyPart" typeName="Pma0PartAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0IsStandard" typeName="Pma0PartRevAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0OwningObject" typeName="Pma0PartRevAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0SparePart" typeName="Pma0PartRevAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0TechnologyIntent" typeName="Pma0PartRevAttrs" value="Write"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0SparePartInput" typeName="Part RevisionCreI" value="false"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0TechnologyIntentInput" typeName="Part RevisionCreI" value="false"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0LessFinishInput" typeName="PartCreI" value="true"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0MultiBodyInput" typeName="PartCreI" value="false"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0SafetyPartInput" typeName="PartCreI" value="false"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0OwningObject" typeName="Pma0PartAttrsCreI" value="false"/>
+                
+        <TcPropertyConstantAttach constantName="Visible" propertyName="pma0OwningObject" typeName="Pma0PartRevAttrsCreI" value="false"/>
+                
+        <TcCompoundPropertyRule description="pma0IsStandard is a bool attribute used to represent if the part is standard part or not." destPropertyName="pma0IsStandard" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_revision,ItemRevision).REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0IsStandard" sourcePropertyName="pma0IsStandard" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." destPropertyName="pma0LessFinish" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_item,Item).REFBY(pma0OwningObject,Pma0PartAttrs).pma0LessFinish" sourcePropertyName="pma0LessFinish" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." destPropertyName="pma0MultiBody" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_item,Item).REFBY(pma0OwningObject,Pma0PartAttrs).pma0MultiBody" sourcePropertyName="pma0MultiBody" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0SafetyPart is a boolean. Safety Part indicates if Part is safety critical. A Safety Critical Part needs a set of approvals. The default value is False." destPropertyName="pma0SafetyPart" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_item,Item).REFBY(pma0OwningObject,Pma0PartAttrs).pma0SafetyPart" sourcePropertyName="pma0SafetyPart" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="Indicates if the part is available as a spare. Default value is True." destPropertyName="pma0SparePart" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_revision,ItemRevision).REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0SparePart" sourcePropertyName="pma0SparePart" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." destPropertyName="pma0TechnologyIntent" destTypeName="BOMLine" isReadOnly="false" pathToSource="REF(bl_revision,ItemRevision).REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0TechnologyIntent" sourcePropertyName="pma0TechnologyIntent" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0IsStandard is a bool attribute used to represent if the part is standard part or not." destPropertyName="pma0IsStandard" destTypeName="Part Revision" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0IsStandard" sourcePropertyName="pma0IsStandard" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." destPropertyName="pma0LessFinish" destTypeName="Part Revision" isReadOnly="false" pathToSource="REF(items_tag,Item).REFBY(pma0OwningObject,Pma0PartAttrs).pma0LessFinish" sourcePropertyName="pma0LessFinish" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="Indicates if the part is available as a spare. Default value is True." destPropertyName="pma0SparePart" destTypeName="Part Revision" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0SparePart" sourcePropertyName="pma0SparePart" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="Indicates the intent if the Part is to be designed In-House or the Design will be contracted. The valid values are&#10;In-house Design&#10;Design Outsourced&#10;Design Purchased&#10;Un-assigned&#10;Default value is In-house Design." destPropertyName="pma0TechnologyIntent" destTypeName="Part Revision" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartRevAttrs).pma0TechnologyIntent" sourcePropertyName="pma0TechnologyIntent" sourceTypeName="Pma0PartRevAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0LessFinish is a string property. It Indicates if the Part is a Less Finish Part or Colored Part. The valid values are &#10;Less Finish&#10;Colored Part&#10;None&#10; The default value is None." destPropertyName="pma0LessFinish" destTypeName="Part" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartAttrs).pma0LessFinish" sourcePropertyName="pma0LessFinish" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0MultiBody is a Boolean property. Multi Body part Indicates if Piece Part is made up of multiple materials. The default value is False." destPropertyName="pma0MultiBody" destTypeName="Part" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartAttrs).pma0MultiBody" sourcePropertyName="pma0MultiBody" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcCompoundPropertyRule description="pma0SafetyPart is a boolean. Safety Part indicates if Part is safety critical. A Safety Critical Part needs a set of approvals. The default value is False." destPropertyName="pma0SafetyPart" destTypeName="Part" isReadOnly="false" pathToSource="REFBY(pma0OwningObject,Pma0PartAttrs).pma0SafetyPart" sourcePropertyName="pma0SafetyPart" sourceTypeName="Pma0PartAttrs"/>
+                
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Pma0PartRevAttrs" operationName="ITEM_copy_rev" propertyType="ReferenceProperty" relRefPropName="pma0OwningObject" secured="true" typeName="Part Revision"/>
+                
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Pma0DesignAttrs" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="pma0OwningObject" secured="true" typeName="Design"/>
+                
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Pma0PartRevAttrs" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="pma0OwningObject" secured="true" typeName="Part Revision"/>
+                
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="false" objectTypeName="Pma0PartAttrs" operationName="ITEM_create_from_rev" propertyType="ReferenceProperty" relRefPropName="pma0OwningObject" secured="true" typeName="Part"/>
+           
+        <TcExtension cannedExtension="false" description="This extension is base implementation for IMAN_save of Pma0DesignAttrs" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0DesignAttrsSaveBase">
+                 
+            <TcExtensionValidity parameter="TYPE:Pma0DesignAttrs:IMAN_save:4"/>
+               
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="The extension deletes the Pma0DesignAttrs before deleting the Design" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0DesignDeletePreAction">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:IMAN_delete:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="The extension deletes the Pma0DesignAttrs before deleting the Design in Bulk" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0DesignDeletePreActionBulk">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Register setter/getter/bulk loader for runtime properties on BOMLine with pattern bl_Pma0DesignAttrs_prop_name. Also registers all properties, their setter/getter and bulk loaders on Pma0DesignAttrs POM object." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitDesignAttrPropForBL">
+                        
+            <TcExtensionValidity parameter="TYPE:BOMLine:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Register setter/getter/bulk loader for runtime properties on Design with pattern des_Pma0DesignAttrs_prop_name. Also registers all properties, their setter/getter and bulk loaders on Pma0DesignAttrs POM object" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitDesignAttrPropForDes">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Register setter/getter/bulk loader for runtime properties on Design Revision with pattern desRev_Pma0DesignAttrs_prop_name. Also registers all properties, their setter/getter and bulk loaders on Pma0DesignAttrs POM object" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitDesignAttrPropForDesRev">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Register setter/getter for the properties defined on BOMLine which are added for properties on Pma0PartAttrs and Pma0PartRevAttrs objects." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitPartAndPartRevAttrPropsForBL">
+                        
+            <TcExtensionValidity parameter="TYPE:BOMLine:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Register setter/getter for the properties defined on Part Revision which are added for properties on Pma0PartAttrs and Pma0PartRevAttrs." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitPartRevAttrPropsForPartRev">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="Extension to register set based extension" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0InitSetBasedExtnsForPartPropsExtns">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:IMANTYPE_init_intl_props:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension validates if pma0LessFinish property is modifiable." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0IsLessFinishPropModifiable">
+                        
+            <TcExtensionValidity parameter="PROPERTY:Pma0PartAttrs:pma0LessFinish:PROP_is_modifiable:4"/>
+                        
+            <TcExtensionValidity parameter="PROPERTY:BOMLine:pma0_bl_Pma0PartAttrs_pma0LessFinish:PROP_is_modifiable:4"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension is base implementation for IMAN_save of Pma0PartAttrs" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartAttrsSaveBase">
+                        
+            <TcExtensionValidity parameter="TYPE:Pma0PartAttrs:IMAN_save:4"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension creates Pma0PartAttrs when Part is created." internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartCreatePostBulkExt">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension creates Pma0PartAttrs when Part is created." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartCreatePostExt">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:createPost#Teamcenter::CreateInput,*:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension deletes Pma0PartAttrs before deleting a Part" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartDeletePreAction">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:IMAN_delete:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension deletes Pma0PartAttrs before deleting a Part" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartDeletePreActionBulk">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension is base implementation for IMAN_save of Pma0PartRevAttrs" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartRevAttrsSaveBase">
+                        
+            <TcExtensionValidity parameter="TYPE:Pma0PartRevAttrs:IMAN_save:4"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension creates Pma0PartRevAttrs when Part Revision is created." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartRevCreatePostBulkExt">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension creates Pma0PartRevAttrs when Part Revision is created" functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartRevCreatePostExt">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:createPost#Teamcenter::CreateInput,*:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension deletes Pma0PartRevAttrs before deleting a Part Revision." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartRevDeletePreAction">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:IMAN_delete:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension deletes Pma0PartRevAttrs before deleting a Part Revision." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartRevDeletePreActionBulk">
+                        
+            <TcExtensionValidity parameter="TYPE:ItemRevision:fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*:2"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension sets Solution Variant category to &amp;ldquo;Reuse&amp;rdquo; when Assembly Indicator is set to Configurable Assembly OR Generic Part." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartSavePostAction">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:IMAN_save:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtension cannedExtension="false" description="This extension sets Solution Variant category to &amp;ldquo;Reuse&amp;rdquo; when Assembly Indicator is set to Configurable Assembly OR Generic Part." functionality="Pma0automation" internal="false" languageType="CPlusPlus" libraryName="libPma0automation" name="Pma0PartSavePostActionBulk">
+                        
+            <TcExtensionValidity parameter="TYPE:Item:fnd0Save#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*:3"/>
+                    
+        </TcExtension>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design" extendableElementType="Type" extensionName="Pma0DesignDeletePreAction" extensionPointType="PreAction" isActive="true" operationName="IMAN_delete"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design" extendableElementType="Type" extensionName="Pma0DesignDeletePreActionBulk" extensionPointType="PreAction" isActive="true" operationName="fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0InitDesignAttrPropForBL" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design" extendableElementType="Type" extensionName="Pma0InitDesignAttrPropForDes" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Design Revision" extendableElementType="Type" extensionName="Pma0InitDesignAttrPropForDesRev" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0InitPartAndPartRevAttrPropsForBL" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0InitPartRevAttrPropsForPartRev" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0InitSetBasedExtnsForPartPropsExtns" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" extensionName="Pma0IsLessFinishPropModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0LessFinish"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0DesignAttrs" extendableElementType="Type" extensionName="Pma0DesignAttrsSaveBase" extensionPointType="BaseAction" isActive="true" operationName="IMAN_save"/>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0PartAttrs" extendableElementType="Type" extensionName="Pma0PartAttrsSaveBase" extensionPointType="BaseAction" isActive="true" operationName="IMAN_save"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartCreatePostBulkExt" extensionPointType="PostAction" isActive="true" operationName="fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartCreatePostExt" extensionPointType="PostAction" isActive="true" operationName="createPost#Teamcenter::CreateInput,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartDeletePreAction" extensionPointType="PreAction" isActive="true" operationName="IMAN_delete"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartDeletePreActionBulk" extensionPointType="PreAction" isActive="true" operationName="fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="BOMLine" extendableElementType="Type" extensionName="Pma0IsLessFinishPropModifiable" extensionPointType="BaseAction" isActive="true" operationName="PROP_is_modifiable" propertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Pma0PartRevAttrs" extendableElementType="Type" extensionName="Pma0PartRevAttrsSaveBase" extensionPointType="BaseAction" isActive="true" operationName="IMAN_save"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0PartRevCreatePostBulkExt" extensionPointType="PostAction" isActive="true" operationName="fnd0CreatePost#std::vector&lt;Teamcenter::BulkInput*&gt;,*$Teamcenter::BulkData,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0PartRevCreatePostExt" extensionPointType="PostAction" isActive="true" operationName="createPost#Teamcenter::CreateInput,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0PartRevDeletePreAction" extensionPointType="PreAction" isActive="true" operationName="IMAN_delete"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part Revision" extendableElementType="Type" extensionName="Pma0PartRevDeletePreActionBulk" extensionPointType="PreAction" isActive="true" operationName="fnd0BulkDelete#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartSavePostAction" extensionPointType="PostAction" isActive="true" operationName="IMAN_save"/>
+                
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Part" extendableElementType="Type" extensionName="Pma0PartSavePostActionBulk" extensionPointType="PostAction" isActive="true" operationName="fnd0Save#std::vector&lt;Teamcenter::BulkInput&gt;,*,*$Teamcenter::BulkData,*"/>
+                
+        <TcLOV description="List of values for less finish indicator." lovType="ListOfValuesString" name="Pma0LessFinish" usage="Exhaustive">
+                        
+            <TcLOVValue conditionName="isTrue" description="Indicates a part with no finish" value="Less Finish"/>
+                        
+            <TcLOVValue conditionName="isTrue" description="Indicates a part defined by color attributes" value="Colored Part"/>
+                        
+            <TcLOVValue conditionName="isTrue" description="Indicates a part with no color" value="None"/>
+                    
+        </TcLOV>
+                
+        <TcLOV description="List of values for Technology Intent" lovType="ListOfValuesString" name="Pma0TechnologyIntent" usage="Exhaustive">
+                        
+            <TcLOVValue conditionName="isTrue" description="" value="In-house Design"/>
+                        
+            <TcLOVValue conditionName="isTrue" description="" value="Design Outsourced"/>
+                        
+            <TcLOVValue conditionName="isTrue" description="" value="Design Purchased"/>
+                        
+            <TcLOVValue conditionName="isTrue" description="" value="Un-assigned"/>
+                    
+        </TcLOV>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="BOMLine">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0_bl_Pma0PartAttrs_pma0LessFinish"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="Part">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0LessFinish"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="Part">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0_part_Pma0PartAttrs_pma0LessFinish"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="Part Revision">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0_partRev_Pma0PartAttrs_pma0LessFinish"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="PartCreI">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0LessFinishInput"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0LessFinish" typeName="Pma0PartAttrs">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0LessFinish"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0TechnologyIntent" typeName="BOMLine">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0TechnologyIntent" typeName="Part Revision">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0TechnologyIntent"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0TechnologyIntent" typeName="Part Revision">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0TechnologyIntent" typeName="Part RevisionCreI">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0TechnologyIntentInput"/>
+                    
+        </TcLOVAttach>
+                
+        <TcLOVAttach lovName="Pma0TechnologyIntent" typeName="Pma0PartRevAttrs">
+                        
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="pma0TechnologyIntent"/>
+                    
+        </TcLOVAttach>
+            
+   
+        <OperationInputType artifactName="Pma0ChangeValResultPro_alt0CreI" description="CreateInput object for &quot;Pma0ChangeValResultProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Pma0ChangeValResultPro_alt0CreI" typeName="Pma0ChangeValResultPro_alt0CreI"/>
+           
+        <OperationInputType artifactName="Pma0ChangeValResultPro_alt0SvAI" description="SaveAsInput object for &quot;Pma0ChangeValResultProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Pma0ChangeValResultPro_alt0SvAI" typeName="Pma0ChangeValResultPro_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Pma0ChangeValidationResultCreI" description="CreateInput object for &quot;Pma0ChangeValidationResult&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Pma0ChangeValidationResultCreI" typeName="Pma0ChangeValidationResultCreI"/>
+           
+        <OperationInputType artifactName="Pma0ChangeValidationResultSvAI" description="SaveAsInput object for &quot;Pma0ChangeValidationResult&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Pma0ChangeValidationResultSvAI" typeName="Pma0ChangeValidationResultSvAI"/>
+           
+        <TcRuntimeType artifactName="Pma0ChangeValResultProvider" description="Provider to fetch the change package validation results. The response of the Pma0ChangeValResultProvider is Pma0ChangeValidationResult objects which are used to represent change package validation results in ActiveWorkspace." functionality="Pma0automation" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Pma0ChangeValResultProvider" typeName="Pma0ChangeValResultProvider"/>
+           
+        <TcRuntimeType artifactName="Pma0ChangeValidationResult" description="Pma0ChangeValidationResult is a runtime business object used to represent change package validation run results." functionality="Pma0automation" isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Pma0ChangeValidationResult" typeName="Pma0ChangeValidationResult">
+                 
+            <TcProperty arrayLength="0" description="pma0SolutionItem is a runtime typed reference&#10;property which is used to represents solution item." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0SolutionItem" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="WorkspaceObject" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="pma0Issue is a runtime typed reference property which points to a Fnd0DataValidationIssue object. This property is used to represents issue found against the solution item." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="pma0Issue" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="Fnd0DataValidationIssue" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="pma0FailureReason is a string property which represents the reason of failure for the validation issue. May be NULL." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="pma0FailureReason" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <BusinessObjectInterface createRelease="tc14000.1.0" description="Interface Name for Business Object Pma0ChangeValResultProvider" libraryName="Pma0automation" name="Pma0ChangeValResultProvider" namespace="pma0automation" primaryInterface="true" typeName="Pma0ChangeValResultProvider"/>
+           
+        <OperationAttach createRelease="tc14000.1.0" id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Pma0ChangeValResultProvider"/>
+           
+        <TcTypeConstant allowOpsDataUpdate="true" allowOpsDataUpdateOverride="true" dataType="String" defaultValue="" description="A comma separated list of business rule names that are supported for change package validations. Any Solution Item in an ECN needs to set the value of this constant to the applicable condition names to evaluate the change package validations prior to EBOM release. &#10;If the length of value gets exhausted, to accommodate more condition names, alternatively a multivalued string preference of site scope can be specified as a value of this constant in the format &quot;PREF:preferenceName&quot;. &#10;for e.g : value=&quot;Rule1,Rule2,PREF:preferenceName&quot;.&#10;The perference values should be the list additional condition names, that needs to be added as values to this BO constant." isMultiValued="false" isValueAttachmentSecured="false" name="Pma0ChangePackageValidationConditions">
+                 
+            <Scope typeName="WorkspaceObject"/>
+               
+        </TcTypeConstant>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0ChangeValidationResult" value="Pma0ChangeValidationResultCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Pma0ChangeValResultProvider" value="Pma0ChangeValResultPro_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="Pma0ChangePackageValidationConditions" typeName="Design Revision" value="PMA0_validate_oppositedesigns"/>
+           
+        <TcTypeConstantAttach constantName="Pma0ChangePackageValidationConditions" typeName="Part Revision" value="PMA0_validate_part_and_aligned_design_maturity,PMA0_validate_parent_child_maturity,PMA0_validate_part_design_material,PMA0_validate_oppositeparts"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0ChangeValidationResult" value="Pma0ChangeValidationResultSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Pma0ChangeValResultProvider" value="Pma0ChangeValResultPro_alt0SvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0FailureReason" typeName="Pma0ChangeValidationResult" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0Issue" typeName="Pma0ChangeValidationResult" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="pma0SolutionItem" typeName="Pma0ChangeValidationResult" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0FailureReason" typeName="Pma0ChangeValidationResult" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0Issue" typeName="Pma0ChangeValidationResult" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="pma0SolutionItem" typeName="Pma0ChangeValidationResult" value="Write"/>
+           
+        <Library createRelease="tc2412" description="This SOA library provides the service interfaces that enable alignment of Design BOM and Engineering BOM." isThirdParty="false" name="Pma0SoaBOMAutomation" namespace="Pma0::Soa::BOMAutomation" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="tc2412" dependencies="" description="The AlignBOM service interface exposes the operations that enable the alignment of Design BOM and Engineering BOM." libraryName="Pma0SoaBOMAutomation" name="AlignBOM" namespace="Pma0::Soa::BOMAutomation" serviceLibraryRef=""/>
+           
+        <MetaEnum createRelease="tc2412" description="This enum value will decide which type of alignment will be performed between the design and Part, i.e occurrence alignment or part-cad alignment." isPublished="true" name="AlignmentType" namespace="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM" scope="Pma0::Soa::BOMAutomation::AlignBOM">
+                 
+            <MetaEnumLiteral description="" name="OccurrenceAlignment"/>
+                 
+            <MetaEnumLiteral description="" name="PartCadAlignment"/>
+               
+        </MetaEnum>
+           
+        <Struct createRelease="tc2412" description="The service response structure containing the alignment report information." isPublished="true" name="PerformDbomEbomAlignmentResponse" namespace="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM" scope="Pma0::Soa::BOMAutomation::AlignBOM">
+                 
+            <StructElement description="Dataset which contains the report details for DBOM-EBOM Alignment operation." name="dataset">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Contains partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc2412" description="A string to string map of user options and their respective values." isPublished="true" name="StringToStringMap" namespace="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM" scope="Pma0::Soa::BOMAutomation::AlignBOM">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <OperationTemplate const="false" createRelease="tc2412" description="This operation performs alignment between the Design BOM and Engineering BOM in context of given &lt;b&gt;BOMLine&lt;/b&gt; objects of designContextLine and partContextLine based on the property matching mentioned in the preference Pma0_Align_DBOM_EBOM_Criteria. This could be Part-Cad alignment or Occurrence alignment depending on the selected alignment type." id="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::PerformDbomEbomAlignmentResponse#Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignment#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" name="Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignment" returnConst="false" returnDescription="The following partial errors may be returned as part of service data:&lt;br /&gt;- 1707 Preference value not been defined correctly.&lt;br /&gt;- 427011 The given context is not a valid Part or Design type.&lt;br /&gt;- 427030 Property value type is not supported." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::PerformDbomEbomAlignmentResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of design &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." freeOutputMemory="false" inputOutput="Input" name="designContextLines">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="Teamcenter::BOMLine" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of part &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." freeOutputMemory="false" inputOutput="Input" name="partContextLines">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="Teamcenter::BOMLine" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="The type of alignment to be performed between the design and part - &amp;quot;OccurrenceAlignment&amp;quot; or &amp;quot;PartCadAlignment&amp;quot;." freeOutputMemory="false" inputOutput="Input" name="alignmentType">
+                       
+                <OperationParameterDataTypeRef dataType="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="Specifies whether the alignment operation report to be generated. If true, alignment report will be generated, and it will be attached to a &lt;b&gt;Dataset&lt;/b&gt; object that will be returned in the SOA response; otherwise, report won't be generated." freeOutputMemory="false" inputOutput="Input" name="generateReport">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="Specifies whether the operation should be executed in the background as an asynchronous operation. If true, operation will be executed in background as an asynchronous operation; otherwise, it will be executed in foreground." freeOutputMemory="false" inputOutput="Input" name="runInBackground">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="A map (string, string) containing pairs of user options and their respective values.&lt;br /&gt;This is optional input, and it can be empty.&lt;br /&gt;The entries may include if alignment automation to be performed in single context or entire product. &lt;br /&gt;e.g option = &amp;quot;alignmentDepth&amp;quot;, value=&amp;quot;1&amp;quot;, this means that the alignment will be performed only for 1st level children of given contexts." freeOutputMemory="false" inputOutput="Input" name="userOptions">
+                       
+                <OperationParameterDataTypeRef dataType="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc2412" description="This operation performs alignment between the Design BOM and Engineering BOM in context of given &lt;b&gt;BOMLine&lt;/b&gt; objects of designContextLine and partContextLine based on the property matching mentioned in the preference Pma0_Align_DBOM_EBOM_Criteria. This could be Part-Cad alignment or Occurrence alignment depending on the selected alignment type." id="void#Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignmentAsync#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" name="Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignmentAsync" returnConst="false" returnDescription="Void. As this operation is asynchronous, it does not return any data. In the event of success, the user will receive notification through a success message in the alerts section. If the operation fails due to some partial errors, the user will be notified through a message in the alerts section.&lt;br /&gt;e.g If one of the given contexts is not a valid Part or Design type, then the operation would fail for it but for other valid contexts the operation will be executed. In this case we will return the  error for the failed contexts." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="void" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of design &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." freeOutputMemory="false" inputOutput="Input" name="designContextLines">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="Teamcenter::BOMLine" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of part &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." freeOutputMemory="false" inputOutput="Input" name="partContextLines">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="Teamcenter::BOMLine" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="The type of alignment to be performed between the design and part - &amp;quot;OccurrenceAlignment&amp;quot; or &amp;quot;PartCadAlignment&amp;quot;." freeOutputMemory="false" inputOutput="Input" name="alignmentType">
+                       
+                <OperationParameterDataTypeRef dataType="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="Specifies whether the alignment operation report to be generated. If true, alignment report will be generated, and it will be attached to a &lt;b&gt;Dataset&lt;/b&gt; object that will be returned in the SOA response; otherwise, report won't be generated." freeOutputMemory="false" inputOutput="Input" name="generateReport">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="A map (string, string) containing pairs of user options and their respective values.&lt;br /&gt;This is optional input, and it can be empty.&lt;br /&gt;The entries may include if alignment automation to be performed in single context or entire product. &lt;br /&gt;e.g option = &amp;quot;alignmentDepth&amp;quot;, value=&amp;quot;1&amp;quot;, this means that the alignment will be performed only for 1st level children of given contexts." freeOutputMemory="false" inputOutput="Input" name="userOptions">
+                       
+                <OperationParameterDataTypeRef dataType="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Pma0automation" createRelease="tc2412" dependencies="" description="This operation performs alignment between the Design BOM and Engineering BOM in context of given &lt;b&gt;BOMLine&lt;/b&gt; objects of designContextLine and partContextLine based on the property matching mentioned in the preference Pma0_Align_DBOM_EBOM_Criteria. This could be Part-Cad alignment or Occurrence alignment depending on the selected alignment type." exceptionCondition="" id="performDbomEbomAlignment#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" interface="Pma0::Soa::BOMAutomation::AlignBOM" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="performDbomEbomAlignment" opTemplate="Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::PerformDbomEbomAlignmentResponse#Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignment#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" returnDescription="The following partial errors may be returned as part of service data:&lt;br /&gt;- 1707 Preference value not been defined correctly.&lt;br /&gt;- 427011 The given context is not a valid Part or Design type.&lt;br /&gt;- 427030 Property value type is not supported." useCase="User passes a list of design context lines and part context lines, with either Part-Cad alignment or Occurrence alignment as alignment type. This operation will perform the alignment between the engineering BOM lines and the design BOM lines which are children of the given context lines.&lt;br /&gt;&lt;br /&gt;This alignment will be based on the property matching defined in the preference Pma0_Align_DBOM_EBOM_Criteria.">
+                 
+            <ParameterInfo description="A list of design &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." parameterName="designContextLines"/>
+                 
+            <ParameterInfo description="A list of part &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." parameterName="partContextLines"/>
+                 
+            <ParameterInfo description="The type of alignment to be performed between the design and part - &amp;quot;OccurrenceAlignment&amp;quot; or &amp;quot;PartCadAlignment&amp;quot;." parameterName="alignmentType"/>
+                 
+            <ParameterInfo description="Specifies whether the alignment operation report to be generated. If true, alignment report will be generated, and it will be attached to a &lt;b&gt;Dataset&lt;/b&gt; object that will be returned in the SOA response; otherwise, report won't be generated." parameterName="generateReport"/>
+                 
+            <ParameterInfo description="Specifies whether the operation should be executed in the background as an asynchronous operation. If true, operation will be executed in background as an asynchronous operation; otherwise, it will be executed in foreground." parameterName="runInBackground"/>
+                 
+            <ParameterInfo description="A map (string, string) containing pairs of user options and their respective values.&lt;br /&gt;This is optional input, and it can be empty.&lt;br /&gt;The entries may include if alignment automation to be performed in single context or entire product. &lt;br /&gt;e.g option = &amp;quot;alignmentDepth&amp;quot;, value=&amp;quot;1&amp;quot;, this means that the alignment will be performed only for 1st level children of given contexts." parameterName="userOptions"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Pma0automation" createRelease="tc2412" dependencies="" description="This operation performs alignment between the Design BOM and Engineering BOM in context of given &lt;b&gt;BOMLine&lt;/b&gt; objects of designContextLine and partContextLine based on the property matching mentioned in the preference Pma0_Align_DBOM_EBOM_Criteria. This could be Part-Cad alignment or Occurrence alignment depending on the selected alignment type." exceptionCondition="" id="performDbomEbomAlignmentAsync#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" interface="Pma0::Soa::BOMAutomation::AlignBOM" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="performDbomEbomAlignmentAsync" opTemplate="void#Pma0::Soa::BOMAutomation::AlignBOM::performDbomEbomAlignmentAsync#const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,std::vector&lt;Teamcenter::BOMLine&gt;,&amp;$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::AlignmentType$bool$const,Pma0::Soa::BOMAutomation::_2024_12::AlignBOM::StringToStringMap,&amp;" returnDescription="Void. As this operation is asynchronous, it does not return any data. In the event of success, the user will receive notification through a success message in the alerts section. If the operation fails due to some partial errors, the user will be notified through a message in the alerts section.&lt;br /&gt;e.g If one of the given contexts is not a valid Part or Design type, then the operation would fail for it but for other valid contexts the operation will be executed. In this case we will return the  error for the failed contexts." useCase="User passes a list of design context lines and part context lines, with either Part-Cad alignment or Occurrence alignment as alignment type. This operation will perform the alignment between the engineering BOM lines and the design BOM lines which are children of the given context lines.">
+                 
+            <ParameterInfo description="A list of design &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." parameterName="designContextLines"/>
+                 
+            <ParameterInfo description="A list of part &lt;b&gt;BOMLine&lt;/b&gt; objects in context of which alignment will be performed." parameterName="partContextLines"/>
+                 
+            <ParameterInfo description="The type of alignment to be performed between the design and part - &amp;quot;OccurrenceAlignment&amp;quot; or &amp;quot;PartCadAlignment&amp;quot;." parameterName="alignmentType"/>
+                 
+            <ParameterInfo description="Specifies whether the alignment operation report to be generated. If true, alignment report will be generated, and it will be attached to a &lt;b&gt;Dataset&lt;/b&gt; object that will be returned in the SOA response; otherwise, report won't be generated." parameterName="generateReport"/>
+                 
+            <ParameterInfo description="A map (string, string) containing pairs of user options and their respective values.&lt;br /&gt;This is optional input, and it can be empty.&lt;br /&gt;The entries may include if alignment automation to be performed in single context or entire product. &lt;br /&gt;e.g option = &amp;quot;alignmentDepth&amp;quot;, value=&amp;quot;1&amp;quot;, this means that the alignment will be performed only for 1st level children of given contexts." parameterName="userOptions"/>
+               
+        </Operation>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="pt_BR" status="Approved">Objeto de negócio de lista de valores personalizada de configuração de impressão</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="pt_BR" status="Approved">Tempo de execução de configuração de impressão</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="pt_BR" status="Approved">Condição para verificar se a Configuração de Definição de Revisão de Item (IRDC) pronta para uso, Dma1DocumentRevisionIRDC, deve ser aplicada ao objeto de negócio de Revisão de Documento. Quando a preferência "Fnd0DM_IsSimpleDocumentEnabled" estiver definida como "true", Dma1DocumentRevisionIRDC será aplicada, caso contrário, não. Isso não se aplica aos filhos de Revisão de Documento.</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="pt_BR" status="Approved">Condição para verificar se a instância da Configuração de Definição de Revisão de Item (IRDC) de uso imediato será aplicada à Revisão de Item baseada na preferência "Dma1UseCOTSIRDC". Não se aplica aos filhos da Revisão de Item.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="pt_BR" status="Approved">Tudo</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="pt_BR" status="Approved">Desligado</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="pt_BR" status="Approved">Único</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="pt_BR" status="Approved">Cor</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="pt_BR" status="Approved">Monocromático</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="pt_BR" status="Approved">Melhor ajuste</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="pt_BR" status="Approved">Paisagem</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="pt_BR" status="Approved">Imagem</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="pt_BR" status="Approved">Todas as páginas</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="pt_BR" status="Approved">Página de banner</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="pt_BR" status="Approved">Primeira página</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="pt_BR" status="Approved">Tudo</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="pt_BR" status="Approved">Desligado</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="pt_BR" status="Approved">Único</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="pt_BR" status="Approved">Cor</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="pt_BR" status="Approved">Monocromático</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="pt_BR" status="Approved">Melhor ajuste</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="pt_BR" status="Approved">Paisagem</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="pt_BR" status="Approved">Imagem</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="pt_BR" status="Approved">Todas as páginas</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="pt_BR" status="Approved">Página de banner</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="pt_BR" status="Approved">Primeira página</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="pt_BR" status="Approved">Página de banner</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="pt_BR" status="Approved">Agrupar</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="pt_BR" status="Approved">Cor</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="pt_BR" status="Approved">Copia</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="pt_BR" status="Approved">Orientação</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="pt_BR" status="Approved">Tamanhos de papel</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="pt_BR" status="Approved">Nome de configuração de impressão</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="pt_BR" status="Approved">Nome da impressora</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="pt_BR" status="Approved">Intervalo</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="pt_BR" status="Approved">Escala</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="pt_BR" status="Approved">Carimbos compatíveis</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="pt_BR" status="Approved">Carimbo do sistema</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="pt_BR" status="Approved">Carimbo do usuário</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

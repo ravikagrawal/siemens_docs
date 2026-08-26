@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData"
+    Date="Fr Feb 05 03:01:38 PM 2010" TcVersion="">
+<Add>
+   <TcDataset typeName="BctInspector" parentTypeName="Dataset" typeClassName="Dataset"
+       isAbstract="false" artifactName="BctInspector">
+     <TcDSViewTool name="TextEditor"/>
+     <TcDSViewTool name="Notepad"/>
+     <TcDSEditTool name="TextEditor"/>
+     <TcDSEditTool name="Notepad"/>
+     <TcDatasetReference name="CnTable">
+       <TcDatasetReferenceInfo template="*.xml" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.dtd" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.csv" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.csvHdr" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.ipxml" format="BINARY"/>
+     </TcDatasetReference>
+     <TcDatasetReference name="Image">
+       <TcDatasetReferenceInfo template="*.tif" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.pdf" format="BINARY"/>
+       <TcDatasetReferenceInfo template="*.cals" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcDataset typeName="BctInspectorProject" parentTypeName="Dataset" typeClassName="Dataset"
+       isAbstract="false" artifactName="BctInspectorProject">
+     <TcDSViewTool name="Notepad"/>
+     <TcDSEditTool name="Notepad"/>
+     <TcDatasetReference name="CnProject">
+       <TcDatasetReferenceInfo template="*.ipxml" format="BINARY"/>
+     </TcDatasetReference>
+   </TcDataset>
+   <TcStandardType typeName="BCT_INSPECTOR" parentTypeName="ImanRelation" typeClassName="ImanRelation"
+       isAbstract="false" artifactName="BCT_INSPECTOR"/>
+</Add>
+</TcBusinessData>

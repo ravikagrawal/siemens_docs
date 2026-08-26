@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="es_ES" status="Approved">Proveedor de estructuras de productos de 4GD</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="es_ES" status="Approved">Elemento de diseño</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="es_ES" status="Approved">Subconjunto</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="es_ES" status="Approved">Objeto fuente referenciado por el proveedor</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="es_ES" status="Approved">Utilizado en el proveedor de conjuntos de trabajo</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="es_ES" status="Approved">Efectividad del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="es_ES" status="Approved">Usuario de la última modificación del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="es_ES" status="Approved">Grupo propietario del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="es_ES" status="Approved">Usuario propietario del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="es_ES" status="Approved">Fecha de liberación del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="es_ES" status="Approved">Descripción del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="es_ES" status="Approved">Estatus de liberación del objeto fuente</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="es_ES" status="Approved">Id de revisión del objeto fuente</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="es_ES" status="Approved">Nombre del objeto fuente</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="es_ES" status="Approved">Categoría</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="es_ES" status="Approved">Id del objeto fuente</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="es_ES" status="Approved">Objeto fuente</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="es_ES" status="Approved">Objeto fuente</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="es_ES" status="Approved">Esta condición determina si el comando "Mostrar revisión" debe estar visible en la solución Diseño 4g.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="es_ES" status="Approved">Esta condición determina si el usuario dispone de los permisos correspondientes para eliminar el objeto seleccionado.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="es_ES" status="Approved">Repite la condición de receta del subconjunto.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="es_ES" status="Approved">Esta condición determina si el objeto de negocio aprobado tiene permiso para mostrar el comando "Guardar como o Revisar". Devuelve el valor Verdadero en los objetos de negocio que no sean un elemento condicional.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

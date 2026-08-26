@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes ActiveRelease="tc2512" currentTemplateVersion="2512.0_0" displayName="Product Configurator Support for Active Content Structure" enableOpsDataDeploy="false" guid="DDD71DFE90E27F299000D9E8512A25FE" isDescriptionMandatory="true" name="smc1activeworkspacebom" optional="true" prefixes="Smc1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="cfg0configurator_template.xml"/>
+    <include file="smc0psmcfgsupport_template.xml"/>
+</TcBusinessDataIncludes>

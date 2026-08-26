@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:05 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="zh_TW" status="Approved">規則搜尋提供者</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="zh_TW" status="Approved">時間表搜尋提供者</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="zh_TW" status="Approved">時間表任務搜尋提供者</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="zh_TW" status="Approved">完成到完成</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="zh_TW" status="Approved">完成到開始</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="zh_TW" status="Approved">階段節點</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="zh_TW" status="Approved">開始到完成</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="zh_TW" status="Approved">開始到開始</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="zh_TW" status="Approved">能夠變更時間表執行和規劃屬性的使用者。</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="zh_TW" status="Approved">能夠檢視時間表和任務、但無法修改任何屬性的使用者。</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="zh_TW" status="Approved">能夠變更任務執行屬性的使用者。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="zh_TW" status="Approved">以日為時間單位。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="zh_TW" status="Approved">以小時為時間單位。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="zh_TW" status="Approved">以月為時間單位。</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="zh_TW" status="Approved">以週為時間單位。</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="zh_TW" status="Approved">盡可能晚</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="zh_TW" status="Approved">盡可能快</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="zh_TW" status="Approved">固定</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="zh_TW" status="Approved">無約束</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="zh_TW" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="zh_TW" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="zh_TW" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="zh_TW" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="zh_TW" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="zh_TW" status="Approved">固定期間</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="zh_TW" status="Approved">固定資源數</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="zh_TW" status="Approved">固定工作量</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="zh_TW" status="Approved">最高</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="zh_TW" status="Approved">高</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="zh_TW" status="Approved">最低</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="zh_TW" status="Approved">低</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="zh_TW" status="Approved">中低</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="zh_TW" status="Approved">中</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="zh_TW" status="Approved">極高</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="zh_TW" status="Approved">協調者</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="zh_TW" status="Approved">觀察者</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="zh_TW" status="Approved">參與者</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="zh_TW" status="Approved">日 (d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="zh_TW" status="Approved">小時 (h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="zh_TW" status="Approved">月 (mo)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="zh_TW" status="Approved">周 (w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="zh_TW" status="Approved">計劃的開始日期和前趨任務都已完成</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="zh_TW" status="Approved">計劃的開始日期或前趨任務已完成</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="zh_TW" status="Approved">無工作流程觸發程式</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="zh_TW" status="Approved">前趨任務完成</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="zh_TW" status="Approved">計劃的開始日期</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="zh_TW" status="Approved">類型</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="zh_TW" status="Approved">特權使用者</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="zh_TW" status="Approved">時間表完成日期</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="zh_TW" status="Approved">時間表中的角色</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="zh_TW" status="Approved">使用者狀態</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="zh_TW" status="Approved">交付件數</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="zh_TW" status="Approved">期間</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="zh_TW" status="Approved">是否為時間表變更計劃項目</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="zh_TW" status="Approved">是否為範本任務</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="zh_TW" status="Approved">前趨任務相依性</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="zh_TW" status="Approved">前趨任務</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="zh_TW" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="zh_TW" status="Approved">後續任務相依性</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="zh_TW" status="Approved">後續任務</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="zh_TW" status="Approved">完成的工作</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="zh_TW" status="Approved">工作量</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="zh_TW" status="Approved">剩餘的工作</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="zh_TW" status="Approved">工作流程範本</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="zh_TW" status="Approved">工作流程觸發程式</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="zh_TW" status="Approved">預算工作量</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="zh_TW" status="Approved">主時間表</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="zh_TW" status="Approved">實際完成日期</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="zh_TW" status="Approved">實際開始日期</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="zh_TW" status="Approved">工作完成百分比</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="zh_TW" status="Approved">系統狀態</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="zh_TW" status="Approved">任務狀態</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="zh_TW" status="Approved">完成的工作</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="zh_TW" status="Approved">工作量</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="zh_TW" status="Approved">時間表成員</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="zh_TW" status="Approved">時間度量單位</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="zh_TW" status="Approved">類型</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="zh_TW" status="Approved">延遲</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="zh_TW" status="Approved">條目狀態</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="zh_TW" status="Approved">最高</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="zh_TW" status="Approved">高</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="zh_TW" status="Approved">最低</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="zh_TW" status="Approved">低</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="zh_TW" status="Approved">中低</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="zh_TW" status="Approved">中</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="zh_TW" status="Approved">極高</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="zh_TW" status="Approved">新增交付件</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="zh_TW" status="Approved">新增成員</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="zh_TW" status="Approved">新增交付件</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="zh_TW" status="Approved">指派資源</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="zh_TW" status="Approved">指派資源</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="zh_TW" status="Approved">基線時間表</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="zh_TW" status="Approved">取消</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="zh_TW" status="Approved">建立相依性</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="zh_TW" status="Approved">新增時間表任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="zh_TW" status="Approved">另存新檔</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="zh_TW" status="Approved">新增時間表任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="zh_TW" status="Approved">建立時間表</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="zh_TW" status="Approved">剪下</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="zh_TW" status="Approved">刪除相依性</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="zh_TW" status="Approved">刪除時間表</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="zh_TW" status="Approved">刪除任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="zh_TW" status="Approved">降級任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="zh_TW" status="Approved">插入子時間表</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="zh_TW" status="Approved">啟動工作流程</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="zh_TW" status="Approved">月</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="zh_TW" status="Approved">升級任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="zh_TW" status="Approved">升級</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="zh_TW" status="Approved">季</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="zh_TW" status="Approved">重新計算</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="zh_TW" status="Approved">移除指派</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="zh_TW" status="Approved">移除交付件</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="zh_TW" status="Approved">移除成員</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="zh_TW" status="Approved">移除</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="zh_TW" status="Approved">重新指派任務</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="zh_TW" status="Approved">調班</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="zh_TW" status="Approved">顯示關鍵路徑</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="zh_TW" status="Approved">啟動假設分析</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="zh_TW" status="Approved">取消指派資源</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="zh_TW" status="Approved">週</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="zh_TW" status="Approved">年</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="zh_TW" status="Approved">此條件確定「新增成員」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="zh_TW" status="Approved">此條件決定「新增時間表交付件」指令的可見性</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="zh_TW" status="Approved">此條件確定「指派資源」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="zh_TW" status="Approved">此條件決定「指派資源給多個任務」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="zh_TW" status="Approved">此條件確定「基線時間表」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="zh_TW" status="Approved">此條件確定「建立相依性」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="zh_TW" status="Approved">此條件確定「建立時間表任務」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="zh_TW" status="Approved">此條件決定「建立時間表」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="zh_TW" status="Approved">此條件確定「根據範本建立時間表」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="zh_TW" status="Approved">此條件確定「剪下時間表任務」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="zh_TW" status="Approved">此條件確定選定物件的類型是否為「時間表」。</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="zh_TW" status="Approved">此條件確定選定物件的類型是否為「時間表任務」。</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="zh_TW" status="Approved">此條件決定「相依性」子位置上指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="zh_TW" status="Approved">此條件確定「降級任務」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="zh_TW" status="Approved">此條件確定「插入子時間表」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="zh_TW" status="Approved">此條件確定「啟動工作流程」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="zh_TW" status="Approved">此條件確定「升級任務」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="zh_TW" status="Approved">此條件確定「提出假設分析」和「取消假設分析」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="zh_TW" status="Approved">此條件確定「重新計算」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="zh_TW" status="Approved">此條件確定「移除指派」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="zh_TW" status="Approved">此條件決定「移除時間表交付件」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="zh_TW" status="Approved">此條件確定「移除成員」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="zh_TW" status="Approved">此條件決定「移除任務交付件」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="zh_TW" status="Approved">此條件確定「取代成員」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="zh_TW" status="Approved">此條件確定「調班時間表」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="zh_TW" status="Approved">此條件決定「顯示/隱藏關鍵路徑」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="zh_TW" status="Approved">此條件決定「啟動假設分析」指令的可見性。</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="zh_TW" status="Approved">此條件確定「取消指派資源」指令的可見性。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

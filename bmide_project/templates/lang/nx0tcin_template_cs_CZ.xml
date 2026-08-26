@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:31 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště položky akce</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMaster" locale="cs_CZ" status="Approved">Hlavní položka vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize položky akce</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize položky</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevision" locale="cs_CZ" status="Approved">Revize položky vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItem" locale="cs_CZ" status="Approved">Směrovací položka</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní součásti systému</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMaster" locale="cs_CZ" status="Approved">Hlavní součást vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize součásti systému</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize fyzické součásti</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevision" locale="cs_CZ" status="Approved">Revize součásti návrhu</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPart" locale="cs_CZ" status="Approved">Součást návrhu vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationData" locale="cs_CZ" status="Approved">Aplikační data</key>
+           
+        <key id="BusinessObject{::}NX0AssetSearchProvider" locale="cs_CZ" status="Approved">Poskytovatel hledání položek NX</key>
+           
+        <key id="BusinessObject{::}NX0Asset" locale="cs_CZ" status="Approved">Položka knihovny NX</key>
+           
+        <key id="BusinessObject{::}NX0BookletDataset" locale="cs_CZ" status="Approved">Dataset bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletFolder" locale="cs_CZ" status="Approved">Složka bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMasterS" locale="cs_CZ" status="Approved">HlavníS položky bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMaster" locale="cs_CZ" status="Approved">Hlavní položka bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevMasterS" locale="cs_CZ" status="Approved">HlavníS revize položek bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize položky bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevision" locale="cs_CZ" status="Approved">Revize položky bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletItem" locale="cs_CZ" status="Approved">Položka bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BookletReference" locale="cs_CZ" status="Approved">Reference bookletu(ZRUŠENO)</key>
+           
+        <key id="BusinessObject{::}NX0BookletRule" locale="cs_CZ" status="Approved">Pravidlo bookletu</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní tabulky kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMaster" locale="cs_CZ" status="Approved">Hlavní tabulka kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize tabulky kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize tabulky kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevision" locale="cs_CZ" status="Approved">Revize tabulky kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0BranchComp" locale="cs_CZ" status="Approved">Tabulka kompatibility větve</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště abstraktní položky pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMaster" locale="cs_CZ" status="Approved">Hlavní abstraktní položky pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize abstraktní položky pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize abstraktní položky pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevision" locale="cs_CZ" status="Approved">Revize abstraktní položky pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště analýzy pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMaster" locale="cs_CZ" status="Approved">Hlavní analýzy pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize analýzy pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize analýzy pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevision" locale="cs_CZ" status="Approved">Revize analýzy pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSim" locale="cs_CZ" status="Approved">Analýza pohybu</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotion" locale="cs_CZ" status="Approved">Abstrakt pohybu</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní tabulky kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMaster" locale="cs_CZ" status="Approved">Hlavní tabulka kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize tabulky kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize tabulky kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevision" locale="cs_CZ" status="Approved">Revize tabulky kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0ConnComp" locale="cs_CZ" status="Approved">Tabulka kompatibility spojení</key>
+           
+        <key id="BusinessObject{::}NX0DiagramOf" locale="cs_CZ" status="Approved">Diagram</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní pracovní sady pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMaster" locale="cs_CZ" status="Approved">Hlavní pracovní sada pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize pracovní sady pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize pracovní sady pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevision" locale="cs_CZ" status="Approved">Revize pracovní sady pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorkset" locale="cs_CZ" status="Approved">Pracovní sada pro zveřejnění</key>
+           
+        <key id="BusinessObject{::}NX0DocumentDataset" locale="cs_CZ" status="Approved">Dataset dokumentu NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMasterS" locale="cs_CZ" status="Approved">Úložiště hlavního dokumentu NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMaster" locale="cs_CZ" status="Approved">Hlavní dokument NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize dokumentu NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize dokumentu NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevision" locale="cs_CZ" status="Approved">Revize dokumentu NX</key>
+           
+        <key id="BusinessObject{::}NX0Document" locale="cs_CZ" status="Approved">Dokument NX</key>
+           
+        <key id="BusinessObject{::}NX0ExternalFileReference" locale="cs_CZ" status="Approved">Reference na externí soubor</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní sestavy bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMaster" locale="cs_CZ" status="Approved">Hlavní sestava bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize sestavy bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize sestavy bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevision" locale="cs_CZ" status="Approved">Revize sestavy bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsm" locale="cs_CZ" status="Approved">Sestava bezkontaktní kontroly NX</key>
+           
+        <key id="BusinessObject{::}NX0LRuleData" locale="cs_CZ" status="Approved">Data logického pravidla</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMasterS" locale="cs_CZ" status="Approved">Úložiště hlavních logických pravidel</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMaster" locale="cs_CZ" status="Approved">Hlavní logické pravidlo</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavních revizí logických pravidel</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize logického pravidla</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevision" locale="cs_CZ" status="Approved">Revize pravidla editoru logiky NX</key>
+           
+        <key id="BusinessObject{::}NX0LRule" locale="cs_CZ" status="Approved">Pravidlo editoru logiky NX</key>
+           
+        <key id="BusinessObject{::}NX0MCDReference" locale="cs_CZ" status="Approved">Reference mechatroniky</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessDataset" locale="cs_CZ" status="Approved">Dataset rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMasterS" locale="cs_CZ" status="Approved">Úložiště hlavního rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMaster" locale="cs_CZ" status="Approved">Hlavní rozpis procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevision" locale="cs_CZ" status="Approved">Revize položky rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcess" locale="cs_CZ" status="Approved">Položka rozpisu procesů NX</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště položky proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMaster" locale="cs_CZ" status="Approved">Hlavní položka proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize položky proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize položky proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevision" locale="cs_CZ" status="Approved">Revize položky proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItem" locale="cs_CZ" status="Approved">Položka proxy materiálu</key>
+           
+        <key id="BusinessObject{::}NX0MaterialsSpecifications" locale="cs_CZ" status="Approved">Specifikace materiálů</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByDataset" locale="cs_CZ" status="Approved">Informace o chybějících souborech podle datasetu</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByNames" locale="cs_CZ" status="Approved">Informace o chybějících souborech podle názvu</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfo" locale="cs_CZ" status="Approved">Informace o chybějících souborech</key>
+           
+        <key id="BusinessObject{::}NX0MotionSim" locale="cs_CZ" status="Approved">Simulace pohybu</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMasterS" locale="cs_CZ" status="Approved">Úložiště hlavních dat bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMaster" locale="cs_CZ" status="Approved">Hlavní data bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize dat bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize dat bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevision" locale="cs_CZ" status="Approved">Revize dat bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudData" locale="cs_CZ" status="Approved">Data bodových mračen NX</key>
+           
+        <key id="BusinessObject{::}NX0PortLocation" locale="cs_CZ" status="Approved">Umístění portu</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní sestavy instalace</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMaster" locale="cs_CZ" status="Approved">Hlavní sestava vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevMasterS" locale="cs_CZ" status="Approved">Instalovat úložiště revize hlavní sestavy </key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize sestavy instalace</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevision" locale="cs_CZ" status="Approved">Revize sestavy vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssembly" locale="cs_CZ" status="Approved">Položka sestavy vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDItemRevAttrs" locale="cs_CZ" status="Approved">Atributy revize položky vedení NX</key>
+           
+        <key id="BusinessObject{::}NX0RSDOccAttrs" locale="cs_CZ" status="Approved">Atributy výskytu směrování</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní opakovaně použitelné součásti vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMaster" locale="cs_CZ" status="Approved">Hlavní opakovaně použitelná součást vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize opakovaně použitelné součásti vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize opakovaně použitelné součásti vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevision" locale="cs_CZ" status="Approved">Revize opakovaně použitelné součásti vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePt" locale="cs_CZ" status="Approved">Opakovaně použitelná součást vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní součásti polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMaster" locale="cs_CZ" status="Approved">Hlavní součást polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize součásti polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize součásti polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevision" locale="cs_CZ" status="Approved">Revize součásti polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPart" locale="cs_CZ" status="Approved">Součást polotovaru vedení systémů</key>
+           
+        <key id="BusinessObject{::}NX0ReferenceOnlyComponent" locale="cs_CZ" status="Approved">Pouze referenční komponenta</key>
+           
+        <key id="BusinessObject{::}NX0RoutingPipePartData" locale="cs_CZ" status="Approved">Data součásti potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunData" locale="cs_CZ" status="Approved">Data dráhy vedení NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunReference" locale="cs_CZ" status="Approved">Reference dráhy vedení NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecData" locale="cs_CZ" status="Approved">Data specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMaster" locale="cs_CZ" status="Approved">Hlavní specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevision" locale="cs_CZ" status="Approved">Revize specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpec" locale="cs_CZ" status="Approved">Specifikace potrubí z NX</key>
+           
+        <key id="BusinessObject{::}NX0SheetMetalExport" locale="cs_CZ" status="Approved">Export rozvinu</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMaster" locale="cs_CZ" status="Approved">Hlavní reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevision" locale="cs_CZ" status="Approved">Revize reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0ShipReference" locale="cs_CZ" status="Approved">Reference lodi</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedFrom" locale="cs_CZ" status="Approved">Zjednodušený ze součásti</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedUsing" locale="cs_CZ" status="Approved">Zjednodušený pomocí šablony</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní sestavy cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMaster" locale="cs_CZ" status="Approved">Hlavní sestava cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRef" locale="cs_CZ" status="Approved">Reference sestavy cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize sestavy cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize sestavy cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevision" locale="cs_CZ" status="Approved">Revize sestavy cívky</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssembly" locale="cs_CZ" status="Approved">Sestava cívky</key>
+           
+        <key id="BusinessObject{::}NX0StackModelDataset" locale="cs_CZ" status="Approved">Dataset modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMasterS" locale="cs_CZ" status="Approved">Úložiště hlavního modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMaster" locale="cs_CZ" status="Approved">Hlavní model procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevision" locale="cs_CZ" status="Approved">Revize položky modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModel" locale="cs_CZ" status="Approved">Položka modelu procesu NX</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště pevnostního kontejneru</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMaster" locale="cs_CZ" status="Approved">Hlavní pevnostní kontejner</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize pevnostního kontejneru</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize pevnostního kontejneru</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevision" locale="cs_CZ" status="Approved">Revize pevnostního kontejneru</key>
+           
+        <key id="BusinessObject{::}NX0StrContainer" locale="cs_CZ" status="Approved">Pevnostní kontejner</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště pevnostního detailu</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMaster" locale="cs_CZ" status="Approved">Hlavní pevnostní detail</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize pevnostního detailu</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize pevnostního detailu</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevision" locale="cs_CZ" status="Approved">Revize pevnostního detailu</key>
+           
+        <key id="BusinessObject{::}NX0StructDetail" locale="cs_CZ" status="Approved">Pevnostní detail</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště pevnostního systému</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMaster" locale="cs_CZ" status="Approved">Hlavní pevnostní systém</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevMasterS" locale="cs_CZ" status="Approved">Hlavní úložiště revize pevnostního detailu</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize pevnostního systému</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevision" locale="cs_CZ" status="Approved">Revize pevnostního systému</key>
+           
+        <key id="BusinessObject{::}NX0StructSystem" locale="cs_CZ" status="Approved">Pevnostní systém</key>
+           
+        <key id="BusinessObject{::}NX0TDP" locale="cs_CZ" status="Approved">TDP</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMasterS" locale="cs_CZ" status="Approved">Úložiště hlavního dokumentu pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMaster" locale="cs_CZ" status="Approved">Hlavní dokument pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize dokumentu pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevisionMaster" locale="cs_CZ" status="Approved">Hlavní revize dokumentu pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevision" locale="cs_CZ" status="Approved">Revize dokumentu pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocument" locale="cs_CZ" status="Approved">Dokument pracovních instrukcí NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní pracovní sady NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMaster" locale="cs_CZ" status="Approved">Hlavní prvek pracovní sady NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevMasterS" locale="cs_CZ" status="Approved">Úložiště hlavní revize pracovní sady NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevisionMaster" locale="cs_CZ" status="Approved">Hlavní prvek revize pracovní sady NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevision" locale="cs_CZ" status="Approved">Revize pracovní sady NX</key>
+           
+        <key id="BusinessObject{::}NX0Workset" locale="cs_CZ" status="Approved">Pracovní množina NX</key>
+           
+        <key id="BusinessObject{::}NX0tcinDiagramProvider" locale="cs_CZ" status="Approved">Zprostředkovatel diagramu</key>
+           
+        <key id="BusinessObject{::}NX0tcinDrawingProvider" locale="cs_CZ" status="Approved">Zprostředkovatel výkresu</key>
+           
+        <key id="ConditionDescription{::}NX0EnableNXPartManufacturingItemVisibility" locale="cs_CZ" status="Approved">Tato podmínka je určena k použití s pravidlem zobrazení položek výroby součástí NX a umožňuje jejich zobrazení, když je vytvořena předvolba Teamcenteru EnableNXPartManufacturingItemVisibility a nastavena na hodnotu "true".</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Coating" locale="cs_CZ" status="Approved">Přiřazený typ materiálu je obecné potažení.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Core" locale="cs_CZ" status="Approved">Přiřazený typ materiálu je objemové těleso.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Primer" locale="cs_CZ" status="Approved">Přiřazený typ materiálu je základní lak.</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Coating" locale="cs_CZ" status="Approved">Potažení</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Core" locale="cs_CZ" status="Approved">Jádro </key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Primer" locale="cs_CZ" status="Approved">Základní lak</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Assembly" locale="cs_CZ" status="Approved">Sestava</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Drawing" locale="cs_CZ" status="Approved">Výkres</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Part" locale="cs_CZ" status="Approved">Součást</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDCableway" locale="cs_CZ" status="Approved">Cableway</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDHvac" locale="cs_CZ" status="Approved">HVAC</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDPiping" locale="cs_CZ" status="Approved">Trubky</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDTubing" locale="cs_CZ" status="Approved">Potrubí</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDWiring" locale="cs_CZ" status="Approved">Elektroinstalace</key>
+           
+        <key id="Note{::}NX0CloneStableIdMap" locale="cs_CZ" status="Approved">Klonovat stabilní mapu ID</key>
+           
+        <key id="Property{::}BOMLine{::}NX0CloneStableIdMap" locale="cs_CZ" status="Approved">Klonovat stabilní mapu ID</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PartType" locale="cs_CZ" status="Approved">Typ součásti NX</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PortLocations" locale="cs_CZ" status="Approved">Umístění portů</key>
+           
+        <key id="Property{::}MEViewLine{::}NX0CloneStableIdMap" locale="cs_CZ" status="Approved">Klonovat stabilní mapu ID</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}NX0RSDItemRevAttrs" locale="cs_CZ" status="Approved">Zpětná reference na atributy revize položky vedení NX</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}NX0RSDItemRevAttrs" locale="cs_CZ" status="Approved">Zpětná reference na atributy revize položky vedení NX</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací o součásti</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0flags" locale="cs_CZ" status="Approved">příznaky</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0sync_checksums" locale="cs_CZ" status="Approved">Kontrolní součet</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0AssetType" locale="cs_CZ" status="Approved">Typ položky</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0Category" locale="cs_CZ" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0ID" locale="cs_CZ" status="Approved">ID</key>
+           
+        <key id="Property{::}NX0BookletDataset{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0flags" locale="cs_CZ" status="Approved">Informace bitové masky pro součásti NX (isPart, is Drawing atd.), nastavené NX, používané NX.</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0DiagramOf{::}nx0FocusAreaId" locale="cs_CZ" status="Approved">ID oblasti zaměření</key>
+           
+        <key id="Property{::}NX0ExternalFileReference{::}nx0LastModifiedChecksum" locale="cs_CZ" status="Approved">Kontrolní součet poslední úpravy</key>
+           
+        <key id="Property{::}NX0MCDReference{::}nx0flags" locale="cs_CZ" status="Approved">příznaky</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0MaterialLibrary" locale="cs_CZ" status="Approved">Knihovna materiálu</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0ReferencedMaterialItem" locale="cs_CZ" status="Approved">Odkazovaná položka materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0AssignedMaterialSequence" locale="cs_CZ" status="Approved">Přiřazená posloupnost materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Density" locale="cs_CZ" status="Approved">Hustota</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Mass" locale="cs_CZ" status="Approved">Hmotnost</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialAssignmentType" locale="cs_CZ" status="Approved">Typ přiřazení materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialDefinition" locale="cs_CZ" status="Approved">Definice materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialName" locale="cs_CZ" status="Approved">Název materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialType" locale="cs_CZ" status="Approved">Typ materiálu</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0RefID" locale="cs_CZ" status="Approved">Referenční ID NX</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0SurfaceArea" locale="cs_CZ" status="Approved">Oblast plochy</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Thickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Volume" locale="cs_CZ" status="Approved">Svazek</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileGuid" locale="cs_CZ" status="Approved">GUID souboru</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileName" locale="cs_CZ" status="Approved">Název souboru</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FilePath" locale="cs_CZ" status="Approved">Cesta souboru</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileSpec" locale="cs_CZ" status="Approved">Specifikace souboru</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileType" locale="cs_CZ" status="Approved">Typ souboru</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0ReferencingDatasets" locale="cs_CZ" status="Approved">Odkazované datasety</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0FLPSize" locale="cs_CZ" status="Approved">Velikost FLP</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací o součásti</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0flags" locale="cs_CZ" status="Approved">Informace bitové masky pro součásti NX (isPart, is Drawing atd.), nastavené NX, používané NX.</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0InternalLength" locale="cs_CZ" status="Approved">Vnitřní délka</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0OwningPart" locale="cs_CZ" status="Approved">Vlastnící součást</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortID" locale="cs_CZ" status="Approved">ID portu</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortType" locale="cs_CZ" status="Approved">Typ portu</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosX" locale="cs_CZ" status="Approved">Poloha X</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosY" locale="cs_CZ" status="Approved">Poloha Y</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosZ" locale="cs_CZ" status="Approved">Poloha Z</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}owning_object" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDElbowAngle" locale="cs_CZ" status="Approved">Úhel lokte</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}NX0RoutingPipePartData{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0RoutingRunData{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0RoutingSpecData{::}nx0release" locale="cs_CZ" status="Approved">Informace o verzi NX</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0LastPublishedDate" locale="cs_CZ" status="Approved">Datum posledního publikování</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0SpoolId" locale="cs_CZ" status="Approved">Identifikátor cívky</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}NX0RSDItemRevAttrs" locale="cs_CZ" status="Approved">Zpětná reference na atributy revize položky vedení NX</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiameter" locale="cs_CZ" status="Approved">Průměr</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiscipline" locale="cs_CZ" status="Approved">Obor vedení systémů</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDHeight" locale="cs_CZ" status="Approved">Výška</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDLength" locale="cs_CZ" status="Approved">Délka</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDSpecification" locale="cs_CZ" status="Approved">Specifikace směrování</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDThickness" locale="cs_CZ" status="Approved">Tloušťka</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDWidth" locale="cs_CZ" status="Approved">Šířka</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0MaterialsTable" locale="cs_CZ" status="Approved">Tabulka materiálů</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0MaterialsTable" locale="cs_CZ" status="Approved">Tabulka materiálů</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací o součásti</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PfamVersion" locale="cs_CZ" status="Approved">Verze rodiny součásti</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací o součásti</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PfamVersion" locale="cs_CZ" status="Approved">Verze rodiny součásti</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AllChildren" locale="cs_CZ" status="Approved">Všechny podřazené položky</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AppUid" locale="cs_CZ" status="Approved">UID alternativní reprezentace</key>
+           
+        <key id="Property{::}BOMLine{::}nx0BvrSyncInfoLastSyncDate" locale="cs_CZ" status="Approved">Poslední datum synchronizace informací BVR</key>
+           
+        <key id="Property{::}BOMLine{::}nx0FLPSize" locale="cs_CZ" status="Approved">Velikost oddílu rychlého načtení</key>
+           
+        <key id="Property{::}BOMLine{::}nx0HasNxDataset" locale="cs_CZ" status="Approved">Má NX dataset</key>
+           
+        <key id="Property{::}BOMLine{::}nx0IsBvrStructModified" locale="cs_CZ" status="Approved">Struktura upravena</key>
+           
+        <key id="Property{::}BOMLine{::}nx0JTOverrideFile" locale="cs_CZ" status="Approved">Soubor pro geometrii předefinování</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetFlags" locale="cs_CZ" status="Approved">NX Příznaky datasetu</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetRelease" locale="cs_CZ" status="Approved">NX Verze datasetu</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXFile" locale="cs_CZ" status="Approved">NX Soubor</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredBoundingBox" locale="cs_CZ" status="Approved">NX Preferovaný hraniční rámeček</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredDataset" locale="cs_CZ" status="Approved">Preferovaný dataset NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací součásti</key>
+           
+        <key id="Property{::}BOMWindow{::}nx0PreferredDatasetType" locale="cs_CZ" status="Approved">Preferovaný typ datasetu</key>
+           
+        <key id="Property{::}CAEGeom{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}CAEMesh{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}CAESolution{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0Auid" locale="cs_CZ" status="Approved">UID alternativní reprezentace</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0BvrSyncInfoLastSyncDate" locale="cs_CZ" status="Approved">Poslední datum synchronizace informací BVR</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FLPSize" locale="cs_CZ" status="Approved">Velikost oddílu rychlého načtení</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FileTicket" locale="cs_CZ" status="Approved">Popiska souboru</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0HasNxDataset" locale="cs_CZ" status="Approved">Má NX dataset</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0JTOverrideFileTicket" locale="cs_CZ" status="Approved">Tiket souboru pro geometrii předefinování</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetFlags1" locale="cs_CZ" status="Approved">NX Příznaky datasetu</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetRelease" locale="cs_CZ" status="Approved">NX Verze datasetu</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetType" locale="cs_CZ" status="Approved">Typ datasetu</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDataset" locale="cs_CZ" status="Approved">NX Dataset</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXFile" locale="cs_CZ" status="Approved">NX Soubor</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PSViewTypeName" locale="cs_CZ" status="Approved">Název typu zobrazení struktury výrobku</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací součásti</key>
+           
+        <key id="Property{::}NXAFEM{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}NXDerived{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}NXMotion{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}NXRouting{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}NXSimulation{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}POM_object{::}nx0CompareKey" locale="cs_CZ" status="Approved">Klíč porovnání</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_altrep_metadata" locale="cs_CZ" status="Approved">Má Altrep Metadata</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_any_interpart_references" locale="cs_CZ" status="Approved">Má libovolnou referenci mezi součástmi</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_broken_links" locale="cs_CZ" status="Approved">Má přerušené spojení</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_components" locale="cs_CZ" status="Approved">Má libovolnou komponentu</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_constraints" locale="cs_CZ" status="Approved">Má vazby</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_geometry_overrides" locale="cs_CZ" status="Approved">Má předefinování geometrie</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_interpart_expression" locale="cs_CZ" status="Approved">Má výrazy mezi součástmi</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_multiple_arrangements" locale="cs_CZ" status="Approved">Má uspořádání</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_nonmaster_component" locale="cs_CZ" status="Approved">Má vedlejší komponenty</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_offcenter_components" locale="cs_CZ" status="Approved">Má komponenty mimo střed</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_parts_list" locale="cs_CZ" status="Approved">Má kusovník</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_dep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave závislé na pozici</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_indep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave nezávislé na pozici</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_position_overrides" locale="cs_CZ" status="Approved">Má předefinování pozice</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_product_interface" locale="cs_CZ" status="Approved">Má rozhraní výrobku</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_ref_components" locale="cs_CZ" status="Approved">Má referenční komponentu</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_restructured_components" locale="cs_CZ" status="Approved">Má přepracované komponenty</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_supressed_components" locale="cs_CZ" status="Approved">Má vypnutou komponentu</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_udf" locale="cs_CZ" status="Approved">Má UDF</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDrawing" locale="cs_CZ" status="Approved">Má výkres</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCaeData" locale="cs_CZ" status="Approved">má data CAE</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCamData" locale="cs_CZ" status="Approved">má data CAM</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyMember" locale="cs_CZ" status="Approved">je člen rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyTemplate" locale="cs_CZ" status="Approved">je šablona rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPart" locale="cs_CZ" status="Approved">je součást</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMeasurableAttribute" locale="cs_CZ" status="Approved">Má měřitelný atribut</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasBody" locale="cs_CZ" status="Approved">Má těleso</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasSuppressionOverride" locale="cs_CZ" status="Approved">Má přepsání vypnutí</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisStructureStream" locale="cs_CZ" status="Approved">Má proud vizualizační struktury</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisRmStream" locale="cs_CZ" status="Approved">Má vizualizační proud</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartUnits" locale="cs_CZ" status="Approved">Jednotky dílu</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDiagram" locale="cs_CZ" status="Approved">Má diagram</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartType" locale="cs_CZ" status="Approved">Typ součásti NX</key>
+           
+        <key id="Property{::}UGCAMCLSF{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGCAMPTP{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGCAMShopDoc{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGCAMTemplateData{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGENGINEROLL{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDrawing" locale="cs_CZ" status="Approved">Má výkres</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCaeData" locale="cs_CZ" status="Approved">má data CAE</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCamData" locale="cs_CZ" status="Approved">má data CAM</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyMember" locale="cs_CZ" status="Approved">je člen rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyTemplate" locale="cs_CZ" status="Approved">je šablona rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPart" locale="cs_CZ" status="Approved">je součást</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMeasurableAttribute" locale="cs_CZ" status="Approved">Má měřitelný atribut</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasBody" locale="cs_CZ" status="Approved">Má těleso</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasSuppressionOverride" locale="cs_CZ" status="Approved">Má přepsání vypnutí</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisStructureStream" locale="cs_CZ" status="Approved">Má proud vizualizační struktury</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisRmStream" locale="cs_CZ" status="Approved">Má vizualizační proud</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartUnits" locale="cs_CZ" status="Approved">Jednotky dílu</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDiagram" locale="cs_CZ" status="Approved">Má diagram</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_altrep_metadata" locale="cs_CZ" status="Approved">Má Altrep Metadata</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_any_interpart_references" locale="cs_CZ" status="Approved">Má libovolnou referenci mezi součástmi</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_broken_links" locale="cs_CZ" status="Approved">Má přerušené spojení</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_components" locale="cs_CZ" status="Approved">Má libovolnou komponentu</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_constraints" locale="cs_CZ" status="Approved">Má vazby</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_geometry_overrides" locale="cs_CZ" status="Approved">Má předefinování geometrie</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_interpart_expression" locale="cs_CZ" status="Approved">Má výrazy mezi součástmi</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_multiple_arrangements" locale="cs_CZ" status="Approved">Má uspořádání</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_nonmaster_component" locale="cs_CZ" status="Approved">Má vedlejší komponenty</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_offcenter_components" locale="cs_CZ" status="Approved">Má komponenty mimo střed</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_parts_list" locale="cs_CZ" status="Approved">Má kusovník</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_dep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave závislé na pozici</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_indep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave nezávislé na pozici</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_position_overrides" locale="cs_CZ" status="Approved">Má předefinování pozice</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_product_interface" locale="cs_CZ" status="Approved">Má rozhraní výrobku</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_ref_components" locale="cs_CZ" status="Approved">Má referenční komponentu</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_restructured_components" locale="cs_CZ" status="Approved">Má přepracované komponenty</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_supressed_components" locale="cs_CZ" status="Approved">Má vypnutou komponentu</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_udf" locale="cs_CZ" status="Approved">Má UDF</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartType" locale="cs_CZ" status="Approved">Typ součásti NX</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDrawing" locale="cs_CZ" status="Approved">Má výkres</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCaeData" locale="cs_CZ" status="Approved">má data CAE</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCamData" locale="cs_CZ" status="Approved">má data CAM</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyMember" locale="cs_CZ" status="Approved">je člen rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyTemplate" locale="cs_CZ" status="Approved">je šablona rozměrové řady součásti</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPart" locale="cs_CZ" status="Approved">je součást</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasMeasurableAttribute" locale="cs_CZ" status="Approved">Má měřitelný atribut</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasBody" locale="cs_CZ" status="Approved">Má těleso</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasSuppressionOverride" locale="cs_CZ" status="Approved">Má přepsání vypnutí</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisStructureStream" locale="cs_CZ" status="Approved">Má proud vizualizační struktury</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisRmStream" locale="cs_CZ" status="Approved">Má vizualizační proud</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartUnits" locale="cs_CZ" status="Approved">Jednotky dílu</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDiagram" locale="cs_CZ" status="Approved">Má diagram</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_altrep_metadata" locale="cs_CZ" status="Approved">Má Altrep Metadata</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_any_interpart_references" locale="cs_CZ" status="Approved">Má libovolnou referenci mezi součástmi</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_broken_links" locale="cs_CZ" status="Approved">Má přerušené spojení</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_components" locale="cs_CZ" status="Approved">Má libovolnou komponentu</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_constraints" locale="cs_CZ" status="Approved">Má vazby</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_geometry_overrides" locale="cs_CZ" status="Approved">Má předefinování geometrie</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_interpart_expression" locale="cs_CZ" status="Approved">Má výrazy mezi součástmi</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_multiple_arrangements" locale="cs_CZ" status="Approved">Má uspořádání</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_nonmaster_component" locale="cs_CZ" status="Approved">Má vedlejší komponenty</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_offcenter_components" locale="cs_CZ" status="Approved">Má komponenty mimo střed</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_parts_list" locale="cs_CZ" status="Approved">Má kusovník</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_dep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave závislé na pozici</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_indep_wave_link" locale="cs_CZ" status="Approved">Má propojení Wave nezávislé na pozici</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_position_overrides" locale="cs_CZ" status="Approved">Má předefinování pozice</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_product_interface" locale="cs_CZ" status="Approved">Má rozhraní výrobku</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_ref_components" locale="cs_CZ" status="Approved">Má referenční komponentu</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_restructured_components" locale="cs_CZ" status="Approved">Má přepracované komponenty</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_supressed_components" locale="cs_CZ" status="Approved">Má vypnutou komponentu</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_udf" locale="cs_CZ" status="Approved">Má UDF</key>
+           
+        <key id="Property{::}UGPART{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartType" locale="cs_CZ" status="Approved">Typ součásti NX</key>
+           
+        <key id="Property{::}UGSCENARIO{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGTIREOFFSET{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="Property{::}UGTIRESPINDLE{::}nx0release" locale="cs_CZ" status="Approved">Informace o NX Release</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfoStorage" locale="cs_CZ" status="Approved">Úložiště informací aplikace NX</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfo" locale="cs_CZ" status="Approved">Informace aplikace NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0flags" locale="cs_CZ" status="Approved">Příznaky</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0part_type" locale="cs_CZ" status="Approved">Typ součásti</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0release" locale="cs_CZ" status="Approved">NX Verze</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0sync_checksums" locale="cs_CZ" status="Approved">Kontrolní součet</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0Environment" locale="cs_CZ" status="Approved">Prostředí</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0FLPSize" locale="cs_CZ" status="Approved">Velikost oddílu rychlého načtení</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací součásti</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0flags" locale="cs_CZ" status="Approved">Příznaky</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0part_type" locale="cs_CZ" status="Approved">Typ součásti</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0release" locale="cs_CZ" status="Approved">NX Verze</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0sync_checksums" locale="cs_CZ" status="Approved">Kontrolní součet</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0flags" locale="cs_CZ" status="Approved">Příznaky</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0release" locale="cs_CZ" status="Approved">NX Verze</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0sync_checksums" locale="cs_CZ" status="Approved">Kontrolní součet</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0Environment" locale="cs_CZ" status="Approved">Prostředí</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0FLPSize" locale="cs_CZ" status="Approved">Velikost oddílu rychlého načtení</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0HasMultiMaterials" locale="cs_CZ" status="Approved">Má více materiálů</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0PartInfoFlags" locale="cs_CZ" status="Approved">Příznaky informací součásti</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0flags" locale="cs_CZ" status="Approved">Příznaky</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0part_type" locale="cs_CZ" status="Approved">Typ součásti</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0release" locale="cs_CZ" status="Approved">NX Verze</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0sync_checksums" locale="cs_CZ" status="Approved">Kontrolní součet</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

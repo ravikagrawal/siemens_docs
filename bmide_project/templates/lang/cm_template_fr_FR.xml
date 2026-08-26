@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:00 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="fr_FR" status="Approved">Analyste</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="fr_FR" status="Approved">Impacté</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="fr_FR" status="Approved">Problèmes</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="fr_FR" status="Approved">Solutions</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="fr_FR" status="Approved">Plans</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="fr_FR" status="Approved">Met en oeuvre</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="fr_FR" status="Approved">Références de la modification</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="fr_FR" status="Approved">Relation Gestion des Modifications</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="fr_FR" status="Approved">Solution -&gt; Impacté</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="fr_FR" status="Approved">Comité de mise en oeuvre de la modification</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="fr_FR" status="Approved">Master d'article de modification</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="fr_FR" status="Approved">Master d'article de modification</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="fr_FR" status="Approved">Master de révision de modification d'article</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="fr_FR" status="Approved">Master de version d'article de modification</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="fr_FR" status="Approved">Article de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="fr_FR" status="Approved">Master de notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="fr_FR" status="Approved">Master de notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="fr_FR" status="Approved">Master de révision de notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="fr_FR" status="Approved">Master de version de notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="fr_FR" status="Approved">Notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="fr_FR" status="Approved">Master de requête de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="fr_FR" status="Approved">Master de requête de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="fr_FR" status="Approved">Master de révision de requête de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="fr_FR" status="Approved">Master de version de requête de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="fr_FR" status="Approved">Demande de modification</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="fr_FR" status="Approved">Comité de révision de la modification</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="fr_FR" status="Approved">Spécialiste de modification I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="fr_FR" status="Approved">Spécialiste de modification II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="fr_FR" status="Approved">Spécialiste de modification III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="fr_FR" status="Approved">Stockage master d'Article Action</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="fr_FR" status="Approved">Master d'Article Action</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="fr_FR" status="Approved">Stockage master de révision d'Article Action </key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="fr_FR" status="Approved">Master de révision d'Article Action</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="fr_FR" status="Approved">Révision d'Article Action</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="fr_FR" status="Approved">Article Action</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="fr_FR" status="Approved">Article d'audits</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="fr_FR" status="Approved">Autorisation de modification d'annotation</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="fr_FR" status="Approved">Nomenclature A un Formulaire Remplacement</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="fr_FR" status="Approved">Dépendance Avant</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="fr_FR" status="Approved">Stockage master d'Audit de configuration</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="fr_FR" status="Approved">Master d'Audit de configuration</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="fr_FR" status="Approved">Stockage master de révision d'Audit de configuration </key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="fr_FR" status="Approved">Master de révision d'Audit de configuration </key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="fr_FR" status="Approved">Révision d'Audit de configuration</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="fr_FR" status="Approved">Audit de configuration</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="fr_FR" status="Approved">Contributeur</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="fr_FR" status="Approved">Editions de modification</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="fr_FR" status="Approved">Dépendance simultanée</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="fr_FR" status="Approved">Master de requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="fr_FR" status="Approved">Master de requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="fr_FR" status="Approved">Master de requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="fr_FR" status="Approved">Master de révision de requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="fr_FR" status="Approved">Révision de requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="fr_FR" status="Approved">Requête de dérogation</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="fr_FR" status="Approved">Bloc d'expression d'Effectivité de modification</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="fr_FR" status="Approved">Stockage master de Révision générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="fr_FR" status="Approved">Master de Révision générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="fr_FR" status="Approved">Stockage master de révision de Révision générique </key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="fr_FR" status="Approved">Master de révision de Révision générique </key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="fr_FR" status="Approved">Révision de Révision générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="fr_FR" status="Approved">Révision générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="fr_FR" status="Approved">Remplacement du master d'ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="fr_FR" status="Approved">Master d'ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="fr_FR" status="Approved">Remplacement du master de révision d'ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="fr_FR" status="Approved">Master de révision d'ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="fr_FR" status="Approved">Révision d'ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="fr_FR" status="Approved">Ordre de travail générique</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="fr_FR" status="Approved">Espace de modification</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="fr_FR" status="Approved">Contrat</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="fr_FR" status="Approved">Non impacté</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="fr_FR" status="Approved">Proposition</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="fr_FR" status="Approved">Incorpore</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="fr_FR" status="Approved">Fusionnés</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="fr_FR" status="Approved">Effectivité précédente</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="fr_FR" status="Approved">Edition de propriété</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="fr_FR" status="Approved">Objet impacté proposé</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="fr_FR" status="Approved">Soulève des articles Action</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="fr_FR" status="Approved">Ligne supprimée</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="fr_FR" status="Approved">Stockage master de modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="fr_FR" status="Approved">Master de modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="fr_FR" status="Approved">Stockage master de révision de modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="fr_FR" status="Approved">Master de révision de modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="fr_FR" status="Approved">Révision de modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="fr_FR" status="Approved">Modification simple</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="fr_FR" status="Approved">Environnement de travail</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="fr_FR" status="Approved">Master de notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="fr_FR" status="Approved">Master de notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="fr_FR" status="Approved">Master de révision de notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="fr_FR" status="Approved">Révision de notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="fr_FR" status="Approved">Master de version de notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="fr_FR" status="Approved">Notification de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="fr_FR" status="Approved">Master de requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="fr_FR" status="Approved">Master de requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="fr_FR" status="Approved">Master de révision de requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="fr_FR" status="Approved">Révision de requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="fr_FR" status="Approved">Master de version de requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="fr_FR" status="Approved">Requête de modification générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="fr_FR" status="Approved">Master de rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="fr_FR" status="Approved">Master de rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="fr_FR" status="Approved">Master de révision de rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="fr_FR" status="Approved">Révision de rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="fr_FR" status="Approved">Master de version de rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="fr_FR" status="Approved">Rapport de problème générique</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="fr_FR" status="Approved">Master de rapport de problèmes</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="fr_FR" status="Approved">Master de rapport de problèmes</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="fr_FR" status="Approved">Master de révision de rapport de problèmes</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="fr_FR" status="Approved">Master de version de rapport de problèmes</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="fr_FR" status="Approved">Rapport de problème</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="fr_FR" status="Approved">Demandeur</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si Cm0BeforeDependency et Cm0ConcurrentDependency sont disponibles.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si Cm0BeforeDependency et Cm0ConcurrentDependency sont disponibles.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="fr_FR" status="Approved">Cette condition détermine si Cm0BeforeDependency et Cm0ConcurrentDependency sont disponibles.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="fr_FR" status="Approved">Cette condition détermine si la propriété cm0Disposition de la relation CMHasImpactedItem est éditable ou non</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="fr_FR" status="Approved">Cette condition active le filtrage de modèle-type pour les types et sous-types Révision de modification simple.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasImpactedItem peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasImpactedItem peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="fr_FR" status="Approved">Pour ajouter des articles impactés, l'article de modification doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="fr_FR" status="Approved">Pour ajouter des articles impactés, l'utilisateur doit avoir le niveau de licence Création, être Demandeur ou Analyste ou Contributeur de modification, disposer d'un accès en écriture sur l'article de modification, qui doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type Cm0HasNonImpactedItem peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type Cm0HasNonImpactedItem peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="fr_FR" status="Approved">Pour ajouter des articles non impactés, l'utilisateur doit avoir le niveau de licence Création, être Demandeur, Analyste ou Contributeur de modification, disposer d'un accès en écriture sur l'article de modification, qui doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasProblemItem peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasProblemItem peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="fr_FR" status="Approved">Pour ajouter des articles à problèmes, l'article de modification doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="fr_FR" status="Approved">Pour ajouter des articles à problèmes, l'utilisateur doit disposer d'un accès en écriture sur l'article de modification, qui doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasSolutionItem peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition permet d'ajouter un Article de solution par un utilisateur affecté comme Participant d'analyse avec niveau de licence Création, seulement si la Notification de modification est En exécution, Approuvé et Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="fr_FR" status="Approved">Pour ajouter des articles de solution, l'utilisateur doit être Analyste ou Contributeur de modification ou Participant de tâche de planning, et l'article de modification doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="fr_FR" status="Approved">Pour ajouter des articles de solution, l'utilisateur doit avoir le niveau de licence Création, être Analyste ou Contributeur de modification, disposer d'un accès en écriture sur l'article de modification, qui doit être dans l'état Ouvert et pas En révision.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasWorkBreakdown peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasWorkBreakdown peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMHasWorkBreakdown peuvent être créées.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="fr_FR" status="Approved">Pour ajouter des articles de référence, l'article de modification doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="fr_FR" status="Approved">Cette condition détermine si des Contributeurs de modification peuvent être affectés.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="fr_FR" status="Approved">Cette condition détermine si l'Exécution de modification est autorisée.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="fr_FR" status="Approved">Cette condition détermine si une Notification de modification peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="fr_FR" status="Approved">Cette condition détermine si une Requête de modification peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="fr_FR" status="Approved">Cette condition détermine si un article Action peut être créé par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="fr_FR" status="Approved">Cette condition vérifie le statut de l'Audit de configuration</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="fr_FR" status="Approved">Cette condition détermine si une Requête de dérogation peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="fr_FR" status="Approved">Cette condition vérifie le statut de l'Audit de configuration</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type Cm0Incorporates peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type Cm0Incorporates peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type Cm0Incorporates peuvent être créées.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="fr_FR" status="Approved">Cette condition vérifie le statut de l'Audit de configuration</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="fr_FR" status="Approved">Vérifie si le Statut d'incorporation est modifiable pour un Article impacté.</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="fr_FR" status="Approved">Cette condition détermine si le Rapport de problèmes peut être créé par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="fr_FR" status="Approved">Condition qui détermine si le changement de type est autorisé.</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="fr_FR" status="Approved">Cette condition détermine si la séquence de Révision d'article est active.</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="fr_FR" status="Approved">Cette condition détermine si l'Analyste peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est l'analyste de modification de la Révision d'article de modification.</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est un auteur.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="fr_FR" status="Approved">OBSOLETE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasImpactedItem peuvent être créées pour l'objet principal donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="fr_FR" status="Approved">OBSOLETE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasImpactedItem peuvent être créées pour l'objet secondaire donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasImpactedItem peuvent être créées avec la tâche.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si la relation CMHasImpactedItem peut être créée.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasProblemItem peuvent être créées pour l'objet principal donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermines si les relations de type CMHasProblemItem peuvent être créées pour l'objet secondaire donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasProblemItem peuvent être créées avec la tâche.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermines si la relation CMHasProblemItem peut être créée.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasSolutionItem peuvent être créées pour l'objet principal donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasSolutionItem peuvent être créées pour l'objet secondaire donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasSolutionItem peuvent être créées avec la tâche.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si la relation CMHasSolutionItem peut être créée.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasWorkBreakdown peuvent être créées pour l'objet principal donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasWorkBreakdown peuvent être créées pour l'objet secondaire donné.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si les relations de type CMHasWorkBreakdown peuvent être créées.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMImplements peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMImplements peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="fr_FR" status="Approved">Pour dériver une modification et ajouter une relation Met en oeuvre entre des articles de modification, l'utilisateur doit avoir le niveau de licence Création, et l'article de modification doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMReferences peuvent être créées pour l'objet principal indiqué.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMReferences peuvent être créées pour l'objet secondaire indiqué.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="fr_FR" status="Approved">Cette condition détermine si des relations de type CMReferences peuvent être créées avec la tâche.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="fr_FR" status="Approved">Pour ajouter des articles de référence, l'utilisateur doit disposer d'un accès en écriture sur l'article de modification, qui doit être dans l'état Ouvert.</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="fr_FR" status="Approved">Cette condition détermine si l'Exécution de modification est autorisée.</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="fr_FR" status="Approved">Cette condition détermine si le Comité de mise en oeuvre de la modification peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si une notification de modification peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si une requête de modification peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="fr_FR" status="Approved">Cette condition détermine si le Comité de révision de la modification peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="fr_FR" status="Approved">Cette condition détermine si le Spécialiste de modification 1 peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est le Spécialiste de modification 1 de la Révision d'article de modification.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="fr_FR" status="Approved">Cette condition détermine si le Spécialiste de modification 2 peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est le Spécialiste de modification 2 de la Révision d'article de modification.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="fr_FR" status="Approved">Cette condition détermine si le Spécialiste de modification 3 peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est le Spécialiste de modification 3 de la Révision d'article de modification.</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si une requête de dérogation peut être créée par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="fr_FR" status="Approved">Cette condition détermine si l'effectivité peut être créée pour la Révision d'article de modification associée.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="fr_FR" status="Approved">Cette condition détermine si l'Article impacté peut être révisé pour la Révision d'article de modification associée.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="fr_FR" status="Approved">Cette condition détermine si l'Article impacté peut être révisé pour la tâche associée.</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="fr_FR" status="Approved">OBSOLÈTE. VOIR L'ANNONCE DE SUPPORT 13.1 - Cette condition détermine si le rapport d'incidents peut être créé par l'utilisateur.</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="fr_FR" status="Approved">Cette condition détermine si le Demandeur peut être affecté.</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur actuellement connecté est le Demandeur de modification de la Révision d'article de modification.</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="fr_FR" status="Approved">Cette condition détermine si le Cumul peut être validé par l'utilisateur.</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="fr_FR" status="Approved">Fusion complète</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="fr_FR" status="Approved">Fusion partielle</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="fr_FR" status="Approved">La modification demandée consiste à créer un nouvel article pour remplacer l'article impacté.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="fr_FR" status="Approved">La modification demandée consiste à remplacer l'article impacté par un article existant.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="fr_FR" status="Approved">La modification demandée consiste à réviser l'article impacté.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="fr_FR" status="Approved">Dernière version dans toute modification active ou dans public.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="fr_FR" status="Approved">Dernière version dans modification cible ou dans public.</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="fr_FR" status="Approved">Achever</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="fr_FR" status="Approved">Partiel</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="fr_FR" status="Approved">Créer un nouveau</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="fr_FR" status="Approved">Remplacer par existant</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="fr_FR" status="Approved">Réviser</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="fr_FR" status="Approved">Approbation</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="fr_FR" status="Approved">Contribution</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="fr_FR" status="Approved">En préparation</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="fr_FR" status="Approved">Validé</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="fr_FR" status="Approved">Toutes les ECN actives</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="fr_FR" status="Approved">ECN actuelle seulement</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="fr_FR" status="Approved">Contient des données d'occurrences fusionnées</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="fr_FR" status="Approved">Cutback Occurrence</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="fr_FR" status="Approved">Propriétés fusionnées</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="fr_FR" status="Approved">Propriétés mises à jour</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="fr_FR" status="Approved">En mode Modification</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="fr_FR" status="Approved">Modifications simultanées</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="fr_FR" status="Approved">Elimination</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="fr_FR" status="Approved">Mise en oeuvre des Notifications de modification</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="fr_FR" status="Approved">Solutions</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="fr_FR" status="Approved">Statut d'incorporation</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="fr_FR" status="Approved">Lignée</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="fr_FR" status="Approved">Parent</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="fr_FR" status="Approved">Modification demandée</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="fr_FR" status="Approved">Lignée</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="fr_FR" status="Approved">Site propriétaire de la conception proposée</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="fr_FR" status="Approved">Lignée</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="fr_FR" status="Approved">Dérivé depuis</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="fr_FR" status="Approved">Dans des Objets de contexte</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="fr_FR" status="Approved">ID d'utilisateur de l'Analyste</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="fr_FR" status="Approved">ID d'utilisateur du Spécialiste de modification I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="fr_FR" status="Approved">ID d'utilisateur du Spécialiste de modification II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="fr_FR" status="Approved">ID d'utilisateur du Spécialiste de modification III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="fr_FR" status="Approved">Analyste</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="fr_FR" status="Approved">Spécialiste</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="fr_FR" status="Approved">Expéditeur externe?</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="fr_FR" status="Approved">Expéditeur</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="fr_FR" status="Approved">UID de tâche de Traitement distant</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="fr_FR" status="Approved">Demandeur</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="fr_FR" status="Approved">ID d'utilisateur du Demandeur</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="fr_FR" status="Approved">Synopsis</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="fr_FR" status="Approved">Impacte</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="fr_FR" status="Approved">Commentaires</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="fr_FR" status="Approved">Responsable principal du bureau</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="fr_FR" status="Approved">Soulevé par l'audit</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="fr_FR" status="Approved">Zones</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="fr_FR" status="Approved">Type d'action</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="fr_FR" status="Approved">Numéro d'article Action</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="fr_FR" status="Approved">Commentaires</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="fr_FR" status="Approved">Date de processus</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="fr_FR" status="Approved">Numéro d'audit</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="fr_FR" status="Approved">Objet de modification</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="fr_FR" status="Approved">Objet mis à jour</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="fr_FR" status="Approved">Dérogation récurrente</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="fr_FR" status="Approved">Rationnel pour dérogation récurrente</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="fr_FR" status="Approved">Numéro EDR</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="fr_FR" status="Approved">Type de dérogation</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="fr_FR" status="Approved">Numéro EDR</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="fr_FR" status="Approved">Article d'audits présent</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="fr_FR" status="Approved">Type d'audit</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="fr_FR" status="Approved">Statut de la fusion</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="fr_FR" status="Approved">Editions de modification</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="fr_FR" status="Approved">Nom de propriété</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="fr_FR" status="Approved">Valeur originale de la propriété</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="fr_FR" status="Approved">Valeur obsolète de la propriété</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="fr_FR" status="Approved">Enfants</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="fr_FR" status="Approved">A des enfants</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="fr_FR" status="Approved">Est Déjà impacté?</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="fr_FR" status="Approved">Objet Problème</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="fr_FR" status="Approved">Nom d'Objet impacté proposé</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="fr_FR" status="Approved">Objet impacté proposé</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="fr_FR" status="Approved">Type impacté proposé</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="fr_FR" status="Approved">Révisions parentes liées</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="fr_FR" status="Approved">Révisions d'utilisation liées</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="fr_FR" status="Approved">Relation</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="fr_FR" status="Approved">Type d'objet source</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="fr_FR" status="Approved">Objet source</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="fr_FR" status="Approved">Utilisation de pièce</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="fr_FR" status="Approved">Numéro SC</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="fr_FR" status="Approved">Numéro SC</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="fr_FR" status="Approved">Circuit rapide</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="fr_FR" status="Approved">Effectivité proposée</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="fr_FR" status="Approved">Numéro d'ECN</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="fr_FR" status="Approved">Numéro d'ECN</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="fr_FR" status="Approved">Circuit rapide</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="fr_FR" status="Approved">Numéro d'ECR</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="fr_FR" status="Approved">Numéro d'ECR</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="fr_FR" status="Approved">Numéro de PR</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="fr_FR" status="Approved">Numéro de PR</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="fr_FR" status="Approved">Partagé</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="fr_FR" status="Approved">Révision de conception critique</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="fr_FR" status="Approved">Audit de configuration fonctionnelle</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="fr_FR" status="Approved">Audit de configuration physique</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="fr_FR" status="Approved">Révision de conception préliminaire</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="fr_FR" status="Approved">Révision de disponibilité de test</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="fr_FR" status="Approved">Si aucun des cas ci-dessus ne correspond aux besoins des utilisateurs. Par exemple, les utilisateurs ne connaissent peut-être pas la réponse ou préfèrent décider plus tard.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="fr_FR" status="Approved">Modifier la pièce et utiliser dans le même assemblage.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="fr_FR" status="Approved">Ne pas utiliser les pièces restantes.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="fr_FR" status="Approved">Garder en production les pièces telles qu'elles sont aujourd'hui.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="fr_FR" status="Approved">La modification telle que définie pour l'article impacté a été mise en oeuvre dans un article de solution correspondant et aucune modification ultérieure ne sera requise pour incorporer entièrement la modification définie.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="fr_FR" status="Approved">The change as-defined for the Impacted Item has been partially implemented into a corresponding Solution Item. The change will need to be fully incorporated by a subsequent change into the main chain of revisions of the Item.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="fr_FR" status="Approved">La modification définie pour l'article impacté n'a pas encore été mise en oeuvre dans un article de solution correspondant.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="fr_FR" status="Approved">Fusion auto</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="fr_FR" status="Approved">Modification simultanée</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="fr_FR" status="Approved">Approuvé</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="fr_FR" status="Approved">Non approuvé</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="fr_FR" status="Approved">A corriger</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="fr_FR" status="Approved">A améliorer</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="fr_FR" status="Approved">A éviter</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="fr_FR" status="Approved">Annulé</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="fr_FR" status="Approved">Fermé</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="fr_FR" status="Approved">En attente</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="fr_FR" status="Approved">Ouvert</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="fr_FR" status="Approved">Approuvé</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="fr_FR" status="Approved">Reporté</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="fr_FR" status="Approved">Non approuvé</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="fr_FR" status="Approved">Enquêter</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="fr_FR" status="Approved">Aucun</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="fr_FR" status="Approved">Achevé</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="fr_FR" status="Approved">En préparation</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="fr_FR" status="Approved">Exécution</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="fr_FR" status="Approved">En révision</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="fr_FR" status="Approved">Faible</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="fr_FR" status="Approved">Intermédiaire</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="fr_FR" status="Approved">Elevé</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="fr_FR" status="Approved">Critique</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="fr_FR" status="Approved">Autre problème</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="fr_FR" status="Approved">Problème confirmé</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="fr_FR" status="Approved">Problème non confirmé</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="fr_FR" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="fr_FR" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="fr_FR" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="fr_FR" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="fr_FR" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="fr_FR" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="fr_FR" status="Approved">Non</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="fr_FR" status="Approved">Oui</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="fr_FR" status="Approved">Echec</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="fr_FR" status="Approved">Aucun</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="fr_FR" status="Approved">Réussite</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="fr_FR" status="Approved">Achever</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="fr_FR" status="Approved">En préparation</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="fr_FR" status="Approved">En cours</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="fr_FR" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="fr_FR" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="fr_FR" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="fr_FR" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="fr_FR" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="fr_FR" status="Approved">Autre</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="fr_FR" status="Approved">Remanier</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="fr_FR" status="Approved">Jeter</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="fr_FR" status="Approved">Utiliser tel quel</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="fr_FR" status="Approved">Annulé</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="fr_FR" status="Approved">Fusionnés</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="fr_FR" status="Approved">Fusion requise</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="fr_FR" status="Approved">Aucune fusion requise</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="fr_FR" status="Approved">Fusion auto</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="fr_FR" status="Approved">Modification simultanée</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="fr_FR" status="Approved">Editer Nomenclature</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="fr_FR" status="Approved">Remplacement de Nomenclature</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="fr_FR" status="Approved">Révision d'article de modification</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="fr_FR" status="Approved">Révision de notification de modification</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="fr_FR" status="Approved">Révision de requête de modification</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="fr_FR" status="Approved">Révision de rapport de problème</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="fr_FR" status="Approved">Remplacement de Nomenclature</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="fr_FR" status="Approved">Editer la quantité de Nomenclature</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="fr_FR" status="Approved">Révision de vue de Nomenclature</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="fr_FR" status="Approved">Révision de modification</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="fr_FR" status="Approved">Type de modification</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="fr_FR" status="Approved">Objet personnalisé</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="fr_FR" status="Approved">Est Dérivé</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="fr_FR" status="Approved">Nom complet de l'objet</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="fr_FR" status="Approved">Nom de l'objet</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="fr_FR" status="Approved">Chaîne d'objet</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="fr_FR" status="Approved">Type d'objet</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="fr_FR" status="Approved">Occurrence</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="fr_FR" status="Approved">Révision de vue de Nomenclature de problème</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="fr_FR" status="Approved">Différence de quantité</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="fr_FR" status="Approved">Modification active pour révision d'occurrence</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="fr_FR" status="Approved">Modification active</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="fr_FR" status="Approved">Ajouts</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="fr_FR" status="Approved">Ajouts</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="fr_FR" status="Approved">Annulations</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="fr_FR" status="Approved">Annulations</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="fr_FR" status="Approved">Révision de modification</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="fr_FR" status="Approved">Formulaire personnalisé</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="fr_FR" status="Approved">Révision de vue de Nomenclature impactée</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="fr_FR" status="Approved">Est Transfert</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="fr_FR" status="Approved">Nom complet de l'objet</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="fr_FR" status="Approved">Nom de l'objet</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="fr_FR" status="Approved">Chaîne d'objet</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="fr_FR" status="Approved">Type d'objet</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="fr_FR" status="Approved">Révision de vue de Nomenclature de problème</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="fr_FR" status="Approved">Statut préféré de Révision d'article de modification</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="fr_FR" status="Approved">Révision d'article de modification</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="fr_FR" status="Approved">Mode partagé de Révision de notification de modification</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="fr_FR" status="Approved">Analyste</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="fr_FR" status="Approved">Commentaires de fermeture</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="fr_FR" status="Approved">Date de fermeture</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="fr_FR" status="Approved">Fermeture</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="fr_FR" status="Approved">Commentaires de disposition</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="fr_FR" status="Approved">Date de disposition</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="fr_FR" status="Approved">Disposition</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="fr_FR" status="Approved">Mis en oeuvre par</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="fr_FR" status="Approved">Modifier la maturité</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="fr_FR" status="Approved">Comité de mise en oeuvre de la modification</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="fr_FR" status="Approved">Comité de révision de la modification</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="fr_FR" status="Approved">Spécialiste de modification I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="fr_FR" status="Approved">Spécialiste de modification II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="fr_FR" status="Approved">Spécialiste de modification III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="fr_FR" status="Approved">Demandeur</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="fr_FR" status="Approved">Auto propager les relations</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="fr_FR" status="Approved">Acheteurs</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="fr_FR" status="Approved">Contributeurs de modification</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="fr_FR" status="Approved">Types dérivables</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="fr_FR" status="Approved">Concepteurs</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="fr_FR" status="Approved">Ingénieurs en Fabrication</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="fr_FR" status="Approved">Estimateurs financiers</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="fr_FR" status="Approved">Problèmes modifiables</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="fr_FR" status="Approved">Références modifiables</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="fr_FR" status="Approved">Chefs concepteurs</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="fr_FR" status="Approved">Révisions de pièce à problème</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="fr_FR" status="Approved">Ingénieurs produit</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="fr_FR" status="Approved">Responsables programme</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="fr_FR" status="Approved">Ingénieurs qualité</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="fr_FR" status="Approved">Relations à auto propager si Dériver </key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="fr_FR" status="Approved">Ventes</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="fr_FR" status="Approved">Clients</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="fr_FR" status="Approved">Synopsis</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="fr_FR" status="Approved">Date d'approbation client</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="fr_FR" status="Approved">Priorité de mise en oeuvre</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="fr_FR" status="Approved">Approbation client obligatoire</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="fr_FR" status="Approved">Instruction spéciale</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="fr_FR" status="Approved">Statut de l'approbation client</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="fr_FR" status="Approved">Impacte</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="fr_FR" status="Approved">Relations Impacté modifiables</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="fr_FR" status="Approved">Relations Solution modifiables</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="fr_FR" status="Approved">Coût non récurrent</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="fr_FR" status="Approved">Solution proposée</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="fr_FR" status="Approved">Motif</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="fr_FR" status="Approved">Coût récurrent</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="fr_FR" status="Approved">Date de la recommandation technique</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="fr_FR" status="Approved">Priorité de Révision technique</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="fr_FR" status="Approved">Recommandation technique</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="fr_FR" status="Approved">Révision Technique</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="fr_FR" status="Approved">Résultats de test joints</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="fr_FR" status="Approved">Facteurs du temps</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="fr_FR" status="Approved">Impacte</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="fr_FR" status="Approved">Garantie affectée</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="fr_FR" status="Approved">Relations Impacté modifiables</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="fr_FR" status="Approved">Description de l'environnement</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="fr_FR" status="Approved">Impacte</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="fr_FR" status="Approved">Séquence d'événements</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="fr_FR" status="Approved">Taux de gravité</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="fr_FR" status="Approved">Priorité de Révision technique</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="fr_FR" status="Approved">Vérification</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="fr_FR" status="Approved">Modification active</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="fr_FR" status="Approved">Modification de création</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="fr_FR" status="Approved">LOV globale Modifier contextes</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="fr_FR" status="Approved">ECN entrante</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="fr_FR" status="Approved">ECN sortante</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="fr_FR" status="Approved">Modifier contexte global</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="fr_FR" status="Approved">Modifier contexte global</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="fr_FR" status="Approved">Acheteurs</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="fr_FR" status="Approved">Concepteurs</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="fr_FR" status="Approved">Ingénieurs en Fabrication</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="fr_FR" status="Approved">Estimateurs financiers</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="fr_FR" status="Approved">Chefs concepteurs</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="fr_FR" status="Approved">Ingénieurs produit</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="fr_FR" status="Approved">Responsables programme</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="fr_FR" status="Approved">Ingénieurs qualité</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="fr_FR" status="Approved">Ventes</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="fr_FR" status="Approved">Action de modification</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="fr_FR" status="Approved">Changer Relation</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

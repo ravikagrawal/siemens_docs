@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="de_DE" status="Approved">Zugewiesener Zielanbieter</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="de_DE" status="Approved">Mögliche Aktualisierungsaktionen</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="de_DE" status="Approved">Stücklisten-Update</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="de_DE" status="Approved">Gibt an, ob das Teil farbempfindlich ist</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="de_DE" status="Approved">Gibt an, ob das Teil "Ohne Endverarbeitung" ist</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="de_DE" status="Approved">Stücklisten-Update</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="de_DE" status="Approved">Koloriertes Teil</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="de_DE" status="Approved">Ohne Endverarbeitung</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="de_DE" status="Approved">Keine</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="de_DE" status="Approved">Design ausgelagert</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="de_DE" status="Approved">Design gekauft</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="de_DE" status="Approved">Internes Design</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="de_DE" status="Approved">Nicht zugewiesen</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="de_DE" status="Approved">Zuweisen an allgemeines Teil</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="de_DE" status="Approved">Zugewiesene Teilekontexte</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="de_DE" status="Approved">Freigabestatus des zugewiesenen Teils</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="de_DE" status="Approved">Zugewiesene Teile</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="de_DE" status="Approved">Ist Teil zugewiesen?</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="de_DE" status="Approved">Teil erforderlich</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="de_DE" status="Approved">Zugewiesene Teile</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="de_DE" status="Approved">Standard</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="de_DE" status="Approved">Zugewiesene Konstruktionskontexte</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="de_DE" status="Approved">Freigabestatus der zugewiesenen Konstruktion</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="de_DE" status="Approved">Zugewiesene Konstruktionen</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="de_DE" status="Approved">Ist Konstruktion zugewiesen?</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="de_DE" status="Approved">Konstruktion erforderlich</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="de_DE" status="Approved">Zugewiesene Konstruktionen</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="de_DE" status="Approved">Endverarbeitungstyp</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="de_DE" status="Approved">Mehrkörper</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="de_DE" status="Approved">Sicherheitsteil</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="de_DE" status="Approved">Ersatzteil</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="de_DE" status="Approved">Technologieabsicht</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="de_DE" status="Approved">Aktion aktualisieren</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="de_DE" status="Approved">Stücklistenerstellung erfolgreich abgeschlossen</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="de_DE" status="Approved">Stücklistenaktualisierung erfolgreich abgeschlossen</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="de_DE" status="Approved">Zuweisung vorhanden</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="de_DE" status="Approved">Definiert die Sichtbarkeit des Befehls "Zuweisen". Nur sichtbar für Konstruktionsteile.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

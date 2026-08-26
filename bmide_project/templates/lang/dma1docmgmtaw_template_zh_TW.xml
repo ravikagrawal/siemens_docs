@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="zh_TW" status="Approved">列印組態自訂值清單業務物件</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="zh_TW" status="Approved">列印組態執行階段</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="zh_TW" status="Approved">用於檢查是否為文檔版本業務物件應用了現成的零元件版本定義配置 (IRDC) Dma1DocumentRevisionIRDC 的條件。 當首選項 "Fnd0DM_IsSimpleDocumentEnabled" 設為 "true" 時，將應用 Dma1DocumentRevisionIRDC，否則將不應用。 這對文檔版本的子項不適用。</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="zh_TW" status="Approved">用於檢查是否根據喜好設定 "Dma1UseCOTSIRDC" 將現成項目版本定義組態 (IRDC) 執行個體套用於項目版本的條件。這對項目版本子項不適用。</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="zh_TW" status="Approved">全部</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="zh_TW" status="Approved">關</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="zh_TW" status="Approved">單個</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="zh_TW" status="Approved">顏色</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="zh_TW" status="Approved">單色</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="zh_TW" status="Approved">最適合</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="zh_TW" status="Approved">橫向</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="zh_TW" status="Approved">縱向</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="zh_TW" status="Approved">所有頁</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="zh_TW" status="Approved">封面頁面</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="zh_TW" status="Approved">第一頁</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="zh_TW" status="Approved">全部</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="zh_TW" status="Approved">關</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="zh_TW" status="Approved">單個</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="zh_TW" status="Approved">顏色</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="zh_TW" status="Approved">單色</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="zh_TW" status="Approved">最適合</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="zh_TW" status="Approved">橫向</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="zh_TW" status="Approved">縱向</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="zh_TW" status="Approved">所有頁</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="zh_TW" status="Approved">封面頁面</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="zh_TW" status="Approved">第一頁</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="zh_TW" status="Approved">封面頁面</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="zh_TW" status="Approved">逐份列印</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="zh_TW" status="Approved">顏色</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="zh_TW" status="Approved">份數</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="zh_TW" status="Approved">方向</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="zh_TW" status="Approved">紙張大小</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="zh_TW" status="Approved">列印組態名稱</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="zh_TW" status="Approved">印表機名稱</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="zh_TW" status="Approved">範圍</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="zh_TW" status="Approved">比例</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="zh_TW" status="Approved">支援的戳記</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="zh_TW" status="Approved">系統戳記</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="zh_TW" status="Approved">使用者戳記</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Rlz0Composition" locale="es_ES" status="Approved">Composición</key>
+           
+        <key id="BusinessObject{::}Rlz0GDEArtifact" locale="es_ES" status="Approved">WSO dependiente adjunto</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemInstance" locale="es_ES" status="Approved">Instancia del ítem</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemRealizationMap" locale="es_ES" status="Approved">Mapeo de realización del ítem</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemRealization" locale="es_ES" status="Approved">Realización del ítem</key>
+           
+        <key id="BusinessObject{::}Rlz0M2MSubsetInstantiation" locale="es_ES" status="Approved">Instanciación del subconjunto modelo con modelo</key>
+           
+        <key id="BusinessObject{::}Rlz0M2MSubsetRealization" locale="es_ES" status="Approved">Realización del subconjunto modelo con modelo</key>
+           
+        <key id="BusinessObject{::}Rlz0ModelRealizationMap" locale="es_ES" status="Approved">Mapeo de realización del modelo</key>
+           
+        <key id="BusinessObject{::}Rlz0ModelRealization" locale="es_ES" status="Approved">Realización del modelo</key>
+           
+        <key id="BusinessObject{::}Rlz0PopulateInstantiation" locale="es_ES" status="Approved">Poblar instanciación</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizationContainer" locale="es_ES" status="Approved">Contenedor de realizaciones</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizationMap" locale="es_ES" status="Approved">Mapeo de realización</key>
+           
+        <key id="BusinessObject{::}Rlz0Realization" locale="es_ES" status="Approved">Realización</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizedItem" locale="es_ES" status="Approved">Ítem realizado</key>
+           
+        <key id="BusinessObject{::}Rlz0RefCompositionProvider" locale="es_ES" status="Approved">Referenciando el proveedor de la composición</key>
+           
+        <key id="BusinessObject{::}Rlz0SourceObjectRefByProvider" locale="es_ES" status="Approved">Objeto fuente referenciado por el proveedor</key>
+           
+        <key id="BusinessObject{::}Rlz0SubsetInstance" locale="es_ES" status="Approved">Instancia de subconjunto de realización dispersa</key>
+           
+        <key id="BusinessObject{::}Rlz0Subset" locale="es_ES" status="Approved">Subconjunto</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsInstantiation" locale="es_ES" status="Approved">Esta condición evalúa si la operación es una instanciación</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsNotInstantiation" locale="es_ES" status="Approved">Esta condición evalúa si la operación es una instanciación</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsNotRealizationOrInstantiation" locale="es_ES" status="Approved">Esta condición evalúa si la operación no es una realización ni una instanciación</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsRealizationOrInstantiation" locale="es_ES" status="Approved">Esta condición evalúa si la operación es una realización ni una instanciación</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsRealization" locale="es_ES" status="Approved">Esta condición evalúa si la operación es una realización</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}promissory" locale="es_ES" status="Approved">Representa el elemento del modelo promisorio.</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}reuse" locale="es_ES" status="Approved">Representa el elemento del modelo de reutilización.</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}subordinate" locale="es_ES" status="Approved">Representa el elemento del modelo subordinado.</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}item" locale="es_ES" status="Approved">ítem</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}promissory" locale="es_ES" status="Approved">promisorio</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}reuse" locale="es_ES" status="Approved">reutilización</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}subordinate" locale="es_ES" status="Approved">subordinado</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizationContainer" locale="es_ES" status="Approved">Contenedor de realizaciones</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizationLUD" locale="es_ES" status="Approved">Fecha de la última actualización de la realización</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizedSource" locale="es_ES" status="Approved">Elemento del modelo fuente</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}rlz0AbsoluteTransform" locale="es_ES" status="Approved">Transformación absoluta en el subconjunto</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}rlz0AbsoluteTransform" locale="es_ES" status="Approved">Transformación absoluta en el subconjunto</key>
+           
+        <key id="Property{::}Rlz0Composition{::}rlz0AssociatedSubsets" locale="es_ES" status="Approved">Subconjuntos asociados</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0Category" locale="es_ES" status="Approved">Categoría</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0IdInParent" locale="es_ES" status="Approved">Id en padre</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0Id" locale="es_ES" status="Approved">Id</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0SourceWSO" locale="es_ES" status="Approved">WSO fuente</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0ThreadInParentSource" locale="es_ES" status="Approved">Hilo de ejecución en la fuente madre</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0element" locale="es_ES" status="Approved">Elemento</key>
+           
+        <key id="Property{::}Rlz0ItemInstance{::}rlz0ReuseElement" locale="es_ES" status="Approved">Elemento de reutilización</key>
+           
+        <key id="Property{::}Rlz0ItemInstance{::}rlz0SourceLMD" locale="es_ES" status="Approved">LMD fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationCreI{::}rlz0sourceInput" locale="es_ES" status="Approved">Entrada fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0CSIDInParent" locale="es_ES" status="Approved">CSID en padre</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0SourceCSID" locale="es_ES" status="Approved">CSID fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0SourceObject" locale="es_ES" status="Approved">Objeto fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0is_source_occ_id_fnv" locale="es_ES" status="Approved">Es el FNV del Id de la ocurrencia fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0source_occ_id" locale="es_ES" status="Approved">Id de la ocurrencia fuente</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0ClosureRule" locale="es_ES" status="Approved">Regla de cierre</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0bom_view" locale="es_ES" status="Approved">Vista de BOM</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0product" locale="es_ES" status="Approved">Revisión del ítem producto</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0sos" locale="es_ES" status="Approved">Conjunto de opciones almacenadas</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0variant_rule" locale="es_ES" status="Approved">Regla de variantes</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetInstantiation{::}rlz0ReuseElement" locale="es_ES" status="Approved">Elemento de reutilización</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetInstantiation{::}rlz0SearchCriteria" locale="es_ES" status="Approved">Criterios de búsqueda modelo con modelo</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealizationCreI{::}rlz0CheckOutForCreate" locale="es_ES" status="Approved">Desproteger en Crear</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealizationCreI{::}rlz0RealizationMode" locale="es_ES" status="Approved">Modo de realización</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealization{::}rlz0RealizationContainer" locale="es_ES" status="Approved">Contenedor de realizaciones</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealization{::}rlz0SearchCriteria" locale="es_ES" status="Approved">Criterios de búsqueda</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0LogicalSource" locale="es_ES" status="Approved">Fuente lógica</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0is_realized" locale="es_ES" status="Approved">Está realizado</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0source_object" locale="es_ES" status="Approved">Objeto fuente</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0source" locale="es_ES" status="Approved">Fuente</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ChangeContextMode" locale="es_ES" status="Approved">Cambiar el modo de visualización del contexto</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ChangeContext" locale="es_ES" status="Approved">Contexto de cambio</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ConfiguredSourceModel" locale="es_ES" status="Approved">Modelo fuente configurado</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ContentType" locale="es_ES" status="Approved">Tipo de contenido</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0OuterRecipe" locale="es_ES" status="Approved">Receta externa</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0Purpose" locale="es_ES" status="Approved">Propósito</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ReportInWhereUsed" locale="es_ES" status="Approved">Informar en Dónde se usa</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0VariantRules" locale="es_ES" status="Approved">Reglas de variantes</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0source_model" locale="es_ES" status="Approved">Modelo fuente</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0variant_rule" locale="es_ES" status="Approved">Regla de variantes - Obsoleta. Consulte el anuncio de Asistencia técnica TC11.4</key>
+           
+        <key id="Property{::}Rlz0PopulateInstantiation{::}rlz0OwningElement" locale="es_ES" status="Approved">Elemento propietario</key>
+           
+        <key id="Property{::}Rlz0RealizationContainerCreI{::}rlz0RealizationCreInput" locale="es_ES" status="Approved">Realización: crear entrada</key>
+           
+        <key id="Property{::}Rlz0RealizationContainer{::}rlz0instance" locale="es_ES" status="Approved">Instancia de la realización</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0LastUpdateDate" locale="es_ES" status="Approved">Fecha de la última actualización de la realización</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0cs_id" locale="es_ES" status="Approved">Copia del Id estable</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0realization" locale="es_ES" status="Approved">Realización</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0target" locale="es_ES" status="Approved">Destino</key>
+           
+        <key id="Property{::}Rlz0RealizationSvAI{::}rlz0TargetModel" locale="es_ES" status="Approved">Modelo destino</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0revision_rule" locale="es_ES" status="Approved">Regla de revisión</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0revrule_strings" locale="es_ES" status="Approved">Cadenas de la regla de revisión</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_effectivity_exprs" locale="es_ES" status="Approved">Sincronizar las expresiones de efectividad</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_source_object_attr" locale="es_ES" status="Approved">Sincronizar los valores del atributo</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_variant_exprs" locale="es_ES" status="Approved">Sincronizar las expresiones de variante</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0target_model" locale="es_ES" status="Approved">Modelo destino</key>
+           
+        <key id="Property{::}Rlz0RealizedItemCreI{::}rlz0ReuseElementInput" locale="es_ES" status="Approved">Entrada del elemento de reutilización</key>
+           
+        <key id="Property{::}Rlz0RealizedItemCreI{::}rlz0parentClientId" locale="es_ES" status="Approved">Id del cliente padre</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0Category" locale="es_ES" status="Approved">Categoría</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ElementId" locale="es_ES" status="Approved">Id del elemento</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0IdInParent" locale="es_ES" status="Approved">Id en padre</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0IsLeaf" locale="es_ES" status="Approved">Es una hoja</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0PresentedParent" locale="es_ES" status="Approved">Padre presentado</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ReuseElement" locale="es_ES" status="Approved">Elemento de reutilización</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0SourceObject" locale="es_ES" status="Approved">Objeto fuente</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0SourceSpecification" locale="es_ES" status="Approved">Especificación fuente</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ThreadInParentSource" locale="es_ES" status="Approved">Hilo de ejecución en la fuente madre</key>
+           
+        <key id="Property{::}Rlz0SubsetCreI{::}rlz0RealizationCreInput" locale="es_ES" status="Approved">Entrada de la creación de la realización</key>
+           
+        <key id="Property{::}Rlz0SubsetInstanceCreI{::}rlz0RealizationMode" locale="es_ES" status="Approved">Modo de realización</key>
+           
+        <key id="Property{::}Rlz0SubsetInstance{::}rlz0OwningObject" locale="es_ES" status="Approved">Objeto propietario</key>
+           
+        <key id="Property{::}Rlz0SubsetInstance{::}rlz0SearchCriteria" locale="es_ES" status="Approved">Criterios de búsqueda</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0CSId" locale="es_ES" status="Approved">Copia del Id estable</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0OwningObject" locale="es_ES" status="Approved">Objeto propietario</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0Purpose" locale="es_ES" status="Approved">Propósito</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectId" locale="es_ES" status="Approved">Id del objeto fuente</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectName" locale="es_ES" status="Approved">Nombre del objeto fuente</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectType" locale="es_ES" status="Approved">Tipo de objeto fuente </key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SubsetInstance" locale="es_ES" status="Approved">Instancia del subconjunto</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0Transform" locale="es_ES" status="Approved">Transformar</key>
+           
+        <key id="Event{::}Rlz0Create_Rlz_Container" locale="es_ES" status="Approved">Crear contenedor de realizaciones</key>
+           
+        <key id="Event{::}Rlz0Delete_Rlz_Container" locale="es_ES" status="Approved">Eliminar el contenedor de realizaciones</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

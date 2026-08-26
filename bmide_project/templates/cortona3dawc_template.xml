@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Fri Aug 11 02:28:49 PM 2023">
+<Add>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemDITAARRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemDITARevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemDMapARRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemDMapLRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemDMapRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemRevision"/>
+   </TcGlobalConstantAttach>
+   <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+      <ConstantValue value="C3D_ItemContextRevision"/>
+   </TcGlobalConstantAttach>
+   <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="C3D_ItemType"
+        value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0FilterPropFromRefType" typeName="C3D_Item"
+        propertyName="c3d_itemType" value="object_name,item_id"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="C3D_Item"
+        propertyName="c3d_itemType" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="C3D_ItemType"
+        propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchCanFilter" typeName="C3D_ItemType"
+        propertyName="object_name" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="C3D_Item"
+        propertyName="c3d_itemType" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" typeName="C3D_ItemType"
+        propertyName="item_id" value="true"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchPropFromRefType" typeName="C3D_Item"
+        propertyName="c3d_itemType" value="object_name,item_id"/>
+   <TcPropertyConstantAttach constantName="Awp0SearchRefTypeNames" typeName="C3D_Item"
+        propertyName="c3d_itemType" value="C3D_ItemType"/>
+   <Functionality name="cortona3dawc" displayName="Cortona3D Authoring Server Template for Active Workspace"
+        enabledForVerificationRules="false" description="Component for the Cortona3D Template for Active Workspace"/>
+</Add>
+</TcBusinessData>

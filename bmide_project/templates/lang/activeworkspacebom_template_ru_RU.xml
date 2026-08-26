@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:33 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="ru_RU" status="Approved">Поставщик расположений</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="ru_RU" status="Approved">Автозакладка</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="ru_RU" status="Approved">Данные администрирования для индексации структур</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="ru_RU" status="Approved">Данные закладок</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="ru_RU" status="Approved">Данные навигации закладок</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="ru_RU" status="Approved">Закладка для данных о продукте</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="ru_RU" status="Approved">Данные поднабора</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="ru_RU" status="Approved">Клонировать цепочки постоянных ID в поставщика элементов</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="ru_RU" status="Approved">Поставщик правил закрытия</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="ru_RU" status="Approved">Результаты сравнения</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="ru_RU" status="Approved">Условный элемент</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="ru_RU" status="Approved">Поставщик контекста</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="ru_RU" status="Approved">Элемент конфигурации применяемости дат</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="ru_RU" status="Approved">Элемент проектирования</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="ru_RU" status="Approved">Поставщик применяемости</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="ru_RU" status="Approved">Элемент</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="ru_RU" status="Approved">Список элементов</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="ru_RU" status="Approved">Элемент однородной структуры</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="ru_RU" status="Approved">Элемент полнотекстового поиска</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="ru_RU" status="Approved">Служба полнотекстового поиска</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="ru_RU" status="Approved">Managed Attributes Provider</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="ru_RU" status="Approved">Переопределить поставщика набора данных</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="ru_RU" status="Approved">Элемент раздела</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="ru_RU" status="Approved">Позиционированный элемент</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="ru_RU" status="Approved">Информация о контексте изделия</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="ru_RU" status="Approved">Элемент изделия</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="ru_RU" status="Approved">Элемент корневого вхождения</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="ru_RU" status="Approved">Сохранить элемент рабочего контекста</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="ru_RU" status="Approved">Рабочий контекст сохранен</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="ru_RU" status="Approved">Поставщик сохраненных запросов</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="ru_RU" status="Approved">Провайдер заменителей</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="ru_RU" status="Approved">Элемент конфигурации применяемости объектов</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="ru_RU" status="Approved">Вариантный элемент</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="ru_RU" status="Approved">Поставщик типа вида</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="ru_RU" status="Approved">Элемент просмотра</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="ru_RU" status="Approved">Deprecated. see support announcement Teamcenter 2606. Zone Provider</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="ru_RU" status="Approved">Эта операция клонирует элемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="ru_RU" status="Approved">Эта операция ссылается на элемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="ru_RU" status="Approved">Эта операция создает ревизию элемента.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="ru_RU" status="Approved">Эта операция заменяет элемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="ru_RU" status="Approved">Эта операция пропускает элемент.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="ru_RU" status="Approved">Нет общего доступа к сохраненному рабочему контексту.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="ru_RU" status="Approved">Общий доступ предоставлен только для чтения сохраненного рабочего контекста.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ru_RU" status="Approved">Общий доступ предоставлен для чтения и записи сохраненного рабочего контекста.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="ru_RU" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ru_RU" status="Approved">Изменения не сохранены</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ru_RU" status="Approved">Изменения сохранены</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="ru_RU" status="Approved">Сравнить</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="ru_RU" status="Approved">Сохранить как и заменить</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="ru_RU" status="Approved">Ссылка</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="ru_RU" status="Approved">Пересмотреть</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="ru_RU" status="Approved">Заменить</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="ru_RU" status="Approved">Исключить</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="ru_RU" status="Approved">Закрытый</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="ru_RU" status="Approved">Только для чтения</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ru_RU" status="Approved">Чтение/запись</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="ru_RU" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ru_RU" status="Approved">Изменения не сохранены</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ru_RU" status="Approved">Изменения сохранены</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="ru_RU" status="Approved">Сравнить</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="ru_RU" status="Approved">Активный продукт</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="ru_RU" status="Approved">Последний доступ</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="ru_RU" status="Approved">Последнее сохранение закладки</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="ru_RU" status="Approved">Открытый объект</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="ru_RU" status="Approved">Несохраненные изменения</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="ru_RU" status="Approved">Пользователь</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="ru_RU" status="Approved">Базовое правило ревизии</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="ru_RU" status="Approved">Правило закрытия</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="ru_RU" status="Approved">Время применяемости</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="ru_RU" status="Approved">Конечный объект применяемости</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="ru_RU" status="Approved">Обозначение объекта применяемости</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="ru_RU" status="Approved">Статус даты индексации структур</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="ru_RU" status="Approved">Последний доступ</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="ru_RU" status="Approved">Последнее обновление</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="ru_RU" status="Approved">Количество вхождений</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="ru_RU" status="Approved">Продукт</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="ru_RU" status="Approved">Тип структуры</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="ru_RU" status="Approved">Статус подписчиков</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="ru_RU" status="Approved">Подписчики</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="ru_RU" status="Approved">Ревизия-владелец вариантного правила</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="ru_RU" status="Approved">Вариантные правила</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="ru_RU" status="Approved">UID окна</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="ru_RU" status="Approved">Объект-владелец</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="ru_RU" status="Approved">Активное вспомогательное расположение</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="ru_RU" status="Approved">Сжатые данные о развертывании</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="ru_RU" status="Approved">Данные о развертывании</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="ru_RU" status="Approved">Переопределить контекст</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="ru_RU" status="Approved">Путь выбранного элемента</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="ru_RU" status="Approved">Примененное расположение</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="ru_RU" status="Approved">Правило закрытия</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="ru_RU" status="Approved">Контекст конфигурации</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="ru_RU" status="Approved">Данные конфигурации</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="ru_RU" status="Approved">Дата применяемости</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="ru_RU" status="Approved">Действительно в настоящий момент</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="ru_RU" status="Approved">Серийный номер</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="ru_RU" status="Approved">Группы применяемости</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="ru_RU" status="Approved">Конечный объект</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="ru_RU" status="Approved">Закладки для глобального правила ревизии</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="ru_RU" status="Approved">Несохраненные изменения</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="ru_RU" status="Approved">Продукт</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="ru_RU" status="Approved">Строки правил ревизии </key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="ru_RU" status="Approved">Правило ревизии</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="ru_RU" status="Approved">Сохраненные вариантные правила</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="ru_RU" status="Approved">Ревизии элементов для вариантных правил</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="ru_RU" status="Approved">Тип вида</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="ru_RU" status="Approved">Список вхождений</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="ru_RU" status="Approved">Критерии сравнения</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="ru_RU" status="Approved">Сравнить параметры</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="ru_RU" status="Approved">Ключ сравнения</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="ru_RU" status="Approved">Глубина</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="ru_RU" status="Approved">Альтернативный список</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="ru_RU" status="Approved">Статусы выпуска</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="ru_RU" status="Approved">Применяемость ревизии</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="ru_RU" status="Approved">Идентификатор</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="ru_RU" status="Approved">Описание</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="ru_RU" status="Approved">Применяемость выпуска</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="ru_RU" status="Approved">Ревизия</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="ru_RU" status="Approved">Имя ревизии</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="ru_RU" status="Approved">Статус выпуска</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="ru_RU" status="Approved">Индикатор сборки</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="ru_RU" status="Approved">Применяемость элемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="ru_RU" status="Approved">Идентификатор применяемости элемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="ru_RU" status="Approved">Is Element Filtered Out?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="ru_RU" status="Approved">Конечная применяемость элемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="ru_RU" status="Approved">Идентификатор ревизии элемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="ru_RU" status="Approved">VOC - вариантное вхождение сконфигурировано</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="ru_RU" status="Approved">Статус конечного объекта сборки</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="ru_RU" status="Approved">Finish Indicator</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="ru_RU" status="Approved">Имеет активную метку</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="ru_RU" status="Approved">Глобальная альтернатива</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="ru_RU" status="Approved">Применяемость элемента</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="ru_RU" status="Approved">Определить замену</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="ru_RU" status="Approved">Вариант</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="ru_RU" status="Approved">Is Occurrence Substitute</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="ru_RU" status="Approved">Упаковано</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="ru_RU" status="Approved">Точное</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="ru_RU" status="Approved">Is Secondary Component</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="ru_RU" status="Approved">Является вариантным элементом</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="ru_RU" status="Approved">Имена свойств меток</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="ru_RU" status="Approved">Значения свойств меток</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="ru_RU" status="Approved">Действие</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="ru_RU" status="Approved">Готовность</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="ru_RU" status="Approved">Требуются множественные выравнивания</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="ru_RU" status="Approved">Net Variability</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="ru_RU" status="Approved">Кол-во в пакете</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="ru_RU" status="Approved">Действие</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="ru_RU" status="Approved">Указатель положения</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="ru_RU" status="Approved">Primary Components</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="ru_RU" status="Approved">Управляемое количество</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="ru_RU" status="Approved">Правило сконфигурировано</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="ru_RU" status="Approved">Show Substitute Components</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="ru_RU" status="Approved">Пропустить выравнивание</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="ru_RU" status="Approved">Substitute Indicator</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="ru_RU" status="Approved">Адрес применения</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="ru_RU" status="Approved">Вариантная формула</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="ru_RU" status="Approved">Идентификатор "В контексте"(Верхний уровень)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="ru_RU" status="Approved">ID in Context (All Levels)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="ru_RU" status="Approved">Дата последнего изменения</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="ru_RU" status="Approved">Последние изменения внесены</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="ru_RU" status="Approved">Идентификатор группы</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="ru_RU" status="Approved">Владелец</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="ru_RU" status="Approved">Дата выпуска</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="ru_RU" status="Approved">Архетип</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="ru_RU" status="Approved">Ограничивающий блок</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="ru_RU" status="Approved">Предок навигатора</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="ru_RU" status="Approved">Неизменная копия идентификатора вхождения</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="ru_RU" status="Approved">Копировать путь к постоянному идентификатору</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="ru_RU" status="Approved">Элемент</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="ru_RU" status="Approved">EOC - эффективное вхождение сконфигурировано</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="ru_RU" status="Approved">ID элемента</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="ru_RU" status="Approved">Статус выпуска элемента</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="ru_RU" status="Approved">Перезапись</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="ru_RU" status="Approved">Классификация IP</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="ru_RU" status="Approved">Элемент не отображается</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="ru_RU" status="Approved">Изменяемая структура</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="ru_RU" status="Approved">Требует проверки</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="ru_RU" status="Approved">Переопределение преобразования</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="ru_RU" status="Approved">Последний сохраненный ссылочный набор</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="ru_RU" status="Approved">Уровень</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="ru_RU" status="Approved">Количество дочерних объектов</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="ru_RU" status="Approved">Имя вхождения</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="ru_RU" status="Approved">Тип вхождения</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="ru_RU" status="Approved">Переопределенные свойства</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="ru_RU" status="Approved">Переопределить контекст</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="ru_RU" status="Approved">Родитель</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="ru_RU" status="Approved">Идентификатор контекста изделия</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="ru_RU" status="Approved">Проекты</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="ru_RU" status="Approved">Количество</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="ru_RU" status="Approved">Относительное преобразование</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="ru_RU" status="Approved">Номер</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="ru_RU" status="Approved">Адаптер службы</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="ru_RU" status="Approved">Трассировка</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="ru_RU" status="Approved">Абсолютное преобразование</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="ru_RU" status="Approved">Тип</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="ru_RU" status="Approved">Базовый объект</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="ru_RU" status="Approved">Единицы измерения</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="ru_RU" status="Approved">Журналы аудита структуры</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="ru_RU" status="Approved">Изменяемый</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="ru_RU" status="Approved">Элемент</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="ru_RU" status="Approved">Доступные элементы</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="ru_RU" status="Approved">Неизменяемые элементы</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="ru_RU" status="Approved">Имеет отражение</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="ru_RU" status="Approved">Ссылочный указатель</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="ru_RU" status="Approved">Системы координат</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="ru_RU" status="Approved">Заменители</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="ru_RU" status="Approved">Активное размещение</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="ru_RU" status="Approved">Альтернативная конфигурация</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="ru_RU" status="Approved">Примененное расположение</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="ru_RU" status="Approved">Автозакладка</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="ru_RU" status="Approved">Правило расширения структуры</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="ru_RU" status="Approved">URI области клиента</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="ru_RU" status="Approved">Правило закрытия</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="ru_RU" status="Approved">Контекстный объект</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="ru_RU" status="Approved">Текущее правило ревизии</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="ru_RU" status="Approved">Устарело. Текущие вариантные правила</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="ru_RU" status="Approved">Устарело. Текущее вариантное правило</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="ru_RU" status="Approved">Время применяемости</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="ru_RU" status="Approved">Конечный объект применяемости</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="ru_RU" status="Approved">Обозначение объекта применяемости</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="ru_RU" status="Approved">Группы применяемости</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="ru_RU" status="Approved">Даты завершения действия</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="ru_RU" status="Approved">Конечное обозначение</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="ru_RU" status="Approved">Количество фильтров</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="ru_RU" status="Approved">Отфильтрованный набор структуры</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="ru_RU" status="Approved">Дата обновления индекса</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="ru_RU" status="Approved">Deprecated. See Support Announcement 2412. Pack Similar Elements</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="ru_RU" status="Approved">Информация о контексте изделия</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="ru_RU" status="Approved">Deprecated. See Support Announcement 2412. Show Change</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="ru_RU" status="Approved">Deprecated. See Support Announcement 2412. Show Exploded Lines</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="ru_RU" status="Approved">Deprecated. See Support Announcement 2412. Show Markup</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="ru_RU" status="Approved">Снимок</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="ru_RU" status="Approved">Даты начала действия</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="ru_RU" status="Approved">Начальное обозначение</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="ru_RU" status="Approved">Набор структуры</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="ru_RU" status="Approved">Поддерживаемые элементы</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="ru_RU" status="Approved">Использовать глобальное правило ревизии</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="ru_RU" status="Approved">Ревизия вариантного правила</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="ru_RU" status="Approved">Вариантные правила</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="ru_RU" status="Approved">Переключатели вида</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="ru_RU" status="Approved">Тип вида</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="ru_RU" status="Approved">Window State Toggles</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="ru_RU" status="Approved">Имена контейнеров</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="ru_RU" status="Approved">Активный продукт</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="ru_RU" status="Approved">Разрешить другие для просмотра</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="ru_RU" status="Approved">Разрешить другие для изменения</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="ru_RU" status="Approved">Предок навигатора</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="ru_RU" status="Approved">Совместимые CAD данные сессии</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="ru_RU" status="Approved">Изменяемая структура</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="ru_RU" status="Approved">Несохраненные изменения</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="ru_RU" status="Approved">Общий уровень</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="ru_RU" status="Approved">Контекст</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="ru_RU" status="Approved">Соединенный конец 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="ru_RU" status="Approved">Соединенный конец 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="ru_RU" status="Approved">Тип объекта</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="ru_RU" status="Approved">Имеет структуру</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="ru_RU" status="Approved">Коды UID узлов пути появления строки структуры</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="ru_RU" status="Approved">Идентификатор элемента</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="ru_RU" status="Approved">Идентификатор ревизии</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="ru_RU" status="Approved">Дата последнего изменения</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="ru_RU" status="Approved">Автор последнего изменения</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="ru_RU" status="Approved">Группа-владелец</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="ru_RU" status="Approved">Пользователь-владелец</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="ru_RU" status="Approved">Статусы выпуска</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="ru_RU" status="Approved">Дата выпуска</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="ru_RU" status="Approved">Соединение</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="ru_RU" status="Approved">Интерфейс</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="ru_RU" status="Approved">Соединенный конец 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="ru_RU" status="Approved">Соединенный конец 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="ru_RU" status="Approved">Подключен к</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="ru_RU" status="Approved">Направление</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="ru_RU" status="Approved">Потомок</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="ru_RU" status="Approved">Добавить</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="ru_RU" status="Approved">Потомок</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="ru_RU" status="Approved">Secondary Component</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="ru_RU" status="Approved">Одноуровневый узел</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="ru_RU" status="Approved">Добавить</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="ru_RU" status="Approved">Одноуровневый узел</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="ru_RU" status="Approved">Добавить заменители</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="ru_RU" status="Approved">Применить метку</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="ru_RU" status="Approved">Настроить по выбору</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="ru_RU" status="Approved">Отменить элемент метки</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="ru_RU" status="Approved">Отменить уровень метки</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="ru_RU" status="Approved">Сравнить</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="ru_RU" status="Approved">Сконфигурировать по допустимым наложениям</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="ru_RU" status="Approved">Редактировать применяемость</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="ru_RU" status="Approved">Вставить уровень</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="ru_RU" status="Approved">Элемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="ru_RU" status="Approved">Свернуть</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="ru_RU" status="Approved">Релиз</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="ru_RU" status="Approved">Удалить элемент</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="ru_RU" status="Approved">Удалить уровень</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="ru_RU" status="Approved">Удалить заменители</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="ru_RU" status="Approved">Замена</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="ru_RU" status="Approved">Сохранить как</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="ru_RU" status="Approved">Сохранить как</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="ru_RU" status="Approved">Сохранить</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="ru_RU" status="Approved">Сохранить</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="ru_RU" status="Approved">Сохранить рабочий контекст</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="ru_RU" status="Approved">Задать в контексте</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="ru_RU" status="Approved">Открыть</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="ru_RU" status="Approved">Поднабор</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="ru_RU" status="Approved">Toggle Secondary Components</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="ru_RU" status="Approved">Toggle Substitute Components</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="ru_RU" status="Approved">Развернуть</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="ru_RU" status="Approved">Использовать заменить</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="ru_RU" status="Approved">Просмотр применяемости элемента</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="ru_RU" status="Approved">Задает, может ли потомок быть добавлен к входному элементу.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="ru_RU" status="Approved">Определяет, возможно ли добавление дочернего продукта в сохраненную закладку.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="ru_RU" status="Approved">This determines if secondary component can be added to the input Element.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="ru_RU" status="Approved">Задает, может ли одноуровневый элемент быть добавлен к входному элементу.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="ru_RU" status="Approved">Определяет, возможно ли добавление одноуровневого продукта для текущего выбранного продукта в сохраненную закладку.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="ru_RU" status="Approved">Определяет, можно или нет добавить заменитель</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="ru_RU" status="Approved">Условие видимости команды на стороне сервера для команды Применить метку. Эта команда должна быть видна только в том случае, если пользователь имеет доступ к изменению структуры.</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="ru_RU" status="Approved">Определяет условие для отображения баннера с предупреждением о клонировании структуры (BOM Clone) пользователю при выборе команды Duplicate (Дублировать) в клиенте Active Workspace.</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="ru_RU" status="Approved">Определяет, является ли команда Настроить на основе выбора действительной для входного элемента.</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="ru_RU" status="Approved">Условие видимости команды на стороне сервера для команды Отменить метку.</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="ru_RU" status="Approved">Условие видимости команды "Сравнить" на стороне сервера. Эта команда должны быть видимой, только если оба выбранных объекта относятся к типу ItemRevision и удовлетворяют критериям минимального выпуска платформы.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="ru_RU" status="Approved">Данное условие разрешает выполнение команды удаления множества объектов сохраненного рабочего контекста.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="ru_RU" status="Approved">Данное условие разрешает выполнение команды удаления для сохраненного рабочего контекста.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="ru_RU" status="Approved">Условие команды скрывает "Удалить" в контексте объекта сессии.</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="ru_RU" status="Approved">Определяет возможность создания, изменения или добавления к элементу, который был удален из элемента для объектов типа Awb0Element.</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="ru_RU" status="Approved">Определяет, будет ли видимой команда Вставить уровень.</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="ru_RU" status="Approved">Определяет, можно ли сделать видимой команду 'Сконфигурировать по допустимым наложениям' для данного бизнес-объекта.</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="ru_RU" status="Approved">To check structure manager pro license available for change context</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="ru_RU" status="Approved">Условие команды скрывает "Открыть в SEEC" в контексте объекта сессии.</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="ru_RU" status="Approved">Определяет, будет ли отображаться команда Свернуть для выбранных объектов.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="ru_RU" status="Approved">Определяет возможность Применяемости ревизии для выбранного объекта</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="ru_RU" status="Approved">Задает, возможно ли удаление элементов из структуры.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="ru_RU" status="Approved">Определяет, будет ли видимой команда Удалить уровень.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="ru_RU" status="Approved">Определяет, можно или нет удалить заменители</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="ru_RU" status="Approved">Задает, возможна ли замена элементов в структуре.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="ru_RU" status="Approved">Задает, будет ли отображаться команда Сохранить рабочий контекст.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="ru_RU" status="Approved">Задает, будет ли отображаться команда Сохранить как для Контекста продукта.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="ru_RU" status="Approved">Задает, будет ли отображаться команда Сохранить как для Сохраненная закладка.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="ru_RU" status="Approved">Задает, будет ли отображаться команда Сохранить для Контекста продукта.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="ru_RU" status="Approved">Задает, будет ли отображаться команда Сохранить для Сохраненная закладка.</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="ru_RU" status="Approved">Определяет, будет ли отображаться команда 'Задать в контексте' для выбранных объектов.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="ru_RU" status="Approved">This determines if secondary components are visible under selected Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="ru_RU" status="Approved">This determines if substitute components are visible under selected Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="ru_RU" status="Approved">Определяет, будет ли отображаться команда Развернуть для выбранных объектов.</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="ru_RU" status="Approved">Определяет, можно или нет использовать заменитель</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="ru_RU" status="Approved">Определяет возможность просмотра применяемости для объектов типа Awb0Element.</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="ru_RU" status="Approved">Метки для провайдера уровня</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="ru_RU" status="Approved">Провайдер меток</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="ru_RU" status="Approved">Дата последнего воспроизведения</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="ru_RU" status="Approved">Изменения отложены</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="ru_RU" status="Approved">Идентификатор содержится в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="ru_RU" status="Approved">Имя содержится в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="ru_RU" status="Approved">Тип содержится в:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="ru_RU" status="Approved">Продукты в сессии</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="ru_RU" status="Approved">Последнее обновление индекса Smart Discovery</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="ru_RU" status="Approved">Индексирование Smart Discovery</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="ru_RU" status="Approved">Поставщик продуктов контекста</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="ru_RU" status="Approved">In Context Saved Query LOV</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="ru_RU" status="Approved">SD Indexer Data Provider</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="ru_RU" status="Approved">In Context Saved Query Name</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="ru_RU" status="Approved">Indexed Source</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="ru_RU" status="Approved">Элемент детали</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="ru_RU" status="Approved">Создать/купить</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="ru_RU" status="Approved">Выровнять</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="ru_RU" status="Approved">Определяет видимость команды Выровнять. Доступно только для объектов разработки и детали.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

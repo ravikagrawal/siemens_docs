@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="ko_KR" status="Approved">정렬된 타겟 제공자</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="ko_KR" status="Approved">가능한 업데이트 작업</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="ko_KR" status="Approved">BOM 업데이트</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="ko_KR" status="Approved">파트가 색상을 구분하는지 여부 표시</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="ko_KR" status="Approved">파트가 미완료 여부 표시</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="ko_KR" status="Approved">BOM 업데이트</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="ko_KR" status="Approved">색상 지정된 파트</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="ko_KR" status="Approved">미완료</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="ko_KR" status="Approved">없음</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="ko_KR" status="Approved">설계가 아웃소싱됨</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="ko_KR" status="Approved">설계를 구매함</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="ko_KR" status="Approved">사내 설계</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="ko_KR" status="Approved">할당 안 됨</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="ko_KR" status="Approved">일반 파트에 정렬</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="ko_KR" status="Approved">정렬된 파트 컨텍스트</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="ko_KR" status="Approved">정렬된 파트 릴리스 상태</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="ko_KR" status="Approved">정렬된 파트</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="ko_KR" status="Approved">파트 정렬됨</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="ko_KR" status="Approved">파트 필요함</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="ko_KR" status="Approved">정렬된 파트</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="ko_KR" status="Approved">정렬된 설계 컨텍스트</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="ko_KR" status="Approved">정렬된 설계 릴리스 상태</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="ko_KR" status="Approved">정렬된 설계</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="ko_KR" status="Approved">설계 정렬됨</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="ko_KR" status="Approved">설계 필요</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="ko_KR" status="Approved">정렬된 설계</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="ko_KR" status="Approved">업데이트 작업</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="ko_KR" status="Approved">BOM 생성 성공</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="ko_KR" status="Approved">BOM 업데이트 성공</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="ko_KR" status="Approved">정렬 존재</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="ko_KR" status="Approved">"생성 및 업데이트" 명령의 가시성을 정의합니다. 설계 개체에만 사용할 수 있습니다.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

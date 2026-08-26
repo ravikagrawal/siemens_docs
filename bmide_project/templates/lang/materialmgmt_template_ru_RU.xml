@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mat1BaseUnit" locale="ru_RU" status="Approved">Базовые единицы измерения</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения композиционного материала</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialMaster" locale="ru_RU" status="Approved">Мастер-форма композиционного материала</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии композиционного материала</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии композиционного материала</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterialRevision" locale="ru_RU" status="Approved">Ревизия композиционного материала</key>
+           
+        <key id="BusinessObject{::}Mat1CompMaterial" locale="ru_RU" status="Approved">Композиционный материал</key>
+           
+        <key id="BusinessObject{::}Mat1DerivedUnit" locale="ru_RU" status="Approved">Производная единица</key>
+           
+        <key id="BusinessObject{::}Mat1HasAlternateMaterial" locale="ru_RU" status="Approved">Альтернативный материал</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamBoolean" locale="ru_RU" status="Approved">Inherited Boolean Property</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDate" locale="ru_RU" status="Approved">Inherited Date Property</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamDouble" locale="ru_RU" status="Approved">Наследованный параметр двойной точности</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamInteger" locale="ru_RU" status="Approved">Inherited Integer Property</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamRichtext" locale="ru_RU" status="Approved">Inherited Rich Text Property</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamSmrtTbl" locale="ru_RU" status="Approved">Наследованный параметр интеллектуальной таблицы</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParamString" locale="ru_RU" status="Approved">Наследованный строковый параметр</key>
+           
+        <key id="BusinessObject{::}Mat1InheritedParameter" locale="ru_RU" status="Approved">Наследованный параметр</key>
+           
+        <key id="BusinessObject{::}Mat1MadeFromMaterial" locale="ru_RU" status="Approved">Изготавливается из материала</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения каталога материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogMaster" locale="ru_RU" status="Approved">Мастер-форма каталога материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии каталога материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии каталога материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalogRevision" locale="ru_RU" status="Approved">Ревизия каталога материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatCatalog" locale="ru_RU" status="Approved">Каталог материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatClassification" locale="ru_RU" status="Approved">Класс материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MatML" locale="ru_RU" status="Approved">MatML</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialClassification" locale="ru_RU" status="Approved">Класс материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialInfo" locale="ru_RU" status="Approved">Информация о материалах</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения материала</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialMaster" locale="ru_RU" status="Approved">Мастер-форма материала</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRanking" locale="ru_RU" status="Approved">Ранжирование материала в классе материалов</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии материала</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии материала</key>
+           
+        <key id="BusinessObject{::}Mat1MaterialRevision" locale="ru_RU" status="Approved">Ревизия материала</key>
+           
+        <key id="BusinessObject{::}Mat1Material" locale="ru_RU" status="Approved">Материал</key>
+           
+        <key id="BusinessObject{::}Mat1MetaParameter" locale="ru_RU" status="Approved">Дескриптор абстрактного свойства</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSingleParameter" locale="ru_RU" status="Approved">Дескриптор свойства</key>
+           
+        <key id="BusinessObject{::}Mat1MetaSmartTable" locale="ru_RU" status="Approved">Дескриптор интеллектуальной таблицы</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterBoolean" locale="ru_RU" status="Approved">Логическое свойство</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDate" locale="ru_RU" status="Approved">Parameter Date</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterDouble" locale="ru_RU" status="Approved">Свойство со значением двойной точности</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterInteger" locale="ru_RU" status="Approved">Свойство Целое число</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterRichtext" locale="ru_RU" status="Approved">Rich Text Property</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterSmartTable" locale="ru_RU" status="Approved">Свойство интеллектуальной таблицы</key>
+           
+        <key id="BusinessObject{::}Mat1ParameterString" locale="ru_RU" status="Approved">Свойство строки</key>
+           
+        <key id="BusinessObject{::}Mat1Parameter" locale="ru_RU" status="Approved">Свойство материала</key>
+           
+        <key id="BusinessObject{::}Mat1PrefMaterialForCoating" locale="ru_RU" status="Approved">Preferred Coating Materials</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения необработанного материала</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialMaster" locale="ru_RU" status="Approved">Мастер необработанного материала</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии необработанного материала</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevisionMaster" locale="ru_RU" status="Approved">Мастер ревизии необработанного материала</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterialRevision" locale="ru_RU" status="Approved">Ревизия необработанного материала</key>
+           
+        <key id="BusinessObject{::}Mat1RawMaterial" locale="ru_RU" status="Approved">Необработанный материал</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnitCategory" locale="ru_RU" status="Approved">Категория элементов сессии</key>
+           
+        <key id="BusinessObject{::}Mat1SessionUnits" locale="ru_RU" status="Approved">Элементы сессии</key>
+           
+        <key id="BusinessObject{::}Mat1SmartCurve" locale="ru_RU" status="Approved">Смарт-кривая</key>
+           
+        <key id="BusinessObject{::}Mat1SubstanceInfo" locale="ru_RU" status="Approved">Информация о веществе</key>
+           
+        <key id="BusinessObject{::}Mat1Substance" locale="ru_RU" status="Approved">Вещество</key>
+           
+        <key id="BusinessObject{::}Mat1UnitAltName" locale="ru_RU" status="Approved">Альтернативное имя элемента</key>
+           
+        <key id="BusinessObject{::}Mat1UnitCategory" locale="ru_RU" status="Approved">Категория элемента</key>
+           
+        <key id="BusinessObject{::}Mat1UnitNamesOfADimension" locale="ru_RU" status="Approved">Unit Names of a Dimension</key>
+           
+        <key id="BusinessObject{::}Mat1Units" locale="ru_RU" status="Approved">Элементы</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterialForCoating" locale="ru_RU" status="Approved">Материалы для покрытия</key>
+           
+        <key id="BusinessObject{::}Mat1UsesMaterial" locale="ru_RU" status="Approved">Материалы</key>
+           
+        <key id="BusinessObject{::}Mat1UsesSubstance" locale="ru_RU" status="Approved">Вещества</key>
+           
+        <key id="BusinessObject{::}Mat1ValidDerviedUnits" locale="ru_RU" status="Approved">Допустимые производные элементы</key>
+           
+        <key id="BusinessObject{::}Mat1ValidUnitAltNames" locale="ru_RU" status="Approved">Допустимые альтернативные имена</key>
+           
+        <key id="BusinessObject{::}RawMaterial" locale="ru_RU" status="Approved">Абстрактный исходный материал</key>
+           
+        <key id="ConditionDescription{::}Mat1IsMaterialCompositionRestricted" locale="ru_RU" status="Approved">Condition for restricting Material composition visibility.</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;=" locale="ru_RU" status="Approved">Меньше или равно</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&lt;" locale="ru_RU" status="Approved">Меньше</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;=" locale="ru_RU" status="Approved">Больше или равно</key>
+           
+        <key id="LOVValueDescription{::}Mat1BoundSymbols{::}&gt;" locale="ru_RU" status="Approved">Больше</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="ru_RU" status="Approved">Единица измерения толщины - сантиметр, единица измерения площади - квадратный сантиметр.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}in" locale="ru_RU" status="Approved">Единица измерения толщины - дюйм, единица измерения площади - квадратный дюйм.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="ru_RU" status="Approved">(10^-3 мм). Единица измерения толщины - микрометр, единица измерения площади - квадратный микрометр.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="ru_RU" status="Approved">Единица измерения толщины - миллиметр, единица измерения площади - квадратный миллиметр.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}m" locale="ru_RU" status="Approved">Единица измерения толщины - метр, единица измерения площади - квадратный метр.</key>
+           
+        <key id="LOVValueDescription{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="ru_RU" status="Approved">(10^-6 мм). Единица измерения толщины - нанометр, единица измерения площади - квадратный нанометр.</key>
+           
+        <key id="LOVValueDescription{::}Mat1ExternalSources{::}0" locale="ru_RU" status="Approved">MatML</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="ru_RU" status="Approved">Boolean: Type of the Value on the Material Parameter that could cover input data during import of type 'Boolean'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Date" locale="ru_RU" status="Approved">Date: Type of the Value on the Material Parameter that could cover input data during import of type 'Date'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Double" locale="ru_RU" status="Approved">Double: Type of the Value on the Material Parameter that could cover input data during import of type 'number', 'double', 'decimal', 'numerical' or exponential'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="ru_RU" status="Approved">Integer: Type of the Value on the Material Parameter that could cover input data during import of type 'integer' or 'int'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="ru_RU" status="Approved">Rich Text: Type of the Value on the Material Parameter that could cover input data during import of type 'Long Text', 'Rich Text' and 'Hyperlink'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1MetaParamDataTypeLOV{::}String" locale="ru_RU" status="Approved">String: Type of the Value on the Material Parameter that could cover input data during import of type 'string' or 'text'.</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}0.001" locale="ru_RU" status="Approved">Для мг</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1" locale="ru_RU" status="Approved">Для г</key>
+           
+        <key id="LOVValueDescription{::}Mat1UOMScales{::}1000" locale="ru_RU" status="Approved">Для кг</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}kg" locale="ru_RU" status="Approved">килограмм</key>
+           
+        <key id="LOVValueDescription{::}Mat1UnitsOfMeasure{::}mg" locale="ru_RU" status="Approved">миллиграмм</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;=" locale="ru_RU" status="Approved">&lt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&lt;" locale="ru_RU" status="Approved">&lt;</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;=" locale="ru_RU" status="Approved">&gt;=</key>
+           
+        <key id="LOVValue{::}Mat1BoundSymbols{::}&gt;" locale="ru_RU" status="Approved">&gt;</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}cm" locale="ru_RU" status="Approved">Сантиметр</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}in" locale="ru_RU" status="Approved">Дюймы</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}micrometer" locale="ru_RU" status="Approved">Микрометр</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}mm" locale="ru_RU" status="Approved">Миллиметр</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}m" locale="ru_RU" status="Approved">Метр</key>
+           
+        <key id="LOVValue{::}Mat1CoatingUnitsOfMeasure{::}nm" locale="ru_RU" status="Approved">Нанометр</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}approved" locale="ru_RU" status="Approved">Одобрено</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}obsolete" locale="ru_RU" status="Approved">Устарело</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}rejected" locale="ru_RU" status="Approved">Отклонено</key>
+           
+        <key id="LOVValue{::}Mat1MaterialStatuses{::}unapproved" locale="ru_RU" status="Approved">Не утверждено</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Boolean" locale="ru_RU" status="Approved">Логический</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Date" locale="ru_RU" status="Approved">Дата</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Double" locale="ru_RU" status="Approved">Двойной</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Integer" locale="ru_RU" status="Approved">Целое</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}Richtext" locale="ru_RU" status="Approved">Формат RTF</key>
+           
+        <key id="LOVValue{::}Mat1MetaParamDataTypeLOV{::}String" locale="ru_RU" status="Approved">Строка</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}g" locale="ru_RU" status="Approved">Граммы</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}kg" locale="ru_RU" status="Approved">Килограммы</key>
+           
+        <key id="LOVValue{::}Mat1UnitsOfMeasure{::}mg" locale="ru_RU" status="Approved">Миллиграммы</key>
+           
+        <key id="Property{::}ItemRevision{::}mat1CumulativeMaterialsMass" locale="ru_RU" status="Approved">Общая масса материалов</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1BaseUnitSymbol" locale="ru_RU" status="Approved">Символ базовой единицы</key>
+           
+        <key id="Property{::}Mat1BaseUnit{::}mat1UnitCategory" locale="ru_RU" status="Approved">Категория родительской единицы</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1BaseUnit" locale="ru_RU" status="Approved">Базовая родительская единица</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitFactor" locale="ru_RU" status="Approved">Коэффициент производной единицы</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitOffset" locale="ru_RU" status="Approved">Смещение производной единицы</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitSymbol" locale="ru_RU" status="Approved">Символ производной единицы</key>
+           
+        <key id="Property{::}Mat1DerivedUnit{::}mat1DerivedUnitValueFormat" locale="ru_RU" status="Approved">Формат значения производной единицы</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1InheritedParamBoolean{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1InheritedParamDate{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1BoundSymbol" locale="ru_RU" status="Approved">Связанный символ</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1IsInRange" locale="ru_RU" status="Approved">В диапазоне</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayUnitAlName" locale="ru_RU" status="Approved">Preferred Display Unit</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValueMax" locale="ru_RU" status="Approved">Preferred Display ValueMax</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1PrefDisplayValue" locale="ru_RU" status="Approved">Preferred Display Value</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnitAlias" locale="ru_RU" status="Approved">Единицы</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionUnit" locale="ru_RU" status="Approved">Производная единица</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValueMax" locale="ru_RU" status="Approved">Максимальное значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1SessionValue" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1UnitAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Unit" locale="ru_RU" status="Approved">Единица</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1ValueMax" locale="ru_RU" status="Approved">Максимальное значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamDouble{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1InheritedParamInteger{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamRichtext{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1ListOfCurves" locale="ru_RU" status="Approved">List of Curves</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitXAlias" locale="ru_RU" status="Approved">Измерение X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitX" locale="ru_RU" status="Approved">Производная единица X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitYAlias" locale="ru_RU" status="Approved">Измерение Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1SessionUnitY" locale="ru_RU" status="Approved">Производная единица Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitXAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitX" locale="ru_RU" status="Approved">Измерение X</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitYAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1UnitY" locale="ru_RU" status="Approved">Измерение Y</key>
+           
+        <key id="Property{::}Mat1InheritedParamSmrtTbl{::}mat1XQualifier" locale="ru_RU" status="Approved">Имя квалификатора для оси X</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1SessionValue" locale="ru_RU" status="Approved">Отображаемое значение</key>
+           
+        <key id="Property{::}Mat1InheritedParamString{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Category" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1MetaParameter" locale="ru_RU" status="Approved">Дескриптор свойства</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1OwningMaterialRevision" locale="ru_RU" status="Approved">Владелец объекта ревизия материала</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1Parameter" locale="ru_RU" status="Approved">Параметр</key>
+           
+        <key id="Property{::}Mat1InheritedParameter{::}mat1RealName" locale="ru_RU" status="Approved">Реальное имя</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition_in_range" locale="ru_RU" status="Approved">Диапазон содержимого</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1composition" locale="ru_RU" status="Approved">Состав (в %)</key>
+           
+        <key id="Property{::}Mat1MadeFromMaterial{::}mat1max_composition" locale="ru_RU" status="Approved">Максимально допустимый состав (в %)</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1DataVersionInSource" locale="ru_RU" status="Approved">Версия ревизии каталога</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MatClassifications" locale="ru_RU" status="Approved">Классы материалов</key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MaterialRevisions" locale="ru_RU" status="Approved">Каталогизировать материалы </key>
+           
+        <key id="Property{::}Mat1MatCatalogRevision{::}mat1MetaParameters" locale="ru_RU" status="Approved">Дескрипторы параметров</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataIdentityInSource" locale="ru_RU" status="Approved">Идентичность данных каталога</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1DataSource" locale="ru_RU" status="Approved">Источник данных каталога</key>
+           
+        <key id="Property{::}Mat1MatCatalog{::}mat1MetaParameters" locale="ru_RU" status="Approved">Дескрипторы параметров</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatCatalog" locale="ru_RU" status="Approved">Каталог материалов</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1MatClassPath" locale="ru_RU" status="Approved">Полный путь к классам материалов</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1ParentClassification" locale="ru_RU" status="Approved">Родительский класс</key>
+           
+        <key id="Property{::}Mat1MatClassification{::}mat1RealName" locale="ru_RU" status="Approved">Реальные имена классов</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1DisplayName" locale="ru_RU" status="Approved">Отображаемое имя класса</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatCatalog" locale="ru_RU" status="Approved">Каталог материалов</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1MatClassPath" locale="ru_RU" status="Approved">Полный путь к классам материалов</key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1Name" locale="ru_RU" status="Approved">Класс материалов  </key>
+           
+        <key id="Property{::}Mat1MaterialClassification{::}mat1ParentClassification" locale="ru_RU" status="Approved">Родительский класс</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1mass" locale="ru_RU" status="Approved">Масса</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1material" locale="ru_RU" status="Approved">Материал</key>
+           
+        <key id="Property{::}Mat1MaterialInfo{::}mat1uom_tag" locale="ru_RU" status="Approved">Единицы измерения</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1MatClassification" locale="ru_RU" status="Approved">Соответствующий класс материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRanking{::}mat1PreferredMaterialRevs" locale="ru_RU" status="Approved">Ревизии предпочитаемого материала</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1AlternateNames" locale="ru_RU" status="Approved">Обозначение материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Applications" locale="ru_RU" status="Approved">Приложения</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1DataVersionInSource" locale="ru_RU" status="Approved">Версия ревизии материала в источнике</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1ExtendsMaterial" locale="ru_RU" status="Approved">Наследуется из  </key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1InheritedParameters" locale="ru_RU" status="Approved">Наследуемые параметры</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsInactive" locale="ru_RU" status="Approved">Неактивно</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1IsRecylateable" locale="ru_RU" status="Approved">Материал включает переработанный материал?</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRevisions" locale="ru_RU" status="Approved">Ссылочные каталоги материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatCatalogRev" locale="ru_RU" status="Approved">Ревизия каталога основных материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MatClassifications" locale="ru_RU" status="Approved">Классы материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1MaterialClasses" locale="ru_RU" status="Approved">Класс материалов</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1Parameters" locale="ru_RU" status="Approved">Параметры</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylFrom" locale="ru_RU" status="Approved">Использованный исходный рециклат %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PostConsumerRecylTo" locale="ru_RU" status="Approved">Использованный конечный рециклат %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylFrom" locale="ru_RU" status="Approved">Исходный рециклат из отходов производства %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1PreConsumerRecylTo" locale="ru_RU" status="Approved">Конечный рециклат из отходов производства %</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1external_import" locale="ru_RU" status="Approved">Материал, импортируемый из внешних систем</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1remarks" locale="ru_RU" status="Approved">Замечания</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1status" locale="ru_RU" status="Approved">Экспорт в Excel live для запроса MSD</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substance_details" locale="ru_RU" status="Approved">Сведения о веществе</key>
+           
+        <key id="Property{::}Mat1MaterialRevision{::}mat1substances" locale="ru_RU" status="Approved">Композиция</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1DataSource" locale="ru_RU" status="Approved">Имя источника данных о материалах</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1ExternalSource" locale="ru_RU" status="Approved">Исходный материал</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1MatCatalog" locale="ru_RU" status="Approved">Каталог материалов</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1cas_number" locale="ru_RU" status="Approved">Номер CAS</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_identifier" locale="ru_RU" status="Approved">Внешний идентификатор</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1external_import" locale="ru_RU" status="Approved">Материал, импортируемый из внешних систем</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1non_library" locale="ru_RU" status="Approved">Является материалом, не включен в библиотеку</key>
+           
+        <key id="Property{::}Mat1Material{::}mat1unique_identifier" locale="ru_RU" status="Approved">Уникальный идентификатор Teamcenter</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1Category" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataIdentityInSource" locale="ru_RU" status="Approved">Идентичность данных</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1DataSource" locale="ru_RU" status="Approved">Исходные данные</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1ParameterID" locale="ru_RU" status="Approved">Идентификатор параметра</key>
+           
+        <key id="Property{::}Mat1MetaParameter{::}mat1RealName" locale="ru_RU" status="Approved">Реальное имя</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1DataType" locale="ru_RU" status="Approved">Тип данных</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Dimension" locale="ru_RU" status="Approved">Размер</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1UnitAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения</key>
+           
+        <key id="Property{::}Mat1MetaSingleParameter{::}mat1Unit" locale="ru_RU" status="Approved">Единица измерения</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionX" locale="ru_RU" status="Approved">Измерение X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1DimensionY" locale="ru_RU" status="Approved">Измерение Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitXAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitX" locale="ru_RU" status="Approved">Единица измерения для оси X</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitYAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1UnitY" locale="ru_RU" status="Approved">Единица измерения для оси Y</key>
+           
+        <key id="Property{::}Mat1MetaSmartTable{::}mat1XQualifier" locale="ru_RU" status="Approved">Имя квалификатора для оси X</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1ParameterBoolean{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1ParameterDate{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1ParameterDoubleCreI{::}mat1UnitName" locale="ru_RU" status="Approved">Имя единицы</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1BoundSymbol" locale="ru_RU" status="Approved">Связанный символ</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1IsInRange" locale="ru_RU" status="Approved">Значение входит в диапазон?</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayUnitAlName" locale="ru_RU" status="Approved">Preferred Display Unit</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValueMax" locale="ru_RU" status="Approved">Preferred Display Value Maximum</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1PrefDisplayValue" locale="ru_RU" status="Approved">Preferred Display Value</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnitAlias" locale="ru_RU" status="Approved">Единицы</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionUnit" locale="ru_RU" status="Approved">Производная единица</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValueMax" locale="ru_RU" status="Approved">Отобразить значение, макс.</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1SessionValue" locale="ru_RU" status="Approved">Отображаемое значение</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1UnitAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Unit" locale="ru_RU" status="Approved">Единица измерения</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1ValueMax" locale="ru_RU" status="Approved">Максимальное значение</key>
+           
+        <key id="Property{::}Mat1ParameterDouble{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1SessionValue" locale="ru_RU" status="Approved">Session Value</key>
+           
+        <key id="Property{::}Mat1ParameterInteger{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterRichtext{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameX" locale="ru_RU" status="Approved">Имя единицы X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTableCreI{::}mat1UnitNameY" locale="ru_RU" status="Approved">Имя единицы Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1ListOfCurves" locale="ru_RU" status="Approved">List of Curves</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitXAlias" locale="ru_RU" status="Approved">Измерение X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitX" locale="ru_RU" status="Approved">Единица измерения для оси X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitYAlias" locale="ru_RU" status="Approved">Измерение Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1SessionUnitY" locale="ru_RU" status="Approved">Единица измерения для оси Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitXAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitX" locale="ru_RU" status="Approved">Единица измерения для оси X</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitYAliasName" locale="ru_RU" status="Approved">Имя псевдонима измерения Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1UnitY" locale="ru_RU" status="Approved">Единица измерения для оси Y</key>
+           
+        <key id="Property{::}Mat1ParameterSmartTable{::}mat1XQualifier" locale="ru_RU" status="Approved">Имя квалификатора для оси X</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Parameters</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1SessionValue" locale="ru_RU" status="Approved">Отображаемое значение</key>
+           
+        <key id="Property{::}Mat1ParameterString{::}mat1Value" locale="ru_RU" status="Approved">Значение</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1Category" locale="ru_RU" status="Approved">Категория</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1MetaParameter" locale="ru_RU" status="Approved">Дескриптор параметров</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1OwningMaterialRevision" locale="ru_RU" status="Approved">Владелец объекта ревизия материала</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1ParameterID" locale="ru_RU" status="Approved">Идентификатор параметра</key>
+           
+        <key id="Property{::}Mat1Parameter{::}mat1RealName" locale="ru_RU" status="Approved">Реальное имя</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1AlternateNames" locale="ru_RU" status="Approved">Обозначение материалов</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Applications" locale="ru_RU" status="Approved">Приложения</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1DataVersionInSource" locale="ru_RU" status="Approved">Версия ревизии материала в источнике</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1ExtendsMaterial" locale="ru_RU" status="Approved">Наследуется из</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1InheritedParameters" locale="ru_RU" status="Approved">Наследуемые параметры</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRevisions" locale="ru_RU" status="Approved">Ссылочные каталоги материалов</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatCatalogRev" locale="ru_RU" status="Approved">Ревизия каталога основных материалов</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1MatClassifications" locale="ru_RU" status="Approved">Классы материалов</key>
+           
+        <key id="Property{::}Mat1RawMaterialRevision{::}mat1Parameters" locale="ru_RU" status="Approved">Параметры</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1DataSource" locale="ru_RU" status="Approved">Имя источника данных о материалах</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1MatCatalog" locale="ru_RU" status="Approved">Каталог материалов</key>
+           
+        <key id="Property{::}Mat1RawMaterial{::}mat1external_identifier" locale="ru_RU" status="Approved">Внешний идентификатор</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1DerivedUnit" locale="ru_RU" status="Approved">Производная единица</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitAltName" locale="ru_RU" status="Approved">Псевдоним измерения</key>
+           
+        <key id="Property{::}Mat1SessionUnitCategory{::}mat1UnitCategory" locale="ru_RU" status="Approved">Категория измерения</key>
+           
+        <key id="Property{::}Mat1SessionUnits{::}mat1SessionUnitCategoryArr" locale="ru_RU" status="Approved">Массив категорий элементов сессии</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1IsMathFormula" locale="ru_RU" status="Approved">Математическая формула</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfQualifiers" locale="ru_RU" status="Approved">List of Qualifiers</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfRefParameters" locale="ru_RU" status="Approved">List of Reference Values</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ListOfUncertainties" locale="ru_RU" status="Approved">List of Uncertainties</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1MathFormula" locale="ru_RU" status="Approved">Математическая формула</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueX" locale="ru_RU" status="Approved">Отобразить значения X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1SessionValueY" locale="ru_RU" status="Approved">Отобразить значения Y</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesX" locale="ru_RU" status="Approved">Значения X</key>
+           
+        <key id="Property{::}Mat1SmartCurve{::}mat1ValuesY" locale="ru_RU" status="Approved">Значения Y</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1mass_in_range" locale="ru_RU" status="Approved">Масса находится в диапазоне</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1max_mass" locale="ru_RU" status="Approved">Максимальная масса</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1min_mass" locale="ru_RU" status="Approved">Минимальная масса</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1substance" locale="ru_RU" status="Approved">Вещество</key>
+           
+        <key id="Property{::}Mat1SubstanceInfo{::}mat1uom_tag" locale="ru_RU" status="Approved">Единицы измерения</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EINEC_ELINCS_Number" locale="ru_RU" status="Approved">Код EINECS/ELINCS</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1EUIndexCode" locale="ru_RU" status="Approved">Код индекса EU</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1ExternalSource" locale="ru_RU" status="Approved">Исходное вещество</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1INN" locale="ru_RU" status="Approved">International Nonproprietary Name</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1IsInActive" locale="ru_RU" status="Approved">Неактивно</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceName" locale="ru_RU" status="Approved">Имя содержимого</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1SubstanceReplacements" locale="ru_RU" status="Approved">Альтернативные вещества</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1Synonym" locale="ru_RU" status="Approved">Синонимы</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1cas_number" locale="ru_RU" status="Approved">CAS</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_identifier" locale="ru_RU" status="Approved">Внешний идентификатор</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1external_import" locale="ru_RU" status="Approved">Вещество, импортируемое из внешних систем</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1is_wildcard" locale="ru_RU" status="Approved">Подстановочный материал</key>
+           
+        <key id="Property{::}Mat1Substance{::}mat1unique_identifier" locale="ru_RU" status="Approved">Уникальный идентификатор Teamcenter</key>
+           
+        <key id="Property{::}Mat1UnitAltName{::}mat1DerivedUnit" locale="ru_RU" status="Approved">Родительская производная единица</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingSurfaceArea" locale="ru_RU" status="Approved">Площадь поверхности покрытия</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingThickness" locale="ru_RU" status="Approved">Толщина покрытия</key>
+           
+        <key id="Property{::}Mat1UsesMaterialForCoating{::}mat1CoatingUnitOfMeasure" locale="ru_RU" status="Approved">Базовая единица измерения поверхности покрытия и толщины</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1IsRecylateable" locale="ru_RU" status="Approved">Материал включает переработанный материал?</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylFrom" locale="ru_RU" status="Approved">Использованный исходный рециклат %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PostConsumerRecylTo" locale="ru_RU" status="Approved">Использованный конечный рециклат %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylFrom" locale="ru_RU" status="Approved">Исходный рециклат из отходов производства %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1PreConsumerRecylTo" locale="ru_RU" status="Approved">Конечный рециклат из отходов производства %</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1active_in_external_tool" locale="ru_RU" status="Approved">Является материалом, используемым внешним средством</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1external_import" locale="ru_RU" status="Approved">Материал, импортируемый из внешних систем</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1is_preferred" locale="ru_RU" status="Approved">Является предпочтительным материалом</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass_in_grams" locale="ru_RU" status="Approved">Масса в граммах</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1mass" locale="ru_RU" status="Approved">Масса</key>
+           
+        <key id="Property{::}Mat1UsesMaterial{::}mat1uom_tag" locale="ru_RU" status="Approved">Единица измерения</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1OriginalUsesSubstance" locale="ru_RU" status="Approved">Наследует из</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition_in_range" locale="ru_RU" status="Approved">Содержание находится в диапазоне</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1composition" locale="ru_RU" status="Approved">% Состав</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1external_import" locale="ru_RU" status="Approved">Вещество, импортируемое из внешних систем</key>
+           
+        <key id="Property{::}Mat1UsesSubstance{::}mat1max_composition" locale="ru_RU" status="Approved">% Максимально допустимый состав</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

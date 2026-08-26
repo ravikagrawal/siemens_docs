@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="ja_JP" status="Approved">デザインからBOMリンクプロバイダ</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="ja_JP" status="Approved">パートの作成時にデザインを作成して整合するかを管理する条件</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="ja_JP" status="Approved">パートを作成してデザインの作成時にデザインに整合するかを管理する条件</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="ja_JP" status="Approved">製品EBOMワークフローを使用可能にするためのワークフローフィルタ条件です。</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="ja_JP" status="Approved">整合されたデザインコンテキスト</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="ja_JP" status="Approved">整合されたデザイン</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="ja_JP" status="Approved">整合されたパートコンテキスト</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="ja_JP" status="Approved">整合されたパート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="ja_JP" status="Approved">整合されるデザイン</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="ja_JP" status="Approved">必要なデザイン</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="ja_JP" status="Approved">整合したパート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="ja_JP" status="Approved">必要なパート</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="ja_JP" status="Approved">整合するパート</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="ja_JP" status="Approved">既存のパートを保持</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="ja_JP" status="Approved">整合するパート</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="ja_JP" status="Approved">パートを自動作成</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="ja_JP" status="Approved">必要なパート</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="ja_JP" status="Approved">整合されたパートコンテキスト</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="ja_JP" status="Approved">整合されたパート</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="ja_JP" status="Approved">整合したパート</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="ja_JP" status="Approved">必要なパート</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="ja_JP" status="Approved">整合するデザイン</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="ja_JP" status="Approved">デザインを自動作成</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="ja_JP" status="Approved">中止</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="ja_JP" status="Approved">暗黙的プライマリ表現</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="ja_JP" status="Approved">このルールは、デザインが"TCM Released"状態のときに、デザイン更新に対する"Design Change Actions" LOVを使用可能にします。 この条件は、Pma0DsgnChangeActionsLOVを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="ja_JP" status="Approved">このルールは、パートが"TCM Released"状態のときに、パート更新に対する"Part Change Actions" LOVを使用可能にします。 この条件は、Pma0PartChangeActionsLOVを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="ja_JP" status="Approved">このルールは、デザイン更新に対する"Reuse Design Actions" LOVを使用可能にします。 この条件は、Pma0ReuseDesignActionsLOVを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="ja_JP" status="Approved">このルールは、パートおよびデザインが"作業状態のときに、パート更新に対する"Reuse Part Actions" LOVを使用可能にします。 この条件は、Pma0ReusePartActionsLOVを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="ja_JP" status="Approved">このルールは、デザインが"Frozen"状態のときに、デザイン更新に対する"Revise Design Action" LOVを使用可能にします。 この条件は、Pma0ReviseDesignActionLOVを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="ja_JP" status="Approved">このルールは、パートが"Frozen"状態のときに、パート更新に対する"Revise Part Action" LOVを使用可能にします。 この条件は、Pma0RevisePartActionLOVを使用可能にします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ja_JP" status="Approved">既存のデザインのリビジョンを再使用</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ja_JP" status="Approved">現在、変更下でパートに整合されているデザインをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ja_JP" status="Approved">変更下のパートに対して新規デザインを使用します。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ja_JP" status="Approved">既存のデザインのリビジョンを再使用</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ja_JP" status="Approved">現在、変更下でパートに整合されているデザインをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ja_JP" status="Approved">変更下のデザインに対して新規パートを使用します。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ja_JP" status="Approved">既存のパートのリビジョンルールを再使用</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ja_JP" status="Approved">現在、変更下でデザインに整合されているパートをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ja_JP" status="Approved">変更下のパートに対して新規デザインを作成</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="ja_JP" status="Approved">変更下のデザインに対して新規パートを作成</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ja_JP" status="Approved">変更下のデザインに対して新規パートを使用します。</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ja_JP" status="Approved">現在、変更下でデザインに整合されているパートをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ja_JP" status="Approved">既存のデザインのリビジョンを再使用</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ja_JP" status="Approved">既存のパートのリビジョンルールを再使用</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ja_JP" status="Approved">現在、変更下でデザインに整合されているパートをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ja_JP" status="Approved">現在、変更下でパートに整合されているデザインをリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ja_JP" status="Approved">現在、変更下でデザインに整合されているパートをリビジョンアップします。</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ja_JP" status="Approved">デザインを再使用</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ja_JP" status="Approved">デザインをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ja_JP" status="Approved">新規デザイン</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ja_JP" status="Approved">デザインを再使用</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ja_JP" status="Approved">デザインをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ja_JP" status="Approved">新規パート</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ja_JP" status="Approved">パートを再使用</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ja_JP" status="Approved">パートをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ja_JP" status="Approved">新規デザイン</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="ja_JP" status="Approved">新規パート</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ja_JP" status="Approved">新規パート</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ja_JP" status="Approved">パートをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ja_JP" status="Approved">デザインを再使用</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="ja_JP" status="Approved">パートを再使用</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ja_JP" status="Approved">パートを再使用</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ja_JP" status="Approved">パートをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ja_JP" status="Approved">デザインをリビジョンアップ</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ja_JP" status="Approved">パートをリビジョンアップ</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="ja_JP" status="Approved">整合済みデザインリリースステータス</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="ja_JP" status="Approved">整合済みパートリリースステータス</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="ja_JP" status="Approved">更新アクション</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="ja_JP" status="Approved">アップデートモードオン</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="ja_JP" status="Approved">パート整合をコピー</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="ja_JP" status="Approved">デザイン整合をコピー</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="ja_JP" status="Approved">設計属性</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="ja_JP" status="Approved">パート属性</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="ja_JP" status="Approved">親リビジョン属性</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="ja_JP" status="Approved">色属性により定義されたパートを示します</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="ja_JP" status="Approved">仕上げなしのパートを示します</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="ja_JP" status="Approved">色のないパートを示します</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="ja_JP" status="Approved">色</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="ja_JP" status="Approved">未仕上げ</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="ja_JP" status="Approved">なし</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="ja_JP" status="Approved">外注したデザイン</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="ja_JP" status="Approved">購入したデザイン</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="ja_JP" status="Approved">社内デザイン</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="ja_JP" status="Approved">未割当て</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ja_JP" status="Approved">一般パートに整合</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ja_JP" status="Approved">一般パートに整合</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ja_JP" status="Approved">一般パートに整合</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="ja_JP" status="Approved">一般パートに整合</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="ja_JP" status="Approved">仕上げタイプ</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="ja_JP" status="Approved">マルチボディ</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="ja_JP" status="Approved">安全パート</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="ja_JP" status="Approved">規格</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="ja_JP" status="Approved">スペアパート</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="ja_JP" status="Approved">技術意図</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="ja_JP" status="Approved">変更検証結果プロバイダ</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="ja_JP" status="Approved">変更パッケージ検証結果</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="ja_JP" status="Approved">理由</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="ja_JP" status="Approved">イシュー</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="ja_JP" status="Approved">ソリューションアイテム</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

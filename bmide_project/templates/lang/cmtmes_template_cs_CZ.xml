@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="cs_CZ" status="Approved">Definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="cs_CZ" status="Approved">Pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="cs_CZ" status="Approved">Objekt standardního textu</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="cs_CZ" status="Approved">Popis</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="cs_CZ" status="Approved">Je volitelné</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="cs_CZ" status="Approved">Seznam hodnot</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="cs_CZ" status="Approved">Max.</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="cs_CZ" status="Approved">Min.</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="cs_CZ" status="Approved">Číslo pořadí DCD</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="cs_CZ" status="Approved">Maximální délka</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="cs_CZ" status="Approved">Formát času</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="cs_CZ" status="Approved">Typ</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="cs_CZ" status="Approved">Definice souboru asociovaných dat</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="cs_CZ" status="Approved">Je aktivní objekt standardního textu</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="cs_CZ" status="Approved">Data objektu</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="cs_CZ" status="Approved">Asociovaná pole plánovače</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="cs_CZ" status="Approved">Definice souboru asociovaných dat</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="cs_CZ" status="Approved">Asociované standardní textové objekty</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="cs_CZ" status="Approved">Definice souboru asociovaných dat</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="cs_CZ" status="Approved">Definice souboru asociovaných dat</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="cs_CZ" status="Approved">Asociované standardní textové objekty</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště booleovského formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="cs_CZ" status="Approved">Booleovská sada dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="cs_CZ" status="Approved">Úložiště booleovského formuláře pole vstupu plánovače již není podporováno</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="cs_CZ" status="Approved">Booleovské pole plánovače již není podporováno</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště formuláře vyplacení definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="cs_CZ" status="Approved">Sada dat výkupu</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="cs_CZ" status="Approved">Úložiště základního formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="cs_CZ" status="Approved">Základní formulář sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="cs_CZ" status="Approved">Úložiště definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="cs_CZ" status="Approved">Detaily sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="cs_CZ" status="Approved">Předefinování sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="cs_CZ" status="Approved">Definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="cs_CZ" status="Approved">Úložiště formuláře trvání DCD definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="cs_CZ" status="Approved">Sada dat trvání</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště koncového časového formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="cs_CZ" status="Approved">Sada dat dokončení postupu</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště obrazového formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="cs_CZ" status="Approved">Sada obrazových dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště celočíselného formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="cs_CZ" status="Approved">Celočíselná sada dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="cs_CZ" status="Approved">Úložiště celočíselného formuláře pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="cs_CZ" status="Approved">Celočíselné pole plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště formuláře seznamu hodnot definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="cs_CZ" status="Approved">Sada dat seznamu hodnot</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="cs_CZ" status="Approved">Úložiště základního seznamu hodnot formuláře pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="cs_CZ" status="Approved">Seznam hodnot základních polí plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="cs_CZ" status="Approved">Úložiště formuláře pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="cs_CZ" status="Approved">Základní pole plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="cs_CZ" status="Approved">Úložiště pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="cs_CZ" status="Approved">Detaily pole plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="cs_CZ" status="Approved">Předefinování pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="cs_CZ" status="Approved">Pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště reálného formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="cs_CZ" status="Approved">Sada dat reálných čísel</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="cs_CZ" status="Approved">Úložiště reálného formuláře pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="cs_CZ" status="Approved">Reálné pole plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="cs_CZ" status="Approved">Master objekt standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="cs_CZ" status="Approved">Master objekt standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="cs_CZ" status="Approved">Master revize objektu standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="cs_CZ" status="Approved">RevisionMaster objektu standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="cs_CZ" status="Approved">Revize objektu standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="cs_CZ" status="Approved">Objekt standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="cs_CZ" status="Approved">Master složka knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="cs_CZ" status="Approved">Master složka knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="cs_CZ" status="Approved">Master revize složky knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="cs_CZ" status="Approved">RevisionMaster složky knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="cs_CZ" status="Approved">Revize složky standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="cs_CZ" status="Approved">Složka standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="cs_CZ" status="Approved">Master knihovna standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="cs_CZ" status="Approved">Master knihovna standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="cs_CZ" status="Approved">Master revize knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="cs_CZ" status="Approved">RevisionMaster knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="cs_CZ" status="Approved">Revize knihovny standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="cs_CZ" status="Approved">Knihovna standardního textu</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště řetězcového formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="cs_CZ" status="Approved">Řetězcová sada dat</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="cs_CZ" status="Approved">Úložiště řetězcového formuláře pole vstupu plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="cs_CZ" status="Approved">Řetězcové pole plánovače</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="cs_CZ" status="Approved">Složka značek pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="cs_CZ" status="Approved">Knihovna značek pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="cs_CZ" status="Approved">Relace značek pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="cs_CZ" status="Approved">Značka pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="cs_CZ" status="Approved">Úložiště časového formuláře definice sady dat</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="cs_CZ" status="Approved">Sada dat časových údajů</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="cs_CZ" status="Approved">Úložiště časového formuláře pole vstupu plánovače již není podporováno</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="cs_CZ" status="Approved">Časové pole plánovače již není podporováno</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="cs_CZ" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="cs_CZ" status="Approved">Sada dat uživatelského seznamu hodnot</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="cs_CZ" status="Approved">Relace aktiv pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="cs_CZ" status="Approved">Aktiva pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="cs_CZ" status="Approved">Master šablona objektu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="cs_CZ" status="Approved">Master revize šablony objektu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="cs_CZ" status="Approved">Master revize šablony objektu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="cs_CZ" status="Approved">Revize šablony objektu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="cs_CZ" status="Approved">Šablona objektu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="cs_CZ" status="Approved">Relace náhledu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="cs_CZ" status="Approved">Náhled pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="cs_CZ" status="Approved">Master šablona pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="cs_CZ" status="Approved">Master revize šablony pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="cs_CZ" status="Approved">Master revize šablony pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="cs_CZ" status="Approved">Revize šablony dokumentu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="cs_CZ" status="Approved">Šablona dokumentu pracovních instrukcí</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="cs_CZ" status="Approved">Relace obsahu PDF výpisu</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="cs_CZ" status="Approved">Relace vstupů PDF výpisu</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="cs_CZ" status="Approved">Vstupy PDF výpisů</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="cs_CZ" status="Approved">Relace vstupů PDF výpisu</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="cs_CZ" status="Approved">Relace PDF výpisu</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="cs_CZ" status="Approved">Šablona PDF výpisu</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="cs_CZ" status="Approved">Výpis PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="cs_CZ" status="Approved">Relace šablony výpisu PDF</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="cs_CZ" status="Approved">Úložiště formulářů informací o referencích textových pracovních pokynů</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="cs_CZ" status="Approved">Formulář informací o referencích textových pracovních pokynů</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="cs_CZ" status="Approved">Relace informací o referencích textových pracovních pokynů</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z mezer a číslic.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z mezer a velkých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z mezer, malých anglických písmen, velkých anglických písmen a číslic.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z malých a velkých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z mezer a malých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z číslic.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z velkých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z malých a velkých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="cs_CZ" status="Approved">Řetězec se může skládat z malých anglických písmen.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="cs_CZ" status="Approved">Řetězec se může skládat z malých anglických písmen, velkých anglických písmen, číslic a podtržítka.</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="cs_CZ" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="cs_CZ" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="cs_CZ" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="cs_CZ" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="cs_CZ" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="cs_CZ" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="cs_CZ" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="cs_CZ" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="cs_CZ" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="cs_CZ" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="cs_CZ" status="Approved">Sada dat</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="cs_CZ" status="Approved">Pole plánovače</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="cs_CZ" status="Approved">Instance standardního textu</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="cs_CZ" status="Approved">Blokovat úpravy pole v MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="cs_CZ" status="Approved">ID obnovení</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="cs_CZ" status="Approved">Je volitelné</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="cs_CZ" status="Approved">Blokovat úpravy pole v MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="cs_CZ" status="Approved">ID obnovení</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="cs_CZ" status="Approved">Zástupný řetězec</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="cs_CZ" status="Approved">Je volitelné</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="cs_CZ" status="Approved">Číslo pořadí DCD</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="cs_CZ" status="Approved">Číslo pořadí DCD</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota výstrahy</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="cs_CZ" status="Approved">Chování mimo meze</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="cs_CZ" status="Approved">Výstraha maximální hodnoty</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota výstrahy</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="cs_CZ" status="Approved">Upozornění maximální hodnoty</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="cs_CZ" status="Approved">Upozornění minimální hodnoty</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="cs_CZ" status="Approved">Chování mimo meze</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="cs_CZ" status="Approved">ID obnovení</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="cs_CZ" status="Approved">Přeskočit kontrolu platnosti</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="cs_CZ" status="Approved">ID obnovení</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="cs_CZ" status="Approved">Je volitelné</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="cs_CZ" status="Approved">Přeskočit kontrolu platnosti</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota výstrahy</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="cs_CZ" status="Approved">Počet desetinných míst</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="cs_CZ" status="Approved">Chování mimo meze</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="cs_CZ" status="Approved">Výstraha maximální hodnoty</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota výstrahy</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="cs_CZ" status="Approved">Upozornění maximální hodnoty</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="cs_CZ" status="Approved">Upozornění minimální hodnoty</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="cs_CZ" status="Approved">Metoda sběru dat</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="cs_CZ" status="Approved">Počet desetinných míst</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="cs_CZ" status="Approved">Chování mimo meze</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="cs_CZ" status="Approved">Počet desetinných míst</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="cs_CZ" status="Approved">Maximální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="cs_CZ" status="Approved">Minimální povolená hodnota</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="cs_CZ" status="Approved">Je aktivní objekt standardního textu</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="cs_CZ" status="Approved">Počet znaků</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="cs_CZ" status="Approved">Povolené znaky</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="cs_CZ" status="Approved">Počet znaků</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="cs_CZ" status="Approved">Povolené znaky</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="cs_CZ" status="Approved">Maximální délka</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="cs_CZ" status="Approved">Povolené znaky</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="cs_CZ" status="Approved">Výchozí hodnota</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="cs_CZ" status="Approved">Formát času</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="cs_CZ" status="Approved">Formát času</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="cs_CZ" status="Approved">Hodnota</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="cs_CZ" status="Approved">Seznam hodnot</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="cs_CZ" status="Approved">Seznam hodnot</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="cs_CZ" status="Approved">Klíče řetězců pracovních instrukcí</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="cs_CZ" status="Approved">Řetězce pracovního instrukcí</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="cs_CZ" status="Approved">Šablona zdroje dat</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="cs_CZ" status="Approved">Jsou obsaženy 2D položky?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="cs_CZ" status="Approved">Jsou obsaženy 3D položky?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="cs_CZ" status="Approved">Jsou obsaženy položky simulace?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="cs_CZ" status="Approved">Specifikace šablony</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="cs_CZ" status="Approved">Odkazované objekty</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="cs_CZ" status="Approved">ID referencí</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="cs_CZ" status="Approved">Odkazované objekty</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="cs_CZ" status="Approved">ID referencí</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="cs_CZ" status="Approved">status vydání standardního textu</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="cs_CZ" status="Approved">Automatický</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="cs_CZ" status="Approved">Ruční</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="cs_CZ" status="Approved">Poloautomatický</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="cs_CZ" status="Approved">Provozovateli se zobrazí zpráva</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="cs_CZ" status="Approved">Výsledkem je součást, která je chybná</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="cs_CZ" status="Approved">Výsledkem bude neshoda</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="cs_CZ" status="Approved">Plánovač procesu výroby</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="cs_CZ" status="Approved">Simulace procesu</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

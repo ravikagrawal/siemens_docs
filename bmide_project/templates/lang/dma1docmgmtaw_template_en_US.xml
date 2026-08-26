@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="en_US" status="Approved">Print Configuration Custom List Of Values Business Object</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="en_US" status="Approved">Print Configuration Runtime</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="en_US" status="Approved">Condition to check if the out-of-the-box Item Revision Definition Configuration (IRDC), Dma1DocumentRevisionIRDC, is to be applied for Document Revision business object. When the preference "Fnd0DM_IsSimpleDocumentEnabled" is set to "true", then Dma1DocumentRevisionIRDC will be applied, otherwise not.  This is not applied to the children of Document Revision.</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="en_US" status="Approved">Condition to check if the out-of-the-box Item Revision Definition Configuration (IRDC) instance is to be applied for Item Revision based on the preference "Dma1UseCOTSIRDC". This is not applicable to the children of Item Revision.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="en_US" status="Approved">All</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="en_US" status="Approved">Off</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="en_US" status="Approved">Single</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="en_US" status="Approved">Color</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="en_US" status="Approved">Monochrome</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="en_US" status="Approved">Best Fit</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="en_US" status="Approved">Landscape</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="en_US" status="Approved">Portrait</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="en_US" status="Approved">All Pages</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="en_US" status="Approved">Banner Page</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="en_US" status="Approved">First Page</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="en_US" status="Approved">All</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="en_US" status="Approved">Off</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="en_US" status="Approved">Single</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="en_US" status="Approved">Color</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="en_US" status="Approved">Monochrome</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="en_US" status="Approved">Best Fit</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="en_US" status="Approved">Landscape</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="en_US" status="Approved">Portrait</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="en_US" status="Approved">All Pages</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="en_US" status="Approved">Banner Page</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="en_US" status="Approved">First Page</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="en_US" status="Approved">Banner Page</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="en_US" status="Approved">Collate</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="en_US" status="Approved">Color</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="en_US" status="Approved">Copies</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="en_US" status="Approved">Orientation</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="en_US" status="Approved">Paper Sizes</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="en_US" status="Approved">Print Configuration Name</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="en_US" status="Approved">Printer Name</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="en_US" status="Approved">Range</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="en_US" status="Approved">Scale</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="en_US" status="Approved">Stamps Supported</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="en_US" status="Approved">System Stamp</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="en_US" status="Approved">User Stamp</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

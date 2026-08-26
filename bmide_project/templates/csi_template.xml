@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:41 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc12000.3.0" description="Service for Change Manager and Schedule Manager Interface." isThirdParty="false" name="CSI0SoaCmSmInterface" namespace="CSI0::Soa::CmSmInterface" serviceLibrary="true"/>
+           
+        <Library createRelease="tc10000.0.0" description="Change management and schedule manager interface library" isThirdParty="false" name="csi0cmsmi" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <ServiceInterface createRelease="tc12000.3.0" dependencies="" description="Relation Management." libraryName="CSI0SoaCmSmInterface" name="RelationManagement" namespace="CSI0::Soa::CmSmInterface" serviceLibraryRef=""/>
+           
+        <Struct createRelease="tc12000.3.0" description="CSI Relationship structure represents all required parameters to create the relation between the primary and secondary object." isPublished="false" name="CsiRelationship" namespace="CSI0::Soa::Internal::CmSmInterface::_2020_01::RelationManagement" scope="CSI0::Soa::CmSmInterface::RelationManagement">
+                 
+            <StructElement description="The parent change item revision object." name="parentChange">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Name of the relation type to create, required. This could be an empty string, in which case the relation name will be searched in the preference, ParentTypeName_ChildTypeName_default_relation or ParentTypeName_default_relation." name="relationType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The primary object to create the relation from." name="primaryObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The secondary object to create the relation to." name="secondaryObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate const="false" createRelease="tc12000.3.0" description="Propagate or rollup relations between ChangeItemRevision and Schedule/Task. Propagate will push all change relations from ChangeItemRevision to leaf level tasks in all of the selected schedules/tasks. Rollup will pull all change relations from the selected tasks items to ChangeItemRevision." id="Teamcenter::Soa::Server::ServiceData#CSI0::Soa::CmSmInterface::RelationManagement::propagateOrRollupRelations#const,std::vector&lt;CSI0::Soa::Internal::CmSmInterface::_2020_01::RelationManagement::CsiRelationship&gt;,&amp;$bool" name="CSI0::Soa::CmSmInterface::RelationManagement::propagateOrRollupRelations" returnConst="false" returnDescription="The ServiceData containing newly created relations in the created list." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of CsiRelationships to be created and propagated or rolled up." freeOutputMemory="false" inputOutput="Input" name="relationships">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                             
+                    <DataTypeRefParam dataType="CSI0::Soa::Internal::CmSmInterface::_2020_01::RelationManagement::CsiRelationship" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="If true, Rollup is performed; otherwise, Propagate is performed." freeOutputMemory="false" inputOutput="Input" name="rollup">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier=""/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="CSI0csi" createRelease="tc12000.3.0" dependencies="" description="Propagate or rollup relations between ChangeItemRevision and Schedule/Task. Propagate will push all change relations from ChangeItemRevision to leaf level tasks in all of the selected schedules/tasks. Rollup will pull all change relations from the selected tasks items to ChangeItemRevision." exceptionCondition="" id="propagateOrRollupRelations#const,std::vector&lt;CSI0::Soa::Internal::CmSmInterface::_2020_01::RelationManagement::CsiRelationship&gt;,&amp;$bool" interface="CSI0::Soa::CmSmInterface::RelationManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="propagateOrRollupRelations" opTemplate="Teamcenter::Soa::Server::ServiceData#CSI0::Soa::CmSmInterface::RelationManagement::propagateOrRollupRelations#const,std::vector&lt;CSI0::Soa::Internal::CmSmInterface::_2020_01::RelationManagement::CsiRelationship&gt;,&amp;$bool" returnDescription="The ServiceData containing newly created relations in the created list." useCase="">
+                 
+            <ParameterInfo description="A list of CsiRelationships to be created and propagated or rolled up." parameterName="relationships"/>
+                 
+            <ParameterInfo description="If true, Rollup is performed; otherwise, Propagate is performed." parameterName="rollup"/>
+               
+        </Operation>
+           
+        <TcPropertyAttach typeName="ScheduleTask">
+                 
+            <TcProperty arrayLength="0" description="csi0parentChange property  is a reference to the ChangeItemRevision object related via the CMHasWorkBreakdown relation to the ScheduleTask's parent Schedule object. csi0parentChange property at the ScheduleTask level provides a convenient reference to the ChangeItemRevision object, that this Schedule object is used as a change plan or execution vehicle, without requiring the lookup via the Schedule object itself. csi0parentChange property is NULL if the ScheduleTask object is part of a Schedule object  that is not being used by a ChangeItemRevision object to plan or manage its execution." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="csi0parentChange" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ChangeItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcOperationAttach description="" extendableElementName="ScheduleTask" extendableElementType="Type" operationName="PROP_ask_value_tag" propertyName="csi0parentChange">
+                 
+            <TcExtensionPoint extensionPointType="BaseAction" isOverridable="true"/>
+               
+        </TcOperationAttach>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="csi0parentChange" typeName="ScheduleTask" value="Write"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="ScheduleTask" relationTypeName="CMHasSolutionItem" secondaryCardinality="-1" secondaryTypeName="Dataset" secured="true"/>
+           
+        <TcExtension cannedExtension="false" description="" internal="false" languageType="CPlusPlus" libraryName="libcsi0cmsmi" name="CSI0GetParentChange">
+                 
+            <TcExtensionValidity parameter="PROPERTY:ScheduleTask:csi0parentChange:PROP_ask_value_tag:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="ScheduleTask" extendableElementType="Type" extensionName="CSI0GetParentChange" extensionPointType="BaseAction" isActive="true" operationName="PROP_ask_value_tag" propertyName="csi0parentChange"/>
+           
+        <Functionality description="This feature provides the necessary support for Schedule Management and Change Management cooperation and interoperability." displayName="Change Management Schedule Management Interface" enabledForVerificationRules="false" name="CSI0csi"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

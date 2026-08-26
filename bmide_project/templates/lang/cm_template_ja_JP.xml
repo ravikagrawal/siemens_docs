@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:00 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="ja_JP" status="Approved">アナリスト</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="ja_JP" status="Approved">影響を受ける</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="ja_JP" status="Approved">問題</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="ja_JP" status="Approved">ソリューション</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="ja_JP" status="Approved">プラン</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="ja_JP" status="Approved">実装</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="ja_JP" status="Approved">参照を変更</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="ja_JP" status="Approved">変更管理リレーション</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="ja_JP" status="Approved">影響を受けるソリューション</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="ja_JP" status="Approved">変更インプリメンテーションボード</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="ja_JP" status="Approved">変更アイテムマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="ja_JP" status="Approved">変更アイテムマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="ja_JP" status="Approved">変更アイテムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="ja_JP" status="Approved">変更アイテムバージョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="ja_JP" status="Approved">変更アイテム</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="ja_JP" status="Approved">変更通知マスタ</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="ja_JP" status="Approved">変更通知マスタ</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="ja_JP" status="Approved">変更通知リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="ja_JP" status="Approved">変更通知バージョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="ja_JP" status="Approved">変更通知</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="ja_JP" status="Approved">変更要求マスタ</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="ja_JP" status="Approved">変更要求マスタ</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="ja_JP" status="Approved">変更要求リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="ja_JP" status="Approved">変更要求バージョンマスタ</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="ja_JP" status="Approved">変更要求</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="ja_JP" status="Approved">変更レビューボード</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="ja_JP" status="Approved">変更スペシャリスト I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="ja_JP" status="Approved">変更スペシャリスト II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="ja_JP" status="Approved">変更スペシャリスト III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="ja_JP" status="Approved">アクションアイテムマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="ja_JP" status="Approved">アクションアイテムマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="ja_JP" status="Approved">アクションアイテムリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="ja_JP" status="Approved">アクションアイテムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="ja_JP" status="Approved">アクションアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="ja_JP" status="Approved">アクションアイテム</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="ja_JP" status="Approved">監査アイテム</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="ja_JP" status="Approved">マークアップ変更の承認</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="ja_JP" status="Approved">BOMはスーパシージャフォームを含む</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="ja_JP" status="Approved">依存関係前</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="ja_JP" status="Approved">コンフィグレーション監査マスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="ja_JP" status="Approved">コンフィグレーション監査マスタ</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="ja_JP" status="Approved">コンフィグレーション監査リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="ja_JP" status="Approved">コンフィグレーション監査リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="ja_JP" status="Approved">コンフィグレーション監査リビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="ja_JP" status="Approved">コンフィグレーション監査</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="ja_JP" status="Approved">コントリビュータ</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="ja_JP" status="Approved">変更編集</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="ja_JP" status="Approved">コンカレント依存関係</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="ja_JP" status="Approved">Deviation要求マスタ</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="ja_JP" status="Approved">Deviation要求マスタ</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="ja_JP" status="Approved">Deviation要求マスタ</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="ja_JP" status="Approved">Deviation要求リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="ja_JP" status="Approved">Deviation要求リビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="ja_JP" status="Approved">Deviation要求</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="ja_JP" status="Approved">有効期限式ブロックを変更</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="ja_JP" status="Approved">一般レビューマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="ja_JP" status="Approved">一般レビューマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="ja_JP" status="Approved">一般レビューリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="ja_JP" status="Approved">一般レビューリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="ja_JP" status="Approved">一般レビューリビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="ja_JP" status="Approved">一般レビュー</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="ja_JP" status="Approved">一般作業オーダマスタスーパシージャ</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="ja_JP" status="Approved">一般作業オーダマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="ja_JP" status="Approved">一般作業オーダリビジョンマスタスーパシージャ</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="ja_JP" status="Approved">一般作業オーダリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="ja_JP" status="Approved">一般作業オーダリビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="ja_JP" status="Approved">一般作業オーダ</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="ja_JP" status="Approved">変更スペース</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="ja_JP" status="Approved">契約</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="ja_JP" status="Approved">影響を受けない</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="ja_JP" status="Approved">提案</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="ja_JP" status="Approved">統合</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="ja_JP" status="Approved">マージ済み</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="ja_JP" status="Approved">以前の有効期限</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="ja_JP" status="Approved">プロパティ編集</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="ja_JP" status="Approved">提案された影響を受けるオブジェクト</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="ja_JP" status="Approved">アクションアイテムを提起</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="ja_JP" status="Approved">除去された行</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="ja_JP" status="Approved">単純変化マスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="ja_JP" status="Approved">単純変化マスタ</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="ja_JP" status="Approved">単純変化リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="ja_JP" status="Approved">単純変化リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="ja_JP" status="Approved">単純変化リビジョン</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="ja_JP" status="Approved">単純変更</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="ja_JP" status="Approved">作業環境</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="ja_JP" status="Approved">一般変更通知マスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="ja_JP" status="Approved">一般変更通知マスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="ja_JP" status="Approved">一般変更通知リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="ja_JP" status="Approved">一般変更通知リビジョン</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="ja_JP" status="Approved">一般変更通知バージョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="ja_JP" status="Approved">一般変更通知</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="ja_JP" status="Approved">一般変更要求マスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="ja_JP" status="Approved">一般変更要求マスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="ja_JP" status="Approved">一般変更要求リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="ja_JP" status="Approved">一般変更要求リビジョン</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="ja_JP" status="Approved">一般変更要求バージョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="ja_JP" status="Approved">一般変更要求</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="ja_JP" status="Approved">一般問題レポートマスタ</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="ja_JP" status="Approved">一般問題レポートマスタ</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="ja_JP" status="Approved">一般問題レポートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="ja_JP" status="Approved">一般問題レポートリビジョン</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="ja_JP" status="Approved">一般問題レポートバージョンマスタ</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="ja_JP" status="Approved">一般問題レポート</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="ja_JP" status="Approved">問題レポートマスタ</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="ja_JP" status="Approved">問題レポートマスタ</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="ja_JP" status="Approved">問題レポートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="ja_JP" status="Approved">問題レポートバージョンマスタ</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="ja_JP" status="Approved">問題レポート</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="ja_JP" status="Approved">依頼者</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="ja_JP" status="Approved">この条件は、Cm0BeforeDependencyおよびCm0ConcurrentDependencyが使用可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="ja_JP" status="Approved">この条件は、Cm0BeforeDependencyおよびCm0ConcurrentDependencyが使用可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="ja_JP" status="Approved">この条件は、Cm0BeforeDependencyおよびCm0ConcurrentDependencyが使用可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="ja_JP" status="Approved">この条件は、CMHasImpactedItemリレーションのcm0Dispositionプロパティが編集可能かを決定します</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="ja_JP" status="Approved">この条件は、単純変化リビジョンタイプおよびサブタイプに対してテンプレートフィルタリングを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMHasImpactedItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCMHasImpactedItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="ja_JP" status="Approved">影響を受けるアイテムを追加するには、変更アイテムは開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="ja_JP" status="Approved">影響を受けるアイテムを追加するには、ユーザはオーサリングライセンスレベルで、依頼者またはアナリストまたは変更投稿者で、変更アイテムへの書込みアクセスがあり、それが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCm0HasNonImpactedItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCm0HasNonImpactedItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="ja_JP" status="Approved">影響を受けるアイテム以外を追加するには、ユーザはオーサリングライセンスレベルで、依頼者、アナリストまたは変更投稿者で、変更アイテムへの書込みアクセスがあり、それが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMHasProblemItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCMHasProblemItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="ja_JP" status="Approved">問題アイテムを追加するには、変更アイテムは開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="ja_JP" status="Approved">問題アイテムを追加するには、ユーザは変更アイテムへの書込みアクセスがあり、それが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMHasSolutionItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、変更通知が実行中、承認済み、およびオープンの場合のみ、オーサリングライセンスレベルで解析者参加として割当てられたユーザによるソリューションアイテムの追加を許可します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="ja_JP" status="Approved">ソリューションアイテムを追加するには、ユーザはアナリストまたは変更投稿者またはスケジュールタスクアサイニーで、変更アイテムへが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="ja_JP" status="Approved">ソリューションアイテムを追加するには、ユーザはオーサリングライセンスレベルで、アナリストまたは変更投稿者で、変更アイテムへの書込みアクセスがあり、それが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMHasWorkBreakdownのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCMHasWorkBreakdownのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="ja_JP" status="Approved">この条件は、タイプCMHasWorkBreakdownのリレーションが、作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="ja_JP" status="Approved">参照アイテムを追加するには、変更アイテムは開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="ja_JP" status="Approved">この条件は、変更コントリビュータが割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="ja_JP" status="Approved">この条件は、変更実行が許可されるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="ja_JP" status="Approved">この条件は、変更通知がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="ja_JP" status="Approved">この条件は、変更要求がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="ja_JP" status="Approved">この条件は、ユーザによりアクションアイテムが作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="ja_JP" status="Approved">この条件は、コンフィグレーション監査のステータスをチェックします</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="ja_JP" status="Approved">この条件は、Deviation要求がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="ja_JP" status="Approved">この条件は、コンフィグレーション監査のステータスをチェックします</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCm0Incorporatesのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCm0Incorporatesのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="ja_JP" status="Approved">この条件は、タイプCm0Incorporatesのリレーションが、作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="ja_JP" status="Approved">この条件は、コンフィグレーション監査のステータスをチェックします</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="ja_JP" status="Approved">統合ステータスが、影響を受けるアイテムに対して有効かをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="ja_JP" status="Approved">この条件は、問題レポートがユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="ja_JP" status="Approved">変更タイプ作成を許可するかを決定する条件です。</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="ja_JP" status="Approved">この条件は、指定したアイテムリビジョンシーケンスがアクティブであるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="ja_JP" status="Approved">この条件は、アナリストが割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが変更アイテムリビジョンの変更アナリストであるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが作成者であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasImpactedItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasImpactedItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasImpactedItemのリレーションが、指定したタスクを用いて作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、CMHasImpactedItemリレーションが作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasProblemItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasProblemItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasProblemItemのリレーションが、指定したタスクを用いて作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、CMHasProblemItemリレーションが作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasSolutionItemのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasSolutionItemのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasSolutionItemのリレーションが、指定したタスクを用いて作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、CMHasSolutionItemリレーションが作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasWorkBreakdownのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasWorkBreakdownのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、タイプCMHasWorkBreakdownのリレーションが作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMImplementsのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCMImplementsのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="ja_JP" status="Approved">変更内容を派生させて、変更アイテム間に実装リレーションを追加するには、ユーザはオーサリングライセンスレベルでなければならず、変更アイテムは開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="ja_JP" status="Approved">この条件は、タイプCMReferencesのリレーションが、指定したプライマリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="ja_JP" status="Approved">この条件は、タイプCMReferencesのリレーションが、指定したセカンダリオブジェクトに対して作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="ja_JP" status="Approved">この条件は、タイプCMReferencesのリレーションが、指定したタスクを用いて作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="ja_JP" status="Approved">参照アイテムを追加するには、ユーザは変更アイテムへの書込みアクセスがあり、それが開いた状態でなければなりません。</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="ja_JP" status="Approved">この条件は、変更実行が許可されるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="ja_JP" status="Approved">この条件は、変更インプリメンテーションボードが割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、変更通知がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、変更要求がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="ja_JP" status="Approved">この条件は、変更レビューボードが割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="ja_JP" status="Approved">この条件は、変更スペシャリスト1が割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが変更アイテムリビジョンの変更スペシャリスト1であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="ja_JP" status="Approved">この条件は、変更スペシャリスト2が割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが変更アイテムリビジョンの変更スペシャリスト2であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="ja_JP" status="Approved">この条件は、変更スペシャリスト3が割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが変更アイテムリビジョンの変更スペシャリスト3であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、Deviation要求がユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="ja_JP" status="Approved">この条件は、関連する変更アイテムリビジョンに対して有効期限が作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="ja_JP" status="Approved">この条件は、関連する変更アイテムリビジョンに対して影響を受けるアイテムがリビジョンアップ可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="ja_JP" status="Approved">この条件は、関連するタスクに対して影響を受けるアイテムがリビジョンアップ可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 13.1を参照 - この条件は、問題レポートがユーザにより作成可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="ja_JP" status="Approved">この条件は、依頼者が割当て可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="ja_JP" status="Approved">この条件は、現在のログインユーザが変更アイテムリビジョンの変更依頼者であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="ja_JP" status="Approved">この条件は、ロールアップがユーザによりコミット可能であるかを決定します。</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="ja_JP" status="Approved">完全マージ</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="ja_JP" status="Approved">部分マージ</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="ja_JP" status="Approved">要求された変更は、新規アイテムを作成して、影響を受けるアイテムを置換することです。</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="ja_JP" status="Approved">要求された変更は、影響を受けるアイテムを既存のアイテムで置換することです。</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="ja_JP" status="Approved">要求された変更は、影響を受けるアイテムをリビジョンアップすることです。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ja_JP" status="Approved">アクティブな変更またはパブリックにおける最新バージョンです。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ja_JP" status="Approved">ターゲット変更またはパブリックにおける最新バージョンです。</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="ja_JP" status="Approved">完全</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="ja_JP" status="Approved">部分</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="ja_JP" status="Approved">新規作成</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="ja_JP" status="Approved">既存のもので置換</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="ja_JP" status="Approved">リビジョンアップ</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="ja_JP" status="Approved">承認</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="ja_JP" status="Approved">寄与</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="ja_JP" status="Approved">推敲中</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="ja_JP" status="Approved">リリース済み</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ja_JP" status="Approved">すべてのアクティブなECN</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ja_JP" status="Approved">現在のECNのみ</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="ja_JP" status="Approved">マージされたオカレンスデータを含む</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="ja_JP" status="Approved">カットバックオカレンス</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="ja_JP" status="Approved">マージされたプロパティ</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="ja_JP" status="Approved">更新済みプロパティ</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="ja_JP" status="Approved">変更モード</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="ja_JP" status="Approved">同時変更</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="ja_JP" status="Approved">処理</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="ja_JP" status="Approved">変更通知の実装</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="ja_JP" status="Approved">ソリューション</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="ja_JP" status="Approved">統合ステータス</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="ja_JP" status="Approved">系統</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="ja_JP" status="Approved">親</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="ja_JP" status="Approved">要求された変更</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="ja_JP" status="Approved">系統</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="ja_JP" status="Approved">提案されたデザイン所有サイト</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="ja_JP" status="Approved">系統</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="ja_JP" status="Approved">派生元</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="ja_JP" status="Approved">コンテクストオブジェクト内</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="ja_JP" status="Approved">アナリストユーザID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="ja_JP" status="Approved">変更スペシャリスト I ユーザID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="ja_JP" status="Approved">変更スペシャリスト II ユーザID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="ja_JP" status="Approved">変更スペシャリスト III ユーザID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="ja_JP" status="Approved">アナリスト</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="ja_JP" status="Approved">スペシャリスト</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="ja_JP" status="Approved">外部発信者?</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="ja_JP" status="Approved">起票</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="ja_JP" status="Approved">リモートワークフロータスクUID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="ja_JP" status="Approved">依頼者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="ja_JP" status="Approved">依頼者ユーザID</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="ja_JP" status="Approved">概要</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="ja_JP" status="Approved">影響</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="ja_JP" status="Approved">コメント</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="ja_JP" status="Approved">主担当局</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="ja_JP" status="Approved">監査による提起</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="ja_JP" status="Approved">ゾーン</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="ja_JP" status="Approved">アクションタイプ</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="ja_JP" status="Approved">アクションアイテム番号</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="ja_JP" status="Approved">コメント</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="ja_JP" status="Approved">プロセス日</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="ja_JP" status="Approved">監査番号</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="ja_JP" status="Approved">変更オブジェクト</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="ja_JP" status="Approved">更新されたオブジェクト</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="ja_JP" status="Approved">経常偏差</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="ja_JP" status="Approved">繰り返されるDeviationの根拠</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="ja_JP" status="Approved">EDR番号</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="ja_JP" status="Approved">偏差タイプ</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="ja_JP" status="Approved">EDR番号</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="ja_JP" status="Approved">存在している監査アイテム</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="ja_JP" status="Approved">監査タイプ</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="ja_JP" status="Approved">マージステータス</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="ja_JP" status="Approved">変更編集</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="ja_JP" status="Approved">プロパティ名</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="ja_JP" status="Approved">プロパティオリジナル値</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="ja_JP" status="Approved">プロパティ更新値</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="ja_JP" status="Approved">子</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="ja_JP" status="Approved">子部品の有無</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="ja_JP" status="Approved">既に影響を受けている</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="ja_JP" status="Approved">問題オブジェクト</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="ja_JP" status="Approved">提案された影響を受けるオブジェクト名</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="ja_JP" status="Approved">提案された影響を受けるオブジェクト</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="ja_JP" status="Approved">提案された影響を受けるタイプ</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="ja_JP" status="Approved">関係する親リビジョン</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="ja_JP" status="Approved">関連する使用リビジョン</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="ja_JP" status="Approved">リレーション</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="ja_JP" status="Approved">ソースオブジェクトタイプ</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="ja_JP" status="Approved">Part Usage</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="ja_JP" status="Approved">SC番号</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="ja_JP" status="Approved">SC番号</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="ja_JP" status="Approved">ファストトラック</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="ja_JP" status="Approved">要求有効期間(CmPrpInc)リレーション</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="ja_JP" status="Approved">ECN番号</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="ja_JP" status="Approved">ECN番号</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="ja_JP" status="Approved">ファストトラック</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="ja_JP" status="Approved">ECR番号</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="ja_JP" status="Approved">ECR番号</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="ja_JP" status="Approved">PR番号</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="ja_JP" status="Approved">PR番号</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="ja_JP" status="Approved">共有</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="ja_JP" status="Approved">クリティカルデザインレビュー</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="ja_JP" status="Approved">機能コンフィグレーション監査</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="ja_JP" status="Approved">フィジカルコンフィグレーション監査</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="ja_JP" status="Approved">予備デザインレビュー</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="ja_JP" status="Approved">テストの準備状況レビュー</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="ja_JP" status="Approved">上記のすべてがユーザのニーズにフィットしません。 例えば、ユーザはアンサーを知らないかまたは後で決定したい場合です。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="ja_JP" status="Approved">パートを修正して、同じアセンブリ内で使用します。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="ja_JP" status="Approved">残りのパートを使ってはいけません。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="ja_JP" status="Approved">製品内のパートを今日のまま保持します。</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ja_JP" status="Approved">影響を受けるアイテムに対して定義された変更は、対応するソリューションアイテムに実装されていて、定義された変更を完全に統合するために後続の変更は必要ありません。</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ja_JP" status="Approved">The change as-defined for the Impacted Item has been partially implemented into a corresponding Solution Item. The change will need to be fully incorporated by a subsequent change into the main chain of revisions of the Item.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ja_JP" status="Approved">影響を受けるアイテムに対して定義された変更は、対応するソリューションアイテムにまだ実装されていません。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ja_JP" status="Approved">自動マージ</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ja_JP" status="Approved">同時変更</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="ja_JP" status="Approved">承認済み</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="ja_JP" status="Approved">不承認</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="ja_JP" status="Approved">修正する</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="ja_JP" status="Approved">改善する</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="ja_JP" status="Approved">防止する</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="ja_JP" status="Approved">キャンセル済み</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="ja_JP" status="Approved">クローズ</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="ja_JP" status="Approved">保留</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="ja_JP" status="Approved">オープン</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="ja_JP" status="Approved">承認済み</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="ja_JP" status="Approved">延期</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="ja_JP" status="Approved">不承認</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="ja_JP" status="Approved">調査</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="ja_JP" status="Approved">なし</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="ja_JP" status="Approved">完了</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="ja_JP" status="Approved">推敲中</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="ja_JP" status="Approved">実行中</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="ja_JP" status="Approved">レビュー中</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="ja_JP" status="Approved">低</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="ja_JP" status="Approved">中</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="ja_JP" status="Approved">高</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="ja_JP" status="Approved">クリティカル</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="ja_JP" status="Approved">別の問題</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="ja_JP" status="Approved">確認済みの問題</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="ja_JP" status="Approved">未確認の問題</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="ja_JP" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="ja_JP" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="ja_JP" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="ja_JP" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="ja_JP" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="ja_JP" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="ja_JP" status="Approved">いいえ</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="ja_JP" status="Approved">はい</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="ja_JP" status="Approved">失敗</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="ja_JP" status="Approved">なし</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="ja_JP" status="Approved">成功</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="ja_JP" status="Approved">完了</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="ja_JP" status="Approved">推敲中</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="ja_JP" status="Approved">進行中</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="ja_JP" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="ja_JP" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="ja_JP" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="ja_JP" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="ja_JP" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="ja_JP" status="Approved">その他</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="ja_JP" status="Approved">再作業</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="ja_JP" status="Approved">スクラップ</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="ja_JP" status="Approved">そのまま使用</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="ja_JP" status="Approved">キャンセル済み</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ja_JP" status="Approved">マージ済み</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ja_JP" status="Approved">マージが必要</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ja_JP" status="Approved">マージは必要ありません</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ja_JP" status="Approved">自動マージ</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ja_JP" status="Approved">同時変更</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="ja_JP" status="Approved">BOMの編集</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="ja_JP" status="Approved">BOMスーパーシージャ</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="ja_JP" status="Approved">変更アイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="ja_JP" status="Approved">変更通知リビジョン</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="ja_JP" status="Approved">変更要求リビジョン</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="ja_JP" status="Approved">問題レポートリビジョン</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="ja_JP" status="Approved">BOMスーパーシージャ</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="ja_JP" status="Approved">BOM編集量</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="ja_JP" status="Approved">BOMビューリビジョン</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="ja_JP" status="Approved">変更リビジョン</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="ja_JP" status="Approved">変更タイプ</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="ja_JP" status="Approved">カスタムオブジェクト</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="ja_JP" status="Approved">派生</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="ja_JP" status="Approved">オブジェクトフルネーム</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="ja_JP" status="Approved">オブジェクト名</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="ja_JP" status="Approved">オブジェクト文字列</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="ja_JP" status="Approved">オブジェクトタイプ</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="ja_JP" status="Approved">オカレンス</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="ja_JP" status="Approved">問題BOMビューリビジョン</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="ja_JP" status="Approved">数量差</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="ja_JP" status="Approved">オカレンスリビジョンのアクティブな変更</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="ja_JP" status="Approved">アクティブな変更</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="ja_JP" status="Approved">キャンセル</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="ja_JP" status="Approved">キャンセル</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="ja_JP" status="Approved">変更リビジョン</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="ja_JP" status="Approved">カスタムフォーム</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="ja_JP" status="Approved">影響を受けるBOMビューリビジョン</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="ja_JP" status="Approved">移管</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="ja_JP" status="Approved">オブジェクトフルネーム</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="ja_JP" status="Approved">オブジェクト名</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="ja_JP" status="Approved">オブジェクト文字列</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="ja_JP" status="Approved">オブジェクトタイプ</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="ja_JP" status="Approved">問題BOMビューリビジョン</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="ja_JP" status="Approved">変更アイテムリビジョン優先ステータス</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="ja_JP" status="Approved">変更アイテムリビジョン</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="ja_JP" status="Approved">変更通知リビジョン共有モード</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="ja_JP" status="Approved">アナリスト</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="ja_JP" status="Approved">クロージャコメント</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="ja_JP" status="Approved">クロージャ日</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="ja_JP" status="Approved">クロージャ</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="ja_JP" status="Approved">処分コメント</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="ja_JP" status="Approved">処分日</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="ja_JP" status="Approved">処理</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="ja_JP" status="Approved">実装者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="ja_JP" status="Approved">変更マチュリティ</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="ja_JP" status="Approved">変更インプリメンテーションボード</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="ja_JP" status="Approved">変更レビューボード</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="ja_JP" status="Approved">変更スペシャリスト I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="ja_JP" status="Approved">変更スペシャリスト II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="ja_JP" status="Approved">変更スペシャリスト III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="ja_JP" status="Approved">依頼者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="ja_JP" status="Approved">自動伝播リレーション</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="ja_JP" status="Approved">購入者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="ja_JP" status="Approved">投稿者を変更</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="ja_JP" status="Approved">導出タイプ</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="ja_JP" status="Approved">設計者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="ja_JP" status="Approved">製造エンジニア</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="ja_JP" status="Approved">財務見積り者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="ja_JP" status="Approved">修正可能な問題</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="ja_JP" status="Approved">修正可能を参照</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="ja_JP" status="Approved">リード設計者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="ja_JP" status="Approved">問題パートリビジョン</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="ja_JP" status="Approved">製品エンジニア</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="ja_JP" status="Approved">プログラムマネージャ</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="ja_JP" status="Approved">品質管理エンジニア</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="ja_JP" status="Approved">派生での自動伝播へのリレーション</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="ja_JP" status="Approved">セールス</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="ja_JP" status="Approved">カスタマ</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="ja_JP" status="Approved">概要</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="ja_JP" status="Approved">顧客承認日</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="ja_JP" status="Approved">インプリメンテーションの優先度</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="ja_JP" status="Approved">カスタマ承認必要</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="ja_JP" status="Approved">特別指示</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="ja_JP" status="Approved">カスタマ承認のステータス</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="ja_JP" status="Approved">影響</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="ja_JP" status="Approved">修正可能な影響を受けるリレーション</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="ja_JP" status="Approved">修正可能なソリューションリレーション</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="ja_JP" status="Approved">経常外費用</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="ja_JP" status="Approved">提案された解決策</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="ja_JP" status="Approved">理由</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="ja_JP" status="Approved">経常費用</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="ja_JP" status="Approved">テクニカル推奨日</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="ja_JP" status="Approved">テクニカルレビューの優先度</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="ja_JP" status="Approved">テクニカル推奨</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="ja_JP" status="Approved">テクニカルレビュー</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="ja_JP" status="Approved">テスト結果はアタッチ済み</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="ja_JP" status="Approved">タイミング係数</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="ja_JP" status="Approved">影響</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="ja_JP" status="Approved">保証は影響を受けますか</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="ja_JP" status="Approved">修正可能な影響を受けるリレーション</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="ja_JP" status="Approved">環境説明</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="ja_JP" status="Approved">影響</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="ja_JP" status="Approved">イベントの順序</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="ja_JP" status="Approved">重大性のレート</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="ja_JP" status="Approved">テクニカルレビューの優先度</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="ja_JP" status="Approved">検証</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="ja_JP" status="Approved">アクティブな変更</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="ja_JP" status="Approved">オーサリング変更</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="ja_JP" status="Approved">グローバル変更コンテキストLOV</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="ja_JP" status="Approved">ECNイン</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="ja_JP" status="Approved">ECNアウト</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="ja_JP" status="Approved">グローバル変更コンテキスト</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="ja_JP" status="Approved">グローバル変更コンテキスト</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="ja_JP" status="Approved">購入者</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="ja_JP" status="Approved">設計者</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="ja_JP" status="Approved">製造エンジニア</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="ja_JP" status="Approved">財務見積り者</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="ja_JP" status="Approved">リード設計者</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="ja_JP" status="Approved">製品エンジニア</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="ja_JP" status="Approved">プログラムマネージャ</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="ja_JP" status="Approved">品質管理エンジニア</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="ja_JP" status="Approved">セールス</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="ja_JP" status="Approved">変更アクション</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="ja_JP" status="Approved">変更リレーション</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

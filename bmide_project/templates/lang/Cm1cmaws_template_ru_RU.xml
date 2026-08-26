@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="ru_RU" status="Approved">Изменить элемент из истории</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="ru_RU" status="Approved">Поставщик анализа влияния</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="ru_RU" status="Approved">Поставщик затронутого объекта для происхождения</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="ru_RU" status="Approved">Мои изменения</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="ru_RU" status="Approved">Менеджер изменений</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ru_RU" status="Approved">CIB Approved</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ru_RU" status="Approved">CIB Approved the Concurrent Change</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ru_RU" status="Approved">Change Released</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ru_RU" status="Approved">Concurrent Change was Released</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="ru_RU" status="Approved">Менеджер изменений</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ru_RU" status="Approved">CIB Approved</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ru_RU" status="Approved">CIB Approved the Concurrent Change</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ru_RU" status="Approved">Change Released</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ru_RU" status="Approved">Concurrent Change was Released</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="ru_RU" status="Approved">Авторизация извещения об изменении</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="ru_RU" status="Approved">Авторизация извещения об изменении</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="ru_RU" status="Approved">Состояние</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="ru_RU" status="Approved">Статус</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="ru_RU" status="Approved">Зависимый элемент</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="ru_RU" status="Approved">Признак объединения</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="ru_RU" status="Approved">Результат объединения</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="ru_RU" status="Approved">Объединенный статус</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="ru_RU" status="Approved">Объединяет изменения из</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="ru_RU" status="Approved">Метка</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="ru_RU" status="Approved">Состояние</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="ru_RU" status="Approved">Решение</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="ru_RU" status="Approved">Элемент решения</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="ru_RU" status="Approved">Фильтры</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="ru_RU" status="Approved">Применяемость статуса выпуска</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="ru_RU" status="Approved">Сообщить о проблеме</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="ru_RU" status="Approved">Изменение последовательности</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="ru_RU" status="Approved">Создать изменение</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="ru_RU" status="Approved">Создать изменение</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="ru_RU" status="Approved">Получить изменение</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="ru_RU" status="Approved">Задать происхождение</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="ru_RU" status="Approved">Отменить происхождение</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="ru_RU" status="Approved">Условие ECN задано как контекст для объектов 4GD</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="ru_RU" status="Approved">Данное условие задает критерии для разрешения команд изменения зависимости GnChangeNoticeRevision. Данное условие разрешает проверку критериев на базе контекстного бизнес-объекта и пользовательской сессии.</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="ru_RU" status="Approved">Does user have Change License?</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="ru_RU" status="Approved">Условие, которое используется, чтобы скрыть команду структуры для назначения применяемости статуса выпуска. Вместо нее отображается команда соответствующего Менеджера изменений.</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="ru_RU" status="Approved">Данное условие задает критерии для разрешения команд изменения зависимости GnChangeNoticeRevision. Данное условие разрешает проверку критериев на базе контекстной ревизии извещения об изменении и пользовательской сессии.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="ru_RU" status="Approved">Условие команды Создать изменение в контексте</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="ru_RU" status="Approved">Условие отображения или скрытия производной команды.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="ru_RU" status="Approved">Включает команду Задать происхождение, если происхождение не задано для выбранных объектов и они относятся к одному типу.</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="ru_RU" status="Approved">Включает команду Отменить задание происхождения, если происхождение задано для выбранных объектов и они относятся к одному типу.</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="ru_RU" status="Approved">Change Summary Element</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="ru_RU" status="Approved">Активное изменение для ревизии вхождения</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="ru_RU" status="Approved">Активное изменение</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="ru_RU" status="Approved">ECN In</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="ru_RU" status="Approved">ECN Out</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="ru_RU" status="Approved">Underlying Design Element</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="ru_RU" status="Approved">Является листом</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="ru_RU" status="Approved">Sibling Of</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="ru_RU" status="Approved">Underlying Primary Object</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="ru_RU" status="Approved">Underlying Secondary Object</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="ru_RU" status="Approved">Merge Out Required</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="ru_RU" status="Approved">Разрешено обновление нескольких объектов  </key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="ru_RU" status="Approved">Change Action</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="ru_RU" status="Approved">Изменить отношение</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:56:38 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <TcExtension cannedExtension="false" description="" internal="true" languageType="CPlusPlus" libraryName="libissuemgmt" name="IssueReport::newIssueItemFromRev">
+                 
+            <TcExtensionValidity parameter="TYPE:IssueReport:ITEM_create_from_rev:4"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="IssueReport" extendableElementType="Type" extensionName="IssueReport::newIssueItemFromRev" extensionPointType="BaseAction" isActive="true" operationName="ITEM_create_from_rev" packageName="com.teamcenter.core.rules.extension"/>
+           
+        <TcNamingRule name="Default IssueReport ID Rule">
+                 
+            <TcPattern generateCounters="true" patternString="&quot;IR-&quot;nnnnnn">
+                       
+                <TcCounter initialValue="IR-000001" maximumValue="IR-999999"/>
+                     
+            </TcPattern>
+               
+        </TcNamingRule>
+           
+        <TcLOV description="" lovType="ListOfValuesString" name="Design Review Gate" usage="Suggestive">
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Concept &amp; Architecture"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Detail Design"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Assembly &amp; Mockup"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Manufacture"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="List of review issue decision name strings." lovType="ListOfValuesString" name="IsM0Issue Review Decisions" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="defer"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="reject"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="approveFix"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="close"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="reopen"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="approveIssue"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="noDecision"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="approveRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="rejectRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="deleteRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="obsoleteRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="escalateRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="holdRequest"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="approveHolecut"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="rejectHolecut"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="removeHolecut"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="submit"/>
+               
+        </TcLOV>
+           
+        <TcLOVExtent description="Tool for issue" lovType="ListOfValuesTagExtent" name="IsM0Tool For Issue" referenceAttribute="object_name" referenceClass="Tool" usage="Exhaustive"/>
+           
+        <TcLOV description="" lovType="ListOfValuesString" name="Issue Category" usage="Suggestive">
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Styling"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Clearance"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="" value="Manufacturability"/>
+               
+        </TcLOV>
+           
+        <Library createRelease="tc8000.0.1" description="Issue Management service library." isThirdParty="false" name="TcSoaIssueManagement" namespace="Teamcenter::Soa::IssueManagement" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="tc8000.0.1" dependencies="" description="This service exposes the functionalities of Teamcenter Issue Management to service clients. Teamcenter Issue Management is an application that extends Teamcenter Change Management. Before calling this service, user should make a decision on whether the business use case should be based on Issue Management or Change Management.&lt;br /&gt;A problem is a condition often identified as a result of multiple incidents that exhibit common symptom. Problems can also be identified from a single significant incident, indicative of a single error, for which the cause is unknown, but for which the impact is significant. When a problem is captured and well documented in Teamcenter Issue Management, it becomes an issue report and contains a wide array of data entities that require attention or resolution. Typically these data entities are classified as issue meta data that manages issue report lifecycle and issue context data that describes and reloads issue report.&lt;br /&gt;A Teamcenter change is an event that results in a new status of one or more configuration nodes in product structure or functionality or features. A change may or may not be originated from an issue report. A change may be initiated because a new variation of product is requested by market. An issue report does not trigger change request (therefore not initiated change management process) when resolving the issue report does not involve creation of new configuration nodes or change of existing configuration.&lt;br /&gt;While Teamcenter Issue Management aims to handle issue reports in an efficient way to identify / capture / record issue scene, to classify issue category / risk level / priority, to investigate issue root cause and develop issue resolution; change management handles change in standardized methods and procedures to minimize the impact of change related incidents upon process quality, and consequently improve product quality.&lt;br /&gt;Teamcenter Issue Management can also manage Design Review process. A Design Review task is an issue report in Teamcenter Issue Management. Design Review leverages multiple applications such as NX, standalone Vis as well as Teamcenter RAC embedded viewer. Design Review process generates and consumes a wide array of data files including, but not limited to, documents, 2D images, 3D structures as well as 2D/3D markups, assembly configurations. Design Review workflow and dataflow can be standardized and managed in Teamcenter Issue Management by leveraging Teamcenter workflow process.&lt;br /&gt;The OOTB &lt;b&gt;issue lifecycle&lt;/b&gt; workflow template can be tailored to fit a specific issue management business process model. There are a few steps to follow when it comes to customize Teamcenter Issue Management workflow template:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;How many review tasks are needed in business process.  Review board members must be identified for each review task.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Assign reviewers as issue report participants for easy management. With properly configured workflow template, participants can be auto assigned as reviewers for each review task when workflow process starts.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Where multiple reviewers (review board) are involved, the issue report status change must be determined by review board decision.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Workflow template has to be configured to allow multiple branch paths following a task based on issue report review result or latest statuses.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" libraryName="TcSoaIssueManagement" name="IssueManagement" namespace="Teamcenter::Soa::IssueManagement" serviceLibraryRef="C++:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoaissuemanagement.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoaissuemanagementstrong.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoaissuemanagementstrongmngd.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoaissuemanagementtypes.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoamodelissuemgmt.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Libtcsoamodelissuemgmtmngd.dll&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br /&gt;Java:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementLoose.jar&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementRac.jar&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementStrong.jar&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementTypes.jar&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaStrongModelIssueManagement.jar&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br /&gt;C#:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementLoose.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementRac.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementStrong.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaIssueManagementTypes.dll&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;TcSoaStrongModelIssueManagement.dll&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;"/>
+           
+        <Struct createRelease="tc8000.0.1" description="Inputs to create a new issue object. The issue title is the issue item name. The issue description is the issue item description." isPublished="true" name="CreateIssueInfo" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report item ID. Can be auto generated." name="id">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report item type. Must be &lt;b&gt;IssueReport&lt;/b&gt; or a sub class from &lt;b&gt;IssueReport&lt;/b&gt;." name="type">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report item name." name="title">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision ID. Can be auto generated." name="revId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report item description. This is a short description when an issue is captured." name="desc">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision attributes. The structure supports multiple values for an attribute." name="attributes">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ExtendedAttribute"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Attachment object, relation from issue report revision to the attachment object, and operation to add or remove the attachment object. Use this structure to update issue report attachments." name="relationData">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::RelationshipData"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue scene information. This structure contains data to create a product view dataset (snapshot view dataset). This interface was defined before the visualization service was available and it exposes the product view dataset data model to the client code. When possible, it is recommended to leverage the visualization service to create the product view dataet and use the &lt;b&gt;relationData&lt;/b&gt; to attach the dataset to the issue report revision." name="reviewSetting">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::SnapshotViewInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of information to create or update datasets." name="generalDatasets">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::DatasetInput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue before fix image file name." name="capturedImageFile">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue before fix image file upload ticket." name="capturedImageFileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Create issue response." isPublished="true" name="CreateIssueItemsResponse" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Array of issue report revisions created." name="output">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::IssueItemsOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Service data. Teamcenter error stack content will be returned to client when error occurs." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Create dataset info." isPublished="true" name="DatasetInfo" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Dataset tool." name="tool">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Dataset type." name="type">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Dataset name." name="name">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Dataset description." name="description">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Info to create or update a dataset and relation to attach the dataset to issue report revision." isPublished="true" name="DatasetInput" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Dataset info. Ignored when updating existing dataset." name="dsInfo">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::DatasetInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Data file info." name="fileInfo">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::NamedReferenceAndFile"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Existing dataset to be updated. NULL to create a new dataset." name="existingDS">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Relation name from issue revision to dataset." name="relationToContainer">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="This structure contains issue report revision attribute name versus attribute values pairs to update an issue report revision." isPublished="true" name="ExtendedAttribute" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Issue report revision attribute name." name="name">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision attribute values. The structure supports multiple values for an issue report revision attribute. Attribute value is in char string (C++) or String (Java/C#). Teamcenter object can be passed as UID string (obtained from &lt;b&gt;POM_tag_to_string&lt;/b&gt;()). Numbers (integer or long or double) can be passed in as string as well. Logical value is passed in as TRUE or FALSE string." name="values">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="It contains the newly created issue report item and revision, snapshot dataset or general datasets." isPublished="true" name="IssueItemsOutput" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report item created." name="changeItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItem"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision created." name="itemRev">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Snapshot view dataset created." name="viewDataset">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="General attachment datasets created." name="generalDatasets">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <MetaEnum createRelease="tc8000.0.1" description="Deprecated." isPublished="true" name="IssueReviewDecisions" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <MetaEnumLiteral description="" name="defer"/>
+                 
+            <MetaEnumLiteral description="" name="reject"/>
+                 
+            <MetaEnumLiteral description="" name="assign"/>
+                 
+            <MetaEnumLiteral description="" name="approveFix"/>
+                 
+            <MetaEnumLiteral description="" name="close"/>
+                 
+            <MetaEnumLiteral description="" name="reopen"/>
+                 
+            <MetaEnumLiteral description="" name="approveIssue"/>
+                 
+            <MetaEnumLiteral description="" name="noDecision"/>
+               
+        </MetaEnum>
+           
+        <Struct createRelease="tc8000.0.1" description="File and named reference pair to create a dataset." isPublished="true" name="NamedReferenceAndFile" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="File type (text or binary). Optional." name="fileType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="File name." name="fileName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="File upload ticket obtained by calling FMS client utility." name="fileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Named reference name in dataset." name="refName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="It contains the attachments (existing Teamcenter objects), relation that the attachments are to be attached to (or de attached from) issue report revision. This is the way that client updates issue context data." isPublished="true" name="RelationshipData" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Attachment objects. Can be any Teamcenter Workspace Objects." name="tags">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Relation name (from issue revision to attachment)." name="relationName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Add or REMOVE." name="operation">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Deprecated." isPublished="true" name="ReviewIssueInput" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The target issue object." name="theIssue">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Review issue decision." name="reviewIssueDecision">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::IssueReviewDecisions"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Workflow perform signoff decision." name="performSignoffDecision">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::WfSignoffDecisions"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Teamcenter user who is responsible to fix the issue." name="assignedUser">
+                       
+                <DataTypeRefParam dataType="Teamcenter::User"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Comments." name="comment">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Deprecated." isPublished="true" name="ReviewIssueOutput" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Updated issue object." name="theIssue">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Deprecated." isPublished="true" name="ReviewIssueResp" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="List of review issue outputs." name="resp">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="SOA service data." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="The data to create issue scene 3D snapshot view dataset. This interface was defined before visualization SOA was available and it exposes snapshot view data model to Issue Management service client. It is recommended to create snapshot view dataset by calling visualization service and provide the dataset as object to be attached under issue report revision with &lt;b&gt;IsM0SnapshotBeforeFix&lt;/b&gt; or &lt;b&gt;IsM0SnapshotAfterFix&lt;/b&gt; relation." isPublished="true" name="SnapshotViewInfo" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Relation name from issue report revision to this snapshot view dataset." name="relationToIssue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Existing snapshot view dataset to be updated. Should be NULL when creating a new snapshot dataset." name="existingSnapshot">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Snapshot view dataset name. This serves as issue scene name." name="sceneName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Assembly configuration context object." name="configContext">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ConfigurationContext"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Top assembly node &lt;b&gt;BVR&lt;/b&gt;." name="topNodeBVR">
+                       
+                <DataTypeRefParam dataType="Teamcenter::PSBOMViewRevision"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Snapshot files and named reference names to create 3D snapshot view dataset. Client needs to provide thumbnail image, view file (plmxml) and structure file (xml) to create a valid snapshot view dataset." name="refAndFiles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::NamedReferenceAndFile"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Data and files to update an issue." isPublished="true" name="UpdateIssueInfo" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Existing issue report revision to be updated." name="existingIssueRev">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Attributes and values." name="attributes">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ExtendedAttribute"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Attachments to be updated." name="relationData">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::RelationshipData"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue scene snapshot." name="reviewSetting">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::SnapshotViewInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="General dataset attachments." name="generalDatasets">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::DatasetInput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Image file name when issue is fixed." name="fixedImageFile">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Image file ticket when issue is fixed." name="fixedImageFileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Update issue report revision response." isPublished="true" name="UpdateIssueRevsResponse" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Array of update issue report revisions." name="output">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateRevisionOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Service data. Teamcenter error stack content will be returned when error occurs." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.0.1" description="Update issue report revision output." isPublished="true" name="UpdateRevisionOutput" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision updated." name="itemRev">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Snapshot view dataset updated." name="viewDataset">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="General datasets updated." name="generalDatasets">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Dataset"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <MetaEnum createRelease="tc8000.0.1" description="Deprecated." isPublished="true" name="WfSignoffDecisions" namespace="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <MetaEnumLiteral description="" name="approveSignoff"/>
+                 
+            <MetaEnumLiteral description="" name="rejectSignoff"/>
+                 
+            <MetaEnumLiteral description="" name="noDecisionOnSignoff"/>
+                 
+            <MetaEnumLiteral description="" name="donotPerformSignoff"/>
+               
+        </MetaEnum>
+           
+        <Struct createRelease="tc8000.2.0" description="Configure issue lists response." isPublished="true" name="ConfigIssueListsResp" namespace="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Service data. Teamcenter error stack content will be returned when error occurs." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue List configuration data." name="configData">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.2.0" description="Input to get configuration for accessible issue list or expand one issue list for current user." isPublished="true" name="GetIssueListInput" namespace="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue list name. When name is NULL, this operation returns configuration data for all accessible issue lists for the current user. The issue list name must be provided when expanding an issue list." name="name">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Teamcenter preference name to save site level issue list configuration." name="siteLevel">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Teamcenter preference name to save user level issue list configuration." name="userLevel">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="TRUE: expand issue list; FALSE: do not expand issue list." name="expandList">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.2.0" description="It may contain configuration data for all accessible issue lists for current user or issue report revision objects returned from expanding one issue list." isPublished="true" name="GetIssueListOutput" namespace="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue list configuration." name="configData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Issue report revision objects for given issue list." name="results">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.2.0" description="Get issue list response." isPublished="true" name="GetIssueListsResp" namespace="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Service data. Teamcenter error stack content will be returned when error occurs." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Output structures." name="outputStru">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc8000.2.0" description="Saved query and conditions and other data to create an issue list." isPublished="true" name="IssueListConfigData" namespace="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Issue list name." name="name">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="TRUE: issue list is visible; FALSE: issue list is invisible." name="visible">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Saved query name. Pre defined in Teamcenter." name="queryName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Saved search name. When a saved search is provided, the saved query name and conditions will be extracted automatically to create an issue list. When this input is provided, the next three inputs (queryName, queryCriteria and queryValues are ignored)." name="savedSearchName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of attribute names." name="queryCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of attribute values." name="queryValues">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="TRUE: issue list is site level (use this value only for system admin user); FALSE: issue list is user level." name="isFolderSiteLevel">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Teamcenter preference name to save issue list configuration data. When not provided, the value set in the &lt;b&gt;ISSUE_issuelists_site&lt;/b&gt; preference (for system level issue lists) and the value set in the &lt;b&gt;ISSUE_issuelists_user&lt;/b&gt; preference (for user level issue lists) are assumed. The client can choose different names and use the names consistently." name="prefName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="TRUE: create or update issue list; FALSE: delete issue list. When deleting an issue list, only the issue list name is needed." name="operation">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc9000.0.0" description="Issue review input such as review decision and comment." isPublished="true" name="CastDecisionInput" namespace="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The issue report revision object to be reviewed." name="targetIssue">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Review decision name. Get supported review decision names from the LOV &lt;b&gt;IsM0Issue Review Decisions&lt;/b&gt; and use the internal value (not localized value) as input." name="theDecision">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A short comment." name="theComment">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc9000.0.0" description="The output from casting a review decision and comment on an issue report revision object." isPublished="true" name="CastReviewDecisionOutput" namespace="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Client Id." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The issue report revision object just reviewed." name="theIssueObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::ChangeItemRevision"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc9000.0.0" description="Response from casting review decision on the issue." isPublished="true" name="CastReviewDecisionResp" namespace="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="Output from casting review decision on the issue." name="resp">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastReviewDecisionOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Service data. Teamcenter error stack content will be returned to client when error occurs." name="theServiceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Structure that contains file name, FMS download ticket and type information for additional files to download." isPublished="true" name="AdditionalFiles" namespace="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="The FMS ticket to download the file." name="fileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The file name." name="fileName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The named reference name for the file or type." name="fileType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The input to get issue scene files." isPublished="true" name="GetIssueSceneFileInput" namespace="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="A unique string supplied by the caller. This ID is used to identify return data elements and partial errors associated with this input structure." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The product view dataset object that contains issue scene data files and assembly configuration." name="pvDataset">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of product view dataset named reference names or types to download." name="additionalFiles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Structure contains issue scene file names and file tickets to download." isPublished="true" name="GetIssueSceneFileOutput" namespace="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="The unmodified value from the GetIssueSceneFileInput.clientId. This can be used by the caller to indentify this data structure with the source input data." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The FMS ticket for the  generated issue scene PLMXML file." name="issuesceneFileTicket">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The issue scene PLMXML file name." name="issuesceneFileName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Additional files that can be downloaded." name="files">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::AdditionalFiles"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Get issue scene file response." isPublished="true" name="GetIssueSceneFileResp" namespace="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement" scope="Teamcenter::Soa::IssueManagement::IssueManagement">
+                 
+            <StructElement description="GetIssueSceneFileOutput structures." name="outputs">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileOutput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The service data that may contain error messages or partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate const="false" createRelease="tc8000.0.1" description="A client calls this operation to create issue reports. An issue report contains two categories of data to describe a problem: issue metadata which can be issue report ID, title, description, severity level, disposition and so on; issue context data which can be problem parts, issue scene setting (product view), view stat data, check / analysis logs, images, screenshots and documentation. Issue report metadata is managed as issue report item and revision attributes (mostly issue report revision attributes) while issue report context data is managed as attachments to issue report revisions under different pseudo-folders (relations). Customers can customize issue report data model to manage issue metadata and context data to better fit different issue management business process models. In the OOTB configuration, problem parts are attached under the &lt;b&gt;CMHasProblemItem&lt;/b&gt; relation, and issue images are attached under the &lt;b&gt;ImageBeforeFix&lt;/b&gt; or &lt;b&gt;ImageAfterFix&lt;/b&gt; relation. Product view datasets (snapshots) are attached under the &lt;b&gt;IsM0SnapshotBeforeFix&lt;/b&gt; or &lt;b&gt;IsM0SnapshotAfterFix&lt;/b&gt; relation. General datasets can be attached under the &lt;b&gt;CMReferences&lt;/b&gt; relation. &lt;br /&gt;Issue report type, title, and description are required inputs to create new issue report. When the issue report ID is not provided, the system generates a unique ID according to the naming convention. When an issue report ID is provided and there is an existing issue report with the same ID from Teamcenter, a new revision will be created and populated with the provided issue metadata and issue context data. This operation does not copy or reference any attributes or attached objects from the existing issue report revision to the newly created issue report revision.&lt;br /&gt;The client must call the Teamcenter FMS utility to upload the file and provide the upload ticket along with the file name, dataset type, and named reference name to create a new dataset or update an existing dataset. It is recommended that the client application calls Visualization service to create and save a product view (snapshot view) dataset and provide the product view dataset under the &lt;b&gt;relationData&lt;/b&gt; when creating or updating the issue report.&lt;br /&gt;" id="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueItemsResponse#Teamcenter::Soa::IssueManagement::IssueManagement::createIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueInfo&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::createIssueItems" returnConst="false" returnDescription="Array of created issue report revisions." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueItemsResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to create issues." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueInfo" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc8000.0.1" description="This operation/function provides a mechanism for issue review board members to cast a vote on issue review and optionally perform workflow signoff task. The timing to call this SOA is when issue management workflow process perform signoff task is started. Each board member can cast one vote whether to defer or reject or approve an issue (so the issue must be assigned and fixed) or approve issue fix or re-open issue or close issue. Issue review board members are selected perform signoff users from issue management workflow process review task. Only the votes from review board members are counted by workflow action handler EPM-update-issue-status. Votes from non-members are not counted. Final decision is rendered by simple majority of votes or a percentage of votes as configured in issue management workflow template. Issue status is changed based on final decision when review task completes. Calling this SOA function alone will not change issue status directly (except that a reviewer can assign an issue to a user). A reviewer can not change vote after his or her perform signoff task is completed." id="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueResp#Teamcenter::Soa::IssueManagement::IssueManagement::reviewIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueInput&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::reviewIssues" returnConst="false" returnDescription="Review issue response that contains a list of updated issue objects." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueResp" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Review issue inputs." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc8000.0.1" description="Client calls this operation to update existing issue reports. An issue report may be populated or updated by multiple applications during its life cycle. For example, issue report metadata may be updated due to issue status changes, reviews and comments, and so on. Issue report context data may be updated with new product view datasets, documents, or markups. Out-of-date documents may be updated with new files. Irrelevant attachments may be detached. The way to pack up data to update an issue report is the same as to create an issue report." id="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueRevsResponse#Teamcenter::Soa::IssueManagement::IssueManagement::updateIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueInfo&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::updateIssueItems" returnConst="false" returnDescription="Array of updated issue revisions." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueRevsResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to update issues." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueInfo" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc8000.2.0" description="The client calls this operation to create/update/delete issue list configuration.&lt;br /&gt;The way to browse issue reports is to execute a query with properly defined query conditions. With Teamcenter Issue Management, the query and conditions can be saved as an issue list for re-use. An issue list is not a sub class of Teamcenter &lt;b&gt;Folder&lt;/b&gt;. The configuration data for an issue list is saved as a Teamcenter preference. &lt;br /&gt;There are two levels of issue lists: a system level issue list that is created by a Teamcenter administrative user and accessible to all users, or a user level issue list that is created by a user and accessible to the owning user only. By default, system level issue lists are saved in preference &lt;b&gt;ISSUE_issuelists_site&lt;/b&gt; with site protection scope. User level issue lists are saved in preference &lt;b&gt;ISSUE_issuelists_user&lt;/b&gt; with user protection scope. The services client can specify a different preference name for system level or user level issue lists. An issue list can be set as visible or invisible by its owning user. Visible issue lists are accessible. Invisible issue lists can't be expanded (not accessible). &lt;br /&gt;The Issue Management service client application should not assume that an issue report can be created under a selected issue list. An issue list doesn't reference (or contain) any issue reports till the query is executed. The client must refresh the issue list (re-execute the query) whenever necessary.&lt;br /&gt;&lt;br /&gt;" id="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::ConfigIssueListsResp#Teamcenter::Soa::IssueManagement::IssueManagement::configureIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::configureIssueLists" returnConst="false" returnDescription="Array of issue list configurations." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::ConfigIssueListsResp" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to configure issue lists." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc8000.2.0" description="The client calls this operation to get configuration data for all accessible issue lists for the current user or to expand one issue list.&lt;br /&gt;The client needs to get all accessible issue lists configuration data to construct the issue list management UI for the current user. Accessible issue lists include system level lists plus user level lists that are defined by current user. Invisible issue lists are not returned because these issue lists are not accessible. &lt;br /&gt;This operation can also be called to expand one issue list. Expanding an issue list means to execute the query with the conditions configured for the issue list and return issue report revision objects to the client. In cases where this may cause performance degradation, and the client application is capable of lazy-loading issue report revision objects, the client is recommended to leverage the Teamcenter query service to get issue report revision object UIDs for an issue list.&lt;br /&gt;&lt;br /&gt;" id="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListsResp#Teamcenter::Soa::IssueManagement::IssueManagement::getExpandIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListInput&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::getExpandIssueLists" returnConst="false" returnDescription="Array of issue list configuration and issue objects." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListsResp" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to get or expand issue lists." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc9000.0.0" description="The client calls this operation to log an issue review decision and comment to the target issue report, and to complete the issue management workflow process perform-signoff task.&lt;br /&gt;You may have multiple business processes to manage the issue life cycle (or design review process). Issue management business process can be defined as a workflow template that is configured with multiple tasks to model business tasks and handlers to update issue report statuses at the completion of a task. Teamcenter users that participate in issue life cycle management are issue report revision participants and can be auto-assigned as workflow task assignees when the issue management workflow process starts. Another option is to assign reviewers from the Teamcenter create new workflow process dialog. Workflow review tasks are commonly used to dispatch an issue management business task to selected users. Signing off on a workflow review task means that the assigned user has successfully accomplished business task and wants to complete the workflow review task. A business task may update issue report metadata or context data which is completed with various tools outside of the workflow process. This operation allows an assigned user to log the review decision and to comment on an issue and complete the workflow review task.&lt;br /&gt;When one review task is assigned to multiple users, the review task is called a board-review task and each assigned user is a member of the review board. A review decision from the review board is the decision from majority of board members. Each board member calls this operation to cast a review decision and comment. When all board members have signed off their respective review tasks, the workflow action handler &lt;b&gt;ISSUEMGT-update-issue-status&lt;/b&gt; updates issue the report status based on the review board decision. The way to configure this handler is described in Issue Management User's Guide.&lt;br /&gt;" id="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastReviewDecisionResp#Teamcenter::Soa::IssueManagement::IssueManagement::castReviewDecisionOnIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastDecisionInput&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::castReviewDecisionOnIssues" returnConst="false" returnDescription="Cast review decision response." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastReviewDecisionResp" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to cast review decisions and comments on issues." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastDecisionInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="This operation builds a BOM window based on the product view dataset, traverses the BOM window and outputs a BomWriterExport flavored PLMXML file that lists visible BOM lines and contains view stat data. The applications (for example, NX Bookmark function) that support PLMXML in BomWriterExport format can download the generated PLMXML and other files from the product view dataset to launch issue scene." id="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileResp#Teamcenter::Soa::IssueManagement::IssueManagement::getIssueSceneFiles#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileInput&gt;,&amp;" name="Teamcenter::Soa::IssueManagement::IssueManagement::getIssueSceneFiles" returnConst="false" returnDescription="This operation returns the named reference names and FMS tickets for downloading the requested files. The following partial error may be returned:&#10;261001 - Retrieve configuration context failed or the named reference does not exist&#10;261002 - Rebuild BOM window from configuration context failed.&#10;261003 - Retrieve view stat data from pv-view xml file failed.&#10;261004 - Retrieve pv-view xml file failed or the file does not exist.&#10;261005 - Retrieve pv-structure xml file failed or the file does not exist.&#10;261006 - Generate BomWriterExport flavored PLMXML file failed.&#10;261007 - Download file failed." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileResp" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Inputs to get issue scene files." freeOutputMemory="false" inputOutput="Input" name="inputs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc9000.0.0" dependencies="" description="The client calls this operation to log an issue review decision and comment to the target issue report, and to complete the issue management workflow process perform-signoff task.&lt;br /&gt;You may have multiple business processes to manage the issue life cycle (or design review process). Issue management business process can be defined as a workflow template that is configured with multiple tasks to model business tasks and handlers to update issue report statuses at the completion of a task. Teamcenter users that participate in issue life cycle management are issue report revision participants and can be auto-assigned as workflow task assignees when the issue management workflow process starts. Another option is to assign reviewers from the Teamcenter create new workflow process dialog. Workflow review tasks are commonly used to dispatch an issue management business task to selected users. Signing off on a workflow review task means that the assigned user has successfully accomplished business task and wants to complete the workflow review task. A business task may update issue report metadata or context data which is completed with various tools outside of the workflow process. This operation allows an assigned user to log the review decision and to comment on an issue and complete the workflow review task.&lt;br /&gt;When one review task is assigned to multiple users, the review task is called a board-review task and each assigned user is a member of the review board. A review decision from the review board is the decision from majority of board members. Each board member calls this operation to cast a review decision and comment. When all board members have signed off their respective review tasks, the workflow action handler &lt;b&gt;ISSUEMGT-update-issue-status&lt;/b&gt; updates issue the report status based on the review board decision. The way to configure this handler is described in Issue Management User's Guide.&lt;br /&gt;" exceptionCondition="" id="castReviewDecisionOnIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastDecisionInput&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="castReviewDecisionOnIssues" opTemplate="Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastReviewDecisionResp#Teamcenter::Soa::IssueManagement::IssueManagement::castReviewDecisionOnIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2011_06::IssueManagement::CastDecisionInput&gt;,&amp;" returnDescription="Cast review decision response." useCase="Please refer to the OOTB issue lifecycle workflow template. Users who are assignees to the &lt;b&gt;Review Issue&lt;/b&gt; and &lt;b&gt;Final Review&lt;/b&gt; tasks will call this operation to log the review decision and to comment on the target issue report. The rich client or the thin client &lt;b&gt;Review Issue&lt;/b&gt; dialog calls this operation.">
+                 
+            <ParameterInfo description="Inputs to cast review decisions and comments on issues." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc8000.2.0" dependencies="" description="The client calls this operation to create/update/delete issue list configuration.&lt;br /&gt;The way to browse issue reports is to execute a query with properly defined query conditions. With Teamcenter Issue Management, the query and conditions can be saved as an issue list for re-use. An issue list is not a sub class of Teamcenter &lt;b&gt;Folder&lt;/b&gt;. The configuration data for an issue list is saved as a Teamcenter preference. &lt;br /&gt;There are two levels of issue lists: a system level issue list that is created by a Teamcenter administrative user and accessible to all users, or a user level issue list that is created by a user and accessible to the owning user only. By default, system level issue lists are saved in preference &lt;b&gt;ISSUE_issuelists_site&lt;/b&gt; with site protection scope. User level issue lists are saved in preference &lt;b&gt;ISSUE_issuelists_user&lt;/b&gt; with user protection scope. The services client can specify a different preference name for system level or user level issue lists. An issue list can be set as visible or invisible by its owning user. Visible issue lists are accessible. Invisible issue lists can't be expanded (not accessible). &lt;br /&gt;The Issue Management service client application should not assume that an issue report can be created under a selected issue list. An issue list doesn't reference (or contain) any issue reports till the query is executed. The client must refresh the issue list (re-execute the query) whenever necessary.&lt;br /&gt;&lt;br /&gt;" exceptionCondition="" id="configureIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="configureIssueLists" opTemplate="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::ConfigIssueListsResp#Teamcenter::Soa::IssueManagement::IssueManagement::configureIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::IssueListConfigData&gt;,&amp;" returnDescription="Array of issue list configurations." useCase="The user can create an issue list to list all issues reported for a &lt;b&gt;Detail Review&lt;/b&gt; gate. The user can use saved query &lt;b&gt;__find_issue_objects&lt;/b&gt;, set query condition design review gate to &lt;b&gt;Detail Review&lt;/b&gt;. Save the issue list as user level which is accessible for owning user only.">
+                 
+            <ParameterInfo description="Inputs to configure issue lists." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc8000.0.1" dependencies="" description="A client calls this operation to create issue reports. An issue report contains two categories of data to describe a problem: issue metadata which can be issue report ID, title, description, severity level, disposition and so on; issue context data which can be problem parts, issue scene setting (product view), view stat data, check / analysis logs, images, screenshots and documentation. Issue report metadata is managed as issue report item and revision attributes (mostly issue report revision attributes) while issue report context data is managed as attachments to issue report revisions under different pseudo-folders (relations). Customers can customize issue report data model to manage issue metadata and context data to better fit different issue management business process models. In the OOTB configuration, problem parts are attached under the &lt;b&gt;CMHasProblemItem&lt;/b&gt; relation, and issue images are attached under the &lt;b&gt;ImageBeforeFix&lt;/b&gt; or &lt;b&gt;ImageAfterFix&lt;/b&gt; relation. Product view datasets (snapshots) are attached under the &lt;b&gt;IsM0SnapshotBeforeFix&lt;/b&gt; or &lt;b&gt;IsM0SnapshotAfterFix&lt;/b&gt; relation. General datasets can be attached under the &lt;b&gt;CMReferences&lt;/b&gt; relation. &lt;br /&gt;Issue report type, title, and description are required inputs to create new issue report. When the issue report ID is not provided, the system generates a unique ID according to the naming convention. When an issue report ID is provided and there is an existing issue report with the same ID from Teamcenter, a new revision will be created and populated with the provided issue metadata and issue context data. This operation does not copy or reference any attributes or attached objects from the existing issue report revision to the newly created issue report revision.&lt;br /&gt;The client must call the Teamcenter FMS utility to upload the file and provide the upload ticket along with the file name, dataset type, and named reference name to create a new dataset or update an existing dataset. It is recommended that the client application calls Visualization service to create and save a product view (snapshot view) dataset and provide the product view dataset under the &lt;b&gt;relationData&lt;/b&gt; when creating or updating the issue report.&lt;br /&gt;" exceptionCondition="" id="createIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueInfo&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="createIssueItems" opTemplate="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueItemsResponse#Teamcenter::Soa::IssueManagement::IssueManagement::createIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::CreateIssueInfo&gt;,&amp;" returnDescription="Array of created issue report revisions." useCase="The NX Check-Mate application integrates with Teamcenter Issue Management to log an issue report when the part fails a Check-Mate check. The client provides an issue title (that is related to the Check-Mate checker name), a description (that is related to the Check-Mate checker description), a log file as a general dataset to be attached under the &lt;b&gt;CMReferences&lt;/b&gt; relation, and a part that is to be attached under the &lt;b&gt;CMHasProblemItem&lt;/b&gt; relation. The client can also capture the current assembly / part scene as a product view dataset and attachs the dataset under the &lt;b&gt;IsM0SnapshotBeforeFix&lt;/b&gt; relation. In this use case, a log file is provided as &lt;b&gt;generalDatasets&lt;/b&gt;, and an issue scene dataset is provided as a &lt;b&gt;relationData&lt;/b&gt; object.">
+                 
+            <ParameterInfo description="Inputs to create issues." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc8000.2.0" dependencies="" description="The client calls this operation to get configuration data for all accessible issue lists for the current user or to expand one issue list.&lt;br /&gt;The client needs to get all accessible issue lists configuration data to construct the issue list management UI for the current user. Accessible issue lists include system level lists plus user level lists that are defined by current user. Invisible issue lists are not returned because these issue lists are not accessible. &lt;br /&gt;This operation can also be called to expand one issue list. Expanding an issue list means to execute the query with the conditions configured for the issue list and return issue report revision objects to the client. In cases where this may cause performance degradation, and the client application is capable of lazy-loading issue report revision objects, the client is recommended to leverage the Teamcenter query service to get issue report revision object UIDs for an issue list.&lt;br /&gt;&lt;br /&gt;" exceptionCondition="" id="getExpandIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListInput&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getExpandIssueLists" opTemplate="Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListsResp#Teamcenter::Soa::IssueManagement::IssueManagement::getExpandIssueLists#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2010_04::IssueManagement::GetIssueListInput&gt;,&amp;" returnDescription="Array of issue list configuration and issue objects." useCase="NX Issue Tracking constructs a user interface showing accessible issue lists for the current user. When the user clicks to expand a selected issue list, the client code calls this operation with the selected issue list name and expandList = TRUE. Issue report revision objects are returned to the NX application.">
+                 
+            <ParameterInfo description="Inputs to get or expand issue lists." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc10000.1.0" dependencies="" description="This operation builds a BOM window based on the product view dataset, traverses the BOM window and outputs a BomWriterExport flavored PLMXML file that lists visible BOM lines and contains view stat data. The applications (for example, NX Bookmark function) that support PLMXML in BomWriterExport format can download the generated PLMXML and other files from the product view dataset to launch issue scene." exceptionCondition="" id="getIssueSceneFiles#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileInput&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIssueSceneFiles" opTemplate="Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileResp#Teamcenter::Soa::IssueManagement::IssueManagement::getIssueSceneFiles#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2013_05::IssueManagement::GetIssueSceneFileInput&gt;,&amp;" returnDescription="This operation returns the named reference names and FMS tickets for downloading the requested files. The following partial error may be returned:&#10;261001 - Retrieve configuration context failed or the named reference does not exist&#10;261002 - Rebuild BOM window from configuration context failed.&#10;261003 - Retrieve view stat data from pv-view xml file failed.&#10;261004 - Retrieve pv-view xml file failed or the file does not exist.&#10;261005 - Retrieve pv-structure xml file failed or the file does not exist.&#10;261006 - Generate BomWriterExport flavored PLMXML file failed.&#10;261007 - Download file failed." useCase="NX Issue Tracking provides the functionalities to browse, capture and launch issue reports from NX environment in managed mode. NX calls this function with a product view dataset which is the snapshot for the issue. A generated BomWriterExport flavored PLMXML and other files can be downloaded and launch into NX to re-build issue scene.">
+                 
+            <ParameterInfo description="Inputs to get issue scene files." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc8000.0.1" dependencies="" description="This operation/function provides a mechanism for issue review board members to cast a vote on issue review and optionally perform workflow signoff task. The timing to call this SOA is when issue management workflow process perform signoff task is started. Each board member can cast one vote whether to defer or reject or approve an issue (so the issue must be assigned and fixed) or approve issue fix or re-open issue or close issue. Issue review board members are selected perform signoff users from issue management workflow process review task. Only the votes from review board members are counted by workflow action handler EPM-update-issue-status. Votes from non-members are not counted. Final decision is rendered by simple majority of votes or a percentage of votes as configured in issue management workflow template. Issue status is changed based on final decision when review task completes. Calling this SOA function alone will not change issue status directly (except that a reviewer can assign an issue to a user). A reviewer can not change vote after his or her perform signoff task is completed." exceptionCondition="" id="reviewIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueInput&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="reviewIssues" opTemplate="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueResp#Teamcenter::Soa::IssueManagement::IssueManagement::reviewIssues#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::ReviewIssueInput&gt;,&amp;" returnDescription="Review issue response that contains a list of updated issue objects." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="Use the castReviewDecisionOnIssues operation from the _2011_06 namespace." deprecatedRelease="tc9000.0.0"/>
+                 
+            <ParameterInfo description="Review issue inputs." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="IsM0IssueManagement" createRelease="tc8000.0.1" dependencies="" description="Client calls this operation to update existing issue reports. An issue report may be populated or updated by multiple applications during its life cycle. For example, issue report metadata may be updated due to issue status changes, reviews and comments, and so on. Issue report context data may be updated with new product view datasets, documents, or markups. Out-of-date documents may be updated with new files. Irrelevant attachments may be detached. The way to pack up data to update an issue report is the same as to create an issue report." exceptionCondition="" id="updateIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueInfo&gt;,&amp;" interface="Teamcenter::Soa::IssueManagement::IssueManagement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="updateIssueItems" opTemplate="Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueRevsResponse#Teamcenter::Soa::IssueManagement::IssueManagement::updateIssueItems#const,std::vector&lt;Teamcenter::Soa::IssueManagement::_2009_06::IssueManagement::UpdateIssueInfo&gt;,&amp;" returnDescription="Array of updated issue revisions." useCase="The NX application may call this operation to update the issue report with a new Check-Mate log file, and issue scene dataset. The client provides the existing log file dataset, the new log file (and its upload ticket) as generalDatasets data, the new issue scene dataset as a relationData object to update the issue report for a particular Check-Mate check failure.">
+                 
+            <ParameterInfo description="Inputs to update issues." parameterName="inputs"/>
+               
+        </Operation>
+           
+        <Library createRelease="tc8000.1.0" description="Issue Management library" isThirdParty="false" name="issuemgmt" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+                 
+            <DependentOn name="cm"/>
+               
+        </Library>
+           
+        <TcClass className="ImageAfterFix" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="IssueRelation"/>
+           
+        <TcClass className="ImageBeforeFix" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="IssueRelation"/>
+           
+        <TcClass className="IsM0IssueSubset" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="IssueRelation"/>
+           
+        <TcClass className="IsM0SnapshotAfterFix" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="IssueRelation"/>
+           
+        <TcClass className="IsM0SnapshotBeforeFix" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="IssueRelation"/>
+           
+        <TcClass className="IssueRelation" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcClass className="IssueReport" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="ProblemReport"/>
+           
+        <TcClass className="IssueReportMasterS" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ProblemReportMaster"/>
+           
+        <TcClass className="IssueReportRevMasterS" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" parentClassName="ProblemReportVerMaster"/>
+           
+        <TcClass className="IssueReportRevision" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="ProblemReportRevision">
+                 
+            <TcAttribute attributeName="design_review_gate" attributeType="POM_string" description="The milestone in workflow process when the issue report is identified and captured. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="issue_category" attributeType="POM_string" description="The category of the issue report. Issues in different categories can be managed differently. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="assigned_user" attributeType="POM_typed_reference" description="The user who is assigned with the task to manage the issue. When Teamcenter workflow is leveraged for issue management, this attribute is not used. NULL value is allowed." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="User"/>
+                 
+            <TcAttribute attributeName="due_date" attributeType="POM_date" description="The date in issue life cycle management that certain task must be completed. For example, the issue must be reviewed and approved before a due date so that the issue can be assigned to a user to develop a fix before a new due date. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="issue_review_records" attributeType="POM_typed_reference" description="The voting records from all issue review team members. The records will be counted by issue management workflow handlers to determine review board decision. The review board decision drives how workflow process moves forward. See Teamcenter workflow design documentation for details on how to configure issue management handlers to workflow template. This class is not exposed to users. This classThis property is not shown to users when Issue Report Revision properties are rendered and its value (review data) is cleaned up after review board decision is determined." exportAsString="false" followOnExport="true" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="IssueReviewRecord"/>
+                 
+            <TcAttribute attributeName="ism0RacApplicationId" attributeType="POM_string" description="ID of RAC application that was used to create issue. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="256" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0RacPerspectiveId" attributeType="POM_string" description="ID of RAC perspective used to create the issue. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="256" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0NonembeddedApp" attributeType="POM_typed_reference" description="Application that was used to create issue. NULL value is allowed." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false" typedRefClassName="Tool"/>
+                 
+            <TcAttribute attributeName="ism0ClearanceId" attributeType="POM_int" description="ID of clearance incident. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceDbId" attributeType="POM_string" description="Clearance DB. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="32" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0marker_X" attributeType="POM_double" description="X coordinate of a location in space where a tag can be anchored to visualize an issue. This attribute is not exposed to users. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="false" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0marker_Y" attributeType="POM_double" description="Y coordinate of a location in space where a tag can be anchored to visualize an issue. This attribute is not exposed to users. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="false" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0marker_Z" attributeType="POM_double" description="Z coordinate of a location in space where a tag can be anchored to visualize an issue. This attribute is not exposed to users. NULL value is allowed." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="false" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0status" attributeType="POM_string" description="Issue status." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="64" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0Zone" attributeType="POM_string" description="Description of general area/zone of the product where the Issue was found. For example, Front, Back, Fuselage, Engine etc." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="256" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceLocation" attributeType="POM_string" description="The x,y,z location of the violation (2 points or a vector and a point; based on clearance type)." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceConfiguration" attributeType="POM_string" description="The name of the RevisionRule that was in effect when the clearance analysis was run." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0DateCRFirstFound" attributeType="POM_date" description="The date when the Clearance Result was first found." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0DateCRLastModified" attributeType="POM_date" description="The date when the Clearance Result was last modified." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceElement1" attributeType="POM_string" description="The first part involved in the Clearance Result." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceElement2" attributeType="POM_string" description="The second part involved in the Clearance Result." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceDbOwner" attributeType="POM_string" description="The name of the assigned user in the Clearance DB." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceType" attributeType="POM_string" description="The type of the clearance result." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="32" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceRequirement" attributeType="POM_string" description="Minimum allowed distance between 2 parts during the clearance analysis." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="32" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="ism0ClearanceResult" attributeType="POM_string" description="The distance/magnitude of the clearance violation." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="32" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <TcClass className="IssueReviewRecord" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="POM_object">
+                 
+            <TcAttribute attributeName="review_decision" attributeType="POM_string" description="Review decision can be any one of options that defined in decision type LOV. This is considered as a vote from a reviewer. The decision type that has the highest count and meets and exceeds threshold as configured in workflow template is the review board decision." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="reviewer_id" attributeType="POM_string" description="Reviewer id." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="comment" attributeType="POM_string" description="Reviewer comment." exportAsString="false" followOnExport="false" initialValue="NULL" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="128" noBackpointer="false"/>
+               
+        </TcClass>
+           
+        <OperationInputType artifactName="ImageAfterFixCreI" description="CreateInput object for &quot;ImageAfterFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="ImageAfterFixCreI" typeName="ImageAfterFixCreI"/>
+           
+        <OperationInputType artifactName="ImageAfterFixSvAI" description="SaveAsInput object for &quot;ImageAfterFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="ImageAfterFixSvAI" typeName="ImageAfterFixSvAI"/>
+           
+        <OperationInputType artifactName="ImageBeforeFixCreI" description="CreateInput object for &quot;ImageBeforeFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="ImageBeforeFixCreI" typeName="ImageBeforeFixCreI"/>
+           
+        <OperationInputType artifactName="ImageBeforeFixSvAI" description="SaveAsInput object for &quot;ImageBeforeFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="ImageBeforeFixSvAI" typeName="ImageBeforeFixSvAI"/>
+           
+        <OperationInputType artifactName="IsM0IssueSubsetCreI" description="CreateInput object for &quot;IsM0IssueSubset&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="IsM0IssueSubsetCreI" typeName="IsM0IssueSubsetCreI"/>
+           
+        <OperationInputType artifactName="IsM0IssueSubsetSvAI" description="SaveAsInput object for &quot;IsM0IssueSubset&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="IsM0IssueSubsetSvAI" typeName="IsM0IssueSubsetSvAI"/>
+           
+        <OperationInputType artifactName="IsM0SnapshotAfterFixCreI" description="CreateInput object for &quot;IsM0SnapshotAfterFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="IsM0SnapshotAfterFixCreI" typeName="IsM0SnapshotAfterFixCreI"/>
+           
+        <OperationInputType artifactName="IsM0SnapshotAfterFixSvAI" description="SaveAsInput object for &quot;IsM0SnapshotAfterFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="IsM0SnapshotAfterFixSvAI" typeName="IsM0SnapshotAfterFixSvAI"/>
+           
+        <OperationInputType artifactName="IsM0SnapshotBeforeFixCreI" description="CreateInput object for &quot;IsM0SnapshotBeforeFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="IsM0SnapshotBeforeFixCreI" typeName="IsM0SnapshotBeforeFixCreI"/>
+           
+        <OperationInputType artifactName="IsM0SnapshotBeforeFixSvAI" description="SaveAsInput object for &quot;IsM0SnapshotBeforeFix&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="IsM0SnapshotBeforeFixSvAI" typeName="IsM0SnapshotBeforeFixSvAI"/>
+           
+        <OperationInputType artifactName="IsM0ValidationResultsCreI" description="CreateInput object for &quot;IsM0ValidationResults&quot; business object" isAbstract="false" parentTypeName="IssueRelationCreI" typeClassName="IsM0ValidationResultsCreI" typeName="IsM0ValidationResultsCreI"/>
+           
+        <OperationInputType artifactName="IsM0ValidationResultsSvAI" description="SaveAsInput object for &quot;IsM0ValidationResults&quot; business object" isAbstract="false" parentTypeName="IssueRelationSvAI" typeClassName="IsM0ValidationResultsSvAI" typeName="IsM0ValidationResultsSvAI"/>
+           
+        <OperationInputType artifactName="IssueRelationCreI" description="CreateInput object for &quot;IssueRelation&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="IssueRelationCreI" typeName="IssueRelationCreI"/>
+           
+        <OperationInputType artifactName="IssueRelationSvAI" description="SaveAsInput object for &quot;IssueRelation&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="IssueRelationSvAI" typeName="IssueRelationSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportCreI" description="CreateInput object for &quot;IssueReport&quot; business object" isAbstract="false" parentTypeName="ProblemReportCreI" typeClassName="IssueReportCreI" typeName="IssueReportCreI"/>
+           
+        <OperationInputType artifactName="IssueReportMasterCreI" description="CreateInput object for &quot;IssueReportMaster&quot; business object" isAbstract="false" parentTypeName="ProblemReport MasterCreI" typeClassName="IssueReportMasterCreI" typeName="IssueReportMasterCreI"/>
+           
+        <OperationInputType artifactName="IssueReportMasterSCreI" description="CreateInput object for &quot;IssueReportMasterS&quot; business object" isAbstract="false" parentTypeName="ProblemReportMasterCreI" typeClassName="IssueReportMasterSCreI" typeName="IssueReportMasterSCreI"/>
+           
+        <OperationInputType artifactName="IssueReportMasterSSvAI" description="SaveAsInput object for &quot;IssueReportMasterS&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="IssueReportMasterSSvAI" typeName="IssueReportMasterSSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportMasterSvAI" description="SaveAsInput object for &quot;IssueReportMaster&quot; business object" isAbstract="false" parentTypeName="FormSvAI" typeClassName="IssueReportMasterSvAI" typeName="IssueReportMasterSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportRevMasterSCreI" description="CreateInput object for &quot;IssueReportRevMasterS&quot; business object" isAbstract="false" parentTypeName="ProblemReportVerMasterCreI" typeClassName="IssueReportRevMasterSCreI" typeName="IssueReportRevMasterSCreI"/>
+           
+        <OperationInputType artifactName="IssueReportRevMasterSSvAI" description="SaveAsInput object for &quot;IssueReportRevMasterS&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="IssueReportRevMasterSSvAI" typeName="IssueReportRevMasterSSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportRevisionCreI" description="CreateInput object for &quot;IssueReportRevision&quot; business object" isAbstract="false" parentTypeName="ProblemReportRevisionCreI" typeClassName="IssueReportRevisionCreI" typeName="IssueReportRevisionCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="This represents the milestone when issue is captured." fieldType="SimpleProperty" propName="design_review_gate" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Issue category." fieldType="SimpleProperty" propName="issue_category" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="IssueReportRevisionMasterCreI" description="CreateInput object for &quot;IssueReportRevisionMaster&quot; business object" isAbstract="false" parentTypeName="ProblemReportRevision MasterCreI" typeClassName="IssueReportRevisionMasterCreI" typeName="IssueReportRevisionMasterCreI"/>
+           
+        <OperationInputType artifactName="IssueReportRevisionMasterSvAI" description="SaveAsInput object for &quot;IssueReportRevisionMaster&quot; business object" isAbstract="false" parentTypeName="FormSvAI" typeClassName="IssueReportRevisionMasterSvAI" typeName="IssueReportRevisionMasterSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportRevisionRevI" description="ReviseInput object for &quot;IssueReportRevision&quot; business object" isAbstract="false" parentTypeName="ProblemReportRevisionRevI" typeClassName="IssueReportRevisionRevI" typeName="IssueReportRevisionRevI"/>
+           
+        <OperationInputType artifactName="IssueReportRevisionSvAI" description="SaveAsInput object for &quot;IssueReportRevision&quot; business object" isAbstract="false" parentTypeName="ItemRevisionSvAI" typeClassName="IssueReportRevisionSvAI" typeName="IssueReportRevisionSvAI"/>
+           
+        <OperationInputType artifactName="IssueReportSvAI" description="SaveAsInput object for &quot;IssueReport&quot; business object" isAbstract="false" parentTypeName="ItemSvAI" typeClassName="IssueReportSvAI" typeName="IssueReportSvAI"/>
+           
+        <OperationInputType artifactName="IssueReviewRecordCreI" description="CreateInput object for &quot;IssueReviewRecord&quot; business object" isAbstract="false" parentTypeName="POM_objectCreI" typeClassName="IssueReviewRecordCreI" typeName="IssueReviewRecordCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="comment." fieldType="SimpleProperty" propName="comment" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="review decision." fieldType="SimpleProperty" propName="review_decision" srcPropName=""/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="reviewer id." fieldType="SimpleProperty" propName="reviewer_id" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="IssueReviewRecordSvAI" description="SaveAsInput object for &quot;IssueReviewRecord&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="IssueReviewRecordSvAI" typeName="IssueReviewRecordSvAI"/>
+           
+        <TcForm artifactName="IssueReportMaster" description="MasterForm object for &quot;IssueReport&quot; business object" formStorageClassName="IssueReportMasterS" isAbstract="false" parentTypeName="ProblemReport Master" typeClassName="Form" typeName="IssueReportMaster"/>
+           
+        <TcForm artifactName="IssueReportRevisionMaster" description="MasterForm object for &quot;IssueReportRevision&quot; business object" formStorageClassName="IssueReportRevMasterS" isAbstract="false" parentTypeName="ProblemReportRevision Master" typeClassName="Form" typeName="IssueReportRevisionMaster"/>
+           
+        <TcStandardType artifactName="ImageAfterFix" description="Relation from issue revision to image dataset that is captured when issue solution is ready for approval. Issue approvers look for screenshots and other images from this folder to quickly review issue solution. If configured, the images from this folder and Issue Image folder can be shown as thumbnails in issue list details table from Teamcenter rich client Issue Manager plugin for quick review." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="ImageAfterFix" typeName="ImageAfterFix"/>
+           
+        <TcStandardType artifactName="ImageBeforeFix" description="Relation from issue revision to image dataset that is captured when issue is reported. Issue reviewers look for screenshots and other images from this folder to quickly review the issue. If configured, the images from this folder and Issue Fixed Image folder can be shown as thumbnails in issue list details table from Teamcenter rich client Issue Manager plugin for quick review." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="ImageBeforeFix" typeName="ImageBeforeFix"/>
+           
+        <TcStandardType artifactName="IsM0IssueSubset" description="Relation from Issue Report Revision to 4G workset that is captured when a 4G issue report is filed or updated. For 4G issue management, the workset is the context of the issue. Teamcenter Issue Management client applications or users can still capture images and attach the images under Issue Image and Issue Fix Image folders." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="IsM0IssueSubset" typeName="IsM0IssueSubset"/>
+           
+        <TcStandardType artifactName="IsM0SnapshotAfterFix" description="Relation between IssueReportRevision and TcVis Snapshot Dataset that is captured when issue is ready for approval review. The snapshot dataset can be created from TcVis issue management integration or NX issue tracking. The snapshot dataset contains issue context (structural information and camera data) and supports issue management inter-operation between TcVis and NX. TcVis markup is not currently supported by NX HD3D Issue Management." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="IsM0SnapshotAfterFix" typeName="IsM0SnapshotAfterFix"/>
+           
+        <TcStandardType artifactName="IsM0SnapshotBeforeFix" description="Relation between IssueReportRevision and TcVis Snapshot Dataset that is captured when an issue report is filed or updated. The snapshot dataset can be created from TcVis issue management integration or NX issue tracking. The snapshot dataset contains issue context (structural information and camera data) and supports issue management inter-operation between TcVis and NX. TcVis markup is not currently supported by NX issue tracking.HD3D Issue Management." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="IsM0SnapshotBeforeFix" typeName="IsM0SnapshotBeforeFix"/>
+           
+        <TcStandardType artifactName="IsM0ValidationResults" description="The relation from issue report revision to validation result objects. If configured, NX Check-Mate checks design data and files issue reports for the failed check results. The Check-Mate results are saved into Teamcenter as Validation result objects and attached under relevant issue report revision via this relation. This folder is reserved for NX Check-Mate." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="IssueRelation" typeClassName="IssueRelation" typeName="IsM0ValidationResults"/>
+           
+        <TcStandardType artifactName="IssueRelation" description="The base class for all relation classes defined in issue management template and its customization templates. For example, the Issue Image relation in issue management template inherits IssueRelation class." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="ImanRelation" typeClassName="IssueRelation" typeName="IssueRelation"/>
+           
+        <TcStandardType artifactName="IssueReport" description="The base class for issue management. It extends Problem Report class from change management template. It is expected that customized issue report class inherits Issue Report item class or its sub class. As an example, Penetration Request from penetration management template inherits Issue Report class." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="ProblemReport" typeClassName="IssueReport" typeName="IssueReport"/>
+           
+        <TcStandardType artifactName="IssueReportMasterS" description="Form Storage object for &quot;IssueReportMaster&quot; business object" isAbstract="false" parentTypeName="ProblemReportMaster" typeClassName="IssueReportMasterS" typeName="IssueReportMasterS"/>
+           
+        <TcStandardType artifactName="IssueReportRevMasterS" description="Form Storage object for &quot;IssueReportRevisionMaster&quot; business object" isAbstract="false" parentTypeName="ProblemReportVerMaster" typeClassName="IssueReportRevMasterS" typeName="IssueReportRevMasterS"/>
+           
+        <TcStandardType artifactName="IssueReportRevision" description="ItemRevision object for &quot;IssueReport&quot; business object" isAbstract="false" parentTypeName="ProblemReportRevision" typeClassName="IssueReportRevision" typeName="IssueReportRevision">
+                 
+            <TcProperty arrayLength="-1" description="Relation from issue revision to image dataset that is captured when issue solution is ready for approval. Issue approvers look for screenshots and other images from this folder to quickly review issue solution. If configured, the images from this folder and Issue Image folder can be shown as thumbnails in issue list details table from Teamcenter rich client Issue Manager plugin for quick review." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="ImageAfterFix" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="Relation from issue revision to image dataset that is captured when issue is reported. Issue reviewers look for screenshots and other images from this folder to quickly review the issue. If configured, the images from this folder and Issue Fixed Image folder can be shown as thumbnails in issue list details table from Teamcenter rich client Issue Manager plugin for quick review." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="ImageBeforeFix" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="The relation from issue report to the items (design data) that is impacted by the issue. The data from this folder helps  to investigate the scope of the issue." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="ism0CMImpactedItems" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="Relation between IssueReportRevision and TcVis Snapshot Dataset that is captured when an issue report is filed or updated. The snapshot dataset can be created from TcVis issue management integration or NX issue tracking. The snapshot dataset contains issue context (structural information and camera data) and supports issue management inter-operation between TcVis and NX. TcVis markup is not currently supported by NX HD3D Issue Management." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="IsM0SnapshotBeforeFix" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="Relation between IssueReportRevision and TcVis Snapshot Dataset that is captured when issue is ready for approval review. The snapshot dataset can be created from TcVis issue management integration or NX issue tracking. The snapshot dataset contains issue context (structural information and camera data) and supports issue management inter-operation between TcVis and NX. TcVis markup is not currently supported by NX HD3D Issue Management." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="IsM0SnapshotAfterFix" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="Relation from Issue Report Revision to 4G workset that is captured when a 4G issue report is filed or updated. For 4G issue management, the workset is the context of the issue. Teamcenter Issue Management client applications or users can still capture images and attach the images under Issue Image and Issue Fix Image folders." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="IsM0IssueSubset" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="-1" description="The relation from issue report revision to validation result objects. If configured, NX Check-Mate checks design data and files issue reports for the failed check results. The Check-Mate results are saved into Teamcenter as Validation result objects and attached under relevant issue report revision via this relation. This folder is reserved for NX Check-Mate." fnd0ReferencingAttrName="" isArray="true" propMaxStringLength="0" propName="IsM0ValidationResults" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+               
+        </TcStandardType>
+           
+        <TcStandardType artifactName="IssueReviewRecord" description="The voting records from all issue review team members. The records will be counted by issue management workflow handlers to determine review board decision. The review board decision drives how workflow process moves forward. See Teamcenter workflow design documentation for details on how to configure issue management handlers to workflow template. This class is not exposed to users or intended for customization. Issue review data is cleaned up after review board decision is determined." functionality="IsM0IssueManagement" isAbstract="false" parentTypeName="POM_object" typeClassName="IssueReviewRecord" typeName="IssueReviewRecord"/>
+           
+        <BusinessObjectInterface createRelease="tc8000.1.0" description="Interface Name for Business Object IssueReport" libraryName="issuemgmt" name="IssueReport" namespace="Teamcenter::issuemgmt" primaryInterface="true" typeName="IssueReport"/>
+           
+        <BusinessObjectInterface createRelease="tc8000.1.0" description="Interface Name for Business Object IssueReportRevision" libraryName="issuemgmt" name="IssueReportRevision" namespace="Teamcenter::issuemgmt" primaryInterface="true" typeName="IssueReportRevision"/>
+           
+        <BusinessObjectInterface createRelease="tc8000.1.0" description="Interface Name for Business Object IssueReviewRecord" libraryName="issuemgmt" name="IssueReviewRecord" namespace="Teamcenter::issuemgmt" primaryInterface="true" typeName="IssueReviewRecord"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a Tag Property" id="getAssigned_user#tag_t,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getAssigned_user" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="assigned_user" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a string Property" id="getDesign_review_gate#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getDesign_review_gate" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="design_review_gate" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a Date Property" id="getDue_date#date_t,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getDue_date" opTemplate="int#get#date_t,&amp;$bool,&amp;" operationType="Getter" propertyName="due_date" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a string Property" id="getIsm0ClearanceDbId#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0ClearanceDbId" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0ClearanceDbId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for an Integer Property" id="getIsm0ClearanceId#int,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0ClearanceId" opTemplate="int#get#int,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0ClearanceId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Double Property" id="getIsm0marker_X#double,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0marker_X" opTemplate="int#get#double,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0marker_X" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Double Property" id="getIsm0marker_Y#double,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0marker_Y" opTemplate="int#get#double,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0marker_Y" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Double Property" id="getIsm0marker_Z#double,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0marker_Z" opTemplate="int#get#double,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0marker_Z" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a Tag Property" id="getIsm0NonembeddedApp#tag_t,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0NonembeddedApp" opTemplate="int#get#tag_t,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0NonembeddedApp" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a string Property" id="getIsm0RacApplicationId#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0RacApplicationId" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0RacApplicationId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a string Property" id="getIsm0RacPerspectiveId#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0RacPerspectiveId" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0RacPerspectiveId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Getter for a string Property" id="getIsm0status#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIsm0status" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="ism0status" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a string Property" id="getIssue_category#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getIssue_category" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="issue_category" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a Tag Property" id="setAssigned_user#const,tag_t,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setAssigned_user" opTemplate="int#set#const,tag_t,&amp;$bool" operationType="Setter" propertyName="assigned_user" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a string Property" id="setDesign_review_gate#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setDesign_review_gate" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="design_review_gate" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a Date Property" id="setDue_date#const,date_t,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setDue_date" opTemplate="int#set#const,date_t,&amp;$bool" operationType="Setter" propertyName="due_date" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a string Property" id="setIsm0ClearanceDbId#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0ClearanceDbId" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="ism0ClearanceDbId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for an Integer Property" id="setIsm0ClearanceId#int$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0ClearanceId" opTemplate="int#set#int$bool" operationType="Setter" propertyName="ism0ClearanceId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Double Property" id="setIsm0marker_X#double$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0marker_X" opTemplate="int#set#double$bool" operationType="Setter" propertyName="ism0marker_X" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Double Property" id="setIsm0marker_Y#double$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0marker_Y" opTemplate="int#set#double$bool" operationType="Setter" propertyName="ism0marker_Y" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Double Property" id="setIsm0marker_Z#double$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0marker_Z" opTemplate="int#set#double$bool" operationType="Setter" propertyName="ism0marker_Z" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a Tag Property" id="setIsm0NonembeddedApp#const,tag_t,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0NonembeddedApp" opTemplate="int#set#const,tag_t,&amp;$bool" operationType="Setter" propertyName="ism0NonembeddedApp" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a string Property" id="setIsm0RacApplicationId#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0RacApplicationId" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="ism0RacApplicationId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a string Property" id="setIsm0RacPerspectiveId#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0RacPerspectiveId" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="ism0RacPerspectiveId" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc9000.0.0" description="Setter for a string Property" id="setIsm0status#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIsm0status" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="ism0status" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a string Property" id="setIssue_category#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReportRevision" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setIssue_category" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="issue_category" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a string Property" id="getComment#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getComment" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="comment" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a string Property" id="getReview_decision#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getReview_decision" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="review_decision" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Getter for a string Property" id="getReviewer_id#std::string,&amp;$bool,&amp;" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getReviewer_id" opTemplate="int#get#std::string,&amp;$bool,&amp;" operationType="Getter" propertyName="reviewer_id" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a string Property" id="setComment#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setComment" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="comment" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a string Property" id="setReview_decision#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setReview_decision" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="review_decision" returnDescription="Status. 0 if successful"/>
+           
+        <PropertyOperation canOverride="true" createRelease="tc8000.1.0" description="Setter for a string Property" id="setReviewer_id#const,std::string,&amp;$bool" interface="Teamcenter::issuemgmt::IssueReviewRecord" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setReviewer_id" opTemplate="int#set#const,std::string,&amp;$bool" operationType="Setter" propertyName="reviewer_id" returnDescription="Status. 0 if successful"/>
+           
+        <OperationAttach id="getItem_id#std::string,&amp;$bool,&amp;" typeName="IssueReport"/>
+           
+        <Condition description="This condition determines if the Issue Report is creatable by the user." expression="Condition::isTrue()" name="IsM0isIssueReportCreatable" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <TcTypeConstantAttach constantName="Cm0AnalystAssignableCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeItemCreCondition" typeName="IssueReport" value="IsM0isIssueReportCreatable"/>
+           
+        <TcTypeConstantAttach constantName="Cm0RequestorAssignableCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMHasImpactedItemCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMHasProblemItemCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMHasSolutionItemCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMHasWorkBreakdownCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMImplementsCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CMReferencesCreCondition" typeName="IssueReportRevision" value="isTrue"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="ImageAfterFix" value="ImageAfterFixCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="ImageBeforeFix" value="ImageBeforeFixCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IsM0IssueSubset" value="IsM0IssueSubsetCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IsM0SnapshotAfterFix" value="IsM0SnapshotAfterFixCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IsM0SnapshotBeforeFix" value="IsM0SnapshotBeforeFixCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IsM0ValidationResults" value="IsM0ValidationResultsCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueRelation" value="IssueRelationCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReport" value="IssueReportCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReportMaster" value="IssueReportMasterCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReportMasterS" value="IssueReportMasterSCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReportRevision" value="IssueReportRevisionCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReportRevisionMaster" value="IssueReportRevisionMasterCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReportRevMasterS" value="IssueReportRevMasterSCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="IssueReviewRecord" value="IssueReviewRecordCreI"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="IssueReviewRecord" value="true"/>
+           
+        <TcTypeConstantAttach constantName="ItemRevision" typeName="IssueReport" value="IssueReportRevision"/>
+           
+        <TcTypeConstantAttach constantName="MasterForm" typeName="IssueReport" value="IssueReportMaster"/>
+           
+        <TcTypeConstantAttach constantName="MasterForm" typeName="IssueReportRevision" value="IssueReportRevisionMaster"/>
+           
+        <TcTypeConstantAttach constantName="ReviseInput" typeName="IssueReportRevision" value="IssueReportRevisionRevI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="ImageAfterFix" value="ImageAfterFixSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="ImageBeforeFix" value="ImageBeforeFixSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IsM0IssueSubset" value="IsM0IssueSubsetSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IsM0SnapshotAfterFix" value="IsM0SnapshotAfterFixSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IsM0SnapshotBeforeFix" value="IsM0SnapshotBeforeFixSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IsM0ValidationResults" value="IsM0ValidationResultsSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueRelation" value="IssueRelationSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReport" value="IssueReportSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReportMaster" value="IssueReportMasterSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReportMasterS" value="IssueReportMasterSSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReportRevision" value="IssueReportRevisionSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReportRevisionMaster" value="IssueReportRevisionMasterSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReportRevMasterS" value="IssueReportRevMasterSSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="IssueReviewRecord" value="IssueReviewRecordSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="assigned_user" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="design_review_gate" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="due_date" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceDbId" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceId" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0NonembeddedApp" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0RacApplicationId" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0RacPerspectiveId" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="IsM0ValidationResults" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="issue_category" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="assigned_user" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="design_review_gate" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="due_date" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceDbId" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceId" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0CMImpactedItems" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="IsM0IssueSubset" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0marker_X" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0marker_Y" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0marker_Z" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0NonembeddedApp" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0RacApplicationId" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0RacPerspectiveId" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0status" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="IsM0ValidationResults" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="issue_category" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="issue_review_records" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="comment" typeName="IssueReviewRecord" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="review_decision" typeName="IssueReviewRecord" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="reviewer_id" typeName="IssueReviewRecord" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="comment" typeName="IssueReviewRecordCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="review_decision" typeName="IssueReviewRecordCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="reviewer_id" typeName="IssueReviewRecordCreI" value="true"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="ImageAfterFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="ImageBeforeFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="IsM0SnapshotAfterFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="IsM0SnapshotBeforeFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="false" isTargetPrimary="true" objectTypeName="ValidationResult" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="IsM0ValidationResults" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="ImageAfterFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="ImageBeforeFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="IsM0SnapshotAfterFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="CopyAsObject" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Dataset" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="IsM0SnapshotBeforeFix" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="false" isTargetPrimary="true" objectTypeName="ValidationResult" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="IsM0ValidationResults" secured="true" typeName="IssueReportRevision"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="ImageAfterFix" secondaryCardinality="-1" secondaryTypeName="Dataset" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="ImageBeforeFix" secondaryCardinality="-1" secondaryTypeName="Dataset" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0SnapshotAfterFix" secondaryCardinality="-1" secondaryTypeName="SnapShotViewData" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0SnapshotBeforeFix" secondaryCardinality="-1" secondaryTypeName="SnapShotViewData" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0ValidationResults" secondaryCardinality="-1" secondaryTypeName="ValidationResult" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0SnapshotAfterFix" secondaryCardinality="-1" secondaryTypeName="Vis_Snapshot_2D_View_Data" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0SnapshotBeforeFix" secondaryCardinality="-1" secondaryTypeName="Vis_Snapshot_2D_View_Data" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="-1" primaryTypeName="IssueReportRevision" relationTypeName="IsM0IssueSubset" secondaryCardinality="-1" secondaryTypeName="WorkspaceObject" secured="false"/>
+           
+        <TcNamingRuleAttach case="Mix" conditionName="isTrue" description="" override="false" propertyName="item_id" ruleName="Default IssueReport ID Rule" ruleType="NamingRule" typeName="IssueReport"/>
+           
+        <TcLOVAttach lovName="Design Review Gate" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="true" valuePropertyName="design_review_gate"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="IsM0Tool For Issue" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="ism0NonembeddedApp"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Issue Category" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="issue_category"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Owning User names" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="assigned_user"/>
+               
+        </TcLOVAttach>
+           
+        <Condition description="Was the IssueReportRevision created from a Clearance Result?" expression="o.ism0ClearanceType != &quot;&quot;" name="IsM0IsClearanceIssueReport" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="IssueReportRevision"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceConfiguration" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceDbOwner" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceElement1" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceElement2" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceLocation" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceRequirement" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceResult" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0ClearanceType" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0DateCRFirstFound" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0DateCRLastModified" typeName="IssueReportRevision" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="ism0Zone" typeName="IssueReportRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceConfiguration" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceDbOwner" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceElement1" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceElement2" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceLocation" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceRequirement" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceResult" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0ClearanceType" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0DateCRFirstFound" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0DateCRLastModified" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="ism0Zone" typeName="IssueReportRevision" value="Write"/>
+           
+        <TcLOV description="The priority of the Clearance Result based Issue." lovType="ListOfValuesString" name="IsM0ClearancePriority" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="No priority set" value="1"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Low priority" value="2"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Medium priority" value="3"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="High priority" value="4"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="The type of the clearance result." lovType="ListOfValuesString" name="IsM0ClearanceType" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="The 2 parts penetrate each other." value="P"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="The 2 parts are in contact but do not penetrate." value="C"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="The 2 parts are closer than allowed." value="D"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="The 2 parts are exactly the same." value="Dup"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Further analysis is required to classify as a contact or penetration." value="U"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="The 2 parts are in violation when material thickness is in consideration." value="T"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="One part is fully contained within the other." value="FC"/>
+               
+        </TcLOV>
+           
+        <TcLOVAttach lovName="IsM0ClearancePriority" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="IsM0IsClearanceIssueReport" level="0" override="false" valuePropertyName="CMSeverityRating"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="IsM0ClearanceType" typeName="IssueReportRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="ism0ClearanceType"/>
+               
+        </TcLOVAttach>
+           
+        <Functionality description="Teamcenter Issue Management is an application that allows users to capture issue, share issue data and collaborate on the business process to resolve issue in product life management." displayName="Issue Management" enabledForVerificationRules="false" name="IsM0IssueManagement"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

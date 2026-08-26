@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="ko_KR" status="Approved">규칙 검색 제공자</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="ko_KR" status="Approved">일정 검색 제공자</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="ko_KR" status="Approved">일정 타스크 검색 제공자</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="ko_KR" status="Approved">Finish-to-Finish</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="ko_KR" status="Approved">Finish-to-Start</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="ko_KR" status="Approved">Phase-Gate</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="ko_KR" status="Approved">Start-to-Finish</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="ko_KR" status="Approved">Start-to-Start</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ko_KR" status="Approved">일정 실행 및 계획 속성을 변경할 수 있는 사용자.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="ko_KR" status="Approved">일정 및 타스크를 볼 수 있지만 속성은 수정할 수 없는 사용자.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="ko_KR" status="Approved">타스크 실행 속성을 변경할 수 있는 사용자.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="ko_KR" status="Approved">시간 단위(일).</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="ko_KR" status="Approved">시간 단위(시간).</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="ko_KR" status="Approved">시간 단위(개월).</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="ko_KR" status="Approved">시간 단위(주).</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="ko_KR" status="Approved">최대한 늦게 </key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="ko_KR" status="Approved">최대한 빨리</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="ko_KR" status="Approved">고정됨</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="ko_KR" status="Approved">구속조건 없음</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="ko_KR" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="ko_KR" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="ko_KR" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="ko_KR" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="ko_KR" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="ko_KR" status="Approved">고정 기간</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="ko_KR" status="Approved">고정 리소스</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="ko_KR" status="Approved">고정 작업</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="ko_KR" status="Approved">가장 높음</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="ko_KR" status="Approved">높음</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="ko_KR" status="Approved">가장 낮음</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="ko_KR" status="Approved">낮음</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="ko_KR" status="Approved">조금 낮음</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="ko_KR" status="Approved">중간</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="ko_KR" status="Approved">매우 높음</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="ko_KR" status="Approved">코디네이터</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="ko_KR" status="Approved">관찰자</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="ko_KR" status="Approved">참가자</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="ko_KR" status="Approved">일(d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="ko_KR" status="Approved">시간(h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="ko_KR" status="Approved">개월(mo)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="ko_KR" status="Approved">주(w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="ko_KR" status="Approved">예정된 시작일과 전승자가 모두 완료되었습니다.</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="ko_KR" status="Approved">예정된 시작일과 전승자 중 하나가 완료되었습니다.</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="ko_KR" status="Approved">워크플로 트리거가 없습니다.</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="ko_KR" status="Approved">전승자 완료</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="ko_KR" status="Approved">예정된 시작일</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="ko_KR" status="Approved">유형</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="ko_KR" status="Approved">권한 있는 사용자</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="ko_KR" status="Approved">일정 완료일</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="ko_KR" status="Approved">일정 내 역할</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="ko_KR" status="Approved">사용자 상태</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="ko_KR" status="Approved">결과물 수</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="ko_KR" status="Approved">기간</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="ko_KR" status="Approved">일정 변경 계획 아이템</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="ko_KR" status="Approved">템플릿 타스크</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="ko_KR" status="Approved">전승자 종속성</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="ko_KR" status="Approved">전승자</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="ko_KR" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="ko_KR" status="Approved">계승자 종속성</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="ko_KR" status="Approved">계승자</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="ko_KR" status="Approved">작업 완료</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="ko_KR" status="Approved">작업량</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="ko_KR" status="Approved">남은 작업</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="ko_KR" status="Approved">워크플로 템플릿</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="ko_KR" status="Approved">워크플로 트리거</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="ko_KR" status="Approved">계획 작업량</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="ko_KR" status="Approved">마스터 일정</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="ko_KR" status="Approved">실제 완료일</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="ko_KR" status="Approved">실제 시작일</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="ko_KR" status="Approved">작업 완료율(퍼센트)</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="ko_KR" status="Approved">상태</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="ko_KR" status="Approved">상태</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="ko_KR" status="Approved">작업 완료</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="ko_KR" status="Approved">작업량</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="ko_KR" status="Approved">일정 구성원</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="ko_KR" status="Approved">시간 측정 단위</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="ko_KR" status="Approved">유형</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="ko_KR" status="Approved">지체</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="ko_KR" status="Approved">항목 상태</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="ko_KR" status="Approved">가장 높음</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="ko_KR" status="Approved">높음</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="ko_KR" status="Approved">가장 낮음</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="ko_KR" status="Approved">낮음</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="ko_KR" status="Approved">조금 낮음</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="ko_KR" status="Approved">중간</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="ko_KR" status="Approved">매우 높음</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="ko_KR" status="Approved">결과물 추가</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="ko_KR" status="Approved">구성원 추가</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="ko_KR" status="Approved">산출물 추가</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="ko_KR" status="Approved">리소스 할당</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="ko_KR" status="Approved">리소스 할당</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="ko_KR" status="Approved">베이스라인 일정</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="ko_KR" status="Approved">취소</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="ko_KR" status="Approved">종속성 생성</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="ko_KR" status="Approved">일정 타스크 추가</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="ko_KR" status="Approved">다른 이름으로 저장</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="ko_KR" status="Approved">일정 타스크 추가</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="ko_KR" status="Approved">일정 생성</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="ko_KR" status="Approved">잘라내기</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="ko_KR" status="Approved">종속성 삭제</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="ko_KR" status="Approved">일정 삭제</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="ko_KR" status="Approved">타스크 삭제</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="ko_KR" status="Approved">타스크 들여쓰기</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="ko_KR" status="Approved">하위 일정 삽입</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="ko_KR" status="Approved">워크플로 실행</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="ko_KR" status="Approved">월</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="ko_KR" status="Approved">타스크 내어쓰기</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="ko_KR" status="Approved">수준 올리기</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="ko_KR" status="Approved">분기</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="ko_KR" status="Approved">재계산</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="ko_KR" status="Approved">할당 제거</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="ko_KR" status="Approved">결과물 제거</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="ko_KR" status="Approved">구성원 제거</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="ko_KR" status="Approved">제거</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="ko_KR" status="Approved">타스크 재할당</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="ko_KR" status="Approved">교대</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="ko_KR" status="Approved">임계 경로 표시</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="ko_KR" status="Approved">가상 해석 시작</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="ko_KR" status="Approved">리소스 할당 취소</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="ko_KR" status="Approved">주</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="ko_KR" status="Approved">년</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="ko_KR" status="Approved">이 조건은 구성원 추가 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="ko_KR" status="Approved">이 조건은 일정 결과물 추가 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="ko_KR" status="Approved">이 조건은 리소스 할당 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 여러 타스크에 리소스 할당 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="ko_KR" status="Approved">이 조건은 베이스라인 일정 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="ko_KR" status="Approved">이 조건은 종속성 생성 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 일정 타스크 생성 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="ko_KR" status="Approved">이 조건은 "일정 생성" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="ko_KR" status="Approved">이 조건은 템플릿에서 일정 생성 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="ko_KR" status="Approved">이 조건은 일정 타스크 잘라내기 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="ko_KR" status="Approved">이 조건은 선택한 개체가 일정 유형인지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 선택한 개체가 일정 타스크 유형인지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="ko_KR" status="Approved">이 조건은 "종속성" 하위 위치의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 타스크 들여쓰기 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="ko_KR" status="Approved">이 조건은 "하위 일정 삽입" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="ko_KR" status="Approved">이 조건은 "워크플로 실행" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 타스크 내어쓰기 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="ko_KR" status="Approved">이 조건은 "가상 해석 수준 올리기" 및 "가상 해석 취소" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="ko_KR" status="Approved">이 조건은 "다시 계산" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="ko_KR" status="Approved">이 조건은 할당 제거 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="ko_KR" status="Approved">이 조건은 "일정 결과물 제거" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="ko_KR" status="Approved">이 조건은 구성원 제거 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="ko_KR" status="Approved">이 조건은 "타스크 결과물 제거" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="ko_KR" status="Approved">이 조건은 구성원 교체 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="ko_KR" status="Approved">이 조건은 일정 이동 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="ko_KR" status="Approved">이 조건은 "임계 경로 숨기기 표시" 명령의 가시성을 결정합니다</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="ko_KR" status="Approved">이 조건은 "가상 해석 시작" 명령의 가시성을 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="ko_KR" status="Approved">이 조건은 리소스 할당 취소 명령의 가시성을 결정합니다.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

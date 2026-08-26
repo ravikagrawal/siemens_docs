@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="uk_UA" status="Approved">Провайдер пошуку дисциплін</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="uk_UA" status="Approved">Постачальник пошуку розкладу</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="uk_UA" status="Approved">Постачальник пошуку запланованих завдань</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="uk_UA" status="Approved">Завершення-завершення</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="uk_UA" status="Approved">Завершення-початок</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="uk_UA" status="Approved">Етапно-шлюзовий процес</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="uk_UA" status="Approved">Від початку до кінця</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="uk_UA" status="Approved">Початок-початок</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="uk_UA" status="Approved">Користувач, який може змінювати властивості виконання та планування розкладу.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="uk_UA" status="Approved">Користувач, який може переглядати розклад і завдання, але не може змінювати жодних властивостей.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="uk_UA" status="Approved">Користувач, який може змінювати властивості виконання завдання.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="uk_UA" status="Approved">Одиниця часу в днях</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="uk_UA" status="Approved">Одиниця часу в годинах.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="uk_UA" status="Approved">Одиниця часу у місяцях.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="uk_UA" status="Approved">Одиниця часу: тижні.</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="uk_UA" status="Approved">Якнайпізніше</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="uk_UA" status="Approved">Якнайшвидше</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="uk_UA" status="Approved">Виправлено</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="uk_UA" status="Approved">Без обмежень</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="uk_UA" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="uk_UA" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="uk_UA" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="uk_UA" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="uk_UA" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="uk_UA" status="Approved">Фіксована тривалість</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="uk_UA" status="Approved">Фіксований ресурс</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="uk_UA" status="Approved">Фіксована заготовка</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="uk_UA" status="Approved">Найвищий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="uk_UA" status="Approved">Високий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="uk_UA" status="Approved">Найнижчий</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="uk_UA" status="Approved">Низький</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="uk_UA" status="Approved">Середньо-низький</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="uk_UA" status="Approved">Середній</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="uk_UA" status="Approved">Дуже високий</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="uk_UA" status="Approved">Координатор</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="uk_UA" status="Approved">Спостерігач</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="uk_UA" status="Approved">Учасник</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="uk_UA" status="Approved">Дні (d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="uk_UA" status="Approved">Години (h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="uk_UA" status="Approved">Місяці (міс.)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="uk_UA" status="Approved">Тижні (w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="uk_UA" status="Approved">Наступила запланована дата початку та завершені попередні завдання</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="uk_UA" status="Approved">Або запланована дата початку або завершення попередніх завдань</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="uk_UA" status="Approved">Немає тригера робочого процесу</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="uk_UA" status="Approved">Попередні операції завершено</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="uk_UA" status="Approved">Запланована дата початку</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="uk_UA" status="Approved">Тип</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="uk_UA" status="Approved">Користувач із розширеними правами</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="uk_UA" status="Approved">Дата завершення розкладу</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="uk_UA" status="Approved">Роль у графіку</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="uk_UA" status="Approved">Статус користувача</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="uk_UA" status="Approved">Кількість результатів</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="uk_UA" status="Approved">Тривалість</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="uk_UA" status="Approved">Елемент плану зміни графіка</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="uk_UA" status="Approved">Шаблонне завдання</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="uk_UA" status="Approved">Залежність попередника</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="uk_UA" status="Approved">Попередники</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="uk_UA" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="uk_UA" status="Approved">Залежність наступника</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="uk_UA" status="Approved">Наступники</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="uk_UA" status="Approved">Роботу завершено</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="uk_UA" status="Approved">Трудомісткість</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="uk_UA" status="Approved">Робота, що залишилася</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="uk_UA" status="Approved">Шаблон робочого процесу</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="uk_UA" status="Approved">Тригер робочого процесу</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="uk_UA" status="Approved">Планова трудомісткість</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="uk_UA" status="Approved">Головні графіки</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="uk_UA" status="Approved">Фактична дата завершення</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="uk_UA" status="Approved">Дата фактичного початку</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="uk_UA" status="Approved">Відсоток виконання роботи</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="uk_UA" status="Approved">Стан</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="uk_UA" status="Approved">Статус</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="uk_UA" status="Approved">Роботу завершено</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="uk_UA" status="Approved">Трудомісткість</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="uk_UA" status="Approved">Елементи розкладу</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="uk_UA" status="Approved">Одиниця виміру часу</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="uk_UA" status="Approved">Тип</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="uk_UA" status="Approved">Затримка</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="uk_UA" status="Approved">Статус запису</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="uk_UA" status="Approved">Найвищий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="uk_UA" status="Approved">Високий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="uk_UA" status="Approved">Найнижчий</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="uk_UA" status="Approved">Низький</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="uk_UA" status="Approved">Середньо-низький</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="uk_UA" status="Approved">Середній</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="uk_UA" status="Approved">Дуже високий</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="uk_UA" status="Approved">Додати результат</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="uk_UA" status="Approved">Додати компонент</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="uk_UA" status="Approved">Додати результат</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="uk_UA" status="Approved">Призначити ресурс</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="uk_UA" status="Approved">Призначити ресурс</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="uk_UA" status="Approved">Базовий графік</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="uk_UA" status="Approved">Скасувати</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="uk_UA" status="Approved">Створити Залежність</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="uk_UA" status="Approved">Додати Заплановане Завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="uk_UA" status="Approved">Зберегти як</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="uk_UA" status="Approved">Додати заплановане завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="uk_UA" status="Approved">Створити графік</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="uk_UA" status="Approved">Вирізати</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="uk_UA" status="Approved">Видалити залежність</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="uk_UA" status="Approved">Видалити графіки</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="uk_UA" status="Approved">Видалити завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="uk_UA" status="Approved">Відступити завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="uk_UA" status="Approved">Вставити Підрозклад</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="uk_UA" status="Approved">Запустити Робочий Процес</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="uk_UA" status="Approved">Місяць</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="uk_UA" status="Approved">Зменшити відступ завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="uk_UA" status="Approved">Підвищити</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="uk_UA" status="Approved">Чверть</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="uk_UA" status="Approved">Перерахувати</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="uk_UA" status="Approved">Видалити призначення</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="uk_UA" status="Approved">Видалити результат</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="uk_UA" status="Approved">Видалити елемент</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="uk_UA" status="Approved">Видалити</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="uk_UA" status="Approved">Перепризначити завдання</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="uk_UA" status="Approved">Shift</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="uk_UA" status="Approved">Показати критичний шлях</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="uk_UA" status="Approved">Розпочати аналіз "що-якщо"</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="uk_UA" status="Approved">Скасувати призначення ресурсу</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="uk_UA" status="Approved">Тиждень</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="uk_UA" status="Approved">Рік</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Додати компонент".</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Додати результат розкладу"</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Призначити ресурс".</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Призначити ресурс кільком завданням".</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Базовий графік"</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Створити залежність".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Створити заплановане завдання".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Створити розклад".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Створити розклад із шаблону".</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Завдання розкладу різання".</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи є вибраний об'єкт типом "Розклад".</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи є вибраний об'єкт типом "Завдання розкладу".</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команд у підрозділах "Залежність".</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Відступити завдання".</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Вставити підрозклад".</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Запустити робочий процес".</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Зменшити відступ завдання".</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команд "Застосувати аналіз Що, якщо?" та "Скасувати аналіз Що, якщо?"</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Перерахувати".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="uk_UA" status="Approved">Умова визначає видимість команди "Видалити призначення".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Видалити елемент розкладу".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Видалити елемент".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Видалити результат завдання"</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Замінити компонент".</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Графік змін".</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Показати/Приховати критичний шлях"</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Запустити аналіз що якщо".</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="uk_UA" status="Approved">Ця умова визначає видимість команди "Скасувати призначення ресурсу".</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

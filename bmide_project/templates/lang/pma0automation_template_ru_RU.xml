@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="ru_RU" status="Approved">Design to BOM Link Provider</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="ru_RU" status="Approved">Условие, указывающее, должна ли создаваться и выравниваться разработка при создании детали.</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="ru_RU" status="Approved">Условие, указывающее, должна ли создаваться и выравниваться деталь при создании разработки</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="ru_RU" status="Approved">Условие фильтра рабочего процесса для включения рабочего процесса Генерация EBOM продукта.</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="ru_RU" status="Approved">Контекст выровненной разработки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="ru_RU" status="Approved">Выровненные разработки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="ru_RU" status="Approved">Контекст выровненной детали</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="ru_RU" status="Approved">Выровненные детали</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="ru_RU" status="Approved">Выровненная разработка</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="ru_RU" status="Approved">Требуется разработка</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="ru_RU" status="Approved">Выровненная деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="ru_RU" status="Approved">Требуется деталь</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="ru_RU" status="Approved">Parts to Align</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="ru_RU" status="Approved">Keep Existing Part</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="ru_RU" status="Approved">Parts to Align</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="ru_RU" status="Approved">Automatically Create Part</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="ru_RU" status="Approved">Требуется деталь</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="ru_RU" status="Approved">Контекст выровненной детали</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="ru_RU" status="Approved">Выровненные детали</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="ru_RU" status="Approved">Выровненная деталь</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="ru_RU" status="Approved">Требуется деталь</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="ru_RU" status="Approved">Designs to Align</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="ru_RU" status="Approved">Automatically Create Design</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="ru_RU" status="Approved">Discontinued</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="ru_RU" status="Approved">Неявное первичное представление</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="ru_RU" status="Approved">Это правило включает список значений "Действия по изменению разработки" для обновления разработки, когда разработка находится в состоянии Выпущено. Это условие включает Pma0DsgnChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="ru_RU" status="Approved">Это правило включает список значений "Действия по изменению детали" для обновления детали, когда деталь находится в состоянии Выпущено. Это условие включает Pma0PartChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="ru_RU" status="Approved">Это правило включает список значений "Действия повторного использования разработки" для обновления разработки. Это условие включает Pma0ReuseDesignActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="ru_RU" status="Approved">Это правило включает список значений "Действия повторного использования детали" для обновления детали, когда деталь и разработка находятся в рабочем состоянии. Это условие включает Pma0ReusePartActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="ru_RU" status="Approved">Это правило включает список значений "Действия пересмотра разработки" для обновления разработки, когда разработка находится в состоянии Заморожено. Это условие включает Pma0ReviseDesignActionLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="ru_RU" status="Approved">Это правило включает список значений "Действия пересмотра детали" для обновления детали, когда деталь находится в состоянии Заморожено. Это условие включает Pma0RevisePartActionLOV.</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать существующую ревизию разработки</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку, выровненную с деталью в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ru_RU" status="Approved">Использовать новую разработку для детали в процессе изменения</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать существующую ревизию разработки</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку, выровненную с деталью в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ru_RU" status="Approved">Использовать новую деталь для разработки в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ru_RU" status="Approved">Повторно использовать существующую ревизию детали</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь, выровненную с разработкой в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ru_RU" status="Approved">Создает новую разработку для детали в процессе изменения</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="ru_RU" status="Approved">Создать новую деталь для разработки в процессе изменения</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ru_RU" status="Approved">Использовать новую деталь для разработки в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь, выровненную с разработкой в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать существующую ревизию разработки</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ru_RU" status="Approved">Повторно использовать существующую ревизию детали</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь, выровненную с разработкой в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку, выровненную с деталью в процессе изменения.</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь, выровненную с разработкой в процессе изменения.</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать разработку</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ru_RU" status="Approved">Новая разработка</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать разработку</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ru_RU" status="Approved">Новая деталь</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ru_RU" status="Approved">Повторно использовать деталь</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ru_RU" status="Approved">Новая разработка</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="ru_RU" status="Approved">Новая деталь</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ru_RU" status="Approved">Новая деталь</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ru_RU" status="Approved">Повторно использовать разработку</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="ru_RU" status="Approved">Повторно использовать деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ru_RU" status="Approved">Повторно использовать деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ru_RU" status="Approved">Пересмотреть разработку</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ru_RU" status="Approved">Пересмотреть деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="ru_RU" status="Approved">Статус выпуска выровненной разработки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="ru_RU" status="Approved">Статус выпуска выровненной детали</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="ru_RU" status="Approved">Действие обновления</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="ru_RU" status="Approved">Режим обновления Включен</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="ru_RU" status="Approved">Copy Part Alignment</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="ru_RU" status="Approved">Copy Design Alignment</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="ru_RU" status="Approved">Атрибуты конструкции</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="ru_RU" status="Approved">Атрибуты детали</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="ru_RU" status="Approved">Атрибуты ревизий детали</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="ru_RU" status="Approved">Indicates a part defined by color attributes</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="ru_RU" status="Approved">Indicates a part with no finish</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="ru_RU" status="Approved">Indicates a part with no color</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="ru_RU" status="Approved">Цвет</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="ru_RU" status="Approved">Не готово</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="ru_RU" status="Approved">Нет</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="ru_RU" status="Approved">Аутсорсинг разработки</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="ru_RU" status="Approved">Разработка приобретена</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="ru_RU" status="Approved">Внутренняя разработка</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="ru_RU" status="Approved">Не назначено</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ru_RU" status="Approved">Выровнять по общей детали</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ru_RU" status="Approved">Выровнять по общей детали</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ru_RU" status="Approved">Выровнять по общей детали</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="ru_RU" status="Approved">Выровнять по общей детали</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="ru_RU" status="Approved">Объект-владелец</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="ru_RU" status="Approved">Тип чистовой обработки</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="ru_RU" status="Approved">Множество тел</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="ru_RU" status="Approved">Объект-владелец</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="ru_RU" status="Approved">Безопасная деталь</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="ru_RU" status="Approved">Стандарт</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="ru_RU" status="Approved">Объект-владелец</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="ru_RU" status="Approved">Запасная деталь</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="ru_RU" status="Approved">Технологический замысел</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="ru_RU" status="Approved">Change Validation Result Provider</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="ru_RU" status="Approved">Change Package Validation Result</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="ru_RU" status="Approved">Причина</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="ru_RU" status="Approved">Несоответствие</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="ru_RU" status="Approved">Элемент решения</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

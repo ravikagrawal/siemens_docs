@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:59 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awv0BookmarkVisData" locale="pl_PL" status="Approved">Dane zakładki wizualizacji</key>
+           
+        <key id="BusinessObject{::}Awv0SnapshotGalleryProvider" locale="pl_PL" status="Approved">Dostawca wyszukiwania galerii zrzutów</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awv0JtOverrideChildren" locale="pl_PL" status="Approved">JT - Zastąp dzieci</key>
+           
+        <key id="Property{::}Awv0BookmarkVisData{::}awv0VisBookmarkFile" locale="pl_PL" status="Approved">Plik zakładki wizualizacji</key>
+           
+        <key id="Property{::}ItemRevision{::}awv0IsMMVIndexed" locale="pl_PL" status="Approved">Indeksowane do wizualizacji modelu masowego</key>
+           
+        <key id="BusinessObject{::}Awv0BOMIndexPSProvider" locale="pl_PL" status="Approved">Indeks BOM - dostawca struktury produktu</key>
+           
+        <key id="BusinessObject{::}Awv0MMPDeltaCollection" locale="pl_PL" status="Approved">Zbiór delta produktów w modelu masowym</key>
+           
+        <key id="BusinessObject{::}Awv0MMVIndexAdminInfo" locale="pl_PL" status="Approved">Informacje o administratorze indeksu wizualizacji w modelu masowym</key>
+           
+        <key id="BusinessObject{::}Awv0ProductStructureProvider" locale="pl_PL" status="Approved">Dostawca struktury produktu</key>
+           
+        <key id="Property{::}Awv0MMPDeltaCollection{::}awv0StructureId" locale="pl_PL" status="Approved">ID struktury</key>
+           
+        <key id="Property{::}Awv0MMVIndexAdminInfo{::}awv0MMVIdxAccessControllers" locale="pl_PL" status="Approved">Kontrolery dostępu do indeksu wizualizacji w modelu masowym</key>
+           
+        <key id="Property{::}Awv0MMVIndexAdminInfo{::}awv0MMVIndexOwningUser" locale="pl_PL" status="Approved">Użytkownik posiadający indeks wizualizacji w modelu masowym</key>
+           
+        <key id="Property{::}Awv0MMVIndexAdminInfo{::}awv0ProductAndConfig" locale="pl_PL" status="Approved">Produkt i konfiguracja</key>
+           
+        <key id="Property{::}VisStructureContext{::}awv0IndexedProductID" locale="pl_PL" status="Approved">ID indeksowanego produktu</key>
+           
+        <key id="CommandDisplayName{::}Awv0AllOff" locale="pl_PL" status="Approved">Wszystko wyłączone</key>
+           
+        <key id="CommandDisplayName{::}Awv0AllOn" locale="pl_PL" status="Approved">Wszystko włączone</key>
+           
+        <key id="CommandDisplayName{::}Awv0ApplyOffset" locale="pl_PL" status="Approved">Zastosuj</key>
+           
+        <key id="CommandDisplayName{::}Awv0ContextOff" locale="pl_PL" status="Approved">Kontekst wyłączony</key>
+           
+        <key id="CommandDisplayName{::}Awv0ContextOnly" locale="pl_PL" status="Approved">Tylko kontekst</key>
+           
+        <key id="CommandDisplayName{::}Awv0ContextOn" locale="pl_PL" status="Approved">Kontekst włączony</key>
+           
+        <key id="CommandDisplayName{::}Awv0Fit" locale="pl_PL" status="Approved">Dopasuj</key>
+           
+        <key id="CommandDisplayName{::}Awv0GeometricAnalysisMeasure" locale="pl_PL" status="Approved">Miara</key>
+           
+        <key id="CommandDisplayName{::}Awv0GeometricAnalysisProximity" locale="pl_PL" status="Approved">Bliskość</key>
+           
+        <key id="CommandDisplayName{::}Awv0GeometricAnalysisQuery" locale="pl_PL" status="Approved">Zapytanie</key>
+           
+        <key id="CommandDisplayName{::}Awv0GeometricAnalysisSection" locale="pl_PL" status="Approved">Przekrój</key>
+           
+        <key id="CommandDisplayName{::}Awv0GeometricAnalysisVolume" locale="pl_PL" status="Approved">Wolumen</key>
+           
+        <key id="CommandDisplayName{::}Awv0ImageCapture" locale="pl_PL" status="Approved">Zapamiętaj</key>
+           
+        <key id="CommandDisplayName{::}Awv0NavigationPan" locale="pl_PL" status="Approved">Przesunięcie</key>
+           
+        <key id="CommandDisplayName{::}Awv0NavigationRotate" locale="pl_PL" status="Approved">Obróć</key>
+           
+        <key id="CommandDisplayName{::}Awv0NavigationZoom" locale="pl_PL" status="Approved">Powiększenie</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientBack" locale="pl_PL" status="Approved">Wstecz</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientBottom" locale="pl_PL" status="Approved">Koniec</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientFront" locale="pl_PL" status="Approved">Przód</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientIsometric" locale="pl_PL" status="Approved">Izometryczny</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientLeft" locale="pl_PL" status="Approved">Lewa</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientRight" locale="pl_PL" status="Approved">Prawa</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientTop" locale="pl_PL" status="Approved">Początek</key>
+           
+        <key id="CommandDisplayName{::}Awv0OrientTrimetric" locale="pl_PL" status="Approved">Aksonometryczny trójwymiarowy</key>
+           
+        <key id="CommandDisplayName{::}Awv0PickFeatures" locale="pl_PL" status="Approved">Wskaż elementy</key>
+           
+        <key id="CommandDisplayName{::}Awv0PickParts" locale="pl_PL" status="Approved">Wskaż części</key>
+           
+        <key id="CommandDisplayName{::}Awv0Pin" locale="pl_PL" status="Approved">Przypnij</key>
+           
+        <key id="CommandDisplayName{::}Awv0PmiTool" locale="pl_PL" status="Approved">PMI</key>
+           
+        <key id="CommandDisplayName{::}Awv0QuickMeasure" locale="pl_PL" status="Approved">Szybki pomiar</key>
+           
+        <key id="CommandDisplayName{::}Awv0RemoveTarget" locale="pl_PL" status="Approved">Usuń element docelowy</key>
+           
+        <key id="CommandDisplayName{::}Awv0SelectContext" locale="pl_PL" status="Approved">Wybierz kontekst</key>
+           
+        <key id="CommandDisplayName{::}Awv0SelectVisible" locale="pl_PL" status="Approved">Wybierz widoczne</key>
+           
+        <key id="CommandDisplayName{::}Awv0SelectedOff" locale="pl_PL" status="Approved">Wybrane wyłączone</key>
+           
+        <key id="CommandDisplayName{::}Awv0SelectedOnly" locale="pl_PL" status="Approved">Tylko wybrane</key>
+           
+        <key id="CommandDisplayName{::}Awv0SelectedOn" locale="pl_PL" status="Approved">Wybrane włączone</key>
+           
+        <key id="CommandDisplayName{::}Awv0Unpin" locale="pl_PL" status="Approved">Wypnij</key>
+           
+        <key id="CommandDisplayName{::}Awv0UseTransparencyOff" locale="pl_PL" status="Approved">Wyłącz tryb przezroczystego ekranu wyboru</key>
+           
+        <key id="CommandDisplayName{::}Awv0UseTransparencyOn" locale="pl_PL" status="Approved">Włącz tryb przezroczystego ekranu wyboru</key>
+           
+        <key id="CommandDisplayName{::}Awv0ViewerSettings" locale="pl_PL" status="Approved">Wyświetl</key>
+           
+        <key id="ConditionDescription{::}Awv0OpenVVICmdCond" locale="pl_PL" status="Approved">Ten warunek sprawdza, czy polecenie Otwórz w Vis powinno być widoczne dla danego wyboru</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

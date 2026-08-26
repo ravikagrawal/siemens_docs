@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="zh_TW" status="Approved">Schema 映射</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="zh_TW" status="Approved">公事包匯出和匯入</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="zh_TW" status="Approved">批量擷取和載入</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="zh_TW" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="zh_TW" status="Approved">PLM XML 匯出和匯入</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="zh_TW" status="Approved">公事包</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="zh_TW" status="Approved">批量作業</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="zh_TW" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="zh_TW" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="zh_TW" status="Approved">公事包匯出完成</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="zh_TW" status="Approved">公事包匯出失敗</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="zh_TW" status="Approved">公事包匯入完成</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="zh_TW" status="Approved">公事包匯入失敗</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="zh_TW" status="Approved">批量擷取完成</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="zh_TW" status="Approved">批量擷取失敗</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="zh_TW" status="Approved">批量複製完成</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="zh_TW" status="Approved">批量複製失敗</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="zh_TW" status="Approved">PLM XML 匯出完成</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="zh_TW" status="Approved">PLM XML 匯出失敗</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="zh_TW" status="Approved">PLM XML 匯入完成</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="zh_TW" status="Approved">PLM XML 匯入失敗</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="zh_TW" status="Approved">PDX 匯出完成</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="zh_TW" status="Approved">PDX 匯出失敗</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="zh_TW" status="Approved">映射規則部署完成</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="zh_TW" status="Approved">映射規則部署失敗</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="zh_TW" status="Approved">收回所有權已完成</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="zh_TW" status="Approved">收回所有權失敗</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

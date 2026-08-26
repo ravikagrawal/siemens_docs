@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Design BOM Alignment Automation" enableOpsDataDeploy="false" guid="0B0DC7DC61DA9CDCFFDFE1696DE713DC" isDescriptionMandatory="true" name="pma1awautomation" optional="true" prefixes="Pma1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="pma0automation_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+</TcBusinessDataIncludes>

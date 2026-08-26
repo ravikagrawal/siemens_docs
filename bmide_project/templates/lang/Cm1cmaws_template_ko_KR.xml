@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:02 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Cm1ChangeHistoryElement" locale="ko_KR" status="Approved">변경 이력 요소</key>
+           
+        <key id="BusinessObject{::}Cm1ImpactAnalysisProvider" locale="ko_KR" status="Approved">영향 분석 제공자</key>
+           
+        <key id="BusinessObject{::}Cm1LineageImpactedProvider" locale="ko_KR" status="Approved">계보에 대해 영향 받는 개체 제공자</key>
+           
+        <key id="BusinessObject{::}Cm1MyChangesProvider" locale="ko_KR" status="Approved">내 변경 사항 공급자</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE" locale="ko_KR" status="Approved">Change Manager</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ko_KR" status="Approved">CIB 승인됨</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ko_KR" status="Approved">CIB가 동시 변경을 승인함</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ko_KR" status="Approved">변경 사항 릴리스됨</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ko_KR" status="Approved">동시 변경이 릴리스됨</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE" locale="ko_KR" status="Approved">Change Manager</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED" locale="ko_KR" status="Approved">CIB 승인됨</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CIB_APPROVED_THE_CONCURRENT_CHANGE" locale="ko_KR" status="Approved">CIB가 동시 변경을 승인함</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CHANGE_RELEASED" locale="ko_KR" status="Approved">변경 사항 릴리스됨</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGE_WAS_RELEASED" locale="ko_KR" status="Approved">동시 변경이 릴리스됨</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingCNObject" locale="ko_KR" status="Approved">권한 부여 변경 통보</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1AuthorizingChangeNotice" locale="ko_KR" status="Approved">권한 부여 변경 통보</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Closure" locale="ko_KR" status="Approved">종결</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Disposition" locale="ko_KR" status="Approved">처리</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1ImpactedItem" locale="ko_KR" status="Approved">영향받는 아이템</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedBy" locale="ko_KR" status="Approved">통합자</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedInto" locale="ko_KR" status="Approved">통합 대상</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatedStatus" locale="ko_KR" status="Approved">통합 상태</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1IncorporatesChanges" locale="ko_KR" status="Approved">변경 내용 통합</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Markup" locale="ko_KR" status="Approved">마크업</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1Maturity" locale="ko_KR" status="Approved">만기일</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItemObject" locale="ko_KR" status="Approved">솔루션</key>
+           
+        <key id="Property{::}Cm1ChangeHistoryElement{::}cm1SolutionItem" locale="ko_KR" status="Approved">솔루션 아이템</key>
+           
+        <key id="CommandDisplayName{::}Cm1ChangeFilters" locale="ko_KR" status="Approved">필터</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReleaseStatusEffectivity" locale="ko_KR" status="Approved">릴리스 상태 적용일자/단위</key>
+           
+        <key id="CommandDisplayName{::}Cm1ReportProblemTool" locale="ko_KR" status="Approved">문제 보고</key>
+           
+        <key id="CommandDisplayName{::}Cm1RevertChanges" locale="ko_KR" status="Approved">변경 사항 되돌리기</key>
+           
+        <key id="CommandDisplayName{::}Cm1SequenceChange" locale="ko_KR" status="Approved">순서 변경</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChangeInContext" locale="ko_KR" status="Approved">변경 생성</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowCreateChange" locale="ko_KR" status="Approved">변경 생성</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowDeriveChange" locale="ko_KR" status="Approved">변경 파생</key>
+           
+        <key id="CommandDisplayName{::}Cm1ShowSetLineage" locale="ko_KR" status="Approved">계보 설정</key>
+           
+        <key id="CommandDisplayName{::}Cm1UnsetLineage" locale="ko_KR" status="Approved">계보 설정 해제</key>
+           
+        <key id="ConditionDescription{::}Cm1AddToFavoritesCmdCond" locale="ko_KR" status="Approved">ECN에 대한 조건이 4GD 개체에 대한 컨텍스트로 설정됨</key>
+           
+        <key id="ConditionDescription{::}Cm1Awp0CutCmdCond" locale="ko_KR" status="Approved">이 조건은 GnChangeNoticeRevision 종속성 편집 명령을 활성화하는 사용 조건을 정의합니다. 이 조건은 컨텍스트 내 비즈니스 개체 및 사용자 세션을 기반으로 확인하는 조건에 사용할 수 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1HasChangeLicenseCond" locale="ko_KR" status="Approved">사용자에게 변경 라이선스가 있습니까?</key>
+           
+        <key id="ConditionDescription{::}Cm1HideReleaseStatusEffectivityCmdCond" locale="ko_KR" status="Approved">릴리스 상태 적용일자/단위를 할당하기 위한 프레임워크 명령을 숨기는 조건. 대신 관리자 변경에 고유한 명령이 디스플레이됩니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1RevertCmdCond" locale="ko_KR" status="Approved">이에 따라 요소를 되돌릴 수 있을지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1SequenceChangeCmdCond" locale="ko_KR" status="Approved">이 조건은 GnChangeNoticeRevision 종속성 편집 명령을 활성화하는 사용 조건을 정의합니다. 이 조건은 컨텍스트 내 변경 통보 리비전 개체 및 사용자 세션을 기반으로 확인하는 조건에 사용할 수 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowCreateChangeInContextCmdCond" locale="ko_KR" status="Approved">컨텍스트 내 변경 명령 조건 생성</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowDeriveChangeCmdCond" locale="ko_KR" status="Approved">파생 명령을 표시하거나 숨기는 조건입니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1ShowSetLineageCmdCond" locale="ko_KR" status="Approved">선택한 개체에 계보 설정이 없고 동일한 유형일 때 계보 설정 명령을 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Cm1UnsetLineageCmdCond" locale="ko_KR" status="Approved">선택한 개체에 계보 설정이 있고 동일한 유형일 때 계보 설정 해제 명령을 활성화합니다.</key>
+           
+        <key id="BusinessObject{::}Cm1AffectedItemsProvider" locale="ko_KR" status="Approved">해당 아이템 제공자</key>
+           
+        <key id="BusinessObject{::}Cm1ChangeSummaryElement" locale="ko_KR" status="Approved">변경 요약 요소</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChangeForOccRev" locale="ko_KR" status="Approved">어커런스 리비전 활성 변경</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1ActiveChange" locale="ko_KR" status="Approved">활성 변경</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnIn" locale="ko_KR" status="Approved">ECN In</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}cm1OccEcnOut" locale="ko_KR" status="Approved">ECN Out</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1Awb0PositionedElement" locale="ko_KR" status="Approved">기본 설계 요소</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1IsLeaf" locale="ko_KR" status="Approved">리프임</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1SiblingOf" locale="ko_KR" status="Approved">다음의 형제</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingPrimaryObject" locale="ko_KR" status="Approved">기본 1차 개체</key>
+           
+        <key id="Property{::}Cm1ChangeSummaryElement{::}cm1UnderlyingSecondaryObject" locale="ko_KR" status="Approved">기본 2차 개체</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm1IsMergeOutRequired" locale="ko_KR" status="Approved">병합 필수</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm1IsMassUpdateAllowed" locale="ko_KR" status="Approved">대량 업데이트 허용됨</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeAction" locale="ko_KR" status="Approved">변경 작업</key>
+           
+        <key id="Property{::}Awb0Element{::}cm1ChangeRelation" locale="ko_KR" status="Approved">관계 변경</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

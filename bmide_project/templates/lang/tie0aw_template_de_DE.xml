@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="de_DE" status="Approved">Schemazuweisung</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="de_DE" status="Approved">Briefcase-Export- und -Import-Vorgang</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="de_DE" status="Approved">Massenextrahierung und Laden</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="de_DE" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="de_DE" status="Approved">PLM XML-Export und -Import</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="de_DE" status="Approved">Briefcase</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="de_DE" status="Approved">Massenvorgänge</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="de_DE" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="de_DE" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="de_DE" status="Approved">Exportieren des Briefcase ist abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="de_DE" status="Approved">Exportieren des Briefcase ist fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="de_DE" status="Approved">Importieren des Briefcase ist abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="de_DE" status="Approved">Importieren des Briefcase ist fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="de_DE" status="Approved">Massenextrahierung abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="de_DE" status="Approved">Massenextrahierung fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="de_DE" status="Approved">Massenkopie abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="de_DE" status="Approved">Massenkopie fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="de_DE" status="Approved">PLM XML-Export abgeschlossen</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="de_DE" status="Approved">PLM XML-Export fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="de_DE" status="Approved">PLM XML-Import abgeschlossen</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="de_DE" status="Approved">PLM XML-Import fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="de_DE" status="Approved">PDX-Export abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="de_DE" status="Approved">PDX-Export fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="de_DE" status="Approved">Bereitstellung von Zuweisungsregeln abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="de_DE" status="Approved">Bereitstellung von Zuweisungsregeln fehlgeschlagen</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="de_DE" status="Approved">Zurückfordern der Eigentumsrechte abgeschlossen</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="de_DE" status="Approved">Zurückfordern der Eigentumsrechte fehlgeschlagen</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

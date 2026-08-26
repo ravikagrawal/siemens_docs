@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="ja_JP" status="Approved">代替を追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0EnableOpenBaselineCmd" locale="ja_JP" status="Approved">ベースラインを開くコマンドを有効化</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="ja_JP" status="Approved">有効期限</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="ja_JP" status="Approved">リリース</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="ja_JP" status="Approved">代替品を除去</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="ja_JP" status="Approved">リビジョンベースラインを作成</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="ja_JP" status="Approved">「代替を追加」コマンドを表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0EnableOpenBaselineCmdCond" locale="ja_JP" status="Approved">ベースラインを開くコマンドを有効化の条件</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="ja_JP" status="Approved">式有効期限がサポートされているかをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="ja_JP" status="Approved">選択したオブジェクトにコマンド「リビジョン有効期限」を適用できるかを判断します。</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="ja_JP" status="Approved">「代替を除去」コマンドを表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="ja_JP" status="Approved">この条件は、入力オブジェクトに対してリビジョンベースラインを作成コマンドがサポートされるかを決定します。</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="ja_JP" status="Approved">ベース外部システムオブジェクト</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="ja_JP" status="Approved">アドバンスクエリ基準</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="ja_JP" status="Approved">アドバンス検索入力</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="ja_JP" status="Approved">代替プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="ja_JP" status="Approved">日付検索フィルタ</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="ja_JP" status="Approved">動的複合プロパティ列定義</key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="ja_JP" status="Approved">フルテキスト検索インデクサ</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="ja_JP" status="Approved">フル テキスト検索実行</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="ja_JP" status="Approved">お気に入り</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="ja_JP" status="Approved">お気に入りのプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="ja_JP" status="Approved">フォルダコレクションプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="ja_JP" status="Approved">フォルダコレクション</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="ja_JP" status="Approved">キーワード検索</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="ja_JP" status="Approved">子プロバイダを取得</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="ja_JP" status="Approved">IDコンテキストLOV</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="ja_JP" status="Approved">受信トレイプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="ja_JP" status="Approved">最後に使用された列コンフィグレーション</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="ja_JP" status="Approved">名前付き列コンフィグレーション</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="ja_JP" status="Approved">数値検索フィルタ</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="ja_JP" status="Approved">オブジェクトセット行プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="ja_JP" status="Approved">クイック検索LOV</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="ja_JP" status="Approved">最近のオブジェクトプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="ja_JP" status="Approved">参照プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="ja_JP" status="Approved">リレーションカスタムLOVビジネスオブジェクト</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="ja_JP" status="Approved">リソースプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="ja_JP" status="Approved">リビジョンルールLOV</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="ja_JP" status="Approved">サインオフプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="ja_JP" status="Approved">文字列検索フィルタ</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="ja_JP" status="Approved">テーブルプロパティプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="ja_JP" status="Approved">タイプ検索プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="ja_JP" status="Approved">ユーザ割当て</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="ja_JP" status="Approved">VNCプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="ja_JP" status="Approved">ワークスペースマッピングリレーション</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="ja_JP" status="Approved">ワークスペース定義</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="ja_JP" status="Approved">オブジェクトセット列</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="ja_JP" status="Approved">オブジェクトセット行</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="ja_JP" status="Approved">オブジェクトセット</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="ja_JP" status="Approved">クライアントコンテキスト</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="ja_JP" status="Approved">選択</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="ja_JP" status="Approved">高度な検索</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ja_JP" status="Approved">BOMインポートに失敗しました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ja_JP" status="Approved">BOMインポートに成功しました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ja_JP" status="Approved">Excelインポートに失敗しました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ja_JP" status="Approved">Excelインポートに成功しました</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ja_JP" status="Approved">Active Workspaceセルコマンド</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ja_JP" status="Approved">Active Workspaceコンテキストメニューコマンドです。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ja_JP" status="Approved">Active Workspaceグローバルツールバー</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ja_JP" status="Approved">Active Workspaceその他のコマンド</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ja_JP" status="Approved">Active Workspaceプロファイルコマンド</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ja_JP" status="Approved">Active Workspaceビューツールコマンド</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ja_JP" status="Approved">Active Workspace XRTコマンド</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ja_JP" status="Approved">BOMインポートに失敗しました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ja_JP" status="Approved">BOMインポートに成功しました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ja_JP" status="Approved">Excelインポートに失敗しました</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ja_JP" status="Approved">Excelインポートに成功しました</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ja_JP" status="Approved">Active Workspaceセル</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ja_JP" status="Approved">Active Workspaceコンテキストメニュー</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ja_JP" status="Approved">Active Workspaceグローバルツールバー</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ja_JP" status="Approved">Active Workspaceその他のコマンド</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ja_JP" status="Approved">Active Workspaceプロファイルコマンド</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ja_JP" status="Approved">表示ツール</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ja_JP" status="Approved">Active Workspace XRT</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="ja_JP" status="Approved">外部システムオブジェクトクラス名</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="ja_JP" status="Approved">外部システム名</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="ja_JP" status="Approved">外部システムURI</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="ja_JP" status="Approved">プロパティ名リスト</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="ja_JP" status="Approved">アドバンスクエリ名</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="ja_JP" status="Approved">クイック検索名</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="ja_JP" status="Approved">終了日</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="ja_JP" status="Approved">フィルタ名</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="ja_JP" status="Approved">開始日</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="ja_JP" status="Approved">列表示名</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="ja_JP" status="Approved">ダイナミックコンパウンドプロパティパス</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="ja_JP" status="Approved">オブジェクトタイプ</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="ja_JP" status="Approved">プロパティ名</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="ja_JP" status="Approved">実行ユーザ</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="ja_JP" status="Approved">最終実行時刻</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="ja_JP" status="Approved">保存済み検索</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="ja_JP" status="Approved">チャートに関する対象</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="ja_JP" status="Approved">保存済み検索ロケール</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="ja_JP" status="Approved">フィルタ</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="ja_JP" status="Approved">日付フィルタ</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="ja_JP" status="Approved">他に表示を許可</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="ja_JP" status="Approved">数値フィルタ</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="ja_JP" status="Approved">基準</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="ja_JP" status="Approved">文字列フィルタ</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="ja_JP" status="Approved">列コンフィグレーション参照</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="ja_JP" status="Approved">最終使用者</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="ja_JP" status="Approved">列コンフィグレーションID</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="ja_JP" status="Approved">列コンフィグレーション名</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="ja_JP" status="Approved">管理者列コンフィグレーション</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="ja_JP" status="Approved">終了値</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="ja_JP" status="Approved">フィルタ名</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="ja_JP" status="Approved">開始値</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="ja_JP" status="Approved">フィルタ名</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="ja_JP" status="Approved">メール</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="ja_JP" status="Approved">終了日</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="ja_JP" status="Approved">電話番号</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="ja_JP" status="Approved">開始日</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="ja_JP" status="Approved">ユーザ</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="ja_JP" status="Approved">デフォルトワークスペース?</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="ja_JP" status="Approved">ワークスペースID</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="ja_JP" status="Approved">配列の長さ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="ja_JP" status="Approved">データタイプ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="ja_JP" status="Approved">配列</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="ja_JP" status="Approved">リレーションプロパティ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="ja_JP" status="Approved">プロパティ表示名</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="ja_JP" status="Approved">プロパティ名</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="ja_JP" status="Approved">ユーザソート可能</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="ja_JP" status="Approved">切取りを許可</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="ja_JP" status="Approved">プライマリ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="ja_JP" status="Approved">参照プロパティ名</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="ja_JP" status="Approved">リレーションタイプ表示名</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="ja_JP" status="Approved">リレーションタイプ名</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="ja_JP" status="Approved">リレーション</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="ja_JP" status="Approved">リレーション</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="ja_JP" status="Approved">セカンダリ</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="ja_JP" status="Approved">ターゲット</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="ja_JP" status="Approved">修正可能</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="ja_JP" status="Approved">オブジェクトセット列</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="ja_JP" status="Approved">オブジェクトセット行</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="ja_JP" status="Approved">オブジェクトセット行の合計数</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="ja_JP" status="Approved">オブジェクトセルプロパティ</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="ja_JP" status="Approved">サムネールイメージFMSチケット</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="ja_JP" status="Approved">オブジェクト</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="ja_JP" status="Approved">Add Reviewer By Me Behavior</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="ja_JP" status="Approved">Add Task By Me Behavior</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="ja_JP" status="Approved">割当て可能</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="ja_JP" status="Approved">実行可能</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="ja_JP" status="Approved">プロモート可能</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="ja_JP" status="Approved">クライアント範囲</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="ja_JP" status="Approved">選択</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="ja_JP" status="Approved">列表示名</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="ja_JP" status="Approved">フィルタ</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="ja_JP" status="Approved">フィルタリングは使用可能</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="ja_JP" status="Approved">凍結された列です</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="ja_JP" status="Approved">テキストを折返す</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="ja_JP" status="Approved">オプション名</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="ja_JP" status="Approved">オプション値</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="ja_JP" status="Approved">コンテキスト名</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="ja_JP" status="Approved">親選択</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="ja_JP" status="Approved">選択したオブジェクト</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="ja_JP" status="Approved">子部品の有無</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="ja_JP" status="Approved">修正可能</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="ja_JP" status="Approved">エイリアスID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="ja_JP" status="Approved">代替ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="ja_JP" status="Approved">構成済みリビジョン</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="ja_JP" status="Approved">必要な参加者</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="ja_JP" status="Approved">表示する参加者</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="ja_JP" status="Approved">エイリアスID</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="ja_JP" status="Approved">代替ID</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="ja_JP" status="Approved">リモートタイプ</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="ja_JP" status="Approved">リモートサイト</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="ja_JP" status="Approved">作成日</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="ja_JP" status="Approved">リモートタイプ</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="ja_JP" status="Approved">リモートサイト</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="ja_JP" status="Approved">Add Reviewer By Me Behavior</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="ja_JP" status="Approved">Add Task By Me Behavior</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="ja_JP" status="Approved">割当て可能</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="ja_JP" status="Approved">実行可能</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="ja_JP" status="Approved">プロモート可能</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="ja_JP" status="Approved">仕様</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="ja_JP" status="Approved">プロジェクトチームメンバー</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="ja_JP" status="Approved">リビジョンルール</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="ja_JP" status="Approved">代理者</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="ja_JP" status="Approved">次の代理</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="ja_JP" status="Approved">ベースライン作成完了</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="ja_JP" status="Approved">リレーションプロキシオブジェクト</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="ja_JP" status="Approved">トレースリンクプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="ja_JP" status="Approved">トレースリンクプロキシオブジェクト</key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="ja_JP" status="Approved">トレーサビリティマトリックス</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="ja_JP" status="Approved">このオプションは、エクスポートプロセスが、zipフォーマットでエクスポートされたExcelファイルがあるすべてのデータセットのアタッチメントをエクスポートすることを可能にします。</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="ja_JP" status="Approved">オカレンス → オカレンス</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="ja_JP" status="Approved">発生 → リビジョン</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="ja_JP" status="Approved">リビジョン → 発生</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="ja_JP" status="Approved">リビジョン → リビジョン</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="ja_JP" status="Approved">アタッチメントを含む</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="ja_JP" status="Approved">方向</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="ja_JP" status="Approved">関係するオブジェクト</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="ja_JP" status="Approved">リレーションオブジェクト</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="ja_JP" status="Approved">トレースリンクタイプ</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="ja_JP" status="Approved">選択されたオブジェクト</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="ja_JP" status="Approved">子部品の有無</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="ja_JP" status="Approved">オカレンストレースリンク</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="ja_JP" status="Approved">リンクしたアイテムタイプ</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="ja_JP" status="Approved">ターゲット要素</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="ja_JP" status="Approved">オブジェクト情報を開く</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="ja_JP" status="Approved">親</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="ja_JP" status="Approved">関係するオブジェクトタイプ</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="ja_JP" status="Approved">アタッチされたマトリックス</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="ja_JP" status="Approved">コメント</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="ja_JP" status="Approved">疑わしい</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="ja_JP" status="Approved">トレースリンクの作成</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="ja_JP" status="Approved">ワードで編集</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="ja_JP" status="Approved">Officeにエクスポート</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="ja_JP" status="Approved">テキストを比較コマンド</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="ja_JP" status="Approved">「テキストを比較」コマンドの表示を定義します。これは要件オブジェクトとそのサブタイプに対してのみ使用可能です。</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="ja_JP" status="Approved">MSWordアプリケーションにおけるオブジェクトの編集に対する条件を定義します。</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="ja_JP" status="Approved">この条件は、Arm0CreateTraceLinkコマンドを可視にするかをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="ja_JP" status="Approved">この条件は、タイプ'FullText'のオブジェクトに対する置換コマンドを非表示にします。</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="ja_JP" status="Approved">アドバンス検索LOV</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="ja_JP" status="Approved">お気に入りの保存済み検索</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="ja_JP" status="Approved">アクティブフォルダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="ja_JP" status="Approved">プロジェクト</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="ja_JP" status="Approved">プロジェクトデータプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="ja_JP" status="Approved">プロジェクトデータテンプレート</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="ja_JP" status="Approved">プロジェクトデータテンプレート</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="ja_JP" status="Approved">プロジェクトフォルダプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="ja_JP" status="Approved">プロジェクトフォルダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="ja_JP" status="Approved">プロジェクトサブフォルダ</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="ja_JP" status="Approved">保存済みクエリプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="ja_JP" status="Approved">Solrプロパティプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="ja_JP" status="Approved">検索フォルダプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="ja_JP" status="Approved">アクティブフォルダ共有ルール</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="ja_JP" status="Approved">アクティブフォルダ</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="ja_JP" status="Approved">グループID</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="ja_JP" status="Approved">タイプ</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="ja_JP" status="Approved">プロジェクト</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="ja_JP" status="Approved">リリースステータス</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="ja_JP" status="Approved">作成日</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="ja_JP" status="Approved">修正日</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="ja_JP" status="Approved">リリース日</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="ja_JP" status="Approved">基本</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="ja_JP" status="Approved">日付</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="ja_JP" status="Approved">ランキング</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="ja_JP" status="Approved">保存済み検索</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="ja_JP" status="Approved">ユーザ</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="ja_JP" status="Approved">アクティブなテンプレート</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="ja_JP" status="Approved">子部品の有無</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="ja_JP" status="Approved">修正可能</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="ja_JP" status="Approved">説明</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="ja_JP" status="Approved">プロジェクト</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="ja_JP" status="Approved">アクティブフォルダ</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="ja_JP" status="Approved">アクティブフォルダ</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="ja_JP" status="Approved">ターゲットアクセサー</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="ja_JP" status="Approved">検索実行可能</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="ja_JP" status="Approved">共有</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="ja_JP" status="Approved">ルール</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="ja_JP" status="Approved">アクティブフォルダ定義</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="ja_JP" status="Approved">検索タイプ</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="ja_JP" status="Approved">パーソナライズデータ</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="ja_JP" status="Approved">コンポーネントを追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="ja_JP" status="Approved">署名を追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="ja_JP" status="Approved">プロファイルピクチャを追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="ja_JP" status="Approved">プロジェクトを追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="ja_JP" status="Approved">お気に入りに追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="ja_JP" status="Approved">情報</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="ja_JP" status="Approved">高度な検索</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="ja_JP" status="Approved">非表示</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="ja_JP" status="Approved">下へ移動</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="ja_JP" status="Approved">上へ移動</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="ja_JP" status="Approved">整列</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="ja_JP" status="Approved">表示</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="ja_JP" status="Approved">プロジェクトレガシーを割当て</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="ja_JP" status="Approved">プロジェクト</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="ja_JP" status="Approved">チェックアウトのキャンセル</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="ja_JP" status="Approved">編集をキャンセル</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="ja_JP" status="Approved">所有者の変更</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="ja_JP" status="Approved">パスワードを変更</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="ja_JP" status="Approved">テーマの変更</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="ja_JP" status="Approved">チェックイン</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="ja_JP" status="Approved">チェックアウト</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="ja_JP" status="Approved">色フィルタを表示</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="ja_JP" status="Approved">整列</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="ja_JP" status="Approved">ラベル</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="ja_JP" status="Approved">コピー</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="ja_JP" status="Approved">代替IDを作成</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="ja_JP" status="Approved">ホームフォルダ</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="ja_JP" status="Approved">切取り</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="ja_JP" status="Approved">削除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="ja_JP" status="Approved">削除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="ja_JP" status="Approved">断面を削除</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="ja_JP" status="Approved">削除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="ja_JP" status="Approved">選択をクリア</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="ja_JP" status="Approved">ライセンスをデタッチ</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="ja_JP" status="Approved">ローカリゼーションシングルを編集</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="ja_JP" status="Approved">検索を保存</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="ja_JP" status="Approved">全画面を終了</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="ja_JP" status="Approved">全画面</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="ja_JP" status="Approved">フルテキスト検索</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="ja_JP" status="Approved">ホーム</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="ja_JP" status="Approved">レポートを生成</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="ja_JP" status="Approved">フィルタ</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="ja_JP" status="Approved">マークアップ</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="ja_JP" status="Approved">ホストで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="ja_JP" status="Approved">ホストで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="ja_JP" status="Approved">マークアップ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="ja_JP" status="Approved">表示トグルをリスト</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="ja_JP" status="Approved">名前値を作成</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="ja_JP" status="Approved">ナビゲート</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="ja_JP" status="Approved">情報</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="ja_JP" status="Approved">NXで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="ja_JP" status="Approved">新しいタブで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="ja_JP" status="Approved">新規ウィンドウで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="ja_JP" status="Approved">Officeクライアントで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="ja_JP" status="Approved">リッチクライアントで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="ja_JP" status="Approved">ホストで新規ビューを開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="ja_JP" status="Approved">Visで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="ja_JP" status="Approved">貼付け</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="ja_JP" status="Approved">ホームに固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="ja_JP" status="Approved">検索を固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="ja_JP" status="Approved">固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="ja_JP" status="Approved">コマンドハンドラがありません</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="ja_JP" status="Approved">印刷</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="ja_JP" status="Approved">印刷ビューで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="ja_JP" status="Approved">お気に入りから除去</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="ja_JP" status="Approved">プロジェクトを除去</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="ja_JP" status="Approved">ファイルの置換</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="ja_JP" status="Approved">レポートを生成</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="ja_JP" status="Approved">編集を保存</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="ja_JP" status="Approved">検索を保存</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="ja_JP" status="Approved">検索フィルタ</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="ja_JP" status="Approved">検索</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="ja_JP" status="Approved">すべてを選択</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="ja_JP" status="Approved">ロケーションコードを設定またはクリア</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="ja_JP" status="Approved">リンクをコピー</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="ja_JP" status="Approved">管理</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="ja_JP" status="Approved">アラート</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="ja_JP" status="Approved">ドキュメントを作成</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="ja_JP" status="Approved">ドキュメントを作成</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="ja_JP" status="Approved">My Homeフォルダ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="ja_JP" status="Approved">イメージ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="ja_JP" status="Approved">リスト</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="ja_JP" status="Approved">ファイルをダウンロード</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="ja_JP" status="Approved">レンダ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="ja_JP" status="Approved">リビジョンアップ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="ja_JP" status="Approved">名前を変えて保存またはリビジョンアップ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="ja_JP" status="Approved">サマリ付きリスト</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="ja_JP" status="Approved">サマリ付きテーブル</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="ja_JP" status="Approved">テーブル</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="ja_JP" status="Approved">ビジュアリゼーション</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="ja_JP" status="Approved">サインアウト</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="ja_JP" status="Approved">サマリ</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="ja_JP" status="Approved">テーブル</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="ja_JP" status="Approved">編集を開始</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="ja_JP" status="Approved">ホームから固定解除</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="ja_JP" status="Approved">固定解除</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="ja_JP" status="Approved">検索を固定解除</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="ja_JP" status="Approved">ファイルをダウンロード</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="ja_JP" status="Approved">ファイルをダウンロード</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="ja_JP" status="Approved">表示</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="ja_JP" status="Approved">署名を無効化</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="ja_JP" status="Approved">この条件は、ユーザオブジェクトが現在ログインしているユーザを表すか判断します。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0AddToFavoritesコマンドを可視にするかをチェックします</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="ja_JP" status="Approved">この条件は、タイプ代替IDのオブジェクトに対する切取りコマンドを非表示にします。</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="ja_JP" status="Approved">プロジェクトを割当てコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、選択したオブジェクトが、WorkspaceObject、データセットまたはフォームのタイプである場合にのみ表示されるはずです。 このコマンドは、選択したオブジェクトが、EPMTaskまたはサインオフである場合に表示されないはずです。 このコマンドは、assignable_projectsプロパティがログインユーザに対して定義されていない場合に表示されないはずです。</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="ja_JP" status="Approved">プロジェクトを割当てコマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、Teamcenterバージョンが10.1.5から11.2.3の間で表示されるはずです。 このコマンドは、選択したオブジェクトが、WorkspaceObject、データセットまたはフォームのタイプである場合にのみ表示されるはずです。 このコマンドは、選択したオブジェクトが、EPMTaskまたはサインオフである場合に表示されないはずです。 このコマンドは、assignable_projectsプロパティがログインユーザに対して定義されていない場合に表示されないはずです。</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="ja_JP" status="Approved">この条件は、特定のビジネスオブジェクトタイプのインスタンスのチェックアウトを現在のサイトでキャンセルできるか判断します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="ja_JP" status="Approved">この条件は、特定のビジネスオブジェクトタイプのインスタンスの所有権を変更できるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="ja_JP" status="Approved">選択したユーザオブジェクトが現在ログインしているユーザを表現するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="ja_JP" status="Approved">この条件は、特定のビジネスオブジェクトタイプのインスタンスを現在のサイトでチェックインできるか判断します。</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="ja_JP" status="Approved">この条件は、特定のビジネスオブジェクトタイプのインスタンスをチェックアウトできるか判断します。これは、タイプがチェックアウトできるか、インスタンスが現在のサイトで修正できるか、のチェックに依存します。</key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="ja_JP" status="Approved">これは、オブジェクトがヌルでなく、保存済み検索タイプでないかをチェックする条件です。</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="ja_JP" status="Approved">代替IDを作成コマンド可視性</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="ja_JP" status="Approved">この条件は、渡された場合、Fnd0SelectionオブジェクトがNULLではなくその親選択プロパティがNULLでないことを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="ja_JP" status="Approved">この条件は、要求されたオブジェクトタイプの削除が許可されるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="ja_JP" status="Approved">この条件は、ユーザが選択したビジネスオブジェクトに対するトランスレーションアクセスがあるかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="ja_JP" status="Approved">この条件は、選択した保存済み検索がヌルでないかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="ja_JP" status="Approved">この条件は、Awp0InContextReportsコマンドを可視にするかをチェックします.</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="ja_JP" status="Approved">この条件は、選択したオブジェクトがACEオブジェクトの場合に、コマンドを可視にするかをチェックするようにデザインされています。 ACEはそれ自身をチェックし、それはクライアント側で実行されます。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="ja_JP" status="Approved">この条件は、渡されたビジネスオブジェクトのインスタンスが、タイプ"Awp0AWCExternalSystemObject"のものでないかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="ja_JP" status="Approved">Awp0PinObjectコマンドを可視にするかをチェックします。例外は保存済検索オブジェクトタイプで、これは可視になりません。</key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="ja_JP" status="Approved">Awp0PinSearchコマンドを表示するかをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="ja_JP" status="Approved">この条件は、Awp0Printコマンドを可視にするかをチェックします.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0RemoveFromFavoritesコマンドを可視にするかをチェックします</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="ja_JP" status="Approved">この条件は、データセットビジネスオブジェクトタイプのインスタンスが修正可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="ja_JP" status="Approved">アドバンス検索サブロケーションにおいて表示されている検索ナビゲーションコマンドを使用不可にします</key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="ja_JP" status="Approved">この条件は、場所を設定またはクリアコマンドのコマンド可視性をチェックするためのものです</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="ja_JP" status="Approved">この条件は、ReviseInput定数が空でないとするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="ja_JP" status="Approved">この条件は、渡されたビジネスオブジェクトがアイテムリビジョンであるかまたはReviseInput定数の値が空でないかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="ja_JP" status="Approved">選択したオブジェクトがサブスクライブ可能であるかをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="ja_JP" status="Approved">この条件は、渡されたビジネスオブジェクトのインスタンスが、タイプ"ReportDefinition"のものであるを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="ja_JP" status="Approved">Awp0UnPinObjectコマンドを可視にするかをチェックします。例外は保存済検索オブジェクトタイプで、これは可視になりません。</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="ja_JP" status="Approved">Awp0UnPinSearchコマンドを表示するかをチェックします。</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="ja_JP" status="Approved">Awp0ViewFileコマンドを表示するかをチェックします。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ja_JP" status="Approved">Active Workspaceオブジェクトセットコマンド</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ja_JP" status="Approved">Active Workspaceテーブルコマンド</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ja_JP" status="Approved">Active Workspaceオブジェクトセット</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ja_JP" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="ja_JP" status="Approved">説明</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="ja_JP" status="Approved">非表示</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="ja_JP" status="Approved">JSONデータ</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="ja_JP" status="Approved">パーソナライズデータID</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="ja_JP" status="Approved">パーソナライゼーションデータサブタイプ</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="ja_JP" status="Approved">パーソナライズデータタイプ</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="ja_JP" status="Approved">範囲</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="ja_JP" status="Approved">ゲートウェイタイル</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="ja_JP" status="Approved">タイルコレクション</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="ja_JP" status="Approved">タイルプロキシ</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="ja_JP" status="Approved">タイルテンプレート</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="ja_JP" status="Approved">タイル</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="ja_JP" status="Approved">デフォルト</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="ja_JP" status="Approved">外部リンク</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="ja_JP" status="Approved">静的リソース</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="ja_JP" status="Approved">コマンド</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="ja_JP" status="Approved">小</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="ja_JP" status="Approved">ワイド</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="ja_JP" status="Approved">大</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="ja_JP" status="Approved">管理場所</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="ja_JP" status="Approved">固定されたオブジェクト</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="ja_JP" status="Approved">ロケーション</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="ja_JP" status="Approved">コマンドおよびアクション</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="ja_JP" status="Approved">保存済み検索</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="ja_JP" status="Approved">お気に入り</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="ja_JP" status="Approved">メイン</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="ja_JP" status="Approved">クイックリンク</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="ja_JP" status="Approved">タイルグループ</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="ja_JP" status="Approved">ライブ</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="ja_JP" status="Approved">オーダー番号</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="ja_JP" status="Approved">保護</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="ja_JP" status="Approved">非表示</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="ja_JP" status="Approved">タイルサイズ</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="ja_JP" status="Approved">ソースコレクション</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="ja_JP" status="Approved">範囲</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="ja_JP" status="Approved">タイルテンプレートID</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="ja_JP" status="Approved">タイル</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="ja_JP" status="Approved">アクションタイプ</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="ja_JP" status="Approved">アクション</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="ja_JP" status="Approved">コンテンツ名</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="ja_JP" status="Approved">アイコンソース</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="ja_JP" status="Approved">アイコン</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="ja_JP" status="Approved">サポートされるタイルサイズ</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="ja_JP" status="Approved">テンプレートID</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="ja_JP" status="Approved">テーマインデックス</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="ja_JP" status="Approved">構成済みオブジェクト</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="ja_JP" status="Approved">コンテンツ値</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="ja_JP" status="Approved">表示名</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="ja_JP" status="Approved">メッセージ</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="ja_JP" status="Approved">固定されたオブジェクトID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="ja_JP" status="Approved">固定されたオブジェクト</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="ja_JP" status="Approved">アクションパラメータ</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="ja_JP" status="Approved">スタイル</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="ja_JP" status="Approved">タイルID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="ja_JP" status="Approved">タイルテンプレート</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="ja_JP" status="Approved">動的参加者同期タスクビュープロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="ja_JP" status="Approved">プロセス割当てリストプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="ja_JP" status="Approved">参加者キーロール</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="ja_JP" status="Approved">参加者タイププロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="ja_JP" status="Approved">メンバの選択プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="ja_JP" status="Approved">プロセス履歴ツリープロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="ja_JP" status="Approved">プロセス履歴行情報</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="ja_JP" status="Approved">タスク検索プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="ja_JP" status="Approved">ワークフローレポートプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="ja_JP" status="Approved">ワークフローテンプレートLOVビジネスオブジェクト</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="ja_JP" status="Approved">ビジネスオブジェクト定数Awp0WorkflowSubmittableを評価して、動的LOV Awp0WorkflowTemplateLOVの結果を制限する条件です。</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="ja_JP" status="Approved">複数値</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="ja_JP" status="Approved">参加者ハンドラキーワード</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="ja_JP" status="Approved">参加者キーロールタイプ</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="ja_JP" status="Approved">参加者キーロール</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="ja_JP" status="Approved">監査記録</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="ja_JP" status="Approved">リーフノード</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="ja_JP" status="Approved">親監査記録</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="ja_JP" status="Approved">同意者</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="ja_JP" status="Approved">通知者</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="ja_JP" status="Approved">レビュー担当者</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="ja_JP" status="Approved">表示する参加者</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="ja_JP" status="Approved">表示する参加者</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="ja_JP" status="Approved">ワークフロー</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="ja_JP" status="Approved">タスクを中止</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="ja_JP" status="Approved">代理を追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="ja_JP" status="Approved">ワークフロータスクの要求</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="ja_JP" status="Approved">ワークフローに送信</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="ja_JP" status="Approved">受信トレイを開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="ja_JP" status="Approved">タスクを転送(不在)</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="ja_JP" status="Approved">タスクを完了</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="ja_JP" status="Approved">プロモートタスク</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="ja_JP" status="Approved">タスクを再割当て</key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="ja_JP" status="Approved">リリース</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="ja_JP" status="Approved">参加者を除去</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="ja_JP" status="Approved">代理を除去</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="ja_JP" status="Approved">参加者を再割当て</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="ja_JP" status="Approved">置換</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="ja_JP" status="Approved">代理</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="ja_JP" status="Approved">この条件は、ユーザが「ワークフロー管理」ロールに属しているかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="ja_JP" status="Approved">この条件は、checks if Awp0AddReviewerコマンドを表示するかをチェックします。 この条件は、条件Fnd0AddReviewerPrivilegeが、「はい」または「いいえ」と評価するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="ja_JP" status="Approved">Awp0AddSurrogateコマンドを表示するかをチェックする条件です。 この条件は、選択したユーザオブジェクトが現在のログインユーザを表現するかを決定するか、またはログインユーザに対するFnd0ManageSurrogatePrivilege条件を評価します。</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="ja_JP" status="Approved">Awp0NewWorkflowProcessコマンドを表示するかをチェックする条件です。 この条件は、入力ビジネスオブジェクトがレプリカオブジェクトでチェックアウトされているか、またはレプリカオブジェクトではなくチェックアウトされていない場合にコマンドを使用可能にします。 これは、追加でfnd0CurrentChangeContextプロパティ値をヌルにし、コマンドを使用可能にします。 加えて、クライアントサイドにその他の表示ロジックがあり、プロバイダを基準としたコマンドを使用可能にするために、有効なサポートされるオブジェクトタイプを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="ja_JP" status="Approved">Awp0OpenInboxLocationコマンドを表示するかをチェックする条件です。 この条件は、選択したユーザオブジェクトが現在のログインユーザを表現するかを決定するか、またはログインユーザに対するFnd0AccessInboxPrivilege条件を評価します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="ja_JP" status="Approved">Awp0OutOfOfficeコマンドを表示するかをチェックする条件です。 この条件は、選択したユーザオブジェクトが現在のログインユーザを表現するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0PerformTaskコマンドを表示するかをチェックします。 この条件は、ログインユーザが選択したEPMTaskまたはサインオフオブジェクトを実行するのに有効なユーザであるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="ja_JP" status="Approved">Awp0PromoteTaskコマンドを表示するかをチェックする条件です。 この条件は、入力ビジネスオブジェクトがEPMTaskまたはサインオフであるかおよびawp0PromoteableByMeBehaviorプロパティ値を基準としてプロモートコマンドを使用可能にするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="ja_JP" status="Approved">この条件は、checks if Awp0ReassignTaskコマンドを表示するかをチェックします。 この条件は、選択したオブジェクトのルートタスクが完了しておらず、それがFnd0AssignTaskPrivilege条件を満足するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0Releaseコマンドを表示するかをチェックします。 この条件は、ログインユーザがEPMTaskまたはサインオフオブジェクトのアクティブな代理とするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="ja_JP" status="Approved">Awp0ReplaceMultipleParticipantsコマンドを表示するかをチェックする条件です。 この条件は、入力ビジネスオブジェクトが、アイテムリビジョンまたはアイテムリビジョンのサブタイプであるかを決定します。 加えて、クライアントサイドにその他の表示ロジックがあり、選択される最小の2つの有効なオブジェクトを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0StandInコマンドを表示するかをチェックします。 この条件は、ログインユーザが、有効な代理で、EPMTaskまたはサインオフオブジェクトの代理値がセットされていない場合、コマンドを使用可能にします。</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="ja_JP" status="Approved">この条件は、Awp0RemoveSurrogateコマンドを表示するかをチェックします。 この条件は、ログインユーザに代理ユーザを修正する特権を持たせるかを決定します。</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="ja_JP" status="Approved">この条件は、"Awp0ClaimTask"コマンドを表示するかをチェックします。 この条件は、条件"Fnd0AssignTaskPrivilege"が、「はい」または「いいえ」に評価されるか、そしてまた、ログインユーザがEPMTaskまたはサインオフに対するリソースプールのメンバであるかをチェックします。</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="ja_JP" status="Approved">タスクコマンド条件を中止</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="ja_JP" status="Approved">分類</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="ja_JP" status="Approved">現在のユーザがアクティブなオブジェクトを分類することができるかをチェックする条件です。</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="ja_JP" status="Approved">コラボレーションデータプロバイダ</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="ja_JP" status="Approved">コンポーネントを追加</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="ja_JP" status="Approved">3D Publishingで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="ja_JP" status="Approved">Creoで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="ja_JP" status="Approved">Solid Edgeで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="ja_JP" status="Approved">Solid Edgeで開く - Illustrator</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="ja_JP" status="Approved">Solid Edge構造エディタで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="ja_JP" status="Approved">SolidWorks で開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="ja_JP" status="Approved">AutoCADで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="ja_JP" status="Approved">Inventorで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="ja_JP" status="Approved">CATIAで開く</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="ja_JP" status="Approved">SampleCADで開く</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="ja_JP" status="Approved">コンポーネントを追加コマンドをいつ可視状態にするかを決定するサーバサイド表示条件です。 それぞれのCADアプリケーションに対してサポートされている開くタイプのプリファレンス値をチェックすることにより動作します。 コマンドが可視になる前に、ホストモードでActive Workspaceを実行するかを決定するなど、関係するその他のクライアントサイド表示条件があります。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="ja_JP" status="Approved">「3D Publishingで開く」コマンドの表示条件を決定します。 3D Publishingアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="ja_JP" status="Approved">「Creoで開く」コマンドの表示条件を決定します。 Creoアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="ja_JP" status="Approved">「Solid Edgeで開く」コマンドの表示条件を決定します。 Solid Edgeアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="ja_JP" status="Approved">「Solid Edgeで開く - Illustrator」コマンドの表示条件を決定します。 Solid Edgeで開く - Illustratorアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="ja_JP" status="Approved">「Solid Edge構造エディタで開く」コマンドの表示条件を決定します。 Solid Edge構造エディタアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="ja_JP" status="Approved">「SolidWorksで開く」コマンドの表示条件を決定します。 SolidWorksアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="ja_JP" status="Approved">「AutoCADで開く」コマンドの表示条件を決定します。 AutoCADアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="ja_JP" status="Approved">「Inventorで開く」コマンドの表示条件を決定します。 Inventorアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="ja_JP" status="Approved">「CATIAで開く」コマンドの表示条件を決定します。 CATIAアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="ja_JP" status="Approved">「SampleCADで開く」コマンドの表示条件を決定します。 SampleCADアプリケーションに対してサポートされる開くタイプのプリファレンス値をチェックします。 コマンドが表示される前に、追加のクライアントサイド表示条件は(Active Workspaceがホステッドモードで実行されているかを判断するものなどに)関連します。</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="ja_JP" status="Approved">カレンダーデータプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="ja_JP" status="Approved">組織ツリープロバイダ</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="ja_JP" status="Approved">タスクプロバイダ</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

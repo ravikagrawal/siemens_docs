@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:53 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="Awp03.3.0" description="Active Workspace Document Management" isThirdParty="false" name="Dma1docmgmtaw" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationInputType artifactName="Dma1PrintConfigCustomLOVBOCreI" description="CreateInput object for &quot;Dma1PrintConfigCustomLOVBO&quot; business object" isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamicCreI" typeClassName="Dma1PrintConfigCustomLOVBOCreI" typeName="Dma1PrintConfigCustomLOVBOCreI"/>
+           
+        <OperationInputType artifactName="Dma1PrintConfigCustomLOVBOSvAI" description="SaveAsInput object for &quot;Dma1PrintConfigCustomLOVBO&quot; business object" isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamicSvAI" typeClassName="Dma1PrintConfigCustomLOVBOSvAI" typeName="Dma1PrintConfigCustomLOVBOSvAI"/>
+           
+        <OperationInputType artifactName="Dma1PrintConfigRuntimeCreI" description="CreateInput object for &quot;Dma1PrintConfigRuntime&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Dma1PrintConfigRuntimeCreI" typeName="Dma1PrintConfigRuntimeCreI"/>
+           
+        <OperationInputType artifactName="Dma1PrintConfigRuntimeSvAI" description="SaveAsInput object for &quot;Dma1PrintConfigRuntime&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Dma1PrintConfigRuntimeSvAI" typeName="Dma1PrintConfigRuntimeSvAI"/>
+           
+        <TcRuntimeType artifactName="Dma1PrintConfigRuntime" description="This BO represents the Document Management Print Configuration runtime properties. This will contain the calculated properties for the print configurations." isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Dma1PrintConfigRuntime" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcProperty arrayLength="0" description="This is an LOV (Dma1PrintConfigBannerPageLOV) that displays the Banner Page (Off, Single, All). Banner page specifies whether to print a page including the defined stamps and listing additional data." isArray="false" propMaxStringLength="128" propName="dma1BannerPage" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="If true, this will collate the copies printed. Default is false." isArray="false" propMaxStringLength="0" propName="dma1Collate" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This is an LOV (Dma1PrintConfigColorLOV) that will display the supported print configuration colors (e.g. Monochrome, Color) that the user can select." isArray="false" propMaxStringLength="128" propName="dma1Color" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Represents the number of copies that needs to be printed.  The default is 1." isArray="false" propMaxStringLength="0" propName="dma1Copies" propTypeName="Runtime" propValueType="PROP_int" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This is an LOV (Dma1PrintConfigOrientationLOV) that will display the supported paper orientations (e.g. Best Fit, Portrait, Landscape)." isArray="false" propMaxStringLength="128" propName="dma1Orientation" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This is an LOV (Dma1PrintConfigPaperSizesLOV) that will display the supported paper sizes for this print configuration." isArray="false" propMaxStringLength="128" propName="dma1PaperSizes" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This represents the print configuration This represents the available print configuration name/s. Dma1PrintConfigNameLOV will be attached to this property to display the available print configurations that can be selected." isArray="false" propMaxStringLength="128" propName="dma1PrintConfigName" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This represents the name of the printer for the selected print configuration." isArray="false" propMaxStringLength="128" propName="dma1PrinterName" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Specifies a range of pages to print (e.g. 1-5 will print pages 1 to 5)." isArray="false" propMaxStringLength="128" propName="dma1Range" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Specifies the scaling factor, from 0.000001 to 100.0, applied to an image when it&amp;apos;s printed.&amp;#x0A;&amp;#x0A;With standard fit-to-page functionality, the image size is adjusted to fit the paper." isArray="false" propMaxStringLength="0" propName="dma1Scale" propTypeName="Runtime" propValueType="PROP_double" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This in an LOV (Dma1PrintConfigSystemStampLOV) to specify whether the system stamp applies to the first page, the banner page, or all pages." isArray="false" propMaxStringLength="128" propName="dma1SystemStamp" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Specifies text for a user stamp to be applied in addition to any existing system stamp configuration." isArray="false" propMaxStringLength="128" propName="dma1UserStamp" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="This indicates if the printing stamp is supported or not." isArray="false" propMaxStringLength="0" propName="dma1StampsSupported" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcStandardType artifactName="Dma1PrintConfigCustomLOVBO" description="This business object represents a custom dynamic LOV in Active Workspace. This is used with Dma1PrintConfigPaperSizesLOV (exhaustive). The values (print configuration paper sizes) for LOV are retrieved codefully." isAbstract="false" parentTypeName="Fnd0ListOfValuesDynamic" typeClassName="Fnd0ListOfValuesDynamic" typeName="Dma1PrintConfigCustomLOVBO"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.3.0" description="Interface Name for Business Object Dma1PrintConfigCustomLOVBO" libraryName="Dma1docmgmtaw" name="Dma1PrintConfigCustomLOVBO" namespace="dma1docmgmtaw" primaryInterface="true" typeName="Dma1PrintConfigCustomLOVBO"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.3.0" description="Interface Name for Business Object Dma1PrintConfigRuntime" libraryName="Dma1docmgmtaw" name="Dma1PrintConfigRuntime" namespace="dma1docmgmtaw" primaryInterface="true" typeName="Dma1PrintConfigRuntime"/>
+           
+        <OperationAttach id="fnd0askLOVValues#const,tag_t$const,std::string,*$const,std::string,*$const,char,*$const,int$int,*$tag_t,**#const" typeName="Dma1PrintConfigCustomLOVBO"/>
+           
+        <OperationAttach id="fnd0isValueValid#const,tag_t$const,std::string,*$const,std::string,*$bool,*#const" typeName="Dma1PrintConfigCustomLOVBO"/>
+           
+        <Condition description="Condition to check if the out-of-the-box Item Revision Definition Configuration (IRDC), Dma1DocumentRevisionIRDC, is to be applied for Document Revision business object. When the preference &quot;Fnd0DM_IsSimpleDocumentEnabled&quot; is set to &quot;true&quot;, then Dma1DocumentRevisionIRDC will be applied, otherwise not.  This is not applied to the children of Document Revision." expression="(o != NULL) AND u.fnd0ConditionHelper.fnd0isValuePresentInPref(&quot;Fnd0DM_IsSimpleDocumentEnabled&quot;,&quot;true&quot;) = true AND o.object_type=&quot;DocumentRevision&quot;" name="Dma1DocumentRevisionIRDCCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="DocumentRevision"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="Condition to check if the out-of-the-box Item Revision Definition Configuration (IRDC) instance is to be applied for Item Revision based on the preference &quot;Dma1UseCOTSIRDC&quot;.  This is not applied to the children of Item Revision." expression="u.fnd0ConditionHelper.fnd0isValuePresentInPref(&quot;Dma1UseCOTSIRDC&quot;,o.object_type)=true" name="Dma1UseCOTSIRDCItemCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="ItemRevision"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Dma1PrintConfigCustomLOVBO" value="Dma1PrintConfigCustomLOVBOCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Dma1PrintConfigRuntime" value="Dma1PrintConfigRuntimeCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Dma1PrintConfigCustomLOVBO" value="Dma1PrintConfigCustomLOVBOSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Dma1PrintConfigRuntime" value="Dma1PrintConfigRuntimeSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1BannerPage" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Collate" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Color" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Copies" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Orientation" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1PaperSizes" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1PrintConfigName" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1PrinterName" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Range" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1Scale" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1StampsSupported" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1SystemStamp" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="dma1UserStamp" typeName="Dma1PrintConfigRuntime" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="dma1BannerPage" typeName="Dma1PrintConfigRuntime" value="Off"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="dma1Color" typeName="Dma1PrintConfigRuntime" value="Color"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="dma1Copies" typeName="Dma1PrintConfigRuntime" value="1"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="dma1Orientation" typeName="Dma1PrintConfigRuntime" value="Best Fit"/>
+           
+        <TcPropertyConstantAttach constantName="InitialValue" propertyName="dma1SystemStamp" typeName="Dma1PrintConfigRuntime" value="First Page"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1BannerPage" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Collate" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Color" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Copies" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Orientation" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1PaperSizes" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1PrintConfigName" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1PrinterName" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Range" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1Scale" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1StampsSupported" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1SystemStamp" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="dma1UserStamp" typeName="Dma1PrintConfigRuntime" value="Write"/>
+           
+        <TcLOV description="Print Configuration banner page input option LOV. This is used by Dma1PrintConfigRuntime business object." lovType="ListOfValuesString" name="Dma1PrintConfigBannerPageLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Off" value="Off"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Single" value="Single"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="All" value="All"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Print Configuration color input option LOV.  This LOV is used by Dma1PrintConfigRuntime business object." lovType="ListOfValuesString" name="Dma1PrintConfigColorLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Color" value="Color"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Monochrome" value="Monochrome"/>
+               
+        </TcLOV>
+           
+        <LOVDynamic dataType="PROP_string" description="Print configuration name dynamic LOV.  This is used by Dma1PrintConfigRuntime business object." lovValueAttribute="name" lovValueDescriptionAttribute="printer_name" name="Dma1PrintConfigNameLOV" queryClause="SELECT qid FROM PrintConfiguration WHERE &quot;name&quot; LIKE &quot;*&quot;" queryType="PrintConfiguration" usage="Exhaustive"/>
+           
+        <TcLOV description="Print Configuration orientation input option LOV. This is used by Dma1PrintConfigRuntime business object." lovType="ListOfValuesString" name="Dma1PrintConfigOrientationLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Best Fit" value="Best Fit"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Portrait" value="Portrait"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Landscape" value="Landscape"/>
+               
+        </TcLOV>
+           
+        <LOVDynamic dataType="PROP_string" description="Print Configuration Papers Sizes input option LOV.  The custom dynamic LOV Dma1PrintConfigCustomLOVBO business object type retrieve printer configuration paper sizes.  This is used by Dma1PrintConfigRuntime business object." lovType="Dma1PrintConfigCustomLOVBO" lovValueAttribute="paper_sizes" lovValueDescriptionAttribute="" name="Dma1PrintConfigPaperSizesLOV" queryClause="SELECT qid FROM PrintConfiguration WHERE &quot;paper_sizes&quot; LIKE &quot;*&quot;" queryType="PrintConfiguration" usage="Exhaustive"/>
+           
+        <TcLOV description="Print Configuration system stamp input option LOV.This is used by Dma1PrintConfigRuntime business object." lovType="ListOfValuesString" name="Dma1PrintConfigSystemStampLOV" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="First Page" value="First Page"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Banner Page" value="Banner Page"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="All Pages" value="All Pages"/>
+               
+        </TcLOV>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigBannerPageLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="dma1BannerPage"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigColorLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="dma1Color"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigNameLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" descriptionPropertyName="dma1PrinterName" level="0" override="false" valuePropertyName="dma1PrintConfigName"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigOrientationLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="dma1Orientation"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigPaperSizesLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="dma1PaperSizes"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Dma1PrintConfigSystemStampLOV" typeName="Dma1PrintConfigRuntime">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="dma1SystemStamp"/>
+               
+        </TcLOVAttach>
+           
+        <Functionality description="Component for the template - dma1docmgmtaw" displayName="Active Workspace Document Management" enabledForVerificationRules="false" name="Dma1docmgmtaw"/>
+           
+        <IRDC appliesToBusinessObj="DocumentRevision" condition="Dma1DocumentRevisionIRDCCond" createTemplate="" deleteDataFileFlag="true" derivedVisDatasetCreateFlag="Optional" derivedVisFilesCheckinOption="Same File Name" description="This is the IRDC for DocumentRevision.  When condition Dma1DocumentRevisionIRDCCond evaluate to true then this IRDC will be applied to the DocumentRevision." excelTemplate="" ftrIndexFlag="true" makeMarkUpsOfficial="false" markUpApp="" markUpDataset="" markUpDefaultACL="" name="Dma1DocumentRevisionIRDC" objectTemplate="" specTemplate="" viewMarkUpFlag="false">
+                 
+            <IRDCSourceObj definingIRDC="Dma1DocumentRevisionIRDC" name="name" sourceDatasetItemRevRelation="TC_Attaches" sourceDatasetTypeName="MSWordX"/>
+                 
+            <IRDCSourceObj definingIRDC="Dma1DocumentRevisionIRDC" name="name" sourceDatasetItemRevRelation="TC_Attaches" sourceDatasetTypeName="MSExcelX"/>
+                 
+            <IRDCSourceObj definingIRDC="Dma1DocumentRevisionIRDC" name="name" sourceDatasetItemRevRelation="TC_Attaches" sourceDatasetTypeName="MSPowerPointX"/>
+                 
+            <IRDCDerivedObj definingIRDC="Dma1DocumentRevisionIRDC" derivedDatasetItemRevRelation="TC_Attaches" derivedDatasetRequiredFlag="true" derivedDatasetTypeName="PDF" name="name"/>
+                 
+            <IRDCSourceDatasetNamingObj attrForName="item_id" name="Dma1DocumentRevisionIRDC" numChars="125" startingChar="1" textForName="doc_"/>
+                 
+            <IRDCRenderObj deleteAfterTranslate="false" derivedDataset="PDF" derivedFromDatasetRelation="TC_Derived" inputDataset="MSWordX" inputFileNames="" itemRevRelation="TC_Attaches" name="Dma1DocumentRevisionIRDC" whenToTranslate="Always"/>
+                 
+            <IRDCRenderObj deleteAfterTranslate="false" derivedDataset="PDF" derivedFromDatasetRelation="TC_Derived" inputDataset="MSExcelX" inputFileNames="" itemRevRelation="TC_Attaches" name="Dma1DocumentRevisionIRDC" whenToTranslate="Always"/>
+                 
+            <IRDCRenderObj deleteAfterTranslate="false" derivedDataset="PDF" derivedFromDatasetRelation="TC_Derived" inputDataset="MSPowerPointX" inputFileNames="" itemRevRelation="TC_Attaches" name="Dma1DocumentRevisionIRDC" whenToTranslate="Always"/>
+               
+        </IRDC>
+           
+        <IRDC appliesToBusinessObj="Drawing Revision" condition="Dma1UseCOTSIRDCItemCond" createTemplate="" deleteDataFileFlag="true" derivedVisDatasetCreateFlag="Optional" derivedVisFilesCheckinOption="None" description="This is the IRDC for the Drawing Revision to convert images to PDF." excelTemplate="" ftrIndexFlag="true" makeMarkUpsOfficial="false" markUpApp="" markUpDataset="" markUpDefaultACL="" name="Dma1DrawingRevisionIRDC" objectTemplate="" specTemplate="" viewMarkUpFlag="false">
+                 
+            <IRDCSourceObj definingIRDC="Dma1DrawingRevisionIRDC" name="name" sourceDatasetItemRevRelation="TC_Attaches" sourceDatasetTypeName="Image"/>
+                 
+            <IRDCDerivedObj definingIRDC="Dma1DrawingRevisionIRDC" derivedDatasetItemRevRelation="TC_Attaches" derivedDatasetRequiredFlag="true" derivedDatasetTypeName="PDF" name="name"/>
+               
+        </IRDC>
+           
+        <DispatcherServiceConfig derivedDatasetReference="PDF_Reference" derivedDatasetTypeName="PDF" derivedFromDatasetRelation="TC_Derived" description="Image to PDF conversion using previewservice. previewservice requires Teamcenter Visualization Convert." dispatcherServiceAvailable="true" dispatcherServiceDisplayName="previewservice" dispatcherServiceName="previewservice" dispatcherServicePriority="Low" itemRevisionRelation="TC_Attaches" name="Dma1ImagetoPDFPreviewService" providerDisplayName="Siemens PLM Software" providerName="SIEMENS" sortOrder="5" sourceDatasetReference="Image" sourceDatasetTypeName="Image"/>
+           
+        <DispatcherServiceConfig derivedDatasetReference="PDF_Reference" derivedDatasetTypeName="PDF" derivedFromDatasetRelation="TC_Derived" description="Microsoft ExcelX to PDF conversion using previewservice. previewservice required Teamcenter Visualization Convert." dispatcherServiceAvailable="true" dispatcherServiceDisplayName="previewservice" dispatcherServiceName="previewservice" dispatcherServicePriority="Low" itemRevisionRelation="TC_Attaches" name="Dma1MSExcelXToPDFPreviewService" providerDisplayName="Siemens PLM Software" providerName="SIEMENS" sortOrder="15" sourceDatasetReference="excel" sourceDatasetTypeName="MSExcelX"/>
+           
+        <DispatcherServiceConfig derivedDatasetReference="PDF_Reference" derivedDatasetTypeName="PDF" derivedFromDatasetRelation="TC_Derived" description="Microsoft PowerPointX to PDF conversion using previewservice. previewservice required Teamcenter Visualization Convert." dispatcherServiceAvailable="true" dispatcherServiceDisplayName="previewservice" dispatcherServiceName="previewservice" dispatcherServicePriority="Low" itemRevisionRelation="TC_Attaches" name="Dma1MSPowerPointXToPDFPreviewService" providerDisplayName="Siemens PLM Software" providerName="SIEMENS" sortOrder="20" sourceDatasetReference="powerpoint" sourceDatasetTypeName="MSPowerPointX"/>
+           
+        <DispatcherServiceConfig derivedDatasetReference="PDF_Reference" derivedDatasetTypeName="PDF" derivedFromDatasetRelation="TC_Derived" description="Microsoft WordX to PDF conversion using previewservice. previewservice required Teamcenter Visualization Convert." dispatcherServiceAvailable="true" dispatcherServiceDisplayName="previewservice" dispatcherServiceName="previewservice" dispatcherServicePriority="Low" itemRevisionRelation="TC_Attaches" name="Dma1MSWordXToPDFPreviewService" providerDisplayName="Siemens PLM Software" providerName="SIEMENS" sortOrder="10" sourceDatasetReference="word" sourceDatasetTypeName="MSWordX"/>
+           
+        <Library createRelease="Awp03.3.0" description="Active Workspace Document service library." isThirdParty="false" name="Dma1SoaDocMgmtAw" namespace="Dma1::Soa::DocMgmtAw" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="Awp03.3.0" dependencies="" description="The service provides operations for Active Workspace Document Management batch print.&lt;br /&gt;&lt;br /&gt;The getPrinterDefinition operation gets the printer configuration definition information required for the Batch Print action from Active Workspace." libraryName="Dma1SoaDocMgmtAw" name="DocMgmt" namespace="Dma1::Soa::DocMgmtAw" serviceLibraryRef=""/>
+           
+        <Struct createRelease="Awp03.3.0" description="Printer Definition Response structure." isPublished="true" name="PrinterDefinitionResponse" namespace="Dma1::Soa::DocMgmtAw::_2017_06::DocMgmt" scope="Dma1::Soa::DocMgmtAw::DocMgmt">
+                 
+            <StructElement description="A list of Print Configuration Runtime business objects.  This business object contains all print configuration information properties such as Print Configuration Name, Printer Name, Paper Sizes, etc." name="printConfigurations">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="dma1docmgmtaw::Dma1PrintConfigRuntime"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Standard return; includes any error information." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp04.2.0" description="Contains the key/value pairs for client/server communication." isPublished="false" name="MarkupProperties" namespace="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt" scope="Dma1::Soa::DocMgmtAw::DocMgmt">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp04.2.0" description="This MarkupResponse structure is for the response of all processMarkups operations." isPublished="false" name="MarkupResponse" namespace="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt" scope="Dma1::Soa::DocMgmtAw::DocMgmt">
+                 
+            <StructElement description="The resulting base object after process markups." name="baseObject">
+                       
+                <DataTypeRefParam dataType="Teamcenter::WorkspaceObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The version of the markups set by the server, opaque to the client." name="version">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string/string) of properties.    Values can be:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Key: &amp;ldquo;message&amp;rdquo;.  Value: &amp;ldquo;author&amp;rdquo;,&amp;ldquo;reviewer&amp;rdquo; or &amp;ldquo;editor&amp;rdquo;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" name="properties">
+                       
+                <DataTypeRefParam dataType="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupProperties"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The user supplied JSON markup data that was updated or loaded." name="markups">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Service Data that may contain partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp04.3.0" description="This ProcessTextDatasetResponse structure is for the response of all processTextDataset operations." isPublished="false" name="ProcessTextDatasetResponse" namespace="Dma1::Soa::Internal::DocMgmtAw::_2019_12::DocMgmt" scope="Dma1::Soa::DocMgmtAw::DocMgmt">
+                 
+            <StructElement description="For the &amp;ldquo;load&amp;rdquo; action, this string contains the contents of the text file that is a named reference in the Dataset. If there is more than one named reference, only the first one is returned.  For &amp;ldquo;save&amp;rdquo; action, this string is empty." name="content">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Service Data that may contain partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp03.3.0" description="This operation returns Print Configuration definition information from the &lt;b&gt;PrintConfiguration&lt;/b&gt; object defined in Teamcenter." id="Dma1::Soa::DocMgmtAw::_2017_06::DocMgmt::PrinterDefinitionResponse#Dma1::Soa::DocMgmtAw::DocMgmt::getPrinterDefinitions" name="Dma1::Soa::DocMgmtAw::DocMgmt::getPrinterDefinitions" returnConst="false" returnDescription="The Print Configuration definition information. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;     515155 The PrintConfiguration class does not exist in the System" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Dma1::Soa::DocMgmtAw::_2017_06::DocMgmt::PrinterDefinitionResponse" qualifier=""/>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp04.2.0" description="Description:&lt;br /&gt;This operation processes the markups on the server. &lt;br /&gt;Use Cases:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Load all the existing markups from the server.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Save the user created or modified markups to the server.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" id="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupResponse#Dma1::Soa::DocMgmtAw::DocMgmt::processMarkups#const,Teamcenter::WorkspaceObject,&amp;$const,std::string,&amp;$const,Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupProperties,&amp;$const,std::string,&amp;" name="Dma1::Soa::DocMgmtAw::DocMgmt::processMarkups" returnConst="false" returnDescription="Return the common MarkupResponse that contains the version, message, updated base object, updated markups, and possibly partial errors. &lt;br /&gt;&lt;br /&gt;Following are some possible errors return in the ServiceData:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;260037 'MARKUP' access privilege on the Item is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260038 'MARKUP' access privilege on the Item Revision is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260039 'MARKUP' access privilege on the Based Dataset is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260040 The Markup cannot be created or updated because the base Dataset is checked-out by somebody else or is out-of-date. Refresh the base Dataset to obtain its latest version.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The base object for markups." freeOutputMemory="false" inputOutput="Input" name="baseObject">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::WorkspaceObject" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="The version   of the markups on the client before the user's modification, set by the server, opaque to the client.  For load action, the string is empty.  For save action, retrieve the version string from load action response object." freeOutputMemory="false" inputOutput="Input" name="version">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="The property map(string, strings).  Contain the key/value pairs.  Possible values are:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Key: &amp;ldquo;action&amp;rdquo;.  Value: &amp;ldquo;load&amp;rdquo; or &amp;ldquo;save&amp;rdquo; &lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Key: &amp;ldquo;message&amp;rdquo;.  Value: &amp;ldquo;all_users&amp;rdquo; or &amp;ldquo;single_user&amp;rdquo;&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;quot;all_users&amp;quot; - save or load the markups for all users.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;quot; single_user&amp;quot; - save or load the markups for the current user.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" freeOutputMemory="false" inputOutput="Input" name="properties">
+                       
+                <OperationParameterDataTypeRef dataType="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupProperties" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="A user supplied JSON markup.  Empty string is allowed.  Valid only for &amp;ldquo;save&amp;rdquo; action." freeOutputMemory="false" inputOutput="Input" name="markups">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp04.3.0" description="This operation extracts the contents of the text dataset to a string and returns it or saves the input string to the contents of a text dataset." id="Dma1::Soa::Internal::DocMgmtAw::_2019_12::DocMgmt::ProcessTextDatasetResponse#Dma1::Soa::DocMgmtAw::DocMgmt::processTextDataset#const,Teamcenter::Dataset,&amp;$const,std::string,&amp;$const,std::string,&amp;" name="Dma1::Soa::DocMgmtAw::DocMgmt::processTextDataset" returnConst="false" returnDescription="The dataset content.&lt;br /&gt;&lt;br /&gt;The following partial errors may be returned:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;387004 Dataset is not checked out.  Unable to update the dataset.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;387005 Input object is not a valid text dataset.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;387006 Input dataset contains a named reference to a binary file.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Dma1::Soa::Internal::DocMgmtAw::_2019_12::DocMgmt::ProcessTextDatasetResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The Dataset to be processed." freeOutputMemory="false" inputOutput="Input" name="baseObject">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::Dataset" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="For action &amp;ldquo;load&amp;rdquo;, this string is to be empty.  For action &amp;ldquo;save&amp;rdquo;, this string contains the text that is saved as a text file and added as a name reference to the Dataset." freeOutputMemory="false" inputOutput="Input" name="content">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="Supported values are:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;&amp;ldquo;load&amp;rdquo; &amp;ndash; loads the contents of the text file that is a named reference in the Dataset and returns it in the ProcessTextDatasetResponse.  If there is more than one named reference, only the first one is returned.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;ldquo;save&amp;rdquo; &amp;ndash;  saves the content string as a text file and adds it as a named reference to the Dataset.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" freeOutputMemory="false" inputOutput="Input" name="action">
+                       
+                <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Dma1docmgmtaw" createRelease="Awp03.3.0" dependencies="" description="This operation returns Print Configuration definition information from the &lt;b&gt;PrintConfiguration&lt;/b&gt; object defined in Teamcenter." exceptionCondition="" id="getPrinterDefinitions#" interface="Dma1::Soa::DocMgmtAw::DocMgmt" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="getPrinterDefinitions" opTemplate="Dma1::Soa::DocMgmtAw::_2017_06::DocMgmt::PrinterDefinitionResponse#Dma1::Soa::DocMgmtAw::DocMgmt::getPrinterDefinitions" returnDescription="The Print Configuration definition information. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;     515155 The PrintConfiguration class does not exist in the System" useCase="The client wants to get the print configuration information required for the Batch Printing action in Active Workspace."/>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp04.2.0" dependencies="" description="Description:&lt;br /&gt;This operation processes the markups on the server. &lt;br /&gt;Use Cases:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Load all the existing markups from the server.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Save the user created or modified markups to the server.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" exceptionCondition="" id="processMarkups#const,Teamcenter::WorkspaceObject,&amp;$const,std::string,&amp;$const,Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupProperties,&amp;$const,std::string,&amp;" interface="Dma1::Soa::DocMgmtAw::DocMgmt" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="processMarkups" opTemplate="Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupResponse#Dma1::Soa::DocMgmtAw::DocMgmt::processMarkups#const,Teamcenter::WorkspaceObject,&amp;$const,std::string,&amp;$const,Dma1::Soa::Internal::DocMgmtAw::_2019_06::DocMgmt::MarkupProperties,&amp;$const,std::string,&amp;" returnDescription="Return the common MarkupResponse that contains the version, message, updated base object, updated markups, and possibly partial errors. &lt;br /&gt;&lt;br /&gt;Following are some possible errors return in the ServiceData:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;260037 'MARKUP' access privilege on the Item is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260038 'MARKUP' access privilege on the Item Revision is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260039 'MARKUP' access privilege on the Based Dataset is needed to create or update its Markup.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;260040 The Markup cannot be created or updated because the base Dataset is checked-out by somebody else or is out-of-date. Refresh the base Dataset to obtain its latest version.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="processMarkups is publish under AWS2 template." deprecatedRelease="Awp06.1.0"/>
+                 
+            <ParameterInfo description="The base object for markups." parameterName="baseObject"/>
+                 
+            <ParameterInfo description="The version   of the markups on the client before the user's modification, set by the server, opaque to the client.  For load action, the string is empty.  For save action, retrieve the version string from load action response object." parameterName="version"/>
+                 
+            <ParameterInfo description="The property map(string, strings).  Contain the key/value pairs.  Possible values are:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Key: &amp;ldquo;action&amp;rdquo;.  Value: &amp;ldquo;load&amp;rdquo; or &amp;ldquo;save&amp;rdquo; &lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Key: &amp;ldquo;message&amp;rdquo;.  Value: &amp;ldquo;all_users&amp;rdquo; or &amp;ldquo;single_user&amp;rdquo;&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;quot;all_users&amp;quot; - save or load the markups for all users.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;quot; single_user&amp;quot; - save or load the markups for the current user.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" parameterName="properties"/>
+                 
+            <ParameterInfo description="A user supplied JSON markup.  Empty string is allowed.  Valid only for &amp;ldquo;save&amp;rdquo; action." parameterName="markups"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Dma1docmgmtaw" createRelease="Awp04.3.0" dependencies="" description="This operation extracts the contents of the text dataset to a string and returns it or saves the input string to the contents of a text dataset." exceptionCondition="" id="processTextDataset#const,Teamcenter::Dataset,&amp;$const,std::string,&amp;$const,std::string,&amp;" interface="Dma1::Soa::DocMgmtAw::DocMgmt" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="processTextDataset" opTemplate="Dma1::Soa::Internal::DocMgmtAw::_2019_12::DocMgmt::ProcessTextDatasetResponse#Dma1::Soa::DocMgmtAw::DocMgmt::processTextDataset#const,Teamcenter::Dataset,&amp;$const,std::string,&amp;$const,std::string,&amp;" returnDescription="The dataset content.&lt;br /&gt;&lt;br /&gt;The following partial errors may be returned:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;387004 Dataset is not checked out.  Unable to update the dataset.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;387005 Input object is not a valid text dataset.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;387006 Input dataset contains a named reference to a binary file.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" useCase="&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;Load the text from the dataset and return it in a string.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;Save the input text string to the dataset.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;">
+                 
+            <ParameterInfo description="The Dataset to be processed." parameterName="baseObject"/>
+                 
+            <ParameterInfo description="For action &amp;ldquo;load&amp;rdquo;, this string is to be empty.  For action &amp;ldquo;save&amp;rdquo;, this string contains the text that is saved as a text file and added as a name reference to the Dataset." parameterName="content"/>
+                 
+            <ParameterInfo description="Supported values are:&lt;br /&gt;&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;&amp;ldquo;load&amp;rdquo; &amp;ndash; loads the contents of the text file that is a named reference in the Dataset and returns it in the ProcessTextDatasetResponse.  If there is more than one named reference, only the first one is returned.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;&amp;ldquo;save&amp;rdquo; &amp;ndash;  saves the content string as a text file and adds it as a named reference to the Dataset.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" parameterName="action"/>
+               
+        </Operation>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

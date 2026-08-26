@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="pl_PL" status="Approved">Mapa schematów</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="pl_PL" status="Approved">Eksport i import z/do aktówki</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="pl_PL" status="Approved">Zbiorcze wyodrębnianie i ładowanie</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="pl_PL" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="pl_PL" status="Approved">Eksport i import PLM XML</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="pl_PL" status="Approved">Aktówka</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="pl_PL" status="Approved">Zbiorcze operacje</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="pl_PL" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="pl_PL" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="pl_PL" status="Approved">Zakończono eksport z aktówki</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="pl_PL" status="Approved">Eksport z aktówki nie powiódł się</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="pl_PL" status="Approved">Zakończono import do aktówki</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="pl_PL" status="Approved">Import do aktówki nie powiódł się</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="pl_PL" status="Approved">Zbiorcze wyodrębnianie zakończone</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="pl_PL" status="Approved">Zbiorcze wyodrębnianie nie powiodło się</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="pl_PL" status="Approved">Kopiowanie zbiorcze zakończone</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="pl_PL" status="Approved">Kopiowanie zbiorcze nie powiodło się</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="pl_PL" status="Approved">Eksport PLM XML zakończony</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="pl_PL" status="Approved">Eksport PLM XML nie powiódł się</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="pl_PL" status="Approved">Import PLM XML zakończony</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="pl_PL" status="Approved">Import PLM XML nie powiódł się</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="pl_PL" status="Approved">Eksport PDX został ukończony</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="pl_PL" status="Approved">Eksport PDX nie powiódł się</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="pl_PL" status="Approved">Wdrażanie reguł przyporządkowywania zakończone</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="pl_PL" status="Approved">Niepowodzenie wdrażania reguł przyporządkowywania</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="pl_PL" status="Approved">Odzyskiwanie własności ukończone</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="pl_PL" status="Approved">Nie udało się odzyskać własności</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

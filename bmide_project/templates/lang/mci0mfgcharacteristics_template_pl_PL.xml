@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:06 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mci0InspectionRelation" locale="pl_PL" status="Approved">Relacja inspekcji</key>
+           
+        <key id="BusinessObject{::}Mci0InspectionRevision" locale="pl_PL" status="Approved">Rewizja inspekcji</key>
+           
+        <key id="BusinessObject{::}Mci0Inspection" locale="pl_PL" status="Approved">Inspekcja</key>
+           
+        <key id="BusinessObject{::}Mci0PMIBop_Details" locale="pl_PL" status="Approved">Szczegóły BOP PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMICharacteristic" locale="pl_PL" status="Approved">Charakterystyka PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrmStrg" locale="pl_PL" status="Approved">Miejsce przechowywania formularza charakterystyki PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrm" locale="pl_PL" status="Approved">Formularz charakterystyki PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIMetaData" locale="pl_PL" status="Approved">Metadane PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIStorage" locale="pl_PL" status="Approved">Miejsce przechowywania PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXmlRel" locale="pl_PL" status="Approved">Relacja XML PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXml" locale="pl_PL" status="Approved">XML PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMI_Details" locale="pl_PL" status="Approved">Szczegóły PMI</key>
+           
+        <key id="BusinessObject{::}Mci0PMI" locale="pl_PL" status="Approved">Informacje dot. wytwarzania</key>
+           
+        <key id="PSOccurrence{::}Mci0MEInspect" locale="pl_PL" status="Approved">Inspekcja ME</key>
+           
+        <key id="Property{::}BOMLine{::}Characteristics Type" locale="pl_PL" status="Approved">Typ charakterystyki PMI</key>
+           
+        <key id="Property{::}BOMLine{::}DCD Place Holder" locale="pl_PL" status="Approved">Symbol zastępczy DCD</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Dimension Type" locale="pl_PL" status="Approved">Typ wymiaru PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Code" locale="pl_PL" status="Approved">Kod GDT PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Text" locale="pl_PL" status="Approved">Tekst GDT PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Is Composite FCF" locale="pl_PL" status="Approved">PMI jest ramką sterującą elementu złożonego</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Lower Spec Limit" locale="pl_PL" status="Approved">Dolny limit specyfikacji PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Marked As Deleted" locale="pl_PL" status="Approved">Oznaczono jako usunięte PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Modifier" locale="pl_PL" status="Approved">Modyfikator PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Nominal Value" locale="pl_PL" status="Approved">Wartość nominalna PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Not For Inspection" locale="pl_PL" status="Approved">Nie do inspekcji PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Place Holder" locale="pl_PL" status="Approved">Symbol zastępczy PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Primary Datum Ref" locale="pl_PL" status="Approved">Element powiązany z główną cechą odniesienia PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Second Datum Ref" locale="pl_PL" status="Approved">Element powiązany z drugorzędną cechą odniesienia PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tertiary Datum Ref" locale="pl_PL" status="Approved">Element powiązany z trzeciorzędną cechą odniesienia PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tolerance Is Absolute" locale="pl_PL" status="Approved">Tolerancja PMI ma wartość bezwzględną</key>
+           
+        <key id="Property{::}BOMLine{::}PMI UOM" locale="pl_PL" status="Approved">Jednostka PMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Upper Spec Limit" locale="pl_PL" status="Approved">Górny limit specyfikacji PMI</key>
+           
+        <key id="Property{::}BOMLine{::}Tolerance Desc" locale="pl_PL" status="Approved">Opis tolerancji PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationId" locale="pl_PL" status="Approved">ID powiązania PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationType" locale="pl_PL" status="Approved">Typ powiązania PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Criticality" locale="pl_PL" status="Approved">Krytyczność</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0DimensionType" locale="pl_PL" status="Approved">Typ wymiaru PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0FrameLocation" locale="pl_PL" status="Approved">Lokalizacja ramki PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTCode" locale="pl_PL" status="Approved">Kod GD&amp;T</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTText" locale="pl_PL" status="Approved">Tekst GD&amp;T</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsAbsolutePMI" locale="pl_PL" status="Approved">Tolerancja PMI ma wartość bezwzględną</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPMICompositeFCF" locale="pl_PL" status="Approved">PMI jest ramką sterującą elementu złożonego</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPartPmi" locale="pl_PL" status="Approved">PMI jest częścią</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0LowerSpecLimit" locale="pl_PL" status="Approved">Dolny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0MarkedAsDeleted" locale="pl_PL" status="Approved">Oznaczono jako usunięte</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Modifier" locale="pl_PL" status="Approved">Modyfikator PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0NominalValue" locale="pl_PL" status="Approved">Wartość nominalna</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiBaseUUID" locale="pl_PL" status="Approved">UUID podstawy PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiDescription" locale="pl_PL" status="Approved">Opis PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiExtensionID" locale="pl_PL" status="Approved">ID rozszerzenia PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiID" locale="pl_PL" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Text" locale="pl_PL" status="Approved">Tekst PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UOM" locale="pl_PL" status="Approved">Jednostka miary</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UpperSpecLimit" locale="pl_PL" status="Approved">Górny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristicsType" locale="pl_PL" status="Approved">Typ charakterystyki</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristic" locale="pl_PL" status="Approved">Charakterystyka</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0pmiMetaData" locale="pl_PL" status="Approved">Metadane PMI</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0primaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z główną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0secondaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z drugorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisI" locale="pl_PL" status="Approved">Oś powierzchni I</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisJ" locale="pl_PL" status="Approved">Oś powierzchni J</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisK" locale="pl_PL" status="Approved">Oś powierzchni K</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceEntity" locale="pl_PL" status="Approved">Element powierzchni</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationX" locale="pl_PL" status="Approved">Lokalizacja powierzchni X</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationY" locale="pl_PL" status="Approved">Lokalizacja powierzchni Y</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationZ" locale="pl_PL" status="Approved">Lokalizacja powierzchni Z</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceRadius" locale="pl_PL" status="Approved">Promień powierzchni</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceType" locale="pl_PL" status="Approved">Typ powierzchni</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0tertiaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z trzeciorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0toleranceDesc" locale="pl_PL" status="Approved">Opis tolerancji</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DatumLabel" locale="pl_PL" status="Approved">Etykieta daty</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DimensionType" locale="pl_PL" status="Approved">Typ wymiaru PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTCode" locale="pl_PL" status="Approved">Kod GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTText" locale="pl_PL" status="Approved">Tekst GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsAbsolutePMI" locale="pl_PL" status="Approved">Tolerancja PMI ma wartość bezwzględną</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsPMICompositeFCF" locale="pl_PL" status="Approved">PMI jest ramką sterującą elementu złożonego</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0LowerSpecLimit" locale="pl_PL" status="Approved">Dolny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0MarkedAsDeleted" locale="pl_PL" status="Approved">Oznaczono jako usunięte</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Modifier" locale="pl_PL" status="Approved">Modyfikator PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0NominalValue" locale="pl_PL" status="Approved">Wartość nominalna</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiBaseUUID" locale="pl_PL" status="Approved">UUID podstawy PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiDescription" locale="pl_PL" status="Approved">Opis PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiExtensionID" locale="pl_PL" status="Approved">ID rozszerzenia PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiID" locale="pl_PL" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Text" locale="pl_PL" status="Approved">Tekst PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UOM" locale="pl_PL" status="Approved">Jednostka miary</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UpperSpecLimit" locale="pl_PL" status="Approved">Górny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0characteristicsType" locale="pl_PL" status="Approved">Typ charakterystyki</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0pmiMetaData" locale="pl_PL" status="Approved">Metadane PMI</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0primaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z główną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0secondaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z drugorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisI" locale="pl_PL" status="Approved">Oś powierzchni I</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisJ" locale="pl_PL" status="Approved">Oś powierzchni J</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisK" locale="pl_PL" status="Approved">Oś powierzchni K</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceEntity" locale="pl_PL" status="Approved">Element powierzchni</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationX" locale="pl_PL" status="Approved">Lokalizacja powierzchni X</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationY" locale="pl_PL" status="Approved">Lokalizacja powierzchni Y</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationZ" locale="pl_PL" status="Approved">Lokalizacja powierzchni Z</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceRadius" locale="pl_PL" status="Approved">Promień powierzchni</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceType" locale="pl_PL" status="Approved">Typ powierzchni</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0tertiaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z trzeciorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0toleranceDesc" locale="pl_PL" status="Approved">Opis tolerancji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0DimensionType" locale="pl_PL" status="Approved">Typ wymiaru PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Frequency" locale="pl_PL" status="Approved">Częstotliwość</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTCode" locale="pl_PL" status="Approved">Kod GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTText" locale="pl_PL" status="Approved">Tekst GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0InspectionType" locale="pl_PL" status="Approved">Typ inspekcji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsAbsolutePMI" locale="pl_PL" status="Approved">Tolerancja PMI ma wartość bezwzględną</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsPMICompositeFCF" locale="pl_PL" status="Approved">PMI jest ramką sterującą elementu złożonego</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0LowerSpecLimit" locale="pl_PL" status="Approved">Dolny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MarkedAsDeleted" locale="pl_PL" status="Approved">Oznaczono jako usunięte</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MeasurementMethod" locale="pl_PL" status="Approved">Metoda pomiarowa</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Modifier" locale="pl_PL" status="Approved">Modyfikator PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NominalValue" locale="pl_PL" status="Approved">Wartość nominalna</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NotForInspection" locale="pl_PL" status="Approved">Nie do inspekcji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PlannerDescription" locale="pl_PL" status="Approved">Opis planera</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PmiDescription" locale="pl_PL" status="Approved">Opis PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Responsible" locale="pl_PL" status="Approved">Odpowiedzialny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0UpperSpecLimit" locale="pl_PL" status="Approved">Górny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0characteristicsType" locale="pl_PL" status="Approved">Typ charakterystyki</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0primaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z główną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0secondaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z drugorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisI" locale="pl_PL" status="Approved">Oś powierzchni I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisJ" locale="pl_PL" status="Approved">Oś powierzchni J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisK" locale="pl_PL" status="Approved">Oś powierzchni K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceEntity" locale="pl_PL" status="Approved">Element powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationX" locale="pl_PL" status="Approved">Lokalizacja powierzchni X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationY" locale="pl_PL" status="Approved">Lokalizacja powierzchni Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationZ" locale="pl_PL" status="Approved">Lokalizacja powierzchni Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceRadius" locale="pl_PL" status="Approved">Promień powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceType" locale="pl_PL" status="Approved">Typ powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0tertiaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z trzeciorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0toleranceDesc" locale="pl_PL" status="Approved">Opis tolerancji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0DimensionType" locale="pl_PL" status="Approved">Typ wymiaru PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Frequency" locale="pl_PL" status="Approved">Częstotliwość</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTCode" locale="pl_PL" status="Approved">Kod GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTText" locale="pl_PL" status="Approved">Tekst GD&amp;T</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0InspectionType" locale="pl_PL" status="Approved">Typ inspekcji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsAbsolutePMI" locale="pl_PL" status="Approved">Tolerancja PMI ma wartość bezwzględną</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsPMICompositeFCF" locale="pl_PL" status="Approved">PMI jest ramką sterującą elementu złożonego</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0LowerSpecLimit" locale="pl_PL" status="Approved">Dolny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MarkedAsDeleted" locale="pl_PL" status="Approved">Oznaczono jako usunięte</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MeasurementMethod" locale="pl_PL" status="Approved">Metoda pomiarowa</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Modifier" locale="pl_PL" status="Approved">Modyfikator PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NominalValue" locale="pl_PL" status="Approved">Wartość nominalna</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NotForInspection" locale="pl_PL" status="Approved">Nie do inspekcji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PlannerDescription" locale="pl_PL" status="Approved">Opis planera</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PmiDescription" locale="pl_PL" status="Approved">Opis PMI</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Responsible" locale="pl_PL" status="Approved">Odpowiedzialny</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0UpperSpecLimit" locale="pl_PL" status="Approved">Górny limit specyfikacji</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0characteristicsType" locale="pl_PL" status="Approved">Typ charakterystyki</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0primaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z główną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0secondaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z drugorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisI" locale="pl_PL" status="Approved">Oś powierzchni I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisJ" locale="pl_PL" status="Approved">Oś powierzchni J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisK" locale="pl_PL" status="Approved">Oś powierzchni K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceEntity" locale="pl_PL" status="Approved">Element powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationX" locale="pl_PL" status="Approved">Lokalizacja powierzchni X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationY" locale="pl_PL" status="Approved">Lokalizacja powierzchni Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationZ" locale="pl_PL" status="Approved">Lokalizacja powierzchni Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceRadius" locale="pl_PL" status="Approved">Promień powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceType" locale="pl_PL" status="Approved">Typ powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0tertiaryDatumReference" locale="pl_PL" status="Approved">Element powiązany z trzeciorzędną cechą odniesienia</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0toleranceDesc" locale="pl_PL" status="Approved">Opis tolerancji</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationId" locale="pl_PL" status="Approved">ID powiązania PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationType" locale="pl_PL" status="Approved">Typ powiązania PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0FrameLocation" locale="pl_PL" status="Approved">Lokalizacja ramki PMI</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0IsPartPmi" locale="pl_PL" status="Approved">PMI jest częścią</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0JTDataset" locale="pl_PL" status="Approved">Zestaw dokumentów JT</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0NGIDs" locale="pl_PL" status="Approved">NGID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0accountabilityID" locale="pl_PL" status="Approved">ID odpowiedzialności</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0connectedParts" locale="pl_PL" status="Approved">Części połączone</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0context" locale="pl_PL" status="Approved">Kontekst</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0AccountabilityID" locale="pl_PL" status="Approved">ID odpowiedzialności</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMICharacteristicsUid" locale="pl_PL" status="Approved">UID charakterystyki PMI</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMIReferencePart" locale="pl_PL" status="Approved">Część odniesienia PMI</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PmiID" locale="pl_PL" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0OwningItemID" locale="pl_PL" status="Approved">ID obiektu posiadającego</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0PMIDatasetLastModDate" locale="pl_PL" status="Approved">Data ostatniej modyfikacji zestawu danych PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0AccountabilityID" locale="pl_PL" status="Approved">ID odpowiedzialności</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMICharacteristicsUid" locale="pl_PL" status="Approved">UID charakterystyki PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMIReferencePart" locale="pl_PL" status="Approved">Część odniesienia PMI</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PmiID" locale="pl_PL" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0Criticality" locale="pl_PL" status="Approved">Krytyczność</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0KeyCharacteristics" locale="pl_PL" status="Approved">Kluczowe cechy</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0UOM" locale="pl_PL" status="Approved">Jednostka PMI</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0Criticality" locale="pl_PL" status="Approved">Krytyczność</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0KeyCharacteristics" locale="pl_PL" status="Approved">Kluczowe cechy</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0UOM" locale="pl_PL" status="Approved">Jednostka PMI</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Critical" locale="pl_PL" status="Approved">Poziom krytyczności to Krytyczny</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Documentation" locale="pl_PL" status="Approved">Poziom krytyczności to Dokumentacja</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Major" locale="pl_PL" status="Approved">Poziom krytyczności to Poważny</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Minor" locale="pl_PL" status="Approved">Poziom krytyczności to Drobny</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="pl_PL" status="Approved">Kluczowe cechy projektu</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="pl_PL" status="Approved">Kluczowe cechy procesu</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Angularity" locale="pl_PL" status="Approved">Typ charakterystyki: Pochylenie</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="pl_PL" status="Approved">Typ charakterystyki: Przecięcie osi</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularity" locale="pl_PL" status="Approved">Typ charakterystyki: Okrągłość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="pl_PL" status="Approved">Typ charakterystyki: Bicie promieniowe</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Concentricity" locale="pl_PL" status="Approved">Typ charakterystyki: Koncentryczność</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="pl_PL" status="Approved">Typ charakterystyki: Walcowość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Flatness" locale="pl_PL" status="Approved">Typ charakterystyki: Płaskość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Parallelism" locale="pl_PL" status="Approved">Typ charakterystyki: Równoległość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="pl_PL" status="Approved">Typ charakterystyki: Prostopadłość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Position" locale="pl_PL" status="Approved">Typ charakterystyki: Położenie</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="pl_PL" status="Approved">Typ charakterystyki: Profil linii</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="pl_PL" status="Approved">Typ charakterystyki: Profil powierzchni</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Straightness" locale="pl_PL" status="Approved">Typ charakterystyki: Prostoliniowość</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Symmetry" locale="pl_PL" status="Approved">Typ charakterystyki: Symetria</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="pl_PL" status="Approved">Typ charakterystyki: Bicie całkowite</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BLEND" locale="pl_PL" status="Approved">Typ powierzchni: Zaokrąglenie</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BSPLINE" locale="pl_PL" status="Approved">Typ powierzchni: Krzywa B-sklejana</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CONE" locale="pl_PL" status="Approved">Typ powierzchni: Stożek</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CYLINDER" locale="pl_PL" status="Approved">Typ powierzchni: Walec</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}OFFSET" locale="pl_PL" status="Approved">Typ powierzchni: Odsunięcie</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}PLANE" locale="pl_PL" status="Approved">Typ powierzchni: Płaszczyzna</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPHERE" locale="pl_PL" status="Approved">Typ powierzchni: Kula</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPUN" locale="pl_PL" status="Approved">Typ powierzchni: Obrócona</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SWEPT" locale="pl_PL" status="Approved">Typ powierzchni: Wyciągnięcie po krzywej</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}TORUS" locale="pl_PL" status="Approved">Typ powierzchni: Torus</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="pl_PL" status="Approved">Typ powierzchni: Nieznany</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Critical" locale="pl_PL" status="Approved">Krytyczna</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Documentation" locale="pl_PL" status="Approved">Dokumentacja</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Major" locale="pl_PL" status="Approved">Główny</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Minor" locale="pl_PL" status="Approved">Pomocniczy</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Boolean" locale="pl_PL" status="Approved">Wartość logiczna</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Go-No Go" locale="pl_PL" status="Approved">Przejdź-Nie przechodź</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Min-Max" locale="pl_PL" status="Approved">Min.-Maks.</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Numeric" locale="pl_PL" status="Approved">Numeryczne</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Pass-Fail" locale="pl_PL" status="Approved">Udane/Nieudane</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}String" locale="pl_PL" status="Approved">Łańcuch tekstowy</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}True-False" locale="pl_PL" status="Approved">True-False</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Yes-No" locale="pl_PL" status="Approved">Tak-Nie</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="pl_PL" status="Approved">DKC</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="pl_PL" status="Approved">PKC</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Angularity" locale="pl_PL" status="Approved">Pochylenie</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="pl_PL" status="Approved">Przecięcie osi</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularity" locale="pl_PL" status="Approved">Okrągłość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="pl_PL" status="Approved">Bicie promieniowe</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Concentricity" locale="pl_PL" status="Approved">Koncentryczność</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="pl_PL" status="Approved">Walcowość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Flatness" locale="pl_PL" status="Approved">Płaskość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Parallelism" locale="pl_PL" status="Approved">Równoległość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="pl_PL" status="Approved">Prostopadłość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Position" locale="pl_PL" status="Approved">Położenie</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="pl_PL" status="Approved">Profil linii</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="pl_PL" status="Approved">Profil powierzchni</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Straightness" locale="pl_PL" status="Approved">Prostoliniowość</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Symmetry" locale="pl_PL" status="Approved">Symetria</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="pl_PL" status="Approved">Bicie całkowite</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BLEND" locale="pl_PL" status="Approved">Zaokrąglenie</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BSPLINE" locale="pl_PL" status="Approved">Krzywa B-sklejana</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CONE" locale="pl_PL" status="Approved">Stożek</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CYLINDER" locale="pl_PL" status="Approved">Cylinder</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}OFFSET" locale="pl_PL" status="Approved">Odsunięcie </key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}PLANE" locale="pl_PL" status="Approved">Płaszczyzna</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPHERE" locale="pl_PL" status="Approved">Kula</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPUN" locale="pl_PL" status="Approved">Obrócona</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SWEPT" locale="pl_PL" status="Approved">Wyciągnięcie po krzywej</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}TORUS" locale="pl_PL" status="Approved">Torus</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="pl_PL" status="Approved">Nieznane</key>
+           
+        <key id="BusinessObject{::}Mci0BvrBopPMI" locale="pl_PL" status="Approved">PMI BOP BVR</key>
+           
+        <key id="Property{::}BOMLine{::}mci0PMIAttachedDataset" locale="pl_PL" status="Approved">Dołączony zestaw danych PMI</key>
+           
+        <key id="Property{::}BOMLine{::}mciJTAttachedDataset" locale="pl_PL" status="Approved">Dołączony zestaw danych JT PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0AccountabilityID" locale="pl_PL" status="Approved">ID odpowiedzialności PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0Criticality" locale="pl_PL" status="Approved">Krytyczność PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0KeyCharacteristics" locale="pl_PL" status="Approved">Kluczowe cechy PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMICharacteristicsUid" locale="pl_PL" status="Approved">UID charakterystyki PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIDescription" locale="pl_PL" status="Approved">Opis PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIReferencePart" locale="pl_PL" status="Approved">Część odniesienia PMI</key>
+           
+        <key id="Property{::}GDELine{::}mci0PmiID" locale="pl_PL" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}GDELine{::}PMI Inspection Type" locale="pl_PL" status="Approved">Typ inspekcji PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Criticality" locale="pl_PL" status="Approved">Krytyczność PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Frequency" locale="pl_PL" status="Approved">Częstotliwość PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0InspectionProcedure" locale="pl_PL" status="Approved">Procedura inspekcji PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0MeasurementMethod" locale="pl_PL" status="Approved">Metoda pomiarowa PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0PlannerDescription" locale="pl_PL" status="Approved">Opis planera PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Responsible" locale="pl_PL" status="Approved">Odpowiedzialne PMI</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisI" locale="pl_PL" status="Approved">Oś powierzchni I</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisJ" locale="pl_PL" status="Approved">Oś powierzchni J</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisK" locale="pl_PL" status="Approved">Oś powierzchni K</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceEntity" locale="pl_PL" status="Approved">Element powierzchni</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationX" locale="pl_PL" status="Approved">Lokalizacja powierzchni X</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationY" locale="pl_PL" status="Approved">Lokalizacja powierzchni Y</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationZ" locale="pl_PL" status="Approved">Lokalizacja powierzchni Z</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceName" locale="pl_PL" status="Approved">Nazwa powierzchni</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceRadius" locale="pl_PL" status="Approved">Promień powierzchni</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceType" locale="pl_PL" status="Approved">Typ powierzchni</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceName" locale="pl_PL" status="Approved">Nazwa powierzchni</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

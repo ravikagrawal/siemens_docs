@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="pl_PL" status="Approved">Dostawca struktury produktu 4GD</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="pl_PL" status="Approved">Element projektu</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="pl_PL" status="Approved">Podzbiór</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="pl_PL" status="Approved">Element źródłowy z odwołaniem do dostawcy</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="pl_PL" status="Approved">Użyto w dostawcy zestawu roboczego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="pl_PL" status="Approved">Obowiązywanie elementu źródłowego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="pl_PL" status="Approved">Autor ostatniej modyfikacji elementu źródłowego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="pl_PL" status="Approved">Grupa posiadająca element źródłowy</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="pl_PL" status="Approved">Użytkownik posiadający element źródłowy</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="pl_PL" status="Approved">Data wydania elementu źródłowego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="pl_PL" status="Approved">Opis elementu źródłowego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="pl_PL" status="Approved">Status wydania elementu źródłowego</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="pl_PL" status="Approved">ID rewizji elementu źródłowego</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="pl_PL" status="Approved">Nazwa elementu źródłowego</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="pl_PL" status="Approved">Kategoria</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="pl_PL" status="Approved">ID elementu źródłowego</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="pl_PL" status="Approved">Element źródłowy</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="pl_PL" status="Approved">Element źródłowy</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="pl_PL" status="Approved">Ten warunek określa, czy polecenie "Pokaż rewizję" powinno być widoczne w rozwiązaniu Projektowanie 4g.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="pl_PL" status="Approved">Ten warunek sprawdza, czy użytkownik ma wystarczające uprawnienia do usunięcia wybranego elementu.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="pl_PL" status="Approved">Warunek Ponownie odtwórz recepturę podzestawu.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="pl_PL" status="Approved">Ten warunek określa, czy przekazany element biznesowy ma uprawnienia do wyświetlania polecenia "Zapisz jako"/"Utwórz rewizję". Zwraca wartość true w przypadku elementów biznesowych innych niż element warunkowy.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

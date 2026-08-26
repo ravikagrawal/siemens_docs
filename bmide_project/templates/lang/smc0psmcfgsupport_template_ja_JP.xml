@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="ja_JP" status="Approved">可変範囲</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="ja_JP" status="Approved">ソリューションバリアント情報プロバイダ</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="ja_JP" status="Approved">ソリューションバリアントIDクリエータリレーション</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="ja_JP" status="Approved">ソリューションバリアントソース情報</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="ja_JP" status="Approved">ソリューションバリアント情報</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="ja_JP" status="Approved">ソリューションバリアントプロバイダ</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="ja_JP" status="Approved">バリアント構成可能オブジェクト</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="ja_JP" status="Approved">ソリューションバリアントソースリレーション</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="ja_JP" status="Approved">バリアントルールおよびソースBOM行がソリューションバリアント作成および更新オペレーションに対して有効かを決定する検証基準</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ja_JP" status="Approved">ソリューションバリアント</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="ja_JP" status="Approved">未管理ソリューションバリアント</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="ja_JP" status="Approved">管理ソリューションバリアント</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="ja_JP" status="Approved">再使用ソリューションバリアント</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ja_JP" status="Approved">ソリューションバリアント</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="ja_JP" status="Approved">未管理</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="ja_JP" status="Approved">管理</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="ja_JP" status="Approved">再使用</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="ja_JP" status="Approved">ソリューションバリアント</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="ja_JP" status="Approved">ソリューションバリアントカテゴリ</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="ja_JP" status="Approved">コンフィグレータパースペクティブ</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="ja_JP" status="Approved">現在のバリアントコンフィグレータコンテキスト</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="ja_JP" status="Approved">ソリューションバリアントカテゴリ</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="ja_JP" status="Approved">ソースBOM行</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="ja_JP" status="Approved">ソリューションバリアントが兄弟として存在</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="ja_JP" status="Approved">ソリューションバリアント</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="ja_JP" status="Approved">修正されたバリアントルール</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="ja_JP" status="Approved">有効なバリアントルール</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="ja_JP" status="Approved">ソリューションバリアントに対して有効</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="ja_JP" status="Approved">バリアントルール</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="ja_JP" status="Approved">修正されたソースアセンブリ</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="ja_JP" status="Approved">影響を受けるオブジェクト</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="ja_JP" status="Approved">ソリューションバリアントアイテムコンフィグレーション</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="ja_JP" status="Approved">ソリューションバリアント ソース</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="ja_JP" status="Approved">一般バリアントBOMビューリビジョン最終修正日</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="ja_JP" status="Approved">ソリューションバリアントアクション</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="ja_JP" status="Approved">ソリューションバリアントOMビューリビジョン最終修正日</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="ja_JP" status="Approved">ソリューションバリアントカテゴリ</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="ja_JP" status="Approved">コンフィグレータパースペクティブプロバイダ</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="ja_JP" status="Approved">ソリューションバリアントオカレンス属性</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="ja_JP" status="Approved">ソリューションバリアントソースオカレンス</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="ja_JP" status="Approved">バリアント基準</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="ja_JP" status="Approved">ビルド組合せ結果</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="ja_JP" status="Approved">ビルド組合せ情報</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="ja_JP" status="Approved">組織ノード可変性</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="ja_JP" status="Approved">スコープ可変性プロバイダ</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="ja_JP" status="Approved">ソリューション</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="ja_JP" status="Approved">ビルド組合せカラーバンド</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 2506. Coverageを参照</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="ja_JP" status="Approved">ビルド組合せ公式</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="ja_JP" status="Approved">ビルド組合せ</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="ja_JP" status="Approved">式JSONを構築</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="ja_JP" status="Approved">式一致</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 2512. Indexを参照</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 2512. Indexを参照</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="ja_JP" status="Approved">グループ化基準</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="ja_JP" status="Approved">廃止済み - SUPPORT ANNOUNCEMENT 2506. Indexを参照</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="ja_JP" status="Approved">範囲</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="ja_JP" status="Approved">ビルド組合せソリューションUID</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="ja_JP" status="Approved">適用範囲</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="ja_JP" status="Approved">インデックス</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="ja_JP" status="Approved">コンフィグレーション基準</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="ja_JP" status="Approved">オカレンスビルド組合せ割当て</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="ja_JP" status="Approved">組織ノード可変性</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="ja_JP" status="Approved">ビルド組合せ</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="ja_JP" status="Approved">コンフィグレーションファミリ</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="ja_JP" status="Approved">組織ノード参照</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

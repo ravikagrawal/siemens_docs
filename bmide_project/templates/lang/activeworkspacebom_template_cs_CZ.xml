@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:32 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="cs_CZ" status="Approved">Poskytovatel uspořádání</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="cs_CZ" status="Approved">Automatická záložka</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="cs_CZ" status="Approved">Administrativní data indexu rozpisky</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="cs_CZ" status="Approved">Data záložek</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="cs_CZ" status="Approved">Data navigace záložky</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="cs_CZ" status="Approved">Záložka dat výrobku</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="cs_CZ" status="Approved">Data podmnožiny</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="cs_CZ" status="Approved">Klonovat stabilní řetězec ID do poskytovatele prvků</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="cs_CZ" status="Approved">Poskytovatel pravidel uzavření</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="cs_CZ" status="Approved">Výsledek porovnání</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="cs_CZ" status="Approved">Podmínečný objekt</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="cs_CZ" status="Approved">Poskytovatel kontextu</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="cs_CZ" status="Approved">Funkce konfigurace účinnosti data</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="cs_CZ" status="Approved">Objekt návrhu</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="cs_CZ" status="Approved">Poskytovatel účinnosti</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="cs_CZ" status="Approved">Objekt</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="cs_CZ" status="Approved">Seznam prvků</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="cs_CZ" status="Approved">Prvek ploché struktury</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="cs_CZ" status="Approved">Funkce fulltextového hledání</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="cs_CZ" status="Approved">Poskytovatel fulltextového hledání</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="cs_CZ" status="Approved">Zprostředkovatel spravovaných atributů</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="cs_CZ" status="Approved">Přepsat poskytovatele datasetu</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="cs_CZ" status="Approved">Prvek oddílu</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="cs_CZ" status="Approved">Umístěný objekt</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="cs_CZ" status="Approved">Informace kontextu výrobku</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="cs_CZ" status="Approved">Prvek výrobku</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="cs_CZ" status="Approved">Prvek výskytu kořene</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="cs_CZ" status="Approved">Uložit prvek pracovního kontextu</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="cs_CZ" status="Approved">Uložený pracovní kontext</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="cs_CZ" status="Approved">Poskytovatel uložených dotazů</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="cs_CZ" status="Approved">Nahrazuje poskytovatele</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="cs_CZ" status="Approved">Funkce konfigurace účinnosti jednotky</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="cs_CZ" status="Approved">Prvek varianty</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="cs_CZ" status="Approved">Poskytovatel typu pohledu</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="cs_CZ" status="Approved">Prvek prohlížeče</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="cs_CZ" status="Approved">Zrušeno. Viz ozn. podpory Teamcenteru 2606. Poskytovatel zóny</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="cs_CZ" status="Approved">Tato operace klonuje prvek.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="cs_CZ" status="Approved">Tato operace odkazuje prvek.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="cs_CZ" status="Approved">Tato operace reviduje prvek.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="cs_CZ" status="Approved">Tato operace nahrazuje prvek.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="cs_CZ" status="Approved">Tato operace ignoruje prvek.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="cs_CZ" status="Approved">Uložený pracovní kontext není sdílen.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="cs_CZ" status="Approved">Uložený pracovní kontext je sdílen pouze pro čtení.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="cs_CZ" status="Approved">Uložený pracovní kontext je sdílen pro čtení i zápis.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="cs_CZ" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="cs_CZ" status="Approved">Změny nebyly uloženy</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="cs_CZ" status="Approved">Změny uloženy</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="cs_CZ" status="Approved">Porovnat</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="cs_CZ" status="Approved">Uložit jako a nahradit</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="cs_CZ" status="Approved">Reference</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="cs_CZ" status="Approved">Revidovat</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="cs_CZ" status="Approved">Nahradit</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="cs_CZ" status="Approved">Odebrat</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="cs_CZ" status="Approved">Soukromý</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="cs_CZ" status="Approved">Jen pro čtení</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="cs_CZ" status="Approved">Pro čtení/zápis</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="cs_CZ" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="cs_CZ" status="Approved">Změny nebyly uloženy</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="cs_CZ" status="Approved">Změny uloženy</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="cs_CZ" status="Approved">Porovnat</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="cs_CZ" status="Approved">Aktivní výrobek</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="cs_CZ" status="Approved">Datum posledního přístupu</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="cs_CZ" status="Approved">Datum posledního uložení uložené záložky</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="cs_CZ" status="Approved">Otevřený objekt</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="cs_CZ" status="Approved">Neuložené změny</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="cs_CZ" status="Approved">Uživatel</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="cs_CZ" status="Approved">Pravidlo základní revize</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="cs_CZ" status="Approved">Pravidlo uzavření</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="cs_CZ" status="Approved">Datum účinnosti</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="cs_CZ" status="Approved">Koncová položka účinnosti</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="cs_CZ" status="Approved">Číslo jednotky účinnosti</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="cs_CZ" status="Approved">Stav dat indexu rozpisky</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="cs_CZ" status="Approved">Datum posledního přístupu</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="cs_CZ" status="Approved">Datum poslední aktualizace</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="cs_CZ" status="Approved">Počet výskytů</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="cs_CZ" status="Approved">Produkt</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="cs_CZ" status="Approved">Typ struktury</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="cs_CZ" status="Approved">Stav předplatitelů</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="cs_CZ" status="Approved">Předplatitelé</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="cs_CZ" status="Approved">Vlastnicí revize pravidla varianty</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="cs_CZ" status="Approved">Pravidla varianty</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="cs_CZ" status="Approved">UID okna</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="cs_CZ" status="Approved">Vlastnící objekt</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="cs_CZ" status="Approved">Aktivní podumístění</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="cs_CZ" status="Approved">Jsou data rozbalení kompaktní</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="cs_CZ" status="Approved">Data rozbalení</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="cs_CZ" status="Approved">Přepsat kontext</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="cs_CZ" status="Approved">Cesta vybraného objektu</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="cs_CZ" status="Approved">Použité uspořádání</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="cs_CZ" status="Approved">Pravidlo uzavření</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="cs_CZ" status="Approved">Kontext konfigurace</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="cs_CZ" status="Approved">Data konfigurace</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="cs_CZ" status="Approved">Datum účinnosti</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="cs_CZ" status="Approved">Účinné nyní</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="cs_CZ" status="Approved">Účinné číslo jednotky</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="cs_CZ" status="Approved">Skupiny účinnosti</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="cs_CZ" status="Approved">Koncová položka</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="cs_CZ" status="Approved">Globální pravidlo revize se záložkou</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="cs_CZ" status="Approved">Neuložené změny</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="cs_CZ" status="Approved">Produkt</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="cs_CZ" status="Approved">Řetězce pravidla revize</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="cs_CZ" status="Approved">Pravidlo revize</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="cs_CZ" status="Approved">Uložená pravidla variant</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="cs_CZ" status="Approved">Revize položky vlastnící variantu</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="cs_CZ" status="Approved">Typ pohledu</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="cs_CZ" status="Approved">Seznam výskytů</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="cs_CZ" status="Approved">Kritéria porovnání</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="cs_CZ" status="Approved">Možnosti porovnání</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="cs_CZ" status="Approved">Klíč porovnání</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="cs_CZ" status="Approved">Hloubka</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="cs_CZ" status="Approved">Alternativní seznam</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="cs_CZ" status="Approved">Stavy verzí</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="cs_CZ" status="Approved">Účinnost revize</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="cs_CZ" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="cs_CZ" status="Approved">Popis</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="cs_CZ" status="Approved">Účinnost vydání</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="cs_CZ" status="Approved">Revize</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="cs_CZ" status="Approved">Název revize</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="cs_CZ" status="Approved">Stav vydání</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="cs_CZ" status="Approved">Indikátor sestavy</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="cs_CZ" status="Approved">Účinnost objektů</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="cs_CZ" status="Approved">ID účinnosti objektu</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="cs_CZ" status="Approved">Je objekt odfiltrován?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="cs_CZ" status="Approved">Celková účinnost prvku</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="cs_CZ" status="Approved">ID revize objektu</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="cs_CZ" status="Approved">VOC - Variantní výskyt konfigurován</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="cs_CZ" status="Approved">Stav sestavení koncové položky</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="cs_CZ" status="Approved">Indikátor dokončení</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="cs_CZ" status="Approved">Má aktivní připomínku</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="cs_CZ" status="Approved">Globální alternativy</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="cs_CZ" status="Approved">Účinnost objektu</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="cs_CZ" status="Approved">Náhrada</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="cs_CZ" status="Approved">Variant</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="cs_CZ" status="Approved">Je náhrada výskytu</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="cs_CZ" status="Approved">Je zabaleno</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="cs_CZ" status="Approved">Přesně</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="cs_CZ" status="Approved">Je sekundární komponenta</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="cs_CZ" status="Approved">Je položka varianty</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="cs_CZ" status="Approved">Názvy vlastností připomínky</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="cs_CZ" status="Approved">Hodnoty vlastností připomínky</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="cs_CZ" status="Approved">Akce</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="cs_CZ" status="Approved">Splatnost </key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="cs_CZ" status="Approved">Potřeba více zarovnání</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="cs_CZ" status="Approved">Čistá variabilita</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="cs_CZ" status="Approved">Počet sbalení</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="cs_CZ" status="Approved">Akce</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="cs_CZ" status="Approved">Označení polohy</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="cs_CZ" status="Approved">Primární komponenty</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="cs_CZ" status="Approved">Se správou množství</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="cs_CZ" status="Approved">Pravidlo konfigurováno</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="cs_CZ" status="Approved">Zobrazit náhradní komponenty</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="cs_CZ" status="Approved">Přeskočit zarovnání</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="cs_CZ" status="Approved">Indikátor náhrady</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="cs_CZ" status="Approved">Adresa použití</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="cs_CZ" status="Approved">Vzorec varianty</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="cs_CZ" status="Approved">ID v kontextu (horní úroveň)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="cs_CZ" status="Approved">ID v kontextu (všechny úrovně)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="cs_CZ" status="Approved">Datum poslední úpravy</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="cs_CZ" status="Approved">Naposledy upravil</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="cs_CZ" status="Approved">ID skupiny</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="cs_CZ" status="Approved">Vlastník</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="cs_CZ" status="Approved">Datum vydání</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="cs_CZ" status="Approved">Archetyp</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="cs_CZ" status="Approved">Hraniční rámeček</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="cs_CZ" status="Approved">Předchůdce struktury</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="cs_CZ" status="Approved">Kopie ID stabilního výskytu</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="cs_CZ" status="Approved">Cest stabilní ID kopie</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="cs_CZ" status="Approved">Objekt</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="cs_CZ" status="Approved">EOC - účinný výskyt konfigurován</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="cs_CZ" status="Approved">ID objektu</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="cs_CZ" status="Approved">Stav vydání objektu</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="cs_CZ" status="Approved">Předefinování</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="cs_CZ" status="Approved">Klasifikace IP</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="cs_CZ" status="Approved">Je objekt vypnutý?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="cs_CZ" status="Approved">Je struktura upravitelná</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="cs_CZ" status="Approved">Položka je podezřelá</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="cs_CZ" status="Approved">Je transformace přepsána?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="cs_CZ" status="Approved">Poslední uložená referenční sada</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="cs_CZ" status="Approved">Úroveň</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="cs_CZ" status="Approved">Počet podřazených položek</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="cs_CZ" status="Approved">Název výskytu</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="cs_CZ" status="Approved">Typ výskytu</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="cs_CZ" status="Approved">Přepsané vlastnosti</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="cs_CZ" status="Approved">Přepsat kontexty</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="cs_CZ" status="Approved">Rodič</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="cs_CZ" status="Approved">ID kontextu výrobku</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="cs_CZ" status="Approved">Projekty</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="cs_CZ" status="Approved">Množství</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="cs_CZ" status="Approved">Relativní transformace</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="cs_CZ" status="Approved">Najít číslo</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="cs_CZ" status="Approved">Adaptér služby</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="cs_CZ" status="Approved">Propojení trasování</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="cs_CZ" status="Approved">Absolutní transformace</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="cs_CZ" status="Approved">Typ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="cs_CZ" status="Approved">Základní objekt</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="cs_CZ" status="Approved">Měrné jednotky</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="cs_CZ" status="Approved">Protokoly auditu struktury</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="cs_CZ" status="Approved">Je upravitelný</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="cs_CZ" status="Approved">Objekt</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="cs_CZ" status="Approved">Dostupné prvky</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="cs_CZ" status="Approved">Neupravitelné prvky</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="cs_CZ" status="Approved">Má odraz</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="cs_CZ" status="Approved">Označení reference</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="cs_CZ" status="Approved">Souřadnicové systémy</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="cs_CZ" status="Approved">Náhrady</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="cs_CZ" status="Approved">Aktivní uspořádání</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="cs_CZ" status="Approved">Alternativní konfigurace</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="cs_CZ" status="Approved">Použité uspořádání</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="cs_CZ" status="Approved">Automatická záložka</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="cs_CZ" status="Approved">Pravidlo rozšíření rozpisky</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="cs_CZ" status="Approved">URI rozsah klienta</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="cs_CZ" status="Approved">Pravidlo uzavření</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="cs_CZ" status="Approved">Objekt kontextu</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="cs_CZ" status="Approved">Pravidlo aktuální revize</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="cs_CZ" status="Approved">Zrušeno. Aktuální pravidla varianty</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="cs_CZ" status="Approved">Zrušeno. Aktuální pravidlo varianty</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="cs_CZ" status="Approved">Datum účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="cs_CZ" status="Approved">Koncová položka účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="cs_CZ" status="Approved">Číslo jednotky účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="cs_CZ" status="Approved">Skupiny účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="cs_CZ" status="Approved">Koncová data účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="cs_CZ" status="Approved">Koncové jednotky účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="cs_CZ" status="Approved">Počet filtrů</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="cs_CZ" status="Approved">Předpis filtrované struktury</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="cs_CZ" status="Approved">Datum aktualizace indexu</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="cs_CZ" status="Approved">Zrušeno. Viz oznámení podpory 2412. Sbalit podobné objekty</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="cs_CZ" status="Approved">Informace kontextu výrobku</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="cs_CZ" status="Approved">Zrušeno. Viz oznámení podpory 2412. Zobrazit změnu</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="cs_CZ" status="Approved">Zrušeno. Viz oznámení podpory 2412. Zobrazit rozbalené řádky</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="cs_CZ" status="Approved">Zrušeno. Viz oznámení podpory 2412. Zobrazit připomínku</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="cs_CZ" status="Approved">Snímek</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="cs_CZ" status="Approved">Počáteční data účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="cs_CZ" status="Approved">Počáteční jednotky účinnosti</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="cs_CZ" status="Approved">Předpis struktury</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="cs_CZ" status="Approved">Podporované prvky</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="cs_CZ" status="Approved">Použít globální pravidlo revize</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="cs_CZ" status="Approved">Vlastnící revize pravidla varianty</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="cs_CZ" status="Approved">Pravidla varianty</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="cs_CZ" status="Approved">Zobrazit přepínače</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="cs_CZ" status="Approved">Typ pohledu</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="cs_CZ" status="Approved">Přepínače stavu okna</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="cs_CZ" status="Approved">Názvy kontejnerů</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="cs_CZ" status="Approved">Aktivní výrobek</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="cs_CZ" status="Approved">Povolit ostatním zobrazit</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="cs_CZ" status="Approved">Povolit ostatním upravit</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="cs_CZ" status="Approved">Předchůdce struktury</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="cs_CZ" status="Approved">Data CAD relace součinnosti</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="cs_CZ" status="Approved">Je struktura upravitelná</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="cs_CZ" status="Approved">Neuložené změny</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="cs_CZ" status="Approved">Úroveň sdílení</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="cs_CZ" status="Approved">Kontext</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="cs_CZ" status="Approved">Propojený konec 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="cs_CZ" status="Approved">Propojený konec 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="cs_CZ" status="Approved">Typ objektu</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="cs_CZ" status="Approved">Má strukturu</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="cs_CZ" status="Approved">UID uzlu cesty řádku rozpisky</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="cs_CZ" status="Approved">ID položky</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="cs_CZ" status="Approved">ID revize</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="cs_CZ" status="Approved">Datum poslední úpravy</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="cs_CZ" status="Approved">Naposledy změněno uživatelem</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="cs_CZ" status="Approved">Vlastněno skupinou</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="cs_CZ" status="Approved">Vlastněno uživatelem</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="cs_CZ" status="Approved">Stavy verzí</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="cs_CZ" status="Approved">Datum vydání</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="cs_CZ" status="Approved">Spojení</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="cs_CZ" status="Approved">Rozhraní</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="cs_CZ" status="Approved">Propojený konec 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="cs_CZ" status="Approved">Propojený konec 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="cs_CZ" status="Approved">Připojeno k</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="cs_CZ" status="Approved">Směr</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="cs_CZ" status="Approved">Podřazená položka</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="cs_CZ" status="Approved">Přidat</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="cs_CZ" status="Approved">Podřazená položka</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="cs_CZ" status="Approved">Sekundární komponenta</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="cs_CZ" status="Approved">Položky stejné úrovně</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="cs_CZ" status="Approved">Přidat</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="cs_CZ" status="Approved">Položky stejné úrovně</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="cs_CZ" status="Approved">Přidat náhrady</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="cs_CZ" status="Approved">Použít připomínku</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="cs_CZ" status="Approved">Konfigurovat podle výběru</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="cs_CZ" status="Approved">Zrušit objekt připomínky</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="cs_CZ" status="Approved">Zrušit úroveň připomínky</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="cs_CZ" status="Approved">Porovnat</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="cs_CZ" status="Approved">Konfigurovat podle platných překrytí</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="cs_CZ" status="Approved">Upravit platnost</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="cs_CZ" status="Approved">Vložit úroveň</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="cs_CZ" status="Approved">Objekt</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="cs_CZ" status="Approved">Sbalit</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="cs_CZ" status="Approved">Vydat</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="cs_CZ" status="Approved">Odstranit objekt</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="cs_CZ" status="Approved">Odebrat úroveň</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="cs_CZ" status="Approved">Odebrat náhrady</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="cs_CZ" status="Approved">Nahrazení</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="cs_CZ" status="Approved">Uložit jako</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="cs_CZ" status="Approved">Uložit jako</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="cs_CZ" status="Approved">Uložit</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="cs_CZ" status="Approved">Uložit</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="cs_CZ" status="Approved">Uložit pracovní kontext</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="cs_CZ" status="Approved">Nastavit v kontextu</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="cs_CZ" status="Approved">Otevřít</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="cs_CZ" status="Approved">Podmnožina</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="cs_CZ" status="Approved">Přepnout sekundární komponenty</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="cs_CZ" status="Approved">Přepnout náhradní komponenty</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="cs_CZ" status="Approved">Rozbalit</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="cs_CZ" status="Approved">Použít náhradu</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="cs_CZ" status="Approved">Zobrazit platnost objektu</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je možné podřazenou položku přidat do vstupního objektu.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="cs_CZ" status="Approved">Určuje, zda je možné podřazený výrobek přidat mezi uložené záložky.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je možné přidat sekundární komponentu do vstupního objektu.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je možné podřazenou položku přidat do souřadného objektu.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="cs_CZ" status="Approved">Určuje, zda je možné výrobek stejné úrovně jako aktuálně vybraný výrobek přidat mezi uložené záložky.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="cs_CZ" status="Approved">Určuje, zda může být náhrada přidána nebo ne</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti příkazu na straně serveru pro příkaz Použít připomínku. Tento příkaz by měl být viditelný pouze tehdy, pokud má uživatel přístup k úpravě struktury.</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="cs_CZ" status="Approved">Definuje podmínku k zobrazení banneru upozornění na klon rozpisky uživateli, když klikne na příkaz Duplikovat v klientu Active Workspace.</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je konfigurace podle příkazu výběru platná pro vstupní prvek.</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti příkazu na straně serveru pro příkaz Zrušit připomínku.</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti serverového příkazu Porovnat. Tento příkaz by měl být zviditelněn pouze pokud jsou oba vybrané objekty typu ItemRevision a splňují kritéria pro minimální vydání platformy.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="cs_CZ" status="Approved">Tato podmínka aktivuje příkaz odstranění u více objektů uloženého pracovního kontextu.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="cs_CZ" status="Approved">Tato podmínka aktivuje příkaz odstranění u uloženého pracovního kontextu.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="cs_CZ" status="Approved">Podmínka příkazu ke skrytí Odstranit v kontextu objektu relace.</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="cs_CZ" status="Approved">Určuje, zda je možné sdílené platnosti autorizovat, upravit, přidat do objektu nebo odebrat z objektu u objektů typu Awb0Element.</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="cs_CZ" status="Approved">Toto určuje, zda je příkaz vložení hladiny viditelný.</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda konfigurace podle platných překrytí může být viditelná pro dané objekty procesu.</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="cs_CZ" status="Approved">Kontrola dostupné licence Správce struktury Pro pro kontext změny</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="cs_CZ" status="Approved">Podmínka příkazu ke skrytí "Otevřít v SEEC" v kontextu objektu relace.</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se pro vybraný objekt má zobrazit příkaz Sbalit.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="cs_CZ" status="Approved">Určuje, zda je možné pro vybraný objekt použít platnost revize.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je možné objekty odebrat ze struktury.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="cs_CZ" status="Approved">Toto určuje, zda je příkaz odebrání hladiny viditelný.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="cs_CZ" status="Approved">Určuje, zda mohou být náhrady odebrány nebo ne</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda je možné objekty nahradit ve struktuře.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se má zobrazit dialogové okno Uložit pracovní kontext.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se má zobrazit dialogové okno Uložit jako pro kontext výrobku.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se má zobrazit dialogové okno Uložit jako pro uloženou záložku.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se má zobrazit dialogové okno Uložit pro kontext výrobku.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se má zobrazit dialogové okno Uložit pro uloženou záložku.</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se pro vybraný objekt má zobrazit příkaz Nastavit v kontextu.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda jsou viditelné sekundární komponenty pod Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda jsou viditelné náhradní komponenty pod Awb0ConditionalElement</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="cs_CZ" status="Approved">Toto nastavení určuje, zda se pro vybraný objekt má zobrazit příkaz Rozbalit.</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="cs_CZ" status="Approved">Určuje, zda může být náhrada použita nebo ne</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="cs_CZ" status="Approved">Určuje, zda je možné zobrazit použité platnosti objektů typu Awb0Element.</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="cs_CZ" status="Approved">Připomínka pro poskytovatele úrovně</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="cs_CZ" status="Approved">Poskytovatel připomínky</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="cs_CZ" status="Approved">Datum posledního přehrání</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="cs_CZ" status="Approved">Čekající změny</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="cs_CZ" status="Approved">ID obsaženo v:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="cs_CZ" status="Approved">Název obsažen v:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="cs_CZ" status="Approved">Typ obsažen v:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="cs_CZ" status="Approved">Výrobky v relaci</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="cs_CZ" status="Approved">Poslední aktualizace indexu chytrého objevení</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="cs_CZ" status="Approved">Indexované chytré objevení</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="cs_CZ" status="Approved">Poskytovatel kontextu produktů</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="cs_CZ" status="Approved">Seznam hodnot uloženého dotazu v kontextu</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="cs_CZ" status="Approved">Zprostředkovatel dat indexovače SD</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="cs_CZ" status="Approved">Název uloženého dotazu v kontextu</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="cs_CZ" status="Approved">Indexovaný zdroj</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="cs_CZ" status="Approved">Objekt součásti</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="cs_CZ" status="Approved">Vyráběný/Nakupovaný</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="cs_CZ" status="Approved">Zarovnat</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="cs_CZ" status="Approved">Definuje viditelnosti příkazu "Zarovnat". Je dostupný pouze pro objekty návrhu a součástí.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

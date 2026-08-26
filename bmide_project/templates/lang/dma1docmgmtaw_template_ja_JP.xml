@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="ja_JP" status="Approved">印刷コンフィグレーションカスタム値リスト(LOV)ビジネスオブジェクト</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="ja_JP" status="Approved">印刷コンフィグレーションランタイム</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="ja_JP" status="Approved">出荷時のアイテムリビジョン定義コンフィグレーション(IRDC)、Dma1DocumentRevisionIRDC、がドキュメントリビジョンビジネスオブジェクトに対して適用されるかをチェックする条件です。 プリファレンス"Fnd0DM_IsSimpleDocumentEnabled"が「はい」のとき、Dma1DocumentRevisionIRDCは適用されます、それ以外は適用されません。 これはドキュメントリビジョンの子には適用されません。</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="ja_JP" status="Approved">そのまま使用できるアイテムリビジョン定義コンフィグレーション(IRDC)インスタンスが、プリファレンス"Dma1UseCOTSIRDC"を基準としたアイテムリビジョンに対して適用されるかをチェックする条件です。 これは、アイテムリビジョンの子には適用されません。</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ja_JP" status="Approved">すべて</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ja_JP" status="Approved">オフ</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ja_JP" status="Approved">単一</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="ja_JP" status="Approved">色</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ja_JP" status="Approved">モノクロ</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ja_JP" status="Approved">ベストフィット</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ja_JP" status="Approved">ランドスケープ</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ja_JP" status="Approved">ポートレート</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ja_JP" status="Approved">すべてのページ</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ja_JP" status="Approved">バナーページ</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ja_JP" status="Approved">最初のページ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ja_JP" status="Approved">すべて</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ja_JP" status="Approved">オフ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ja_JP" status="Approved">単一</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="ja_JP" status="Approved">色</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ja_JP" status="Approved">モノクロ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ja_JP" status="Approved">ベストフィット</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ja_JP" status="Approved">ランドスケープ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ja_JP" status="Approved">ポートレート</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ja_JP" status="Approved">すべてのページ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ja_JP" status="Approved">バナーページ</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ja_JP" status="Approved">最初のページ</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="ja_JP" status="Approved">バナーページ</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="ja_JP" status="Approved">校合</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="ja_JP" status="Approved">色</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="ja_JP" status="Approved">コピー</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="ja_JP" status="Approved">方向</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="ja_JP" status="Approved">用紙サイズ</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="ja_JP" status="Approved">印刷コンフィグレーション名</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="ja_JP" status="Approved">プリンタ名</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="ja_JP" status="Approved">範囲</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="ja_JP" status="Approved">スケール</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="ja_JP" status="Approved">サポートされるスタンプ</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="ja_JP" status="Approved">システムスタンプ</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="ja_JP" status="Approved">ユーザスタンプ</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

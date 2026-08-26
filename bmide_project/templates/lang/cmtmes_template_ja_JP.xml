@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="ja_JP" status="Approved">データコレクション定義</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="ja_JP" status="Approved">プランナー入力フィールド</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="ja_JP" status="Approved">標準テキスト要素</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="ja_JP" status="Approved">説明</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="ja_JP" status="Approved">オプション</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="ja_JP" status="Approved">値リスト(LOV)</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="ja_JP" status="Approved">最大</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="ja_JP" status="Approved">最小</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="ja_JP" status="Approved">DCDオーダ番号</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="ja_JP" status="Approved">最大長さ</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="ja_JP" status="Approved">時間フォーマット</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="ja_JP" status="Approved">タイプ</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="ja_JP" status="Approved">関連データコレクション定義</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="ja_JP" status="Approved">標準テキスト要素アクティブ</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="ja_JP" status="Approved">オブジェクトデータ</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="ja_JP" status="Approved">関連プランナーフィールド</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="ja_JP" status="Approved">関連データコレクション定義</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="ja_JP" status="Approved">関連標準テキスト要素</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="ja_JP" status="Approved">関連データコレクション定義</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="ja_JP" status="Approved">関連データコレクション定義</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="ja_JP" status="Approved">関連標準テキスト要素</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義論理型フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="ja_JP" status="Approved">ブーリアンデータコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド論理型フォームストレージ-廃棄済み</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="ja_JP" status="Approved">論理型プランナーフィールド-廃棄済み</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義買収フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="ja_JP" status="Approved">買収データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="ja_JP" status="Approved">データコレクション定義ベースフォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="ja_JP" status="Approved">データコレクションベースフォーム</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="ja_JP" status="Approved">データコレクション定義ストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="ja_JP" status="Approved">データコレクション詳細</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="ja_JP" status="Approved">データコレクションオーバライド</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="ja_JP" status="Approved">データコレクション定義</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="ja_JP" status="Approved">データコレクション定義DurationDCDFrmStorage</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="ja_JP" status="Approved">期間データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義終了時間フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="ja_JP" status="Approved">プロシージャ完了データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義イメージフォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="ja_JP" status="Approved">イメージデータコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義整数フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="ja_JP" status="Approved">整数データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド整数フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="ja_JP" status="Approved">整数プランナーフィールド</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義値リスト(LOV)フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="ja_JP" status="Approved">LOVデータコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド値リスト(LOV)ベースフォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="ja_JP" status="Approved">値リスト(LOV)プランナーフィールドベース</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールドフォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="ja_JP" status="Approved">プランナーフィールドベース</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="ja_JP" status="Approved">プランナー入力フィールドストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="ja_JP" status="Approved">プランナーフィールド詳細</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="ja_JP" status="Approved">プランナー入力フィールドオーバライド</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="ja_JP" status="Approved">プランナー入力フィールド</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義実数フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="ja_JP" status="Approved">実数データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド実数フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="ja_JP" status="Approved">実数プランナーフィールド</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="ja_JP" status="Approved">標準テキスト要素マスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="ja_JP" status="Approved">標準テキスト要素マスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="ja_JP" status="Approved">標準テキスト要素リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="ja_JP" status="Approved">標準テキスト要素リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="ja_JP" status="Approved">標準テキスト要素リビジョン</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="ja_JP" status="Approved">標準テキスト要素</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="ja_JP" status="Approved">標準テキストライブラリフォルダマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="ja_JP" status="Approved">標準テキストライブラリフォルダマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="ja_JP" status="Approved">標準テキストライブラリフォルダリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="ja_JP" status="Approved">標準テキストライブラリフォルダリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="ja_JP" status="Approved">標準テキストフォルダリビジョン</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="ja_JP" status="Approved">標準テキストフォルダ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="ja_JP" status="Approved">標準テキストライブラリマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="ja_JP" status="Approved">標準テキストライブラリマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="ja_JP" status="Approved">標準テキストライブラリリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="ja_JP" status="Approved">標準テキストライブラリリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="ja_JP" status="Approved">標準テキストライブラリリビジョン</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="ja_JP" status="Approved">標準テキストライブラリ</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義文字列フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="ja_JP" status="Approved">文字列データコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド文字列フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="ja_JP" status="Approved">文字列プランナーフィールド</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="ja_JP" status="Approved">作業指示シンボルフォルダ</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="ja_JP" status="Approved">作業指示シンボルライブラリ</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="ja_JP" status="Approved">作業指示シンボルリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="ja_JP" status="Approved">作業指示シンボル</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="ja_JP" status="Approved">データコレクション定義時間フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="ja_JP" status="Approved">タイムスタンプデータコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="ja_JP" status="Approved">プランナー入力フィールド時間フォームストレージ-廃棄済み</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="ja_JP" status="Approved">時間プランナーフィールド-廃棄済み</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="ja_JP" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="ja_JP" status="Approved">ユーザ定義LOVデータコレクション</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="ja_JP" status="Approved">作業指示アセットリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="ja_JP" status="Approved">作業指示アセット</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="ja_JP" status="Approved">作業指示オブジェクトテンプレートマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="ja_JP" status="Approved">作業指示オブジェクトテンプレートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="ja_JP" status="Approved">作業指示オブジェクトテンプレートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="ja_JP" status="Approved">作業指示オブジェクトテンプレートリビジョン</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="ja_JP" status="Approved">作業指示オブジェクトテンプレート</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="ja_JP" status="Approved">作業指示プレビューリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="ja_JP" status="Approved">作業指示プレビュー</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="ja_JP" status="Approved">作業指示テンプレートマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="ja_JP" status="Approved">作業指示テンプレートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="ja_JP" status="Approved">作業指示テンプレートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="ja_JP" status="Approved">作業指示ドキュメントテンプレートリビジョン</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="ja_JP" status="Approved">作業指示ドキュメントテンプレート</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="ja_JP" status="Approved">PDFレポートコンテンツリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="ja_JP" status="Approved">PDFレポート入力リレーション</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="ja_JP" status="Approved">PDFレポート入力</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="ja_JP" status="Approved">PDFレポート入力リレーション</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="ja_JP" status="Approved">PDFレポートリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="ja_JP" status="Approved">PDFレポートテンプレート</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="ja_JP" status="Approved">PDFレポート</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="ja_JP" status="Approved">PDFレポートテンプレートリレーション</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="ja_JP" status="Approved">テキスト作業指示参照情報フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="ja_JP" status="Approved">テキスト作業指示参照情報フォーム</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="ja_JP" status="Approved">テキスト作業指示参照情報リレーション</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="ja_JP" status="Approved">文字列は、スペースと数字で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="ja_JP" status="Approved">文字列は、スペースと大文字の英語で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="ja_JP" status="Approved">文字列は、スペース、小文字および大文字の英語および数字で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="ja_JP" status="Approved">文字列は、小文字と大文字の英語の文字で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="ja_JP" status="Approved">文字列は、スペースと小文字の英語で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="ja_JP" status="Approved">文字列は数字で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="ja_JP" status="Approved">文字列は、大文字の英語で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="ja_JP" status="Approved">文字列は、小文字と大文字の英語の文字で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="ja_JP" status="Approved">文字列は、小文字の英語で構成することが可能です。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="ja_JP" status="Approved">文字列は、小文字の英語、大文字の英語、数字、および下線で構成することができます。</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="ja_JP" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="ja_JP" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="ja_JP" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="ja_JP" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="ja_JP" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="ja_JP" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="ja_JP" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="ja_JP" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="ja_JP" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="ja_JP" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="ja_JP" status="Approved">データコレクション</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="ja_JP" status="Approved">プランナーフィールド</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="ja_JP" status="Approved">標準テキストインスタンス</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="ja_JP" status="Approved">MESで編集からフィールドをブロック</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="ja_JP" status="Approved">リカバリID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="ja_JP" status="Approved">オプション</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="ja_JP" status="Approved">MESで編集からフィールドをブロック</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="ja_JP" status="Approved">リカバリID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="ja_JP" status="Approved">プレースホルダ文字列</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="ja_JP" status="Approved">オプション</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="ja_JP" status="Approved">DCDオーダ番号</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="ja_JP" status="Approved">DCDオーダ番号</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="ja_JP" status="Approved">最小アラート許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="ja_JP" status="Approved">制限外動作</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="ja_JP" status="Approved">警告最大値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="ja_JP" status="Approved">最小アラート許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="ja_JP" status="Approved">注意最大値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="ja_JP" status="Approved">注意最小値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="ja_JP" status="Approved">制限外動作</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="ja_JP" status="Approved">リカバリID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="ja_JP" status="Approved">妥当性チェックをスキップ</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="ja_JP" status="Approved">リカバリID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="ja_JP" status="Approved">オプション</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="ja_JP" status="Approved">妥当性チェックをスキップ</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="ja_JP" status="Approved">最小アラート許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="ja_JP" status="Approved">小数点以下桁数</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="ja_JP" status="Approved">制限外動作</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="ja_JP" status="Approved">警告最大値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="ja_JP" status="Approved">最小アラート許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="ja_JP" status="Approved">注意最大値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="ja_JP" status="Approved">注意最小値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="ja_JP" status="Approved">データ取得方法</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="ja_JP" status="Approved">小数点以下桁数</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="ja_JP" status="Approved">制限外動作</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="ja_JP" status="Approved">小数点以下桁数</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="ja_JP" status="Approved">最大許容値</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="ja_JP" status="Approved">最小許容値</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="ja_JP" status="Approved">標準テキスト要素アクティブ</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="ja_JP" status="Approved">文字数</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="ja_JP" status="Approved">許容文字</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="ja_JP" status="Approved">文字数</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="ja_JP" status="Approved">許容文字</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="ja_JP" status="Approved">最大長さ</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="ja_JP" status="Approved">許容文字</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="ja_JP" status="Approved">デフォルト値</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="ja_JP" status="Approved">時間フォーマット</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="ja_JP" status="Approved">時間フォーマット</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="ja_JP" status="Approved">値</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="ja_JP" status="Approved">値リスト(LOV)</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="ja_JP" status="Approved">値リスト(LOV)</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="ja_JP" status="Approved">作業指示文字列キー</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="ja_JP" status="Approved">作業指示文字列</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="ja_JP" status="Approved">テンプレートデータソース</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="ja_JP" status="Approved">2Dアセットを含みますか?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="ja_JP" status="Approved">3Dアセットを含みますか?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="ja_JP" status="Approved">シミュレーションアセットを含みますか?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="ja_JP" status="Approved">テンプレート仕様</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="ja_JP" status="Approved">参照オブジェクト</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="ja_JP" status="Approved">参照ID</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="ja_JP" status="Approved">参照オブジェクト</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="ja_JP" status="Approved">参照ID</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="ja_JP" status="Approved">標準テキストリリースステータス</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="ja_JP" status="Approved">自動</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="ja_JP" status="Approved">手動</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="ja_JP" status="Approved">半自動</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="ja_JP" status="Approved">メッセージが演算子に表示されました</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="ja_JP" status="Approved">結果は不完全なパートです</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="ja_JP" status="Approved">不適合になります</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="ja_JP" status="Approved">マニュファクチャリングプロセスプランナー</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="ja_JP" status="Approved">プロセスシミュレーション</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

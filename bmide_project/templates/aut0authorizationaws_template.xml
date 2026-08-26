@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:52:49 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <Library createRelease="Awp03.4.0" description="Aut0SoaSecurity" isThirdParty="false" name="Aut0SoaSecurity" namespace="Aut0::Soa::Security" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="Awp03.4.0" dependencies="" description="Contains Active Workspace licensing services" libraryName="Aut0SoaSecurity" name="AwLicensing" namespace="Aut0::Soa::Security" serviceLibraryRef=""/>
+           
+        <ServiceInterface createRelease="Awp05.2.0" dependencies="" description="The AwProjectLevelSecurity service exposes operations used to manage Teamcenter Authorization Projects from Active Workspace.  These operations allow the client to create and update a Teamcenter Authorization Project." libraryName="Aut0SoaSecurity" name="AwProjectLevelSecurity" namespace="Aut0::Soa::Security" serviceLibraryRef=""/>
+           
+        <Struct createRelease="Awp03.4.0" description="A strucure that contains information related to Ace Context." isPublished="false" name="ConfigurationContextChoice" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="Internal value of business object." name="internalValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Display value of business object." name="displayValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, this instance of ConfigurationContextChoice should be set as default choice." name="isDefaultValue">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp03.4.0" description="A structure containing license related information to filter licenses." isPublished="false" name="FilterInfo" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="The type of ADA licenses to be filtered." name="licenseType">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The ID of the license to be filtered." name="licenseId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp03.4.0" description="Structure that holds the information required to get list of licenses." isPublished="false" name="LicenseInput" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="The list of selected WorkspaceObject objects" name="selectedObjects">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::WorkspaceObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The list of licenses (ADA_License) which are already selected to attach with objects." name="selectedLicenses">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The filter criteria based on license type and license ID." name="filterInfo">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::FilterInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The pagination criteria." name="paginationInfo">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::PaginationInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, the user is in ActiveWorkspace Content context." name="isAceContext">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true only already attached licenses to objects will return in response. If false than attached and available both licenses will return in response." name="isAssigned">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of parameters for future use." name="licenseParamsIn">
+                       
+                <DataTypeRefParam dataType="std::vector&lt;std::string&gt;"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp03.4.0" description="A map (string, list of ConfigurationContextChoice) of ACE context atrributes with the list of ACE context atrtributes and possible values." isPublished="false" name="LicenseOptions" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::ConfigurationContextChoice"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp03.4.0" description="Structure that holds the licenses object." isPublished="false" name="LicenseOutput" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="A list of ADA_License objects which are assigned to the seletectd InputObect. If the InputObject is a single select, ead_paragraph will be include. If the InputObject is a multi-select, ead_paragraph will be blank." name="commonAssignedLicenseList">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of ADA_License objects which are available to attach to the selected InputObject." name="availableLicenseList">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of all licenses already selected for attach to selected objects." name="allAssignedLicenseList">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::ADA_License"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of types of the assignedLicenseList." name="assignedLicenseTypes">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseType"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of types of the availableLicenseList." name="availableLicenseTypes">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseType"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp03.4.0" description="A map (string, list of string) for future use. It will used to return values which passed in licenseParamsIn parameter of LicenseInputs structure." isPublished="false" name="LicenseParamsOut" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector&lt;std::string&gt;"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp03.4.0" description="A strucure that holds all license related and pagination related information." isPublished="false" name="LicensesWithTypesResponse" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="A list of licenseOutputs objects." name="licensesOutput">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseOutput"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of ConfigurationContextChoice) of ACE context atrributes with the list of ACE context atrtributes and possible values." name="licenseOptions">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseOptions"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The total licenses found." name="totalFound">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The end index of the ADA_LICENSE returned by the operation. This end index will be used by the client as start index of next iteration." name="endIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The total number of licenses loaded at a time." name="totalLoaded">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of string) for future use. It will used to return values which passed in licenseParamsIn parameter of LicenseInputs structure." name="licenseParamsOut">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseParamsOut"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The SOA framework object containing objects that were created, deleted or updated by the Service, plain objects and error information. For this service, all object are returned to the plain objects group. Error information will also be returned." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp03.4.0" description=" structure that holds internal value and display value of ADA_License." isPublished="false" name="LicenseType" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="Internal value of ADA_License." name="internalValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Display value of ADA_License." name="displayValue">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp03.4.0" description="A structure containing pagination criteria." isPublished="false" name="PaginationInfo" namespace="Aut0::Soa::Internal::Security::_2017_12::AwLicensing" scope="Aut0::Soa::Security::AwLicensing">
+                 
+            <StructElement description="The start index to return the licenses. Must be a non-negative value. Otherwise all data will be returned and the data will not  be paginated." name="startIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The maximum number of licenses to return. Must be a value greater than zero. Otherwise, all data will be returned and the data will not be paginated." name="maxToReturn">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp05.2.0" description="Structure that holds the information required to create  a Teamcenter Authorization project." isPublished="false" name="CreateProjectInfo" namespace="Aut0::Soa::Internal::Security::_2021_06::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="Unique identifier for the project." name="projectId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unique name for the project." name="projectName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Describes the project." name="projectDescription">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True if the project uses program level security." name="useProgramSecurity">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Empty or specifies a valid project category. Valid project categories are defined in the Fnd0ProjectCategories list of values." name="projectCategory">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unique client identifier. If there is an error during create, the client id in the ServiceData partial error list can be used to associate to the clientId in the input to detect which object creation failed." name="clientId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="Defines filter criteria to be applied to the response." isPublished="false" name="FilterCriteriaInput" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The internal name of the property on which column filtering is applied." name="columnName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of filter values." name="values">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies the type of column filter operation applied. The supported values are: &amp;quot;CONTAINS&amp;quot;, &amp;quot;EQUAL&amp;quot;, &amp;quot;GREATER THAN&amp;quot;, &amp;quot;LESS THAN&amp;quot; and &amp;quot;BETWEEN&amp;quot;." name="operation">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="Identifies &lt;b&gt;GroupMember&lt;/b&gt; and their status within the &lt;b&gt;ProjectTeam.&lt;/b&gt;" isPublished="false" name="GroupMemberWithPrivilege" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The group member." name="member">
+                       
+                <DataTypeRefParam dataType="Teamcenter::GroupMember"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The privilege status of the GroupMember within the ProjectTeam of the input TC_Project.&lt;br /&gt;0 = Regular member.&lt;br /&gt;1 = Privileged member.&lt;br /&gt;2 = Project Team Administrator.&lt;br /&gt;3 = Project Administrator." name="status">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True if the member can be removed from the ProjectTeam.  Otherwise, false." name="isRemovable">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Indicates the group member type." name="type">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="The Teamcenter &lt;b&gt;Group&lt;/b&gt; or&lt;b&gt; Role &lt;/b&gt;represented by the node." isPublished="false" name="GroupOrRoleNode" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The Teamcenter &lt;b&gt;Group&lt;/b&gt; of the &lt;b&gt;ProjectTeam&lt;/b&gt; member represented by this node." name="grp">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Group"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Teamcenter&lt;b&gt; Role&lt;/b&gt; of the &lt;b&gt;ProjectTeam&lt;/b&gt; member represented by this node, if applicable.  When the node represents a &lt;b&gt;Group&lt;/b&gt; member, role must be NULL. When the node represents a specific &lt;b&gt;Role&lt;/b&gt; within a Teamcenter &lt;b&gt;Group&lt;/b&gt; both group and role are required." name="role">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Role"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="Represents a node in the &lt;b&gt;ProjectTeam&lt;/b&gt; and its corresponding children." isPublished="false" name="GroupOrRoleNodeWithChildren" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; corresponding to the &lt;b&gt;ProjectTeam &lt;/b&gt;node." name="groupOrRole">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupOrRoleNode"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True if the &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; can be removed from the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="isRemovable">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Indicates the displayable type name for the node.  Typically &lt;i&gt;Group&lt;/i&gt; or &lt;i&gt;Role&lt;/i&gt;." name="type">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of child GroupOrRoleNode representing &lt;b&gt;Group &lt;/b&gt;or &lt;b&gt;Role &lt;/b&gt;nodes in the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="childGroupsOrRoles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupOrRoleNodeWithChildren"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of child &lt;b&gt;GroupMember&lt;/b&gt;, the member&amp;rsquo;s status within the team and whether that member can be removed" name="childMembers">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupMemberWithPrivilege"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="The structure defines a property to be set on new TC_Project business object." isPublished="false" name="ProjectInformation" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="Unique identifier for the project.The valid value can be string without '%','*','@' character." name="projectId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Unique name for the project. The valid value can be string without '.','%','*','@' character." name="projectName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Describes the project." name="projectDescription">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True if the project uses program level security." name="useProgramSecurity">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Specifies a project category." name="projectCategory">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If False, copy the following information from existing project or program:&lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Project team.&lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Properties which include active, visible, use program security, project category, collaboration category and other custom properties.&lt;br /&gt;If True, copy the following information from existing project or program: &lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Project team.&lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Properties which include active, visible, use program security, project category, collaboration category and other custom properties.&lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Project libraries (Defines an association between primary object and secondary objects via &lt;b&gt;Fnd0LibraryForProject&lt;/b&gt; relation where project is the primary object).&lt;br /&gt;   -&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Project Data (The objects which are assigned to the source project. Assign the new project to these objects.)" name="deepCopy">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A map (string, list of strings) of property names and desired values. The calling client is responsible for converting the different property types (int, float, date .etc) to a string using the appropriate functions in the SOA client framework's Property Class." name="propertyMap">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectPropertyMap"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="Awp06.0.0" description="A map (string, list of strings) of property names and desired values. The calling client is responsible for converting the different property types (int, float, date .etc) to a string using the appropriate functions in the SOA client framework's Property class." isPublished="false" name="ProjectPropertyMap" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="std::string"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="Awp06.0.0" description="The input necessary to retrieve the &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt;." isPublished="false" name="ProjectTeamInput" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The &lt;b&gt;TC_Project&lt;/b&gt; of the&lt;b&gt; ProjectTeam&lt;/b&gt;." name="project">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TC_Project"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Parent node in the &lt;b&gt;ProjectTeam&lt;/b&gt; for which child nodes are to be fetched.   If it is NULL, all first level nodes of the &lt;b&gt;ProjectTeam&lt;/b&gt; will be fetched." name="parentNode">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupOrRoleNode"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of FilterCriteriaInput to apply to the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="filterCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::FilterCriteriaInput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="List of sort criteria to apply to the filtered &lt;b&gt;ProjectTeam.&lt;/b&gt;" name="sortCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::SearchSortCriteria"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The first element in the &lt;b&gt;ProjectTeam&lt;/b&gt; to return." name="startIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The number of &lt;b&gt;ProjectTeam&lt;/b&gt; nodes to return." name="maxToReturn">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="The structure to hold the&lt;b&gt; ProjectTeam&lt;/b&gt; member nodes and their children." isPublished="false" name="ProjectTeamResponse" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The total &lt;b&gt;ProjectTeam&lt;/b&gt; members nodes represented by the ouput." name="totalCount">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The index of the last &lt;b&gt;ProjectTeam&lt;/b&gt; node." name="endIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A hiearchical  list of &lt;b&gt;Group&lt;/b&gt; and &lt;b&gt;Role &lt;/b&gt;nodes in the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="groupsAndRoles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupOrRoleNodeWithChildren"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The SOA framework object containing objects that were created, deleted or updated by the Service, plain objects and error information. For this service, the service data contains partial error information.  The plain objects contains the &lt;b&gt;Group&lt;/b&gt;, &lt;b&gt;Role&lt;/b&gt; and&lt;b&gt; GroupMember&lt;/b&gt; objects." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.0.0" description="Defines the sort criteria to be applied to the output &lt;b&gt;ProjectTeam &lt;/b&gt;nodes." isPublished="false" name="SearchSortCriteria" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The name of the field on which to perform the sorting." name="fieldName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The direction in which the sorting needs to be performed - 'ASC' or 'DESC'." name="direction">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::SortDirection"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <MetaEnum createRelease="Awp06.0.0" description="&lt;ul&gt;&lt;ul&gt;&lt;li type=&quot;disc&quot;&gt;ASC &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sort values in ascending order.&lt;/li&gt;&lt;li type=&quot;disc&quot;&gt;DESC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Sort values in descending order.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" isPublished="false" name="SortDirection" namespace="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <MetaEnumLiteral description="" name="ASC"/>
+                 
+            <MetaEnumLiteral description="" name="DESC"/>
+               
+        </MetaEnum>
+           
+        <Struct createRelease="Awp06.1.0" description="Specifies a &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; member of a &lt;b&gt;ProjectTeam&lt;/b&gt;." isPublished="false" name="GroupOrRoleNode2" namespace="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The &lt;b&gt;Group&lt;/b&gt; object of the &lt;b&gt;ProjectTeam &lt;/b&gt;member represented by this node." name="tcGroup">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Group"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Role&lt;/b&gt; object of the &lt;b&gt;ProjectTeam&lt;/b&gt; member represented by this node, if applicable.  When the node represents a&lt;b&gt; Group&lt;/b&gt; member, role must be NULL. When the node represents a specific &lt;b&gt;Role&lt;/b&gt; within a Teamcenter &lt;b&gt;Group&lt;/b&gt; both group and role are required." name="tcRole">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Role"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, the node can be removed from the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="isRemovable">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.1.0" description="test" isPublished="false" name="GroupOrRoleNodeWithChildren2" namespace="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; representing the parent node." name="groupOrRole">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::GroupOrRoleNode2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The type of &lt;b&gt;ProjectTeam&lt;/b&gt; node." name="type">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A sorted list of child GroupOrRoleNode2 representing &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; nodes representing &lt;b&gt;ProjectTeam&lt;/b&gt; members matching the filter criteria." name="childGroupsOrRoles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::GroupOrRoleNodeWithChildren2"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of child &lt;b&gt;GroupMembe&lt;/b&gt;r, the member&amp;rsquo;s status within the team and whether that member can be removed." name="childMembers">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::GroupMemberWithPrivilege"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.1.0" description="The input necessary to retrieve the &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt;." isPublished="false" name="ProjectTeamInput2" namespace="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The &lt;b&gt;TC_Project&lt;/b&gt; object of the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="project">
+                       
+                <DataTypeRefParam dataType="Teamcenter::TC_Project"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Parent node in the&lt;b&gt; ProjectTeam&lt;/b&gt; for which child nodes are to be fetched. If NULL, all first level nodes of the &lt;b&gt;ProjectTeam&lt;/b&gt; will be fetched." name="parent">
+                       
+                <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::GroupOrRoleNode2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of FilterCriteriaInput to apply to the &lt;b&gt;ProjectTeam&lt;/b&gt;." name="filterCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::FilterCriteriaInput"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The direction and sort property name." name="sortCriteria">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::SearchSortCriteria"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Indicates tThe first element  node in the sorted list of &lt;b&gt;ProjectTeam&lt;/b&gt; nodes matching the filter to return.  Negative values are ignored.  0 indicates the first node in the list." name="startIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The maximum number of &lt;b&gt;ProjectTeam&lt;/b&gt; nodes  to return. Valid values are postive integers.  Invalid values are ignored and the full list of matching nodes is returned." name="maxToReturn">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="Awp06.1.0" description="test" isPublished="false" name="ProjectTeamResponse2" namespace="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity" scope="Aut0::Soa::Security::AwProjectLevelSecurity">
+                 
+            <StructElement description="The total &lt;b&gt;ProjectTeam&lt;/b&gt; members nodes represented by the ouput." name="totalCount">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The index of the last &lt;b&gt;ProjectTeam &lt;/b&gt;node." name="endIndex">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A sorted list of &lt;b&gt;Group&lt;/b&gt; and &lt;b&gt;Role &lt;/b&gt;nodes representing the &lt;b&gt;ProjectTeam&lt;/b&gt; members matching the input filter criteria." name="groupsAndRoles">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::GroupOrRoleNodeWithChildren2"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Contains objects that were created, deleted or updated by the Service, plain objects and error information. For this service, the service data contains partial error information.  The plain objects contains the &lt;b&gt;Group&lt;/b&gt;, &lt;b&gt;Role&lt;/b&gt; and &lt;b&gt;GroupMember&lt;/b&gt; objects." name="sd">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp03.4.0" description="This operation retrieves the Licenses attached to the given workspace objects . In case of multiple objects, only the licenses that are attached to all of the objects will be returned . It also retrieves level or structure information in case of ActiveWorkspace Content context. In ActiveWorkspace Content context, if the selected object do not have additional child objects then level or structure information are not be returned." id="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse#Aut0::Soa::Security::AwLicensing::getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" name="Aut0::Soa::Security::AwLicensing::getLicensesWithTypes" returnConst="false" returnDescription="The licenses attached to the given objects and the licenses that are available for attachment to those objects." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Structure that holds the information required to get list of licenses." freeOutputMemory="false" inputOutput="Input" name="licenseInputs">
+                       
+                <OperationParameterDataTypeRef dataType="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp06.0.0" description="This operation returns the paginated output representing &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt; object based on the input filter, sort and node information." id="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamResponse#Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamInput,&amp;" name="Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam" returnConst="false" returnDescription="The ProjectTeam members matching the input criteria with their status if applicable. Only user members have an associated status. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;101030: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The TC_Project is NULL or invalid.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;101001:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The parentNode is invalid. &lt;br /&gt;." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The TC_Project, filter, sort, expandNode, and pagination information specifying  the ProjectTeam information to return." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp06.1.0" description="This operation returns the paginated output representing &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt; object based on the input filter, sort and node information." id="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamResponse2#Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam2#const,Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamInput2,&amp;" name="Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam2" returnConst="false" returnDescription="The &lt;b&gt;ProjectTeam&lt;/b&gt; members matching the input criteria with their status if applicable. Only user members have an associated status. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;&amp;bull; 101030: The &lt;b&gt;TC_Project&lt;/b&gt; is NULL or invalid.&lt;br /&gt;&amp;bull; 101001: The parentNode is invalid." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamResponse2" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Indicates" freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamInput2" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp05.2.0" description="This operation creates &lt;b&gt;TC_Project&lt;/b&gt; business objects using the given input. The newly created project will be active and visible with the current login user as Project Administrator and Project Team Administrator." id="Teamcenter::Soa::Server::ServiceData#Aut0::Soa::Security::AwProjectLevelSecurity::createProjects#const,std::vector&lt;Aut0::Soa::Internal::Security::_2021_06::AwProjectLevelSecurity::CreateProjectInfo&gt;,&amp;" name="Aut0::Soa::Security::AwProjectLevelSecurity::createProjects" returnConst="false" returnDescription="The newly created &lt;b&gt;TC_Project&lt;/b&gt; business objects are returned in the ServiceData created objects list.  If creation of one or more projects is not successful, partial errors are returned indicating why the project could not be created.&lt;br /&gt;&lt;br /&gt;The following partial errors are returned:&lt;br /&gt;&lt;br /&gt;* 101010: &amp;lt;projectId&amp;gt; ID already exists in the system. &amp;lt;projectId&amp;gt; ID must be unique within a site.&lt;br /&gt;* 101002: The Project ID &amp;ldquo;&amp;lt;projectId&amp;gt;&amp;rdquo; is invalid.&lt;br /&gt;* 101025: The entered Project name is either empty or contains blank spaces.&lt;br /&gt;* 101026: The Project name &amp;lt;projectName&amp;gt; already exists. It must be unique within a site.&lt;br /&gt;* 290013: Failed to check authorization." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of CreateProjectInfo objects each of which define a &lt;b&gt;TC_Project&lt;/b&gt; business object." freeOutputMemory="false" inputOutput="Input" name="createInfo">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Aut0::Soa::Internal::Security::_2021_06::AwProjectLevelSecurity::CreateProjectInfo" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp06.0.0" description="This operation copies information from the given input &lt;b&gt;TC_Project&lt;/b&gt; and creates a new project." id="Teamcenter::Soa::Server::ServiceData#Aut0::Soa::Security::AwProjectLevelSecurity::saveAsProject#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectInformation,&amp;$const,Teamcenter::TC_Project,&amp;" name="Aut0::Soa::Security::AwProjectLevelSecurity::saveAsProject" returnConst="false" returnDescription="The newly created &lt;b&gt;TC_Project&lt;/b&gt; business object is returned in the ServiceData created objects list.  If creation of project is not successful, partial errors are returned indicating why the project could not be created.&lt;br /&gt;&lt;br /&gt;The following partial errors are returned:&lt;br /&gt;&lt;br /&gt;* 515106: There is already a project with the specified project ID&lt;br /&gt;* 101002: The Project ID is invalid.&lt;br /&gt;* 101025: The entered Project name is either empty or contains blank spaces.&lt;br /&gt;* 101026: The Project name is already exists. It must be unique within a site. &lt;br /&gt;* 101150: The Project name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, cannot be the same as the name of an existing Teamcenter Group.&lt;br /&gt;* 101151: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, already exists in the system. It must be unique within a site.             &lt;br /&gt;* 101152: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, cannot contain the Teamcenter Program/Project differentiator '&amp;lt;differentiator&amp;gt;'.&lt;br /&gt;* 101153: The Project Name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, cannot contain the Teamcenter Program/Project differentiator '&amp;lt;differentiator&amp;gt;'.&lt;br /&gt;* 101154: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, contains one or more invalid characters: '%', '*', '@'.&lt;br /&gt;* 101155: The Project name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, contains one or more invalid characters: '.', '%', '*', '@'." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Project Information which defines the properties to be set on new &lt;b&gt;TC_Project&lt;/b&gt; business object." freeOutputMemory="false" inputOutput="Input" name="inputInfo">
+                       
+                <OperationParameterDataTypeRef dataType="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectInformation" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="true" defaultValue="" description="Source project from which the project information should be copied." freeOutputMemory="false" inputOutput="Input" name="sourceProject">
+                       
+                <OperationParameterDataTypeRef dataType="Teamcenter::TC_Project" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Awp0AWS" createRelease="Awp03.4.0" dependencies="" description="This operation retrieves the Licenses attached to the given workspace objects . In case of multiple objects, only the licenses that are attached to all of the objects will be returned . It also retrieves level or structure information in case of ActiveWorkspace Content context. In ActiveWorkspace Content context, if the selected object do not have additional child objects then level or structure information are not be returned." exceptionCondition="" id="getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" interface="Aut0::Soa::Security::AwLicensing" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getLicensesWithTypes" opTemplate="Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicensesWithTypesResponse#Aut0::Soa::Security::AwLicensing::getLicensesWithTypes#const,Aut0::Soa::Internal::Security::_2017_12::AwLicensing::LicenseInput,&amp;" returnDescription="The licenses attached to the given objects and the licenses that are available for attachment to those objects." useCase="">
+                 
+            <ParameterInfo description="Structure that holds the information required to get list of licenses." parameterName="licenseInputs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Aut0Authorization" createRelease="Awp05.2.0" dependencies="" description="This operation creates &lt;b&gt;TC_Project&lt;/b&gt; business objects using the given input. The newly created project will be active and visible with the current login user as Project Administrator and Project Team Administrator." exceptionCondition="" id="createProjects#const,std::vector&lt;Aut0::Soa::Internal::Security::_2021_06::AwProjectLevelSecurity::CreateProjectInfo&gt;,&amp;" interface="Aut0::Soa::Security::AwProjectLevelSecurity" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="createProjects" opTemplate="Teamcenter::Soa::Server::ServiceData#Aut0::Soa::Security::AwProjectLevelSecurity::createProjects#const,std::vector&lt;Aut0::Soa::Internal::Security::_2021_06::AwProjectLevelSecurity::CreateProjectInfo&gt;,&amp;" returnDescription="The newly created &lt;b&gt;TC_Project&lt;/b&gt; business objects are returned in the ServiceData created objects list.  If creation of one or more projects is not successful, partial errors are returned indicating why the project could not be created.&lt;br /&gt;&lt;br /&gt;The following partial errors are returned:&lt;br /&gt;&lt;br /&gt;* 101010: &amp;lt;projectId&amp;gt; ID already exists in the system. &amp;lt;projectId&amp;gt; ID must be unique within a site.&lt;br /&gt;* 101002: The Project ID &amp;ldquo;&amp;lt;projectId&amp;gt;&amp;rdquo; is invalid.&lt;br /&gt;* 101025: The entered Project name is either empty or contains blank spaces.&lt;br /&gt;* 101026: The Project name &amp;lt;projectName&amp;gt; already exists. It must be unique within a site.&lt;br /&gt;* 290013: Failed to check authorization." useCase="">
+                 
+            <ParameterInfo description="A list of CreateProjectInfo objects each of which define a &lt;b&gt;TC_Project&lt;/b&gt; business object." parameterName="createInfo"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Aut0Authorization" createRelease="Awp06.0.0" dependencies="" description="This operation returns the paginated output representing &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt; object based on the input filter, sort and node information." exceptionCondition="" id="getProjectTeam#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamInput,&amp;" interface="Aut0::Soa::Security::AwProjectLevelSecurity" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getProjectTeam" opTemplate="Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamResponse#Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectTeamInput,&amp;" returnDescription="The ProjectTeam members matching the input criteria with their status if applicable. Only user members have an associated status. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;101030: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The TC_Project is NULL or invalid.&lt;br /&gt;&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;101001:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The parentNode is invalid. &lt;br /&gt;." useCase="The use cases below are examples of how the Project and filter information can be used to return specific &lt;b&gt;ProjectTeam&lt;/b&gt; information.  For any of the use cases, sort and pagenination can be added to input to determine the order and quantity of information returned from the service.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return first level ProjectTeam:&lt;/b&gt; &lt;br /&gt;Provide only the &lt;b&gt;TC_Project&lt;/b&gt; object with no filter info to return the first level project team information.  These are the project nodes that have explicitly been added to the &lt;b&gt;ProjectTeam&lt;/b&gt;, for example Engineering group, or a specific &lt;b&gt;Role&lt;/b&gt; within a &lt;b&gt;Group&lt;/b&gt; such as Designer role.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return specific user, group and members within the ProjectTeam:&lt;/b&gt; &lt;br /&gt;Provide  the &lt;b&gt;TC_Project&lt;/b&gt; and filter information specifying a search string, if applicable, and the type(s) of member.  The returned members may have been added explicitly to the Project Team or they may be included due to their group or role membership.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return User members with one or more statuses within the TC_Project: &lt;/b&gt;&lt;br /&gt;Provide  the &lt;b&gt;TC_Project&lt;/b&gt; and filter information including the status(es) of interest.  The returned user members may have been added explicitly to the&lt;b&gt; ProjectTeam&lt;/b&gt; or they may be included due to their &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; membership.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return the members associated with a specific ProjectTeam node: &lt;/b&gt;&lt;br /&gt;Provide  the &lt;b&gt;TC_Project&lt;/b&gt;, &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; , and filter .  The returned &lt;b&gt;User&lt;/b&gt; members may have been added explicitly to the &lt;b&gt;ProjectTeam &lt;/b&gt;or they may be included due to their &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role &lt;/b&gt;membership.">
+                 
+            <DeprecationInfo deprecatedDescription="This service operation is deprecated in Active Workspace 6.1.  The replacement service operation is getProjectTeam2" deprecatedRelease="Awp06.1.0"/>
+                 
+            <ParameterInfo description="The TC_Project, filter, sort, expandNode, and pagination information specifying  the ProjectTeam information to return." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Aut0Authorization" createRelease="Awp06.1.0" dependencies="" description="This operation returns the paginated output representing &lt;b&gt;ProjectTeam&lt;/b&gt; for the given &lt;b&gt;TC_Project&lt;/b&gt; object based on the input filter, sort and node information." exceptionCondition="" id="getProjectTeam2#const,Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamInput2,&amp;" interface="Aut0::Soa::Security::AwProjectLevelSecurity" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="getProjectTeam2" opTemplate="Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamResponse2#Aut0::Soa::Security::AwProjectLevelSecurity::getProjectTeam2#const,Aut0::Soa::Internal::Security::_2022_06::AwProjectLevelSecurity::ProjectTeamInput2,&amp;" returnDescription="The &lt;b&gt;ProjectTeam&lt;/b&gt; members matching the input criteria with their status if applicable. Only user members have an associated status. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;&amp;bull; 101030: The &lt;b&gt;TC_Project&lt;/b&gt; is NULL or invalid.&lt;br /&gt;&amp;bull; 101001: The parentNode is invalid." useCase="The use cases below are examples of how the &lt;b&gt;TC_Project &lt;/b&gt;and filter information can be used to return specific &lt;b&gt;ProjectTeam&lt;/b&gt; information. For any of the use cases, sort and pagenination can be added to input to determine the order and quantity of information returned from the service.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return first level ProjectTeam&lt;/b&gt;: &lt;br /&gt;Provide only the &lt;b&gt;TC_Project&lt;/b&gt; object with no filter info to return the first level project team information. These are the project nodes that have explicitly been added to the &lt;b&gt;ProjectTeam&lt;/b&gt;, for example Engineering group, or a specific Role within a Group such as Designer role.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return specific user, group and members within the ProjectTeam: &lt;/b&gt;&lt;br /&gt;Provide the &lt;b&gt;TC_Project&lt;/b&gt; and filter information specifying a search string, if applicable, and the type(s) of member. The returned members may have been added explicitly to the &lt;b&gt;Project Team&lt;/b&gt; or they may be included due to their &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role &lt;/b&gt;membership.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return User members with one or more statuses within the TC_Project: &lt;/b&gt;&lt;br /&gt;Provide the &lt;b&gt;TC_Project&lt;/b&gt; and filter information including the status(es) of interest. The returned user members may have been added explicitly to the &lt;b&gt;ProjectTeam&lt;/b&gt; or they may be included due to their &lt;b&gt;Group &lt;/b&gt;or &lt;b&gt;Role&lt;/b&gt; membership.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Return the members associated with a specific ProjectTeam node: &lt;/b&gt;&lt;br /&gt;Provide the &lt;b&gt;TC_Project&lt;/b&gt;, &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role &lt;/b&gt;, and filter . The returned &lt;b&gt;User&lt;/b&gt; members may have been added explicitly to the &lt;b&gt;ProjectTeam&lt;/b&gt; or they may be included due to their &lt;b&gt;Group&lt;/b&gt; or &lt;b&gt;Role&lt;/b&gt; membership.">
+                 
+            <ParameterInfo description="Indicates" parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Aut0Authorization" createRelease="Awp06.0.0" dependencies="" description="This operation copies information from the given input &lt;b&gt;TC_Project&lt;/b&gt; and creates a new project." exceptionCondition="" id="saveAsProject#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectInformation,&amp;$const,Teamcenter::TC_Project,&amp;" interface="Aut0::Soa::Security::AwProjectLevelSecurity" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="saveAsProject" opTemplate="Teamcenter::Soa::Server::ServiceData#Aut0::Soa::Security::AwProjectLevelSecurity::saveAsProject#const,Aut0::Soa::Internal::Security::_2021_12::AwProjectLevelSecurity::ProjectInformation,&amp;$const,Teamcenter::TC_Project,&amp;" returnDescription="The newly created &lt;b&gt;TC_Project&lt;/b&gt; business object is returned in the ServiceData created objects list.  If creation of project is not successful, partial errors are returned indicating why the project could not be created.&lt;br /&gt;&lt;br /&gt;The following partial errors are returned:&lt;br /&gt;&lt;br /&gt;* 515106: There is already a project with the specified project ID&lt;br /&gt;* 101002: The Project ID is invalid.&lt;br /&gt;* 101025: The entered Project name is either empty or contains blank spaces.&lt;br /&gt;* 101026: The Project name is already exists. It must be unique within a site. &lt;br /&gt;* 101150: The Project name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, cannot be the same as the name of an existing Teamcenter Group.&lt;br /&gt;* 101151: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, already exists in the system. It must be unique within a site.             &lt;br /&gt;* 101152: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, cannot contain the Teamcenter Program/Project differentiator '&amp;lt;differentiator&amp;gt;'.&lt;br /&gt;* 101153: The Project Name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, cannot contain the Teamcenter Program/Project differentiator '&amp;lt;differentiator&amp;gt;'.&lt;br /&gt;* 101154: The Project ID, &amp;quot;&amp;lt;projectId&amp;gt;&amp;quot;, contains one or more invalid characters: '%', '*', '@'.&lt;br /&gt;* 101155: The Project name, &amp;quot;&amp;lt;projectName&amp;gt;&amp;quot;, contains one or more invalid characters: '.', '%', '*', '@'." useCase="">
+                 
+            <ParameterInfo description="Project Information which defines the properties to be set on new &lt;b&gt;TC_Project&lt;/b&gt; business object." parameterName="inputInfo"/>
+                 
+            <ParameterInfo description="Source project from which the project information should be copied." parameterName="sourceProject"/>
+               
+        </Operation>
+           
+        <OperationInputType artifactName="Aut0ITARLicenseCreI" description="CreateInput object for &quot;Aut0ITARLicense&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Aut0ITARLicenseCreI" typeName="Aut0ITARLicenseCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Reference to a persistent ITAR License object." fieldType="SimpleProperty" propName="aut0ITARLicense" srcPropName="aut0ITARLicense"/>
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="Authorizing Paragraph that authorizes the attachment of this license to a Workspace Object" fieldType="SimpleProperty" propName="aut0AuthorizingParagraph" srcPropName="aut0AuthorizingParagraph"/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Aut0ITARLicenseSvAI" description="SaveAsInput object for &quot;Aut0ITARLicense&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Aut0ITARLicenseSvAI" typeName="Aut0ITARLicenseSvAI"/>
+           
+        <TcRuntimeType artifactName="Aut0ITARLicense" description="Aut0ITARLicense is runtime business object that encapsulates ITAR_License. Aut0ITARLicense will be used to view the ead_paragraph entered during attachment of licenses to a workspace object. Aut0ITARLicense is used in Teamcenter Active Workspace." functionality="Aut0Authorization" isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Aut0ITARLicense" typeName="Aut0ITARLicense">
+                 
+            <TcProperty arrayLength="0" description="Reference to a persistent ITAR License object." isArray="false" propMaxStringLength="0" propName="aut0ITARLicense" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ITAR_License" referencedTypeConstant=""/>
+                 
+            <TcProperty arrayLength="0" description="Authorizing Paragraph that authorizes the attachment of this license to a Workspace Object" isArray="false" propMaxStringLength="80" propName="aut0AuthorizingParagraph" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aut0ITARLicense" value="Aut0ITARLicenseCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aut0ITARLicense" value="Aut0ITARLicenseSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ITARLicense" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0LastModifiedDate" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ObjectName" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0ObjectType" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="aut0OwningUser" typeName="Aut0ITARLicense" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicense" value="Write Only If Null"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ITARLicense" typeName="Aut0ITARLicense" value="Write Only If Null"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0LastModifiedDate" typeName="Aut0ITARLicense" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ObjectName" typeName="Aut0ITARLicense" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0ObjectType" typeName="Aut0ITARLicense" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="aut0OwningUser" typeName="Aut0ITARLicense" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="aut0AuthorizingParagraph" typeName="Aut0ITARLicenseCreI" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Required" propertyName="aut0ITARLicense" typeName="Aut0ITARLicenseCreI" value="true"/>
+           
+        <TcCompoundPropertyRule description="Last Modified Date of the wrapped ITAR License." destPropertyName="aut0LastModifiedDate" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).last_mod_date" sourcePropertyName="last_mod_date" sourceTypeName="ITAR_License"/>
+           
+        <TcCompoundPropertyRule description="Name of the wrapped ITAR License." destPropertyName="aut0ObjectName" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).object_name" sourcePropertyName="object_name" sourceTypeName="ITAR_License"/>
+           
+        <TcCompoundPropertyRule description="Type of the wrapper ITAR License. (In case of children of ITAR)" destPropertyName="aut0ObjectType" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).object_type" sourcePropertyName="object_type" sourceTypeName="ITAR_License"/>
+           
+        <TcCompoundPropertyRule description="Owning User of the wrapped ITAR License." destPropertyName="aut0OwningUser" destTypeName="Aut0ITARLicense" isReadOnly="false" pathToSource="REF(aut0ITARLicense,ITAR_License).owning_user" sourcePropertyName="owning_user" sourceTypeName="ITAR_License"/>
+           
+        <Functionality description="This component consists code that supports authorization functionalities in Active Workspace." displayName="Aut0Authorization" enabledForVerificationRules="false" name="Aut0Authorization"/>
+           
+        <Condition description="Server side command visibility condition for Attach License command. This command should be visible for Teamcenter Version  &gt;=11.2.4. This command should be visible only if selected object is of type WorkspaceObject, Dataset or Form. This command should not be visible if selected object is of type EPMTask or Signoff. This command should be visible if the  logged in user is a member of dba group or is in the ITAR Admin or IP Admin role." expression="((u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;WorkspaceObject&quot;) = true  OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Dataset&quot;) = true OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Form&quot;) = true) AND (u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;EPMTask&quot;) = false AND u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Signoff&quot;) = false)) AND (u.group_name = &quot;dba&quot; OR u.role_name = &quot;ITAR Admin&quot; OR u.role_name = &quot;IP Admin&quot;)" name="Aut0AttachLicensesCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="Server side command visibility condition for Assign Projects command. This command should be visible for Teamcenter Version  &lt;=11.2.3. It should be visible only if selected object is of type WorkspaceObject, Dataset or Form. It should not be visible if selected object is of type EPMTask or Signoff. It should be visible if the logged in user is a member of dba group or is in the ITAR Admin or IP Admin role." expression="((u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;WorkspaceObject&quot;) = true  OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Dataset&quot;) = true OR u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Form&quot;) = true) AND (u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;EPMTask&quot;) = false AND u.fnd0ConditionHelper.awp0IsObjectType(o, &quot;Signoff&quot;) = false) ) AND (u.group_name = &quot;dba&quot; OR u.role_name = &quot;ITAR Admin&quot; OR u.role_name = &quot;IP Admin&quot;)" name="Aut0AttachLicensesLegacyCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="Server side command visibility condition for Add Project command. This command should be visible only if the user is logged in with privileged group or with Project Administration group and Project Administrator role." expression="(u.group_name=&quot;Project Administration&quot; AND u.role_name=&quot;Project Administrator&quot;) OR ((u.fnd0ConditionHelper.fnd0getPropValueOnRefObj(u,&quot;group&quot;,&quot;privilege&quot;)=&quot;1&quot;)=true)" name="Aut0AddProjectCmdCond" secured="false">
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Command commandId="Aut0AttachLicenses" description="Attach or Detach Licenses" displayName="Licenses" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Licenses"/>
+           
+        <Command commandId="Aut0AttachLicensesLegacy" description="Attach or Detach Licenses" displayName="Licenses" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Licenses"/>
+           
+        <Command commandId="Aut0AddProject" description="Add Project" displayName="Add Project" icon="" mnemonic="" requiresUserInput="false" selectionModel="Multiple" tooltip="Add Project"/>
+           
+        <ClientScope clientName="AWClient" description="MyProjectList client scope" displayName="My Project List" hostingClientName="" name="Aut0MyProjectList"/>
+           
+        <CommandAttach anchorId="" childCommandId="Aut0AttachLicenses" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandAttach anchorId="Aut0AttachLicenses" childCommandId="Aut0AttachLicensesLegacy" commandCollectionId="Awp0GlobalCommands_toolsAndInfo" isAnchorCommandCollection="false" isBeforeAnchor="false" isChildCommandCollection="false"/>
+           
+        <CommandCollectionAttach clientScopeId="Aut0MyProjectList" commandCollectionId="Awp0MyProject_display" type="aw_display"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Aut0AttachLicenses" conditionName="Aut0AttachLicensesCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Aut0AttachLicensesLegacy" conditionName="Aut0AttachLicensesLegacyCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Aut0AddProject" conditionName="Aut0AddProjectCmdCond"/>
+           
+        <Library createRelease="Awp05.0.0" description="Library for Active Workspace for authorization solution" isThirdParty="false" name="Aut0authorizationaws" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationInputType artifactName="Aut0ProjectProviderCreI" description="CreateInput object for &quot;Aut0ProjectProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Aut0ProjectProviderCreI" typeName="Aut0ProjectProviderCreI"/>
+           
+        <OperationInputType artifactName="Aut0ProjectProviderSvAI" description="SaveAsInput object for &quot;Aut0ProjectProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Aut0ProjectProviderSvAI" typeName="Aut0ProjectProviderSvAI"/>
+           
+        <OperationInputType artifactName="Aut0ProjectTeamProviderCreI" description="CreateInput object for &quot;Aut0ProjectTeamProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Aut0ProjectTeamProviderCreI" typeName="Aut0ProjectTeamProviderCreI"/>
+           
+        <OperationInputType artifactName="Aut0ProjectTeamProviderSvAI" description="SaveAsInput object for &quot;Aut0ProjectTeamProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Aut0ProjectTeamProviderSvAI" typeName="Aut0ProjectTeamProviderSvAI"/>
+           
+        <TcRuntimeType artifactName="Aut0ProjectProvider" description="Provider to fetch the TC_Project objects" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Aut0ProjectProvider" typeName="Aut0ProjectProvider"/>
+           
+        <TcRuntimeType artifactName="Aut0ProjectTeamProvider" description="This provider returns the list of filter facet values for the Project Team table name, type and status columns based on the selected column and user input." functionality="Aut0Authorization" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Aut0ProjectTeamProvider" typeName="Aut0ProjectTeamProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp05.0.0" description="Interface Name for Business Object Aut0ProjectProvider" libraryName="Aut0authorizationaws" name="Aut0ProjectProvider" namespace="aut0authorizationaws" primaryInterface="true" typeName="Aut0ProjectProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp06.0.0" description="Interface Name for Business Object Aut0ProjectTeamProvider" libraryName="Aut0authorizationaws" name="Aut0ProjectTeamProvider" namespace="aut0authorizationaws" primaryInterface="true" typeName="Aut0ProjectTeamProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Aut0ProjectProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Aut0ProjectTeamProvider"/>
+           
+        <TcPropertyAttach typeName="TC_Project">
+                 
+            <TcProperty arrayLength="0" description="Returns true if the TC_project is modifiable by the current user." isArray="false" propMaxStringLength="0" propName="is_modifiable" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aut0ProjectProvider" value="Aut0ProjectProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Aut0ProjectTeamProvider" value="Aut0ProjectTeamProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aut0ProjectProvider" value="Aut0ProjectProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Aut0ProjectTeamProvider" value="Aut0ProjectTeamProviderSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="is_modifiable" typeName="TC_Project" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="is_modifiable" typeName="TC_Project" value="Write"/>
+           
+        <TcExtension cannedExtension="false" description="Edit handler for TC_Project in active workspace." functionality="Aut0Authorization" internal="false" languageType="CPlusPlus" libraryName="libAut0authorizationaws" name="Aut0TC_ProjectEditHandler">
+                 
+            <TcExtensionValidity parameter="TYPE:TC_Project:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="TC_Project" extendableElementType="Type" extensionName="Aut0TC_ProjectEditHandler" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Rlz0Composition" locale="ja_JP" status="Approved">コンポジション</key>
+           
+        <key id="BusinessObject{::}Rlz0GDEArtifact" locale="ja_JP" status="Approved">アタッチされた従属WSO</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemInstance" locale="ja_JP" status="Approved">アイテムインスタンス</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemRealizationMap" locale="ja_JP" status="Approved">アイテム認識マップ</key>
+           
+        <key id="BusinessObject{::}Rlz0ItemRealization" locale="ja_JP" status="Approved">アイテムの認識</key>
+           
+        <key id="BusinessObject{::}Rlz0M2MSubsetInstantiation" locale="ja_JP" status="Approved">モデル間サブセットインスタンス化</key>
+           
+        <key id="BusinessObject{::}Rlz0M2MSubsetRealization" locale="ja_JP" status="Approved">モデル間サブセット認識</key>
+           
+        <key id="BusinessObject{::}Rlz0ModelRealizationMap" locale="ja_JP" status="Approved">モデル認識マップ</key>
+           
+        <key id="BusinessObject{::}Rlz0ModelRealization" locale="ja_JP" status="Approved">モデルの認識</key>
+           
+        <key id="BusinessObject{::}Rlz0PopulateInstantiation" locale="ja_JP" status="Approved">インスタンス化をポピュレート</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizationContainer" locale="ja_JP" status="Approved">認識コンテナ</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizationMap" locale="ja_JP" status="Approved">認識マップ</key>
+           
+        <key id="BusinessObject{::}Rlz0Realization" locale="ja_JP" status="Approved">認識</key>
+           
+        <key id="BusinessObject{::}Rlz0RealizedItem" locale="ja_JP" status="Approved">認識されたアイテム</key>
+           
+        <key id="BusinessObject{::}Rlz0RefCompositionProvider" locale="ja_JP" status="Approved">参照コンポジションプロバイダ</key>
+           
+        <key id="BusinessObject{::}Rlz0SourceObjectRefByProvider" locale="ja_JP" status="Approved">プロバイダにより参照されているソースオブジェクト</key>
+           
+        <key id="BusinessObject{::}Rlz0SubsetInstance" locale="ja_JP" status="Approved">スパース認識サブセットインスタンス</key>
+           
+        <key id="BusinessObject{::}Rlz0Subset" locale="ja_JP" status="Approved">サブセット</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsInstantiation" locale="ja_JP" status="Approved">この条件は、オペレーションがインスタンス化かどうか評価します</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsNotInstantiation" locale="ja_JP" status="Approved">この条件は、オペレーションがインスタンス化かを評価します</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsNotRealizationOrInstantiation" locale="ja_JP" status="Approved">この条件は、オペレーションが認識でもインスタンス化でもないことを評価します</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsRealizationOrInstantiation" locale="ja_JP" status="Approved">この条件は、オペレーションが認識なのかインスタンス化なのか評価します</key>
+           
+        <key id="ConditionDescription{::}Rlz0IsRealization" locale="ja_JP" status="Approved">この条件は、オペレーションが認識かどうか評価します</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}promissory" locale="ja_JP" status="Approved">約束モデル要素を表します。</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}reuse" locale="ja_JP" status="Approved">再使用モデル要素を表します。</key>
+           
+        <key id="LOVValueDescription{::}Rlz0Categories{::}subordinate" locale="ja_JP" status="Approved">従属モデル要素を表します。</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}item" locale="ja_JP" status="Approved">アイテム</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}promissory" locale="ja_JP" status="Approved">約束</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}reuse" locale="ja_JP" status="Approved">再使用</key>
+           
+        <key id="LOVValue{::}Rlz0Categories{::}subordinate" locale="ja_JP" status="Approved">従属</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizationContainer" locale="ja_JP" status="Approved">認識コンテナ</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizationLUD" locale="ja_JP" status="Approved">認識最終更新日</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}rlz0RealizedSource" locale="ja_JP" status="Approved">ソースモデル要素</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}rlz0AbsoluteTransform" locale="ja_JP" status="Approved">サブセットでの絶対トランスフォーム</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}rlz0AbsoluteTransform" locale="ja_JP" status="Approved">サブセットでの絶対トランスフォーム</key>
+           
+        <key id="Property{::}Rlz0Composition{::}rlz0AssociatedSubsets" locale="ja_JP" status="Approved">関連するサブセット</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0IdInParent" locale="ja_JP" status="Approved">親でのID</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0Id" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0SourceWSO" locale="ja_JP" status="Approved">ソースWSO</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0ThreadInParentSource" locale="ja_JP" status="Approved">親ソース内のスレッド</key>
+           
+        <key id="Property{::}Rlz0GDEArtifact{::}rlz0element" locale="ja_JP" status="Approved">要素</key>
+           
+        <key id="Property{::}Rlz0ItemInstance{::}rlz0ReuseElement" locale="ja_JP" status="Approved">要素を再使用 </key>
+           
+        <key id="Property{::}Rlz0ItemInstance{::}rlz0SourceLMD" locale="ja_JP" status="Approved">ソースLMD</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationCreI{::}rlz0sourceInput" locale="ja_JP" status="Approved">ソース入力</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0CSIDInParent" locale="ja_JP" status="Approved">親内のCSID</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0SourceCSID" locale="ja_JP" status="Approved">ソースCSID</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0SourceObject" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0is_source_occ_id_fnv" locale="ja_JP" status="Approved">ソースオカレンスID FNV</key>
+           
+        <key id="Property{::}Rlz0ItemRealizationMap{::}rlz0source_occ_id" locale="ja_JP" status="Approved">ソースオカレンスID</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0ClosureRule" locale="ja_JP" status="Approved">クロージャルール</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0bom_view" locale="ja_JP" status="Approved">BOMビュー</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0product" locale="ja_JP" status="Approved">製品アイテムリビジョン</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0sos" locale="ja_JP" status="Approved">格納済オプションセット</key>
+           
+        <key id="Property{::}Rlz0ItemRealization{::}rlz0variant_rule" locale="ja_JP" status="Approved">バリアントルール</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetInstantiation{::}rlz0ReuseElement" locale="ja_JP" status="Approved">要素を再使用 </key>
+           
+        <key id="Property{::}Rlz0M2MSubsetInstantiation{::}rlz0SearchCriteria" locale="ja_JP" status="Approved">モデル間検索基準</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealizationCreI{::}rlz0CheckOutForCreate" locale="ja_JP" status="Approved">作成用にチェックアウト</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealizationCreI{::}rlz0RealizationMode" locale="ja_JP" status="Approved">認識モード</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealization{::}rlz0RealizationContainer" locale="ja_JP" status="Approved">認識コンテナ</key>
+           
+        <key id="Property{::}Rlz0M2MSubsetRealization{::}rlz0SearchCriteria" locale="ja_JP" status="Approved">検索基準</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0LogicalSource" locale="ja_JP" status="Approved">論理ソース</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0is_realized" locale="ja_JP" status="Approved">認識</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0source_object" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="Property{::}Rlz0ModelRealizationMap{::}rlz0source" locale="ja_JP" status="Approved">ソース</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ChangeContextMode" locale="ja_JP" status="Approved">コンテキストを変更表示モード</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ChangeContext" locale="ja_JP" status="Approved">コンテキストを変更</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ConfiguredSourceModel" locale="ja_JP" status="Approved">構成済みソースモデル</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ContentType" locale="ja_JP" status="Approved">コンテンツタイプ</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0OuterRecipe" locale="ja_JP" status="Approved">外部のレシピ</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0Purpose" locale="ja_JP" status="Approved">目的</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0ReportInWhereUsed" locale="ja_JP" status="Approved">使用先におけるレポート</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0VariantRules" locale="ja_JP" status="Approved">バリアントルール</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0source_model" locale="ja_JP" status="Approved">ソースモデル</key>
+           
+        <key id="Property{::}Rlz0ModelRealization{::}rlz0variant_rule" locale="ja_JP" status="Approved">バリアントルール - 廃止されました。 TC11.4リリースノートを参照してください</key>
+           
+        <key id="Property{::}Rlz0PopulateInstantiation{::}rlz0OwningElement" locale="ja_JP" status="Approved">所有要素</key>
+           
+        <key id="Property{::}Rlz0RealizationContainerCreI{::}rlz0RealizationCreInput" locale="ja_JP" status="Approved">認識作成入力</key>
+           
+        <key id="Property{::}Rlz0RealizationContainer{::}rlz0instance" locale="ja_JP" status="Approved">認識インスタンス</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0LastUpdateDate" locale="ja_JP" status="Approved">認識最終更新日</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0cs_id" locale="ja_JP" status="Approved">安定したIDをコピー</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0realization" locale="ja_JP" status="Approved">認識</key>
+           
+        <key id="Property{::}Rlz0RealizationMap{::}rlz0target" locale="ja_JP" status="Approved">ターゲット</key>
+           
+        <key id="Property{::}Rlz0RealizationSvAI{::}rlz0TargetModel" locale="ja_JP" status="Approved">ターゲットモデル</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0revision_rule" locale="ja_JP" status="Approved">リビジョンルール</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0revrule_strings" locale="ja_JP" status="Approved">リビジョンルール文字列</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_effectivity_exprs" locale="ja_JP" status="Approved">有効期限式を同期</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_source_object_attr" locale="ja_JP" status="Approved">属性値を同期</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0sync_variant_exprs" locale="ja_JP" status="Approved">バリアント式を同期</key>
+           
+        <key id="Property{::}Rlz0Realization{::}rlz0target_model" locale="ja_JP" status="Approved">ターゲットモデル</key>
+           
+        <key id="Property{::}Rlz0RealizedItemCreI{::}rlz0ReuseElementInput" locale="ja_JP" status="Approved">要素入力を再使用</key>
+           
+        <key id="Property{::}Rlz0RealizedItemCreI{::}rlz0parentClientId" locale="ja_JP" status="Approved">親クライアントID</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ElementId" locale="ja_JP" status="Approved">要素ID</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0IdInParent" locale="ja_JP" status="Approved">親でのID</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0IsLeaf" locale="ja_JP" status="Approved">リーフ</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0PresentedParent" locale="ja_JP" status="Approved">表される親</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ReuseElement" locale="ja_JP" status="Approved">要素を再使用 </key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0SourceObject" locale="ja_JP" status="Approved">ソースオブジェクト</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0SourceSpecification" locale="ja_JP" status="Approved">ソース仕様</key>
+           
+        <key id="Property{::}Rlz0RealizedItem{::}rlz0ThreadInParentSource" locale="ja_JP" status="Approved">親ソース内のスレッド</key>
+           
+        <key id="Property{::}Rlz0SubsetCreI{::}rlz0RealizationCreInput" locale="ja_JP" status="Approved">認識作成入力</key>
+           
+        <key id="Property{::}Rlz0SubsetInstanceCreI{::}rlz0RealizationMode" locale="ja_JP" status="Approved">認識モード</key>
+           
+        <key id="Property{::}Rlz0SubsetInstance{::}rlz0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Rlz0SubsetInstance{::}rlz0SearchCriteria" locale="ja_JP" status="Approved">検索基準</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0CSId" locale="ja_JP" status="Approved">安定したIDをコピー</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0Purpose" locale="ja_JP" status="Approved">目的</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectId" locale="ja_JP" status="Approved">ソースオブジェクトID</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectName" locale="ja_JP" status="Approved">ソースオブジェクト名</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SourceObjectType" locale="ja_JP" status="Approved">ソースオブジェクトタイプ</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0SubsetInstance" locale="ja_JP" status="Approved">サブセットインスタンス</key>
+           
+        <key id="Property{::}Rlz0Subset{::}rlz0Transform" locale="ja_JP" status="Approved">変換</key>
+           
+        <key id="Event{::}Rlz0Create_Rlz_Container" locale="ja_JP" status="Approved">実現化コンテナを作成</key>
+           
+        <key id="Event{::}Rlz0Delete_Rlz_Container" locale="ja_JP" status="Approved">実現化コンテナを削除</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

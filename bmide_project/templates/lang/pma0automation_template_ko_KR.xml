@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="ko_KR" status="Approved">BOM 링크 제공자 설계</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="ko_KR" status="Approved">파트의 생성 시 설계를 생성 및 정렬할지 여부를 제어하는 조건.</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="ko_KR" status="Approved">설계의 생성 시 파트를 생성 및 설계에 정렬할지 여부를 제어하는 조건</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="ko_KR" status="Approved">제품 EBOM 워크플로 생성을 활성화하기 위한 워크플로 필터 조건.</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="ko_KR" status="Approved">정렬된 설계 컨텍스트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="ko_KR" status="Approved">정렬된 설계</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="ko_KR" status="Approved">정렬된 파트 컨텍스트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="ko_KR" status="Approved">정렬된 파트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="ko_KR" status="Approved">설계 정렬됨</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="ko_KR" status="Approved">설계 필요</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="ko_KR" status="Approved">파트 정렬됨</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="ko_KR" status="Approved">파트 필요함</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="ko_KR" status="Approved">정렬할 파트</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="ko_KR" status="Approved">기존 파트 유지</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="ko_KR" status="Approved">정렬할 파트</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="ko_KR" status="Approved">파트 자동 생성</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="ko_KR" status="Approved">파트 필요함</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="ko_KR" status="Approved">정렬된 파트 컨텍스트</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="ko_KR" status="Approved">정렬된 파트</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="ko_KR" status="Approved">파트 정렬됨</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="ko_KR" status="Approved">파트 필요함</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="ko_KR" status="Approved">정렬할 설계</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="ko_KR" status="Approved">자동 설계 만들기</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="ko_KR" status="Approved">중단됨</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="ko_KR" status="Approved">묵시적 1차 표현</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="ko_KR" status="Approved">이 규칙은 설계가 "TCM이 릴리스됨" 상태일 때 "설계 변경 작업" LOV를 설계 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0DsgnChangeActionsLOV를 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="ko_KR" status="Approved">이 규칙은 파트가 "TCM이 릴리스됨" 상태일 때 "파트 변경 작업" LOV를 파트 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0PartChangeActionsLOV를 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="ko_KR" status="Approved">이 규칙은 "설계 재사용 작업" LOV를 설계 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0ReuseDesignActionsLOV를 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="ko_KR" status="Approved">이 규칙은 파트 및 설계가 작업 중인 상태일 때 "파트 재사용 작업" LOV를 파트 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0ReusePartActionsLOV를 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="ko_KR" status="Approved">이 규칙은 설계가 "동결" 상태일 때 "설계 개정 작업" LOV를 설계 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0ReviseDesignActionLOV를 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="ko_KR" status="Approved">이 규칙은 파트가 "동결" 상태일 때 "파트 개정 작업" LOV를 파트 업데이트에 사용할 수 있도록 합니다. 이 조건은 Pma0RevisePartActionLOV를 활성화합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ko_KR" status="Approved">설계의 기존 리비전 재사용</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ko_KR" status="Approved">현재 변경 중인 파트에 정렬된 설계를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ko_KR" status="Approved">변경 중인 파트에 대해 새 설계를 사용합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ko_KR" status="Approved">설계의 기존 리비전 재사용</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ko_KR" status="Approved">현재 변경 중인 파트에 정렬된 설계를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ko_KR" status="Approved">변경 중인 설계에 대해 새 파트를 사용합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ko_KR" status="Approved">파트의 기존 리비전 재사용</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ko_KR" status="Approved">현재 변경 중인 설계에 정렬된 파트를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ko_KR" status="Approved">변경 중인 파트에 대해 새 설계를 생성합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="ko_KR" status="Approved">변경 중인 설계에 대해 새 파트를 생성합니다</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ko_KR" status="Approved">변경 중인 설계에 대해 새 파트를 사용합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ko_KR" status="Approved">현재 변경 중인 설계에 정렬된 파트를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ko_KR" status="Approved">설계의 기존 리비전 재사용</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ko_KR" status="Approved">파트의 기존 리비전 재사용</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ko_KR" status="Approved">현재 변경 중인 설계에 정렬된 파트를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ko_KR" status="Approved">현재 변경 중인 파트에 정렬된 설계를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ko_KR" status="Approved">현재 변경 중인 설계에 정렬된 파트를 개정합니다.</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="ko_KR" status="Approved">설계 재사용</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="ko_KR" status="Approved">설계 개정</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="ko_KR" status="Approved">새 설계</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="ko_KR" status="Approved">설계 재사용</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="ko_KR" status="Approved">설계 개정</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="ko_KR" status="Approved">새 파트</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="ko_KR" status="Approved">파트 재사용</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="ko_KR" status="Approved">파트 개정</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="ko_KR" status="Approved">새 설계</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="ko_KR" status="Approved">새 파트</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="ko_KR" status="Approved">새 파트</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="ko_KR" status="Approved">파트 개정</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="ko_KR" status="Approved">설계 재사용</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="ko_KR" status="Approved">파트 재사용</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="ko_KR" status="Approved">파트 재사용</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="ko_KR" status="Approved">파트 개정</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="ko_KR" status="Approved">설계 개정</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="ko_KR" status="Approved">파트 개정</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="ko_KR" status="Approved">정렬된 설계 릴리스 상태</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="ko_KR" status="Approved">정렬된 파트 릴리스 상태</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="ko_KR" status="Approved">업데이트 작업</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="ko_KR" status="Approved">업데이트 모드 켜짐</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="ko_KR" status="Approved">파트 정렬 복사</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="ko_KR" status="Approved">설계 정렬 복사</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="ko_KR" status="Approved">설계 속성</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="ko_KR" status="Approved">파트 속성</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="ko_KR" status="Approved">파트 리비전 속성</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="ko_KR" status="Approved">색상 속성으로 정의된 파트를 나타냄</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="ko_KR" status="Approved">마감이 없는 파트를 나타냄</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="ko_KR" status="Approved">색상이 없는 파트를 나타냄</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="ko_KR" status="Approved">색상</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="ko_KR" status="Approved">미완료</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="ko_KR" status="Approved">없음</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="ko_KR" status="Approved">설계가 아웃소싱됨</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="ko_KR" status="Approved">설계를 구매함</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="ko_KR" status="Approved">사내 설계</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="ko_KR" status="Approved">할당 안 됨</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ko_KR" status="Approved">일반 파트에 정렬</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ko_KR" status="Approved">일반 파트에 정렬</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="ko_KR" status="Approved">일반 파트에 정렬</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="ko_KR" status="Approved">일반 파트에 정렬</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="ko_KR" status="Approved">소유 개체</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="ko_KR" status="Approved">다듬질 유형</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="ko_KR" status="Approved">멀티바디</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="ko_KR" status="Approved">소유 개체</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="ko_KR" status="Approved">안전 파트</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="ko_KR" status="Approved">표준</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="ko_KR" status="Approved">소유 개체</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="ko_KR" status="Approved">예비 파트</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="ko_KR" status="Approved">기술 의도</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="ko_KR" status="Approved">유효성 검사 결과 제공자 변경</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="ko_KR" status="Approved">패키지 유효성 검사 결과 변경</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="ko_KR" status="Approved">이유</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="ko_KR" status="Approved">문제점</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="ko_KR" status="Approved">솔루션 아이템</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

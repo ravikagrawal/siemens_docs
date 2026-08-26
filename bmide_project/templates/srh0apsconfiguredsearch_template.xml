@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:59:55 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc10000.1.5" description="Configured Search Framework Library" isThirdParty="false" name="srh0apsconfiguredsearch" namespace="" serviceLibrary="false"/>
+           
+        <OperationInputType artifactName="Srh0ConfiguredSearchRecipeCreI" description="CreateInput object for &quot;Srh0ConfiguredSearchRecipe&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectCreI" typeClassName="Srh0ConfiguredSearchRecipeCreI" typeName="Srh0ConfiguredSearchRecipeCreI"/>
+           
+        <OperationInputType artifactName="Srh0ConfiguredSearchRecipeSvAI" description="SaveAsInput object for &quot;Srh0ConfiguredSearchRecipe&quot; business object" isAbstract="false" parentTypeName="RuntimeBusinessObjectSvAI" typeClassName="Srh0ConfiguredSearchRecipeSvAI" typeName="Srh0ConfiguredSearchRecipeSvAI"/>
+           
+        <TcRuntimeType artifactName="Srh0ConfiguredSearchRecipe" description="Srh0ConfiguredSearchRecipe is a business object which represents a search recipe. Srh0ConfiguredSearchRecipe will serve as a return value from the business object operations attached to Workspace Object (Example: &quot;getConfigurableContent&quot; and &quot;getImpactingVariability&quot; ). These operations are overwritten at the business object type hierarchy level that knows the search recipe for the requested information for that specific business object type. Srh0ConfiguredSearchRecipe objects are opaque. Their search recipe is used only internally for application specific business operations on server, such as &quot;Build Conditions&quot;(Bcs0). Srh0ConfiguredSearchRecipe objects will not cross the boundary of the Teamcenter server process." functionality="Srh0APSConfiguredSearch" isAbstract="false" parentTypeName="RuntimeBusinessObject" typeClassName="Srh0ConfiguredSearchRecipe" typeName="Srh0ConfiguredSearchRecipe"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.2" description="Interface Name for Business Object Srh0ConfiguredSearchRecipe" libraryName="srh0apsconfiguredsearch" name="Srh0ConfiguredSearchRecipe" namespace="Teamcenter::srh0apsconfiguredsearch" primaryInterface="true" typeName="Srh0ConfiguredSearchRecipe"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Srh0ConfiguredSearchRecipe" value="Srh0ConfiguredSearchRecipeCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Srh0ConfiguredSearchRecipe" value="Srh0ConfiguredSearchRecipeSvAI"/>
+           
+        <Functionality description="Configured search support for Advanced PLM Services." displayName="APS Configured Search" enabledForVerificationRules="false" name="Srh0APSConfiguredSearch"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

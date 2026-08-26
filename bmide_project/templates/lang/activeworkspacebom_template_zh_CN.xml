@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:33 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="zh_CN" status="Approved">布置提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="zh_CN" status="Approved">自动添加书签</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="zh_CN" status="Approved">BOM 索引管理数据</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="zh_CN" status="Approved">书签数据</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="zh_CN" status="Approved">书签导览数据</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="zh_CN" status="Approved">为产品数据添加书签</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="zh_CN" status="Approved">子集数据</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="zh_CN" status="Approved">将稳定 ID 链克隆到元素提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="zh_CN" status="Approved">结束规则提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="zh_CN" status="Approved">比较结果</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="zh_CN" status="Approved">条件元素</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="zh_CN" status="Approved">关联提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="zh_CN" status="Approved">日期有效性配置功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="zh_CN" status="Approved">设计元素</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="zh_CN" status="Approved">有效性提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="zh_CN" status="Approved">元素</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="zh_CN" status="Approved">功能部件列表</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="zh_CN" status="Approved">扁平结构功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="zh_CN" status="Approved">全文搜索功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="zh_CN" status="Approved">全文搜索提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="zh_CN" status="Approved">受管属性提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="zh_CN" status="Approved">替代数据集提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="zh_CN" status="Approved">分区功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="zh_CN" status="Approved">已定位的元素</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="zh_CN" status="Approved">产品关联信息</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="zh_CN" status="Approved">产品功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="zh_CN" status="Approved">根事例功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="zh_CN" status="Approved">保存工作关联功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="zh_CN" status="Approved">已保存工作关联</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="zh_CN" status="Approved">保存的查询提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="zh_CN" status="Approved">替代件提供者</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="zh_CN" status="Approved">单元有效性配置功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="zh_CN" status="Approved">变量特征</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="zh_CN" status="Approved">视图类型提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="zh_CN" status="Approved">查看器功能部件</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="zh_CN" status="Approved">已弃用。请参见支持声明 Teamcenter 2606。区域提供程序</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="zh_CN" status="Approved">该操作将克隆元素。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="zh_CN" status="Approved">该操作将引用元素。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="zh_CN" status="Approved">该操作将修订元素。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="zh_CN" status="Approved">该操作将替换元素。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="zh_CN" status="Approved">该操作将忽略元素。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="zh_CN" status="Approved">未共享已保存工作关联。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="zh_CN" status="Approved">共享已保存工作关联以供只读。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="zh_CN" status="Approved">共享已保存工作关联以供读和写</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="zh_CN" status="Approved">活动内容体验</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="zh_CN" status="Approved">更改未保存</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="zh_CN" status="Approved">更改已保存</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="zh_CN" status="Approved">比较</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="zh_CN" status="Approved">另存为和替换</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="zh_CN" status="Approved">引用</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="zh_CN" status="Approved">修订</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="zh_CN" status="Approved">替换</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="zh_CN" status="Approved">移除</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="zh_CN" status="Approved">私有</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="zh_CN" status="Approved">只读</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="zh_CN" status="Approved">可读/可写</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="zh_CN" status="Approved">活动内容体验</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="zh_CN" status="Approved">更改未保存</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="zh_CN" status="Approved">更改已保存</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="zh_CN" status="Approved">比较</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="zh_CN" status="Approved">活动产品</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="zh_CN" status="Approved">上次访问日期</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="zh_CN" status="Approved">已保存书签的上次保存日期</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="zh_CN" status="Approved">打开的对象</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="zh_CN" status="Approved">未保存的修改</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="zh_CN" status="Approved">用户</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="zh_CN" status="Approved">基础版本规则</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="zh_CN" status="Approved">结束规则</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="zh_CN" status="Approved">有效日期</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="zh_CN" status="Approved">有效性顶层零组件</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="zh_CN" status="Approved">有效性单元编号</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="zh_CN" status="Approved">BOM 索引数据状态</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="zh_CN" status="Approved">上次访问日期</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="zh_CN" status="Approved">上次更新日期</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="zh_CN" status="Approved">事例数</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="zh_CN" status="Approved">产品</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="zh_CN" status="Approved">结构类型</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="zh_CN" status="Approved">订阅者状态</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="zh_CN" status="Approved">订阅者</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="zh_CN" status="Approved">变量规则所有权版本</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="zh_CN" status="Approved">变量规则</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="zh_CN" status="Approved">窗口 UID</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="zh_CN" status="Approved">所有权对象</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="zh_CN" status="Approved">活动的子位置</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="zh_CN" status="Approved">扩展数据是否为紧凑式</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="zh_CN" status="Approved">扩展数据</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="zh_CN" status="Approved">替代关联</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="zh_CN" status="Approved">选定的元素路径</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="zh_CN" status="Approved">应用的布置</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="zh_CN" status="Approved">结束规则</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="zh_CN" status="Approved">配置关联</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="zh_CN" status="Approved">配置数据</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="zh_CN" status="Approved">有效日期</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="zh_CN" status="Approved">立即生效</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="zh_CN" status="Approved">有效单元编号</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="zh_CN" status="Approved">有效性组</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="zh_CN" status="Approved">顶层零组件</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="zh_CN" status="Approved">已设置书签的全局版本规则</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="zh_CN" status="Approved">未保存的修改</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="zh_CN" status="Approved">产品</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="zh_CN" status="Approved">版本规则字符串</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="zh_CN" status="Approved">版本规则</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="zh_CN" status="Approved">已保存的变量规则</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="zh_CN" status="Approved">变量所有权零组件版本</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="zh_CN" status="Approved">视图类型</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="zh_CN" status="Approved">事例列表</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="zh_CN" status="Approved">比较准则</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="zh_CN" status="Approved">比较选项</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="zh_CN" status="Approved">比较密钥</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="zh_CN" status="Approved">深度</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="zh_CN" status="Approved">备选列表</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="zh_CN" status="Approved">发布状态</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="zh_CN" status="Approved">版本有效性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="zh_CN" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="zh_CN" status="Approved">名称</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="zh_CN" status="Approved">描述</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="zh_CN" status="Approved">版本有效性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="zh_CN" status="Approved">版本</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="zh_CN" status="Approved">版本名称</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="zh_CN" status="Approved">发布状态</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="zh_CN" status="Approved">装配指示符</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="zh_CN" status="Approved">元素有效性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="zh_CN" status="Approved">元素有效性 ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="zh_CN" status="Approved">元素是否已滤除？</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="zh_CN" status="Approved">元素净有效性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="zh_CN" status="Approved">元素版本 ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="zh_CN" status="Approved">VOC - 变量事例已配置</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="zh_CN" status="Approved">顶层零组件装配状态</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="zh_CN" status="Approved">表面处理指示符</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="zh_CN" status="Approved">具有活动的批注</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="zh_CN" status="Approved">全局备选件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="zh_CN" status="Approved">元素有效性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="zh_CN" status="Approved">替代件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="zh_CN" status="Approved">变量</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="zh_CN" status="Approved">是事例替代件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="zh_CN" status="Approved">已打包</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="zh_CN" status="Approved">精确</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="zh_CN" status="Approved">为次组件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="zh_CN" status="Approved">是否为变量零组件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="zh_CN" status="Approved">批注属性名称</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="zh_CN" status="Approved">批注属性值</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="zh_CN" status="Approved">操作</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="zh_CN" status="Approved">成熟度</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="zh_CN" status="Approved">需要多次对应</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="zh_CN" status="Approved">净可变性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="zh_CN" status="Approved">打包计数</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="zh_CN" status="Approved">操作</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="zh_CN" status="Approved">定位符</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="zh_CN" status="Approved">主组件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="zh_CN" status="Approved">管理的数量</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="zh_CN" status="Approved">规则配置依据</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="zh_CN" status="Approved">显示替代组件</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="zh_CN" status="Approved">跳过对应</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="zh_CN" status="Approved">替代指示符</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="zh_CN" status="Approved">使用位址</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="zh_CN" status="Approved">变量公式</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="zh_CN" status="Approved">关联中的 ID（顶层）</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="zh_CN" status="Approved">关联中的 ID（所有层级）</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="zh_CN" status="Approved">上次修改日期</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="zh_CN" status="Approved">上次修改用户</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="zh_CN" status="Approved">组 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="zh_CN" status="Approved">所有者</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="zh_CN" status="Approved">发布日期</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="zh_CN" status="Approved">原型</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="zh_CN" status="Approved">限定框</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="zh_CN" status="Approved">痕迹导航上级</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="zh_CN" status="Approved">复制稳定事例 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="zh_CN" status="Approved">复制稳定 ID 路径</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="zh_CN" status="Approved">元素</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="zh_CN" status="Approved">EOC - 有效事例已配置</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="zh_CN" status="Approved">元素 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="zh_CN" status="Approved">元素发布状态</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="zh_CN" status="Approved">替代</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="zh_CN" status="Approved">IP 分类</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="zh_CN" status="Approved">元素是否受抑制？</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="zh_CN" status="Approved">结构是否可修改</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="zh_CN" status="Approved">是疑问</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="zh_CN" status="Approved">转换是否被替代？</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="zh_CN" status="Approved">上次保存的引用集</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="zh_CN" status="Approved">级别</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="zh_CN" status="Approved">名称</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="zh_CN" status="Approved">子项数</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="zh_CN" status="Approved">事例名称</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="zh_CN" status="Approved">事例类型</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="zh_CN" status="Approved">已替代的属性</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="zh_CN" status="Approved">替代关联</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="zh_CN" status="Approved">父项</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="zh_CN" status="Approved">产品关联 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="zh_CN" status="Approved">项目</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="zh_CN" status="Approved">数量</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="zh_CN" status="Approved">相对变换</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="zh_CN" status="Approved">查找编号</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="zh_CN" status="Approved">服务适配器</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="zh_CN" status="Approved">跟踪链接</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="zh_CN" status="Approved">绝对变换</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="zh_CN" status="Approved">类型</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="zh_CN" status="Approved">基础对象</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="zh_CN" status="Approved">度量单位</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="zh_CN" status="Approved">结构审计日志</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="zh_CN" status="Approved">是否可修改</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="zh_CN" status="Approved">元素</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="zh_CN" status="Approved">可用特征</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="zh_CN" status="Approved">不可修改特征</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="zh_CN" status="Approved">显示反射</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="zh_CN" status="Approved">引用指示符</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="zh_CN" status="Approved">坐标系</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="zh_CN" status="Approved">替代件</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="zh_CN" status="Approved">活动的布置</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="zh_CN" status="Approved">备选配置</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="zh_CN" status="Approved">应用的布置</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="zh_CN" status="Approved">自动添加书签</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="zh_CN" status="Approved">BOM 展开规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="zh_CN" status="Approved">客户端范围 URI</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="zh_CN" status="Approved">结束规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="zh_CN" status="Approved">关联对象</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="zh_CN" status="Approved">当前版本规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="zh_CN" status="Approved">已弃用。当前变量规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="zh_CN" status="Approved">已弃用。当前变量规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="zh_CN" status="Approved">有效日期</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="zh_CN" status="Approved">有效性顶层零组件</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="zh_CN" status="Approved">有效性单元编号</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="zh_CN" status="Approved">有效性组</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="zh_CN" status="Approved">终止有效日期</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="zh_CN" status="Approved">终止有效单元</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="zh_CN" status="Approved">过滤器数</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="zh_CN" status="Approved">已过滤的结构配置方式</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="zh_CN" status="Approved">索引更新日期</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="zh_CN" status="Approved">已弃用。请参见支持公告 2412。打包类似元素</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="zh_CN" status="Approved">产品关联信息</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="zh_CN" status="Approved">已弃用。请参见支持公告 2412。显示更改</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="zh_CN" status="Approved">已弃用。请参见支持公告 2412。显示爆炸线</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="zh_CN" status="Approved">已弃用。请参见支持公告 2412。显示批注</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="zh_CN" status="Approved">快照</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="zh_CN" status="Approved">起始有效日期</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="zh_CN" status="Approved">起始有效单元</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="zh_CN" status="Approved">结构配置方式</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="zh_CN" status="Approved">支持的功能部件</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="zh_CN" status="Approved">使用全局版本规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="zh_CN" status="Approved">变量规则所有权版本</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="zh_CN" status="Approved">变量规则</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="zh_CN" status="Approved">视图切换</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="zh_CN" status="Approved">视图类型</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="zh_CN" status="Approved">窗口状态开关</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="zh_CN" status="Approved">容器名称</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="zh_CN" status="Approved">活动产品</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="zh_CN" status="Approved">允许其他人查看</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="zh_CN" status="Approved">允许其他人编辑</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="zh_CN" status="Approved">痕迹导航上级</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="zh_CN" status="Approved">交互会话 CAD 数据</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="zh_CN" status="Approved">结构是否可修改</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="zh_CN" status="Approved">未保存的修改</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="zh_CN" status="Approved">共享等级</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="zh_CN" status="Approved">关联</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="zh_CN" status="Approved">连接端 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="zh_CN" status="Approved">连接端 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="zh_CN" status="Approved">对象类型</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="zh_CN" status="Approved">具有结构</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="zh_CN" status="Approved">BOM 行外观路径节点 UID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="zh_CN" status="Approved">零组件 ID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="zh_CN" status="Approved">版本 ID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="zh_CN" status="Approved">上次修改日期</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="zh_CN" status="Approved">上次修改用户</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="zh_CN" status="Approved">所有权组</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="zh_CN" status="Approved">所有权用户</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="zh_CN" status="Approved">发布状态</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="zh_CN" status="Approved">发布日期</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="zh_CN" status="Approved">连接</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="zh_CN" status="Approved">接口</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="zh_CN" status="Approved">连接端 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="zh_CN" status="Approved">连接端 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="zh_CN" status="Approved">连接到</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="zh_CN" status="Approved">方向</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="zh_CN" status="Approved">子项</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="zh_CN" status="Approved">添加</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="zh_CN" status="Approved">子项</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="zh_CN" status="Approved">次组件</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="zh_CN" status="Approved">同代</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="zh_CN" status="Approved">添加</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="zh_CN" status="Approved">同代</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="zh_CN" status="Approved">添加替代件</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="zh_CN" status="Approved">应用批注</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="zh_CN" status="Approved">根据选择配置</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="zh_CN" status="Approved">取消批注元素</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="zh_CN" status="Approved">取消批注级别</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="zh_CN" status="Approved">比较</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="zh_CN" status="Approved">根据有效覆盖配置</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="zh_CN" status="Approved">编辑有效性</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="zh_CN" status="Approved">插入级别</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="zh_CN" status="Approved">元素</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="zh_CN" status="Approved">打包</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="zh_CN" status="Approved">发布</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="zh_CN" status="Approved">移除元素</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="zh_CN" status="Approved">移除级别</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="zh_CN" status="Approved">移除替代件</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="zh_CN" status="Approved">替换</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="zh_CN" status="Approved">另存为</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="zh_CN" status="Approved">另存为</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="zh_CN" status="Approved">保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="zh_CN" status="Approved">保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="zh_CN" status="Approved">保存工作关联</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="zh_CN" status="Approved">设置关联</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="zh_CN" status="Approved">打开</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="zh_CN" status="Approved">子集</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="zh_CN" status="Approved">切换次组件</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="zh_CN" status="Approved">切换替代件组件</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="zh_CN" status="Approved">解包</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="zh_CN" status="Approved">使用替代件</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="zh_CN" status="Approved">查看元素有效性</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="zh_CN" status="Approved">此条件决定子项是否可以添加到输入元素中。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="zh_CN" status="Approved">决定是否可以在已保存的书签下添加子产品。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="zh_CN" status="Approved">此条件决定次组件是否可以添加到输入元素中。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="zh_CN" status="Approved">此条件决定同代是否可以添加到输入元素中。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="zh_CN" status="Approved">决定是否可以在已保存的书签下添加当前选定产品的同代产品。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="zh_CN" status="Approved">确定是否可以添加替代件</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="zh_CN" status="Approved">“应用批注”命令的客户端侧命令可见性条件。仅当用户有权修改结构时，此命令才应可见。</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="zh_CN" status="Approved">定义条件以当用户在 Active Workspace 客户端中单击“复制”命令时向用户显示 BOM 克隆提示横幅。</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="zh_CN" status="Approved">这将决定“基于选定内容进行配置”命令对于输入元素是否有效。</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="zh_CN" status="Approved">“取消批注”命令的服务器端命令可见性条件。</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="zh_CN" status="Approved">用于“比较”命令的服务器端命令可见性条件。只有当选定对象都是零组件版本类型且都满足最低平台发行版要求后才应使该命令可见。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="zh_CN" status="Approved">用于为多个已保存工作关联对象启用删除命令的条件。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="zh_CN" status="Approved">对已保存工作关联启用删除命令的条件。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="zh_CN" status="Approved">在会话对象关联中隐藏“删除”的命令条件。</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="zh_CN" status="Approved">此条件决定是否可以针对类型为 Awb0Element 的对象编创共享的有效性，对它们进行编辑，将它们添加至元素或从元素中移除。</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="zh_CN" status="Approved">此条件决定“插入级别”命令是否可见。</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="zh_CN" status="Approved">这将决定是否可将“根据有效覆盖配置”命令设为对给定业务对象可见。</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="zh_CN" status="Approved">检查可用于更改关联的结构管理器高级许可证</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="zh_CN" status="Approved">在会话对象关联中隐藏“在 SEEC 中打开”的命令条件。</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="zh_CN" status="Approved">此条件决定是否为选定对象显示“打包”命令。</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="zh_CN" status="Approved">确定“版本有效性”是否可以应用于选定对象</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="zh_CN" status="Approved">此条件决定是否可以从结构中移除元素。</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="zh_CN" status="Approved">此条件决定“移除级别”命令是否可见。</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="zh_CN" status="Approved">确定是否可以移除替代件</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="zh_CN" status="Approved">此条件决定是否可以从结构中替换元素。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="zh_CN" status="Approved">此条件决定是否显示“保存工作关联”。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="zh_CN" status="Approved">此条件决定是否针对产品关联显示“另存为”。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="zh_CN" status="Approved">此条件决定是否针对已保存的书签显示“另存为”。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="zh_CN" status="Approved">此条件决定是否针对产品关联显示“保存”。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="zh_CN" status="Approved">此条件决定是否针对已保存的书签显示“保存”。</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="zh_CN" status="Approved">此条件决定是否为选定对象显示“设置关联”命令。</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="zh_CN" status="Approved">这可确定次组件在选定的 Awb0ConditionalElement 下是否可见</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="zh_CN" status="Approved">这可确定替代件组件在选定的 Awb0ConditionalElement 下是否可见</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="zh_CN" status="Approved">此条件决定是否为选定对象显示“解包”命令。</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="zh_CN" status="Approved">确定是否可以使用替代件</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="zh_CN" status="Approved">此条件决定是否可以针对类型为 Awb0Element 的对象查看所应用的有效性。</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="zh_CN" status="Approved">级别批注提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="zh_CN" status="Approved">批注提供者</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="zh_CN" status="Approved">上次重播日期</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="zh_CN" status="Approved">待处理更改</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="zh_CN" status="Approved">ID 包含于：</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="zh_CN" status="Approved">名称包含于：</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="zh_CN" status="Approved">类型包含于：</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="zh_CN" status="Approved">会话中的产品</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="zh_CN" status="Approved">智能探索索引上次更新</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="zh_CN" status="Approved">已编制索引的智能探索</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="zh_CN" status="Approved">关联产品提供程序</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="zh_CN" status="Approved">关联中已保存的查询 LOV</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="zh_CN" status="Approved">SD 索引器数据提供程序</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="zh_CN" status="Approved">关联中已保存的查询名称</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="zh_CN" status="Approved">已编制索引的源</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="zh_CN" status="Approved">零件元素</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="zh_CN" status="Approved">自制/外购</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="zh_CN" status="Approved">对齐</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="zh_CN" status="Approved">定义“对齐”命令的可见性。它仅可用于设计和零件对象。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

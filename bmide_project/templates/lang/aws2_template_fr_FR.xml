@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="fr_FR" status="Approved">Ajouter une alternative</key>
+           
+        <key id="CommandDisplayName{::}Awp0EnableOpenBaselineCmd" locale="fr_FR" status="Approved">Activer la commande Ouvrir la ligne de base</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="fr_FR" status="Approved">Effectivité</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="fr_FR" status="Approved">Version</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="fr_FR" status="Approved">Supprimer l'alternative</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="fr_FR" status="Approved">Créer un référentiel de révision</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="fr_FR" status="Approved">Détermine si la commande "Ajouter une alternative" doit être ou non visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0EnableOpenBaselineCmdCond" locale="fr_FR" status="Approved">Activer la condition de commande Ouvrir la ligne de base</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="fr_FR" status="Approved">Vérifie si l'effectivité d'expression est prise en charge.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="fr_FR" status="Approved">Détermine si la commande "Effectivité de révision" peut être appliquée à l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="fr_FR" status="Approved">Détermine si la commande "Supprimer l'alternative" doit être ou non visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si la commande Créer un référentiel de révision est prise en charge pour l'objet d'entrée.</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="fr_FR" status="Approved">Objet Système externe de base</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="fr_FR" status="Approved">Critère de requête avancée</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="fr_FR" status="Approved">Entrée de Recherche avancée</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="fr_FR" status="Approved">Fournisseur d'alternatives</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="fr_FR" status="Approved">Filtre de recherche de date</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="fr_FR" status="Approved">Définition de colonne de propriété composée dynamique</key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="fr_FR" status="Approved">Indexeur de recherche de texte intégral</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="fr_FR" status="Approved">Execution de la recherche intégral</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="fr_FR" status="Approved">Favoris</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="fr_FR" status="Approved">Fournisseur de favoris</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="fr_FR" status="Approved">Fournisseur de collection de dossiers</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="fr_FR" status="Approved">Collection de dossiers</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="fr_FR" status="Approved">Recherche par mot-clé</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="fr_FR" status="Approved">Obtenir le fournisseur des enfants</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="fr_FR" status="Approved">Contexte d'ID Liste de valeurs</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="fr_FR" status="Approved">Fournisseur de Boîte de réception</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="fr_FR" status="Approved">Configuration de colonnes utilisée en dernier</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="fr_FR" status="Approved">Configuration de colonnes nommée</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="fr_FR" status="Approved">Filtre de recherche de nombre</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="fr_FR" status="Approved">Fournisseur de Ligne Ensemble d'objets</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="fr_FR" status="Approved">LOV Recherche rapide</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="fr_FR" status="Approved">Fournisseur d'objets récents</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="fr_FR" status="Approved">Fournisseur de références</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="fr_FR" status="Approved">Relations Objet de gestion LOV personnalisé</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="fr_FR" status="Approved">Fournisseur de ressources</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="fr_FR" status="Approved">Liste de valeurs Règle de révision</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="fr_FR" status="Approved">Fournisseur d'Approbations</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="fr_FR" status="Approved">Filtre de recherche de chaîne de caractères</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="fr_FR" status="Approved">Fournisseur de Propriété de la table</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de type</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="fr_FR" status="Approved">Affectation utilisateur</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="fr_FR" status="Approved">Fournisseur VNC</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="fr_FR" status="Approved">Relation de correspondance d'Espace de travail</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="fr_FR" status="Approved">Définition d'espace de travail</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="fr_FR" status="Approved">Colonne Ensemble d'objets</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="fr_FR" status="Approved">Ligne Ensemble d'objets</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="fr_FR" status="Approved">Ensemble d'objets</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="fr_FR" status="Approved">Contexte client</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="fr_FR" status="Approved">Sélection</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="fr_FR" status="Approved">Recherche avancée</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="fr_FR" status="Approved">Echec d'importation de Nomenclature</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="fr_FR" status="Approved">L'importation de Nomenclature a réussi</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="fr_FR" status="Approved">Echec d'importation Excel</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="fr_FR" status="Approved">Importation Excel réussie</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="fr_FR" status="Approved">Commandes de cellules de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="fr_FR" status="Approved">Commandes du menu contextuel de Active Workspace.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="fr_FR" status="Approved">Barre d'outils Globale de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="fr_FR" status="Approved">Commandes diverses de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="fr_FR" status="Approved">Commandes de profil de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="fr_FR" status="Approved">Commandes d'outils de vues de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="fr_FR" status="Approved">Commandes XRT de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="fr_FR" status="Approved">Echec d'importation de Nomenclature</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="fr_FR" status="Approved">L'importation de Nomenclature a réussi</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="fr_FR" status="Approved">Echec d'importation Excel</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="fr_FR" status="Approved">Importation Excel réussie</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="fr_FR" status="Approved">Cellule Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="fr_FR" status="Approved">Menu contextuel de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="fr_FR" status="Approved">Barre d'outils Globale de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="fr_FR" status="Approved">Commandes diverses de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="fr_FR" status="Approved">Commandes de profil de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="fr_FR" status="Approved">Outils de vues</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="fr_FR" status="Approved">XRT Active Workspace</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="fr_FR" status="Approved">Nom de classe d'objet système externe</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="fr_FR" status="Approved">Nom de système externe</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="fr_FR" status="Approved">URI de système externe</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="fr_FR" status="Approved">Liste de noms de propriétés</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="fr_FR" status="Approved">Nom de requête avancée</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="fr_FR" status="Approved">Nom de recherche rapide</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="fr_FR" status="Approved">Date de fin</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="fr_FR" status="Approved">Nom de filtre</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="fr_FR" status="Approved">Date de début</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="fr_FR" status="Approved">Nom affiché de la colonne</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="fr_FR" status="Approved">Chemin de Propriété composée dynamique</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="fr_FR" status="Approved">Type d'objet</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="fr_FR" status="Approved">Nom de propriété</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="fr_FR" status="Approved">Utilisateur d'exécution</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="fr_FR" status="Approved">Dernière heure d'exécution</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="fr_FR" status="Approved">Recherche sauvegardée</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="fr_FR" status="Approved">Diagramme sur</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="fr_FR" status="Approved">Langue de la Recherche sauvegardée</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="fr_FR" status="Approved">Filtres</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="fr_FR" status="Approved">Filtres de date</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="fr_FR" status="Approved">Partager l'affichage</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="fr_FR" status="Approved">Filtres de nombre</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="fr_FR" status="Approved">Critères</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="fr_FR" status="Approved">Filtres de chaîne de caractères</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="fr_FR" status="Approved">Configuration de colonne de référence</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="fr_FR" status="Approved">Auteur de la dernière modification</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="fr_FR" status="Approved">ID de configuration de colonnes</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="fr_FR" status="Approved">Nom de configuration de colonne</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="fr_FR" status="Approved">Est Configuration de colonne Admin</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="fr_FR" status="Approved">Valeur de fin</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="fr_FR" status="Approved">Nom de filtre</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="fr_FR" status="Approved">Valeur de début</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="fr_FR" status="Approved">Nom de filtre</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="fr_FR" status="Approved">Valeur</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="fr_FR" status="Approved">E-mail</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="fr_FR" status="Approved">Date de fin</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="fr_FR" status="Approved">Téléphone</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="fr_FR" status="Approved">Date de début</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="fr_FR" status="Approved">Utilisateur</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="fr_FR" status="Approved">Est Espace de travail par défaut?</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="fr_FR" status="Approved">ID Espace de travail</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="fr_FR" status="Approved">Longueur de tableau</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="fr_FR" status="Approved">Type de données</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="fr_FR" status="Approved">Is Array</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="fr_FR" status="Approved">Is Relation Property</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="fr_FR" status="Approved">Longueur</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="fr_FR" status="Approved">Nom affiché de la propriété</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="fr_FR" status="Approved">Nom de propriété</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="fr_FR" status="Approved">Triable par l'utilisateur</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="fr_FR" status="Approved">Is Cut Allowed</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="fr_FR" status="Approved">Principal</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="fr_FR" status="Approved">Nom de propriété de la référence</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="fr_FR" status="Approved">Nom affiché du type de relation</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="fr_FR" status="Approved">Nom de type de relation</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="fr_FR" status="Approved">Relation</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="fr_FR" status="Approved">Relation</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="fr_FR" status="Approved">Secondaire</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="fr_FR" status="Approved">Cible</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="fr_FR" status="Approved">Est modifiable</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="fr_FR" status="Approved">Colonnes Ensemble d'objets</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="fr_FR" status="Approved">Lignes Ensemble d'objets</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="fr_FR" status="Approved">Nombre total de lignes d'ensemble d'objets</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="fr_FR" status="Approved">Propriétés de cellule de l'objet</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="fr_FR" status="Approved">Ticket FMS Image vignette</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="fr_FR" status="Approved">Objet</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="fr_FR" status="Approved">Comportement Ajouter moi-même des réviseurs</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="fr_FR" status="Approved">Comportement Ajouter moi-même une tâche</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="fr_FR" status="Approved">Is Assignable</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="fr_FR" status="Approved">Is Performable</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="fr_FR" status="Approved">Peut être promu</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="fr_FR" status="Approved">Domaine client</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="fr_FR" status="Approved">Sélection</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="fr_FR" status="Approved">Nom affiché de la colonne</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="fr_FR" status="Approved">Filtres</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="fr_FR" status="Approved">Filtrage Activé?</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="fr_FR" status="Approved">Colonne Gelée?</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="fr_FR" status="Approved">Texte Enroulé?</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="fr_FR" status="Approved">Noms d'options</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="fr_FR" status="Approved">Valeurs de l'option</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="fr_FR" status="Approved">Nom de contexte</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="fr_FR" status="Approved">Sélection du parent</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="fr_FR" status="Approved">Objets sélectionnés</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="fr_FR" status="Approved">A des enfants</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="fr_FR" status="Approved">Est modifiable</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="fr_FR" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="fr_FR" status="Approved">ID d'alias</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="fr_FR" status="Approved">ID alternatif</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="fr_FR" status="Approved">Révision configurée</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="fr_FR" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="fr_FR" status="Approved">Participants obligatoires</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="fr_FR" status="Approved">Participants à afficher</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="fr_FR" status="Approved">ID d'alias</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="fr_FR" status="Approved">ID alternatif</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="fr_FR" status="Approved">Indicateur</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="fr_FR" status="Approved">Type distant</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="fr_FR" status="Approved">Sites distants</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="fr_FR" status="Approved">Date de création</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="fr_FR" status="Approved">Type distant</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="fr_FR" status="Approved">Sites distants</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="fr_FR" status="Approved">Comportement Ajouter moi-même des réviseurs</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="fr_FR" status="Approved">Comportement Ajouter moi-même une tâche</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="fr_FR" status="Approved">Is Assignable</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="fr_FR" status="Approved">Is Performable</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="fr_FR" status="Approved">Peut être promu</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="fr_FR" status="Approved">Spécifications</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="fr_FR" status="Approved">Membres de l'équipe de projet</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="fr_FR" status="Approved">Règle de révision</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="fr_FR" status="Approved">Mes remplaçants</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="fr_FR" status="Approved">Remplaçant pour</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="fr_FR" status="Approved">Créer un référentiel: Terminé</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="fr_FR" status="Approved">Objet proxy de relation</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="fr_FR" status="Approved">Fournisseur de Liens de trace</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="fr_FR" status="Approved">Objet proxy Lien de trace</key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="fr_FR" status="Approved">Matrice de traçabilité</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="fr_FR" status="Approved">Cette option active le processus d'exportation de toutes les pièces jointes de jeux de données dans un fichier Excel zippé.</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="fr_FR" status="Approved">Occurrence -&gt; Occurrence</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="fr_FR" status="Approved">Occurrence -&gt; Révision</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="fr_FR" status="Approved">Révision -&gt; Occurrence</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="fr_FR" status="Approved">Révision -&gt; Révision</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="fr_FR" status="Approved">Inclure les pièces jointes</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="fr_FR" status="Approved">Direction</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="fr_FR" status="Approved">Objet lié</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="fr_FR" status="Approved">Objet de relation</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="fr_FR" status="Approved">Type de lien de trace</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="fr_FR" status="Approved">Objet sélectionné</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="fr_FR" status="Approved">A des enfants</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="fr_FR" status="Approved">Est Lien de trace d'occurrence</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="fr_FR" status="Approved">Type d'article lié</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="fr_FR" status="Approved">Elément cible</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="fr_FR" status="Approved">Ouvrir les informations sur l'objet</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="fr_FR" status="Approved">Parent</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="fr_FR" status="Approved">Type d'objet lié</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="fr_FR" status="Approved">Matrice attachée</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="fr_FR" status="Approved">Commentaires</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="fr_FR" status="Approved">Suspect</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="fr_FR" status="Approved">Créer un lien de trace</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="fr_FR" status="Approved">Editer dans Word</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="fr_FR" status="Approved">Exporter vers Office</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="fr_FR" status="Approved">Commande Comparer le texte</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="fr_FR" status="Approved">Définit la visibilité de la commande "Comparer le texte". Disponible seulement pour des objets Exigence et leurs sous-types.</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="fr_FR" status="Approved">Définit les conditions d'édition d'un objet dans l'application Microsoft Word.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Arm0CreateTraceLink doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="fr_FR" status="Approved">Cette condition masque la commande Remplacer pour les objets de type 'Texte intégral'.</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="fr_FR" status="Approved">LOV Recherche avancée</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="fr_FR" status="Approved">Recherche sauvegardée favorite</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="fr_FR" status="Approved">Dossiers actifs</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="fr_FR" status="Approved">Projets</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="fr_FR" status="Approved">Fournisseur de données de projet</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="fr_FR" status="Approved">Modèles de données de projet</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="fr_FR" status="Approved">Modèle de données de projet</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="fr_FR" status="Approved">Fournisseur de dossiers de projet</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="fr_FR" status="Approved">Dossier de projets</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="fr_FR" status="Approved">Sous-dossier de projet</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="fr_FR" status="Approved">Fournisseur de liste de requêtes sauvegardées</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="fr_FR" status="Approved">Fournisseur de propriétés Solr</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de recherche</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="fr_FR" status="Approved">Règle de partage du dossier actif</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="fr_FR" status="Approved">Dossier actif</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="fr_FR" status="Approved">Catégorie</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="fr_FR" status="Approved">ID de groupe</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="fr_FR" status="Approved">Type</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="fr_FR" status="Approved">Projets</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="fr_FR" status="Approved">Statut de validation</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="fr_FR" status="Approved">Date de création</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="fr_FR" status="Approved">Date de modification</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="fr_FR" status="Approved">Date de validation</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="fr_FR" status="Approved">De base</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="fr_FR" status="Approved">Date</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="fr_FR" status="Approved">Classement</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="fr_FR" status="Approved">Recherche sauvegardée</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="fr_FR" status="Approved">Utilisateur</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="fr_FR" status="Approved">Modèle Est actif</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="fr_FR" status="Approved">A des enfants</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="fr_FR" status="Approved">Est modifiable</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="fr_FR" status="Approved">Description</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="fr_FR" status="Approved">Projet</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="fr_FR" status="Approved">Dossier actif</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="fr_FR" status="Approved">Dossier actif</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="fr_FR" status="Approved">Niveaux d'accès cibles</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="fr_FR" status="Approved">Peut Exécuter la recherche</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="fr_FR" status="Approved">Partagé</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="fr_FR" status="Approved">Règle</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="fr_FR" status="Approved">Définition de dossier actif</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="fr_FR" status="Approved">Type de recherche</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="fr_FR" status="Approved">Données de personnalisation</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="fr_FR" status="Approved">Ajouter un composant</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="fr_FR" status="Approved">Ajouter une signature</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="fr_FR" status="Approved">Ajouter une image du profil</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="fr_FR" status="Approved">Ajouter un projet</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="fr_FR" status="Approved">Ajouter aux Favoris</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="fr_FR" status="Approved">Informations</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="fr_FR" status="Approved">Recherche avancée</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="fr_FR" status="Approved">Masquer</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="fr_FR" status="Approved">Vers le bas</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="fr_FR" status="Approved">Vers le haut</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="fr_FR" status="Approved">Disposer</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="fr_FR" status="Approved">Afficher</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="fr_FR" status="Approved">Affecter des projets (Ancien)</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="fr_FR" status="Approved">Projets</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="fr_FR" status="Approved">Annuler le blocage</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="fr_FR" status="Approved">Annuler les éditions</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="fr_FR" status="Approved">Changer le propriétaire</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="fr_FR" status="Approved">Changer le mot de passe</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="fr_FR" status="Approved">Changer de thème</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="fr_FR" status="Approved">Libérer</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="fr_FR" status="Approved">Bloquer</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="fr_FR" status="Approved">Afficher le filtrage de couleur</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="fr_FR" status="Approved">Disposer</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="fr_FR" status="Approved">Labels</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="fr_FR" status="Approved">Copier</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="fr_FR" status="Approved">Créer un ID alternatif</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="fr_FR" status="Approved">Dossier Accueil</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="fr_FR" status="Approved">Couper</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="fr_FR" status="Approved">Détruire</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="fr_FR" status="Approved">Détruire</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="fr_FR" status="Approved">Détruire la section</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="fr_FR" status="Approved">Détruire</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="fr_FR" status="Approved">Effacer les sélections</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="fr_FR" status="Approved">Détacher la licence</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="fr_FR" status="Approved">Editer Traduction Unique</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="fr_FR" status="Approved">Sauvegarder la recherche</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="fr_FR" status="Approved">Quitter le plein écran</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="fr_FR" status="Approved">Plein écran</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="fr_FR" status="Approved">Recherche de texte intégral (FTS)</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="fr_FR" status="Approved">Accueil</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="fr_FR" status="Approved">Générer le rapport</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="fr_FR" status="Approved">Filtres</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="fr_FR" status="Approved">Annotation</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="fr_FR" status="Approved">Ouvrir dans l'hôte</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="fr_FR" status="Approved">Ouvrir dans l'hôte</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="fr_FR" status="Approved">Annotation</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="fr_FR" status="Approved">Bascules d'affichage</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="fr_FR" status="Approved">Créer Nom Valeur</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="fr_FR" status="Approved">Naviguer</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="fr_FR" status="Approved">Informations</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="fr_FR" status="Approved">Ouvrir dans NX</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="fr_FR" status="Approved">Ouvrir dans un nouvel onglet</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="fr_FR" status="Approved">Ouvrir dans une nouvelle fenêtre</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="fr_FR" status="Approved">Ouvrir dans Office Client</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="fr_FR" status="Approved">Ouvrir dans le Client riche</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="fr_FR" status="Approved">Ouvrir une nouvelle Vue dans l'hôte</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="fr_FR" status="Approved">Ouvrir dans Vis</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="fr_FR" status="Approved">Coller</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="fr_FR" status="Approved">Epingler à Accueil</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="fr_FR" status="Approved">Epingler la recherche</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="fr_FR" status="Approved">Epingler</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="fr_FR" status="Approved">Fonction de commande absente</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="fr_FR" status="Approved">Imprimer</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="fr_FR" status="Approved">Ouvrir dans la vue Imprimer</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="fr_FR" status="Approved">Supprimer des Favoris</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="fr_FR" status="Approved">Supprimer un projet</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="fr_FR" status="Approved">Remplacer le fichier</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="fr_FR" status="Approved">Générer le rapport</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="fr_FR" status="Approved">Sauvegarder les éditions</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="fr_FR" status="Approved">Sauvegarder la recherche</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="fr_FR" status="Approved">Filtres de recherche</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="fr_FR" status="Approved">Rechercher</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="fr_FR" status="Approved">Sélectionner tout</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="fr_FR" status="Approved">Définir ou Effacer le code Emplacement</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="fr_FR" status="Approved">Copier le lien</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="fr_FR" status="Approved">Ajouter à</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="fr_FR" status="Approved">Administration</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="fr_FR" status="Approved">Alertes</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="fr_FR" status="Approved">Créer un document</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="fr_FR" status="Approved">Ajouter</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="fr_FR" status="Approved">Créer un document</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="fr_FR" status="Approved">Mon Dossier Accueil</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="fr_FR" status="Approved">Images</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="fr_FR" status="Approved">Liste</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="fr_FR" status="Approved">Exporter le fichier</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="fr_FR" status="Approved">Ouvrir</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="fr_FR" status="Approved">Rendu</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="fr_FR" status="Approved">Réviser</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="fr_FR" status="Approved">Sauvegarder sous ou réviser</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="fr_FR" status="Approved">Liste avec résumé</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="fr_FR" status="Approved">Tableau avec résumé</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="fr_FR" status="Approved">Tableau</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="fr_FR" status="Approved">Visualisation</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="fr_FR" status="Approved">Se déconnecter</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="fr_FR" status="Approved">Résumé</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="fr_FR" status="Approved">Tableau</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="fr_FR" status="Approved">Commencer l'édition</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="fr_FR" status="Approved">Ne plus épingler à Accueil</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="fr_FR" status="Approved">Débloquer</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="fr_FR" status="Approved">Ne plus épingler la recherche</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="fr_FR" status="Approved">Exporter le fichier</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="fr_FR" status="Approved">Exporter le fichier</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="fr_FR" status="Approved">Afficher</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="fr_FR" status="Approved">Rendre nulle la signature</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'objet utilisateur représente l'utilisateur actuellement connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0AddToFavorites doit être visible</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="fr_FR" status="Approved">Cette condition masque la commande Couper pour les objets de type ID alternatif.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de commande côté serveur pour la commande Affecter des projets. Cette commande doit être visible seulement si l'objet sélectionné est de type Objet d'espace de travail, Jeu de données ou Formulaire. Cette commande ne doit pas être visible si l'objet sélectionné est de type TâcheEPM ou Approbation. Cette commande ne doit pas être visible si la propriété assignable_projects n'est pas définie pour l'utilisateur connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="fr_FR" status="Approved">Condition de visibilité de commande côté serveur pour la commande Affecter des projets. Cette commande doit être visible pour Teamcenter version &gt;= 10.1.5 et &lt;= 11.2.3. Cette commande doit être visible seulement si l'objet sélectionné est de type Objet d'espace de travail, Jeu de données ou Formulaire. Cette commande ne doit pas être visible si l'objet sélectionné est de type TâcheEPM ou Approbation. Cette commande ne doit pas être visible si la propriété assignable_projects n'est pas définie pour l'utilisateur connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si le blocage d'instances d'un certain type d'objet de gestion peut être annulé sur le site actuel.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si le propriétaire des instances d'un type d'objet de gestion donné peut être modifié.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="fr_FR" status="Approved">Détermine si l'objet utilisateur sélectionné représente l'utilisateur actuellement connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si des instances d'un certain type d'objet de gestion peuvent être libérées sur le site actuel.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si des instances d'un certain type d'objet de gestion peuvent être bloquées. Ceci dépend des vérifications suivantes: si le type est blocable; si l'instance est modifiable sur le site actuel. </key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="fr_FR" status="Approved">Cette condition sert à vérifier si l'objet n'est pas vide et n'est pas un type de recherche sauvegardé.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="fr_FR" status="Approved">Visibilité de la commande Créer un ID alternatif</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'objet transmis Fnd0Selection n'est pas vide et si sa propriété de sélection parent n'est pas vide.</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si le type d'objet demandé est autorisé à être détruit.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur a un accès en traduction sur l'objet de gestion sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si une recherche sauvegardée sélectionnée n'est pas vide.</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0InContextReports doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="fr_FR" status="Approved">Cette condition est conçue pour vérifier si la commande est visible dans le cas où l'objet sélectionné est un objet ACE. Le contrôle de l'ACE sera exécuté du côté client.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'instance de l'objet de gestion transmis n'est pas du type "Awp0AWCExternalSystemObject".</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="fr_FR" status="Approved">Vérifie si la commande Awp0PinObject doit être visible. L'exception est les types d'objet Recherches sauvegardées, où elle ne sera pas visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="fr_FR" status="Approved">Vérifie si la commande Awp0PinSearch doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0Print doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0RemoveFromFavorites doit être visible</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si les instances de type d'objet de gestion Jeu de données sont modifiables.</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="fr_FR" status="Approved">Empêche l'affichage de la commande de navigation de la recherche dans la Recherche avancée </key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="fr_FR" status="Approved">Cette condition sert à vérifier la visibilité de la commande Définir ou Effacer le code Emplacement</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si une constante ReviseInput n'est pas vide.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'objet de gestion transmis est une révision d'article ou si la valeur de la constante ReviseInput n'est pas vide.</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="fr_FR" status="Approved">Vérifie si une souscription est possible pour l'objet sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'instance de l'objet de gestion transmis est du type "ReportDefinition".</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="fr_FR" status="Approved">Vérifie si la commande Awp0UnPinObject doit être visible. L'exception est les types d'objet Recherches sauvegardées, où elle ne sera pas visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="fr_FR" status="Approved">Vérifie si la commande Awp0UnPinSearch doit être visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="fr_FR" status="Approved">Vérifie si la commande Awp0ViewFile doit être visible.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="fr_FR" status="Approved">Commandes Ensemble d'objets de Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="fr_FR" status="Approved">Commandes Tableau de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="fr_FR" status="Approved">Ensemble d'objets de Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="fr_FR" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="fr_FR" status="Approved">Description</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="fr_FR" status="Approved">Caché</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="fr_FR" status="Approved">Données JSON</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="fr_FR" status="Approved">ID de données de personnalisation</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="fr_FR" status="Approved">Sous-type de données de personnalisation</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="fr_FR" status="Approved">Type de données de personnalisation</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="fr_FR" status="Approved">Domaine</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="fr_FR" status="Approved">Tuile Passerelle</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="fr_FR" status="Approved">Collection de tuiles</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="fr_FR" status="Approved">Proxy de tuile</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="fr_FR" status="Approved">Modèle-type de tuile</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="fr_FR" status="Approved">Tuile</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="fr_FR" status="Approved">Par défaut</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="fr_FR" status="Approved">Liaison externe</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="fr_FR" status="Approved">Ressource statique</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="fr_FR" status="Approved">Commande</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="fr_FR" status="Approved">Petite</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="fr_FR" status="Approved">Large</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="fr_FR" status="Approved">Grande</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="fr_FR" status="Approved">Emplacements Administration</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="fr_FR" status="Approved">Objets épinglés</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="fr_FR" status="Approved">Emplacements</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="fr_FR" status="Approved">Commandes et Actions</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="fr_FR" status="Approved">Recherches sauvegardées</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="fr_FR" status="Approved">Favoris</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="fr_FR" status="Approved">Principale</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="fr_FR" status="Approved">Liens rapides</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="fr_FR" status="Approved">Groupe Tuile</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="fr_FR" status="Approved">Live</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="fr_FR" status="Approved">Numéro d'ordre</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="fr_FR" status="Approved">Protégé</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="fr_FR" status="Approved">Caché</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="fr_FR" status="Approved">Taille de tuile</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="fr_FR" status="Approved">Collection source</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="fr_FR" status="Approved">Domaine</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="fr_FR" status="Approved">ID de modèle-type de tuile</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="fr_FR" status="Approved">Tuile</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="fr_FR" status="Approved">Type d'action</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="fr_FR" status="Approved">Action</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="fr_FR" status="Approved">Noms de contenu</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="fr_FR" status="Approved">Source d'icône</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="fr_FR" status="Approved">Icône</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="fr_FR" status="Approved">Tailles de tuile prises en charge</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="fr_FR" status="Approved">ID Modèle</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="fr_FR" status="Approved">Index de thème</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="fr_FR" status="Approved">Objet configuré</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="fr_FR" status="Approved">Valeurs de contenu</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="fr_FR" status="Approved">Nom affiché</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="fr_FR" status="Approved">Messages</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="fr_FR" status="Approved">ID d'objet épinglé</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="fr_FR" status="Approved">Objet épinglé</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="fr_FR" status="Approved">Paramètres d'action</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="fr_FR" status="Approved">Style</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="fr_FR" status="Approved">ID Tuile</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="fr_FR" status="Approved">Modèle-type de tuile</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="fr_FR" status="Approved">Fournisseur de vues de tâches de synch de participants dynamiques</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="fr_FR" status="Approved">Fournisseur de liste d'affectation de processus</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="fr_FR" status="Approved">Rôles clés des participants</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="fr_FR" status="Approved">Fournisseur de type de participant</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="fr_FR" status="Approved">Fournisseur de sélecteur de personnes</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="fr_FR" status="Approved">Fournisseur d'arborescence d'historique de processus</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="fr_FR" status="Approved">Informations de ligne d'historique de processus</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de Tâche</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="fr_FR" status="Approved">Fournisseur de rapport de Traitement</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="fr_FR" status="Approved">Objet de gestion Liste de valeurs de modèle-type de Traitement</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="fr_FR" status="Approved">Condition permettant d'évaluer la constante d'objet de gestion Awp0WorkflowSubmittable et de limiter les résultats de la LOV dynamique Awp0WorkflowTemplateLOV.</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="fr_FR" status="Approved">Est A plusieurs valeurs?</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="fr_FR" status="Approved">Mot-clé de Participant Handler</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="fr_FR" status="Approved">Type de rôle clé de participant</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="fr_FR" status="Approved">Rôle clé du participant</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="fr_FR" status="Approved">Enregistrement d'audit</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="fr_FR" status="Approved">Est un Noeud feuille?</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="fr_FR" status="Approved">Enregistrement d'audit parent</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="fr_FR" status="Approved">Personnes accusant réception</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="fr_FR" status="Approved">Personnes notifiées</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="fr_FR" status="Approved">Réviseurs</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="fr_FR" status="Approved">Participants à afficher</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="fr_FR" status="Approved">Participants à afficher</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="fr_FR" status="Approved">Traitement</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="fr_FR" status="Approved">Abandonner la tâche</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="fr_FR" status="Approved">Ajouter</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="fr_FR" status="Approved">Ajouter</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="fr_FR" status="Approved">Ajouter un remplaçant</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="fr_FR" status="Approved">Réserver la tâche de Traitement</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="fr_FR" status="Approved">Soumettre au Traitement</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="fr_FR" status="Approved">Ouvrir Boîte de réception</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="fr_FR" status="Approved">Faire suivre les tâches (Absent du bureau)</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="fr_FR" status="Approved">Achever la tâche</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="fr_FR" status="Approved">Promouvoir la tâche</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="fr_FR" status="Approved">Réaffecter la tâche </key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="fr_FR" status="Approved">Version</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="fr_FR" status="Approved">Supprimer un participant</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="fr_FR" status="Approved">Supprimer le remplaçant</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="fr_FR" status="Approved">Réaffecter des participants</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="fr_FR" status="Approved">Remplacer</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="fr_FR" status="Approved">Remplacer</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="fr_FR" status="Approved">Cette condition détermine si l'utilisateur appartient au rôle 'Administrateur de traitement'.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0AddReviewer doit être visible. Cette condition détermine si la condition  Fnd0AddReviewerPrivilege est évaluée comme vraie ou fausse.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0AddSurrogate doit être visible. Cette condition détermine si l'objet d'utilisateur sélectionné représente l'utilisateur actuellement connecté ou évalue la condition Fnd0ManageSurrogatePrivilege pour l'utilisateur connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0NewWorkflowProcess doit être visible. Cette condition active la commande si les objets de gestion d'entrée sont des duplications et sont bloqués, ou ne sont pas des duplications et ne sont pas bloqués. Définit également la valeur de propriété fnd0CurrentChangeContext comme Null, pour activer la commande. D'autre part, il y a une logique de visibilité supplémentaire côté client pour déterminer les types d'objet pris en charge pour activer la commande en fonction du fournisseur. </key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0OpenInboxLocation doit être visible. Cette condition détermine si l'objet d'utilisateur sélectionné représente l'utilisateur actuellement connecté ou évalue la condition Fnd0AccessInboxPrivilege pour l'utilisateur connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0OutOfOffice doit être visible. Cette condition détermine si l'objet utilisateur sélectionné représente l'utilisateur actuellement connecté.</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0PerformTask doit être visible. Cette condition détermine si l'utilisateur connecté est un utilisateur valable pour exécuter l'objet Tâche EPM ou Approbation sélectionné.</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0PromoteTask doit être visible. Cette condition détermine si l'objet de gestion d'entrée est EPMTask ou Approbation, et active la commande Promouvoir en fonction de la valeur de propriété awp0PromoteableByMeBehavior.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0ReassignTask doit être visible. La condition détermine si la tâche racine de l'objet sélectionné n'est pas terminée et remplit la condition Fnd0AssignTaskPrivilege.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0Release doit être visible. La condition détermine si l'utilisateur connecté est un remplaçant actif de l'objet Tâche EPM ou Approbation.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="fr_FR" status="Approved">La condition vérifie sir la commande Awp0ReplaceMultipleParticipants doit être visible. Cette condition détermine si les objets de gestion d'entrée sont soit des révisions d'article, soit des sous-types de révisions d'article. D'autre part, il y a une logique de visibilité supplémentaire côté client pour déterminer si au minimum deux objets valables sont sélectionnés. </key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande Awp0StandIn doit être ou non visible. La condition active la commande si l'utilisateur connecté est un remplaçant valable et que la valeur de remplaçant actif de l'objet Tâche EPM ou Approbation n'est pas définie.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="fr_FR" status="Approved">Cette condition vérifie si la commande Awp0RemoveSurrogate doit être visible. Cette condition détermine si l'utilisateur connecté dispose de droits pour modifier les utilisateurs remplaçants.</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="fr_FR" status="Approved">La condition vérifie si la commande "Awp0ClaimTask" doit être visible. Cette condition détermine si la condition "Fnd0AssignTaskPrivilege" est évaluée comme vraie ou fausse, mais également si l'utilisateur connecté est membre du pool de ressources pour la tâche EPM ou Approbation.</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="fr_FR" status="Approved">Condition de la commande Annuler la tâche</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="fr_FR" status="Approved">Classifier</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="fr_FR" status="Approved">Condition à vérifier si l'utilisateur actuel peut classer l'objet actif.</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="fr_FR" status="Approved">Fournisseur de données de collaboration</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="fr_FR" status="Approved">Ajouter un composant</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="fr_FR" status="Approved">Ouvrir dans Publication 3D</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="fr_FR" status="Approved">Ouvrir dans Creo</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="fr_FR" status="Approved">Ouvrir dans Solid Edge</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="fr_FR" status="Approved">Ouvrir dans Solid Edge - Illustrator</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="fr_FR" status="Approved">Ouvrir dans Solid Edge Structure Editor</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="fr_FR" status="Approved">Ouvrir dans SolidWorks</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="fr_FR" status="Approved">Ouvrir AutoCAD</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="fr_FR" status="Approved">Ouvrir dans Inventor</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="fr_FR" status="Approved">Ouvrir dans CATIA</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="fr_FR" status="Approved">Ouvrir dans SampleCAD</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="fr_FR" status="Approved">Condition de visibilité côté serveur pour déterminer quand peut être visible la commande Ajouter un composant. Fonctionne en vérifiant les valeurs de préférence pour les types d'ouverture autorisés pour chaque application de CAO. Il y aura également d'autres conditions de visibilité associées côté client, par exemple pour déterminer si Active Workspace est en cours d'exécution en mode hébergé, avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Publication 3D". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application Publication 3D. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Creo". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application Creo. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Solid Edge". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application Solid Edge. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Solid Edge - Illustrator". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application Solid Edge - Illustrator. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Solid Edge Structure Editor". Vérifie les valeurs de préférence pour les types d'ouvertures prises en charge pour l'application Solid Edge Structure Editor. Des conditions supplémentaires de visibilité côté client sont associées (par exemple, pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans SolidWorks". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application SolidWorks. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans AutoCAD". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application AutoCAD. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans Inventor". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application Inventor. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans CATIA". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application CATIA. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="fr_FR" status="Approved">Détermine la visibilité de la commande "Ouvrir dans SampleCAD". Vérifie les valeurs de préférence pour les types dont l'ouverture est prise en charge pour l'application SampleCAD. Des conditions supplémentaires de visibilité côté client sont associées (par exemple pour déterminer si Active Workspace est en cours d'exécution dans le mode hébergé) avant de rendre la commande visible.</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="fr_FR" status="Approved">Fournisseur de données de calendrier</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="fr_FR" status="Approved">Fournisseur d'arborescence d'organisation</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="fr_FR" status="Approved">Fournisseur de tâches</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

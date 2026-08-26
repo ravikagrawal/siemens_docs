@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:12 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc10000.0.0" description="library mesinteg" isThirdParty="false" name="mesinteg" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcClass className="Mei0ExecutionPlan" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="MECollaborationContext">
+                 
+            <TcAttribute attributeName="mei0orderId" attributeType="POM_string" description="Mei0orderId is a string property used to store identifier of an order which corresponds to the order present in the manufacturing execution system.It is set manually by manufacturing process planner. This property is used to search for order specific information in Teamcenter." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="128" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <TcClass className="Mei0ExecutionPlanAI" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="AppInterface"/>
+           
+        <TcClass className="Mei0ProductionPlan" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="MECollaborationContext"/>
+           
+        <TcClass className="Mei0RelUpdToMesInfoRel" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcClass className="Mei0RelUpdToMesInfoStorage" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="POM_object">
+                 
+            <TcAttribute attributeName="mei0Description" attributeType="POM_long_string" description="This property is for the user to fill in some description regarding the delta release process. It contains information about delta package." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="0" noBackpointer="false" upperBoundValue=""/>
+                 
+            <TcAttribute attributeName="mei0Impact" attributeType="POM_string" description="This property is related to delta package. Impact level of delta to be specified by the user." exportAsString="false" followOnExport="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="true" isTransient="false" isUnique="false" lowerBoundValue="" maxStringLength="32" noBackpointer="false" upperBoundValue=""/>
+               
+        </TcClass>
+           
+        <TcClass className="Mei0WIMESRepresentation" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="Dataset"/>
+           
+        <TcClass className="Mei0WIMESRepresentationRel" description="" isExportable="true" isUninheritable="false" isUninstantiable="false" parentClassName="ImanRelation"/>
+           
+        <TcAttributeAttach className="MEOPRevision">
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0AltFormIds" attributeType="POM_string" description="Mei0AltFormIds are multi-value properties to store the ALT form IDs. ALT form IDs are created in Siemens SIMATIC IT MES (Manufacturing Execution System) application." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="128" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToCompleteOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to complete an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToPauseOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to pause an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToStartOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to start an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0SignOffRequired" attributeType="POM_logical" description="Property to determine whether role based sign-off required on the work that was performed" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0SignOffRole" attributeType="POM_string" description="The manufacturing execution role that can sign-off the work that was performed" exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="256" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0SkillCertName" attributeType="POM_string" description="Property to determine qualifications to specify the skills, certificates, training, or other aspects needed to perform the work" exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="256" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0SkillCertRequired" attributeType="POM_logical" description="Property to determine whether skill certificate is required to execute this operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+               
+        </TcAttributeAttach>
+           
+        <TcAttributeAttach className="Mfg0MECompOPRevision">
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0AltFormIds" attributeType="POM_string" description="Mei0AltFormIds are multi-value properties to store the ALT form IDs. ALT form IDs are created in Siemens SIMATIC IT MES (Manufacturing Execution System) application." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="128" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToCompleteOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to complete an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToPauseOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to pause an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0ESignToStartOp" attributeType="POM_logical" description="Property to determine whether operator electronic signature required to start an operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0SignOffRequired" attributeType="POM_logical" description="Property to determine whether role based sign-off required on the work that was performed" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0SignOffRole" attributeType="POM_string" description="The manufacturing execution role that can sign-off the work that was performed" exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="256" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="mei0SkillCertName" attributeType="POM_string" description="Property to determine qualifications to specify the skills, certificates, training, or other aspects needed to perform the work" exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="256" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="mei0SkillCertRequired" attributeType="POM_logical" description="Property to determine whether skill certificate is required for this Compound Operation" exportAsString="false" followOnExport="false" initialValue="false" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="true" isPublicWrite="true" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+               
+        </TcAttributeAttach>
+           
+        <OperationInputType artifactName="Mei0ExecutionPlanAICreI" description="CreateInput object for &quot;Mei0ExecutionPlanAI&quot; business object" isAbstract="false" parentTypeName="AppInterfaceCreI" typeClassName="Mei0ExecutionPlanAICreI" typeName="Mei0ExecutionPlanAICreI"/>
+           
+        <OperationInputType artifactName="Mei0ExecutionPlanAISvAI" description="SaveAsInput object for &quot;Mei0ExecutionPlanAI&quot; business object" isAbstract="false" parentTypeName="AppInterfaceSvAI" typeClassName="Mei0ExecutionPlanAISvAI" typeName="Mei0ExecutionPlanAISvAI"/>
+           
+        <OperationInputType artifactName="Mei0ExecutionPlanCreI" description="CreateInput object for &quot;Mei0ExecutionPlan&quot; business object" isAbstract="false" parentTypeName="MECollaborationContextCreI" typeClassName="Mei0ExecutionPlanCreI" typeName="Mei0ExecutionPlanCreI">
+                 
+            <OperationInputProperty compoundObjectConstant="" compoundObjectType="" description="" fieldType="SimpleProperty" propName="mei0orderId" srcPropName=""/>
+               
+        </OperationInputType>
+           
+        <OperationInputType artifactName="Mei0ExecutionPlanSvAI" description="SaveAsInput object for &quot;Mei0ExecutionPlan&quot; business object" isAbstract="false" parentTypeName="MECollaborationContextSvAI" typeClassName="Mei0ExecutionPlanSvAI" typeName="Mei0ExecutionPlanSvAI"/>
+           
+        <OperationInputType artifactName="Mei0ProductionPlanCreI" description="CreateInput object for &quot;Mei0ProductionPlan&quot; business object" isAbstract="false" parentTypeName="MECollaborationContextCreI" typeClassName="Mei0ProductionPlanCreI" typeName="Mei0ProductionPlanCreI"/>
+           
+        <OperationInputType artifactName="Mei0ProductionPlanSvAI" description="SaveAsInput object for &quot;Mei0ProductionPlan&quot; business object" isAbstract="false" parentTypeName="MECollaborationContextSvAI" typeClassName="Mei0ProductionPlanSvAI" typeName="Mei0ProductionPlanSvAI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoCreI" description="CreateInput object for &quot;Mei0RelUpdToMesInfo&quot; business object" isAbstract="false" parentTypeName="FormCreI" typeClassName="Mei0RelUpdToMesInfoCreI" typeName="Mei0RelUpdToMesInfoCreI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoRelCreI" description="CreateInput object for &quot;Mei0RelUpdToMesInfoRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Mei0RelUpdToMesInfoRelCreI" typeName="Mei0RelUpdToMesInfoRelCreI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoRelSvAI" description="SaveAsInput object for &quot;Mei0RelUpdToMesInfoRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Mei0RelUpdToMesInfoRelSvAI" typeName="Mei0RelUpdToMesInfoRelSvAI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoStorageCreI" description="CreateInput object for &quot;Mei0RelUpdToMesInfoStorage&quot; business object" isAbstract="false" parentTypeName="POM_objectCreI" typeClassName="Mei0RelUpdToMesInfoStorageCreI" typeName="Mei0RelUpdToMesInfoStorageCreI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoStorageSvAI" description="SaveAsInput object for &quot;Mei0RelUpdToMesInfoStorage&quot; business object" isAbstract="false" parentTypeName="POM_objectSvAI" typeClassName="Mei0RelUpdToMesInfoStorageSvAI" typeName="Mei0RelUpdToMesInfoStorageSvAI"/>
+           
+        <OperationInputType artifactName="Mei0RelUpdToMesInfoSvAI" description="SaveAsInput object for &quot;Mei0RelUpdToMesInfo&quot; business object" isAbstract="false" parentTypeName="FormSvAI" typeClassName="Mei0RelUpdToMesInfoSvAI" typeName="Mei0RelUpdToMesInfoSvAI"/>
+           
+        <OperationInputType artifactName="Mei0StructureContextRelCreI" description="CreateInput object for &quot;Mei0StructureContextRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Mei0StructureContextRelCreI" typeName="Mei0StructureContextRelCreI"/>
+           
+        <OperationInputType artifactName="Mei0StructureContextRelSvAI" description="SaveAsInput object for &quot;Mei0StructureContextRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Mei0StructureContextRelSvAI" typeName="Mei0StructureContextRelSvAI"/>
+           
+        <OperationInputType artifactName="Mei0WIMESRepresentationCreI" description="CreateInput object for &quot;Mei0WIMESRepresentation&quot; business object" isAbstract="false" parentTypeName="DatasetCreI" typeClassName="Mei0WIMESRepresentationCreI" typeName="Mei0WIMESRepresentationCreI"/>
+           
+        <OperationInputType artifactName="Mei0WIMESRepresentationRelCreI" description="CreateInput object for &quot;Mei0WIMESRepresentationRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationCreI" typeClassName="Mei0WIMESRepresentationRelCreI" typeName="Mei0WIMESRepresentationRelCreI"/>
+           
+        <OperationInputType artifactName="Mei0WIMESRepresentationRelSvAI" description="SaveAsInput object for &quot;Mei0WIMESRepresentationRel&quot; business object" isAbstract="false" parentTypeName="ImanRelationSvAI" typeClassName="Mei0WIMESRepresentationRelSvAI" typeName="Mei0WIMESRepresentationRelSvAI"/>
+           
+        <OperationInputType artifactName="Mei0WIMESRepresentationSvAI" description="SaveAsInput object for &quot;Mei0WIMESRepresentation&quot; business object" isAbstract="false" parentTypeName="DatasetSvAI" typeClassName="Mei0WIMESRepresentationSvAI" typeName="Mei0WIMESRepresentationSvAI"/>
+           
+        <TcAppInterface artifactName="Mei0ExecutionPlanAI" description="Execution Plan Application Interface is a persistent workspace object that is the repository for the export transactions from Teamcenter to the Manufacturing Execution System (MES) application.It contains multiple work packages to be transferred to the MES." exportTransferMode="MESExport" functionality="Mei0SoaMESInteg" importTransferMode="MESImport" isAbstract="false" isICRequired="true" parentTypeName="AppInterface" typeClassName="Mei0ExecutionPlanAI" typeName="Mei0ExecutionPlanAI"/>
+           
+        <TcDataset artifactName="Mei0WIMESRepresentation" description="Mei0WIMESRepresentation is a dataset type used to hold the Work Instruction documents for the dispatcher request in the Manufacturing Execution System Integration.The work instructions are included as attachments when releasing the data to the MES and can be made available for viewing in the MES." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="Dataset" typeClassName="Mei0WIMESRepresentation" typeName="Mei0WIMESRepresentation">
+                 
+            <TcDSViewTool name="NoOp"/>
+                 
+            <TcDSEditTool name="NoOp"/>
+                 
+            <TcDatasetReference name="Mei0MHT">
+                       
+                <TcDatasetReferenceInfo format="TEXT" template="*.mht"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Mei0Docm">
+                       
+                <TcDatasetReferenceInfo format="BINARY" template="*.docm"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetReference name="Mei0Docx">
+                       
+                <TcDatasetReferenceInfo format="BINARY" template="*.docx"/>
+                     
+            </TcDatasetReference>
+                 
+            <TcDatasetToolAction action="Open" tool="NoOp">
+                       
+                <TcToolActionReference export="true" referenceName="Mei0MHT"/>
+                       
+                <TcToolActionReference export="true" referenceName="Mei0Docm"/>
+                       
+                <TcToolActionReference export="true" referenceName="Mei0Docx"/>
+                       
+                <TcToolParameter name="$Mei0MHT"/>
+                       
+                <TcToolParameter name="$Mei0Docm"/>
+                       
+                <TcToolParameter name="$Mei0Docx"/>
+                     
+            </TcDatasetToolAction>
+                 
+            <TcDatasetToolAction action="OpenUsing" tool="NoOp">
+                       
+                <TcToolActionReference export="true" referenceName="Mei0MHT"/>
+                       
+                <TcToolActionReference export="true" referenceName="Mei0Docm"/>
+                       
+                <TcToolActionReference export="true" referenceName="Mei0Docx"/>
+                       
+                <TcToolParameter name="$Mei0MHT"/>
+                       
+                <TcToolParameter name="$Mei0Docm"/>
+                       
+                <TcToolParameter name="$Mei0Docx"/>
+                     
+            </TcDatasetToolAction>
+               
+        </TcDataset>
+           
+        <TcForm artifactName="Mei0RelUpdToMesInfo" description="The business object Mei0RelUpdToMesInfo is a Form object. Place holder to tell MES the nature of delta package being exported.This refers to the additional information related to the release. When releasing an execution plan to the MES, a full release is performed first time and then release only delta changes as updates based on their release status, are sent to the Manufacturing Execution System (MES)." formStorageClassName="Mei0RelUpdToMesInfoStorage" functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="Form" typeClassName="Form" typeName="Mei0RelUpdToMesInfo"/>
+           
+        <TcStandardType artifactName="Mei0ExecutionPlan" description="Mei0ExecutionPlan is used to configure an execution Bill of Process to Manufacturing Execution System based on Collaboration Context object." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="MECollaborationContext" typeClassName="Mei0ExecutionPlan" typeName="Mei0ExecutionPlan"/>
+           
+        <TcStandardType artifactName="Mei0ProductionPlan" description="The business object Mei0ProductionPlan is used to configure a Bill of Process to production system. This configuration is based on Collaboration Context object.Production plan is a dedicated collaboration context of type production plan. The production plan consists of a process structure context containing bill of process.  It is the amount of work sent to the production system as package." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="MECollaborationContext" typeClassName="Mei0ProductionPlan" typeName="Mei0ProductionPlan"/>
+           
+        <TcStandardType artifactName="Mei0RelUpdToMesInfoRel" description="The business object Mei0RelUpdToMesInfoRel represents the relation to attach the delta information form of type Mei0RelUpdToMesInfo to the request object of the Application Interface.This contains the additional release related information which is not present in the request object plmxml." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Mei0RelUpdToMesInfoRel" typeName="Mei0RelUpdToMesInfoRel"/>
+           
+        <TcStandardType artifactName="Mei0RelUpdToMesInfoStorage" description="Form Storage object for &quot;Mei0RelUpdToMesInfo&quot; business object" isAbstract="false" parentTypeName="POM_object" typeClassName="Mei0RelUpdToMesInfoStorage" typeName="Mei0RelUpdToMesInfoStorage"/>
+           
+        <TcStandardType artifactName="Mei0StructureContextRel" description="Mei0StructureContextRel  is used for attaching VisStructureContext to Request Object.Request Object is primaryVisStructureContext is secondary with 1:1 cardinality.&#10;VisStructureContext holds the bill of process structure along with configuration." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="ImanRelation" typeClassName="ImanRelation" typeName="Mei0StructureContextRel"/>
+           
+        <TcStandardType artifactName="Mei0WIMESRepresentationRel" description="Mei0WIMESRepresentationRel represents the relationship between operation/step and work instruction document dataset. Textual work instructions in Teamcenter can be associated with an operation/ step in the execution plan.The work instructions are included as attachments when releasing the data to the MES and can be made available for viewing in the MES." functionality="Mei0SoaMESInteg" isAbstract="false" parentTypeName="ImanRelation" typeClassName="Mei0WIMESRepresentationRel" typeName="Mei0WIMESRepresentationRel"/>
+           
+        <TcPropertyAttach typeName="RequestObject">
+                 
+            <TcProperty arrayLength="-1" description="Relationship between Request Object and Form of type Mei0RelUpdToMesInfo where form is the secondary object. It consists of additional information which the Manufacturing Execution System (MES) can process for delta export." isArray="true" propMaxStringLength="0" propName="Mei0RelUpdToMesInfoRel" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="RequestObject">
+                 
+            <TcProperty arrayLength="-1" description="Relationship between Request Object and VisStructureContext where VisStructureContext is the secondary object." isArray="true" propMaxStringLength="0" propName="Mei0StructureContextRel" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="MEOPRevision">
+                 
+            <TcProperty arrayLength="-1" description="Mei0WIMESRepresentationRel is Work Instruction Manufacturing Execution System Representation Relation.It is a relation for attaching the dataset with the process/operation revision." isArray="true" propMaxStringLength="0" propName="Mei0WIMESRepresentationRel" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="MEProcessRevision">
+                 
+            <TcProperty arrayLength="-1" description="Mei0WIMESRepresentationRel is Work Instruction Manufacturing Execution System Representation Relation.It is a relation for attaching the dataset with the process/operation revision." isArray="true" propMaxStringLength="0" propName="Mei0WIMESRepresentationRel" propTypeName="Relation" propValueType="PROP_untyped_relation" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0ExecutionPlan" value="Mei0ExecutionPlanCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0ExecutionPlanAI" value="Mei0ExecutionPlanAICreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0ProductionPlan" value="Mei0ProductionPlanCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0RelUpdToMesInfo" value="Mei0RelUpdToMesInfoCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0RelUpdToMesInfoRel" value="Mei0RelUpdToMesInfoRelCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0RelUpdToMesInfoStorage" value="Mei0RelUpdToMesInfoStorageCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0StructureContextRel" value="Mei0StructureContextRelCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0WIMESRepresentation" value="Mei0WIMESRepresentationCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Mei0WIMESRepresentationRel" value="Mei0WIMESRepresentationRelCreI"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0ExecutionPlan" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0ExecutionPlanAI" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0ProductionPlan" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0RelUpdToMesInfo" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0RelUpdToMesInfoStorage" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0IsSystemData" typeName="Mei0WIMESRepresentation" value="true"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0ExecutionPlan" value="Mei0ExecutionPlanSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0ExecutionPlanAI" value="Mei0ExecutionPlanAISvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0ProductionPlan" value="Mei0ProductionPlanSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0RelUpdToMesInfo" value="Mei0RelUpdToMesInfoSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0RelUpdToMesInfoRel" value="Mei0RelUpdToMesInfoRelSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0RelUpdToMesInfoStorage" value="Mei0RelUpdToMesInfoStorageSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0StructureContextRel" value="Mei0StructureContextRelSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0WIMESRepresentation" value="Mei0WIMESRepresentationSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Mei0WIMESRepresentationRel" value="Mei0WIMESRepresentationRelSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0Description" typeName="Mei0RelUpdToMesInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0Impact" typeName="Mei0RelUpdToMesInfo" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0AltFormIds" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToCompleteOp" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToPauseOp" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToStartOp" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRequired" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRole" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertName" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertRequired" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="Mei0WIMESRepresentationRel" typeName="MEOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="Mei0WIMESRepresentationRel" typeName="MEProcessRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToCompleteOp" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToPauseOp" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToStartOp" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRequired" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRole" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertName" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertRequired" typeName="Mfg0BvrCompOP" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToCompleteOp" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToPauseOp" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToStartOp" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRequired" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRole" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertName" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertRequired" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0AltFormIds" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToCompleteOp" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToPauseOp" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ESignToStartOp" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRequired" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SignOffRole" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertName" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0SkillCertRequired" typeName="Mfg0MECompOPRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="Mei0RelUpdToMesInfoRel" typeName="RequestObject" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="Mei0StructureContextRel" typeName="RequestObject" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0orderId" typeName="Mei0ExecutionPlan" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0Description" typeName="Mei0RelUpdToMesInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0Impact" typeName="Mei0RelUpdToMesInfo" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0AltFormIds" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToCompleteOp" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToPauseOp" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToStartOp" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRequired" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRole" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertName" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertRequired" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="Mei0WIMESRepresentationRel" typeName="MEOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="Mei0WIMESRepresentationRel" typeName="MEProcessRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToCompleteOp" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToPauseOp" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToStartOp" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRequired" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRole" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertName" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertRequired" typeName="Mfg0BvrCompOP" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToCompleteOp" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToPauseOp" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToStartOp" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRequired" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRole" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertName" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertRequired" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0AltFormIds" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToCompleteOp" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToPauseOp" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ESignToStartOp" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRequired" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SignOffRole" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertName" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0SkillCertRequired" typeName="Mfg0MECompOPRevision" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="Mei0RelUpdToMesInfoRel" typeName="RequestObject" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="Mei0StructureContextRel" typeName="RequestObject" value="Write"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to complete an operation" destPropertyName="mei0ESignToCompleteOp" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0ESignToCompleteOp" sourcePropertyName="mei0ESignToCompleteOp" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to pause an operation" destPropertyName="mei0ESignToPauseOp" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0ESignToPauseOp" sourcePropertyName="mei0ESignToPauseOp" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to start an operation" destPropertyName="mei0ESignToStartOp" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0ESignToStartOp" sourcePropertyName="mei0ESignToStartOp" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether role based sign-off required on the work that was performed" destPropertyName="mei0SignOffRequired" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0SignOffRequired" sourcePropertyName="mei0SignOffRequired" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="The manufacturing execution role that can sign-off the work that was performed" destPropertyName="mei0SignOffRole" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0SignOffRole" sourcePropertyName="mei0SignOffRole" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine qualifications to specify the skills, certificates, training, or other aspects needed to perform the work" destPropertyName="mei0SkillCertName" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0SkillCertName" sourcePropertyName="mei0SkillCertName" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Skill Certificate Required" destPropertyName="mei0SkillCertRequired" destTypeName="Mfg0BvrCompOP" isReadOnly="true" pathToSource="REF(bl_revision,Mfg0MECompOPRevision).mei0SkillCertRequired" sourcePropertyName="mei0SkillCertRequired" sourceTypeName="Mfg0MECompOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to complete an operation" destPropertyName="mei0ESignToCompleteOp" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0ESignToCompleteOp" sourcePropertyName="mei0ESignToCompleteOp" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to pause an operation" destPropertyName="mei0ESignToPauseOp" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0ESignToPauseOp" sourcePropertyName="mei0ESignToPauseOp" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether operator electronic signature required to start an operation" destPropertyName="mei0ESignToStartOp" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0ESignToStartOp" sourcePropertyName="mei0ESignToStartOp" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether role based sign-off required on the work that was performed" destPropertyName="mei0SignOffRequired" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0SignOffRequired" sourcePropertyName="mei0SignOffRequired" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="The manufacturing execution role that can sign-off the work that was performed" destPropertyName="mei0SignOffRole" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0SignOffRole" sourcePropertyName="mei0SignOffRole" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine qualifications to specify the skills, certificates, training, or other aspects needed to perform the work" destPropertyName="mei0SkillCertName" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0SkillCertName" sourcePropertyName="mei0SkillCertName" sourceTypeName="MEOPRevision"/>
+           
+        <TcCompoundPropertyRule description="Property to determine whether skill certificate is required for this Operation" destPropertyName="mei0SkillCertRequired" destTypeName="Mfg0BvrOperation" isReadOnly="true" pathToSource="REF(bl_revision,MEOPRevision).mei0SkillCertRequired" sourcePropertyName="mei0SkillCertRequired" sourceTypeName="MEOPRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="true" isTargetPrimary="true" objectTypeName="Mei0WIMESRepresentation" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="Mei0WIMESRepresentationRel" secured="true" typeName="MEOPRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="true" isTargetPrimary="true" objectTypeName="Mei0WIMESRepresentation" operationName="ITEM_copy_rev" propertyType="Relation" relRefPropName="Mei0WIMESRepresentationRel" secured="true" typeName="MEProcessRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="true" isTargetPrimary="true" objectTypeName="Mei0WIMESRepresentation" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Mei0WIMESRepresentationRel" secured="true" typeName="MEOPRevision"/>
+           
+        <TcDeepCopyRule conditionName="isTrue" copyRelationAttributes="true" copyType="NoCopy" description="" isRequired="false" isTargetPrimary="true" objectTypeName="Mei0WIMESRepresentation" operationName="ITEM_create_from_rev" propertyType="Relation" relRefPropName="Mei0WIMESRepresentationRel" secured="true" typeName="MEProcessRevision"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="MEOPRevision" relationTypeName="Mei0WIMESRepresentationRel" secondaryCardinality="1" secondaryTypeName="Mei0WIMESRepresentation" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="MEProcessRevision" relationTypeName="Mei0WIMESRepresentationRel" secondaryCardinality="1" secondaryTypeName="Mei0WIMESRepresentation" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="0" primaryTypeName="POM_object" relationTypeName="*" secondaryCardinality="0" secondaryTypeName="Mei0WIMESRepresentation" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="0" primaryTypeName="POM_object" relationTypeName="Mei0RelUpdToMesInfoRel" secondaryCardinality="0" secondaryTypeName="POM_object" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="0" primaryTypeName="POM_object" relationTypeName="Mei0StructureContextRel" secondaryCardinality="0" secondaryTypeName="POM_object" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="0" primaryTypeName="POM_object" relationTypeName="Mei0WIMESRepresentationRel" secondaryCardinality="0" secondaryTypeName="POM_object" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="RequestObject" relationTypeName="Mei0RelUpdToMesInfoRel" secondaryCardinality="1" secondaryTypeName="Mei0RelUpdToMesInfo" secured="false"/>
+           
+        <TcGRMRule attachability="Unrestricted" changeability="Changeable" conditionName="isTrue" description="" detachability="Unrestricted" primaryCardinality="1" primaryTypeName="RequestObject" relationTypeName="Mei0StructureContextRel" secondaryCardinality="1" secondaryTypeName="StructureContext" secured="false"/>
+           
+        <TcLOV description="The manufacturing execution role that can sign-off the work that was performed." lovType="ListOfValuesString" name="Mei0MESSignOffRoles" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="Inspector" value="Inspector"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Certification Engineer" value="Certification Engineer"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Quality Engineer" value="Quality Engineer"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Stamp Authority" value="Stamp Authority"/>
+               
+        </TcLOV>
+           
+        <TcLOV description="Provides a list of allowable values for skill certificate names. It is used by manufacturing operation business objects when a skill certificate is required. Customers are expected to populate values appropriate to their business needs." lovType="ListOfValuesString" name="Mei0SkillCertificates" usage="Exhaustive"/>
+           
+        <TcLOV description="The impact of the update change" lovType="ListOfValuesString" name="Mei0UpdateToMesImpact" usage="Exhaustive">
+                 
+            <TcLOVValue conditionName="isTrue" description="High Impact" value="High"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Medium Impact" value="Medium"/>
+                 
+            <TcLOVValue conditionName="isTrue" description="Low Impact" value="Low"/>
+               
+        </TcLOV>
+           
+        <TcLOVAttach lovName="Mei0MESSignOffRoles" typeName="MEOPRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="mei0SignOffRole"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Mei0MESSignOffRoles" typeName="Mfg0MECompOPRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="mei0SignOffRole"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Mei0SkillCertificates" typeName="MEOPRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="mei0SkillCertName"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Mei0SkillCertificates" typeName="Mfg0MECompOPRevision">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="mei0SkillCertName"/>
+               
+        </TcLOVAttach>
+           
+        <TcLOVAttach lovName="Mei0UpdateToMesImpact" typeName="Mei0RelUpdToMesInfo">
+                 
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="mei0Impact"/>
+               
+        </TcLOVAttach>
+           
+        <TcStatus description="This new status will be added to the cmtmesinteg template in order to mark the working revisions as locked for editing and to enable the addition of revision effectivity to the revision" statusName="Mei0PendingRelease"/>
+           
+        <TcStatus description="This new status will be added to the cmtmesinteg template in order to mark the released revisions as locked for editing and to enable the addition of revision effectivity to the revision." statusName="Mei0Released"/>
+           
+        <TcStatus description="This new status will be added to the cmtmesinteg template in order to mark the working revisions and to enable the addition of revision effectivity to the revision in order to ascribe the revision to a specific order or to a master plan." statusName="Mei0WorkInProgress"/>
+           
+        <EventType description="Delta Candidates Transfer Event Invocation" id="Mei0DeltaCandidates"/>
+           
+        <EventType description="Export and Release Event Invocation" id="Mei0ExportAndRelease"/>
+           
+        <EventType description="MES Work Instruction .mht file Generation Command Invocation" id="Mei0GenerateMESWIRep"/>
+           
+        <EventType description="Modify Scope Command Invocation" id="Mei0ModifyScope"/>
+           
+        <EventType description="Property Update Command Invocation" id="Mei0PropertyUpdate"/>
+           
+        <EventType description="Event for Release to Execution Command Invocation" id="Mei0ReleasetoExecution"/>
+           
+        <EventType description="Event for Release to Production Command Invocation" id="Mei0ReleasetoProduction"/>
+           
+        <EventType description="Validation Command Invocation" id="Mei0Validation"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="ItemRevision to Mei0DeltaCandidates Event Mapping" eventType="Mei0DeltaCandidates" objectType="ItemRevision" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="ItemRevision to Mei0ExportAndRelease Event Mapping" eventType="Mei0ExportAndRelease" objectType="ItemRevision" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="ItemRevision to Mei0GenerateMESWIRep Event Mapping" eventType="Mei0GenerateMESWIRep" objectType="ItemRevision" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="ItemRevision to Mei0ModifyScope Event Mapping" eventType="Mei0ModifyScope" objectType="ItemRevision" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="ItemRevision to Mei0Validation Event Mapping" eventType="Mei0Validation" objectType="ItemRevision" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="Mei0ExecutionPlan to Mei0DeltaCandidates Event Mapping" eventType="Mei0DeltaCandidates" objectType="Mei0ExecutionPlan" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="Mei0ExecutionPlan to Mei0PropertyUpdate Event Mapping" eventType="Mei0PropertyUpdate" objectType="Mei0ExecutionPlan" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="MeiExecutionPlan to Mei0ReleasetoExecution Event Mapping" eventType="Mei0ReleasetoExecution" objectType="Mei0ExecutionPlan" secAuditType="Fnd0SecondaryAudit" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="Mei0ExecutionPlan to Mei0Validation Event Mapping" eventType="Mei0Validation" objectType="Mei0ExecutionPlan" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="Mei0ProductionPlan to Mei0ReleasetoProduction Event Mapping" eventType="Mei0ReleasetoProduction" objectType="Mei0ProductionPlan" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="RequestObject to Mei0ExportAndRelease Event Mapping" eventType="Mei0ExportAndRelease" objectType="RequestObject" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="RequestObject to Mei0GenerateMESWIRep Event Mapping" eventType="Mei0GenerateMESWIRep" objectType="RequestObject" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="RequestObject to Mei0ModifyScope Event Mapping" eventType="Mei0ModifyScope" objectType="RequestObject" secAuditType="" subscribable="true"/>
+           
+        <EventTypeMapping auditType="Fnd0GeneralAudit" auditable="true" description="RequestObject to Mei0Validation Event Mapping" eventType="Mei0Validation" objectType="RequestObject" secAuditType="" subscribable="true"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Item Revision Delta Audit Definition" eventType="Mei0DeltaCandidates" eventTypeMapping="ItemRevision:Mei0DeltaCandidates" isActive="true" primaryType="ItemRevision" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Item Revision Export and Release Audit Definition" eventType="Mei0ExportAndRelease" eventTypeMapping="ItemRevision:Mei0ExportAndRelease" isActive="true" primaryType="ItemRevision" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="MES WI .mht file Generate Item Revision Audit Definition" eventType="Mei0GenerateMESWIRep" eventTypeMapping="ItemRevision:Mei0GenerateMESWIRep" isActive="true" primaryType="ItemRevision" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Modify Scope Audit Log Definition" eventType="Mei0ModifyScope" eventTypeMapping="ItemRevision:Mei0ModifyScope" isActive="true" primaryType="ItemRevision" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Item Revision Validation Audit Definition" eventType="Mei0Validation" eventTypeMapping="ItemRevision:Mei0Validation" isActive="true" primaryType="ItemRevision" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Audit Log Definition for Delta Release of Execution Plan." eventType="Mei0DeltaCandidates" eventTypeMapping="Mei0ExecutionPlan:Mei0DeltaCandidates" isActive="true" primaryType="Mei0ExecutionPlan" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Execution Plan Property Update Audit Definition" eventType="Mei0PropertyUpdate" eventTypeMapping="Mei0ExecutionPlan:Mei0PropertyUpdate" isActive="true" primaryType="Mei0ExecutionPlan" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Release to Execution Audit Definition" eventType="Mei0ReleasetoExecution" eventTypeMapping="Mei0ExecutionPlan:Mei0ReleasetoExecution" isActive="true" primaryType="Mei0ExecutionPlan" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Validation Audit Definition" eventType="Mei0Validation" eventTypeMapping="Mei0ExecutionPlan:Mei0Validation" isActive="true" primaryType="Mei0ExecutionPlan" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Release to Production Audit Definition" eventType="Mei0ReleasetoProduction" eventTypeMapping="Mei0ProductionPlan:Mei0ReleasetoProduction" isActive="true" primaryType="Mei0ProductionPlan" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Export and Release Audit Definition" eventType="Mei0ExportAndRelease" eventTypeMapping="RequestObject:Mei0ExportAndRelease" isActive="true" primaryType="RequestObject" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="MES Work Instruction mht file Generate Request Object Audit log Definition." eventType="Mei0GenerateMESWIRep" eventTypeMapping="RequestObject:Mei0GenerateMESWIRep" isActive="true" primaryType="RequestObject" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Modify Scope Request Audit Log Definition" eventType="Mei0ModifyScope" eventTypeMapping="RequestObject:Mei0ModifyScope" isActive="true" primaryType="RequestObject" trackOldValues="false"/>
+           
+        <AuditDefinition auditPropertyChangeOnly="false" condition="isTrue" description="Validation Request Audit Definition" eventType="Mei0Validation" eventTypeMapping="RequestObject:Mei0Validation" isActive="true" primaryType="RequestObject" trackOldValues="false"/>
+           
+        <Library createRelease="tc10000.0.0" description="lib mesbvrinteg" isThirdParty="false" name="mesbvrinteg" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcPropertyAttach typeName="Mfg0BvrOperation">
+                 
+            <TcProperty arrayLength="0" description="Change Construct ID is a unique ID used by Manufacturing Execution System to identify if object is modified. ID consists of combination of attributes: Item ID, Revision and Engineering Change Object.This property is set programmatically" isArray="false" propMaxStringLength="128" propName="mei0ChngCnstrctID" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Mfg0BvrOperation">
+                 
+            <TcProperty arrayLength="0" description="Mei0RelCandidatToUpdateMes is a run time property on BOPLine to mark those which have to be processed for delta export to the Manufacturing Execution System.It is used in the plmxml export to identify the modified BOPLines." isArray="false" propMaxStringLength="0" propName="mei0RelCandidatToUpdateMes" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Mfg0BvrProcess">
+                 
+            <TcProperty arrayLength="0" description="Change Construct ID is a unique ID used by Manufacturing Execution System to identify if object is modified. ID consists of combination of attributes: Item ID, Revision and Engineering Change Object.This property is set programmatically" isArray="false" propMaxStringLength="128" propName="mei0ChngCnstrctID" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Mfg0BvrProcess">
+                 
+            <TcProperty arrayLength="0" description="Mei0RelCandidatToUpdateMes is a run time property on BOPLine to mark those which have to be processed for delta export to the Manufacturing Execution System.It is used in the plmxml export to identify the modified BOPLines." isArray="false" propMaxStringLength="0" propName="mei0RelCandidatToUpdateMes" propTypeName="Runtime" propValueType="PROP_logical" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOPWindow">
+                 
+            <TcProperty arrayLength="0" description="Mei0ExecutionPlan is used to configure an execution Bill of Process to Manufacturing Execution System based on Collaboration Context object. A collaboration context containing a process plan that describes how a product should be manufactured is referred as a master Execution Plan. This is a placeholder for ExecutionPlan object to be represented in the final PLMXML. This property is set programmatically." isArray="false" propMaxStringLength="0" propName="mei0ExecutionPlan" propTypeName="Runtime" propValueType="PROP_untyped_reference" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="BOPWindow">
+                 
+            <TcProperty arrayLength="0" description="Mei0orderId is a string property used to store identifier of an order which corresponds to the order present in the manufacturing execution system.This property is copy of Execution Plan property. It is programmatically copied from Execution Plan to BOPWindow. An order-specific execution plan is for one time execution by a manufacturing execution system." isArray="false" propMaxStringLength="128" propName="mei0orderId" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ExecutionPlan" typeName="BOPWindow" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0orderId" typeName="BOPWindow" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrOperation" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrProcess" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrProcess" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ExecutionPlan" typeName="BOPWindow" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0orderId" typeName="BOPWindow" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrOperation" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrProcess" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrProcess" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrOperation" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrOperation" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="mei0ChngCnstrctID" typeName="Mfg0BvrProcess" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Visible" propertyName="mei0RelCandidatToUpdateMes" typeName="Mfg0BvrProcess" value="false"/>
+           
+        <Library createRelease="tc10000.1.0" description="Mei0SoaMESInteg" isThirdParty="false" name="Mei0SoaMESInteg" namespace="Mei0::Soa::MESInteg" serviceLibrary="true"/>
+           
+        <ServiceInterface createRelease="tc10000.1.0" dependencies="" description="Release" libraryName="Mei0SoaMESInteg" name="Release" namespace="Mei0::Soa::MESInteg" serviceLibraryRef=""/>
+           
+        <Struct createRelease="tc10000.1.0" description="Release status details to be applied to the lines." isPublished="true" name="ApplyReleaseStatusToLinesInputData" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The Mfg0BvrProcess and Mfg0BvrOperation to be traversed." name="roots">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The ReleaseStatus to be created from the string." name="releaseStatus">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The input parameters in order to create the Effectivity object." name="unitEffectivityInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::UnitEffectivityInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True to expend below the structure from the roots to the leaves, otherwise use only the root object." name="isRecursive">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The configuration details of the BOP window and the top line information." isPublished="true" name="CreatedBopWindowInfo" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The context of the BOPWindow." name="context">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The top line of the BOPWindow." name="object">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="A vector of objects that holds all the release candidates objects and ICs for the created workflow." isPublished="true" name="CreateReleaseUpdatePackageInputData" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Information about Release Candidates." name="deltaReleaseinfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ReleaseCandidatesDeltaReleaseInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The structure has the additional information in case that the user exports the entire structure and not just a delta export." name="fullReleaseInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ReleaseCandidatesFullReleaseInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True in case that a full release update, false in case of a delta release" name="fullReleaseUpdate">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The EPMTaskTemplate to be created." name="workflowTemplate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Mei0ReleaseUpdateToMesInfo form or any other customized form with the export additional information to be attached to the workflow." name="infoForm">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The results of the created workflow" isPublished="true" name="CreateReleaseUpdatePackageResponse" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The list of created EPMJob." name="workflows">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The list of errors&#10;Partial Errors are returned in the ServiceData: &#10;286520:  &#9;A full export had not been created primary to releasing an update.&#10;286523:  &#9;Cannot have more than a single BOPWindow configured in the structure.&#10;286524:&#9;The EPMTaskTemplate does not exist.&#10;286525:&#9;The object is not valid to be export, the object ID and name will be supplied.&#10;" name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The input structure contains the data we need in order to find the release candidates Lines or ICs for release and Release to the MES system" isPublished="true" name="FindReleaseCandidatesInputData" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The context of the BOP window.Currently will be passed as NULL from the client." name="context">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of Mfg0BvrProcess and Mfg0BvrOperation to be traversed." name="releaseCandidatesRoots">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Whether to check the incremental changes or not." name="checkIncrementalChange">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The results of the calculation for finding the release candidates lines from Item Revisions and from ICs." isPublished="true" name="FindReleaseCandidatesResponse" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="A list of the release candidate's information." name="releaseCandidatesInformationList">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ReleaseCandidatesDeltaReleaseInfo"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Including partial errors&#10;These errors will be returned in the serviceData as partial errors:-&#10;286520:  &#9;A full export had not been created primary to releasing an update.&#10;286523:  &#9;Cannot have more than a single BOPWindow configured in the structure.&#10;286525:&#9;The object is not valid to be export, the object ID and name will be supplied.&#10;" name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Response." isPublished="true" name="IsUpdateAllowedResponse" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="A list of structures which contains the information regarding the previous release and export for the same Mei0ExecutionPlan object." name="previousReleaseInformationList">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::PreviousReleaseInfo"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The list of errors Partial Errors are returned in the ServiceData: 286523: Cannot have more than a single BOPWindow configured in the structure." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc10000.1.0" description="Map of Business Object to Vecotr of Business Object" isPublished="true" name="MapBOtoBOVec" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="tc10000.1.0" description="OpenPreviousReleasedVersionResponse" isPublished="true" name="OpenPreviousReleasedVersionResponse" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The returned CreatedBopWindowInfo." name="createdWindowInfo">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::CreatedBopWindowInfo"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="These errors will be returned in the serviceData as partial errors. 286520:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A full export had not been created primary to releasing an update. 286523:Cannot have more than a single BOPWindow configured in the structure." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Contains the information regarding the previous release and export which had already done for the same Mei0ExecutionPlan object." isPublished="true" name="PreviousReleaseInfo" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The AppInterface used for the previous export." name="appInterface">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Boolean result of this operation. Is true if the RequestObject was found otherwise false." name="isAllowed">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Information about Release Candidates." isPublished="true" name="ReleaseCandidatesDeltaReleaseInfo" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="A list of Mfg0BvrProcess and  Mfg0BvrOperation." name="releaseCandidatesFromReleaseStatus">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The key will be the IncrementalChange and the value is the list of Mfg0BvrProcess and Mfg0BvrOperation affected by." name="releaseCandidatesWithIncrementalChange">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::MapBOtoBOVec"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="The structure has the additional information in case that the user exports the entire structure and not just a delta export." isPublished="true" name="ReleaseCandidatesFullReleaseInfo" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The Mei0ExecutionPlan (Derives from CCObject) to be exported." name="executionPlan">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of sites to export the data." name="targetSites">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.0" description="Unit effectivity details." isPublished="true" name="UnitEffectivityInfo" namespace="Mei0::Soa::MESInteg::_2013_05::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The Effectivity end item." name="endItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Effectivity end item revision." name="endItemRev">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The order ID which is saved on the Effectivity object." name="orderId">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.2" description="Release status details to be applied to the lines. " isPublished="true" name="ApplyReleaseStatusToLinesInputData" namespace="Mei0::Soa::MESInteg::_2014_06::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The Mfg0BvrProcess and Mfg0BvrOperation to be traversed. " name="roots">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="The ReleaseStatus to be created from the string. " name="releaseStatus">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The input parameters in order to create the Effectivity object. " name="unitEffectivityInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_06::Release::UnitEffectivityInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True to expend below the structure from the roots to the leaves, otherwise use only the root object. " name="isRecursive">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.2" description="Unit effectivity details." isPublished="true" name="UnitEffectivityInfo" namespace="Mei0::Soa::MESInteg::_2014_06::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The Effectivity end item." name="endItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Effectivity end item revision." name="endItemRev">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The effectivity range." name="effectivity">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.3" description="Structure which has information related to the input data." isPublished="true" name="DataInfo" namespace="Mei0::Soa::MESInteg::_2014_12::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Object of type &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt; to be exported.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;" name="executionPlan">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;BOMLine&lt;/b&gt; objects that needs to be exported." name="exportObjects">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Key would be the &lt;b&gt;IncrementalChange&lt;/b&gt; object and the value is the list of &lt;b&gt;BOMLine&lt;/b&gt; objects affected by which needs to be exported.&lt;br /&gt;" name="exportObjectsWithIC">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::MapBOtoBOExecVec"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Any miscellaneous object that needs to be sent for export. &lt;br /&gt;This object can have &lt;b&gt;ChangeObject&lt;/b&gt;(in case of delta export), top line(in case of full export), &lt;b&gt;Form&lt;/b&gt; for any additional information to be attached to the workflow." name="exportScope">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.3" description="The data objects that needs to be exported." isPublished="true" name="ExecutionDataExportInputData" namespace="Mei0::Soa::MESInteg::_2014_12::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Information related to input data export." name="dataInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::DataInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Information related to export of data objects." name="exportInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExportInfo"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.3" description="Contains created Workflow." isPublished="true" name="ExecutionDataExportResponse" namespace="Mei0::Soa::MESInteg::_2014_12::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The list of created &lt;b&gt;EPMJob&lt;/b&gt;. " name="workflows">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Including partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.3" description="Structure contains input information related to export of the Objects. " isPublished="true" name="ExportInfo" namespace="Mei0::Soa::MESInteg::_2014_12::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The &lt;b&gt;EPMTaskTemplate&lt;/b&gt; to be created." name="workflowTemplate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="&lt;b&gt;ApplicationInterface&lt;/b&gt;(AI) object created from earlier export. &lt;br /&gt;If AI is provided, then the &lt;b&gt;RequestObject&lt;/b&gt; should be created in this given AI, if not passed create a new AI." name="ai">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of sites to export the data." name="targetSites">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, a full export is performed else delta export. In full export, all the child lines below the input line present in &lt;b&gt;ChangeObject&lt;/b&gt; are exported and in delta export only the lines which are present in the &lt;b&gt;ChangeObject&lt;/b&gt; are exported.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;" name="exportType">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc10000.1.3" description="Map of IncrementalChange Object to list of export data Objects." isPublished="true" name="MapBOtoBOExecVec" namespace="Mei0::Soa::MESInteg::_2014_12::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="tc10000.1.4" description="This is input data to set orderid property value on Execution Plan.&lt;br /&gt;It has unit effectivity, date effectivity and end item information to update on revision rule once order id has been set to execution plan." isPublished="true" name="SetExecutionIdAndRevRuleInput" namespace="Mei0::Soa::MESInteg::_2015_03::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Object of type &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt; whose order ID property and &lt;b&gt;RevisionRule&lt;/b&gt; needs to be updated.&lt;br /&gt;" name="executionPlan">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Order ID property value to be set on &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt;  " name="orderId">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Value for unit effectivity to be set on &lt;b&gt;RevisionRule&lt;/b&gt;" name="unitEffectivity">
+                       
+                <DataTypeRefParam dataType="int"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Value for date effectivity to be set on &lt;b&gt;RevisionRule&lt;/b&gt;&lt;br /&gt; &lt;br /&gt;" name="dateEffectivity">
+                       
+                <DataTypeRefParam dataType="Teamcenter::DateTime"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="If true, the &lt;b&gt;RevisionRule&lt;/b&gt; would be updated with dateEffectivity value as today. If false &lt;b&gt;RevisionRule&lt;/b&gt; would be updated with supplied value of dateEffectivity parameter&lt;br /&gt;" name="isDateEffToday">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="end item of type &lt;b&gt;Item&lt;/b&gt; or its subtype to be set on &lt;b&gt;RevisionRule&lt;/b&gt;            &lt;br /&gt;&lt;br /&gt;" name="endItem">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of &lt;b&gt;BOMLine&lt;/b&gt; whose &lt;b&gt;BOMWindow&lt;/b&gt; needs to be updated with new or updated &lt;b&gt;RevisionRule&lt;/b&gt;              &lt;br /&gt;&lt;br /&gt;" name="topLines">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.4" description="The updated &lt;b&gt;RevisionRule&lt;/b&gt;  and the following partial error may be returned:300069:If an object of wrong type is passed to the operation210006:Specified value is not an integer" isPublished="true" name="SetExecutionIdAndRevRuleResponse" namespace="Mei0::Soa::MESInteg::_2015_03::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Updated &lt;b&gt;RevisionRule&lt;/b&gt; after applying unit, date and end item effectivity." name="updatedRevRule">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Service data to handle partial errors" name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.5" description="Structure which has information related to the input data" isPublished="true" name="DataInfo2" namespace="Mei0::Soa::MESInteg::_2015_10::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="The &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt; (derived from &lt;b&gt;CCObject&lt;/b&gt;) to be exported." name="executionPlan">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="A list of BOM line objects that needs to be exported" name="exportObjects">
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </StructElement>
+                 
+            <StructElement description="Key would be the &lt;b&gt;IncrementalChange&lt;/b&gt; object and the value is the list of BOM line objects affected by which needs to be exported." name="exportObjectsWithIC">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2015_10::Release::MapBOtoBOVector"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The &lt;b&gt;Mei0ReleaseUpdateToMesInfo&lt;/b&gt; form or any other customized form with the export additional information to be attached to the workflow." name="infoForm">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Any miscellaneous object that needs to be sent for export.This object can have &lt;b&gt;ChangeObject&lt;/b&gt;(in case of delta export), top line(in case of full export), &lt;b&gt;Form&lt;/b&gt; for any additional information to be attached to the workflow." name="exportScope">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.5" description="The data objects that needs to be exported" isPublished="true" name="ExecutionDataExportInputData2" namespace="Mei0::Soa::MESInteg::_2015_10::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Information related to input data export." name="dataInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2015_10::Release::DataInfo2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Information related to export of data objects." name="exportInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExportInfo"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc10000.1.5" description="Map of IncrementalChange Object to list of export data Objects." isPublished="true" name="MapBOtoBOVector" namespace="Mei0::Soa::MESInteg::_2015_10::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                       
+                <DataTypeRefParam dataType="std::vector">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                           
+                </DataTypeRefParam>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="tc10000.1.7" description="A vector of objects that holds all the release candidates objects and ICs for the created workflow." isPublished="true" name="CreateReleaseUpdatePackageInput" namespace="Mei0::Soa::MESInteg::_2016_09::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Information about Release Candidates." name="deltaReleaseinfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ReleaseCandidatesDeltaReleaseInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The structure has the additional information in case that the user exports the entire structure and not just a delta export." name="fullReleaseInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ReleaseCandidatesFullReleaseInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="True in case that a full release update, false in case of a delta release." name="fullReleaseUpdate">
+                       
+                <DataTypeRefParam dataType="bool"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The EPMTaskTemplate to be created." name="workflowTemplate">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The Mei0ReleaseUpdateToMesInfo form or any other customized form with the export additional information to be attached to the workflow." name="infoForm">
+                       
+                <DataTypeRefParam dataType="Teamcenter::BusinessObject"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="The MES user credentials for validating authenticity." name="mesCredentials">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2016_09::Release::Credentials"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.7" description="Credentials for validating MES user authenticity." isPublished="true" name="Credentials" namespace="Mei0::Soa::MESInteg::_2016_09::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="MES user name for validating user authenticity." name="mesUserName">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="MES user password for validating user authenticity." name="mesUserPassword">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Struct createRelease="tc10000.1.7" description="The data objects that needs to be exported." isPublished="true" name="ExecutionDataExportInputData3" namespace="Mei0::Soa::MESInteg::_2016_09::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="Information related to input data export." name="dataInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2015_10::Release::DataInfo2"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Information related to export of data objects." name="exportInfo">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExportInfo"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="MES user credentials to validate user authentication." name="userCredentials">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2016_09::Release::Credentials"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc11000.4.0" description="A map of Work Order execution properties and their corresponding values from the MES system." isPublished="true" name="ExecutionStatusProperties" namespace="Mei0::Soa::MESInteg::_2017_11::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="tc11000.4.0" description="The structure represents Work Order status properties from the MES system" isPublished="true" name="ExecutionStatusPropInfo" namespace="Mei0::Soa::MESInteg::_2017_11::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="A map (string, string) of work order execution status properties and their corresponding values from the MES system.&lt;br /&gt;The properties would be running, scheduled and completed workorders." name="propMap">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2017_11::Release::ExecutionStatusProperties"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <Typedef createRelease="tc11000.4.0" description="A map contains the Work Order UID as key and its execution status properties as value from the MES system." isPublished="true" name="WorkOrderStatusMap" namespace="Mei0::Soa::MESInteg::_2017_11::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <DataTypeRefParam dataType="std::map">
+                       
+                <DataTypeRefParam dataType="std::string"/>
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2017_11::Release::ExecutionStatusPropInfo"/>
+                     
+            </DataTypeRefParam>
+               
+        </Typedef>
+           
+        <Struct createRelease="tc11000.4.0" description="The response contains map where the key is the Mei0ExecutionPlan(Work Order) UID and the value is map of execution status properties and their corresponding values from MES system.&lt;br /&gt;The following partial error may be returned:&lt;br /&gt;286564 : If the Execution Plan is not a Work Order&lt;br /&gt;325009 : MES system service error&lt;br /&gt;325008 : MES system connection error" isPublished="true" name="WorkOrderStatusResponse" namespace="Mei0::Soa::MESInteg::_2017_11::Release" scope="Mei0::Soa::MESInteg::Release">
+                 
+            <StructElement description="A map (string, ExecutionStatusPropInfo) of Mei0ExecutionPlan(Work Order) UID and corresponding status properties from the MES system." name="statusMap">
+                       
+                <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2017_11::Release::WorkOrderStatusMap"/>
+                     
+            </StructElement>
+                 
+            <StructElement description="Standard service data containing partial errors." name="serviceData">
+                       
+                <DataTypeRefParam dataType="Teamcenter::Soa::Server::ServiceData"/>
+                     
+            </StructElement>
+               
+        </Struct>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="The operation creates the workflow ReleaseUpdateToMes which exports the released candidate objects to the MES system.&#10; It is a preliminary to call the operation findReleaseCandidates before calling the createReleaseUpdatePackage operation." id="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse#Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageInputData&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage" returnConst="false" returnDescription="The results of the created workflow" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A vector of objects that holds all the release candidates objects and ICs for the created workflow." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.7" description="The operation creates the workflow ReleaseUpdateToMes which exports the released candidate objects to the MES system. It is a preliminary to call the operation findReleaseCandidates before calling the createReleaseUpdatePackage operation." id="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse#Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage2#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::CreateReleaseUpdatePackageInput&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage2" returnConst="false" returnDescription="The results of the created workflow." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Input a vector of objects that holds all the release candidates objects and ICs for the created workflow." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2016_09::Release::CreateReleaseUpdatePackageInput" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="The operation returns all the Mfg0BvrProcess and Mfg0BvrOperation candidates to be exported to the MES system.&#10;The candidate objects will be captured in one out of the two ways:&#10;1.&#9;By a new release status Mei0PendingRelease or the status defined within the preference Mei0PendingReleaseStatus added to the revision. &#10;2.&#9;Any change that was done within the incremental change which is configured in the structure." id="Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesResponse#Mei0::Soa::MESInteg::Release::findReleaseCandidates#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesInputData&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::findReleaseCandidates" returnConst="false" returnDescription="The results of the calculation for finding the release candidates lines from Item Revisions and from ICs." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The input structure contains the data we need in order to find the release candidates Lines or ICs for release and Release to the MES system" freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="The operation checks if a delta update is allowed for the Mei0ExecutionPlan." id="Mei0::Soa::MESInteg::_2013_05::Release::IsUpdateAllowedResponse#Mei0::Soa::MESInteg::Release::isUpdateAllowed#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::isUpdateAllowed" returnConst="false" returnDescription="These errors will be returned in the serviceData as partial errors. 286523: Cannot have more than a single BOPWindow configured in the structure." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2013_05::Release::IsUpdateAllowedResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The Mei0ExecutionPlan to be checked.&lt;br /&gt;This object derives from an MECollaborationContext object." freeOutputMemory="false" inputOutput="Input" name="executionPlans">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="This operation returns the correlative structure which had been released and exported for the existing Mei0ExecutionPlan." id="Mei0::Soa::MESInteg::_2013_05::Release::OpenPreviousReleasedVersionResponse#Mei0::Soa::MESInteg::Release::openPreviousReleasedVersion#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::openPreviousReleasedVersion" returnConst="false" returnDescription="Response" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2013_05::Release::OpenPreviousReleasedVersionResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="The Mei0ExecutionPlan which had been exported." freeOutputMemory="false" inputOutput="Input" name="executionPlans">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.3" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." id="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportInputData&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::executionDataExport" returnConst="false" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of objects that holds all the export data objects and &lt;b&gt;IncrementalChange&lt;/b&gt; object for the created workflow." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.5" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." id="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport2#const,std::vector&lt;Mei0::Soa::MESInteg::_2015_10::Release::ExecutionDataExportInputData2&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::executionDataExport2" returnConst="false" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;        &lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of objects that holds all the export data objects and &lt;b&gt;IncrementalChange&lt;/b&gt; object for the created workflow." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2015_10::Release::ExecutionDataExportInputData2" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.7" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." id="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport3#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::ExecutionDataExportInputData3&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::executionDataExport3" returnConst="false" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of objects that holds all the export data objects and IncrementalChange object for the created workflow." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2016_09::Release::ExecutionDataExportInputData3" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.4" description="The service operation sets order ID to &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt;. Along with that it sets unit effectivity, date effectivity and end item to &lt;b&gt;RevisionRule&lt;/b&gt; of &lt;b&gt;ConfigurationContext&lt;/b&gt;" id="Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleResponse#Mei0::Soa::MESInteg::Release::setExecutionIdAndRevisionRule#const,Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleInput,&amp;" name="Mei0::Soa::MESInteg::Release::setExecutionIdAndRevisionRule" returnConst="false" returnDescription="The updated &lt;b&gt;RevisionRule&lt;/b&gt;  and the following partial error may be returned:300069:If an object of wrong type is passed to the operation210006:Specified value is not an integer" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="SetExecutionIDAndRevisionRule structure which contains the information for creating or updating &lt;b&gt;RevisionRule&lt;/b&gt; of &lt;b&gt;ConfigurationContext&lt;/b&gt; and setting order id value on &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt;" freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleInput" qualifier="&amp;"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc11000.4.0" description="This service returns the execution status of Work Orders to be queried from the MES system.&lt;br /&gt;Work Order is the execution order created based on Configuration Specific Execution Plan(Mei0ExecutionPlan) for a specific release date which is exported to MES system.&lt;br /&gt;&lt;br /&gt;Mei0ExecutionPlan is the Collaboration Context object which is referred in below two ways based on the configuration:&lt;br /&gt;   150% Execution Plan(Master) - Bill of Process with no effectivity or variability configuration applied.&lt;br /&gt;   100% Execution Plan(Work Order) - 150% execution plan configured for specific unit and date(or variants).&lt;br /&gt;&lt;br /&gt;Mei0ExecutionPlan object is identified as Work Order based on the &amp;quot;Order ID&amp;quot; property set on Mei0ExecutionPlan." id="Mei0::Soa::MESInteg::_2017_11::Release::WorkOrderStatusResponse#Mei0::Soa::MESInteg::Release::findWorkOrderStatusProps#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::findWorkOrderStatusProps" returnConst="false" returnDescription="The response contains map where the key is Mei0ExecutionPlan(Work Order) UID and value is map of execution status properties and their corresponding values from MES system.&lt;br /&gt;The following partial errors may be returned:&lt;br /&gt;286564 : The Execution Plan is not configured as Work Order.&lt;br /&gt;325009 : MES system service error.&lt;br /&gt;325008 : MES system connection error." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Mei0::Soa::MESInteg::_2017_11::Release::WorkOrderStatusResponse" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="A list of Mei0ExecutionPlan objects for which the execution status properties needs to be found from the MES system." freeOutputMemory="false" inputOutput="Input" name="orderCCs">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Teamcenter::BusinessObject" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.0" description="This operation collects all the Mfg0BvrProcess and Mfg0BvrOperation recursively from the configured structure and adds a ReleaseStatus object to the non-released objects." id="Teamcenter::Soa::Server::ServiceData#Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines" returnConst="false" returnDescription="The list of Mfg0BvrProcess and Mfg0BvrOperation which failed to update the ReleaseStatus will be returned in the plain object list. The following partial errors are returned in case invalid parameters are passed to the service:&lt;br /&gt;286540: If an object with multiple effectivities is passed to the operation.&lt;br /&gt;286541: If the provided release status cannot be applied to the object." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Release status details to be applied to the lines." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2013_05::Release::ApplyReleaseStatusToLinesInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <OperationTemplate const="false" createRelease="tc10000.1.2" description="This operation collects all the Mfg0BvrProcess and Mfg0BvrOperation recursively from the configured structure and adds a ReleaseStatus object to the non-released objects. " id="Teamcenter::Soa::Server::ServiceData#Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_06::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" name="Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines" returnConst="false" returnDescription="The list of Mfg0BvrProcess and Mfg0BvrOperation which failed to update the ReleaseStatus will be returned in the plain object list. The following partial errors are returned in case invalid parameters are passed to the service:&lt;br /&gt;286540: If an object with multiple effectivities is passed to the operation.&lt;br /&gt;286541: If the provided release status cannot be applied to the object. &lt;br /&gt;" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="Teamcenter::Soa::Server::ServiceData" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Release status details to be applied to the lines." freeOutputMemory="false" inputOutput="Input" name="input">
+                       
+                <OperationParameterDataTypeRef dataType="std::vector" qualifier="&amp;">
+                              
+                    <DataTypeRefParam dataType="Mei0::Soa::MESInteg::_2014_06::Release::ApplyReleaseStatusToLinesInputData" qualifier=""/>
+                           
+                </OperationParameterDataTypeRef>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.0" dependencies="" description="This operation collects all the Mfg0BvrProcess and Mfg0BvrOperation recursively from the configured structure and adds a ReleaseStatus object to the non-released objects." exceptionCondition="" id="applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="applyReleaseStatusToLines" opTemplate="Teamcenter::Soa::Server::ServiceData#Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" returnDescription="The list of Mfg0BvrProcess and Mfg0BvrOperation which failed to update the ReleaseStatus will be returned in the plain object list. The following partial errors are returned in case invalid parameters are passed to the service:&lt;br /&gt;286540: If an object with multiple effectivities is passed to the operation.&lt;br /&gt;286541: If the provided release status cannot be applied to the object." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="Release status details to be applied to the lines." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.2" dependencies="" description="This operation collects all the Mfg0BvrProcess and Mfg0BvrOperation recursively from the configured structure and adds a ReleaseStatus object to the non-released objects. " exceptionCondition="" id="applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_06::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="applyReleaseStatusToLines" opTemplate="Teamcenter::Soa::Server::ServiceData#Mei0::Soa::MESInteg::Release::applyReleaseStatusToLines#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_06::Release::ApplyReleaseStatusToLinesInputData&gt;,&amp;" returnDescription="The list of Mfg0BvrProcess and Mfg0BvrOperation which failed to update the ReleaseStatus will be returned in the plain object list. The following partial errors are returned in case invalid parameters are passed to the service:&lt;br /&gt;286540: If an object with multiple effectivities is passed to the operation.&lt;br /&gt;286541: If the provided release status cannot be applied to the object. &lt;br /&gt;" useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="Release status details to be applied to the lines." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.0" dependencies="" description="The operation creates the workflow ReleaseUpdateToMes which exports the released candidate objects to the MES system.&#10; It is a preliminary to call the operation findReleaseCandidates before calling the createReleaseUpdatePackage operation." exceptionCondition="" id="createReleaseUpdatePackage#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageInputData&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="createReleaseUpdatePackage" opTemplate="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse#Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageInputData&gt;,&amp;" returnDescription="The results of the created workflow" useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="A vector of objects that holds all the release candidates objects and ICs for the created workflow." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.7" dependencies="" description="The operation creates the workflow ReleaseUpdateToMes which exports the released candidate objects to the MES system. It is a preliminary to call the operation findReleaseCandidates before calling the createReleaseUpdatePackage operation." exceptionCondition="" id="createReleaseUpdatePackage2#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::CreateReleaseUpdatePackageInput&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="createReleaseUpdatePackage2" opTemplate="Mei0::Soa::MESInteg::_2013_05::Release::CreateReleaseUpdatePackageResponse#Mei0::Soa::MESInteg::Release::createReleaseUpdatePackage2#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::CreateReleaseUpdatePackageInput&gt;,&amp;" returnDescription="The results of the created workflow." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="Input a vector of objects that holds all the release candidates objects and ICs for the created workflow." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.3" dependencies="" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." exceptionCondition="" id="executionDataExport#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportInputData&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="executionDataExport" opTemplate="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport#const,std::vector&lt;Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportInputData&gt;,&amp;" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="A list of objects that holds all the export data objects and &lt;b&gt;IncrementalChange&lt;/b&gt; object for the created workflow." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.5" dependencies="" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." exceptionCondition="" id="executionDataExport2#const,std::vector&lt;Mei0::Soa::MESInteg::_2015_10::Release::ExecutionDataExportInputData2&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="executionDataExport2" opTemplate="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport2#const,std::vector&lt;Mei0::Soa::MESInteg::_2015_10::Release::ExecutionDataExportInputData2&gt;,&amp;" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;        &lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="A list of objects that holds all the export data objects and &lt;b&gt;IncrementalChange&lt;/b&gt; object for the created workflow." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.7" dependencies="" description="The operation creates the workflow ReleaseUpdateToExecution which exports the input data objects to the execution system." exceptionCondition="" id="executionDataExport3#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::ExecutionDataExportInputData3&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="executionDataExport3" opTemplate="Mei0::Soa::MESInteg::_2014_12::Release::ExecutionDataExportResponse#Mei0::Soa::MESInteg::Release::executionDataExport3#const,std::vector&lt;Mei0::Soa::MESInteg::_2016_09::Release::ExecutionDataExportInputData3&gt;,&amp;" returnDescription="The created workflow. The following partial errors may be returned:&lt;br /&gt;&lt;br /&gt;286520 - A full export had not been created primary to releasing an update. &lt;br /&gt;286524 - The EPMTaskTemplate does not exist." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="A list of objects that holds all the export data objects and IncrementalChange object for the created workflow." parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.0" dependencies="" description="The operation returns all the Mfg0BvrProcess and Mfg0BvrOperation candidates to be exported to the MES system.&#10;The candidate objects will be captured in one out of the two ways:&#10;1.&#9;By a new release status Mei0PendingRelease or the status defined within the preference Mei0PendingReleaseStatus added to the revision. &#10;2.&#9;Any change that was done within the incremental change which is configured in the structure." exceptionCondition="" id="findReleaseCandidates#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesInputData&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="findReleaseCandidates" opTemplate="Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesResponse#Mei0::Soa::MESInteg::Release::findReleaseCandidates#const,std::vector&lt;Mei0::Soa::MESInteg::_2013_05::Release::FindReleaseCandidatesInputData&gt;,&amp;" returnDescription="The results of the calculation for finding the release candidates lines from Item Revisions and from ICs." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="The input structure contains the data we need in order to find the release candidates Lines or ICs for release and Release to the MES system" parameterName="input"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc11000.4.0" dependencies="" description="This service returns the execution status of Work Orders to be queried from the MES system.&lt;br /&gt;Work Order is the execution order created based on Configuration Specific Execution Plan(Mei0ExecutionPlan) for a specific release date which is exported to MES system.&lt;br /&gt;&lt;br /&gt;Mei0ExecutionPlan is the Collaboration Context object which is referred in below two ways based on the configuration:&lt;br /&gt;   150% Execution Plan(Master) - Bill of Process with no effectivity or variability configuration applied.&lt;br /&gt;   100% Execution Plan(Work Order) - 150% execution plan configured for specific unit and date(or variants).&lt;br /&gt;&lt;br /&gt;Mei0ExecutionPlan object is identified as Work Order based on the &amp;quot;Order ID&amp;quot; property set on Mei0ExecutionPlan." exceptionCondition="" id="findWorkOrderStatusProps#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="findWorkOrderStatusProps" opTemplate="Mei0::Soa::MESInteg::_2017_11::Release::WorkOrderStatusResponse#Mei0::Soa::MESInteg::Release::findWorkOrderStatusProps#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" returnDescription="The response contains map where the key is Mei0ExecutionPlan(Work Order) UID and value is map of execution status properties and their corresponding values from MES system.&lt;br /&gt;The following partial errors may be returned:&lt;br /&gt;286564 : The Execution Plan is not configured as Work Order.&lt;br /&gt;325009 : MES system service error.&lt;br /&gt;325008 : MES system connection error." useCase="User opens Mei0ExecutionPlan object in Manufacturing Process Planner(MPP), selects root line from the Bill Of Process (BOP) structure and performs &amp;ldquo;Find Impacted Baselines&amp;rdquo; action. A list of Work Orders is populated in the Find Impacted Baselines dialogue. &lt;br /&gt;User selects the work orders for which the execution status properties needs to be found from the MES system and do execute action on the button click in the dialogue. The status properties are displayed in the same dialogue against the selected work orders.&lt;br /&gt;Based on the status information of running Work Orders, user can choose which Work Order needs to be updated.">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="A list of Mei0ExecutionPlan objects for which the execution status properties needs to be found from the MES system." parameterName="orderCCs"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.0" dependencies="" description="The operation checks if a delta update is allowed for the Mei0ExecutionPlan." exceptionCondition="" id="isUpdateAllowed#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="isUpdateAllowed" opTemplate="Mei0::Soa::MESInteg::_2013_05::Release::IsUpdateAllowedResponse#Mei0::Soa::MESInteg::Release::isUpdateAllowed#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" returnDescription="These errors will be returned in the serviceData as partial errors. 286523: Cannot have more than a single BOPWindow configured in the structure." useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="The Mei0ExecutionPlan to be checked.&lt;br /&gt;This object derives from an MECollaborationContext object." parameterName="executionPlans"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.0" dependencies="" description="This operation returns the correlative structure which had been released and exported for the existing Mei0ExecutionPlan." exceptionCondition="" id="openPreviousReleasedVersion#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="openPreviousReleasedVersion" opTemplate="Mei0::Soa::MESInteg::_2013_05::Release::OpenPreviousReleasedVersionResponse#Mei0::Soa::MESInteg::Release::openPreviousReleasedVersion#const,std::vector&lt;Teamcenter::BusinessObject&gt;,&amp;" returnDescription="Response" useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="The Mei0ExecutionPlan which had been exported." parameterName="executionPlans"/>
+               
+        </Operation>
+           
+        <Operation canOverride="false" component="Mei0SoaMESInteg" createRelease="tc10000.1.4" dependencies="" description="The service operation sets order ID to &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt;. Along with that it sets unit effectivity, date effectivity and end item to &lt;b&gt;RevisionRule&lt;/b&gt; of &lt;b&gt;ConfigurationContext&lt;/b&gt;" exceptionCondition="" id="setExecutionIdAndRevisionRule#const,Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleInput,&amp;" interface="Mei0::Soa::MESInteg::Release" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="true" name="setExecutionIdAndRevisionRule" opTemplate="Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleResponse#Mei0::Soa::MESInteg::Release::setExecutionIdAndRevisionRule#const,Mei0::Soa::MESInteg::_2015_03::Release::SetExecutionIdAndRevRuleInput,&amp;" returnDescription="The updated &lt;b&gt;RevisionRule&lt;/b&gt;  and the following partial error may be returned:300069:If an object of wrong type is passed to the operation210006:Specified value is not an integer" useCase="">
+                 
+            <DeprecationInfo deprecatedDescription="this operation is obsolete, there is no replacement." deprecatedRelease="tc2412"/>
+                 
+            <ParameterInfo description="SetExecutionIDAndRevisionRule structure which contains the information for creating or updating &lt;b&gt;RevisionRule&lt;/b&gt; of &lt;b&gt;ConfigurationContext&lt;/b&gt; and setting order id value on &lt;b&gt;Mei0ExecutionPlan&lt;/b&gt;" parameterName="input"/>
+               
+        </Operation>
+           
+        <Functionality description="Manufacturing execution system (MES) Integration Services Component supports the integration with the SIMATIC IT (SIT) and general MES systems." displayName="MES Integration Services Component" enabledForVerificationRules="false" name="Mei0SoaMESInteg"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

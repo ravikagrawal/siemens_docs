@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="ru_RU" status="Approved">Schema Map</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="ru_RU" status="Approved">Экспорт и импорт портфеля</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="ru_RU" status="Approved">Получение и загрузка большого объема данных</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="ru_RU" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="ru_RU" status="Approved">Экспорт и импорт PLM XML</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="ru_RU" status="Approved">Портфель</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="ru_RU" status="Approved">Операции с большими объемами данных</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="ru_RU" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="ru_RU" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="ru_RU" status="Approved">Экспорт портфеля завершен</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="ru_RU" status="Approved">Не удалось экспортировать портфель</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="ru_RU" status="Approved">Импорт портфеля завершен</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="ru_RU" status="Approved">Не удалось импортировать портфель</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="ru_RU" status="Approved">Получение большого объема данных завершено</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="ru_RU" status="Approved">Не удалось получить большой объем данных</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="ru_RU" status="Approved">Копирование большого объема данных завершено</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="ru_RU" status="Approved">Не удалось скопировать большой объем данных</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="ru_RU" status="Approved">Экспорт PLM XML завершен</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="ru_RU" status="Approved">Ошибка экспорта PLM XML</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="ru_RU" status="Approved">Импорт PLM XML завершен</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="ru_RU" status="Approved">Ошибка импорта PLM XML</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="ru_RU" status="Approved">PDX Export Complete</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="ru_RU" status="Approved">PDX Export Failed</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="ru_RU" status="Approved">Mapping Rules Deployment Complete</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="ru_RU" status="Approved">Mapping Rules Deployment Failed</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="ru_RU" status="Approved">Reclaim Ownership Complete</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="ru_RU" status="Approved">Reclaim Ownership Failed</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

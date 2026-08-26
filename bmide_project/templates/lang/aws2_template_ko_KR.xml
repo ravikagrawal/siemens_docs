@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="ko_KR" status="Approved">교체 항목 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0EnableOpenBaselineCmd" locale="ko_KR" status="Approved">베이스라인 열기 명령 활성화</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="ko_KR" status="Approved">적용일자/단위</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="ko_KR" status="Approved">릴리스</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="ko_KR" status="Approved">교체 항목 제거</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="ko_KR" status="Approved">리비전 베이스라인 생성</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="ko_KR" status="Approved">"교체 추가" 명령을 보이게 할지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0EnableOpenBaselineCmdCond" locale="ko_KR" status="Approved">베이스라인 열기 명령 조건 활성화</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="ko_KR" status="Approved">수식 적용일자/단위가 지원되는지 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="ko_KR" status="Approved">"리비전 적용일자/단위" 명령을 선택한 개체에 적용할지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="ko_KR" status="Approved">"교체 제거" 명령을 보이게 할지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="ko_KR" status="Approved">이 조건은 리비전 베이스라인 생성 명령이 입력 개체에 대해 지원되는지 여부를 결정합니다.</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="ko_KR" status="Approved">기본 외부 시스템 개체</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="ko_KR" status="Approved">고급 조회 조건</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="ko_KR" status="Approved">고급 검색 입력</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="ko_KR" status="Approved">교체 항목 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="ko_KR" status="Approved">날짜 검색 필터</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="ko_KR" status="Approved">동적 복합 속성 열 정의</key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="ko_KR" status="Approved">전체 텍스트 검색 색인기</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="ko_KR" status="Approved">전체 텍스트 검색 실행</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="ko_KR" status="Approved">즐겨찾기</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="ko_KR" status="Approved">즐겨찾기 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="ko_KR" status="Approved">폴더 컬렉션 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="ko_KR" status="Approved">폴더 컬렉션</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="ko_KR" status="Approved">키워드 검색</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="ko_KR" status="Approved">자식 제공자 얻기</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="ko_KR" status="Approved">ID 컨텍스트 값 리스트</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="ko_KR" status="Approved">받은 편지함 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="ko_KR" status="Approved">마지막으로 사용한 열 구성</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="ko_KR" status="Approved">명명된 열 구성</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="ko_KR" status="Approved">숫자 검색 필터</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="ko_KR" status="Approved">개체 집합 행 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="ko_KR" status="Approved">빠른 검색 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="ko_KR" status="Approved">최신 개체 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="ko_KR" status="Approved">참조 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="ko_KR" status="Approved">관계 사용자 정의 LOV 비즈니스 개체</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="ko_KR" status="Approved">리소스 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="ko_KR" status="Approved">리비전 규칙 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="ko_KR" status="Approved">사인오프 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="ko_KR" status="Approved">문자열 검색 필터</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="ko_KR" status="Approved">테이블 속성 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="ko_KR" status="Approved">유형 검색 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="ko_KR" status="Approved">사용자 할당</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="ko_KR" status="Approved">VNC 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="ko_KR" status="Approved">작업 영역 매핑 관계</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="ko_KR" status="Approved">작업 영역 정의</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="ko_KR" status="Approved">개체 집합 열</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="ko_KR" status="Approved">개체 집합 행</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="ko_KR" status="Approved">개체 집합</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="ko_KR" status="Approved">클라이언트 컨텍스트</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="ko_KR" status="Approved">선택</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="ko_KR" status="Approved">고급 검색</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ko_KR" status="Approved">BOM 가져오기 실패</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ko_KR" status="Approved">BOM 가져오기 성공</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ko_KR" status="Approved">Excel 가져오기에 실패했습니다</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ko_KR" status="Approved">Excel 가져오기 성공</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ko_KR" status="Approved">Active Workspace 셀 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ko_KR" status="Approved">Active Workspace 컨텍스트 메뉴 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ko_KR" status="Approved">Active Workspace 글로벌 도구 모음</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ko_KR" status="Approved">Active Workspace 기타 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ko_KR" status="Approved">Active Workspace 프로필 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ko_KR" status="Approved">Active Workspace 뷰 도구 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ko_KR" status="Approved">Active Workspace XRT 명령</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="ko_KR" status="Approved">BOM 가져오기 실패</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="ko_KR" status="Approved">BOM 가져오기 성공</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="ko_KR" status="Approved">Excel 가져오기 실패</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="ko_KR" status="Approved">Excel 가져오기 성공</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="ko_KR" status="Approved">Active Workspace 셀</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="ko_KR" status="Approved">Active Workspace 컨텍스트 메뉴</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="ko_KR" status="Approved">Active Workspace 글로벌 도구 모음</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="ko_KR" status="Approved">Active Workspace 기타 명령</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="ko_KR" status="Approved">Active Workspace 프로필 명령</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="ko_KR" status="Approved">뷰 도구</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="ko_KR" status="Approved">Active Workspace XRT</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="ko_KR" status="Approved">외부 시스템 개체 클래스 이름</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="ko_KR" status="Approved">외부 시스템 이름</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="ko_KR" status="Approved">외부 시스템 URI</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="ko_KR" status="Approved">속성 이름 목록</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="ko_KR" status="Approved">고급 조회 이름</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="ko_KR" status="Approved">빠른 검색 이름</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="ko_KR" status="Approved">종료일</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="ko_KR" status="Approved">필터 이름</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="ko_KR" status="Approved">시작일</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="ko_KR" status="Approved">열 디스플레이 이름</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="ko_KR" status="Approved">동적 복합 속성 경로</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="ko_KR" status="Approved">개체 유형</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="ko_KR" status="Approved">속성 이름</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="ko_KR" status="Approved">실행 사용자</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="ko_KR" status="Approved">마지막 실행 시간</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="ko_KR" status="Approved">저장된 검색</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="ko_KR" status="Approved">차트 켜짐</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="ko_KR" status="Approved">저장된 검색 로케일</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="ko_KR" status="Approved">필터</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="ko_KR" status="Approved">날짜 필터</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="ko_KR" status="Approved">다른 사람들이 볼 수 있도록 허용</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="ko_KR" status="Approved">숫자 필터</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="ko_KR" status="Approved">조건</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="ko_KR" status="Approved">문자열 필터</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="ko_KR" status="Approved">열 구성 참조</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="ko_KR" status="Approved">마지막 사용자</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="ko_KR" status="Approved">열 구성 ID</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="ko_KR" status="Approved">열 구성 이름</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="ko_KR" status="Approved">관리자 열 구성</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="ko_KR" status="Approved">종료 값</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="ko_KR" status="Approved">필터 이름</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="ko_KR" status="Approved">시작 값</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="ko_KR" status="Approved">필터 이름</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="ko_KR" status="Approved">전자 메일</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="ko_KR" status="Approved">종료일</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="ko_KR" status="Approved">전화</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="ko_KR" status="Approved">시작일</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="ko_KR" status="Approved">사용자</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="ko_KR" status="Approved">기본 작업 영역임?</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="ko_KR" status="Approved">작업 영역 ID</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="ko_KR" status="Approved">배열 길이</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="ko_KR" status="Approved">데이터 유형</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="ko_KR" status="Approved">배열</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="ko_KR" status="Approved">관계 속성</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="ko_KR" status="Approved">속성 디스플레이 이름</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="ko_KR" status="Approved">속성 이름</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="ko_KR" status="Approved">사용자 정렬 가능</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="ko_KR" status="Approved">잘라내기 허용됨</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="ko_KR" status="Approved">1차</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="ko_KR" status="Approved">참조 속성 이름</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="ko_KR" status="Approved">관계 유형 디스플레이 이름</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="ko_KR" status="Approved">관계 유형 이름</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="ko_KR" status="Approved">관계</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="ko_KR" status="Approved">관계</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="ko_KR" status="Approved">2차</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="ko_KR" status="Approved">타겟</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="ko_KR" status="Approved">수정 가능</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="ko_KR" status="Approved">개체 집합 열</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="ko_KR" status="Approved">개체 집합 행</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="ko_KR" status="Approved">총 개체 집합 행 수</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="ko_KR" status="Approved">개체 셀 속성</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="ko_KR" status="Approved">축소판 이미지 FMS 티켓</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="ko_KR" status="Approved">개체</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="ko_KR" status="Approved">내 검토자 추가 동작</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="ko_KR" status="Approved">내 타스크 추가 동작</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="ko_KR" status="Approved">할당 가능</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="ko_KR" status="Approved">수행 가능</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="ko_KR" status="Approved">수준 올리기 가능</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="ko_KR" status="Approved">클라이언트 범위</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="ko_KR" status="Approved">선택</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="ko_KR" status="Approved">열 디스플레이 이름</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="ko_KR" status="Approved">필터</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="ko_KR" status="Approved">필터링 활성화됨</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="ko_KR" status="Approved">열 동결됨</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="ko_KR" status="Approved">텍스트 줄바꿈</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="ko_KR" status="Approved">옵션 이름</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="ko_KR" status="Approved">옵션 값</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="ko_KR" status="Approved">컨텍스트 이름</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="ko_KR" status="Approved">부모 선택</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="ko_KR" status="Approved">선택된 개체</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="ko_KR" status="Approved">자식을 소유</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="ko_KR" status="Approved">수정 가능</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="ko_KR" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="ko_KR" status="Approved">별칭 ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="ko_KR" status="Approved">교체 ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="ko_KR" status="Approved">구성된 리비전</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="ko_KR" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="ko_KR" status="Approved">필수 참가자</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="ko_KR" status="Approved">디스플레이할 참가자</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="ko_KR" status="Approved">별칭 ID</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="ko_KR" status="Approved">교체 ID</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="ko_KR" status="Approved">원격 유형</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="ko_KR" status="Approved">원격 사이트</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="ko_KR" status="Approved">생성일</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="ko_KR" status="Approved">원격 유형</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="ko_KR" status="Approved">원격 사이트</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="ko_KR" status="Approved">내 검토자 추가 동작</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="ko_KR" status="Approved">내 타스크 추가 동작</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="ko_KR" status="Approved">할당 가능</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="ko_KR" status="Approved">수행 가능</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="ko_KR" status="Approved">수준 올리기 가능</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="ko_KR" status="Approved">사양</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="ko_KR" status="Approved">프로젝트 팀 구성원</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="ko_KR" status="Approved">리비전 규칙</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="ko_KR" status="Approved">내 대리</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="ko_KR" status="Approved">대리할 대상:</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="ko_KR" status="Approved">베이스라인 생성 완료</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="ko_KR" status="Approved">연결 프록시 개체</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="ko_KR" status="Approved">추적 링크 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="ko_KR" status="Approved">추적 링크 프록시 개체</key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="ko_KR" status="Approved">추적 가능성 매트릭스</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="ko_KR" status="Approved">이 옵션을 사용하면 내보내기 프로세스가 zip 형식으로 내보낸 Excel 파일과 함께 모든 데이터 집합의 첨부물을 내보낼 수 있습니다.</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="ko_KR" status="Approved">어커런스 -&gt; 어커런스</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="ko_KR" status="Approved">어커런스 -&gt; 리비전</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="ko_KR" status="Approved">리비전 -&gt; 어커런스</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="ko_KR" status="Approved">리비전 -&gt; 리비전</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="ko_KR" status="Approved">첨부물 포함</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="ko_KR" status="Approved">방향</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="ko_KR" status="Approved">관련 개체</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="ko_KR" status="Approved">관계 개체</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="ko_KR" status="Approved">추적 링크 유형</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="ko_KR" status="Approved">선택한 개체</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="ko_KR" status="Approved">자식을 소유</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="ko_KR" status="Approved">어커런스 추적 링크임</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="ko_KR" status="Approved">연결된 아이템 유형</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="ko_KR" status="Approved">타겟 요소</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="ko_KR" status="Approved">개체 정보 열기</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="ko_KR" status="Approved">부모</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="ko_KR" status="Approved">관련된 개체 유형</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="ko_KR" status="Approved">첨부된 매트릭스</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="ko_KR" status="Approved">주석</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="ko_KR" status="Approved">예상</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="ko_KR" status="Approved">추적 링크 생성</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="ko_KR" status="Approved">Word에서 편집</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="ko_KR" status="Approved">Office로 내보내기</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="ko_KR" status="Approved">텍스트 비교 명령</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="ko_KR" status="Approved">"텍스트 비교" 명령의 가시성을 정의합니다. 요구사항 개체 및 하위 유형에서만 사용할 수 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="ko_KR" status="Approved">MSWord 응용 프로그램에서 개체의 편집 조건을 정의합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="ko_KR" status="Approved">이 조건은 Arm0CreateTraceLink 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="ko_KR" status="Approved">이 조건은 'FullText' 유형의 개체에 대한 교체 명령을 숨깁니다.</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="ko_KR" status="Approved">고급 검색 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="ko_KR" status="Approved">저장된 즐겨찾는 검색</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="ko_KR" status="Approved">활성 폴더</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="ko_KR" status="Approved">프로젝트</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="ko_KR" status="Approved">프로젝트 데이터 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="ko_KR" status="Approved">프로젝트 데이터 템플릿</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="ko_KR" status="Approved">프로젝트 데이터 템플릿</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="ko_KR" status="Approved">프로젝트 폴더 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="ko_KR" status="Approved">프로젝트 폴더</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="ko_KR" status="Approved">프로젝트 하위 폴더</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="ko_KR" status="Approved">저장된 조회 리스트 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="ko_KR" status="Approved">Solr 속성 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="ko_KR" status="Approved">검색 폴더 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="ko_KR" status="Approved">활성 폴더 공유 규칙</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="ko_KR" status="Approved">활성 폴더</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="ko_KR" status="Approved">카테고리</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="ko_KR" status="Approved">그룹 ID</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="ko_KR" status="Approved">유형</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="ko_KR" status="Approved">프로젝트</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="ko_KR" status="Approved">릴리스 상태</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="ko_KR" status="Approved">생성일</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="ko_KR" status="Approved">수정일</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="ko_KR" status="Approved">릴리스 날짜</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="ko_KR" status="Approved">기본</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="ko_KR" status="Approved">날짜</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="ko_KR" status="Approved">순위</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="ko_KR" status="Approved">저장된 검색</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="ko_KR" status="Approved">사용자</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="ko_KR" status="Approved">활성 템플릿임</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="ko_KR" status="Approved">자식을 소유</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="ko_KR" status="Approved">수정 가능</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="ko_KR" status="Approved">설명</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="ko_KR" status="Approved">프로젝트</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="ko_KR" status="Approved">활성 폴더</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="ko_KR" status="Approved">활성 폴더</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="ko_KR" status="Approved">타겟 접근자</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="ko_KR" status="Approved">검색 실행 가능</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="ko_KR" status="Approved">공유됨</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="ko_KR" status="Approved">규칙</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="ko_KR" status="Approved">활성 폴더 정의</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="ko_KR" status="Approved">검색 유형</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="ko_KR" status="Approved">개인화 데이터</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="ko_KR" status="Approved">컴포넌트 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="ko_KR" status="Approved">서명 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="ko_KR" status="Approved">프로파일 그림 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="ko_KR" status="Approved">프로젝트 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="ko_KR" status="Approved">즐겨찾기에 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="ko_KR" status="Approved">정보</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="ko_KR" status="Approved">고급 검색</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="ko_KR" status="Approved">숨기기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="ko_KR" status="Approved">아래로 이동</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="ko_KR" status="Approved">위로 이동</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="ko_KR" status="Approved">정렬</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="ko_KR" status="Approved">표시</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="ko_KR" status="Approved">프로젝트 레거시 할당</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="ko_KR" status="Approved">프로젝트</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="ko_KR" status="Approved">체크아웃 취소</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="ko_KR" status="Approved">편집 취소</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="ko_KR" status="Approved">소유자 변경</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="ko_KR" status="Approved">암호 변경</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="ko_KR" status="Approved">테마 변경</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="ko_KR" status="Approved">체크인</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="ko_KR" status="Approved">체크아웃</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="ko_KR" status="Approved">색상 필터링 표시</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="ko_KR" status="Approved">정렬</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="ko_KR" status="Approved">레이블</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="ko_KR" status="Approved">복사</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="ko_KR" status="Approved">교체 ID 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="ko_KR" status="Approved">홈 폴더</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="ko_KR" status="Approved">잘라내기</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="ko_KR" status="Approved">삭제</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="ko_KR" status="Approved">삭제</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="ko_KR" status="Approved">섹션 삭제</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="ko_KR" status="Approved">삭제</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="ko_KR" status="Approved">선택 지우기</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="ko_KR" status="Approved">라이선스 분리</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="ko_KR" status="Approved">지역화 단일 편집</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="ko_KR" status="Approved">검색 저장</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="ko_KR" status="Approved">전체 화면 종료</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="ko_KR" status="Approved">전체 화면</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="ko_KR" status="Approved">전체 텍스트 검색</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="ko_KR" status="Approved">Home</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="ko_KR" status="Approved">보고서 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="ko_KR" status="Approved">필터</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="ko_KR" status="Approved">마크업</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="ko_KR" status="Approved">호스트에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="ko_KR" status="Approved">호스트에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="ko_KR" status="Approved">마크업</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="ko_KR" status="Approved">디스플레이 토글 나열</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="ko_KR" status="Approved">이름 값 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="ko_KR" status="Approved">탐색</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="ko_KR" status="Approved">정보</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="ko_KR" status="Approved">NX에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="ko_KR" status="Approved">새 탭에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="ko_KR" status="Approved">새 윈도우에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="ko_KR" status="Approved">Office Client에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="ko_KR" status="Approved">Rich Client에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="ko_KR" status="Approved">호스트에서 새 뷰 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="ko_KR" status="Approved">Vis에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="ko_KR" status="Approved">붙여넣기</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="ko_KR" status="Approved">홈에 고정</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="ko_KR" status="Approved">검색 고정</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="ko_KR" status="Approved">고정</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="ko_KR" status="Approved">명령 처리기 없음</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="ko_KR" status="Approved">인쇄</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="ko_KR" status="Approved">인쇄 보기에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="ko_KR" status="Approved">즐겨찾기에서 제거</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="ko_KR" status="Approved">프로젝트 제거</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="ko_KR" status="Approved">파일 교체</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="ko_KR" status="Approved">보고서 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="ko_KR" status="Approved">편집 저장</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="ko_KR" status="Approved">검색 저장</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="ko_KR" status="Approved">검색 필터</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="ko_KR" status="Approved">검색</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="ko_KR" status="Approved">모두 선택</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="ko_KR" status="Approved">위치 코드 설정 또는 지우기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="ko_KR" status="Approved">링크 복사</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="ko_KR" status="Approved">추가 대상</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="ko_KR" status="Approved">관리</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="ko_KR" status="Approved">알림</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="ko_KR" status="Approved">문서 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="ko_KR" status="Approved">문서 생성</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="ko_KR" status="Approved">내 홈 폴더</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="ko_KR" status="Approved">이미지</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="ko_KR" status="Approved">리스트</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="ko_KR" status="Approved">파일 다운로드</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="ko_KR" status="Approved">렌더링</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="ko_KR" status="Approved">개정</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="ko_KR" status="Approved">다른 이름으로 저장 또는 개정</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="ko_KR" status="Approved">요약 포함 리스트</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="ko_KR" status="Approved">요약 포함 테이블</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="ko_KR" status="Approved">테이블</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="ko_KR" status="Approved">비주얼라이제이션</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="ko_KR" status="Approved">로그아웃</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="ko_KR" status="Approved">요약</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="ko_KR" status="Approved">테이블</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="ko_KR" status="Approved">편집 시작</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="ko_KR" status="Approved">홈에서 고정 해제</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="ko_KR" status="Approved">고정 해제</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="ko_KR" status="Approved">검색 고정 해제</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="ko_KR" status="Approved">파일 다운로드</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="ko_KR" status="Approved">파일 다운로드</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="ko_KR" status="Approved">디스플레이</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="ko_KR" status="Approved">서명 무효화</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="ko_KR" status="Approved">이 조건은 사용자 개체가 현재 로그인한 사용자를 표시할지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0AddToFavorites 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="ko_KR" status="Approved">이 조건은 대체 ID 유형의 개체에 대한 잘라내기 명령을 숨깁니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="ko_KR" status="Approved">프로젝트 할당 명령에 대한 서버측 명령 가시성 조건입니다. 이 명령은 선택한 개체가 WorkspaceObject, 데이터 집합 또는 폼 유형일 경우에만 보여야 합니다. 이 명령은 선택한 개체가 EPMTask 또는 사인오프 유형일 경우 보이지 않아야 합니다. 이 명령은 assignable_projects 속성이 로그인한 사용자에 대해 정의되지 않은 경우 보이지 않아야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="ko_KR" status="Approved">프로젝트 할당 명령에 대한 서버측 명령 가시성 조건입니다. 이 명령은 Teamcenter 버전 10.1.5 이상 및 11.2.3 이하의 경우에만 보여야 합니다. 이 명령은 선택한 개체가 WorkspaceObject, 데이터 집합 또는 폼 유형일 경우에만 보여야 합니다. 이 명령은 선택한 개체가 EPMTask 또는 사인오프 유형일 경우 보이지 않아야 합니다. 이 명령은 assignable_projects 속성이 로그인한 사용자에 대해 정의되지 않은 경우 보이지 않아야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="ko_KR" status="Approved">이 조건은 특정 비즈니스 개체 유형의 인스턴스에 대한 체크아웃을 현재 사이트에서 취소할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="ko_KR" status="Approved">이 조건은 특정 비즈니스 개체 유형의 인스턴스 소유권을 변경할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="ko_KR" status="Approved">선택한 사용자 개체가 현재 로그인한 사용자를 나타내는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="ko_KR" status="Approved">이 조건은 특정 비즈니스 개체 유형의 인스턴스를 현재 사이트에서 체크인할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="ko_KR" status="Approved">이 조건은 특정 비즈니스 개체 유형의 인스턴스를 체크아웃할 수 있는지 여부를 결정합니다. 이는 체크아웃 가능한 유형인지 또는 현재 사이트에서 수정 가능한 인스턴스인지에 따라 달라집니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="ko_KR" status="Approved">이 조건은 개체가 null이 아니며 저장된 검색 유형이 아닌지 여부를 확인하는 것입니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="ko_KR" status="Approved">대체 ID 명령 가시성 생성</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="ko_KR" status="Approved">이 조건은 통과한 Fnd0Selection 개체가 null이 아니며 부모 선택 속성이 null이 아닌지를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="ko_KR" status="Approved">이 조건은 요청한 개체 유형을 삭제할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="ko_KR" status="Approved">이 조건은 사용자에게 선택한 비즈니스 개체에 대한 변환 권한이 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="ko_KR" status="Approved">이 조건은 선택한 저장된 검색이 null이 아닌지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="ko_KR" status="Approved">이 조건은 Awp0InContextReports 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="ko_KR" status="Approved">이 조건은 선택한 개체가 ACE 개체일 경우 명령이 보이는지 확인하기 위한 것입니다. 클라이언트측에서 ACE 자체 확인이 수행됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="ko_KR" status="Approved">이 조건은 통과한 비즈니스 개체의 인스턴스가 "Awp0AWCExternalSystemObject" 유형이 아닌지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="ko_KR" status="Approved">Awp0PinObject 명령이 보이는지 여부를 검사합니다. 보이지 않는 저장된 검색 개체 유형은 제외합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="ko_KR" status="Approved">Awp0PinSearch 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="ko_KR" status="Approved">이 조건은 Awp0Print 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0RemoveFromFavorites 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="ko_KR" status="Approved">이 조건은 데이터 집합 비즈니스 개체 유형의 인스턴스를 수정할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="ko_KR" status="Approved">고급 검색 하위 위치에 검색 탐색 명령이 표시되지 않도록 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="ko_KR" status="Approved">이 조건은 명령 가시성 설정 또는 위치 지우기 명령을 확인하기 위한 것입니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="ko_KR" status="Approved">이 조건은 ReviseInput 상수가 비어 있지 않은지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="ko_KR" status="Approved">이 조건은 통과한 비즈니스 개체가 아이템 리비전인지 여부 또는 ReviseInput 상수 값이 비어 있지 않은지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="ko_KR" status="Approved">선택한 개체를 이벤트 통보 요청할 수 있는지 여부를 확인합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="ko_KR" status="Approved">이 조건은 통과한 비즈니스 개체의 인스턴스가 "ReportDefinition" 유형인지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="ko_KR" status="Approved">Awp0UnPinObject 명령이 보이는지 여부를 검사합니다. 보이지 않는 저장된 검색 개체 유형은 제외합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="ko_KR" status="Approved">Awp0UnPinSearch 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="ko_KR" status="Approved">Awp0ViewFile 명령이 보이는지 여부를 검사합니다.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ko_KR" status="Approved">Active Workspace 개체 집합 명령</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ko_KR" status="Approved">Active Workspace 테이블 명령</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="ko_KR" status="Approved">Active Workspace 개체 집합</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="ko_KR" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="ko_KR" status="Approved">설명</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="ko_KR" status="Approved">숨기기</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="ko_KR" status="Approved">JSON 데이터</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="ko_KR" status="Approved">개인화 데이터 ID</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="ko_KR" status="Approved">개인화 데이터 하위 유형</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="ko_KR" status="Approved">개인화 데이터 유형</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="ko_KR" status="Approved">범위</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="ko_KR" status="Approved">게이트웨이 타일</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="ko_KR" status="Approved">타일 컬렉션</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="ko_KR" status="Approved">타일 프록시</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="ko_KR" status="Approved">타일 템플릿</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="ko_KR" status="Approved">타일</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="ko_KR" status="Approved">기본값</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="ko_KR" status="Approved">외부 링크</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="ko_KR" status="Approved">정적 리소스</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="ko_KR" status="Approved">명령</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="ko_KR" status="Approved">작음</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="ko_KR" status="Approved">넓음</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="ko_KR" status="Approved">큼</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="ko_KR" status="Approved">관리자 위치</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="ko_KR" status="Approved">고정된 개체</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="ko_KR" status="Approved">위치</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="ko_KR" status="Approved">명령 및 조치</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="ko_KR" status="Approved">저장된 검색</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="ko_KR" status="Approved">즐겨찾기</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="ko_KR" status="Approved">기본</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="ko_KR" status="Approved">빠른 링크</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="ko_KR" status="Approved">타일 그룹</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="ko_KR" status="Approved">Live</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="ko_KR" status="Approved">주문 번호</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="ko_KR" status="Approved">보호됨</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="ko_KR" status="Approved">숨기기</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="ko_KR" status="Approved">타일 크기</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="ko_KR" status="Approved">소스 컬렉션</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="ko_KR" status="Approved">범위</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="ko_KR" status="Approved">타일 템플릿 ID</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="ko_KR" status="Approved">타일</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="ko_KR" status="Approved">작업 유형</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="ko_KR" status="Approved">작업</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="ko_KR" status="Approved">내용 이름</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="ko_KR" status="Approved">아이콘 소스</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="ko_KR" status="Approved">아이콘</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="ko_KR" status="Approved">타일 지원 크기</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="ko_KR" status="Approved">템플릿 ID</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="ko_KR" status="Approved">테마 색인</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="ko_KR" status="Approved">구성된 개체</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="ko_KR" status="Approved">내용 값</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="ko_KR" status="Approved">디스플레이 이름</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="ko_KR" status="Approved">메시지</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="ko_KR" status="Approved">핀 개체 ID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="ko_KR" status="Approved">핀 개체</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="ko_KR" status="Approved">작업 매개변수</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="ko_KR" status="Approved">스타일</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="ko_KR" status="Approved">타일 ID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="ko_KR" status="Approved">타일 템플릿</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="ko_KR" status="Approved">동적 참가자 동기화 타스크 뷰 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="ko_KR" status="Approved">프로세스 할당 리스트 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="ko_KR" status="Approved">참가자 키 역할</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="ko_KR" status="Approved">참가자 유형 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="ko_KR" status="Approved">사람 선택기 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="ko_KR" status="Approved">프로세스 이력 트리 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="ko_KR" status="Approved">프로세스 이력 행 정보</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="ko_KR" status="Approved">타스크 검색 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="ko_KR" status="Approved">워크플로 보고서 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="ko_KR" status="Approved">워크플로 템플릿 LOV 비즈니스 개체</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="ko_KR" status="Approved">비즈니스 개체 상수 Awp0WorkflowSubmittable 평가 조건 및 동적 LOV Awp0WorkflowTemplateLOV의 한계 결과.</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="ko_KR" status="Approved">다중 값</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="ko_KR" status="Approved">참가자 핸들러 키워드</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="ko_KR" status="Approved">참가자 키 역할 유형</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="ko_KR" status="Approved">참가자 키 역할</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="ko_KR" status="Approved">감사 레코드</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="ko_KR" status="Approved">리프 노드</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="ko_KR" status="Approved">부모 감사 기록</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="ko_KR" status="Approved">확인자</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="ko_KR" status="Approved">통보 받는 자</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="ko_KR" status="Approved">검토자</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="ko_KR" status="Approved">디스플레이할 참가자</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="ko_KR" status="Approved">디스플레이할 참가자</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="ko_KR" status="Approved">워크플로</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="ko_KR" status="Approved">타스크 중단</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="ko_KR" status="Approved">대리 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="ko_KR" status="Approved">클레임 워크플로 타스크</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="ko_KR" status="Approved">제출할 워크플로</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="ko_KR" status="Approved">받은 편지함 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="ko_KR" status="Approved">타스크 전달(부재 중)</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="ko_KR" status="Approved">타스크 완료</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="ko_KR" status="Approved">타스크 수준 올리기</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="ko_KR" status="Approved">재할당 타스크</key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="ko_KR" status="Approved">릴리스</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="ko_KR" status="Approved">참가자 제거</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="ko_KR" status="Approved">대리자 제거</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="ko_KR" status="Approved">참가자 다시 할당</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="ko_KR" status="Approved">교체</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="ko_KR" status="Approved">대신 처리</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="ko_KR" status="Approved">이 조건은 사용자가 'Workflow Admin' 역할에 속하는지 여부를 지정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0AddReviewer 명령이 보이는지 여부를 검사합니다. 이 조건은 조건 Fnd0AddReviewerPrivilege가 true 또는 false로 평가하는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0AddSurrogate 명령이 보이는지 여부를 검사합니다. 이 조건은 선택한 사용자 개체가 현재 로그인한 사용자를 나타내는지 여부를 결정하거나, 로그인한 사용자에 대한 Fnd0ManageSurrogatePrivilege 조건을 평가합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="ko_KR" status="Approved">조건은 Awp0NewWorkflowProcess 명령이 보이는지 여부를 검사합니다. 이 조건은 입력 비즈니스 개체가 복제 개체이고 체크아웃될 경우 또는 복제 개체가 아니고 체크아웃되지 않을 경우 명령을 사용할 수 있습니다. 게다가, 이렇게 하면 명령을 사용할 수 있도록 fnd0CurrentChangeContext 속성 값이 null로 설정됩니다. 또한, 제공자에 따라 명령을 사용할 수 있도록 지원되는 올바른 개체 유형을 결정하는 클라이언트측의 추가 가시성 논리가 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0OpenInboxLocation 명령이 보이는지 여부를 검사합니다. 이 조건은 선택한 사용자 개체가 현재 로그인한 사용자를 나타내는지 또는 로그인한 사용자에 대한 Fnd0AccessInboxPrivilege 조건을 평가할지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="ko_KR" status="Approved">조건은 Awp0OutOfOffice 명령이 보이는지 여부를 검사합니다. 이 조건은 선택한 사용자 개체가 현재 로그인한 사용자를 나타내는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0PerformTask 명령이 보이는지 여부를 검사합니다. 이 조건은 로그인된 사용자가 선택한 EPMTask 또는 사인오프 개체를 수행할 수 있는 유효한 사용자인지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="ko_KR" status="Approved">조건은 Awp0PromoteTask 명령이 보이는지 여부를 검사합니다. 이 조건은 입력 비즈니스 개체가 EPMTask 또는 사인오프인지 결정하고 awp0PromoteableByMeBehavior 속성 값을 기반으로 수준 올리기 명령을 사용할 수 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0ReassignTask 명령이 보이는지 여부를 검사합니다. 이 조건은 선택 개체의 루트 타스크가 완료되지 않았는지 여부를 결정하고 Fnd0AssignTaskPrivilege 조건을 충족합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0Release 명령이 보이는지 여부를 검사합니다. 이 조건은 로그인한 사용자가 EPMTask 또는 사인오프 개체의 활성 대리자인지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="ko_KR" status="Approved">조건은 Awp0ReplaceMultipleParticipants 명령이 보이는지 여부를 검사합니다. 이 조건은 입력 비즈니스 개체가 아이템 리비전 또는 아이템 리비전의 하위 유형인지 여부를 결정합니다. 또한, 최소 두 가지 올바른 개체가 선택되도록 결정하는 클라이언트측의 추가 가시성 논리가 있습니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0StandIn 명령이 보이는지 여부를 검사합니다. 이 조건은 로그인된 사용자가 유효한 대리자이고 EPMTask 또는 사인오프 개체의 활성 대리자 값이 설정되어 있지 않은 경우 명령을 활성화합니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="ko_KR" status="Approved">이 조건은 Awp0RemoveSurrogate 명령이 보이는지 여부를 검사합니다. 이 조건은 로그인된 사용자가 대리 사용자를 수정할 수 있는 권한이 있는지 여부를 결정합니다.</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="ko_KR" status="Approved">이 조건은 "Awp0ClaimTask" 명령이 보이는지 여부를 결정합니다. 이 조건은 조건 "Fnd0AssignTaskPrivilege"가 true 또는 false로 평가하는지 여부, 그리고 로그인한 사용자가 EPMTask 또는 사인오프를 위한 리소스 풀의 회원인지 여부를 결정합니다.</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="ko_KR" status="Approved">타스크 중단 명령 조건</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="ko_KR" status="Approved">분류</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="ko_KR" status="Approved">현재 사용자가 활성 개체를 분류할 수 있는지 여부를 확인하는 조건입니다.</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="ko_KR" status="Approved">공동 작업 데이터 제공자</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="ko_KR" status="Approved">컴포넌트 추가</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="ko_KR" status="Approved">3D Publishing에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="ko_KR" status="Approved">Creo에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="ko_KR" status="Approved">Solid Edge에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="ko_KR" status="Approved">Solid Edge에서 열기 - Illustrator</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="ko_KR" status="Approved">Solid Edge 구조 편집기에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="ko_KR" status="Approved">SolidWorks에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="ko_KR" status="Approved">AutoCAD에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="ko_KR" status="Approved">Inventor에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="ko_KR" status="Approved">CATIA에서 열기</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="ko_KR" status="Approved">SampleCAD에서 열기</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="ko_KR" status="Approved">컴포넌트 추가 명령을 언제 볼 수 있는지를 결정하는 서버측 가시성 조건입니다. 이것은 각 CAD 응용 프로그램에 지원되는 열린 유형에 대한 환경설정 값을 확인하면 동작합니다. 명령이 보이기 전에 호스팅 모드에서 Active Workspace가 실행 중인지 여부를 결정하기 위한 것처럼 추가적인 클라이언트측 가시성 조건 또한 연관될 것입니다.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="ko_KR" status="Approved">"3D Publishing에서 열기" 명령의 가시성을 결정합니다. 3D Publishing 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="ko_KR" status="Approved">"Creo에서 열기" 명령의 가시성을 결정합니다. Creo 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="ko_KR" status="Approved">"Solid Edge에서 열기" 명령의 가시성을 결정합니다. Solid Edge 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="ko_KR" status="Approved">"Solid Edge에서 열기 - Illustrator" 명령의 가시성을 결정합니다. Solid Edge - Illustrator 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="ko_KR" status="Approved">"Solid Edge 구조 편집기에서 열기" 명령의 가시성을 결정합니다. Solid Edge 구조 편집기 응용 프로그램에 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="ko_KR" status="Approved">"SolidWorks에서 열기" 명령의 가시성을 결정합니다. SolidWorks 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="ko_KR" status="Approved">"AutoCAD에서 열기" 명령의 가시성을 결정합니다. AutoCAD 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="ko_KR" status="Approved">"Inventor에서 열기" 명령의 가시성을 결정합니다. Inventor 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="ko_KR" status="Approved">"CATIA에서 열기" 명령의 가시성을 결정합니다. CATIA 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="ko_KR" status="Approved">"SampleCAD에서 열기" 명령의 가시성을 결정합니다. SampleCAD 응용 프로그램에 대해 지원되는 열린 유형의 환경설정 값을 확인합니다. 명령이 보이기 전에 추가 클라이언트측 가시성 조건이 연결됩니다(Active Workspace가 호스팅 모드에서 실행 중인지 여부를 파악하는 항목처럼).</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="ko_KR" status="Approved">달력 데이터 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="ko_KR" status="Approved">조직 트리 제공자</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="ko_KR" status="Approved">타스크 제공자</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

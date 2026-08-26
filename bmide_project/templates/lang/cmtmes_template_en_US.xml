@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="en_US" status="Approved">Data Collection Definition</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="en_US" status="Approved">Planner Input Field</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="en_US" status="Approved">Standard Text Element</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="en_US" status="Approved">Description</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="en_US" status="Approved">Is Optional</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="en_US" status="Approved">List Of Values</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="en_US" status="Approved">Max</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="en_US" status="Approved">Min</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="en_US" status="Approved">Name</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="en_US" status="Approved">DCD Order Number</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="en_US" status="Approved">Maximum Length</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="en_US" status="Approved">Time Format</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="en_US" status="Approved">Type</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="en_US" status="Approved">Associated Data Collection Definitions</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="en_US" status="Approved">Is Standard Text Element Active</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="en_US" status="Approved">Object Data</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="en_US" status="Approved">Associated Planner Fields</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="en_US" status="Approved">Associated Data Collection Definitions</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="en_US" status="Approved">Associated Standard Text Elements</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="en_US" status="Approved">Associated Data Collection Definitions</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="en_US" status="Approved">Associated Data Collection Definitions</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="en_US" status="Approved">Associated Standard Text Elements</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Boolean Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="en_US" status="Approved">Boolean Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="en_US" status="Approved">Planner Input Field Boolean Form Storage DEPRECATED</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="en_US" status="Approved">Boolean Planner Field DEPRECATED</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Buyoff Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="en_US" status="Approved">Buyoff Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="en_US" status="Approved">Data Collection Definition Base Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="en_US" status="Approved">Data Collection Base Form</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="en_US" status="Approved">Data Collection Definition Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="en_US" status="Approved">Data Collection Details</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="en_US" status="Approved">Data Collection Override</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="en_US" status="Approved">Data Collection Definition</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="en_US" status="Approved">Data Collection Definition DurationDCDFrmStorage</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="en_US" status="Approved">Duration Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition End Time Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="en_US" status="Approved">Procedure Completion Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Image Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="en_US" status="Approved">Image Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Integer Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="en_US" status="Approved">Integer Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="en_US" status="Approved">Planner Input Field Integer Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="en_US" status="Approved">Integer Planner Field</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition LOV Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="en_US" status="Approved">LOV Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="en_US" status="Approved">Planner Input Field LOV Base Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="en_US" status="Approved">List of value Planner Field Base</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="en_US" status="Approved">Planner Input Field Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="en_US" status="Approved">Planner Field Base</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="en_US" status="Approved">Planner Input Field Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="en_US" status="Approved">Planner Field Details</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="en_US" status="Approved">Planner Input Field Override</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="en_US" status="Approved">Planner Input Field</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Real Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="en_US" status="Approved">Real Number Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="en_US" status="Approved">Planner Input Field Real Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="en_US" status="Approved">Real Number Planner Field</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="en_US" status="Approved">Standard Text Element Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="en_US" status="Approved">Standard Text Element Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="en_US" status="Approved">Standard Text Element Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="en_US" status="Approved">Standard Text Element RevisionMaster</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="en_US" status="Approved">Standard Text Element Revision</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="en_US" status="Approved">Standard Text Element</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="en_US" status="Approved">Standard Text Library Folder Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="en_US" status="Approved">Standard Text Library Folder Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="en_US" status="Approved">Standard Text Library Folder Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="en_US" status="Approved">Standard Text Library Folder RevisionMaster</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="en_US" status="Approved">Standard Text Folder Revision</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="en_US" status="Approved">Standard Text Folder</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="en_US" status="Approved">Standard Text Library Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="en_US" status="Approved">Standard Text Library Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="en_US" status="Approved">Standard Text Library Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="en_US" status="Approved">Standard Text Library RevisionMaster</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="en_US" status="Approved">Standard Text Library Revision</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="en_US" status="Approved">Standard Text Library</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition String Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="en_US" status="Approved">String Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="en_US" status="Approved">Planner Input Field String Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="en_US" status="Approved">String Planner Field</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="en_US" status="Approved">Work Instructions Symbol Folder</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="en_US" status="Approved">Work Instructions Symbol Library</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="en_US" status="Approved">Work Instructions Symbol Relation</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="en_US" status="Approved">Work Instructions Symbol</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="en_US" status="Approved">Data Collection Definition Time Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="en_US" status="Approved">Time Stamp Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="en_US" status="Approved">Planner Input Field Time Form Storage DEPRECATED</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="en_US" status="Approved">Time Planner Field DEPRECATED</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="en_US" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="en_US" status="Approved">User Defined LOV Data Collection</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="en_US" status="Approved">Work Instructions Assets Relation</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="en_US" status="Approved">Work Instructions Assets</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="en_US" status="Approved">Work Instructions Object Template Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="en_US" status="Approved">Work Instructions Object Template Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="en_US" status="Approved">Work Instructions Object Template Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="en_US" status="Approved">Work Instructions Object Template Revision</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="en_US" status="Approved">Work Instructions Object Template</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="en_US" status="Approved">Work Instructions Preview Relation</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="en_US" status="Approved">Work Instructions Preview</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="en_US" status="Approved">Work Instructions Template Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="en_US" status="Approved">Work Instructions Template Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="en_US" status="Approved">Work Instructions Template Revision Master</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="en_US" status="Approved">Work Instructions Document Template Revision</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="en_US" status="Approved">Work Instructions Document Template</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="en_US" status="Approved">PDF Report Content Relation</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="en_US" status="Approved">PDF Report Inputs Relation</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="en_US" status="Approved">PDF Report Inputs</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="en_US" status="Approved">PDF Report Inputs Relation</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="en_US" status="Approved">PDF Report Relation</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="en_US" status="Approved">PDF Report Template</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="en_US" status="Approved">PDF Report</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="en_US" status="Approved">PDF Report Template Relation</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="en_US" status="Approved">Textual Work Instruction Reference Information Form Storage</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="en_US" status="Approved">Textual Work Instruction Reference Information Form</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="en_US" status="Approved">Textual Work Instruction Reference Information Relation</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="en_US" status="Approved">String may consist of spaces and digits.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="en_US" status="Approved">String may consist of spaces and upper case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="en_US" status="Approved">String may consist of spaces, lower case English characters, upper case English characters and digits.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="en_US" status="Approved">String may consist of lower case and upper case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="en_US" status="Approved">String may consist of spaces and lower case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="en_US" status="Approved">String may consist of digits.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="en_US" status="Approved">String may consist of upper case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="en_US" status="Approved">String may consist of lower case and upper case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="en_US" status="Approved">String may consist of lower case English characters.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="en_US" status="Approved">String may consist of lower case English characters, upper case English characters, digits, and under score.</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="en_US" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="en_US" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="en_US" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="en_US" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="en_US" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="en_US" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="en_US" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="en_US" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="en_US" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="en_US" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="en_US" status="Approved">Data Collection</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="en_US" status="Approved">Planner Field</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="en_US" status="Approved">Standard Text Instance</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="en_US" status="Approved">Block field from editing in MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="en_US" status="Approved">Recovery ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="en_US" status="Approved">Is Optional</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="en_US" status="Approved">Block field from editing in MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="en_US" status="Approved">Recovery ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="en_US" status="Approved">Placeholder String</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="en_US" status="Approved">Is Optional</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="en_US" status="Approved">DCD Order Number</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="en_US" status="Approved">DCD Order Number</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="en_US" status="Approved">Minimum Alert Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="en_US" status="Approved">Out of Limits behavior</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="en_US" status="Approved">Alert Maximum Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="en_US" status="Approved">Minimum Alert Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="en_US" status="Approved">Caution Maximum Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="en_US" status="Approved">Caution Minimum Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="en_US" status="Approved">Out of Limits behavior</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="en_US" status="Approved">Recovery ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="en_US" status="Approved">Skip Validity Check</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="en_US" status="Approved">Recovery ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="en_US" status="Approved">Is Optional</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="en_US" status="Approved">Skip Validity Check</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="en_US" status="Approved">Minimum Alert Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="en_US" status="Approved">Number of Decimal Places</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="en_US" status="Approved">Out of Limits behavior</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="en_US" status="Approved">Alert Maximum Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="en_US" status="Approved">Minimum Alert Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="en_US" status="Approved">Caution Maximum Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="en_US" status="Approved">Caution Minimum Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="en_US" status="Approved">Data Acquisition Method</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="en_US" status="Approved">Number of Decimal Places</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="en_US" status="Approved">Out of Limits behavior</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="en_US" status="Approved">Number Of Decimal Places</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="en_US" status="Approved">Maximum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="en_US" status="Approved">Minimum Allowed Value</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="en_US" status="Approved">Is Standard Text Element Active</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="en_US" status="Approved">Number of Characters</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="en_US" status="Approved">Allowed Characters</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="en_US" status="Approved">Number of Characters</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="en_US" status="Approved">Allowed Characters</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="en_US" status="Approved">Maximum Length</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="en_US" status="Approved">Allowed Characters</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="en_US" status="Approved">Default Value</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="en_US" status="Approved">Time Format</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="en_US" status="Approved">Time Format</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="en_US" status="Approved">Value</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="en_US" status="Approved">List Of Values</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="en_US" status="Approved">List Of Values</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="en_US" status="Approved">Work Instructions String Keys</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="en_US" status="Approved">Work Instructions Strings</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="en_US" status="Approved">Template Data Source</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="en_US" status="Approved">Contains 2D Assets?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="en_US" status="Approved">Contains 3D Assets?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="en_US" status="Approved">Contains Simulation Assets?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="en_US" status="Approved">Template Specification</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="en_US" status="Approved">Referenced Objects</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="en_US" status="Approved">Reference IDs</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="en_US" status="Approved">Referenced Objects</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="en_US" status="Approved">Reference IDs</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="en_US" status="Approved">Standard Text Release Status</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="en_US" status="Approved">Automatic</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="en_US" status="Approved">Manual</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="en_US" status="Approved">Semi-Automatic</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="en_US" status="Approved">A message is shown to the operator</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="en_US" status="Approved">The result is a part which is defective</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="en_US" status="Approved">Will result in non-conformance</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="en_US" status="Approved">Manufacturing Process Planner</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="en_US" status="Approved">Process Simulate</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

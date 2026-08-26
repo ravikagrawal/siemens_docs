@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="zh_TW" status="Approved">4GD 產品結構提供程式</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="zh_TW" status="Approved">設計元素</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="zh_TW" status="Approved">子集</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="zh_TW" status="Approved">來源物件參考者提供程式</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="zh_TW" status="Approved">所用工作集提供程式</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="zh_TW" status="Approved">來源物件有效性</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="zh_TW" status="Approved">來源物件上次修改使用者</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="zh_TW" status="Approved">來源物件所有權群組</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="zh_TW" status="Approved">來源物件所有權使用者</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="zh_TW" status="Approved">來源物件發佈日期</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="zh_TW" status="Approved">來源物件敘述</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="zh_TW" status="Approved">來源物件發佈狀態</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="zh_TW" status="Approved">來源物件版本 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="zh_TW" status="Approved">來源物件名稱</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="zh_TW" status="Approved">類別</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="zh_TW" status="Approved">來源物件 ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="zh_TW" status="Approved">來源物件</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="zh_TW" status="Approved">來源物件</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="zh_TW" status="Approved">此條件確定「顯示修訂」指令在 4g 設計解決方案中是否可見。</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="zh_TW" status="Approved">此條件確定使用者是否具有足夠的權限來刪除所選物件。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="zh_TW" status="Approved">重播子集配置方式條件。</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="zh_TW" status="Approved">此條件決定通過的業務物件是否有權顯示「另存新檔/修訂」指令。它對除條件元素之外的業務物件返回 true。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

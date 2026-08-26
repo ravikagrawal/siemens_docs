@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:00 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="uk_UA" status="Approved">Аналітик</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="uk_UA" status="Approved">Затронуто</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="uk_UA" status="Approved">Проблеми</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="uk_UA" status="Approved">Рішення</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="uk_UA" status="Approved">Плани</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="uk_UA" status="Approved">Інструменти</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="uk_UA" status="Approved">Змінити посилання</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="uk_UA" status="Approved">Зв'язок управління змінами</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="uk_UA" status="Approved">Рішення зіткнень</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="uk_UA" status="Approved">Рада з впровадження змін</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="uk_UA" status="Approved">Змінити довідник номенклатури</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="uk_UA" status="Approved">Змінити картку виробу</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="uk_UA" status="Approved">Майстер зміни ревізії елемента</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="uk_UA" status="Approved">Змінити основну версію елемента</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="uk_UA" status="Approved">Змінити елемент</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="uk_UA" status="Approved">Майстер повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="uk_UA" status="Approved">Майстер повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="uk_UA" status="Approved">Майстер ревізії повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="uk_UA" status="Approved">Основна Версія Повідомлення Про Зміну</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="uk_UA" status="Approved">Повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="uk_UA" status="Approved">Майстер запиту на зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="uk_UA" status="Approved">Майстер запиту на зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="uk_UA" status="Approved">Майстер ревізії запиту на зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="uk_UA" status="Approved">Головна версія запиту на зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="uk_UA" status="Approved">Запит на внесення змін</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="uk_UA" status="Approved">Рада з розгляду змін</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="uk_UA" status="Approved">Спеціаліст із управління змінами I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="uk_UA" status="Approved">Спеціаліст із управління змінами II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="uk_UA" status="Approved">Спеціаліст зі змін III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="uk_UA" status="Approved">Головне сховище елементів дій</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="uk_UA" status="Approved">Майстер пунктів дій</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій операцій</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій завдань</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="uk_UA" status="Approved">Ревізія завдання</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="uk_UA" status="Approved">Пункт дії</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="uk_UA" status="Approved">Елемент аудиту</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="uk_UA" status="Approved">Авторизація зміни розмітки</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="uk_UA" status="Approved">Відомість матеріалів має форму заміщення</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="uk_UA" status="Approved">Перед залежністю</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="uk_UA" status="Approved">Основне сховище аудиту конфігурації</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="uk_UA" status="Approved">Майстер аудиту конфігурації</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="uk_UA" status="Approved">Головне сховище редакцій конфігураційного аудиту</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії аудиту конфігурації</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="uk_UA" status="Approved">Ревізія аудиту конфігурації</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="uk_UA" status="Approved">Аудит конфігурації</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="uk_UA" status="Approved">Співавтор</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="uk_UA" status="Approved">Змінити правки</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="uk_UA" status="Approved">Паралельна залежність</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="uk_UA" status="Approved">Список запитів на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="uk_UA" status="Approved">Майстер запиту на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="uk_UA" status="Approved">Довідник запитів на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="uk_UA" status="Approved">Майстер-форма ревізії запиту на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="uk_UA" status="Approved">Ревізія запиту на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="uk_UA" status="Approved">Запит на відхилення</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="uk_UA" status="Approved">Змінити блок виразу чинності</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="uk_UA" status="Approved">Сховище загальних шаблонів перевірок</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="uk_UA" status="Approved">Універсальний майстер огляду</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="uk_UA" status="Approved">Сховище головної ревізії загального огляду</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій загального огляду</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="uk_UA" status="Approved">Ревізія загального огляду</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="uk_UA" status="Approved">Загальний огляд</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="uk_UA" status="Approved">Заміна майстер-шаблону типового наряду-замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="uk_UA" status="Approved">Майстер універсального робочого замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="uk_UA" status="Approved">Заміна головної ревізії загального робочого замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії типового виробничого замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="uk_UA" status="Approved">Ревізія типового виробничого замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="uk_UA" status="Approved">Універсальне наряд-замовлення</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="uk_UA" status="Approved">Змінити простір</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="uk_UA" status="Approved">Договір</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="uk_UA" status="Approved">Не зачеплено</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="uk_UA" status="Approved">Пропозиція</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="uk_UA" status="Approved">Включає</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="uk_UA" status="Approved">Об'єднано</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="uk_UA" status="Approved">Попередня чинність</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="uk_UA" status="Approved">Редагувати властивість</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="uk_UA" status="Approved">Запропонований об'єкт, що зазнає впливу</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="uk_UA" status="Approved">Створює завдання</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="uk_UA" status="Approved">Видалена лінія</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="uk_UA" status="Approved">Сховище майстра простих змін</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="uk_UA" status="Approved">Майстер простих змін</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="uk_UA" status="Approved">Сховище майстра ревізій для простих змін</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="uk_UA" status="Approved">Майстер простої ревізії змін</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="uk_UA" status="Approved">Ревізія простої зміни</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="uk_UA" status="Approved">Проста зміна</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="uk_UA" status="Approved">Робоче середовище</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="uk_UA" status="Approved">Майстер універсального повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="uk_UA" status="Approved">Майстер узагальненого повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="uk_UA" status="Approved">Майстер версій універсального повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="uk_UA" status="Approved">Ревізія типового повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="uk_UA" status="Approved">Основна версія універсального повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="uk_UA" status="Approved">Загальне повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="uk_UA" status="Approved">Майстер узагальненого запиту на зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="uk_UA" status="Approved">Майстер універсального запиту на зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="uk_UA" status="Approved">Майстер ревізії універсального запиту на зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="uk_UA" status="Approved">Ревізія універсального запиту на зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="uk_UA" status="Approved">Головна версія типового запиту на зміну</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="uk_UA" status="Approved">Універсальний запит на зміну</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="uk_UA" status="Approved">Майстер загального звіту про проблеми</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="uk_UA" status="Approved">Майстер загального звіту про проблему</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="uk_UA" status="Approved">Майстер ревізії універсального звіту про проблему</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="uk_UA" status="Approved">Ревізія загального звіту про проблему</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="uk_UA" status="Approved">Шаблон версії універсального звіту про проблему</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="uk_UA" status="Approved">Загальний звіт про помилку</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="uk_UA" status="Approved">Майстер створення звіту про проблему</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="uk_UA" status="Approved">Майстер створення звіту про проблему</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="uk_UA" status="Approved">Майстер зміни версії звіту про проблему</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="uk_UA" status="Approved">Довідник версій звіту про проблему</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="uk_UA" status="Approved">Звіт про проблему</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="uk_UA" status="Approved">Заявник</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи доступні Cm0BeforeDependency та Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи доступні Cm0BeforeDependency та Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="uk_UA" status="Approved">Ця умова визначає, чи доступні Cm0BeforeDependency та Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна редагувати властивість cm0Disposition відношення CMHasImpactedItem.</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="uk_UA" status="Approved">Ця умова активує фільтрацію шаблонів за типами й підтипами ревізій простої зміни.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasImpactedItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasImpactedItem для заданого вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="uk_UA" status="Approved">Щоб додати елементи, на які поширюється зміна, елемент зміни має бути у стані "Відкритий".</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="uk_UA" status="Approved">Для додавання елементів, на які впливає зміна, користувач повинен мати рівень ліцензії Authoring, бути ініціатором запиту, аналітиком або учасником змін, мати дозвіл на запис елемента зміни та елемент зміни має перебувати в стані "Відкрито".</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу Cm0HasNonImpactedItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу Cm0HasNonImpactedItem для вказаного вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="uk_UA" status="Approved">Для додавання незатронутих елементів користувач повинен мати рівень ліцензії Authoring, роль Requestor, Analyst або Change Contributor, права на запис до елемента зміни та елемент повинен бути в стані Open.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasProblemItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasProblemItem для заданого вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="uk_UA" status="Approved">Щоб додати проблемні елементи, елемент зміни має бути відкритим.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="uk_UA" status="Approved">Для додавання проблемних елементів користувач повинен мати доступ для запису до елемента зміни, а елемент зміни має бути у стані "Відкрито".</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasSolutionItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова дозволяє користувачу, призначеному учасником-аналітиком з рівнем ліцензії "Авторинг", додавати Елемент рішення лише якщо Повідомлення про зміну перебуває у стані "Виконується", "Затверджено" та "Відкрито"</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="uk_UA" status="Approved">Для додавання елементів рішення користувач повинен бути аналітиком, учасником змін або призначеним виконавцем запланованого завдання, а елемент зміни має бути у стані "Відкрито".</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="uk_UA" status="Approved">Для додавання елементів рішення користувач повинен мати рівень ліцензії Authoring, мати роль Analyst або Change Contributor, мати дозвіл на запис елемента зміни та бути в стані "Відкрито" і не бути в стані "Перевірка".</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasWorkBreakdown для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна для заданого вторинного об'єкта створювати зв'язки типу CMHasWorkBreakdown.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMHasWorkBreakdown.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="uk_UA" status="Approved">Щоб додати довідкові елементи, елемент зміни має бути у відкритому стані.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити "Учасників змін".</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="uk_UA" status="Approved">Ця умова визначає, чи дозволено виконання змін.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач створити повідомлення про зміну.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач створити запит на зміну.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач створити елемент дії.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="uk_UA" status="Approved">Ця умова перевіряє стан аудиту конфігурації</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач створити запит на відхилення.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="uk_UA" status="Approved">Ця умова перевіряє стан аудиту конфігурації</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу Cm0Incorporates для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна для заданого вторинного об'єкта створювати зв'язки типу Cm0Incorporates.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу Cm0Incorporates.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="uk_UA" status="Approved">Ця умова перевіряє стан аудиту конфігурації</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="uk_UA" status="Approved">Перевіряє, чи можна редагувати статус інкорпорації для елемента, що зазнав впливу.</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач створити звіт про проблему.</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="uk_UA" status="Approved">Умова для визначення, чи дозволено створювати тип зміни.</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="uk_UA" status="Approved">Ця умова визначає, чи активна задана послідовність ревізій елемента.</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити Аналітика.</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="uk_UA" status="Approved">Ця умова визначає, чи є поточний користувач, який увійшов у систему, аналітиком ревізії елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="uk_UA" status="Approved">Ця умова визначає, чи є поточний авторизований користувач автором.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="uk_UA" status="Approved">Застаріло. Перегляньте оголошення служби підтримки 13.1 - ця умова визначає, чи можна створювати зв'язки типу CMHasImpactedItem для вказаного первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створювати відношення типу CMHasImpactedItem для вказаного вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створювати зв'язки типу CMHasImpactedItem для завдання.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створити відношення CMHasImpactedItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="uk_UA" status="Approved">Застаріло. Див. оголошення служби підтримки 13.1 - ця умова визначає, чи можна створювати зв'язки типу CMHasProblemItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="uk_UA" status="Approved">Застаріло. Див. повідомлення служби підтримки 13.1. Ця умова визначає, чи можна створювати зв'язки типу CMHasProblemItem для заданого вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створювати зв'язки типу CMHasProblemItem разом із завданням.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створити зв'язок CMHasProblemItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="uk_UA" status="Approved">Застаріло. Дивіться оголошення служби підтримки 13.1 - Ця умова визначає, чи можна створювати зв'язки типу CMHasSolutionItem для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="uk_UA" status="Approved">Застаріло. Див. оголошення служби підтримки 13.1. Ця умова визначає, чи можна створювати відношення типу CMHasSolutionItem для вказаного вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="uk_UA" status="Approved">ЗАСТАРІЛО. Дивіться оголошення служби підтримки 13.1 - Ця умова визначає, чи можна створювати зв'язки типу CMHasSolutionItem під час створення завдання.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створити зв'язок CMHasSolutionItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи можна створювати зв'язки типу CMHasWorkBreakdown для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="uk_UA" status="Approved">Застаріло. Дивіться оголошення служби підтримки 13.1 - ця умова визначає, чи можна створювати зв'язки типу CMHasWorkBreakdown для вказаного вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="uk_UA" status="Approved">Застаріло. Див. оголошення служби підтримки 13.1. Ця умова визначає, чи можна створювати зв'язки типу CMHasWorkBreakdown.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMImplements для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMImplements для заданого вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="uk_UA" status="Approved">Щоб створити зміну та додати між елементами зміни зв'язок "Реалізує", користувач повинен мати рівень ліцензії "Авторинг", а елемент зміни має бути в стані "Відкритий".</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMReferences для заданого первинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMReferences для заданого вторинного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створювати зв'язки типу CMReferences для завдання.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="uk_UA" status="Approved">Для додавання довідкових елементів користувач повинен мати право на запис елемента зміни, а елемент має бути в стані "Відкрито".</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="uk_UA" status="Approved">Ця умова визначає, чи дозволено виконання зміни.</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити Раду з впровадження змін.</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛЕ. Див. оголошення служби підтримки 13.1 - Ця умова визначає, чи може користувач створити повідомлення про зміну.</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВ. ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи може користувач створити запит на зміну.</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити Комісію з перегляду змін.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити спеціаліста з управління змінами 1.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="uk_UA" status="Approved">Ця умова визначає, чи є поточний користувач, який виконав вхід, спеціалістом 1 із змін для цієї редакції елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити спеціаліста з управління змінами 2.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="uk_UA" status="Approved">Ця умова визначає, чи є поточний користувач, який увійшов у систему, спеціалістом зі змін 2 у ревізії елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="uk_UA" status="Approved">Ця умова визначає, чи можна призначити Change Specialist 3.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="uk_UA" status="Approved">Ця умова перевіряє, чи є поточний користувач, який увійшов у систему, спеціалістом Change Specialist 3 відповідної редакції елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛЕ. ДИВІТЬСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи може користувач створити запит на відхилення.</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="uk_UA" status="Approved">Ця умова визначає, чи можна створити параметри набуття чинності для відповідної ревізії елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="uk_UA" status="Approved">Ця умова визначає, чи можна редагувати елемент, на який впливає зміна, у рамках пов'язаної редакції елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="uk_UA" status="Approved">Ця умова визначає, чи можна редагувати елемент, що зазнав впливу, для пов'язаного завдання.</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="uk_UA" status="Approved">ЗАСТАРІЛО. ДИВІТЕСЯ ОГОЛОШЕННЯ СЛУЖБИ ПІДТРИМКИ 13.1 - Ця умова визначає, чи може користувач створити звіт про проблему.</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="uk_UA" status="Approved">Ця умова визначає, чи може запитувач бути призначеним.</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="uk_UA" status="Approved">Ця умова визначає, чи є поточний авторизований користувач ініціатором запиту на зміну редакції елемента зміни.</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="uk_UA" status="Approved">Ця умова визначає, чи може користувач застосувати Roll-up.</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="uk_UA" status="Approved">Завершити злиття</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="uk_UA" status="Approved">Часткове злиття</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="uk_UA" status="Approved">Запитувана зміна полягає в створенні нового елемента замість елемента, що зазнає змін.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="uk_UA" status="Approved">Запитувана зміна полягає у заміні заторкнутого елемента на наявний.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="uk_UA" status="Approved">Необхідно переглянути відповідний елемент.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="uk_UA" status="Approved">Остання версія у будь-якій активній або публічній зміні.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="uk_UA" status="Approved">Остання версія в цільовому документі: лише зміни чи публічна версія</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="uk_UA" status="Approved">Завершити</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="uk_UA" status="Approved">Частковий</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="uk_UA" status="Approved">Створити Новий</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="uk_UA" status="Approved">Замінити на наявний</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="uk_UA" status="Approved">Редагувати</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="uk_UA" status="Approved">Затвердження</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="uk_UA" status="Approved">Внесок</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="uk_UA" status="Approved">Опрацювання</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="uk_UA" status="Approved">Випущено</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="uk_UA" status="Approved">Усі активні ECN</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="uk_UA" status="Approved">Лише поточний ECN</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="uk_UA" status="Approved">Містить об'єднані дані екземплярів</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="uk_UA" status="Approved">Кількість відступів</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="uk_UA" status="Approved">Об'єднані властивості</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="uk_UA" status="Approved">Оновлені властивості</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="uk_UA" status="Approved">У режимі редагування</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="uk_UA" status="Approved">Одночасні зміни</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="uk_UA" status="Approved">Розміщення</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="uk_UA" status="Approved">Виконання повідомлень про зміни</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="uk_UA" status="Approved">Рішення</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="uk_UA" status="Approved">Статус включення</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="uk_UA" status="Approved">Походження</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="uk_UA" status="Approved">Батьківський елемент</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="uk_UA" status="Approved">Запитана зміна</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="uk_UA" status="Approved">Походження</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="uk_UA" status="Approved">Сайт-власник запропонованого проєкту</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="uk_UA" status="Approved">Спадкоємність</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="uk_UA" status="Approved">Створено на основі</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="uk_UA" status="Approved">Об'єкти в контексті</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="uk_UA" status="Approved">ID користувача-аналітика</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="uk_UA" status="Approved">Змінити ID користувача спеціаліста I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="uk_UA" status="Approved">Змінити ID Користувача Спеціаліста II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="uk_UA" status="Approved">Змінити ID користувача спеціаліста III рівня</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="uk_UA" status="Approved">Аналітик</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="uk_UA" status="Approved">Спеціаліст</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="uk_UA" status="Approved">Зовнішній ініціатор?</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="uk_UA" status="Approved">Автор</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="uk_UA" status="Approved">UID завдання віддаленого робочого процесу</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="uk_UA" status="Approved">Ініціатор</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="uk_UA" status="Approved">ID користувача-запитувача</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="uk_UA" status="Approved">Стислий опис</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="uk_UA" status="Approved">Зіткнення</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="uk_UA" status="Approved">Коментарі</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="uk_UA" status="Approved">Головна відповідальна особа офісу</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="uk_UA" status="Approved">Ініційовано аудитом</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="uk_UA" status="Approved">Зони</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="uk_UA" status="Approved">Тип дії</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="uk_UA" status="Approved">Номер завдання</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="uk_UA" status="Approved">Коментарі</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="uk_UA" status="Approved">Дата обробки</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="uk_UA" status="Approved">Номер аудиту</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="uk_UA" status="Approved">Змінити об'єкт</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="uk_UA" status="Approved">Оновлений Об'єкт</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="uk_UA" status="Approved">Повторюване відхилення</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="uk_UA" status="Approved">Обґрунтування повторюваного відхилення</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="uk_UA" status="Approved">Номер EDR</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="uk_UA" status="Approved">Тип відхилення</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="uk_UA" status="Approved">Номер EDR</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="uk_UA" status="Approved">Елемент аудиту наявний</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="uk_UA" status="Approved">Тип аудиту</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="uk_UA" status="Approved">Стан злиття</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="uk_UA" status="Approved">Змінити правки</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="uk_UA" status="Approved">Назва властивості</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="uk_UA" status="Approved">Початкове значення властивості</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="uk_UA" status="Approved">Оновлене значення властивості</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="uk_UA" status="Approved">Діти</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="uk_UA" status="Approved">Має дочірні вузли</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="uk_UA" status="Approved">Вже виявлено зіткнення</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="uk_UA" status="Approved">Проблемний об'єкт</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="uk_UA" status="Approved">Запропонована назва об'єкта, що зазнає впливу</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="uk_UA" status="Approved">Запропонований об'єкт впливу</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="uk_UA" status="Approved">Запропонований тип, що зазнає впливу</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="uk_UA" status="Approved">Пов'язані батьківські ревізії</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="uk_UA" status="Approved">Пов'язані ревізії використання</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="uk_UA" status="Approved">Відношення</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="uk_UA" status="Approved">Тип об'єкта-джерела</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="uk_UA" status="Approved">Об'єкт-джерело</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="uk_UA" status="Approved">Використання деталі</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="uk_UA" status="Approved">Номер SC</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="uk_UA" status="Approved">Номер SC</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="uk_UA" status="Approved">Прискорена обробка</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="uk_UA" status="Approved">Пропонована область чинності</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="uk_UA" status="Approved">Номер ECN</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="uk_UA" status="Approved">Номер ECN</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="uk_UA" status="Approved">Прискорений режим</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="uk_UA" status="Approved">Номер ECR</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="uk_UA" status="Approved">Номер ECR</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="uk_UA" status="Approved">Номер PR</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="uk_UA" status="Approved">Номер PR</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="uk_UA" status="Approved">Спільний</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="uk_UA" status="Approved">Критичний огляд проєктування</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="uk_UA" status="Approved">Аудит функціональної конфігурації</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="uk_UA" status="Approved">Аудит фізичної конфігурації</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="uk_UA" status="Approved">Огляд попереднього проєктування</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="uk_UA" status="Approved">Огляд готовності до тестування</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="uk_UA" status="Approved">Коли ніщо з перерахованого вище не відповідає потребам користувача. E.g., користувачі можуть не знати відповіді або хотіти вирішити пізніше.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="uk_UA" status="Approved">Змінити деталь і використати її в тому самому складанні.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="uk_UA" status="Approved">Не використовуйте решту деталей.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="uk_UA" status="Approved">Залиште деталі на виробництві такими, якими вони є сьогодні.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="uk_UA" status="Approved">The change as-defined for the Impacted Item has been implemented in a corresponding Solution Item and no subsequent changes will be required to fully incorporate the defined change.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="uk_UA" status="Approved">The change as-defined for the Impacted Item has been partially implemented into a corresponding Solution Item. The change will need to be fully incorporated by a subsequent change into the main chain of revisions of the Item.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="uk_UA" status="Approved">Зміна, визначена для елемента, на який вона поширюється, ще не реалізована у відповідному елементі рішення.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="uk_UA" status="Approved">Автоматичне злиття</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="uk_UA" status="Approved">Одночасна зміна</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="uk_UA" status="Approved">Затверджено</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="uk_UA" status="Approved">Відхилено</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="uk_UA" status="Approved">Виправити</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="uk_UA" status="Approved">Покращити</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="uk_UA" status="Approved">Запобігти</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="uk_UA" status="Approved">Скасовано</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="uk_UA" status="Approved">Закрито</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="uk_UA" status="Approved">Призупинено</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="uk_UA" status="Approved">Затверджено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="uk_UA" status="Approved">Відкладено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="uk_UA" status="Approved">Відхилено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="uk_UA" status="Approved">Дослідити</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="uk_UA" status="Approved">Немає</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="uk_UA" status="Approved">Завершити</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="uk_UA" status="Approved">Опрацювання</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="uk_UA" status="Approved">Виконання</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="uk_UA" status="Approved">Перевірка</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="uk_UA" status="Approved">Низький</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="uk_UA" status="Approved">Середній</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="uk_UA" status="Approved">Високий</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="uk_UA" status="Approved">Критичний</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="uk_UA" status="Approved">Ще одна проблема</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="uk_UA" status="Approved">Проблема підтверджена</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="uk_UA" status="Approved">Проблема не підтверджена</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="uk_UA" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="uk_UA" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="uk_UA" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="uk_UA" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="uk_UA" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="uk_UA" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="uk_UA" status="Approved">Ні</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="uk_UA" status="Approved">Так</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="uk_UA" status="Approved">Помилка</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="uk_UA" status="Approved">Немає</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="uk_UA" status="Approved">Прохід</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="uk_UA" status="Approved">Завершити</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="uk_UA" status="Approved">Опрацювання</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="uk_UA" status="Approved">Виконується</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="uk_UA" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="uk_UA" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="uk_UA" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="uk_UA" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="uk_UA" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="uk_UA" status="Approved">Інше</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="uk_UA" status="Approved">Доопрацювання</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="uk_UA" status="Approved">Обрізок</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="uk_UA" status="Approved">Використовувати як є</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="uk_UA" status="Approved">Скасовано</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="uk_UA" status="Approved">Об'єднано</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="uk_UA" status="Approved">Необхідне злиття</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="uk_UA" status="Approved">Об'єднання не потрібно</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="uk_UA" status="Approved">Автоматичне злиття</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="uk_UA" status="Approved">Одночасна зміна</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="uk_UA" status="Approved">Редагувати відомість матеріалів</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="uk_UA" status="Approved">Заміна відомості матеріалів</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="uk_UA" status="Approved">Змінити редакцію елемента</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="uk_UA" status="Approved">Ревізія повідомлення про зміну</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="uk_UA" status="Approved">Ревізія запиту на зміну</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="uk_UA" status="Approved">Ревізія звіту про проблему</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="uk_UA" status="Approved">Заміна Відомості матеріалів</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="uk_UA" status="Approved">Редагувати кількість у Відомості матеріалів</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="uk_UA" status="Approved">Ревізія виду Відомості матеріалів</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="uk_UA" status="Approved">Змінити ревізію</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="uk_UA" status="Approved">Тип зміни</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="uk_UA" status="Approved">Власний об'єкт</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="uk_UA" status="Approved">Похідний</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="uk_UA" status="Approved">Повне ім'я об'єкта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="uk_UA" status="Approved">Назва об'єкта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="uk_UA" status="Approved">Рядок Об'єкта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="uk_UA" status="Approved">Тип об'єкта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="uk_UA" status="Approved">Випадок</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="uk_UA" status="Approved">Переглянути ревізію проблемної відомості матеріалів</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="uk_UA" status="Approved">Різниця кількостей</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="uk_UA" status="Approved">Активна зміна для ревізії екземпляра</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="uk_UA" status="Approved">Активна зміна</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="uk_UA" status="Approved">Доповнення</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="uk_UA" status="Approved">Додавання</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="uk_UA" status="Approved">Скасування</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="uk_UA" status="Approved">Скасування</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="uk_UA" status="Approved">Змінити ревізію</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="uk_UA" status="Approved">Користувацька форма</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="uk_UA" status="Approved">Ревізія Подання Заторкнутої Відомості Матеріалів</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="uk_UA" status="Approved">Передача</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="uk_UA" status="Approved">Повна назва об'єкта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="uk_UA" status="Approved">Назва об'єкта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="uk_UA" status="Approved">Рядок Об'єкта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="uk_UA" status="Approved">Тип об'єкта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="uk_UA" status="Approved">Переглянути ревізію проблемної Відомості матеріалів</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="uk_UA" status="Approved">Змінити статус уподобаної редакції елемента</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="uk_UA" status="Approved">Змінити ревізію елемента</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="uk_UA" status="Approved">Режим спільного доступу до ревізії повідомлення про зміну</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="uk_UA" status="Approved">Аналітик</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="uk_UA" status="Approved">Коментарі при закритті</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="uk_UA" status="Approved">Дата закриття</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="uk_UA" status="Approved">Закриття</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="uk_UA" status="Approved">Коментарі диспозиції</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="uk_UA" status="Approved">Дата рішення</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="uk_UA" status="Approved">Розташування</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="uk_UA" status="Approved">Реалізовано</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="uk_UA" status="Approved">Змінити рівень зрілості</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="uk_UA" status="Approved">Рада з впровадження змін</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="uk_UA" status="Approved">Рада з розгляду змін</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="uk_UA" status="Approved">Спеціаліст із управління змінами I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="uk_UA" status="Approved">Спеціаліст із управління змінами II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="uk_UA" status="Approved">Спеціаліст із змін III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="uk_UA" status="Approved">Запитувач</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="uk_UA" status="Approved">Автоматично поширювати зв'язки</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="uk_UA" status="Approved">Покупці</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="uk_UA" status="Approved">Змінити учасників</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="uk_UA" status="Approved">Успадковувані типи</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="uk_UA" status="Approved">Конструктори</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="uk_UA" status="Approved">Інженери з виробництва</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="uk_UA" status="Approved">Оцінювачі фінансів</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="uk_UA" status="Approved">Змінювані проблеми</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="uk_UA" status="Approved">Редаговані посилання</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="uk_UA" status="Approved">Провідні дизайнери</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="uk_UA" status="Approved">Ревізії проблемних деталей</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="uk_UA" status="Approved">Інженери виробу</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="uk_UA" status="Approved">Диспетчери програм</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="uk_UA" status="Approved">Інженери якості</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="uk_UA" status="Approved">Відношення для автоматичного поширення під час створення похідних</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="uk_UA" status="Approved">Продажі</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="uk_UA" status="Approved">Клієнти</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="uk_UA" status="Approved">Огляд</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="uk_UA" status="Approved">Дата затвердження замовником</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="uk_UA" status="Approved">Пріоритет впровадження</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="uk_UA" status="Approved">Необхідне схвалення замовника</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="uk_UA" status="Approved">Спеціальна інструкція</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="uk_UA" status="Approved">Статус затвердження замовника</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="uk_UA" status="Approved">Удари</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="uk_UA" status="Approved">Змінювані торкнуті зв'язки</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="uk_UA" status="Approved">Змінювані зв'язки рішення</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="uk_UA" status="Approved">Одноразові витрати</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="uk_UA" status="Approved">Запропоноване рішення</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="uk_UA" status="Approved">Причина</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="uk_UA" status="Approved">Повторювані витрати</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="uk_UA" status="Approved">Дата технічної рекомендації</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="uk_UA" status="Approved">Пріоритет технічного огляду</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="uk_UA" status="Approved">Технічна рекомендація</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="uk_UA" status="Approved">Технічний огляд</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="uk_UA" status="Approved">Результати тестування у додатку</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="uk_UA" status="Approved">Коефіцієнти часу</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="uk_UA" status="Approved">Зіткнення</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="uk_UA" status="Approved">Гарантія недійсна</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="uk_UA" status="Approved">Змінювані заторкнуті зв'язки</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="uk_UA" status="Approved">Опис середовища</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="uk_UA" status="Approved">Удари</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="uk_UA" status="Approved">Послідовність подій</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="uk_UA" status="Approved">Рівень серйозності</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="uk_UA" status="Approved">Пріоритет технічної перевірки</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="uk_UA" status="Approved">Перевірка</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="uk_UA" status="Approved">Активна зміна</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="uk_UA" status="Approved">Створення інженерної зміни</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="uk_UA" status="Approved">LOV глобальних контекстів змін</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="uk_UA" status="Approved">Вхідний ECN</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="uk_UA" status="Approved">ECN вих.</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="uk_UA" status="Approved">Контекст глобальних змін</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="uk_UA" status="Approved">Контекст глобальних змін</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="uk_UA" status="Approved">Покупці</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="uk_UA" status="Approved">Конструктори</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="uk_UA" status="Approved">Виробничі інженери</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="uk_UA" status="Approved">Оцінювачі фінансів</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="uk_UA" status="Approved">Конструктори-ведення</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="uk_UA" status="Approved">Інженери продукту</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="uk_UA" status="Approved">Менеджери програм</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="uk_UA" status="Approved">Інженери якості</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="uk_UA" status="Approved">Продажі</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="uk_UA" status="Approved">Змінити дію</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="uk_UA" status="Approved">Змінити зв'язок</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

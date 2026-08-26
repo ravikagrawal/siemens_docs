@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="cs_CZ" status="Approved">Poskytovatel zarovnaného cíle</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="cs_CZ" status="Approved">Možné akce aktualizace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="cs_CZ" status="Approved">Aktualizace rozpisky</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="cs_CZ" status="Approved">Udává, zda je součást citlivá na barvu</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="cs_CZ" status="Approved">Udává, zda má součást menší dokončení</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="cs_CZ" status="Approved">Aktualizace rozpisky</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="cs_CZ" status="Approved">Vybarvená součást</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="cs_CZ" status="Approved">Menší dokončení</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="cs_CZ" status="Approved">Žádný</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="cs_CZ" status="Approved">Návrh získán outsourcingem</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="cs_CZ" status="Approved">Koupený návrh</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="cs_CZ" status="Approved">Interní návrh</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="cs_CZ" status="Approved">Zrušené přiřazení</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="cs_CZ" status="Approved">Zarovnat podle obecné součásti</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="cs_CZ" status="Approved">Kontexty zarovnaných součástí</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="cs_CZ" status="Approved">Stav vydání zarovnané součásti</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="cs_CZ" status="Approved">Zarovnané součásti</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="cs_CZ" status="Approved">Je součást zarovnána</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="cs_CZ" status="Approved">Je vyžadována součást</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="cs_CZ" status="Approved">Zarovnané součásti</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="cs_CZ" status="Approved">Standard</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="cs_CZ" status="Approved">Kontexty zarovnaných návrhů</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="cs_CZ" status="Approved">Stav vydání zarovnaného návrhu</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="cs_CZ" status="Approved">Zarovnané návrhy</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="cs_CZ" status="Approved">Je návrh zarovnán</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="cs_CZ" status="Approved">Je vyžadován návrh</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="cs_CZ" status="Approved">Zarovnané návrhy</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="cs_CZ" status="Approved">Typ dokončení</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="cs_CZ" status="Approved">Multibody</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="cs_CZ" status="Approved">Bezpečnostní součást</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="cs_CZ" status="Approved">Náhradní součást</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="cs_CZ" status="Approved">Technologický záměr</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="cs_CZ" status="Approved">Akce aktualizace</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="cs_CZ" status="Approved">Generování rozpisky bylo úspěšné</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="cs_CZ" status="Approved">Aktualizace rozpisky byla úspěšná</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="cs_CZ" status="Approved">Existuje zarovnání</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="cs_CZ" status="Approved">Definuje viditelnost příkazu "Vytvořit a aktualizovat". Je dostupné pouze pro objekty návrhu.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

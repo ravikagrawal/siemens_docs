@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="de_DE" status="Approved">4GD-Produktstruktur-Anbieter</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="de_DE" status="Approved">Konstruktionselement</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="de_DE" status="Approved">Untermenge</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="de_DE" status="Approved">Quellobjekt referenziert von Anbieter</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="de_DE" status="Approved">In Arbeitssatz-Anbieter verwendet</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="de_DE" status="Approved">Ausgangsobjektgültigkeit</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="de_DE" status="Approved">Ausgangsobjekt - Letzter ändernder Benutzer</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="de_DE" status="Approved">Eigentümergruppe des Ausgangsobjekts</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="de_DE" status="Approved">Eigentümerbenutzer des Ausgangsobjekts</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="de_DE" status="Approved">Ausgangsobjekt-Freigabedatum</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="de_DE" status="Approved">Ausgangsobjektbeschreibung</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="de_DE" status="Approved">Ausgangsobjekt-Freigabestatus</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="de_DE" status="Approved">Ausgangsobjekt-Änderungsstand-ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="de_DE" status="Approved">Ausgangsobjektname</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="de_DE" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="de_DE" status="Approved">Ausgangsobjekt-ID</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="de_DE" status="Approved">Ausgangsobjekt</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="de_DE" status="Approved">Ausgangsobjekt</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="de_DE" status="Approved">Diese Bedingung bestimmt, ob der Befehl "Revisionieren anzeigen" in der 4g Design-Lösung sichtbar sein soll.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="de_DE" status="Approved">Diese Bedingung legt fest, ob der Benutzer über ausreichende Berechtigungen verfügt, um das ausgewählte Objekt zu löschen.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="de_DE" status="Approved">Bedingung für das Wiederholen der Untersatzanweisung.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="de_DE" status="Approved">Diese Bedingung legt fest, ob das weitergegebene Geschäftsobjekt den Befehl "Speichern unter"/"Revisionieren" anzeigen darf. Sie gibt "true" für Geschäftsobjekte zurück, die kein Bedingungselement sind.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

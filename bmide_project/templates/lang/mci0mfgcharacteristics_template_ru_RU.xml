@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:06 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mci0InspectionRelation" locale="ru_RU" status="Approved">Связь измерения</key>
+           
+        <key id="BusinessObject{::}Mci0InspectionRevision" locale="ru_RU" status="Approved">Ревизия измерения</key>
+           
+        <key id="BusinessObject{::}Mci0Inspection" locale="ru_RU" status="Approved">Измерение</key>
+           
+        <key id="BusinessObject{::}Mci0PMIBop_Details" locale="ru_RU" status="Approved">Подробности технологического маршрута ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMICharacteristic" locale="ru_RU" status="Approved">ТУ Характеристика</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrmStrg" locale="ru_RU" status="Approved">Форма-хранения с характеристиками ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrm" locale="ru_RU" status="Approved">Форма с характеристиками ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIMetaData" locale="ru_RU" status="Approved">ТУ метаданные</key>
+           
+        <key id="BusinessObject{::}Mci0PMIStorage" locale="ru_RU" status="Approved">Хранение ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXmlRel" locale="ru_RU" status="Approved">Связь XML для ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXml" locale="ru_RU" status="Approved">XML ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMI_Details" locale="ru_RU" status="Approved">Подробности ТУ</key>
+           
+        <key id="BusinessObject{::}Mci0PMI" locale="ru_RU" status="Approved">Технические условия</key>
+           
+        <key id="PSOccurrence{::}Mci0MEInspect" locale="ru_RU" status="Approved">Технологический анализ</key>
+           
+        <key id="Property{::}BOMLine{::}Characteristics Type" locale="ru_RU" status="Approved">Тип характеристик ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}DCD Place Holder" locale="ru_RU" status="Approved">Заполнитель DCD</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Dimension Type" locale="ru_RU" status="Approved">Тип измерения ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Code" locale="ru_RU" status="Approved">Код ТУ (GDT)</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Text" locale="ru_RU" status="Approved">Текст ТУ (GDT)</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Is Composite FCF" locale="ru_RU" status="Approved">ТУ является составным объектом FCF</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Lower Spec Limit" locale="ru_RU" status="Approved">Нижнее ограничение для ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Marked As Deleted" locale="ru_RU" status="Approved">ТУ отмечено как удаленное</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Modifier" locale="ru_RU" status="Approved">ТУ Модификатор</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Nominal Value" locale="ru_RU" status="Approved">Номинальное значение ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Not For Inspection" locale="ru_RU" status="Approved">ТУ не для анализа</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Place Holder" locale="ru_RU" status="Approved">Заполнитель ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Primary Datum Ref" locale="ru_RU" status="Approved">Первичная ссылочная база ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Second Datum Ref" locale="ru_RU" status="Approved">Вторичная ссылочная база ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tertiary Datum Ref" locale="ru_RU" status="Approved">Ссылочная база ТУ третьего уровня</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tolerance Is Absolute" locale="ru_RU" status="Approved">Точность ТУ абсолютна</key>
+           
+        <key id="Property{::}BOMLine{::}PMI UOM" locale="ru_RU" status="Approved">UOM ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Upper Spec Limit" locale="ru_RU" status="Approved">Верхнее ограничение для ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}Tolerance Desc" locale="ru_RU" status="Approved">Описание допуска ТУ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationId" locale="ru_RU" status="Approved">PMI Association ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationType" locale="ru_RU" status="Approved">PMI Association Type</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Criticality" locale="ru_RU" status="Approved">Важность</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0DimensionType" locale="ru_RU" status="Approved">Тип измерения ТУ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0FrameLocation" locale="ru_RU" status="Approved">PMI Frame Location</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTCode" locale="ru_RU" status="Approved">Код СДФиР</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTText" locale="ru_RU" status="Approved">Текст СДФиР</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsAbsolutePMI" locale="ru_RU" status="Approved">Точность ТУ абсолютна</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPMICompositeFCF" locale="ru_RU" status="Approved">ТУ является составным объектом FCF</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPartPmi" locale="ru_RU" status="Approved">PMI Is Part</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0LowerSpecLimit" locale="ru_RU" status="Approved">Нижнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0MarkedAsDeleted" locale="ru_RU" status="Approved">Отмечено как удаленное</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Modifier" locale="ru_RU" status="Approved">ТУ Модификатор</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0NominalValue" locale="ru_RU" status="Approved">Номинальное значение</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiBaseUUID" locale="ru_RU" status="Approved">PMI Base UUID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiDescription" locale="ru_RU" status="Approved">Описание ТУ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiExtensionID" locale="ru_RU" status="Approved">PMI Extension ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiID" locale="ru_RU" status="Approved">ID ТУ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Text" locale="ru_RU" status="Approved">PMI Text</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UOM" locale="ru_RU" status="Approved">Единицы измерения</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UpperSpecLimit" locale="ru_RU" status="Approved">Верхнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristicsType" locale="ru_RU" status="Approved">Тип характеристики</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristic" locale="ru_RU" status="Approved">Характеристики</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0pmiMetaData" locale="ru_RU" status="Approved">ТУ метаданные</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0primaryDatumReference" locale="ru_RU" status="Approved">Первичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0secondaryDatumReference" locale="ru_RU" status="Approved">Вторичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisI" locale="ru_RU" status="Approved">Ось поверхности I</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisJ" locale="ru_RU" status="Approved">Ось поверхности J</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisK" locale="ru_RU" status="Approved">Ось поверхности K</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceEntity" locale="ru_RU" status="Approved">Запись поверхности</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationX" locale="ru_RU" status="Approved">Положение поверхности по X</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationY" locale="ru_RU" status="Approved">Положение поверхности по Y</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationZ" locale="ru_RU" status="Approved">Положение поверхности по Z</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceRadius" locale="ru_RU" status="Approved">Радиус поверхности</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceType" locale="ru_RU" status="Approved">Тип поверхности</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0tertiaryDatumReference" locale="ru_RU" status="Approved">Третичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0toleranceDesc" locale="ru_RU" status="Approved">Описание допуска</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DatumLabel" locale="ru_RU" status="Approved">Метка базы</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DimensionType" locale="ru_RU" status="Approved">Тип измерения ТУ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTCode" locale="ru_RU" status="Approved">Код СДФиР</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTText" locale="ru_RU" status="Approved">Текст СДФиР</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsAbsolutePMI" locale="ru_RU" status="Approved">Точность ТУ абсолютна</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsPMICompositeFCF" locale="ru_RU" status="Approved">ТУ является составным объектом FCF</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0LowerSpecLimit" locale="ru_RU" status="Approved">Нижнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0MarkedAsDeleted" locale="ru_RU" status="Approved">Отмечено как удаленное</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Modifier" locale="ru_RU" status="Approved">ТУ Модификатор</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0NominalValue" locale="ru_RU" status="Approved">Номинальное значение</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiBaseUUID" locale="ru_RU" status="Approved">PMI Base UUID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiDescription" locale="ru_RU" status="Approved">Описание ТУ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiExtensionID" locale="ru_RU" status="Approved">PMI Extension ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiID" locale="ru_RU" status="Approved">ID ТУ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Text" locale="ru_RU" status="Approved">PMI Text</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UOM" locale="ru_RU" status="Approved">Единицы измерения</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UpperSpecLimit" locale="ru_RU" status="Approved">Верхнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0characteristicsType" locale="ru_RU" status="Approved">Тип характеристики</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0pmiMetaData" locale="ru_RU" status="Approved">ТУ метаданные</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0primaryDatumReference" locale="ru_RU" status="Approved">Первичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0secondaryDatumReference" locale="ru_RU" status="Approved">Вторичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisI" locale="ru_RU" status="Approved">Ось поверхности I</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisJ" locale="ru_RU" status="Approved">Ось поверхности J</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisK" locale="ru_RU" status="Approved">Ось поверхности K</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceEntity" locale="ru_RU" status="Approved">Запись поверхности</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationX" locale="ru_RU" status="Approved">Положение поверхности по X</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationY" locale="ru_RU" status="Approved">Положение поверхности по Y</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationZ" locale="ru_RU" status="Approved">Положение поверхности по Z</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceRadius" locale="ru_RU" status="Approved">Радиус поверхности</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceType" locale="ru_RU" status="Approved">Тип поверхности</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0tertiaryDatumReference" locale="ru_RU" status="Approved">Третичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0toleranceDesc" locale="ru_RU" status="Approved">Описание допуска</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0DimensionType" locale="ru_RU" status="Approved">Тип измерения ТУ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Frequency" locale="ru_RU" status="Approved">Частота</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTCode" locale="ru_RU" status="Approved">Код СДФиР</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTText" locale="ru_RU" status="Approved">Текст СДФиР</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0InspectionType" locale="ru_RU" status="Approved">Тип анализа</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsAbsolutePMI" locale="ru_RU" status="Approved">Точность ТУ абсолютна</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsPMICompositeFCF" locale="ru_RU" status="Approved">ТУ является составным объектом FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0LowerSpecLimit" locale="ru_RU" status="Approved">Нижнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MarkedAsDeleted" locale="ru_RU" status="Approved">Отмечено как удаленное</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MeasurementMethod" locale="ru_RU" status="Approved">Метод измерения</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Modifier" locale="ru_RU" status="Approved">ТУ Модификатор</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NominalValue" locale="ru_RU" status="Approved">Номинальное значение</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NotForInspection" locale="ru_RU" status="Approved">Не для анализа</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PlannerDescription" locale="ru_RU" status="Approved">Описание планировщика</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PmiDescription" locale="ru_RU" status="Approved">Описание ТУ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Responsible" locale="ru_RU" status="Approved">Ответственный</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0UpperSpecLimit" locale="ru_RU" status="Approved">Верхнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0characteristicsType" locale="ru_RU" status="Approved">Тип характеристики</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0primaryDatumReference" locale="ru_RU" status="Approved">Первичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0secondaryDatumReference" locale="ru_RU" status="Approved">Вторичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisI" locale="ru_RU" status="Approved">Ось поверхности I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisJ" locale="ru_RU" status="Approved">Ось поверхности J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisK" locale="ru_RU" status="Approved">Ось поверхности K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceEntity" locale="ru_RU" status="Approved">Запись поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationX" locale="ru_RU" status="Approved">Положение поверхности по X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationY" locale="ru_RU" status="Approved">Положение поверхности по Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationZ" locale="ru_RU" status="Approved">Положение поверхности по Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceRadius" locale="ru_RU" status="Approved">Радиус поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceType" locale="ru_RU" status="Approved">Тип поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0tertiaryDatumReference" locale="ru_RU" status="Approved">Третичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0toleranceDesc" locale="ru_RU" status="Approved">Описание допуска</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0DimensionType" locale="ru_RU" status="Approved">Тип измерения ТУ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Frequency" locale="ru_RU" status="Approved">Частота</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTCode" locale="ru_RU" status="Approved">Код СДФиР</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTText" locale="ru_RU" status="Approved">Текст СДФиР</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0InspectionType" locale="ru_RU" status="Approved">Тип анализа</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsAbsolutePMI" locale="ru_RU" status="Approved">Точность ТУ абсолютна</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsPMICompositeFCF" locale="ru_RU" status="Approved">ТУ является составным объектом FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0LowerSpecLimit" locale="ru_RU" status="Approved">Нижнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MarkedAsDeleted" locale="ru_RU" status="Approved">Отмечено как удаленное</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MeasurementMethod" locale="ru_RU" status="Approved">Метод измерения</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Modifier" locale="ru_RU" status="Approved">ТУ Модификатор</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NominalValue" locale="ru_RU" status="Approved">Номинальное значение</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NotForInspection" locale="ru_RU" status="Approved">Не для анализа</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PlannerDescription" locale="ru_RU" status="Approved">Описание планировщика</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PmiDescription" locale="ru_RU" status="Approved">Описание ТУ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Responsible" locale="ru_RU" status="Approved">Ответственный</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0UpperSpecLimit" locale="ru_RU" status="Approved">Верхнее ограничение для спецификаций</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0characteristicsType" locale="ru_RU" status="Approved">Тип характеристики</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0primaryDatumReference" locale="ru_RU" status="Approved">Первичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0secondaryDatumReference" locale="ru_RU" status="Approved">Вторичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisI" locale="ru_RU" status="Approved">Ось поверхности I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisJ" locale="ru_RU" status="Approved">Ось поверхности J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisK" locale="ru_RU" status="Approved">Ось поверхности K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceEntity" locale="ru_RU" status="Approved">Запись поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationX" locale="ru_RU" status="Approved">Положение поверхности по X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationY" locale="ru_RU" status="Approved">Положение поверхности по Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationZ" locale="ru_RU" status="Approved">Положение поверхности по Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceRadius" locale="ru_RU" status="Approved">Радиус поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceType" locale="ru_RU" status="Approved">Тип поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0tertiaryDatumReference" locale="ru_RU" status="Approved">Третичная ссылочная база</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0toleranceDesc" locale="ru_RU" status="Approved">Описание допуска</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationId" locale="ru_RU" status="Approved">PMI Association ID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationType" locale="ru_RU" status="Approved">PMI Association Type</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0FrameLocation" locale="ru_RU" status="Approved">PMI Frame Location</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0IsPartPmi" locale="ru_RU" status="Approved">PMI Is Part</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0JTDataset" locale="ru_RU" status="Approved">Набор данных JT</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0NGIDs" locale="ru_RU" status="Approved">NGID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0accountabilityID" locale="ru_RU" status="Approved">Идентификатор соответствия</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0connectedParts" locale="ru_RU" status="Approved">Соединенные детали</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0context" locale="ru_RU" status="Approved">Контекст</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0AccountabilityID" locale="ru_RU" status="Approved">Идентификатор соответствия</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMICharacteristicsUid" locale="ru_RU" status="Approved">UID характеристик ТУ</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMIReferencePart" locale="ru_RU" status="Approved">Ссылочная деталь ТУ</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PmiID" locale="ru_RU" status="Approved">ID ТУ</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0OwningItemID" locale="ru_RU" status="Approved">ID элемента владельца</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0PMIDatasetLastModDate" locale="ru_RU" status="Approved">Дата последнего изменения набора данных ТУ</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0AccountabilityID" locale="ru_RU" status="Approved">Идентификатор соответствия</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMICharacteristicsUid" locale="ru_RU" status="Approved">UID характеристик ТУ</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMIReferencePart" locale="ru_RU" status="Approved">Ссылочная деталь ТУ</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PmiID" locale="ru_RU" status="Approved">ID ТУ</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0Criticality" locale="ru_RU" status="Approved">Важность</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0KeyCharacteristics" locale="ru_RU" status="Approved">Ключевые характеристики</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0UOM" locale="ru_RU" status="Approved">UOM ТУ</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0Criticality" locale="ru_RU" status="Approved">Важность</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0KeyCharacteristics" locale="ru_RU" status="Approved">Ключевые характеристики</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0UOM" locale="ru_RU" status="Approved">UOM ТУ</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Critical" locale="ru_RU" status="Approved">Уровень критичности: Критичный</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Documentation" locale="ru_RU" status="Approved">Уровень критичности: Документация</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Major" locale="ru_RU" status="Approved">Уровень важности: Высокий</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Minor" locale="ru_RU" status="Approved">Уровень критичности: Низкий</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="ru_RU" status="Approved">Ключевые характеристики конструкции</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="ru_RU" status="Approved">Ключевые характеристики процесса</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Angularity" locale="ru_RU" status="Approved">Тип характеристики: Кривизна</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="ru_RU" status="Approved">Тип характеристики: Пересечение осей</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularity" locale="ru_RU" status="Approved">Тип характеристики: Круглость</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="ru_RU" status="Approved">Тип характеристики: Радиальное биение</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Concentricity" locale="ru_RU" status="Approved">Тип характеристики: Соосность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="ru_RU" status="Approved">Тип характеристики: Цилиндричность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Flatness" locale="ru_RU" status="Approved">Тип характеристики: Плоскостность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Parallelism" locale="ru_RU" status="Approved">Тип характеристики: Параллельность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="ru_RU" status="Approved">Тип характеристики: Перпендикулярность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Position" locale="ru_RU" status="Approved">Тип характеристики: Положение</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="ru_RU" status="Approved">Тип характеристики: Профиль кривой</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="ru_RU" status="Approved">Тип характеристики: Профиль поверхности</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Straightness" locale="ru_RU" status="Approved">Тип характеристики: Линейность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Symmetry" locale="ru_RU" status="Approved">Тип характеристики: Симметричность</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="ru_RU" status="Approved">Тип характеристики: Полное биение</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BLEND" locale="ru_RU" status="Approved">Тип поверхности: Скругление</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BSPLINE" locale="ru_RU" status="Approved">Тип поверхности: B-сплайн</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CONE" locale="ru_RU" status="Approved">Тип поверхности: Конус</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CYLINDER" locale="ru_RU" status="Approved">Тип поверхности: Цилиндр</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}OFFSET" locale="ru_RU" status="Approved">Тип поверхности: Смещение</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}PLANE" locale="ru_RU" status="Approved">Тип поверхности: Плоскость</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPHERE" locale="ru_RU" status="Approved">Тип поверхности: Сфера</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPUN" locale="ru_RU" status="Approved">Тип поверхности: Винтовая</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SWEPT" locale="ru_RU" status="Approved">Тип поверхности: Заметание</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}TORUS" locale="ru_RU" status="Approved">Тип поверхности: Тор</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="ru_RU" status="Approved">Тип поверхности: Неизвестно</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Critical" locale="ru_RU" status="Approved">Критичный</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Documentation" locale="ru_RU" status="Approved">Документация</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Major" locale="ru_RU" status="Approved">Высокий</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Minor" locale="ru_RU" status="Approved">Низкий</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Boolean" locale="ru_RU" status="Approved">Логический</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Go-No Go" locale="ru_RU" status="Approved">Пройдено-Не пройдено</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Min-Max" locale="ru_RU" status="Approved">Мин-Макс</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Numeric" locale="ru_RU" status="Approved">Количество</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Pass-Fail" locale="ru_RU" status="Approved">Выполнено-Ошибка</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}String" locale="ru_RU" status="Approved">Строка</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}True-False" locale="ru_RU" status="Approved">Истина-Ложь</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Yes-No" locale="ru_RU" status="Approved">Да-Нет</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="ru_RU" status="Approved">DKC</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="ru_RU" status="Approved">PKC</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Angularity" locale="ru_RU" status="Approved">Кривизна</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="ru_RU" status="Approved">Пересечение осей</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularity" locale="ru_RU" status="Approved">Круглость</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="ru_RU" status="Approved">Радиальное биение</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Concentricity" locale="ru_RU" status="Approved">Соосность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="ru_RU" status="Approved">Цилиндричность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Flatness" locale="ru_RU" status="Approved">Плоскостность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Parallelism" locale="ru_RU" status="Approved">Параллельность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="ru_RU" status="Approved">Перпендикулярность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Position" locale="ru_RU" status="Approved">Положение</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="ru_RU" status="Approved">Профиль кривой</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="ru_RU" status="Approved">Профиль поверхности</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Straightness" locale="ru_RU" status="Approved">Линейность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Symmetry" locale="ru_RU" status="Approved">Симметричность</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="ru_RU" status="Approved">Полное биение</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BLEND" locale="ru_RU" status="Approved">Скругление</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BSPLINE" locale="ru_RU" status="Approved">B-сплайн</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CONE" locale="ru_RU" status="Approved">Конус</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CYLINDER" locale="ru_RU" status="Approved">Цилиндр</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}OFFSET" locale="ru_RU" status="Approved">Смещение</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}PLANE" locale="ru_RU" status="Approved">Плоскость</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPHERE" locale="ru_RU" status="Approved">Сфера</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPUN" locale="ru_RU" status="Approved">Винтовая</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SWEPT" locale="ru_RU" status="Approved">Заметание</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}TORUS" locale="ru_RU" status="Approved">Тор</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="ru_RU" status="Approved">Неизвестно</key>
+           
+        <key id="BusinessObject{::}Mci0BvrBopPMI" locale="ru_RU" status="Approved">BVR технологического маршрута ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}mci0PMIAttachedDataset" locale="ru_RU" status="Approved">Присоединенный набор данных ТУ</key>
+           
+        <key id="Property{::}BOMLine{::}mciJTAttachedDataset" locale="ru_RU" status="Approved">Присоединенный набор данных JT ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0AccountabilityID" locale="ru_RU" status="Approved">Идентификатор соответствия ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0Criticality" locale="ru_RU" status="Approved">Важность ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0KeyCharacteristics" locale="ru_RU" status="Approved">ТУ Ключевые характеристики</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMICharacteristicsUid" locale="ru_RU" status="Approved">UID характеристик ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIDescription" locale="ru_RU" status="Approved">Описание ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIReferencePart" locale="ru_RU" status="Approved">Ссылочная деталь ТУ</key>
+           
+        <key id="Property{::}GDELine{::}mci0PmiID" locale="ru_RU" status="Approved">ID ТУ</key>
+           
+        <key id="Property{::}GDELine{::}PMI Inspection Type" locale="ru_RU" status="Approved">Тип проверки ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Criticality" locale="ru_RU" status="Approved">Важность ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Frequency" locale="ru_RU" status="Approved">Частота ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0InspectionProcedure" locale="ru_RU" status="Approved">Процедура анализа ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0MeasurementMethod" locale="ru_RU" status="Approved">Метод измерения ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0PlannerDescription" locale="ru_RU" status="Approved">Описание планировщика ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Responsible" locale="ru_RU" status="Approved">Ответственный за ТУ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisI" locale="ru_RU" status="Approved">Ось поверхности I</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisJ" locale="ru_RU" status="Approved">Ось поверхности J</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisK" locale="ru_RU" status="Approved">Ось поверхности K</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceEntity" locale="ru_RU" status="Approved">Запись поверхности</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationX" locale="ru_RU" status="Approved">Положение поверхности по X</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationY" locale="ru_RU" status="Approved">Положение поверхности по Y</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationZ" locale="ru_RU" status="Approved">Положение поверхности по Z</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceName" locale="ru_RU" status="Approved">Имя поверхности</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceRadius" locale="ru_RU" status="Approved">Радиус поверхности</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceType" locale="ru_RU" status="Approved">Тип поверхности</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceName" locale="ru_RU" status="Approved">Имя поверхности</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

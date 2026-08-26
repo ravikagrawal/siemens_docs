@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="cs_CZ" status="Approved">Objekt procesu vlastního seznamu hodnot konfigurace tisku</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="cs_CZ" status="Approved">Runtime konfigurace tisku</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="cs_CZ" status="Approved">Podmínka pro kontrolu, zda má být použita konfigurace definice revize položky (IRDC) Dma1DocumentRevisionIRDC ve výchozím stavu pro založenou na objektu procesu Revize dokumentu. Když je preference "Fnd0DM_IsSimpleDocumentEnabled" nastavena na "true", Dma1DocumentRevisionIRDC se použije, jinak ne. To není použito pro podřízené objekty revize dokumentu.</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="cs_CZ" status="Approved">Podmínka pro kontrolu, zda instance konfigurace definice revize položky (IRDC) ve výchozím stavu se používá pro revizi položky na základě předvolby "Dma1UseCOTSIRDC". Toto není možné použít pro podřazené položky revize položky.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="cs_CZ" status="Approved">Vše</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="cs_CZ" status="Approved">Vypnuto</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="cs_CZ" status="Approved">Jednou</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="cs_CZ" status="Approved">Barva</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="cs_CZ" status="Approved">Černobíle</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="cs_CZ" status="Approved">Nejvhodnější</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="cs_CZ" status="Approved">Na šířku</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="cs_CZ" status="Approved">Na výšku</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="cs_CZ" status="Approved">Všechny strany</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="cs_CZ" status="Approved">Titulní strana</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="cs_CZ" status="Approved">První strana</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="cs_CZ" status="Approved">Vše</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="cs_CZ" status="Approved">Vypnuto</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="cs_CZ" status="Approved">Jednou</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="cs_CZ" status="Approved">Barva</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="cs_CZ" status="Approved">Černobíle</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="cs_CZ" status="Approved">Nejvhodnější</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="cs_CZ" status="Approved">Na šířku</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="cs_CZ" status="Approved">Na výšku</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="cs_CZ" status="Approved">Všechny strany</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="cs_CZ" status="Approved">Titulní strana</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="cs_CZ" status="Approved">První strana</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="cs_CZ" status="Approved">Titulní strana</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="cs_CZ" status="Approved">Uspořádat</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="cs_CZ" status="Approved">Barva</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="cs_CZ" status="Approved">Kopie</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="cs_CZ" status="Approved">Orientace</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="cs_CZ" status="Approved">Velikosti papíru</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="cs_CZ" status="Approved">Název konfigurace tisku</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="cs_CZ" status="Approved">Název tiskárny</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="cs_CZ" status="Approved">Rozsah</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="cs_CZ" status="Approved">Měřítko</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="cs_CZ" status="Approved">Podporovaná razítka</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="cs_CZ" status="Approved">Systémové razítko</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="cs_CZ" status="Approved">Razítko uživatele</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

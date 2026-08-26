@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:31 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMasterS" locale="ko_KR" status="Approved">라우팅 아이템 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMaster" locale="ko_KR" status="Approved">라우팅 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevMasterS" locale="ko_KR" status="Approved">라우팅 아이템 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevisionMaster" locale="ko_KR" status="Approved">라우팅 아이템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevision" locale="ko_KR" status="Approved">라우팅 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItem" locale="ko_KR" status="Approved">라우팅 아이템</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMasterS" locale="ko_KR" status="Approved">라우팅 파트 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMaster" locale="ko_KR" status="Approved">라우팅 파트 마스터</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevMasterS" locale="ko_KR" status="Approved">라우팅 파트 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevisionMaster" locale="ko_KR" status="Approved">라우팅 파트 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevision" locale="ko_KR" status="Approved">라우팅 설계 파트 리비전</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPart" locale="ko_KR" status="Approved">라우팅 설계 파트</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationData" locale="ko_KR" status="Approved">응용 프로그램 데이터</key>
+           
+        <key id="BusinessObject{::}NX0AssetSearchProvider" locale="ko_KR" status="Approved">NX 에셋 검색 제공자</key>
+           
+        <key id="BusinessObject{::}NX0Asset" locale="ko_KR" status="Approved">NX 라이브러리 에셋</key>
+           
+        <key id="BusinessObject{::}NX0BookletDataset" locale="ko_KR" status="Approved">북렛 데이터 집합</key>
+           
+        <key id="BusinessObject{::}NX0BookletFolder" locale="ko_KR" status="Approved">북렛 폴더</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMasterS" locale="ko_KR" status="Approved">북렛 아이템 마스터 S</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMaster" locale="ko_KR" status="Approved">북렛 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevMasterS" locale="ko_KR" status="Approved">북렛 아이템 리비전 마스터 S</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevisionMaster" locale="ko_KR" status="Approved">북렛 아이템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevision" locale="ko_KR" status="Approved">북렛 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0BookletItem" locale="ko_KR" status="Approved">북렛 아이템</key>
+           
+        <key id="BusinessObject{::}NX0BookletReference" locale="ko_KR" status="Approved">북렛 참조(DEPRECATED)</key>
+           
+        <key id="BusinessObject{::}NX0BookletRule" locale="ko_KR" status="Approved">북렛 규칙</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMasterS" locale="ko_KR" status="Approved">분기 호환성 테이블 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMaster" locale="ko_KR" status="Approved">분기 호환성 테이블 마스터</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevMasterS" locale="ko_KR" status="Approved">분기 호환성 테이블 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevisionMaster" locale="ko_KR" status="Approved">분기 호환성 테이블 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevision" locale="ko_KR" status="Approved">분기 호환성 테이블 리비전</key>
+           
+        <key id="BusinessObject{::}NX0BranchComp" locale="ko_KR" status="Approved">분기 호환성 테이블</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMasterS" locale="ko_KR" status="Approved">모션 추상 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMaster" locale="ko_KR" status="Approved">모션 추상 마스터</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevMasterS" locale="ko_KR" status="Approved">모션 추상 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevisionMaster" locale="ko_KR" status="Approved">모션 추상 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevision" locale="ko_KR" status="Approved">모션 추상 리비전</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMasterS" locale="ko_KR" status="Approved">모션 해석 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMaster" locale="ko_KR" status="Approved">모션 해석 마스터</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevMasterS" locale="ko_KR" status="Approved">모션 해석 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevisionMaster" locale="ko_KR" status="Approved">모션 해석 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevision" locale="ko_KR" status="Approved">모션 해석 리비전</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSim" locale="ko_KR" status="Approved">모션 해석</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotion" locale="ko_KR" status="Approved">모션 Abstract</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMasterS" locale="ko_KR" status="Approved">연결 호환성 테이블 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMaster" locale="ko_KR" status="Approved">연결 호환성 테이블 마스터</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevMasterS" locale="ko_KR" status="Approved">연결 호환성 테이블 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevisionMaster" locale="ko_KR" status="Approved">연결 호환성 테이블 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevision" locale="ko_KR" status="Approved">연결 호환성 테이블 리비전</key>
+           
+        <key id="BusinessObject{::}NX0ConnComp" locale="ko_KR" status="Approved">연결 호환성 테이블</key>
+           
+        <key id="BusinessObject{::}NX0DiagramOf" locale="ko_KR" status="Approved">다음의 다이어그램</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMasterS" locale="ko_KR" status="Approved">공개 작업 세트 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMaster" locale="ko_KR" status="Approved">공개 작업 세트 마스터</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevMasterS" locale="ko_KR" status="Approved">공개 작업 세트 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevisionMaster" locale="ko_KR" status="Approved">공개 작업 세트 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevision" locale="ko_KR" status="Approved">공개 작업 세트 리비전</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorkset" locale="ko_KR" status="Approved">공개 작업 세트</key>
+           
+        <key id="BusinessObject{::}NX0DocumentDataset" locale="ko_KR" status="Approved">NX 문서 데이터 집합</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMasterS" locale="ko_KR" status="Approved">NX 문서 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMaster" locale="ko_KR" status="Approved">NX 문서 마스터</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevMasterS" locale="ko_KR" status="Approved">NX 문서 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevisionMaster" locale="ko_KR" status="Approved">NX 문서 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevision" locale="ko_KR" status="Approved">NX 문서 리비전</key>
+           
+        <key id="BusinessObject{::}NX0Document" locale="ko_KR" status="Approved">NX 문서</key>
+           
+        <key id="BusinessObject{::}NX0ExternalFileReference" locale="ko_KR" status="Approved">외부 파일 참조</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMasterS" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMaster" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리 마스터</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevMasterS" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevisionMaster" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevision" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리 리비전</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsm" locale="ko_KR" status="Approved">NX 비접촉식 검사 어셈블리</key>
+           
+        <key id="BusinessObject{::}NX0LRuleData" locale="ko_KR" status="Approved">로직 규칙 데이터</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMasterS" locale="ko_KR" status="Approved">로직 규칙 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMaster" locale="ko_KR" status="Approved">로직 규칙 마스터</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevMasterS" locale="ko_KR" status="Approved">로직 규칙 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevisionMaster" locale="ko_KR" status="Approved">로직 규칙 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevision" locale="ko_KR" status="Approved">NX 로직 편집기 규칙 리비전</key>
+           
+        <key id="BusinessObject{::}NX0LRule" locale="ko_KR" status="Approved">NX 로직 편집기 규칙</key>
+           
+        <key id="BusinessObject{::}NX0MCDReference" locale="ko_KR" status="Approved">메카트로닉스 참조</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessDataset" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 데이터 집합</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMasterS" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMaster" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 마스터</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevMasterS" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevisionMaster" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevision" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0MEProcess" locale="ko_KR" status="Approved">NX BOP(Bill of Process) 아이템</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMasterS" locale="ko_KR" status="Approved">재료 프록시 아이템 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMaster" locale="ko_KR" status="Approved">재료 프록시 아이템 마스터</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevMasterS" locale="ko_KR" status="Approved">재료 프록시 아이템 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevisionMaster" locale="ko_KR" status="Approved">재료 프록시 아이템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevision" locale="ko_KR" status="Approved">재료 프록시 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItem" locale="ko_KR" status="Approved">재료 프록시 아이템</key>
+           
+        <key id="BusinessObject{::}NX0MaterialsSpecifications" locale="ko_KR" status="Approved">재료 명세</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByDataset" locale="ko_KR" status="Approved">데이터 집합별 누락된 파일 정보</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByNames" locale="ko_KR" status="Approved">이름별 누락된 파일 정보</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfo" locale="ko_KR" status="Approved">누락된 파일 정보</key>
+           
+        <key id="BusinessObject{::}NX0MotionSim" locale="ko_KR" status="Approved">모션 Sim</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMasterS" locale="ko_KR" status="Approved">NX 점 클라우드 데이터 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMaster" locale="ko_KR" status="Approved">NX 점 클라우드 데이터 마스터</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevMasterS" locale="ko_KR" status="Approved">NX 점 클라우드 데이터 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevisionMaster" locale="ko_KR" status="Approved">NX 점 클라우드 데이터 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevision" locale="ko_KR" status="Approved">NX 점 클라우드 데이터 리비전</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudData" locale="ko_KR" status="Approved">NX 점 클라우드 데이터</key>
+           
+        <key id="BusinessObject{::}NX0PortLocation" locale="ko_KR" status="Approved">포트 위치</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMasterS" locale="ko_KR" status="Approved">라우팅 어셈블리 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMaster" locale="ko_KR" status="Approved">라우팅 어셈블리 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevMasterS" locale="ko_KR" status="Approved">라우팅 어셈블리 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevisionMaster" locale="ko_KR" status="Approved">라우팅 어셈블리 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevision" locale="ko_KR" status="Approved">라우팅 어셈블리 리비전</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssembly" locale="ko_KR" status="Approved">라우팅 어셈블리 아이템</key>
+           
+        <key id="BusinessObject{::}NX0RSDItemRevAttrs" locale="ko_KR" status="Approved">NX 라우팅 아이템 리비전 속성</key>
+           
+        <key id="BusinessObject{::}NX0RSDOccAttrs" locale="ko_KR" status="Approved">NX 라우팅 어커런스 속성</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMasterS" locale="ko_KR" status="Approved">라우팅 재사용 파트 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMaster" locale="ko_KR" status="Approved">라우팅 재사용 파트 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevMasterS" locale="ko_KR" status="Approved">라우팅 재사용 파트 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevisionMaster" locale="ko_KR" status="Approved">라우팅 재사용 파트 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevision" locale="ko_KR" status="Approved">라우팅 재사용 파트 리비전</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePt" locale="ko_KR" status="Approved">라우팅 재사용 파트</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMasterS" locale="ko_KR" status="Approved">라우팅 스톡 파트 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMaster" locale="ko_KR" status="Approved">라우팅 스톡 파트 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevMasterS" locale="ko_KR" status="Approved">라우팅 스톡 파트 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevisionMaster" locale="ko_KR" status="Approved">라우팅 스톡 파트 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevision" locale="ko_KR" status="Approved">라우팅 스톡 파트 리비전</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPart" locale="ko_KR" status="Approved">라우팅 스톡 파트</key>
+           
+        <key id="BusinessObject{::}NX0ReferenceOnlyComponent" locale="ko_KR" status="Approved">참조 전용 컴포넌트</key>
+           
+        <key id="BusinessObject{::}NX0RoutingPipePartData" locale="ko_KR" status="Approved">NX 라우팅 파이프 파트 데이터</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunData" locale="ko_KR" status="Approved">NX 라우팅 실행 데이터</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunReference" locale="ko_KR" status="Approved">NX 라우팅 실행 참조</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecData" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 데이터</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMasterS" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMaster" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevMasterS" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevisionMaster" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevision" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양 리비전</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpec" locale="ko_KR" status="Approved">NX 라우팅 파이프 사양</key>
+           
+        <key id="BusinessObject{::}NX0SheetMetalExport" locale="ko_KR" status="Approved">평면 패턴 내보내기</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMasterS" locale="ko_KR" status="Approved">선박 참조 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMaster" locale="ko_KR" status="Approved">선박 참조 마스터</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevMasterS" locale="ko_KR" status="Approved">선박 참조 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevisionMaster" locale="ko_KR" status="Approved">선박 참조 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevision" locale="ko_KR" status="Approved">선박 참조 리비전</key>
+           
+        <key id="BusinessObject{::}NX0ShipReference" locale="ko_KR" status="Approved">선박 참조</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedFrom" locale="ko_KR" status="Approved">파트에서 단순화</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedUsing" locale="ko_KR" status="Approved">템플릿을 사용하여 단순화</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMasterS" locale="ko_KR" status="Approved">스풀 어셈블리 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMaster" locale="ko_KR" status="Approved">스풀 어셈블리 마스터</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRef" locale="ko_KR" status="Approved">스풀 어셈블리 참조</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevMasterS" locale="ko_KR" status="Approved">스풀 어셈블리 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevisionMaster" locale="ko_KR" status="Approved">스풀 어셈블리 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevision" locale="ko_KR" status="Approved">스풀 어셈블리 리비전</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssembly" locale="ko_KR" status="Approved">스풀 어셈블리</key>
+           
+        <key id="BusinessObject{::}NX0StackModelDataset" locale="ko_KR" status="Approved">NX 프로세스 모델 데이터 집합</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMasterS" locale="ko_KR" status="Approved">NX 프로세스 모델 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMaster" locale="ko_KR" status="Approved">NX 프로세스 모델 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevMasterS" locale="ko_KR" status="Approved">NX 프로세스 모델 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevisionMaster" locale="ko_KR" status="Approved">NX 프로세스 모델 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevision" locale="ko_KR" status="Approved">NX 프로세스 모델 아이템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0StackModel" locale="ko_KR" status="Approved">NX 프로세스 모델 아이템</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMasterS" locale="ko_KR" status="Approved">구조 컨테이너 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMaster" locale="ko_KR" status="Approved">구조 컨테이너 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevMasterS" locale="ko_KR" status="Approved">구조 컨테이너 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevisionMaster" locale="ko_KR" status="Approved">구조 컨테이너 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevision" locale="ko_KR" status="Approved">구조 컨테이너 리비전</key>
+           
+        <key id="BusinessObject{::}NX0StrContainer" locale="ko_KR" status="Approved">구조 컨테이너</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMasterS" locale="ko_KR" status="Approved">구조 상세정보 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMaster" locale="ko_KR" status="Approved">구조 상세정보 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevMasterS" locale="ko_KR" status="Approved">구조 상세정보 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevisionMaster" locale="ko_KR" status="Approved">구조 상세정보 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevision" locale="ko_KR" status="Approved">구조 상세정보 리비전</key>
+           
+        <key id="BusinessObject{::}NX0StructDetail" locale="ko_KR" status="Approved">구조 상세정보</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMasterS" locale="ko_KR" status="Approved">구조 시스템 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMaster" locale="ko_KR" status="Approved">구조 시스템 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevMasterS" locale="ko_KR" status="Approved">구조 시스템 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevisionMaster" locale="ko_KR" status="Approved">구조 시스템 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevision" locale="ko_KR" status="Approved">구조 시스템 리비전</key>
+           
+        <key id="BusinessObject{::}NX0StructSystem" locale="ko_KR" status="Approved">구조 시스템</key>
+           
+        <key id="BusinessObject{::}NX0TDP" locale="ko_KR" status="Approved">TDP</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMasterS" locale="ko_KR" status="Approved">NX 작업 지침 문서 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMaster" locale="ko_KR" status="Approved">NX 작업 지침 문서 마스터</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevMasterS" locale="ko_KR" status="Approved">NX 작업 지침 문서 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevisionMaster" locale="ko_KR" status="Approved">NX 작업 지침 문서 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevision" locale="ko_KR" status="Approved">NX 작업 지시 문서 리비전</key>
+           
+        <key id="BusinessObject{::}NX0WIDocument" locale="ko_KR" status="Approved">NX 작업 지시 문서</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMasterS" locale="ko_KR" status="Approved">NX 작업 세트 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMaster" locale="ko_KR" status="Approved">NX 작업 세트 마스터</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevMasterS" locale="ko_KR" status="Approved">NX 작업 세트 리비전 마스터 저장소</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevisionMaster" locale="ko_KR" status="Approved">NX 작업 세트 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevision" locale="ko_KR" status="Approved">NX 작업 세트 리비전</key>
+           
+        <key id="BusinessObject{::}NX0Workset" locale="ko_KR" status="Approved">NX 작업 세트</key>
+           
+        <key id="BusinessObject{::}NX0tcinDiagramProvider" locale="ko_KR" status="Approved">다이어그램 제공자</key>
+           
+        <key id="BusinessObject{::}NX0tcinDrawingProvider" locale="ko_KR" status="Approved">도면 제공자</key>
+           
+        <key id="ConditionDescription{::}NX0EnableNXPartManufacturingItemVisibility" locale="ko_KR" status="Approved">이 조건은 NX 파트 제조 아이템의 디스플레이 규칙과 함께 사용되어 Teamcenter 환경설정 EnableNXPartManufacturingItemVisibility가 생성되고 "true"로 설정되어 있을 때 표시될 수 있도록 합니다.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Coating" locale="ko_KR" status="Approved">할당된 재료 유형은 일반 코팅입니다.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Core" locale="ko_KR" status="Approved">할당된 재료 유형은 솔리드 바디입니다.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Primer" locale="ko_KR" status="Approved">할당된 재료 유형은 프라이머입니다.</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Coating" locale="ko_KR" status="Approved">코팅</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Core" locale="ko_KR" status="Approved">코어</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Primer" locale="ko_KR" status="Approved">프라이머</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Assembly" locale="ko_KR" status="Approved">어셈블리</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Drawing" locale="ko_KR" status="Approved">도면</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Part" locale="ko_KR" status="Approved">파트</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDCableway" locale="ko_KR" status="Approved">케이블웨이</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDHvac" locale="ko_KR" status="Approved">HVAC</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDPiping" locale="ko_KR" status="Approved">파이프</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDTubing" locale="ko_KR" status="Approved">배관</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDWiring" locale="ko_KR" status="Approved">배선</key>
+           
+        <key id="Note{::}NX0CloneStableIdMap" locale="ko_KR" status="Approved">안정적인 ID 맵 복제</key>
+           
+        <key id="Property{::}BOMLine{::}NX0CloneStableIdMap" locale="ko_KR" status="Approved">안정적인 ID 맵 복제</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PartType" locale="ko_KR" status="Approved">NX 파트 유형</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PortLocations" locale="ko_KR" status="Approved">포트 위치</key>
+           
+        <key id="Property{::}MEViewLine{::}NX0CloneStableIdMap" locale="ko_KR" status="Approved">안정적인 ID 맵 복제</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}NX0RSDItemRevAttrs" locale="ko_KR" status="Approved">NX 라우팅 아이템 리비전 속성에 대한 역방향 참조</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}NX0RSDItemRevAttrs" locale="ko_KR" status="Approved">NX 라우팅 아이템 리비전 속성에 대한 역방향 참조</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0sync_checksums" locale="ko_KR" status="Approved">체크섬</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0AssetType" locale="ko_KR" status="Approved">에셋 유형</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0Category" locale="ko_KR" status="Approved">카테고리</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0ID" locale="ko_KR" status="Approved">ID</key>
+           
+        <key id="Property{::}NX0BookletDataset{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0flags" locale="ko_KR" status="Approved">NX에서 설정 및 사용되는 NX 파트에 대한 비트마스크 정보(isPart,isDrawing 등)</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0DiagramOf{::}nx0FocusAreaId" locale="ko_KR" status="Approved">포커스 영역 ID</key>
+           
+        <key id="Property{::}NX0ExternalFileReference{::}nx0LastModifiedChecksum" locale="ko_KR" status="Approved">최종 수정일 체크섬</key>
+           
+        <key id="Property{::}NX0MCDReference{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0MaterialLibrary" locale="ko_KR" status="Approved">재료 라이브러리</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0ReferencedMaterialItem" locale="ko_KR" status="Approved">참조된 재료 아이템</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0AssignedMaterialSequence" locale="ko_KR" status="Approved">할당된 재료 순서</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Density" locale="ko_KR" status="Approved">비중</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Mass" locale="ko_KR" status="Approved">질량</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialAssignmentType" locale="ko_KR" status="Approved">재료 할당 유형</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialDefinition" locale="ko_KR" status="Approved">재료 정의</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialName" locale="ko_KR" status="Approved">재료 이름</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialType" locale="ko_KR" status="Approved">재료 유형</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0RefID" locale="ko_KR" status="Approved">NX 참조 ID</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0SurfaceArea" locale="ko_KR" status="Approved">표면적</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Thickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Volume" locale="ko_KR" status="Approved">부피</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileGuid" locale="ko_KR" status="Approved">파일 GUID</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileName" locale="ko_KR" status="Approved">파일 이름</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FilePath" locale="ko_KR" status="Approved">파일 경로</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileSpec" locale="ko_KR" status="Approved">파일 사양</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileType" locale="ko_KR" status="Approved">파일 유형</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0ReferencingDatasets" locale="ko_KR" status="Approved">참조 데이터 집합</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0FLPSize" locale="ko_KR" status="Approved">FLP 크기</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0flags" locale="ko_KR" status="Approved">NX에서 설정 및 사용되는 NX 파트에 대한 비트마스크 정보(isPart,isDrawing 등)</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0InternalLength" locale="ko_KR" status="Approved">내부 길이</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0OwningPart" locale="ko_KR" status="Approved">소유 파트</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortID" locale="ko_KR" status="Approved">포트 ID</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortType" locale="ko_KR" status="Approved">포트 유형</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosX" locale="ko_KR" status="Approved">X 위치</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosY" locale="ko_KR" status="Approved">Y 위치</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosZ" locale="ko_KR" status="Approved">Z 위치</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}owning_object" locale="ko_KR" status="Approved">소유 개체</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDElbowAngle" locale="ko_KR" status="Approved">엘보우 각도</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}NX0RoutingPipePartData{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0RoutingRunData{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0RoutingSpecData{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0LastPublishedDate" locale="ko_KR" status="Approved">마지막 게시 날짜</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0SpoolId" locale="ko_KR" status="Approved">스풀 식별자</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}NX0RSDItemRevAttrs" locale="ko_KR" status="Approved">NX 라우팅 아이템 리비전 속성에 대한 역방향 참조</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiameter" locale="ko_KR" status="Approved">직경</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiscipline" locale="ko_KR" status="Approved">라우팅 규칙</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDHeight" locale="ko_KR" status="Approved">높이</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDLength" locale="ko_KR" status="Approved">길이</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDSpecification" locale="ko_KR" status="Approved">라우팅 사양</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDThickness" locale="ko_KR" status="Approved">두께</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDWidth" locale="ko_KR" status="Approved">너비</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0MaterialsTable" locale="ko_KR" status="Approved">재료 테이블</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0MaterialsTable" locale="ko_KR" status="Approved">재료 테이블</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PfamVersion" locale="ko_KR" status="Approved">파트 패밀리 버전</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PfamVersion" locale="ko_KR" status="Approved">파트 패밀리 버전</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AllChildren" locale="ko_KR" status="Approved">모든 자식</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AppUid" locale="ko_KR" status="Approved">대체 표현 UID</key>
+           
+        <key id="Property{::}BOMLine{::}nx0BvrSyncInfoLastSyncDate" locale="ko_KR" status="Approved">BVR 정보 마지막 동기화 날짜</key>
+           
+        <key id="Property{::}BOMLine{::}nx0FLPSize" locale="ko_KR" status="Approved">빠른 로드 파티션 크기</key>
+           
+        <key id="Property{::}BOMLine{::}nx0HasNxDataset" locale="ko_KR" status="Approved">NX 데이터 집합이 있음</key>
+           
+        <key id="Property{::}BOMLine{::}nx0IsBvrStructModified" locale="ko_KR" status="Approved">수정된 구조</key>
+           
+        <key id="Property{::}BOMLine{::}nx0JTOverrideFile" locale="ko_KR" status="Approved">재정의 지오메트리용 파일</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetFlags" locale="ko_KR" status="Approved">NX 데이터 집합 플래그</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetRelease" locale="ko_KR" status="Approved">NX 데이터 집합 릴리스</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXFile" locale="ko_KR" status="Approved">NX 파일</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredBoundingBox" locale="ko_KR" status="Approved">NX 기본 경계 상자</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredDataset" locale="ko_KR" status="Approved">NX 기본 데이터 집합</key>
+           
+        <key id="Property{::}BOMLine{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}BOMWindow{::}nx0PreferredDatasetType" locale="ko_KR" status="Approved">기본 데이터 집합 유형</key>
+           
+        <key id="Property{::}CAEGeom{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}CAEMesh{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}CAESolution{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0Auid" locale="ko_KR" status="Approved">대체 표현 UID</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0BvrSyncInfoLastSyncDate" locale="ko_KR" status="Approved">BVR 정보 마지막 동기화 날짜</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FLPSize" locale="ko_KR" status="Approved">빠른 로드 파티션 크기</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FileTicket" locale="ko_KR" status="Approved">파일 티켓</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0HasNxDataset" locale="ko_KR" status="Approved">NX 데이터 집합이 있음</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0JTOverrideFileTicket" locale="ko_KR" status="Approved">재정의 지오메트리를 위한 파일 티켓입니다.</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetFlags1" locale="ko_KR" status="Approved">NX 데이터 집합 플래그</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetRelease" locale="ko_KR" status="Approved">NX 데이터 집합 릴리스</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetType" locale="ko_KR" status="Approved">데이터 집합 유형</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDataset" locale="ko_KR" status="Approved">NX 데이터 집합</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXFile" locale="ko_KR" status="Approved">NX 파일</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PSViewTypeName" locale="ko_KR" status="Approved">제품 구조 뷰 유형 이름</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}NXAFEM{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NXDerived{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NXMotion{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NXRouting{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}NXSimulation{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}POM_object{::}nx0CompareKey" locale="ko_KR" status="Approved">비교 키</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_altrep_metadata" locale="ko_KR" status="Approved">Altrep 메타데이터 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_any_interpart_references" locale="ko_KR" status="Approved">모든 파트 간 참조 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_broken_links" locale="ko_KR" status="Approved">끊어진 링크 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_components" locale="ko_KR" status="Approved">모든 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_constraints" locale="ko_KR" status="Approved">구속조건 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_geometry_overrides" locale="ko_KR" status="Approved">지오메트리 재정의 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_interpart_expression" locale="ko_KR" status="Approved">파트 간 수식 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_multiple_arrangements" locale="ko_KR" status="Approved">정렬 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_nonmaster_component" locale="ko_KR" status="Approved">비 마스터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_offcenter_components" locale="ko_KR" status="Approved">오프 센터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_parts_list" locale="ko_KR" status="Approved">파트 리스트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_dep_wave_link" locale="ko_KR" status="Approved">위치에 종속적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_indep_wave_link" locale="ko_KR" status="Approved">위치에 독립적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_position_overrides" locale="ko_KR" status="Approved">위치 재정의 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_product_interface" locale="ko_KR" status="Approved">제품 인터페이스 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_ref_components" locale="ko_KR" status="Approved">참조 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_restructured_components" locale="ko_KR" status="Approved">재구조화된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_supressed_components" locale="ko_KR" status="Approved">억제된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_udf" locale="ko_KR" status="Approved">UDF 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDrawing" locale="ko_KR" status="Approved">도면 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCaeData" locale="ko_KR" status="Approved">CAE 데이터 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCamData" locale="ko_KR" status="Approved">CAM 데이터 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyMember" locale="ko_KR" status="Approved">파트 패밀리 구성원</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyTemplate" locale="ko_KR" status="Approved">파트 패밀리 템플릿</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPart" locale="ko_KR" status="Approved">파트</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMeasurableAttribute" locale="ko_KR" status="Approved">측정 가능한 속성 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasBody" locale="ko_KR" status="Approved">바디 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasSuppressionOverride" locale="ko_KR" status="Approved">억제 재정의 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisStructureStream" locale="ko_KR" status="Approved">시각화 구조 스트림 수유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisRmStream" locale="ko_KR" status="Approved">시각화 스트림 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartUnits" locale="ko_KR" status="Approved">파트 단위</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDiagram" locale="ko_KR" status="Approved">다이어그램 소유</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartType" locale="ko_KR" status="Approved">NX 파트 유형</key>
+           
+        <key id="Property{::}UGCAMCLSF{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGCAMPTP{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGCAMShopDoc{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGCAMTemplateData{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGENGINEROLL{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDrawing" locale="ko_KR" status="Approved">도면 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCaeData" locale="ko_KR" status="Approved">CAE 데이터 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCamData" locale="ko_KR" status="Approved">CAM 데이터 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyMember" locale="ko_KR" status="Approved">파트 패밀리 구성원</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyTemplate" locale="ko_KR" status="Approved">파트 패밀리 템플릿</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPart" locale="ko_KR" status="Approved">파트</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMeasurableAttribute" locale="ko_KR" status="Approved">측정 가능한 속성 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasBody" locale="ko_KR" status="Approved">바디 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasSuppressionOverride" locale="ko_KR" status="Approved">억제 재정의 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisStructureStream" locale="ko_KR" status="Approved">시각화 구조 스트림 수유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisRmStream" locale="ko_KR" status="Approved">시각화 스트림 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartUnits" locale="ko_KR" status="Approved">파트 단위</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDiagram" locale="ko_KR" status="Approved">다이어그램 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_altrep_metadata" locale="ko_KR" status="Approved">Altrep 메타데이터 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_any_interpart_references" locale="ko_KR" status="Approved">모든 파트 간 참조 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_broken_links" locale="ko_KR" status="Approved">끊어진 링크 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_components" locale="ko_KR" status="Approved">모든 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_constraints" locale="ko_KR" status="Approved">구속조건 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_geometry_overrides" locale="ko_KR" status="Approved">지오메트리 재정의 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_interpart_expression" locale="ko_KR" status="Approved">파트 간 수식 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_multiple_arrangements" locale="ko_KR" status="Approved">정렬 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_nonmaster_component" locale="ko_KR" status="Approved">비 마스터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_offcenter_components" locale="ko_KR" status="Approved">오프 센터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_parts_list" locale="ko_KR" status="Approved">파트 리스트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_dep_wave_link" locale="ko_KR" status="Approved">위치에 종속적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_indep_wave_link" locale="ko_KR" status="Approved">위치에 독립적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_position_overrides" locale="ko_KR" status="Approved">위치 재정의 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_product_interface" locale="ko_KR" status="Approved">제품 인터페이스 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_ref_components" locale="ko_KR" status="Approved">참조 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_restructured_components" locale="ko_KR" status="Approved">재구조화된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_supressed_components" locale="ko_KR" status="Approved">억제된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_udf" locale="ko_KR" status="Approved">UDF 소유</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartType" locale="ko_KR" status="Approved">NX 파트 유형</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDrawing" locale="ko_KR" status="Approved">도면 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCaeData" locale="ko_KR" status="Approved">CAE 데이터 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCamData" locale="ko_KR" status="Approved">CAM 데이터 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyMember" locale="ko_KR" status="Approved">파트 패밀리 구성원</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyTemplate" locale="ko_KR" status="Approved">파트 패밀리 템플릿</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPart" locale="ko_KR" status="Approved">파트</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasMeasurableAttribute" locale="ko_KR" status="Approved">측정 가능한 속성 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasBody" locale="ko_KR" status="Approved">바디 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasSuppressionOverride" locale="ko_KR" status="Approved">억제 재정의 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisStructureStream" locale="ko_KR" status="Approved">시각화 구조 스트림 수유</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisRmStream" locale="ko_KR" status="Approved">시각화 스트림 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartUnits" locale="ko_KR" status="Approved">파트 단위</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDiagram" locale="ko_KR" status="Approved">다이어그램 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_altrep_metadata" locale="ko_KR" status="Approved">Altrep 메타데이터 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_any_interpart_references" locale="ko_KR" status="Approved">모든 파트 간 참조 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_broken_links" locale="ko_KR" status="Approved">끊어진 링크 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_components" locale="ko_KR" status="Approved">모든 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_constraints" locale="ko_KR" status="Approved">구속조건 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_geometry_overrides" locale="ko_KR" status="Approved">지오메트리 재정의 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_interpart_expression" locale="ko_KR" status="Approved">파트 간 수식 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_multiple_arrangements" locale="ko_KR" status="Approved">정렬 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_nonmaster_component" locale="ko_KR" status="Approved">비 마스터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_offcenter_components" locale="ko_KR" status="Approved">오프 센터 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_parts_list" locale="ko_KR" status="Approved">파트 리스트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_dep_wave_link" locale="ko_KR" status="Approved">위치에 종속적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_indep_wave_link" locale="ko_KR" status="Approved">위치에 독립적인 WAVE 링크 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_position_overrides" locale="ko_KR" status="Approved">위치 재정의 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_product_interface" locale="ko_KR" status="Approved">제품 인터페이스 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_ref_components" locale="ko_KR" status="Approved">참조 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_restructured_components" locale="ko_KR" status="Approved">재구조화된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_supressed_components" locale="ko_KR" status="Approved">억제된 컴포넌트 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_udf" locale="ko_KR" status="Approved">UDF 소유</key>
+           
+        <key id="Property{::}UGPART{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartType" locale="ko_KR" status="Approved">NX 파트 유형</key>
+           
+        <key id="Property{::}UGSCENARIO{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGTIREOFFSET{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="Property{::}UGTIRESPINDLE{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스 정보</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfoStorage" locale="ko_KR" status="Approved">NX 응용 프로그램 정보 저장소</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfo" locale="ko_KR" status="Approved">NX 응용 프로그램 정보</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0part_type" locale="ko_KR" status="Approved">파트 유형</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0sync_checksums" locale="ko_KR" status="Approved">체크섬</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0Environment" locale="ko_KR" status="Approved">환경</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0FLPSize" locale="ko_KR" status="Approved">빠른 로드 파티션 크기</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0part_type" locale="ko_KR" status="Approved">파트 유형</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0sync_checksums" locale="ko_KR" status="Approved">체크섬</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0sync_checksums" locale="ko_KR" status="Approved">체크섬</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0Environment" locale="ko_KR" status="Approved">환경</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0FLPSize" locale="ko_KR" status="Approved">빠른 로드 파티션 크기</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0HasMultiMaterials" locale="ko_KR" status="Approved">복수 재료 소유</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0PartInfoFlags" locale="ko_KR" status="Approved">파트 정보 플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0flags" locale="ko_KR" status="Approved">플래그</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0part_type" locale="ko_KR" status="Approved">파트 유형</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0release" locale="ko_KR" status="Approved">NX 릴리스</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0sync_checksums" locale="ko_KR" status="Approved">체크섬</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

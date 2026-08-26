@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:00 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="ru_RU" status="Approved">Аналитик</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="ru_RU" status="Approved">Затронутые</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="ru_RU" status="Approved">Проблемы</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="ru_RU" status="Approved">Решения</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="ru_RU" status="Approved">Планы</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="ru_RU" status="Approved">Реализация</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="ru_RU" status="Approved">Изменение ссылок</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="ru_RU" status="Approved">Отношение управления изменениями</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="ru_RU" status="Approved">Затрагиваемые решения</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="ru_RU" status="Approved">Исполнительная комиссия по изменению</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="ru_RU" status="Approved">Мастер-форма изменения элемента</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="ru_RU" status="Approved">Мастер-форма изменения элемента</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии изменения элемента</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии изменения элемента</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="ru_RU" status="Approved">Элемент изменения</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="ru_RU" status="Approved">Мастер-форма извещения об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="ru_RU" status="Approved">Мастер-форма извещения об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии извещения об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии извещения об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="ru_RU" status="Approved">Извещение об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="ru_RU" status="Approved">Мастер-форма запроса на изменение</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="ru_RU" status="Approved">Мастер-форма запроса на изменение</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии запроса на изменение</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии запроса на изменение</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="ru_RU" status="Approved">Запрос на изменение</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="ru_RU" status="Approved">Комиссия по контролю за изменениями</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="ru_RU" status="Approved">Специалист по изменениям I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="ru_RU" status="Approved">Специалист по изменениям II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="ru_RU" status="Approved">Специалист по изменениям III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения действия</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="ru_RU" status="Approved">Мастер-форма действия</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии действия</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии действия</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="ru_RU" status="Approved">Ревизия действия</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="ru_RU" status="Approved">Действие</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="ru_RU" status="Approved">Объект аудита</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="ru_RU" status="Approved">Авторизация изменений разметки</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="ru_RU" status="Approved">Спецификация имеет форму замены</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="ru_RU" status="Approved">Предшествующая зависимость</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения аудита конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="ru_RU" status="Approved">Мастер-форма аудита конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии аудита конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии аудита конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="ru_RU" status="Approved">Ревизия аудита конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="ru_RU" status="Approved">Аудит конфигурации</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="ru_RU" status="Approved">Участник</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="ru_RU" status="Approved">Изменить правки</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="ru_RU" status="Approved">Параллельная зависимость</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="ru_RU" status="Approved">Мастер-форма запроса на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="ru_RU" status="Approved">Мастер-форма запроса на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="ru_RU" status="Approved">Мастер-форма запроса на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии запроса на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="ru_RU" status="Approved">Ревизия запроса на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="ru_RU" status="Approved">Запрос на отклонение</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="ru_RU" status="Approved">Изменить блок выражения применяемости </key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения общего рассмотрения</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="ru_RU" status="Approved">Мастер-форма общего рассмотрения</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии общего рассмотрения</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии общего рассмотрения</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="ru_RU" status="Approved">Ревизия общего рассмотрения</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="ru_RU" status="Approved">Общее рассмотрение</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="ru_RU" status="Approved">Мастер-форма замены общего производственного заказа</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="ru_RU" status="Approved">Мастер-форма общего производственного заказа</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="ru_RU" status="Approved">Мастер-форма замены ревизии общего производственного заказа</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии общего производственного заказа</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="ru_RU" status="Approved">Ревизия общего производственного заказа</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="ru_RU" status="Approved">Общий производственный заказ</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="ru_RU" status="Approved">Пространство для изменений</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="ru_RU" status="Approved">Контракт</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="ru_RU" status="Approved">Незатронутые</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="ru_RU" status="Approved">Предложение</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="ru_RU" status="Approved">Объединяет</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="ru_RU" status="Approved">Объединено</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="ru_RU" status="Approved">Предыдущая применяемость</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="ru_RU" status="Approved">Изменение свойства</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="ru_RU" status="Approved">Предложенный измененный объект</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="ru_RU" status="Approved">Вызывает действия</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="ru_RU" status="Approved">Удаленная строка</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения простого изменения</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="ru_RU" status="Approved">Мастер-форма простого изменения</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="ru_RU" status="Approved">Мастер-форма хранения ревизии простого изменения</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="ru_RU" status="Approved">Мастер-форма ревизии простого изменения</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="ru_RU" status="Approved">Ревизия простого изменения</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="ru_RU" status="Approved">Простое изменение</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="ru_RU" status="Approved">Рабочая среда</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="ru_RU" status="Approved">Мастер-форма общего извещения об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="ru_RU" status="Approved">Мастер-форма общего извещения об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии общего извещения об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="ru_RU" status="Approved">Ревизия общего извещения об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии общего извещения об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="ru_RU" status="Approved">Общее извещение об изменении</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="ru_RU" status="Approved">Мастер-форма общего запроса на изменение</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="ru_RU" status="Approved">Мастер-форма общего запроса на изменение</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии общего запроса на изменение</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="ru_RU" status="Approved">Ревизия общего запроса на изменение</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии общего запроса на изменение</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="ru_RU" status="Approved">Общий запрос на изменение</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="ru_RU" status="Approved">Мастер-форма общего отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="ru_RU" status="Approved">Мастер-форма общего отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии общего отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="ru_RU" status="Approved">Ревизия общего отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии общего отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="ru_RU" status="Approved">Общий отчет об ошибке</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="ru_RU" status="Approved">Мастер-форма отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="ru_RU" status="Approved">Мастер-форма отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="ru_RU" status="Approved">Мастер-форма ревизии отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="ru_RU" status="Approved">Мастер-форма версии отчета об ошибке</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="ru_RU" status="Approved">Отчет о проблеме</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="ru_RU" status="Approved">Инициатор запроса</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="ru_RU" status="Approved">Данное условие задает, являются ли доступными Cm0BeforeDependency и Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="ru_RU" status="Approved">Данное условие задает, являются ли доступными Cm0BeforeDependency и Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="ru_RU" status="Approved">Данное условие задает, являются ли доступными Cm0BeforeDependency и Cm0ConcurrentDependency.</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="ru_RU" status="Approved">Это условие задает, является ли свойство cm0Disposition для отношения CMHasImpactedItem редактируемым или нет</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="ru_RU" status="Approved">Это условие разрешает фильтрацию шаблонов для типов и подтипов ревизии простого изменения.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasImpactedItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasImpactedItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="ru_RU" status="Approved">Чтобы добавить затронутые элементы, состояние элемента изменения должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="ru_RU" status="Approved">Чтобы добавить затронутые элементы, пользователь должен иметь лицензию с правами на внесение изменений, быть инициатором запроса или аналитиком, или участником изменений, иметь доступ на запись для элемента изменения и состояние элемента должно быть Открыто.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа Cm0HasNonImpactedItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа Cm0HasNonImpactedItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="ru_RU" status="Approved">Чтобы добавить незатронутые элементы, пользователь должен иметь лицензию с правами на внесение изменений, быть инициатором запроса, аналитиком или участником изменений, иметь доступ на запись для элемента изменения и состояние элемента должно быть Открыто.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasProblemItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasProblemItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="ru_RU" status="Approved">Чтобы добавить проблемные элементы, состояние элемента изменения должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="ru_RU" status="Approved">Чтобы добавить проблемные элементы, пользователь должен иметь доступ на запись элемента изменения и состояние элемента должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasSolutionItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="ru_RU" status="Approved">Это условие позволяет добавлять элемент решения пользователем, назначенным на роль аналитика с правами лицензии на внесение изменений, только если извещение об изменении имеет статус Выполняется, Утверждено, Открыто.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="ru_RU" status="Approved">Чтобы добавить элементы решения, пользователь должен иметь роль Аналитик или Участник изменения или ему должна быть назначена задача План-графика и состояние элемента должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="ru_RU" status="Approved">Чтобы добавить элементы решения, пользователь должен иметь лицензию с правами на внесение изменений, быть аналитиком или участником изменений, иметь доступ на запись для элемента изменения и состояние элемента должно быть Открыто или Утверждается.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="ru_RU" status="Approved">Чтобы добавить ссылочные элементы, состояние элемента изменения должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение участников изменений.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли выполнение изменения.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="ru_RU" status="Approved">Данное условие определяет, может ли пользователь создать извещение об изменении.</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="ru_RU" status="Approved">Данное условие определяет, может ли пользователь создать запрос на изменение.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="ru_RU" status="Approved">Данное условие определяет, может ли пользователь создать элемент действия.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="ru_RU" status="Approved">Данное условие проверяет статус аудита конфигурации</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="ru_RU" status="Approved">Данное условие определяет, может ли пользователь создать запрос на отклонение.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="ru_RU" status="Approved">Данное условие проверяет статус аудита конфигурации</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа Cm0Incorporates для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа Cm0Incorporates для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа Cm0Incorporates.</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="ru_RU" status="Approved">Данное условие проверяет статус аудита конфигурации</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="ru_RU" status="Approved">Проверяет, доступен ли статус объединения на изменение для зависимого элемента или нет.</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="ru_RU" status="Approved">Данное условие определяет, может ли пользователь создать отчет о проблеме.</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="ru_RU" status="Approved">Условие, определяющее, разрешено ли создание типа изменения.</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="ru_RU" status="Approved">Данное условие определяет, активна ли последовательность ревизий заданного элемента.</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="ru_RU" status="Approved">Данное условие проверяет, можно ли назначить аналитика.</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь аналитиком изменения для ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь автором.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasImpactedItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasImpactedItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связи типа CMHasImpactedItem для задачи.</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связь CMHasImpactedItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasProblemItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasProblemItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связи типа CMHasProblemItem для задачи.</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связь CMHasProblemItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasSolutionItem для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasSolutionItem для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связи типа CMHasSolutionItem для задачи.</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, можно ли создавать связь CMHasSolutionItem.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, будут ли создаваться связи типа CMHasWorkBreakdown.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMImplements для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMImplements для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="ru_RU" status="Approved">Чтобы получить изменение и добавить отношение "Реализация" между элементами изменений, пользователь должен иметь уровень лицензии с правами на внесение изменений, а элемент изменения должен иметь состояние Открыто.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMReferences для указанного первичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="ru_RU" status="Approved">Данное условие определяет, будут ли создаваться связи типа CMReferences для указанного вторичного объекта.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="ru_RU" status="Approved">Данное условие определяет, можно ли создавать связи типа CMReferences для задачи.</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="ru_RU" status="Approved">Чтобы добавить ссылочные элементы, пользователь должен иметь доступ на запись элемента изменения и состояние элемента должно быть Открытый.</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли выполнение изменения.</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение исполнительной комиссии по изменению.</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, может ли пользователь создать извещение об изменении.</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, может ли пользователь создать запрос на изменение.</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение комиссии по контролю за изменениями.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение специалиста по изменениям 1.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь специалистом по изменениям 1 для ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение специалиста по изменениям 2.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь специалистом по изменениям 2 для ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение специалиста по изменениям 3.</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь специалистом по изменениям 3 для ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, может ли пользователь создать запрос на отклонение.</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="ru_RU" status="Approved">Данное условие определяет, можно ли создавать применяемость, связанную с ревизией элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="ru_RU" status="Approved">Данное условие определяет, можно ли пересматривать зависимый элемент для связанной с ним ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="ru_RU" status="Approved">Данное условие определяет, можно ли пересматривать зависимый элемент для связанной с ним задачи.</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="ru_RU" status="Approved">УСТАРЕЛО. СМ SUPPORT ANNOUNCEMENT 13.1 - Данное условие определяет, может ли пользователь создать отчет о проблеме.</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="ru_RU" status="Approved">Данное условие определяет, допускается ли назначение инициатора запроса.</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="ru_RU" status="Approved">Данное условие определяет, является ли текущий зарегистрированный пользователь инициатором запроса для ревизии элемента изменения.</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="ru_RU" status="Approved">Данное условие определяет, можно ли пользователю утверждать состав.</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="ru_RU" status="Approved">Complete Merge</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="ru_RU" status="Approved">Partial Merge</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="ru_RU" status="Approved">Запрошенное изменение: создать новый элемент для замены зависимого элемента.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="ru_RU" status="Approved">Запрошенное изменение: заменить зависимый элемент на существующий элемент.</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="ru_RU" status="Approved">Запрошенное изменение: пересмотреть зависимый элемент.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ru_RU" status="Approved">Последняя  версия в любом активном изменении или в общем доступе.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ru_RU" status="Approved">Последняя версия в конечном элементе изменения или в общем доступе.</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="ru_RU" status="Approved">Завершено</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="ru_RU" status="Approved">Частичный</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="ru_RU" status="Approved">Создать новый</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="ru_RU" status="Approved">Заменить на существующий</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="ru_RU" status="Approved">Пересмотреть</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="ru_RU" status="Approved">Утверждение</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="ru_RU" status="Approved">Участие</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="ru_RU" status="Approved">Уточняется</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="ru_RU" status="Approved">Утверждено</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="ru_RU" status="Approved">Все активные ECN </key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="ru_RU" status="Approved">Только текущее ECN</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="ru_RU" status="Approved">Contains Merged Occurrence Data</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="ru_RU" status="Approved">Cutback Occurrence</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="ru_RU" status="Approved">Merged Properties</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="ru_RU" status="Approved">Обновленные свойства</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="ru_RU" status="Approved">В режиме изменений</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="ru_RU" status="Approved">Concurrent Changes</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="ru_RU" status="Approved">Решение</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="ru_RU" status="Approved">Применение извещений об изменении</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="ru_RU" status="Approved">Решения</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="ru_RU" status="Approved">Статус объединения</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="ru_RU" status="Approved">Происхождение</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="ru_RU" status="Approved">Родитель</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="ru_RU" status="Approved">Запрошенное изменение</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="ru_RU" status="Approved">Происхождение</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="ru_RU" status="Approved">Proposed Design Owning Site</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="ru_RU" status="Approved">Происхождение</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="ru_RU" status="Approved">Производные от</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="ru_RU" status="Approved">В контекстных объектах</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="ru_RU" status="Approved">Идентификатор пользователя аналитика</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="ru_RU" status="Approved">Изменить идентификатор пользователя Специалиста I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="ru_RU" status="Approved">Изменить идентификатор пользователя Специалиста II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="ru_RU" status="Approved">Изменить идентификатор пользователя Специалиста III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="ru_RU" status="Approved">Аналитик</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="ru_RU" status="Approved">Специалист</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="ru_RU" status="Approved">External Originator?</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="ru_RU" status="Approved">Отправитель</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="ru_RU" status="Approved">Remote Workflow Task UID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="ru_RU" status="Approved">Инициатор запроса</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="ru_RU" status="Approved">Идентификатор пользователя инициатора запроса</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="ru_RU" status="Approved">Влияние</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="ru_RU" status="Approved">Комментарии</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="ru_RU" status="Approved">Исходный ответственный</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="ru_RU" status="Approved">Вызвано аудитом</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="ru_RU" status="Approved">Зоны</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="ru_RU" status="Approved">Тип действия</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="ru_RU" status="Approved">Номер действия</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="ru_RU" status="Approved">Комментарии</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="ru_RU" status="Approved">Дата выполнения</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="ru_RU" status="Approved">Номер аудита</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="ru_RU" status="Approved">Объект изменения</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="ru_RU" status="Approved">Обновленный объект</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="ru_RU" status="Approved">Периодическое отклонение</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="ru_RU" status="Approved">Обосновать периодическое отклонение</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="ru_RU" status="Approved">Номер EDR</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="ru_RU" status="Approved">Тип отклонения</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="ru_RU" status="Approved">Номер EDR</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="ru_RU" status="Approved">Присутствует элемент аудита</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="ru_RU" status="Approved">Тип аудита</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="ru_RU" status="Approved">Состояние объединения</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="ru_RU" status="Approved">Изменить правки</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="ru_RU" status="Approved">Имя свойства</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="ru_RU" status="Approved">Исходное значение свойства</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="ru_RU" status="Approved">Обновленное значение свойства</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="ru_RU" status="Approved">Состав</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="ru_RU" status="Approved">Имеет потомков</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="ru_RU" status="Approved">Уже изменен</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="ru_RU" status="Approved">Проблемный объект</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="ru_RU" status="Approved">Имя предложенного измененного объекта</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="ru_RU" status="Approved">Предложенный измененный объект</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="ru_RU" status="Approved">Предложенный измененный тип</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="ru_RU" status="Approved">Related Parent Revisions</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="ru_RU" status="Approved">Related Usage Revisions</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="ru_RU" status="Approved">Отношение</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="ru_RU" status="Approved">Тип исходного объекта </key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="ru_RU" status="Approved">Исходный объект</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="ru_RU" status="Approved">Использование детали</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="ru_RU" status="Approved">Номер SC</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="ru_RU" status="Approved">Номер SC</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="ru_RU" status="Approved">Быстрый контроль</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="ru_RU" status="Approved">Предложенная применяемость</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="ru_RU" status="Approved">Номер ECN</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="ru_RU" status="Approved">Номер ECN</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="ru_RU" status="Approved">Быстрый контроль</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="ru_RU" status="Approved">Номер ECR</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="ru_RU" status="Approved">Номер ECR</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="ru_RU" status="Approved">Номер отчета об ошибке</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="ru_RU" status="Approved">Номер отчета об ошибке</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="ru_RU" status="Approved">Общие</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="ru_RU" status="Approved">Критический анализ проекта</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="ru_RU" status="Approved">Аудит функциональных настроек</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="ru_RU" status="Approved">Аудит физических настроек</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="ru_RU" status="Approved">Предварительный анализ проекта</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="ru_RU" status="Approved">Проверка готовности к тестированию</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="ru_RU" status="Approved">Ничего из вышеперечисленного не подходит для пользователя. Например, пользователи могут не знать ответа и захотят ответить позднее.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="ru_RU" status="Approved">Измените деталь и используйте ее в той же сборке.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="ru_RU" status="Approved">Не используйте остальные детали.</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="ru_RU" status="Approved">Оставить производство деталей в текущем состоянии.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ru_RU" status="Approved">The change as-defined for the Impacted Item has been implemented in a corresponding Solution Item and no subsequent changes will be required to fully incorporate the defined change.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ru_RU" status="Approved">The change as-defined for the Impacted Item has been partially implemented into a corresponding Solution Item. The change will need to be fully incorporated by a subsequent change into the main chain of revisions of the Item.</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ru_RU" status="Approved">The change as-defined for the Impacted Item has not been yet implemented into a corresponding Solution Item.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ru_RU" status="Approved">Auto-merge</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ru_RU" status="Approved">Concurrent Change</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="ru_RU" status="Approved">Одобрено</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="ru_RU" status="Approved">Отклонено</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="ru_RU" status="Approved">Исправить</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="ru_RU" status="Approved">Улучшить</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="ru_RU" status="Approved">Предотвратить</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="ru_RU" status="Approved">Отменено</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="ru_RU" status="Approved">Закрыто</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="ru_RU" status="Approved">Приостановлено</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="ru_RU" status="Approved">Открыто</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="ru_RU" status="Approved">Одобрено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="ru_RU" status="Approved">Отложено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="ru_RU" status="Approved">Отклонено</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="ru_RU" status="Approved">Изучается</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="ru_RU" status="Approved">Нет</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="ru_RU" status="Approved">Завершено</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="ru_RU" status="Approved">Уточняется</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="ru_RU" status="Approved">Исполняется</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="ru_RU" status="Approved">Утверждается</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="ru_RU" status="Approved">Низкий</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="ru_RU" status="Approved">Средний</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="ru_RU" status="Approved">Высокий</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="ru_RU" status="Approved">Критичное</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="ru_RU" status="Approved">Другая проблема</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="ru_RU" status="Approved">Проблема подтверждена</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="ru_RU" status="Approved">Проблема не подтверждена</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="ru_RU" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="ru_RU" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="ru_RU" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="ru_RU" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="ru_RU" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="ru_RU" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="ru_RU" status="Approved">Нет</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="ru_RU" status="Approved">Да</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="ru_RU" status="Approved">Ошибка</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="ru_RU" status="Approved">Нет</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="ru_RU" status="Approved">Выполнено</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="ru_RU" status="Approved">Завершено</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="ru_RU" status="Approved">Уточняется</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="ru_RU" status="Approved">Исполняется</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="ru_RU" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="ru_RU" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="ru_RU" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="ru_RU" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="ru_RU" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="ru_RU" status="Approved">Другое</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="ru_RU" status="Approved">Переработка</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="ru_RU" status="Approved">Брак</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="ru_RU" status="Approved">Использовать "как есть"</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="ru_RU" status="Approved">Отменено</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="ru_RU" status="Approved">Объединено</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="ru_RU" status="Approved">Merge Required</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="ru_RU" status="Approved">No Merge Required</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="ru_RU" status="Approved">Auto-merge</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="ru_RU" status="Approved">Concurrent Change</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="ru_RU" status="Approved">Изменение структуры</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="ru_RU" status="Approved">Замена структуры</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="ru_RU" status="Approved">Мастер-форма элемента изменения</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="ru_RU" status="Approved">Ревизия извещения об изменении</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="ru_RU" status="Approved">Ревизия запроса на изменение</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="ru_RU" status="Approved">Ревизия отчета об ошибке</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="ru_RU" status="Approved">Замена структуры</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="ru_RU" status="Approved">Количество редактирований структуры</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="ru_RU" status="Approved">Ревизия структуры</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="ru_RU" status="Approved">Ревизия изменений</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="ru_RU" status="Approved">Тип изменения</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="ru_RU" status="Approved">Настраиваемый объект</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="ru_RU" status="Approved">Производный</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="ru_RU" status="Approved">Полное имя объекта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="ru_RU" status="Approved">Имя объекта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="ru_RU" status="Approved">Строка объекта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="ru_RU" status="Approved">Тип объекта</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="ru_RU" status="Approved">Вхождение</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="ru_RU" status="Approved">Проблемные ревизии вида структуры</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="ru_RU" status="Approved">Разница в количестве</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="ru_RU" status="Approved">Активное изменение для ревизии вхождения</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="ru_RU" status="Approved">Активное изменение</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="ru_RU" status="Approved">Дополнения</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="ru_RU" status="Approved">Дополнения</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="ru_RU" status="Approved">Отмены</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="ru_RU" status="Approved">Отмены</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="ru_RU" status="Approved">Ревизия изменений</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="ru_RU" status="Approved">Задаваемая форма</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="ru_RU" status="Approved">Зависимая ревизия вида структуры</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="ru_RU" status="Approved">Передача</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="ru_RU" status="Approved">Полное имя объекта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="ru_RU" status="Approved">Имя объекта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="ru_RU" status="Approved">Строка объекта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="ru_RU" status="Approved">Тип объекта</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="ru_RU" status="Approved">Проблемные ревизии вида структуры</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="ru_RU" status="Approved">Предпочтительный статус ревизии элемента изменения</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="ru_RU" status="Approved">Мастер-форма элемента изменения</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="ru_RU" status="Approved">Режим общего доступа к ревизии элемента изменения</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="ru_RU" status="Approved">Аналитик</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="ru_RU" status="Approved">Комментарии к состоянию</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="ru_RU" status="Approved">Дата закрытия</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="ru_RU" status="Approved">Состояние</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="ru_RU" status="Approved">Комментарии к решению</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="ru_RU" status="Approved">Дата решения</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="ru_RU" status="Approved">Решение</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="ru_RU" status="Approved">Реализовано</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="ru_RU" status="Approved">Change Maturity</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="ru_RU" status="Approved">Исполнительная комиссия по изменению</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="ru_RU" status="Approved">Комиссия по контролю за изменениями</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="ru_RU" status="Approved">Специалист по изменениям I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="ru_RU" status="Approved">Специалист по изменениям II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="ru_RU" status="Approved">Специалист по изменениям III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="ru_RU" status="Approved">Инициатор запроса</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="ru_RU" status="Approved">Авто-заполнение отношений </key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="ru_RU" status="Approved">Покупатели</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="ru_RU" status="Approved">Участники изменений</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="ru_RU" status="Approved">Типы получаемых объектов</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="ru_RU" status="Approved">Конструкторы</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="ru_RU" status="Approved">Инженеры-технологи</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="ru_RU" status="Approved">Специалисты по финансовой оценке</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="ru_RU" status="Approved">Проблемы, доступные для изменений</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="ru_RU" status="Approved">Изменяемые ссылки</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="ru_RU" status="Approved">Ведущие конструкторы</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="ru_RU" status="Approved">Problem Part Revisions</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="ru_RU" status="Approved">Инженеры по продуктам</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="ru_RU" status="Approved">Программные менеджеры</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="ru_RU" status="Approved">Инженеры по качеству</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="ru_RU" status="Approved">Отношения для авто-заполнения на производной</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="ru_RU" status="Approved">Продажи</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="ru_RU" status="Approved">Заказчики</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="ru_RU" status="Approved">Имя</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="ru_RU" status="Approved">Date of Customer Approval</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="ru_RU" status="Approved">Приоритет внедрения</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="ru_RU" status="Approved">Требуется утверждение заказчика</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="ru_RU" status="Approved">Специальная инструкция</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="ru_RU" status="Approved">Статус утверждение заказчика</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="ru_RU" status="Approved">Влияние</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="ru_RU" status="Approved">Изменяемые затронутые отношения </key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="ru_RU" status="Approved">Изменяемые отношения решения</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="ru_RU" status="Approved">Единовременные затраты</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="ru_RU" status="Approved">Предлагаемое решение</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="ru_RU" status="Approved">Причина</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="ru_RU" status="Approved">Периодические затраты</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="ru_RU" status="Approved">Дата технической рекомендации</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="ru_RU" status="Approved">Приоритет технического обзора</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="ru_RU" status="Approved">Технические рекомендации</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="ru_RU" status="Approved">Технический обзор</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="ru_RU" status="Approved">Результаты теста приложены</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="ru_RU" status="Approved">Временные факторы</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="ru_RU" status="Approved">Влияние</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="ru_RU" status="Approved">Гарантия затронута</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="ru_RU" status="Approved">Изменяемые затронутые отношения </key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="ru_RU" status="Approved">Описание рабочей среды</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="ru_RU" status="Approved">Влияние</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="ru_RU" status="Approved">Порядок событий</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="ru_RU" status="Approved">Уровень важности</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="ru_RU" status="Approved">Приоритет технического обзора</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="ru_RU" status="Approved">Подтверждение</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="ru_RU" status="Approved">Активное изменение</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="ru_RU" status="Approved">Автор изменения</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="ru_RU" status="Approved">Список значений для контекста глобальных изменений</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="ru_RU" status="Approved">ECN In</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="ru_RU" status="Approved">ECN Out</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="ru_RU" status="Approved">Контекст глобальных изменений</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="ru_RU" status="Approved">Контекст глобальных изменений</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="ru_RU" status="Approved">Покупатели</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="ru_RU" status="Approved">Конструкторы</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="ru_RU" status="Approved">Инженеры-технологи</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="ru_RU" status="Approved">Специалисты по финансовой оценке</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="ru_RU" status="Approved">Ведущие конструкторы</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="ru_RU" status="Approved">Инженеры по продуктам</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="ru_RU" status="Approved">Программные менеджеры</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="ru_RU" status="Approved">Инженеры по качеству</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="ru_RU" status="Approved">Продажи</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="ru_RU" status="Approved">Change Action</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="ru_RU" status="Approved">Изменить отношение</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

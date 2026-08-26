@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="zh_TW" status="Approved">新增備選件</key>
+           
+        <key id="CommandDisplayName{::}Awp0EnableOpenBaselineCmd" locale="zh_TW" status="Approved">啟用開啟基線指令</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="zh_TW" status="Approved">有效性</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="zh_TW" status="Approved">發佈</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="zh_TW" status="Approved">移除備選件</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="zh_TW" status="Approved">建立版本基線</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="zh_TW" status="Approved">確定「新增備選件」指令是否應可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0EnableOpenBaselineCmdCond" locale="zh_TW" status="Approved">啟用開啟基線指令條件</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="zh_TW" status="Approved">檢查運算式有效性是否受支援。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="zh_TW" status="Approved">確定指令「版本有效性」是否可以套用於選定物件。</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="zh_TW" status="Approved">確定「移除備選件」指令是否應可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="zh_TW" status="Approved">此條件確定輸入物件是否支援「建立版本基線」指令。</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="zh_TW" status="Approved">基礎外部系統物件</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="zh_TW" status="Approved">進階查詢準則</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="zh_TW" status="Approved">進階搜尋輸入</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="zh_TW" status="Approved">備選件提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="zh_TW" status="Approved">日期搜尋篩選器</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="zh_TW" status="Approved">動態複合屬性欄定義</key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="zh_TW" status="Approved">全文檢索搜尋索引子</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="zh_TW" status="Approved">全文搜尋執行</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="zh_TW" status="Approved">我的最愛</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="zh_TW" status="Approved">收藏提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="zh_TW" status="Approved">資料夾集合提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="zh_TW" status="Approved">資料夾集合</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="zh_TW" status="Approved">關鍵字搜尋</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="zh_TW" status="Approved">獲取子級提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="zh_TW" status="Approved">ID 關聯值清單</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="zh_TW" status="Approved">收件箱提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="zh_TW" status="Approved">上次使用的欄組態</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="zh_TW" status="Approved">具名的欄組態</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="zh_TW" status="Approved">數字搜尋篩選器</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="zh_TW" status="Approved">物件集列提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="zh_TW" status="Approved">快速搜尋 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="zh_TW" status="Approved">最近使用物件提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="zh_TW" status="Approved">參考提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="zh_TW" status="Approved">關係自訂 LOV 業務物件</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="zh_TW" status="Approved">資源提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="zh_TW" status="Approved">版本規則 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="zh_TW" status="Approved">簽發提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="zh_TW" status="Approved">字串搜尋篩選器</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="zh_TW" status="Approved">表屬性提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="zh_TW" status="Approved">類型搜尋提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="zh_TW" status="Approved">使用者指派</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="zh_TW" status="Approved">VNC 提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="zh_TW" status="Approved">工作區映射關係</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="zh_TW" status="Approved">工作區定義</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="zh_TW" status="Approved">物件集欄</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="zh_TW" status="Approved">物件集列</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="zh_TW" status="Approved">物件集</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="zh_TW" status="Approved">用戶端關聯</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="zh_TW" status="Approved">選取</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="zh_TW" status="Approved">進階搜尋</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="zh_TW" status="Approved">BOM 匯入失敗</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="zh_TW" status="Approved">BOM 匯入成功</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="zh_TW" status="Approved">Excel 匯入失敗</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="zh_TW" status="Approved">Excel 匯入成功</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="zh_TW" status="Approved">Active Workspace 單元指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="zh_TW" status="Approved">Active Workspace 快顯功能表指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="zh_TW" status="Approved">Active Workspace 全域工具列</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="zh_TW" status="Approved">Active Workspace 雜項指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="zh_TW" status="Approved">Active Workspace 概要表指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="zh_TW" status="Approved">Active Workspace 視圖工具指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="zh_TW" status="Approved">Active Workspace XRT 指令</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="zh_TW" status="Approved">BOM 匯入失敗</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="zh_TW" status="Approved">BOM 匯入成功</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="zh_TW" status="Approved">Excel 匯入失敗</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="zh_TW" status="Approved">Excel 匯入成功</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="zh_TW" status="Approved">Active Workspace 單元</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="zh_TW" status="Approved">Active Workspace 快顯功能表</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="zh_TW" status="Approved">Active Workspace 全域工具列</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="zh_TW" status="Approved">Active Workspace 雜項指令</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="zh_TW" status="Approved">Active Workspace 概要表指令</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="zh_TW" status="Approved">視圖工具</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="zh_TW" status="Approved">Active Workspace XRT</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="zh_TW" status="Approved">外部系統物件類名稱</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="zh_TW" status="Approved">外部系統名稱</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="zh_TW" status="Approved">外部系統 URI</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="zh_TW" status="Approved">屬性名稱清單</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="zh_TW" status="Approved">進階查詢名稱</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="zh_TW" status="Approved">快速搜尋名稱</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="zh_TW" status="Approved">結束日期</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="zh_TW" status="Approved">篩選器名稱</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="zh_TW" status="Approved">開始日期</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="zh_TW" status="Approved">欄顯示名稱</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="zh_TW" status="Approved">動態複合屬性路徑</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="zh_TW" status="Approved">物件類型</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="zh_TW" status="Approved">屬性名稱</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="zh_TW" status="Approved">執行使用者</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="zh_TW" status="Approved">上次執行時間</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="zh_TW" status="Approved">已儲存的搜尋</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="zh_TW" status="Approved">圖表關於</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="zh_TW" status="Approved">已儲存的搜尋語言環境</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="zh_TW" status="Approved">篩選器</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="zh_TW" status="Approved">日期篩選器</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="zh_TW" status="Approved">允許其他人檢視</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="zh_TW" status="Approved">數字篩選器</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="zh_TW" status="Approved">準則</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="zh_TW" status="Approved">字串篩選器</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="zh_TW" status="Approved">欄組態參考</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="zh_TW" status="Approved">上次使用者</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="zh_TW" status="Approved">欄組態 ID</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="zh_TW" status="Approved">欄組態名稱</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="zh_TW" status="Approved">是管理員欄組態</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="zh_TW" status="Approved">結束值</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="zh_TW" status="Approved">篩選器名稱</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="zh_TW" status="Approved">開始值</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="zh_TW" status="Approved">篩選器名稱</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="zh_TW" status="Approved">電子郵件</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="zh_TW" status="Approved">結束日期</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="zh_TW" status="Approved">電話</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="zh_TW" status="Approved">開始日期</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="zh_TW" status="Approved">使用者</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="zh_TW" status="Approved">是預設工作區？</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="zh_TW" status="Approved">工作區 ID</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="zh_TW" status="Approved">陣列長度</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="zh_TW" status="Approved">資料類型</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="zh_TW" status="Approved">是否為陣列</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="zh_TW" status="Approved">是否為關係屬性</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="zh_TW" status="Approved">長度</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="zh_TW" status="Approved">屬性顯示名稱</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="zh_TW" status="Approved">屬性名稱</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="zh_TW" status="Approved">使用者可分類</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="zh_TW" status="Approved">是否允許剪下</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="zh_TW" status="Approved">主要</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="zh_TW" status="Approved">參考屬性名稱</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="zh_TW" status="Approved">關係類型顯示名稱</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="zh_TW" status="Approved">關係類型名稱</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="zh_TW" status="Approved">關係</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="zh_TW" status="Approved">關係</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="zh_TW" status="Approved">次物件</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="zh_TW" status="Approved">目標</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="zh_TW" status="Approved">是否可修改</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="zh_TW" status="Approved">物件集欄</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="zh_TW" status="Approved">物件集列</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="zh_TW" status="Approved">物件集列總數</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="zh_TW" status="Approved">物件儲存格屬性</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="zh_TW" status="Approved">縮圖影像 FMS 憑單</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="zh_TW" status="Approved">物件</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="zh_TW" status="Approved">新增以我為審核者分類的行為</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="zh_TW" status="Approved">新增以我為任務所有者分類的行為</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="zh_TW" status="Approved">可指派</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="zh_TW" status="Approved">可執行</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="zh_TW" status="Approved">可升級</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="zh_TW" status="Approved">用戶端範圍</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="zh_TW" status="Approved">選取</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="zh_TW" status="Approved">欄顯示名稱</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="zh_TW" status="Approved">篩選器</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="zh_TW" status="Approved">是否啟用篩選</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="zh_TW" status="Approved">欄是否凍結</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="zh_TW" status="Approved">文字是否換列</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="zh_TW" status="Approved">選項名稱</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="zh_TW" status="Approved">選項值</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="zh_TW" status="Approved">關聯名稱</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="zh_TW" status="Approved">父項選取</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="zh_TW" status="Approved">所選物件</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="zh_TW" status="Approved">具有子項</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="zh_TW" status="Approved">是否可修改</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="zh_TW" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="zh_TW" status="Approved">別名 ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="zh_TW" status="Approved">備選 ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="zh_TW" status="Approved">已配置的版本</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="zh_TW" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="zh_TW" status="Approved">必需參與者</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="zh_TW" status="Approved">要顯示的參與者</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="zh_TW" status="Approved">別名 ID</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="zh_TW" status="Approved">備選 ID</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="zh_TW" status="Approved">旗標</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="zh_TW" status="Approved">遠端類型</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="zh_TW" status="Approved">遠端站點</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="zh_TW" status="Approved">建立日期</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="zh_TW" status="Approved">遠端類型</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="zh_TW" status="Approved">遠端站點</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="zh_TW" status="Approved">新增以我為審核者分類的行為</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="zh_TW" status="Approved">新增以我為任務所有者分類的行為</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="zh_TW" status="Approved">可指派</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="zh_TW" status="Approved">可執行</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="zh_TW" status="Approved">可升級</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="zh_TW" status="Approved">規範</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="zh_TW" status="Approved">專案小組成員</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="zh_TW" status="Approved">版本規則</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="zh_TW" status="Approved">我的代理人</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="zh_TW" status="Approved">代理</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="zh_TW" status="Approved">建立基線完成</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="zh_TW" status="Approved">關係 Proxy 物件</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="zh_TW" status="Approved">跟蹤連結提供者</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="zh_TW" status="Approved">跟蹤連結 Proxy 物件</key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="zh_TW" status="Approved">可追蹤性矩陣</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="zh_TW" status="Approved">該選項啟用匯出流程，將所有資料集的附件連同已匯出的 Excel 檔案匯出為 zip 格式。</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="zh_TW" status="Approved">事例 -&gt; 事例</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="zh_TW" status="Approved">事例 -&gt; 版本</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="zh_TW" status="Approved">版本 -&gt; 事例</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="zh_TW" status="Approved">版本 -&gt; 版本</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="zh_TW" status="Approved">包含附件</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="zh_TW" status="Approved">方向</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="zh_TW" status="Approved">相關物件</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="zh_TW" status="Approved">關係物件</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="zh_TW" status="Approved">跟蹤連結類型</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="zh_TW" status="Approved">選定的物件</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="zh_TW" status="Approved">具有子項</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="zh_TW" status="Approved">是事例跟蹤連結</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="zh_TW" status="Approved">連結的項目類型</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="zh_TW" status="Approved">目標元素</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="zh_TW" status="Approved">開啟物件資訊</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="zh_TW" status="Approved">父項</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="zh_TW" status="Approved">相關物件類型</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="zh_TW" status="Approved">附加的矩陣</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="zh_TW" status="Approved">註釋</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="zh_TW" status="Approved">可疑項</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="zh_TW" status="Approved">建立跟蹤連結</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="zh_TW" status="Approved">在 Word 中編輯</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="zh_TW" status="Approved">匯出至 Office 軟體</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="zh_TW" status="Approved">比較文字指令</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="zh_TW" status="Approved">定義「比較文字」指令的可見性。它僅對需求物件及其子類型可用。</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="zh_TW" status="Approved">定義在 MSWord 應用程式中編輯物件的條件。</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="zh_TW" status="Approved">此條件檢查 Arm0CreateTraceLink 指令是否應該可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="zh_TW" status="Approved">此條件為 'FullText' 類型的物件隱藏「取代」指令。</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="zh_TW" status="Approved">進階搜尋 LOV</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="zh_TW" status="Approved">收藏的已儲存搜尋</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="zh_TW" status="Approved">使用中資料夾</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="zh_TW" status="Approved">專案</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="zh_TW" status="Approved">專案資料提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="zh_TW" status="Approved">專案資料範本</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="zh_TW" status="Approved">專案資料範本</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="zh_TW" status="Approved">專案資料夾提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="zh_TW" status="Approved">專案資料夾</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="zh_TW" status="Approved">專案子資料夾</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="zh_TW" status="Approved">儲存的查詢清單提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="zh_TW" status="Approved">Solr 屬性提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="zh_TW" status="Approved">搜尋資料夾提供者</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="zh_TW" status="Approved">使用中資料夾共用規則</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="zh_TW" status="Approved">使用中資料夾</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="zh_TW" status="Approved">類別</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="zh_TW" status="Approved">群組 ID</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="zh_TW" status="Approved">類型</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="zh_TW" status="Approved">專案</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="zh_TW" status="Approved">發佈狀態</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="zh_TW" status="Approved">建立日期</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="zh_TW" status="Approved">修改日期</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="zh_TW" status="Approved">發佈日期</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="zh_TW" status="Approved">基本</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="zh_TW" status="Approved">日期</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="zh_TW" status="Approved">定級</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="zh_TW" status="Approved">已儲存的搜尋</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="zh_TW" status="Approved">使用者</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="zh_TW" status="Approved">是使用中的範本</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="zh_TW" status="Approved">具有子項</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="zh_TW" status="Approved">是否可修改</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="zh_TW" status="Approved">敘述</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="zh_TW" status="Approved">專案</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="zh_TW" status="Approved">使用中資料夾</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="zh_TW" status="Approved">使用中資料夾</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="zh_TW" status="Approved">目標存取者</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="zh_TW" status="Approved">可以執行搜尋</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="zh_TW" status="Approved">共用</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="zh_TW" status="Approved">規則</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="zh_TW" status="Approved">使用中資料夾定義</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="zh_TW" status="Approved">搜尋類型</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="zh_TW" status="Approved">個人化資料</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="zh_TW" status="Approved">新增元件</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="zh_TW" status="Approved">新增簽章</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="zh_TW" status="Approved">新增個人資料圖片</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="zh_TW" status="Approved">新增專案</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="zh_TW" status="Approved">新增到我的最愛</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="zh_TW" status="Approved">資訊</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="zh_TW" status="Approved">進階搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="zh_TW" status="Approved">隱藏</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="zh_TW" status="Approved">下移</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="zh_TW" status="Approved">上移</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="zh_TW" status="Approved">排列</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="zh_TW" status="Approved">顯示</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="zh_TW" status="Approved">指派原有專案</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="zh_TW" status="Approved">專案</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="zh_TW" status="Approved">取消簽出</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="zh_TW" status="Approved">取消編輯</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="zh_TW" status="Approved">變更所有者</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="zh_TW" status="Approved">變更密碼</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="zh_TW" status="Approved">變更主題</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="zh_TW" status="Approved">簽入</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="zh_TW" status="Approved">簽出</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="zh_TW" status="Approved">顯示顏色篩選</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="zh_TW" status="Approved">排列</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="zh_TW" status="Approved">標籤</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="zh_TW" status="Approved">複製</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="zh_TW" status="Approved">建立備選 ID</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="zh_TW" status="Approved">Home 資料夾</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="zh_TW" status="Approved">剪下</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="zh_TW" status="Approved">刪除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="zh_TW" status="Approved">刪除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="zh_TW" status="Approved">刪除截面</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="zh_TW" status="Approved">刪除</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="zh_TW" status="Approved">清除選取</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="zh_TW" status="Approved">拆離授權</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="zh_TW" status="Approved">編輯當地語系化 - 單個</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="zh_TW" status="Approved">儲存搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="zh_TW" status="Approved">離開全螢幕</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="zh_TW" status="Approved">全螢幕</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="zh_TW" status="Approved">全文搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="zh_TW" status="Approved">首頁</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="zh_TW" status="Approved">產生報告</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="zh_TW" status="Approved">篩選器</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="zh_TW" status="Approved">開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="zh_TW" status="Approved">註記</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="zh_TW" status="Approved">開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="zh_TW" status="Approved">在主機中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="zh_TW" status="Approved">在主機中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="zh_TW" status="Approved">註記</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="zh_TW" status="Approved">清單顯示開關</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="zh_TW" status="Approved">建立名稱值</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="zh_TW" status="Approved">導覽</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="zh_TW" status="Approved">資訊</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="zh_TW" status="Approved">在 NX 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="zh_TW" status="Approved">在新標籤中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="zh_TW" status="Approved">在新視窗中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="zh_TW" status="Approved">在 Office 用戶端中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="zh_TW" status="Approved">在豐富型用戶端開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="zh_TW" status="Approved">在主機中開啟新視圖</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="zh_TW" status="Approved">在 Vis 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="zh_TW" status="Approved">貼上</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="zh_TW" status="Approved">固定到首頁</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="zh_TW" status="Approved">固定搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="zh_TW" status="Approved">固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="zh_TW" status="Approved">缺少指令處理常式</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="zh_TW" status="Approved">列印</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="zh_TW" status="Approved">在列印視圖中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="zh_TW" status="Approved">從我的最愛中移除</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="zh_TW" status="Approved">移除專案</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="zh_TW" status="Approved">取代檔案</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="zh_TW" status="Approved">產生報告</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="zh_TW" status="Approved">儲存編輯</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="zh_TW" status="Approved">儲存搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="zh_TW" status="Approved">搜尋篩選器</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="zh_TW" status="Approved">搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="zh_TW" status="Approved">全選</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="zh_TW" status="Approved">設定或清除位置程式碼</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="zh_TW" status="Approved">複製連結</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="zh_TW" status="Approved">新增到</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="zh_TW" status="Approved">管理</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="zh_TW" status="Approved">警報</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="zh_TW" status="Approved">建立文件</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="zh_TW" status="Approved">新增</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="zh_TW" status="Approved">建立文件</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="zh_TW" status="Approved">我的 Home 資料夾</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="zh_TW" status="Approved">影像</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="zh_TW" status="Approved">清單</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="zh_TW" status="Approved">下載檔案</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="zh_TW" status="Approved">開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="zh_TW" status="Approved">開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="zh_TW" status="Approved">開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="zh_TW" status="Approved">渲染</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="zh_TW" status="Approved">修訂</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="zh_TW" status="Approved">另存新檔或修訂</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="zh_TW" status="Approved">匯總清單</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="zh_TW" status="Approved">匯總表格</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="zh_TW" status="Approved">表</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="zh_TW" status="Approved">視覺化</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="zh_TW" status="Approved">登出</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="zh_TW" status="Approved">匯總</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="zh_TW" status="Approved">表</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="zh_TW" status="Approved">開始編輯</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="zh_TW" status="Approved">從首頁取消固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="zh_TW" status="Approved">取消固定</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="zh_TW" status="Approved">取消固定搜尋</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="zh_TW" status="Approved">下載檔案</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="zh_TW" status="Approved">下載檔案</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="zh_TW" status="Approved">顯示</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="zh_TW" status="Approved">使簽章失效</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="zh_TW" status="Approved">此條件確定使用者物件是否代表目前登入的使用者。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0AddToFavorites 指令是否應該是可見的</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="zh_TW" status="Approved">此條件為「備選 ID」類型的物件隱藏「剪下」指令。</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="zh_TW" status="Approved">「指派專案」指令的伺服器端指令可見性條件。此指令僅在所選物件的類型為 WorkspaceObject、Dataset 或 Form 時應可見，而在類型為 EPMTask 或 Signoff 不可見。在沒有為登入使用者定義 assignable_projects 屬性時，該指令亦不可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="zh_TW" status="Approved">「指派專案」指令的伺服器端指令可見性條件。此指令僅在 Teamcenter 版本高於等於 10.1.5 且低於等於 11.2.3 時應可見，且僅在所選物件的類型為 WorkspaceObject、Dataset 或 Form 時應可見，而在類型為 EPMTask 或 Signoff 時不可見。在沒有為登入使用者定義 assignable_projects 屬性時，該指令亦不可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="zh_TW" status="Approved">此條件確定是否可以取消簽出目前站點上特定業務物件類型的執行個體。</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="zh_TW" status="Approved">該條件確定特定業務物件類型執行個體的所有權是否能被變更。</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="zh_TW" status="Approved">確定所選使用者物件是否代表目前登入的使用者。</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="zh_TW" status="Approved">此條件確定目前站點上特定業務物件類型的執行個體是否可以簽入。</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="zh_TW" status="Approved">此條件確定特定業務物件類型的執行個體是否可以簽出。這取決於以下檢查結果：類型是否可簽出；目前站點的執行個體是否可修改。</key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="zh_TW" status="Approved">此條件會檢查物件是否不為空，且是否不為儲存的搜尋類型。</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="zh_TW" status="Approved">建立備選 ID 指令可見度</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="zh_TW" status="Approved">此條件確定通過的 Fnd0Selection 物件是否不為空，且其父選取屬性是否不為空。</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="zh_TW" status="Approved">此條件確定要求的物件類型是否允許刪除。</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="zh_TW" status="Approved">此條件確定使用者是否對選定的業務物件有轉換權限</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="zh_TW" status="Approved">此條件確定選定的已儲存搜尋是否不為空。</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="zh_TW" status="Approved">此條件檢查 Awp0InContextReports 指令是否應該可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="zh_TW" status="Approved">此條件設計用於檢查當選定物件為 ACE 物件時指令是否可見。ACE 自身檢查將在用戶端完成。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="zh_TW" status="Approved">此條件確定通過的業務物件執行個體是否不屬於 "Awp0AWCExternalSystemObject" 類型。</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="zh_TW" status="Approved">檢查 Awp0PinObject 指令是否應可見。正被儲存的例外搜尋物件類型將不可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="zh_TW" status="Approved">檢查 Awp0PinSearch 指令是否應可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="zh_TW" status="Approved">此條件檢查 Awp0Print 指令是否應該可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0RemoveFromFavorites 指令是否應該是可見的</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="zh_TW" status="Approved">此條件確定資料集業務物件類型的執行個體是否可修改。</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="zh_TW" status="Approved">停用搜尋導覽指令在進階搜尋子位置中的顯示</key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="zh_TW" status="Approved">此條件用於檢查指令可見性設定或清除位置指令</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="zh_TW" status="Approved">此條件確定「修訂輸入常數」是否為空。</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="zh_TW" status="Approved">此條件確定通過的業務物件是項目版本，或 ReviseInput 常數的值是否不為空。</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="zh_TW" status="Approved">檢查所選物件是否可訂閱。</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="zh_TW" status="Approved">此條件確定通過的業務物件執行個體是否屬於 "ReportDefinition" 類型。</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="zh_TW" status="Approved">檢查 Awp0UnPinObject 指令是否應可見。正被儲存的例外搜尋物件類型將不可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="zh_TW" status="Approved">檢查 Awp0UnPinSearch 指令是否應可見。</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="zh_TW" status="Approved">檢查 Awp0ViewFile 指令是否可見。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="zh_TW" status="Approved">Active Workspace 物件集指令</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="zh_TW" status="Approved">Active Workspace 表格指令</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="zh_TW" status="Approved">Active Workspace 物件集</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="zh_TW" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="zh_TW" status="Approved">敘述</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="zh_TW" status="Approved">已隱藏</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="zh_TW" status="Approved">JSON 資料</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="zh_TW" status="Approved">個人化資料 ID</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="zh_TW" status="Approved">個人化資料子類型</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="zh_TW" status="Approved">個人化資料類型</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="zh_TW" status="Approved">範圍</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="zh_TW" status="Approved">基本環境圖塊</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="zh_TW" status="Approved">圖塊集</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="zh_TW" status="Approved">圖塊 Proxy</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="zh_TW" status="Approved">圖塊範本</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="zh_TW" status="Approved">圖塊</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="zh_TW" status="Approved">預設</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="zh_TW" status="Approved">外部連結</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="zh_TW" status="Approved">靜態資源</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="zh_TW" status="Approved">指令</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="zh_TW" status="Approved">小</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="zh_TW" status="Approved">寬</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="zh_TW" status="Approved">大</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="zh_TW" status="Approved">管理員位置</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="zh_TW" status="Approved">固定的物件</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="zh_TW" status="Approved">位置</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="zh_TW" status="Approved">指令和動作</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="zh_TW" status="Approved">已儲存的搜尋</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="zh_TW" status="Approved">我的最愛</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="zh_TW" status="Approved">主要</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="zh_TW" status="Approved">快速連結</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="zh_TW" status="Approved">圖塊群組</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="zh_TW" status="Approved">使用中的</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="zh_TW" status="Approved">訂單編號</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="zh_TW" status="Approved">受保護的</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="zh_TW" status="Approved">已隱藏</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="zh_TW" status="Approved">圖塊尺寸</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="zh_TW" status="Approved">來源集</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="zh_TW" status="Approved">範圍</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="zh_TW" status="Approved">圖塊範本 ID</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="zh_TW" status="Approved">圖塊</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="zh_TW" status="Approved">動作類型</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="zh_TW" status="Approved">動作</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="zh_TW" status="Approved">內容名稱</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="zh_TW" status="Approved">來源圖示</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="zh_TW" status="Approved">圖示</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="zh_TW" status="Approved">支援圖塊的尺寸</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="zh_TW" status="Approved">範本 ID</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="zh_TW" status="Approved">主題索引</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="zh_TW" status="Approved">已配置的物件</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="zh_TW" status="Approved">內容值</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="zh_TW" status="Approved">顯示名稱</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="zh_TW" status="Approved">訊息</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="zh_TW" status="Approved">固定的物件 ID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="zh_TW" status="Approved">固定的物件</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="zh_TW" status="Approved">動作參數</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="zh_TW" status="Approved">樣式</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="zh_TW" status="Approved">圖塊 ID</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="zh_TW" status="Approved">圖塊範本</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="zh_TW" status="Approved">動態參與者同步任務視圖提供者</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="zh_TW" status="Approved">流程指派清單提供者</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="zh_TW" status="Approved">參與者關鍵角色</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="zh_TW" status="Approved">參與者類型提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="zh_TW" status="Approved">人員選取器提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="zh_TW" status="Approved">流程歷程記錄樹提供者</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="zh_TW" status="Approved">流程歷程記錄列資訊</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="zh_TW" status="Approved">任務搜尋提供者</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="zh_TW" status="Approved">工作流程報告提供者</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="zh_TW" status="Approved">工作流程範本值清單業務物件</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="zh_TW" status="Approved">條件用於評估業務物件常數 Awp0WorkflowSubmittable 並限制動態 LOV Awp0WorkflowTemplateLOV 的結果。</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="zh_TW" status="Approved">是否多值</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="zh_TW" status="Approved">參與者處理常式關鍵字</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="zh_TW" status="Approved">參與者關鍵角色類型</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="zh_TW" status="Approved">參與者關鍵角色</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="zh_TW" status="Approved">審核記錄</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="zh_TW" status="Approved">為葉節點</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="zh_TW" status="Approved">父審核記錄</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="zh_TW" status="Approved">認可人</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="zh_TW" status="Approved">受通知人</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="zh_TW" status="Approved">審核者</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="zh_TW" status="Approved">要顯示的參與者</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="zh_TW" status="Approved">要顯示的參與者</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="zh_TW" status="Approved">工作流程</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="zh_TW" status="Approved">中止任務</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="zh_TW" status="Approved">新增</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="zh_TW" status="Approved">新增</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="zh_TW" status="Approved">新增代理</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="zh_TW" status="Approved">認領工作流程任務</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="zh_TW" status="Approved">提交至工作流程</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="zh_TW" status="Approved">開啟收件箱</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="zh_TW" status="Approved">轉發任務（外出）</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="zh_TW" status="Approved">完成任務</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="zh_TW" status="Approved">升級任務</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="zh_TW" status="Approved">重新指派任務</key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="zh_TW" status="Approved">發佈</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="zh_TW" status="Approved">移除參與者</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="zh_TW" status="Approved">移除代理</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="zh_TW" status="Approved">重新指派參與者</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="zh_TW" status="Approved">取代</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="zh_TW" status="Approved">代替</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="zh_TW" status="Approved">此條件確定使用者是否屬於「工作流程管理員」角色。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0AddReviewer 指令是否應可見。此條件確定條件 Fnd0AddReviewerPrivilege 是評估為 True 還是 False。</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0AddSurrogate 指令是否應可見。此條件確定選定使用者物件是否表示目前登入使用者，或評估已登入使用者的 Fnd0ManageSurrogatePrivilege 條件。</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="zh_TW" status="Approved">此條件用於檢查 Awp0NewWorkflowProcess 指令是否應可見。當輸入業務物件為副本物件且已簽出或為非副本物件且未簽出時，此條件將啟用該指令。該條件會額外將 fnd0CurrentChangeContext 屬性值設為空，以啟用該指令。此外，用戶端也有其他可見性邏輯，用於確定支援的有效物件類型，以根據提供者啟用指令。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0OpenInboxLocation 指令是否應可見。此條件確定選定使用者物件是否表示目前登入使用者，或評估已登入使用者的 Fnd0AccessInboxPrivilege 條件。</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="zh_TW" status="Approved">該條件用於檢查 Awp0OutOfOffice 指令是否應可見。此條件確定所選使用者物件是否反映目前登入的使用者。</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0PerformTask 指令是否應可見。此條件確定登入使用者是否為有效使用者以執行選定的 EPMTask 或簽發物件。</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="zh_TW" status="Approved">該條件用於檢查 Awp0PromoteTask 指令是否應可見。此條件確定輸入業務物件是否是 EPMTask 或 Signoff，並根據 awp0PromoteableByMeBehavior 屬性值啟用「升級」指令。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0ReassignTask 指令是否應可見。此條件確定選定物件的根任務是否尚未完成，以及它是否滿足 Fnd0AssignTaskPrivilege 條件。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0Release 指令是否應可見。此條件確定登入使用者是否是 EPMTask 或簽發物件的使用中代理人。</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="zh_TW" status="Approved">該條件用於檢查 Awp0ReplaceMultipleParticipants 指令是否應可見。此條件確定輸入業務物件是項目版本或是項目版本的子類型。此外，用戶端也有其他可見性邏輯，用於確定是否至少選取了兩個有效物件。</key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0StandIn 指令是否應可見。如果登入使用者是有效代理人且 EPMTask 或簽發物件的使用中代理人值未設定，則此條件啟用指令。</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="zh_TW" status="Approved">此條件檢查 Awp0RemoveSurrogate 指令是否應可見。此條件確定登入使用者是否有權修改代理人使用者。</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="zh_TW" status="Approved">此條件檢查 "Awp0ClaimTask" 指令是否應可見。此條件確定條件 "Fnd0AssignTaskPrivilege" 是評估為 True 還是 False，以及登入使用者是否是 EPMTask 或簽發資源集區的成員。</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="zh_TW" status="Approved">中止任務指令條件</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="zh_TW" status="Approved">分類</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="zh_TW" status="Approved">用於檢查目前使用者是否能夠為使用中物件分類的條件。</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="zh_TW" status="Approved">協同資料提供程式</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="zh_TW" status="Approved">新增元件</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="zh_TW" status="Approved">在 3D Publishing 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="zh_TW" status="Approved">在 Creo 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="zh_TW" status="Approved">在 Solid Edge 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="zh_TW" status="Approved">在 Solid Edge - Illustrator 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="zh_TW" status="Approved">在 Solid Edge 結構編輯器中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="zh_TW" status="Approved">在 SolidWorks 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="zh_TW" status="Approved">在 AutoCAD 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="zh_TW" status="Approved">在 Inventor 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="zh_TW" status="Approved">在 CATIA 中開啟</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="zh_TW" status="Approved">在 SampleCAD 中開啟</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="zh_TW" status="Approved">伺服器端的可見性條件確定「新增元件」指令在何時可見。它的工作方式是針對每個 CAD 應用程式檢查受支援開啟類型的喜好設定值。將此指令設為可見之前，還需要設定其他關聯的用戶端可見性條件，例如用於確定 Active Workspace 是否在託管模式下執行的條件。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="zh_TW" status="Approved">確定「在 3D Publishing 中開啟」指令的可見性。它檢查喜好設定值以確定 3D Publishing 應用程式所支援的開啟類型。將該指令設為可見前，還應滿足其他關聯的其他用戶端側的可見性條件（例如，用於確定是否以託管模式執行 Active Workspace 的條件）。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="zh_TW" status="Approved">確定「在 Creo 中開啟」指令的可見性。它檢查 Creo 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="zh_TW" status="Approved">確定「在 Solid Edge 中開啟」指令的可見性。它檢查 Solid Edge 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="zh_TW" status="Approved">確定「在 Solid Edge - Illustrator 中開啟」指令的可見性。它檢查喜好設定值以確定 Solid Edge - Illustrator 應用程式所支援的開啟類型。將該指令設為可見前，還應滿足其他關聯的用戶端側的可見性條件（例如，用於確定是否以託管模式執行 Active Workspace 的條件）。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="zh_TW" status="Approved">確定「在 Solid Edge 結構編輯器中開啟」指令的可見性。它檢查 Solid Edge 結構編輯器應用程式支援的開啟類型的喜好設定值。在將該指令設為可見前，還關聯其他用戶端的可見性條件（例如確定 Active Workspace 是否在託管模式下執行的條件）。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="zh_TW" status="Approved">確定「在 SolidWorks 中開啟」指令的可見性。它檢查 SolidWorks 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="zh_TW" status="Approved">確定「在 AutoCAD 中開啟」指令的可見性。它檢查 AutoCAD 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="zh_TW" status="Approved">確定「在 Inventor 中開啟」指令的可見性。它檢查 Inventor 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="zh_TW" status="Approved">確定「在 CATIA 中開啟」指令的可見性。它檢查 CATIA 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="zh_TW" status="Approved">確定「在 SampleCAD 中開啟」指令的可見性。它檢查 SampleCAD 應用程式中受支援開啟類型的喜好設定值。其他用戶端可見性條件（如確定 Active Workspace 是否在託管模式下執行的條件）在該指令可見前相關聯。</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="zh_TW" status="Approved">工作日曆資料提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="zh_TW" status="Approved">組織樹提供程式</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="zh_TW" status="Approved">任務提供程式</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

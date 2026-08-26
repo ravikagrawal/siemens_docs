@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de Discipline</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de Planning</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="fr_FR" status="Approved">Fournisseur de recherche de Tâche de planning</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="fr_FR" status="Approved">Fin-&gt;Fin</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="fr_FR" status="Approved">Fin-&gt;Départ</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="fr_FR" status="Approved">Phase-Seuil</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="fr_FR" status="Approved">Départ-&gt;Fin</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="fr_FR" status="Approved">Départ-&gt;Départ</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="fr_FR" status="Approved">Quelqu'un qui peut modifier l'exécution du planning et les propriétés de planning.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="fr_FR" status="Approved">Quelqu'un qui peut visualiser Planning et Tâches mais ne peut pas modifier des propriétés.</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="fr_FR" status="Approved">Quelqu'un qui peut modifier les propriétés d'exécution de la tâche.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="fr_FR" status="Approved">Unité de temps en jours.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="fr_FR" status="Approved">Unité de temps en heures.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="fr_FR" status="Approved">Unité de temps en mois.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="fr_FR" status="Approved">Unité de temps en semaines.</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="fr_FR" status="Approved">Le plus tard possible</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="fr_FR" status="Approved">Aussitôt que possible</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="fr_FR" status="Approved">Fixé</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="fr_FR" status="Approved">Aucune contrainte</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="fr_FR" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="fr_FR" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="fr_FR" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="fr_FR" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="fr_FR" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="fr_FR" status="Approved">Durée fixe</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="fr_FR" status="Approved">Ressource fixe</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="fr_FR" status="Approved">Travail fixe</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="fr_FR" status="Approved">Le plus élevé</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="fr_FR" status="Approved">Elevé</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="fr_FR" status="Approved">Le plus faible</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="fr_FR" status="Approved">Faible</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="fr_FR" status="Approved">Intermédiaire faible</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="fr_FR" status="Approved">Intermédiaire</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="fr_FR" status="Approved">Très élevée</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="fr_FR" status="Approved">Coordinateur</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="fr_FR" status="Approved">Observateur</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="fr_FR" status="Approved">Participant</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="fr_FR" status="Approved">Jours (d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="fr_FR" status="Approved">Heures (h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="fr_FR" status="Approved">Mois (mo)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="fr_FR" status="Approved">Semaines (w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="fr_FR" status="Approved">Date de début planifiée et Prédécesseurs terminés</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="fr_FR" status="Approved">Date de début planifiée ou Prédécesseurs terminés</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="fr_FR" status="Approved">Pas de déclenchement de traitement</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="fr_FR" status="Approved">Prédécesseurs terminés</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="fr_FR" status="Approved">Date de début planifiée</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="fr_FR" status="Approved">Type</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="fr_FR" status="Approved">Utilisateur avec des droits</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="fr_FR" status="Approved">Date de fin du planning</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="fr_FR" status="Approved">Rôle dans le planning</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="fr_FR" status="Approved">Statut utilisateur</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="fr_FR" status="Approved">Quantité de Livrables</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="fr_FR" status="Approved">Durée</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="fr_FR" status="Approved">Est Article de plan de modification du planning</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="fr_FR" status="Approved">Est Tâche de modèle-type</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="fr_FR" status="Approved">Dépendance du prédécesseur</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="fr_FR" status="Approved">Prédécesseurs</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="fr_FR" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="fr_FR" status="Approved">Dépendance du successeur</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="fr_FR" status="Approved">Successeurs</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="fr_FR" status="Approved">Travail effectué</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="fr_FR" status="Approved">Effort de travail</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="fr_FR" status="Approved">Travail restant</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="fr_FR" status="Approved">Modèle-type de Traitement</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="fr_FR" status="Approved">Déclenchement de Traitement</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="fr_FR" status="Approved">Effort budgétisé</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="fr_FR" status="Approved">Masters de plannings</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="fr_FR" status="Approved">Date de fin effective</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="fr_FR" status="Approved">Date de début effective</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="fr_FR" status="Approved">Pourcentage de travail effectué</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="fr_FR" status="Approved">Etat</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="fr_FR" status="Approved">Statut</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="fr_FR" status="Approved">Travail effectué</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="fr_FR" status="Approved">Effort de travail</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="fr_FR" status="Approved">Membres du planning</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="fr_FR" status="Approved">Unité de mesure du temps</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="fr_FR" status="Approved">Type</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="fr_FR" status="Approved">Retard</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="fr_FR" status="Approved">Nom</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="fr_FR" status="Approved">Statut de l'entrée</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="fr_FR" status="Approved">Le plus élevé</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="fr_FR" status="Approved">Elevé</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="fr_FR" status="Approved">Le plus faible</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="fr_FR" status="Approved">Faible</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="fr_FR" status="Approved">Intermédiaire faible</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="fr_FR" status="Approved">Intermédiaire</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="fr_FR" status="Approved">Très élevé</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="fr_FR" status="Approved">Ajouter un livrable</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="fr_FR" status="Approved">Ajouter un membre</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="fr_FR" status="Approved">Ajouter un livrable</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="fr_FR" status="Approved">Affecter une ressource</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="fr_FR" status="Approved">Affecter une ressource</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="fr_FR" status="Approved">Planning de référentiel</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="fr_FR" status="Approved">Annuler</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="fr_FR" status="Approved">Créer une dépendance</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="fr_FR" status="Approved">Ajouter une tâche de planning</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="fr_FR" status="Approved">Sauvegarder sous</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="fr_FR" status="Approved">Ajouter une tâche de planning</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="fr_FR" status="Approved">Créer un planning</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="fr_FR" status="Approved">Couper</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="fr_FR" status="Approved">Détruire la dépendance</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="fr_FR" status="Approved">Détruire les plannings</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="fr_FR" status="Approved">Détruire les tâches</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="fr_FR" status="Approved">Tâche en retrait</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="fr_FR" status="Approved">Insérer un sous-planning</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="fr_FR" status="Approved">Lancer un Traitement</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="fr_FR" status="Approved">Mois</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="fr_FR" status="Approved">Annuler Tâche en retrait</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="fr_FR" status="Approved">Promouvoir</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="fr_FR" status="Approved">Trimestre</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="fr_FR" status="Approved">Recalculer</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="fr_FR" status="Approved">Supprimer les affectations</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="fr_FR" status="Approved">Supprimer le livrable</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="fr_FR" status="Approved">Supprimer le membre</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="fr_FR" status="Approved">Supprimer</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="fr_FR" status="Approved">Réaffecter les tâches</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="fr_FR" status="Approved">Décaler</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="fr_FR" status="Approved">Afficher le chemin critique</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="fr_FR" status="Approved">Démarrer l'analyse "Et si?"</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="fr_FR" status="Approved">Désaffecter la ressource</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="fr_FR" status="Approved">Semaine</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="fr_FR" status="Approved">Année</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Ajouter un membre.</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Ajouter un livrable de planning</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Affecter Ressource.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Affecter la ressource à plusieurs tâches.</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Planning de référentiel".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Créer une dépendance.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Créer une tâche de planning.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Créer un planning".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Créer un planning à partir d'un modèle-type.</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Couper la tâche de planning.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'objet sélectionné est de type Planning.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="fr_FR" status="Approved">Cette condition détermine si l'objet sélectionné est de type Tâche de planning.</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité des commandes sur les sous-emplacements "Dépendance".</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Tâche en retrait.</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Insérer un sous-planning".</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Lancer un Traitement".</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Annuler Tâche en retrait.</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité des commandes "Promouvoir l'analyse Et si" et "Annuler l'analyse Et si".</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Recalculer".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="fr_FR" status="Approved">La condition détermine la visibilité de la commande Supprimer l'affectation.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Supprimer le livrable de planning".</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Supprimer le membre.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Supprimer le livrable de la tâche".</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Remplacer le membre.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Décaler le planning.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Afficher/Masquer le chemin critique".</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande "Démarrer l'analyse Et si".</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="fr_FR" status="Approved">Cette condition détermine la visibilité de la commande Désaffecter la ressource.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

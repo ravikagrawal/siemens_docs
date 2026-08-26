@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="fr_FR" status="Approved">Carte de schéma</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="fr_FR" status="Approved">Export et Import de Porte-documents</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="fr_FR" status="Approved">Extraction en masse et chargement</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="fr_FR" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="fr_FR" status="Approved">Export et import PLM XML</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="fr_FR" status="Approved">Porte-documents</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="fr_FR" status="Approved">Opérations en masse</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="fr_FR" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="fr_FR" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="fr_FR" status="Approved">Export de Porte-documents terminée</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="fr_FR" status="Approved">Echec d'exportation de Porte-documents.</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="fr_FR" status="Approved">Import de Porte-documents terminée</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="fr_FR" status="Approved">Echec d'importation de Porte-documents</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="fr_FR" status="Approved">Extraction en masse terminée</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="fr_FR" status="Approved">Extraction en masse a échoué</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="fr_FR" status="Approved">Copie en masse terminée</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="fr_FR" status="Approved">Copie en masse a échoué</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="fr_FR" status="Approved">Exporter PLM XML terminé</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="fr_FR" status="Approved">Exporter PLM XML a échoué</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="fr_FR" status="Approved">Importer PLM XML terminé</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="fr_FR" status="Approved">Importer PLM XML a échoué</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="fr_FR" status="Approved">Exportation PDX terminée</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="fr_FR" status="Approved">Echec d'exportation PDX</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="fr_FR" status="Approved">Déploiement des règles de correspondance terminé</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="fr_FR" status="Approved">Echec de déploiement des règles de correspondance</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="fr_FR" status="Approved">Opération Redevenir propriétaire terminée</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="fr_FR" status="Approved">Echec de l'opération Redevenir propriétaire</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

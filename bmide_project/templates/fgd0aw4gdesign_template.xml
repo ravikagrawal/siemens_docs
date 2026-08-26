@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:55:48 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc10000.1.2" description="Active Workspace library for 4G Design template." isThirdParty="false" name="Fgd0aw4gdesign" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+                 
+            <DependentOn name="mdl0model"/>
+                 
+            <DependentOn name="mdl0modelgeometry"/>
+                 
+            <DependentOn name="cpd0cd"/>
+                 
+            <DependentOn name="cpd0workset"/>
+                 
+            <DependentOn name="rlz0realization"/>
+                 
+            <DependentOn name="ptn0partition"/>
+                 
+            <DependentOn name="awb0occmgmt"/>
+                 
+            <DependentOn name="awp0aws2"/>
+                 
+            <DependentOn name="Fgf0aw4gfoundation"/>
+               
+        </Library>
+           
+        <Library createRelease="Awp03.4.0" description="Library to support 4GD MMV functionality." isThirdParty="false" name="Fgd0aw4gdmmv" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+                 
+            <DependentOn name="Awv0activeworkspacemmv"/>
+                 
+            <DependentOn name="awb0occmgmt"/>
+                 
+            <DependentOn name="awp0aws2"/>
+                 
+            <DependentOn name="mdl0model"/>
+                 
+            <DependentOn name="cpd0cd"/>
+                 
+            <DependentOn name="Fgf0aw4gfoundation"/>
+                 
+            <DependentOn name="Fgd0aw4gdesign"/>
+               
+        </Library>
+           
+        <OperationInputType artifactName="Fgd04GDPSProviderCreI" description="CreateInput object for &quot;Fgd04GDPSProvider&quot; business object" isAbstract="false" parentTypeName="Awv0ProductStructurePr_alt0CreI" typeClassName="Fgd04GDPSProviderCreI" typeName="Fgd04GDPSProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgd04GDPSProviderSvAI" description="SaveAsInput object for &quot;Fgd04GDPSProvider&quot; business object" isAbstract="false" parentTypeName="Awv0ProductStructurePr_alt0SvAI" typeClassName="Fgd04GDPSProviderSvAI" typeName="Fgd04GDPSProviderSvAI"/>
+           
+        <OperationInputType artifactName="Fgd0DesignElementCreI" description="CreateInput object for &quot;Fgd0DesignElement&quot; business object" isAbstract="false" parentTypeName="Awb0PositionedElementCreI" typeClassName="Fgd0DesignElementCreI" typeName="Fgd0DesignElementCreI"/>
+           
+        <OperationInputType artifactName="Fgd0DesignElementSvAI" description="SaveAsInput object for &quot;Fgd0DesignElement&quot; business object" isAbstract="false" parentTypeName="Awb0PositionedElementSvAI" typeClassName="Fgd0DesignElementSvAI" typeName="Fgd0DesignElementSvAI"/>
+           
+        <OperationInputType artifactName="Fgd0DesignSubsetElementCreI" description="CreateInput object for &quot;Fgd0DesignSubsetElement&quot; business object" isAbstract="false" parentTypeName="Awb0PositionedElementCreI" typeClassName="Fgd0DesignSubsetElementCreI" typeName="Fgd0DesignSubsetElementCreI"/>
+           
+        <OperationInputType artifactName="Fgd0DesignSubsetElementSvAI" description="SaveAsInput object for &quot;Fgd0DesignSubsetElement&quot; business object" isAbstract="false" parentTypeName="Awb0PositionedElementSvAI" typeClassName="Fgd0DesignSubsetElementSvAI" typeName="Fgd0DesignSubsetElementSvAI"/>
+           
+        <OperationInputType artifactName="Fgd0SourceObjectRefByP_alt0CreI" description="CreateInput object for &quot;Fgd0SourceObjectRefByProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgd0SourceObjectRefByP_alt0CreI" typeName="Fgd0SourceObjectRefByP_alt0CreI"/>
+           
+        <OperationInputType artifactName="Fgd0SourceObjectRefByP_alt0SvAI" description="SaveAsInput object for &quot;Fgd0SourceObjectRefByProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgd0SourceObjectRefByP_alt0SvAI" typeName="Fgd0SourceObjectRefByP_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Fgd0UsedInWorksetProviderCreI" description="CreateInput object for &quot;Fgd0UsedInWorksetProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Fgd0UsedInWorksetProviderCreI" typeName="Fgd0UsedInWorksetProviderCreI"/>
+           
+        <OperationInputType artifactName="Fgd0UsedInWorksetProviderSvAI" description="SaveAsInput object for &quot;Fgd0UsedInWorksetProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Fgd0UsedInWorksetProviderSvAI" typeName="Fgd0UsedInWorksetProviderSvAI"/>
+           
+        <TcRuntimeType artifactName="Fgd04GDPSProvider" description="Fgd04GDPSProvider implements the Awv0ProductStructProvider interfaces for retrieving the product structure information for a given product and configuration. The implementation retrieves the structure information if a product and configuration is MMV enabled." isAbstract="false" parentTypeName="Awv0ProductStructureProvider" typeClassName="Fgd04GDPSProvider" typeName="Fgd04GDPSProvider"/>
+           
+        <TcRuntimeType artifactName="Fgd0DesignElement" description="A facade Business Object representing a Design Element (Cpd0DesignModelElement) in Active Workspace client. A facade business objects is client side representation of actual Teamcenter business object." isAbstract="false" parentTypeName="Awb0PositionedElement" typeClassName="Fgd0DesignElement" typeName="Fgd0DesignElement">
+                 
+            <TcProperty arrayLength="0" description="Category of underlying Design Element. Examples are reuse, subordinate, shape, promissory. This property is mapped to cpd0category defined on Cpd0DesignModelElement." isArray="false" propMaxStringLength="128" propName="fgd0Category" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcRuntimeType>
+           
+        <TcRuntimeType artifactName="Fgd0DesignSubsetElement" description="A facade Business Object representing a Design Subset Element ( Cpd0DesignSubsetElement )." isAbstract="false" parentTypeName="Awb0PositionedElement" typeClassName="Fgd0DesignSubsetElement" typeName="Fgd0DesignSubsetElement"/>
+           
+        <TcRuntimeType artifactName="Fgd0SourceObjectRefByProvider" description="A data provider to fetch all Design Elements referencing same source object as input Design Element source object." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgd0SourceObjectRefByProvider" typeName="Fgd0SourceObjectRefByProvider"/>
+           
+        <TcRuntimeType artifactName="Fgd0UsedInWorksetProvider" description="A data provider to fetch all Workset Revisions referencing input Design Element." isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Fgd0UsedInWorksetProvider" typeName="Fgd0UsedInWorksetProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp03.4.0" description="Interface Name for Business Object Fgd04GDPSProvider" libraryName="Fgd0aw4gdmmv" name="Fgd04GDPSProvider" namespace="Teamcenter::Fgd0aw4gdesign" primaryInterface="true" typeName="Fgd04GDPSProvider"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.1" description="Interface Name for Business Object Fgd0SourceObjectRefByProvider" libraryName="Fgd0aw4gdesign" name="Fgd0SourceObjectRefByProvider" namespace="Teamcenter::Fgd0aw4gdesign" primaryInterface="true" typeName="Fgd0SourceObjectRefByProvider"/>
+           
+        <BusinessObjectInterface createRelease="tc11000.2.1" description="Interface Name for Business Object Fgd0UsedInWorksetProvider" libraryName="Fgd0aw4gdesign" name="Fgd0UsedInWorksetProvider" namespace="Teamcenter::Fgd0aw4gdesign" primaryInterface="true" typeName="Fgd0UsedInWorksetProvider"/>
+           
+        <OperationAttach id="awv0GeneratePSFileAndUpdateCollection#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetCompletePSFile#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$const,std::string,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetDeltaPSFile#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$const,std::string,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetExportCompliantStructureFiles#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$const,std::string,*$std::string,*$std::vector&lt;std::string&gt;,*$std::string,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetIndexedProductsAndConfigurations#std::vector&lt;awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo&gt;,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetObjectsForLineIdentifiers#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$const,std::vector&lt;std::string&gt;,*$std::vector&lt;tag_t&gt;,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetProductAndConfigFromRecipe#tag_t$awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetPSFileAdminAndAccessControllers#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$tag_t,*$std::vector&lt;tag_t&gt;,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0GetStructureId#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$std::string,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0IsDeltaSupported#bool,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0IsProductAndConfigInRecipeSupported#tag_t$bool,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="awv0IsProductAndConfigSupported#const,awv0activeworkspacevis::Mmv::ProductAndConfigurationInfo,*$bool,*" typeName="Fgd04GDPSProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgd0SourceObjectRefByProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Fgd0UsedInWorksetProvider"/>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Cpd0CollaborativeDesign"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Cpd0DesignSubsetElement"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Awb0SupportsStructure" value="">
+                 
+            <ConstantValue value="Cpd0WorksetRevision"/>
+               
+        </TcGlobalConstantAttach>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <TcTypeConstantAttach constantName="Awb0EnableViewerFeature" typeName="Mdl0BaselineRevision" value="false"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Cpd0CollaborativeDesign" value="true"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgd04GDPSProvider" value="Fgd04GDPSProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgd0DesignElement" value="Fgd0DesignElementCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgd0DesignSubsetElement" value="Fgd0DesignSubsetElementCreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgd0SourceObjectRefByProvider" value="Fgd0SourceObjectRefByP_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Fgd0UsedInWorksetProvider" value="Fgd0UsedInWorksetProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgd0DesignElement" value="Cpd0DesignModelElement"/>
+           
+        <TcTypeConstantAttach constantName="Fgf04GToOccurrence" typeName="Fgd0DesignSubsetElement" value="Cpd0DesignSubsetElement"/>
+           
+        <TcTypeConstantAttach constantName="Fnd0RuntimeTraceProperty" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgd04GDPSProvider" value="Fgd04GDPSProviderSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgd0DesignElement" value="Fgd0DesignElementSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgd0DesignSubsetElement" value="Fgd0DesignSubsetElementSvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgd0SourceObjectRefByProvider" value="Fgd0SourceObjectRefByP_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Fgd0UsedInWorksetProvider" value="Fgd0UsedInWorksetProviderSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Awp0SearchIsIndexed" propertyName="mdl0model_id" typeName="Cpd0CollaborativeDesign" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjectDesc" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjectRelStatus" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjectRevId" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjEffText" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjLastModUser" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjOwningGroup" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjOwningUser" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjRelDate" typeName="Cpd0DesignModelElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0Category" typeName="Fgd0DesignElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObject" typeName="Fgd0DesignElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="fgd0SourceObjectId" typeName="Fgd0DesignElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeId" typeName="Awb0DesignElement" value="awb0BomLineItemId"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevDescription" typeName="Awb0DesignElement" value="bl_rev_object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevEffText" typeName="Awb0DesignElement" value="bl_rev_effectivity_text"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevId" typeName="Awb0DesignElement" value="awb0BomLineRevId"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevLastModUser" typeName="Awb0DesignElement" value="awb0RevisionLastModifiedUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevName" typeName="Awb0DesignElement" value="bl_rev_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningGroup" typeName="Awb0DesignElement" value="awb0RevisionOwningGroup"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningUser" typeName="Awb0DesignElement" value="awb0RevisionOwningUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevReleaseDate" typeName="Awb0DesignElement" value="awb0RevisionReleaseDate"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevRelStatus" typeName="Awb0DesignElement" value="awb0RevisionRelStatusList"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0CopyStableId" typeName="Awb0DesignElement" value="bl_clone_stable_occurrence_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0EffectivityFormula" typeName="Awb0DesignElement" value="bl_occ_effectivities"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementId" typeName="Awb0DesignElement" value="awb0BomLineItemId"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementReleaseStatus" typeName="Awb0DesignElement" value="awb0RevisionRelStatusList"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0LogicalDesignator" typeName="Awb0DesignElement" value="bl_ref_designator"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Awb0DesignElement" value="bl_rev_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0OccName" typeName="Awb0DesignElement" value="bl_occurrence_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Parent" typeName="Awb0DesignElement" value="bl_parent"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Quantity" typeName="Awb0DesignElement" value="bl_quantity"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0RelativeTransform" typeName="Awb0DesignElement" value="bl_plmxml_occ_xform"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Sequence" typeName="Awb0DesignElement" value="bl_sequence_no"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Transform" typeName="Awb0DesignElement" value="bl_plmxml_abs_xform"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Awb0DesignElement" value="fnd0bl_line_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0UoM" typeName="Awb0DesignElement" value="bl_uom"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Awb0DesignElement" value="bl_rev_object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Archetype" typeName="Fgd0DesignElement" value="cpd0source_object"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeId" typeName="Fgd0DesignElement" value="cpd0source_object_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevDescription" typeName="Fgd0DesignElement" value="fgd0SourceObjectDesc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevEffText" typeName="Fgd0DesignElement" value="fgd0SourceObjEffText"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevId" typeName="Fgd0DesignElement" value="fgd0SourceObjectRevId"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevLastModUser" typeName="Fgd0DesignElement" value="fgd0SourceObjLastModUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevName" typeName="Fgd0DesignElement" value="cpd0source_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningGroup" typeName="Fgd0DesignElement" value="fgd0SourceObjOwningGroup"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevOwningUser" typeName="Fgd0DesignElement" value="fgd0SourceObjOwningUser"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevReleaseDate" typeName="Fgd0DesignElement" value="fgd0SourceObjRelDate"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ArchetypeRevRelStatus" typeName="Fgd0DesignElement" value="fgd0SourceObjectRelStatus"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0CopyStableId" typeName="Fgd0DesignElement" value="cpd0id_in_parent"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0ElementId" typeName="Fgd0DesignElement" value="cpd0design_element_id"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0LogicalDesignator" typeName="Fgd0DesignElement" value="mdl0logical_designator"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgd0DesignElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0OccName" typeName="Fgd0DesignElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Transform" typeName="Fgd0DesignElement" value="mdl0absolute_transform"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgd0Category" typeName="Fgd0DesignElement" value="cpd0category"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0CheckedOutUser" typeName="Fgd0DesignElement" value="checked_out_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModDate" typeName="Fgd0DesignElement" value="last_mod_date"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModUser" typeName="Fgd0DesignElement" value="last_mod_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningGroup" typeName="Fgd0DesignElement" value="owning_group"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningUser" typeName="Fgd0DesignElement" value="owning_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Fgd0DesignElement" value="object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjName" typeName="Fgd0DesignElement" value="cpd0source_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjType" typeName="Fgd0DesignElement" value="cpd0source_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0LogicalDesignator" typeName="Fgd0DesignSubsetElement" value="mdl0logical_designator"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="awb0Name" typeName="Fgd0DesignSubsetElement" value="object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0CheckedOutUser" typeName="Fgd0DesignSubsetElement" value="checked_out_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModDate" typeName="Fgd0DesignSubsetElement" value="last_mod_date"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0LastModUser" typeName="Fgd0DesignSubsetElement" value="last_mod_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningGroup" typeName="Fgd0DesignSubsetElement" value="owning_group"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0OwningUser" typeName="Fgd0DesignSubsetElement" value="owning_user"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingObjDesc" typeName="Fgd0DesignSubsetElement" value="object_desc"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjName" typeName="Fgd0DesignSubsetElement" value="cpd0source_object_name"/>
+           
+        <TcPropertyConstantAttach constantName="Fgf04GToOccurrence" propertyName="fgf0UnderlyingSourceObjType" typeName="Fgd0DesignSubsetElement" value="cpd0source_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjName" typeName="Awb0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjType" typeName="Awb0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjectDesc" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjectRelStatus" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjectRevId" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjEffText" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjLastModUser" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjOwningGroup" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjOwningUser" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjRelDate" typeName="Cpd0DesignModelElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0EffectivityFormula" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0ElementId" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0Category" typeName="Fgd0DesignElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObject" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgd0SourceObjectId" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjName" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="fgf0UnderlyingSourceObjType" typeName="Fgd0DesignElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0EffectivityFormula" typeName="Fgd0DesignSubsetElement" value="Read"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="awb0ElementId" typeName="Fgd0DesignSubsetElement" value="Read"/>
+           
+        <TcCompoundPropertyRule description="The object description of source object." destPropertyName="fgd0SourceObjectDesc" destTypeName="Cpd0DesignModelElement" isReadOnly="false" pathToSource="REF(cpd0source_object,ItemRevision).object_desc" sourcePropertyName="object_desc" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The list of release statuses of source object." destPropertyName="fgd0SourceObjectRelStatus" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).release_status_list" sourcePropertyName="release_status_list" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The revision ID of source object." destPropertyName="fgd0SourceObjectRevId" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).item_revision_id" sourcePropertyName="item_revision_id" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The effectivity text of source object." destPropertyName="fgd0SourceObjEffText" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).effectivity_text" sourcePropertyName="effectivity_text" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The last modified user of source object." destPropertyName="fgd0SourceObjLastModUser" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).last_mod_user" sourcePropertyName="last_mod_user" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The owning group of source object." destPropertyName="fgd0SourceObjOwningGroup" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).owning_group" sourcePropertyName="owning_group" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The owning user of source object." destPropertyName="fgd0SourceObjOwningUser" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).owning_user" sourcePropertyName="owning_user" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="The release date of source object." destPropertyName="fgd0SourceObjRelDate" destTypeName="Cpd0DesignModelElement" isReadOnly="true" pathToSource="REF(cpd0source_object,ItemRevision).date_released" sourcePropertyName="date_released" sourceTypeName="ItemRevision"/>
+           
+        <TcCompoundPropertyRule description="Source Object of Design Element business object represented by this facade object." destPropertyName="fgd0SourceObject" destTypeName="Fgd0DesignElement" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Cpd0DesignElement).cpd0source_object" sourcePropertyName="cpd0source_object" sourceTypeName="Cpd0DesignElement"/>
+           
+        <TcCompoundPropertyRule description="Source Object ID of Design Element business object represented by this facade object." destPropertyName="fgd0SourceObjectId" destTypeName="Fgd0DesignElement" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Cpd0DesignElement).REF(cpd0source_object,ItemRevision).REF(items_tag,Item).item_id" sourcePropertyName="item_id" sourceTypeName="Item"/>
+           
+        <TcCompoundPropertyRule description="The model object ( e.g. collaborative design ) of underlying object represented by this facade object." destPropertyName="fgd0ModelObject" destTypeName="Fgd0DesignSubsetElement" isReadOnly="true" pathToSource="REF(awb0UnderlyingObject,Cpd0DesignSubsetElement).cpd0source_object" sourcePropertyName="cpd0source_object" sourceTypeName="Cpd0DesignSubsetElement"/>
+           
+        <Functionality description="This is 4th Generation Design component in the Active Workspace. This component allows viewing, navigating and configuring Collaborative Designs and their content in Active Workspace client." displayName="Fourth Generation Foundation for Active Workspace" enabledForVerificationRules="false" name="Fgd0aw4gdesign"/>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp03.3.0" description="This operation will return TRUE if user have sufficient access privileges to delete input object." id="int#fgd0::Teamcenter::Fgd0aw4gdesign::Fnd0ConditionHelper::fgd0IsObjectDeletable#const,tag_t$bool,*" name="fgd0::Teamcenter::Fgd0aw4gdesign::Fnd0ConditionHelper::fgd0IsObjectDeletable" returnConst="false" returnDescription="Return Value&lt;br /&gt;ITK_ok on success and error code on failure" returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="true" defaultValue="" description="Input object requested by user for delete operation." freeOutputMemory="false" inputOutput="Input" name="object">
+                       
+                <OperationParameterDataTypeRef dataType="tag_t" qualifier=""/>
+                     
+            </OperationParameter>
+                 
+            <OperationParameter const="false" defaultValue="" description="True if user have sufficient access privileges to delete input object" freeOutputMemory="false" inputOutput="Output" name="isDeletable">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <BusinessObjectInterface createRelease="Awp03.3.0" description="Interface Name for Business Object Fnd0ConditionHelper" libraryName="Fgd0aw4gdesign" name="Fnd0ConditionHelper" namespace="fgd0::Teamcenter::Fgd0aw4gdesign" primaryInterface="false" typeName="Fnd0ConditionHelper"/>
+           
+        <Operation canOverride="false" component="" createRelease="Awp03.3.0" dependencies="" description="This operation will return TRUE if user have sufficient access privileges to delete input object." exceptionCondition="" id="fgd0IsObjectDeletable#const,tag_t$bool,*" interface="fgd0::Teamcenter::Fgd0aw4gdesign::Fnd0ConditionHelper" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="fgd0IsObjectDeletable" opTemplate="int#fgd0::Teamcenter::Fgd0aw4gdesign::Fnd0ConditionHelper::fgd0IsObjectDeletable#const,tag_t$bool,*" returnDescription="Return Value&lt;br /&gt;ITK_ok on success and error code on failure" useCase="">
+                 
+            <ParameterInfo description="Input object requested by user for delete operation." parameterName="object"/>
+                 
+            <ParameterInfo description="True if user have sufficient access privileges to delete input object" parameterName="isDeletable"/>
+               
+        </Operation>
+           
+        <Condition description="This condition determines if Awp0ShowRevise command should be visible in fgd0aw4gdesign solution." expression="(u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignElement&quot;)=false AND u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignSubsetElement&quot;)=false ) OR ( u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignElement&quot;) AND u.fnd0ConditionHelper.awp0GetPropertyValue(o,&quot;mdl0is_revisable&quot;,&quot;true&quot;,false) =true )" name="Fgd0AwShowReviseCondition" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="POM_object"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if the user has sufficient privileges to delete the selected object." expression="u.fnd0ConditionHelper.fgd0IsObjectDeletable( s ) = true" name="Fgd0DeleteCmdCond" secured="false">
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+                 
+            <ConditionParameter name="s" parameterTypeName="Fnd0Selection"/>
+               
+        </Condition>
+           
+        <Condition description="Replay subset recipe condition." expression="o.is_modifiable=true" name="Fgd0ReplaySubsetRecipeCnd" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Fgd0DesignSubsetElement"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <Condition description="This condition determines if the passed business object has permission to display &quot;Save As&quot;/&quot;Revisequot; command. It returns true for business objects other than conditional element" expression="(u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignElement&quot;)=false AND u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignSubsetElement&quot;)=false ) OR (u.fnd0ConditionHelper.awp0IsObjectType(o,&quot;Cpd0DesignSubsetElement&quot;)=true)" name="Fgd0ShowSaveAsCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="BusinessObject"/>
+                 
+            <ConditionParameter name="u" parameterTypeName="UserSession"/>
+               
+        </Condition>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0Delete" conditionName="Fgd0DeleteCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ShowRevise" conditionName="Fgd0AwShowReviseCondition"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Awp0ShowSaveAs" conditionName="Fgd0ShowSaveAsCmdCond"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Fgf0ReplayRecipe" conditionName="Fgd0ReplaySubsetRecipeCnd"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:13 PM 2026">
+    <Add>
+           
+        <key id="Event{::}Mei0DeltaCandidates" locale="cs_CZ" status="Approved">Delta kandidátské prvky</key>
+           
+        <key id="Event{::}Mei0ExportAndRelease" locale="cs_CZ" status="Approved">Exportovat a vydat</key>
+           
+        <key id="Event{::}Mei0GenerateMESWIRep" locale="cs_CZ" status="Approved">MES Generovat pracovní pokyny</key>
+           
+        <key id="Event{::}Mei0ModifyScope" locale="cs_CZ" status="Approved">Upravit rozsah</key>
+           
+        <key id="Event{::}Mei0PropertyUpdate" locale="cs_CZ" status="Approved">Aktualizace vlastnosti</key>
+           
+        <key id="Event{::}Mei0ReleasetoExecution" locale="cs_CZ" status="Approved">Vydat k provedení</key>
+           
+        <key id="Event{::}Mei0ReleasetoProduction" locale="cs_CZ" status="Approved">Uvolnit do výroby</key>
+           
+        <key id="Event{::}Mei0Validation" locale="cs_CZ" status="Approved">Ověření platnosti</key>
+           
+        <key id="BusinessObject{::}Mei0ExecutionPlanAI" locale="cs_CZ" status="Approved">Rozhraní aplikace plánu provedení</key>
+           
+        <key id="BusinessObject{::}Mei0ExecutionPlan" locale="cs_CZ" status="Approved">Plán provedení</key>
+           
+        <key id="BusinessObject{::}Mei0ProductionPlan" locale="cs_CZ" status="Approved">Plán výroby</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfoRel" locale="cs_CZ" status="Approved">Vydat aktualizaci do relace informací MES</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfoStorage" locale="cs_CZ" status="Approved">Vydat aktualizaci do úložiště informací MES</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfo" locale="cs_CZ" status="Approved">Vydat aktualizaci do informací MES</key>
+           
+        <key id="BusinessObject{::}Mei0StructureContextRel" locale="cs_CZ" status="Approved">Relace kontextu struktury</key>
+           
+        <key id="BusinessObject{::}Mei0WIMESRepresentationRel" locale="cs_CZ" status="Approved">Relace reprezentace MES pracovních pokynů</key>
+           
+        <key id="BusinessObject{::}Mei0WIMESRepresentation" locale="cs_CZ" status="Approved">Reprezentace MES pracovních pokynů</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Certification Engineer" locale="cs_CZ" status="Approved">Certifikační inženýr</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Inspector" locale="cs_CZ" status="Approved">Inspektor</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Quality Engineer" locale="cs_CZ" status="Approved">Inženýr kvality</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Stamp Authority" locale="cs_CZ" status="Approved">Autorita známky</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}High" locale="cs_CZ" status="Approved">Vysoký</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}Low" locale="cs_CZ" status="Approved">Nízký</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}Medium" locale="cs_CZ" status="Approved">Střední</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Certification Engineer" locale="cs_CZ" status="Approved">Certifikační inženýr</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Inspector" locale="cs_CZ" status="Approved">Inspektor</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Quality Engineer" locale="cs_CZ" status="Approved">Inženýr kvality</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Stamp Authority" locale="cs_CZ" status="Approved">Autorita známky</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}High" locale="cs_CZ" status="Approved">Vysoký</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}Low" locale="cs_CZ" status="Approved">Nízký</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}Medium" locale="cs_CZ" status="Approved">Střední</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0AltFormIds" locale="cs_CZ" status="Approved">ID formulářů ALT</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToCompleteOp" locale="cs_CZ" status="Approved">Elektronický podpis k dokončení</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToPauseOp" locale="cs_CZ" status="Approved">Elektronický podpis k pozastavení práce</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToStartOp" locale="cs_CZ" status="Approved">Elektronický podpis k zahájení práce</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SignOffRequired" locale="cs_CZ" status="Approved">Rezervace vyžadována</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SignOffRole" locale="cs_CZ" status="Approved">Role rezervace</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SkillCertName" locale="cs_CZ" status="Approved">Certifikát dovednosti</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SkillCertRequired" locale="cs_CZ" status="Approved">Certifikát dovednosti vyžadován</key>
+           
+        <key id="Property{::}Mei0ExecutionPlan{::}mei0orderId" locale="cs_CZ" status="Approved">ID pořadí</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfoStorage{::}mei0Description" locale="cs_CZ" status="Approved">Popis</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfoStorage{::}mei0Impact" locale="cs_CZ" status="Approved">Dopad</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfo{::}mei0Description" locale="cs_CZ" status="Approved">Popis</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfo{::}mei0Impact" locale="cs_CZ" status="Approved">Dopad</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToCompleteOp" locale="cs_CZ" status="Approved">Elektronický podpis k dokončení</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToPauseOp" locale="cs_CZ" status="Approved">Elektronický podpis k pozastavení práce</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToStartOp" locale="cs_CZ" status="Approved">Elektronický podpis k zahájení práce</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SignOffRequired" locale="cs_CZ" status="Approved">Rezervace vyžadována</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SignOffRole" locale="cs_CZ" status="Approved">Role rezervace</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SkillCertName" locale="cs_CZ" status="Approved">Certifikát dovednosti</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SkillCertRequired" locale="cs_CZ" status="Approved">Certifikát dovednosti vyžadován</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToCompleteOp" locale="cs_CZ" status="Approved">Elektronický podpis k dokončení</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToPauseOp" locale="cs_CZ" status="Approved">Elektronický podpis k pozastavení práce</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToStartOp" locale="cs_CZ" status="Approved">Elektronický podpis k zahájení práce</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SignOffRequired" locale="cs_CZ" status="Approved">Rezervace vyžadována</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SignOffRole" locale="cs_CZ" status="Approved">Role rezervace</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SkillCertName" locale="cs_CZ" status="Approved">Certifikát dovednosti</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SkillCertRequired" locale="cs_CZ" status="Approved">Certifikát dovednosti vyžadován</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0AltFormIds" locale="cs_CZ" status="Approved">ID formulářů ALT</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToCompleteOp" locale="cs_CZ" status="Approved">Elektronický podpis k dokončení</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToPauseOp" locale="cs_CZ" status="Approved">Elektronický podpis k pozastavení práce</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToStartOp" locale="cs_CZ" status="Approved">Elektronický podpis k zahájení práce</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SignOffRequired" locale="cs_CZ" status="Approved">Rezervace vyžadována</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SignOffRole" locale="cs_CZ" status="Approved">Role rezervace</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SkillCertName" locale="cs_CZ" status="Approved">Certifikát dovednosti</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SkillCertRequired" locale="cs_CZ" status="Approved">Certifikát dovednosti vyžadován</key>
+           
+        <key id="ReleaseStatus{::}Mei0PendingRelease" locale="cs_CZ" status="Approved">MES Čekající na vydání</key>
+           
+        <key id="ReleaseStatus{::}Mei0Released" locale="cs_CZ" status="Approved">MES Vydané</key>
+           
+        <key id="ReleaseStatus{::}Mei0WorkInProgress" locale="cs_CZ" status="Approved">MES Probíhající práce</key>
+           
+        <key id="Property{::}BOPWindow{::}mei0ExecutionPlan" locale="cs_CZ" status="Approved">Plán provedení</key>
+           
+        <key id="Property{::}BOPWindow{::}mei0orderId" locale="cs_CZ" status="Approved">ID pořadí</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ChngCnstrctID" locale="cs_CZ" status="Approved">Změnit ID tvorby</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0RelCandidatToUpdateMes" locale="cs_CZ" status="Approved">Schválit kandidáta k aktualizaci MES</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mei0ChngCnstrctID" locale="cs_CZ" status="Approved">Změnit ID konstruktu</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mei0RelCandidatToUpdateMes" locale="cs_CZ" status="Approved">Schválit kandidáta k aktualizaci MES</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

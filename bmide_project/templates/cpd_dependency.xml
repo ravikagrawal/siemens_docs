@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="4th Generation Design" enableOpsDataDeploy="false" guid="B2CF69CB5D0516EE7424C7B66E1637A9" isDescriptionMandatory="true" name="cpd" optional="true" prefixes="Cpd0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="realization_template.xml"/>
+    <include file="partition_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+</TcBusinessDataIncludes>

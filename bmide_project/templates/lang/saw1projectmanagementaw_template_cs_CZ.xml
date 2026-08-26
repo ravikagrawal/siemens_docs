@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:04 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Saw1DisciplineSearchProvider" locale="cs_CZ" status="Approved">Poskytovatel oborového hledání</key>
+           
+        <key id="BusinessObject{::}Saw1ScheduleSearchProvider" locale="cs_CZ" status="Approved">Poskytovatel hledání rozvrhů</key>
+           
+        <key id="BusinessObject{::}Saw1TaskSearchProvider" locale="cs_CZ" status="Approved">Poskytovatel hledání úloh rozvrhů</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FF" locale="cs_CZ" status="Approved">Od konce do konce</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}FS" locale="cs_CZ" status="Approved">Od konce do začátku</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}PG" locale="cs_CZ" status="Approved">Brána fáze</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SF" locale="cs_CZ" status="Approved">Od začátku do konce</key>
+           
+        <key id="LOVValueDescription{::}Saw1DependencyType{::}SS" locale="cs_CZ" status="Approved">Od začátku do začátku</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Coordinator" locale="cs_CZ" status="Approved">Uživatel, který může měnit vlastnosti plánování a realizace rozvrhů</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Observer" locale="cs_CZ" status="Approved">Uživatel, který může zobrazovat rozvrhy a úlohy, ale nemůže změnit žádné vlastnosti</key>
+           
+        <key id="LOVValueDescription{::}Saw1RoleInScheduleLov{::}Participant" locale="cs_CZ" status="Approved">Uživatel, který může měnit vlastnosti realizace úloh</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}d" locale="cs_CZ" status="Approved">Jednotka času ve dnech.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}h" locale="cs_CZ" status="Approved">Jednotka času v hodinách.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}mo" locale="cs_CZ" status="Approved">Jednotka času v měsících.</key>
+           
+        <key id="LOVValueDescription{::}Saw1UnitOfTimeMeasure{::}w" locale="cs_CZ" status="Approved">Jednotka času v týdnech.</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Late As Possible" locale="cs_CZ" status="Approved">Co nejpozději</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}As Soon As Possible" locale="cs_CZ" status="Approved">Co nejdříve</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}Fixed" locale="cs_CZ" status="Approved">Pevné</key>
+           
+        <key id="LOVValue{::}Saw1ConstraintType{::}No Constraint" locale="cs_CZ" status="Approved">Žádná vazba</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FF" locale="cs_CZ" status="Approved">FF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}FS" locale="cs_CZ" status="Approved">FS</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}PG" locale="cs_CZ" status="Approved">PG</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SF" locale="cs_CZ" status="Approved">SF</key>
+           
+        <key id="LOVValue{::}Saw1DependencyType{::}SS" locale="cs_CZ" status="Approved">SS</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Duration" locale="cs_CZ" status="Approved">Pevné trvání</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Resource" locale="cs_CZ" status="Approved">Pevný prostředek</key>
+           
+        <key id="LOVValue{::}Saw1FixedType{::}Fixed Work" locale="cs_CZ" status="Approved">Pevná práce</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Highest" locale="cs_CZ" status="Approved">Nejvyšší</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}High" locale="cs_CZ" status="Approved">Vysoký</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Lowest" locale="cs_CZ" status="Approved">Nejnižší</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Low" locale="cs_CZ" status="Approved">Nízký</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium Low" locale="cs_CZ" status="Approved">Středně nízký</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Medium" locale="cs_CZ" status="Approved">Střední</key>
+           
+        <key id="LOVValue{::}Saw1PriorityType{::}Very High" locale="cs_CZ" status="Approved">Velmi vysoký</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Coordinator" locale="cs_CZ" status="Approved">Koordinátor</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Observer" locale="cs_CZ" status="Approved">Pozorovatel</key>
+           
+        <key id="LOVValue{::}Saw1RoleInScheduleLov{::}Participant" locale="cs_CZ" status="Approved">Účastník</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}d" locale="cs_CZ" status="Approved">Dny (d)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}h" locale="cs_CZ" status="Approved">Hodiny (h)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}mo" locale="cs_CZ" status="Approved">Měsíce (mo)</key>
+           
+        <key id="LOVValue{::}Saw1UnitOfTimeMeasure{::}w" locale="cs_CZ" status="Approved">Týdny (w)</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Both scheduled start date and predecessors complete" locale="cs_CZ" status="Approved">Naplánované počáteční datum i předchůdci jsou dokončeni</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Either scheduled start date or predecessors complete" locale="cs_CZ" status="Approved">Naplánované počáteční datum nebo předchůdci jsou dokončeni</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}No workflow trigger" locale="cs_CZ" status="Approved">Žádné spuštění pracovního postupu</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Predecessors complete" locale="cs_CZ" status="Approved">Předchůdci dokončeni</key>
+           
+        <key id="LOVValue{::}Saw1WorkflowTriggerType{::}Scheduled start date" locale="cs_CZ" status="Approved">Naplánované počáteční datum</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeName" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1AssigneeType" locale="cs_CZ" status="Approved">Typ</key>
+           
+        <key id="Property{::}ResourceAssignment{::}saw1IsPrivilegedUser" locale="cs_CZ" status="Approved">Oprávněný uživatel</key>
+           
+        <key id="Property{::}SchDeliverable{::}saw1ScheduleFinishDate" locale="cs_CZ" status="Approved">Datum ukončení rozvrhu</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1RoleInSchedule" locale="cs_CZ" status="Approved">Role v rozvrhu</key>
+           
+        <key id="Property{::}ScheduleMember{::}saw1UserStatus" locale="cs_CZ" status="Approved">Stav uživatele</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1DeliverablesCount" locale="cs_CZ" status="Approved">Počet odevzdávek</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Duration" locale="cs_CZ" status="Approved">Doba trvání</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsScheduleChangePlanItem" locale="cs_CZ" status="Approved">Je položka změny rozvrhu</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1IsTemplateTask" locale="cs_CZ" status="Approved">Je úloha plánu</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1PredecessorDependency" locale="cs_CZ" status="Approved">Závislost předchůdce</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Predecessors" locale="cs_CZ" status="Approved">Předchůdci</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1RowNumberInGantt" locale="cs_CZ" status="Approved">ID</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1SuccessorDependency" locale="cs_CZ" status="Approved">Závislost následníka</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1Successors" locale="cs_CZ" status="Approved">Nástupci</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkComplete" locale="cs_CZ" status="Approved">Hotová zakázka</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkEffort" locale="cs_CZ" status="Approved">Pracovní úsilí</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkRemaining" locale="cs_CZ" status="Approved">Zbývající práce</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTemplate" locale="cs_CZ" status="Approved">Šablona pracovního postupu</key>
+           
+        <key id="Property{::}ScheduleTask{::}saw1WorkflowTriggerType" locale="cs_CZ" status="Approved">Spuštění pracovního postupu</key>
+           
+        <key id="Property{::}Schedule{::}saw1BudgetedEffort" locale="cs_CZ" status="Approved">Aktivita v rozpočtu</key>
+           
+        <key id="Property{::}Schedule{::}saw1MasterSchedules" locale="cs_CZ" status="Approved">Hlavní rozvrhy</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualFinishDate" locale="cs_CZ" status="Approved">Skutečné datum ukončení</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTActualStartDate" locale="cs_CZ" status="Approved">Skutečné počáteční datum</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTPercentComplete" locale="cs_CZ" status="Approved">Procenta hotové zakázky</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTState" locale="cs_CZ" status="Approved">Stav</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTStatus" locale="cs_CZ" status="Approved">Stav</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkComplete" locale="cs_CZ" status="Approved">Hotová zakázka</key>
+           
+        <key id="Property{::}Schedule{::}saw1SSTWorkEffort" locale="cs_CZ" status="Approved">Pracovní úsilí</key>
+           
+        <key id="Property{::}Schedule{::}saw1ScheduleMembers" locale="cs_CZ" status="Approved">Členové rozvrhu</key>
+           
+        <key id="Property{::}Schedule{::}saw1UnitOfTimeMeasure" locale="cs_CZ" status="Approved">Měrné jednotky času</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1DependencyType" locale="cs_CZ" status="Approved">Typ</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1LagTime" locale="cs_CZ" status="Approved">Zpoždění</key>
+           
+        <key id="Property{::}TaskDependency{::}saw1Name" locale="cs_CZ" status="Approved">Název</key>
+           
+        <key id="Property{::}TimeSheetEntry{::}saw1EntryStatus" locale="cs_CZ" status="Approved">Stav položky</key>
+         
+   
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Highest" locale="cs_CZ" status="Approved">Nejvyšší</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}High" locale="cs_CZ" status="Approved">Vysoký</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Lowest" locale="cs_CZ" status="Approved">Nejnižší</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Low" locale="cs_CZ" status="Approved">Nízký</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium Low" locale="cs_CZ" status="Approved">Středně nízký</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Medium" locale="cs_CZ" status="Approved">Střední</key>
+           
+        <key id="LOVValueDescription{::}Saw1PriorityType{::}Very High" locale="cs_CZ" status="Approved">Velmi vysoký</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddDeliverable" locale="cs_CZ" status="Approved">Přidat odevzdávku</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddMember" locale="cs_CZ" status="Approved">Přidat člen</key>
+           
+        <key id="CommandDisplayName{::}Saw1AddSchDeliverable" locale="cs_CZ" status="Approved">Přidat odevzdávku</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResourceToMultipleTask" locale="cs_CZ" status="Approved">Přiřadit zdroj</key>
+           
+        <key id="CommandDisplayName{::}Saw1AssignResource" locale="cs_CZ" status="Approved">Přiřadit zdroj</key>
+           
+        <key id="CommandDisplayName{::}Saw1BaselineSchedule" locale="cs_CZ" status="Approved">Rozvrh základny</key>
+           
+        <key id="CommandDisplayName{::}Saw1CancelWhatIf" locale="cs_CZ" status="Approved">Storno</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateDependency" locale="cs_CZ" status="Approved">Vytvořit závislost</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchTask" locale="cs_CZ" status="Approved">Přidat úlohu rozvrhu</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleFromTemplate" locale="cs_CZ" status="Approved">Uložit jako</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateScheduleTask" locale="cs_CZ" status="Approved">Přidat úlohu rozvrhu</key>
+           
+        <key id="CommandDisplayName{::}Saw1CreateSchedule" locale="cs_CZ" status="Approved">Vytvořit rozvrhu</key>
+           
+        <key id="CommandDisplayName{::}Saw1Cut" locale="cs_CZ" status="Approved">Vyjmout</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteDependency" locale="cs_CZ" status="Approved">Odstranit závislost</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteSchedule" locale="cs_CZ" status="Approved">Odstranit rozvrhy</key>
+           
+        <key id="CommandDisplayName{::}Saw1DeleteTask" locale="cs_CZ" status="Approved">Odstranit úlohy</key>
+           
+        <key id="CommandDisplayName{::}Saw1IndentTask" locale="cs_CZ" status="Approved">Odsadit úlohu</key>
+           
+        <key id="CommandDisplayName{::}Saw1InsertSubSchedule" locale="cs_CZ" status="Approved">Vložit dílčí rozvrh</key>
+           
+        <key id="CommandDisplayName{::}Saw1LaunchWorkflow" locale="cs_CZ" status="Approved">Spustit pracovní postup</key>
+           
+        <key id="CommandDisplayName{::}Saw1Month" locale="cs_CZ" status="Approved">Měsíc</key>
+           
+        <key id="CommandDisplayName{::}Saw1OutdentTask" locale="cs_CZ" status="Approved">Předsadit úlohu</key>
+           
+        <key id="CommandDisplayName{::}Saw1PromoteWhatIf" locale="cs_CZ" status="Approved">Postoupit</key>
+           
+        <key id="CommandDisplayName{::}Saw1Quarter" locale="cs_CZ" status="Approved">Čtvrtletí</key>
+           
+        <key id="CommandDisplayName{::}Saw1Recalculate" locale="cs_CZ" status="Approved">Přepočítat</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveAssignments" locale="cs_CZ" status="Approved">Odebrat přiřazení</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchDeliverable" locale="cs_CZ" status="Approved">Odebrat odevzdávku</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveSchMember" locale="cs_CZ" status="Approved">Odebrat člena</key>
+           
+        <key id="CommandDisplayName{::}Saw1RemoveTaskDeliverable" locale="cs_CZ" status="Approved">Odebrat</key>
+           
+        <key id="CommandDisplayName{::}Saw1ReplaceMember" locale="cs_CZ" status="Approved">Znovu přiřadit úlohy</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShiftSchedule" locale="cs_CZ" status="Approved">Shift</key>
+           
+        <key id="CommandDisplayName{::}Saw1ShowHideCriticalPath" locale="cs_CZ" status="Approved">Zobrazit kritickou dráhu</key>
+           
+        <key id="CommandDisplayName{::}Saw1StartWhatIf" locale="cs_CZ" status="Approved">Spustit analýzu Co když</key>
+           
+        <key id="CommandDisplayName{::}Saw1UnassignResource" locale="cs_CZ" status="Approved">Zrušit přiřazení zdroje</key>
+           
+        <key id="CommandDisplayName{::}Saw1Week" locale="cs_CZ" status="Approved">Týden</key>
+           
+        <key id="CommandDisplayName{::}Saw1Year" locale="cs_CZ" status="Approved">Rok</key>
+           
+        <key id="ConditionDescription{::}Saw1AddMemberCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Přidat člen.</key>
+           
+        <key id="ConditionDescription{::}Saw1AddSchDeliverableCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Přidat odevzdávku rozvrhu.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Přiřadit zdroj.</key>
+           
+        <key id="ConditionDescription{::}Saw1AssignResourceToMultipleTaskCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Přiřadit zdroj k více úlohám.</key>
+           
+        <key id="ConditionDescription{::}Saw1BaselineScheduleCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Rozvrh základny.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateDependencyCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Vytvořit závislost</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateSchTaskCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Vytvořit úlohu rozvrhu.</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu "Vytvořit rozvrh".</key>
+           
+        <key id="ConditionDescription{::}Saw1CreateScheduleFromTemplateCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Vytvořit rozvrh ze šablony.</key>
+           
+        <key id="ConditionDescription{::}Saw1CutCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Vyjmout úlohu rozvrhu.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteScheduleCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda je vybraný objekt typu Rozvrh.</key>
+           
+        <key id="ConditionDescription{::}Saw1DeleteTaskCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda je vybraný objekt typu Úloha rozvrhu.</key>
+           
+        <key id="ConditionDescription{::}Saw1DependenciesCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazů v dílčích umístěních "Závislost".</key>
+           
+        <key id="ConditionDescription{::}Saw1IndentTaskCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Odsadit úlohu plánu.</key>
+           
+        <key id="ConditionDescription{::}Saw1InsertSubScheduleCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Vložit dílčí rozvrh.</key>
+           
+        <key id="ConditionDescription{::}Saw1LaunchWorkflowCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu "Spustit pracovní postup".</key>
+           
+        <key id="ConditionDescription{::}Saw1OutdentTaskCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Předsadit úlohu plánu.</key>
+           
+        <key id="ConditionDescription{::}Saw1PromoteAndCancelWhatIfCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazů "Povýšit analýzu Co když" a "Zrušit analýzu Co když".</key>
+           
+        <key id="ConditionDescription{::}Saw1RecalculateCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Proveďte nový výpočet.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveAssignmentsCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Odebrat přiřazení.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchDeliverableCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Odebrat odevzdávku rozvrhu.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveSchMemberCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Odebrat člen.</key>
+           
+        <key id="ConditionDescription{::}Saw1RemoveTaskDeliverableCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu "Odebrat odevzdávku úlohy".</key>
+           
+        <key id="ConditionDescription{::}Saw1ReplaceMemberCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Nahradit člen.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShiftScheduleCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Posunout rozvrh.</key>
+           
+        <key id="ConditionDescription{::}Saw1ShowHideCriticalPathCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu "Zobrazit nebo skrýt kritickou dráhu".</key>
+           
+        <key id="ConditionDescription{::}Saw1StartWhatIfVisibilityCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu "Spustit analýzu Co když".</key>
+           
+        <key id="ConditionDescription{::}Saw1UnassignResourceCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje viditelnost příkazu Zrušit přiřazení zdroje.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

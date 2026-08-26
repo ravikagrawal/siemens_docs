@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="cs_CZ" status="Approved">Licence</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="cs_CZ" status="Approved">Licence</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="cs_CZ" status="Approved">Přidat projekt</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti na straně serveru pro příkaz Licence. Tento příkaz by měl být viditelný ve verzi Teamcenteru &lt;=11.2.3. Měl by být viditelný pouze v případě, že je vybraný objekt typu WorkspaceObject, Dataset nebo Form. Neměl by být viditelný, pokud je vybraný objekt typu EPMTask nebo Signoff. Měl by být viditelný, pokud je přihlášený uživatel člen skupiny dba nebo má roli Správce ITAR nebo Správce IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti na straně serveru pro příkaz Licence. Tento příkaz by měl být viditelný ve verzi Teamcenteru &lt;=11.3. Měl by být viditelný pouze v případě, že je vybraný objekt typu WorkspaceObject, Dataset nebo Form. Neměl by být viditelný, pokud je vybraný objekt typu EPMTask nebo Signoff. Měl by být viditelný, pokud je přihlášený uživatel člen skupiny dba nebo má roli Správce ITAR nebo Správce IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="cs_CZ" status="Approved">Podmínka viditelnosti na straně serveru pro příkaz Přidat projekt. Tento příkaz má být viditelný jen tehdy, když je uživatel přihlášený pomocí privilegované skupiny nebo pomocí skupiny Správa projektu a role Správce projektu.</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="cs_CZ" status="Approved">Poskytovatel projektu</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="cs_CZ" status="Approved">Zprostředkovatel týmu projektu</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="cs_CZ" status="Approved">Upravitelný?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

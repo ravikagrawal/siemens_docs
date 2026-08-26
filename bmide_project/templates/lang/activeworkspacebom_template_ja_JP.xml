@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:32 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="ja_JP" status="Approved">アレンジメントプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="ja_JP" status="Approved">自動ブックマーク</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="ja_JP" status="Approved">BOMインデックス管理データ</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="ja_JP" status="Approved">ブックマークデータ</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="ja_JP" status="Approved">ナビゲーションデータをブックマーク</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="ja_JP" status="Approved">ブックマーク製品データ</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="ja_JP" status="Approved">サブセットデータ</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="ja_JP" status="Approved">要素プロバイダへのクローン安定IDチャネル</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="ja_JP" status="Approved">クロージャルールプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="ja_JP" status="Approved">結果の比較</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="ja_JP" status="Approved">条件要素</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="ja_JP" status="Approved">コンテキストプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="ja_JP" status="Approved">日付有効期限コンフィグレーションフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="ja_JP" status="Approved">デザイン要素</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="ja_JP" status="Approved">有効期限プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="ja_JP" status="Approved">要素</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="ja_JP" status="Approved">フィーチャリスト</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="ja_JP" status="Approved">フラット構成フィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="ja_JP" status="Approved">フルテキスト検索機能</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="ja_JP" status="Approved">フルテキスト検索プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="ja_JP" status="Approved">管理された属性プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="ja_JP" status="Approved">オーバライドデータセットプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="ja_JP" status="Approved">パーティションフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="ja_JP" status="Approved">位置決めされた要素</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="ja_JP" status="Approved">製品コンテキスト情報</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="ja_JP" status="Approved">製品フィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="ja_JP" status="Approved">ルートオカレンスフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="ja_JP" status="Approved">ワークコンテキストフィーチャを保存</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="ja_JP" status="Approved">保存済みワークコンテキスト</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="ja_JP" status="Approved">保存済みクエリプロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="ja_JP" status="Approved">代用プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="ja_JP" status="Approved">ユニット有効期限コンフィグレーションフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="ja_JP" status="Approved">バリアントフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="ja_JP" status="Approved">ビュータイププロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="ja_JP" status="Approved">ビューアフィーチャ</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="ja_JP" status="Approved">廃止済み - support announcement Teamcenter 2606. Zone Providerを参照</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="ja_JP" status="Approved">このオペレーションは、要素をクローンします。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="ja_JP" status="Approved">このオペレーションは、要素を参照します。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="ja_JP" status="Approved">このオペレーションは、要素をリビジョンアップします。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="ja_JP" status="Approved">このオペレーションは、要素を置換します。</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="ja_JP" status="Approved">このオペレーションは、要素を無視します。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="ja_JP" status="Approved">保存済みワークコンテキストは共有されていません。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="ja_JP" status="Approved">保存済みワークコンテキストは、読取り専用の目的で共有されています。</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ja_JP" status="Approved">保存済みワークコンテキストは、読取り/書込みに対して共有されています</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="ja_JP" status="Approved">アクティブコンテンツエクスペリエンス</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ja_JP" status="Approved">保存されていない内容を変更</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ja_JP" status="Approved">変更の保存</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="ja_JP" status="Approved">比較</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="ja_JP" status="Approved">名前を変えて保存し置換</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="ja_JP" status="Approved">参照</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="ja_JP" status="Approved">リビジョンアップ</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="ja_JP" status="Approved">置換</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="ja_JP" status="Approved">除去</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="ja_JP" status="Approved">プライベート</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="ja_JP" status="Approved">読取り専用</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ja_JP" status="Approved">読込み/書込み</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="ja_JP" status="Approved">アクティブコンテンツエクスペリエンス</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ja_JP" status="Approved">保存されていない内容を変更</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ja_JP" status="Approved">変更の保存</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="ja_JP" status="Approved">比較</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="ja_JP" status="Approved">アクティブな製品</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="ja_JP" status="Approved">最終アクセス日</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="ja_JP" status="Approved">保存済みブックマークの最終保存日</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="ja_JP" status="Approved">開かれたオブジェクト</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="ja_JP" status="Approved">未保存の修正</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="ja_JP" status="Approved">ユーザ</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="ja_JP" status="Approved">ベースリビジョンルール</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="ja_JP" status="Approved">クロージャルール</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="ja_JP" status="Approved">有効期限日付</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="ja_JP" status="Approved">有効期限エンドアイテム</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="ja_JP" status="Approved">有効期限ユニット番号</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="ja_JP" status="Approved">BOMインデックスデータ状態</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="ja_JP" status="Approved">最終アクセス日</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="ja_JP" status="Approved">最終更新日</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="ja_JP" status="Approved">オカレンス数</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="ja_JP" status="Approved">製品</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="ja_JP" status="Approved">構成タイプ</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="ja_JP" status="Approved">サブスクライバステータス</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="ja_JP" status="Approved">サブスクライバ</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="ja_JP" status="Approved">リビジョンを所有するバリアントルール</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="ja_JP" status="Approved">バリアントルール</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="ja_JP" status="Approved">ウィンドウUID</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="ja_JP" status="Approved">アクティブなサブロケーション</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="ja_JP" status="Approved">拡張データをコンパクトにする</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="ja_JP" status="Approved">拡張データ</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="ja_JP" status="Approved">オーバライドコンテキスト</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="ja_JP" status="Approved">選択された要素パス</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="ja_JP" status="Approved">適用されたアレンジメント</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="ja_JP" status="Approved">クロージャルール</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="ja_JP" status="Approved">コンフィグレーションコンテキスト</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="ja_JP" status="Approved">コンフィグレーションデータ</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="ja_JP" status="Approved">有効日</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="ja_JP" status="Approved">すぐに有効にする</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="ja_JP" status="Approved">有効ユニット番号</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="ja_JP" status="Approved">有効期限グループ</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="ja_JP" status="Approved">エンドアイテム</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="ja_JP" status="Approved">ブックマークされたグローバルリビジョンルール</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="ja_JP" status="Approved">未保存の修正</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="ja_JP" status="Approved">製品</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="ja_JP" status="Approved">リビジョンルール文字列</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="ja_JP" status="Approved">リビジョンルール</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="ja_JP" status="Approved">保存されたバリアントルール</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="ja_JP" status="Approved">バリアント所有アイテムリビジョン</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="ja_JP" status="Approved">ビュータイプ</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="ja_JP" status="Approved">オカレンスリスト</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="ja_JP" status="Approved">比較基準</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="ja_JP" status="Approved">オプションの比較</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="ja_JP" status="Approved">比較キー</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="ja_JP" status="Approved">階層</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="ja_JP" status="Approved">代替リスト</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="ja_JP" status="Approved">リリースステータス</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="ja_JP" status="Approved">リビジョン有効期限</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="ja_JP" status="Approved">説明</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="ja_JP" status="Approved">リリース有効期限</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="ja_JP" status="Approved">リビジョン</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="ja_JP" status="Approved">リビジョン名</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="ja_JP" status="Approved">リリースステータス</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="ja_JP" status="Approved">アセンブリインジケータ</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="ja_JP" status="Approved">要素有効期限</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="ja_JP" status="Approved">要素有効期限ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="ja_JP" status="Approved">要素はフィルタで除外されていますか?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="ja_JP" status="Approved">要素ネット有効期限</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="ja_JP" status="Approved">要素リビジョンID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="ja_JP" status="Approved">VOC - 構成されたバリアントオカレンス</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="ja_JP" status="Approved">エンドアイテムアセンブリ状態</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="ja_JP" status="Approved">仕上げインジケータ</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="ja_JP" status="Approved">アクティブマークアップの有無</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="ja_JP" status="Approved">グローバル代替</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="ja_JP" status="Approved">要素有効期限</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="ja_JP" status="Approved">代用</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="ja_JP" status="Approved">バリアント</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="ja_JP" status="Approved">オカレンス代用</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="ja_JP" status="Approved">パック済み</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="ja_JP" status="Approved">プリサイス</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="ja_JP" status="Approved">セカンダリコンポーネント</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="ja_JP" status="Approved">バリアントアイテム</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="ja_JP" status="Approved">マークアッププロパティ名</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="ja_JP" status="Approved">マークアッププロパティ値</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="ja_JP" status="Approved">アクション</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="ja_JP" status="Approved">マチュリティ</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="ja_JP" status="Approved">複数整合が必要です</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="ja_JP" status="Approved">ネット可変性</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="ja_JP" status="Approved">パック数</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="ja_JP" status="Approved">アクション</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="ja_JP" status="Approved">位置指示子</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="ja_JP" status="Approved">プライマリコンポーネント</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="ja_JP" status="Approved">管理数量</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="ja_JP" status="Approved">構成規則</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="ja_JP" status="Approved">代用コンポーネントを表示</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="ja_JP" status="Approved">整合をスキップ</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="ja_JP" status="Approved">置換えインジケータ</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="ja_JP" status="Approved">使用アドレス</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="ja_JP" status="Approved">バリアント式</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="ja_JP" status="Approved">コンテキスト内のID(トップレベル)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="ja_JP" status="Approved">コンテキスト内のID(全レベル)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="ja_JP" status="Approved">最終修正日</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="ja_JP" status="Approved">最終修正者</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="ja_JP" status="Approved">グループID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="ja_JP" status="Approved">所有者</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="ja_JP" status="Approved">リリース日</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="ja_JP" status="Approved">アーキタイプ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="ja_JP" status="Approved">境界ボックス</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="ja_JP" status="Approved">パンくずアンセスタ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="ja_JP" status="Approved">安定したオカレンスIDコピー</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="ja_JP" status="Approved">安定したIDパスをコピー</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="ja_JP" status="Approved">要素</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="ja_JP" status="Approved">EOC - 構成された有効オカレンス</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="ja_JP" status="Approved">要素ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="ja_JP" status="Approved">要素リリースステータス</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="ja_JP" status="Approved">オーバライド</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="ja_JP" status="Approved">IPクラシフィケーション</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="ja_JP" status="Approved">要素は抑制?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="ja_JP" status="Approved">構成修正可能</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="ja_JP" status="Approved">疑わしい</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="ja_JP" status="Approved">変換はオーバライド?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="ja_JP" status="Approved">最終保存参照セット</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="ja_JP" status="Approved">レベル</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="ja_JP" status="Approved">名前</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="ja_JP" status="Approved">子の数</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="ja_JP" status="Approved">オカレンス名</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="ja_JP" status="Approved">オカレンスタイプ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="ja_JP" status="Approved">オーバライドされたプロパティ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="ja_JP" status="Approved">コンテキストをオーバライド</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="ja_JP" status="Approved">親</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="ja_JP" status="Approved">製品コンテキストID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="ja_JP" status="Approved">プロジェクト</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="ja_JP" status="Approved">数量</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="ja_JP" status="Approved">相対変換</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="ja_JP" status="Approved">通番</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="ja_JP" status="Approved">サービスアダプタ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="ja_JP" status="Approved">トレースリンク</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="ja_JP" status="Approved">絶対変換</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="ja_JP" status="Approved">タイプ</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="ja_JP" status="Approved">基底オブジェクト</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="ja_JP" status="Approved">構成監査ログ</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="ja_JP" status="Approved">修正可能</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="ja_JP" status="Approved">要素</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="ja_JP" status="Approved">使用可能なフィーチャ</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="ja_JP" status="Approved">非修正可能フィーチャ</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="ja_JP" status="Approved">反射を含む</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="ja_JP" status="Approved">参照指定子</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="ja_JP" status="Approved">座標系</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="ja_JP" status="Approved">代用</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="ja_JP" status="Approved">アクティブアレンジ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="ja_JP" status="Approved">代替コンフィグレーション</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="ja_JP" status="Approved">適用されたアレンジメント</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="ja_JP" status="Approved">自動ブックマーク</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="ja_JP" status="Approved">BOM拡張ルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="ja_JP" status="Approved">クライアント範囲URI</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="ja_JP" status="Approved">クロージャルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="ja_JP" status="Approved">コンテキストオブジェクト</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="ja_JP" status="Approved">現在のリビジョンルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="ja_JP" status="Approved">廃止済み - 現在のバリアントルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="ja_JP" status="Approved">廃止済み - 現在のバリアントルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="ja_JP" status="Approved">有効期限日付</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="ja_JP" status="Approved">有効期限エンドアイテム</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="ja_JP" status="Approved">有効期限ユニット番号</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="ja_JP" status="Approved">有効期限グループ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="ja_JP" status="Approved">終了有効期限日</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="ja_JP" status="Approved">終了有効期限ユニット</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="ja_JP" status="Approved">フィルタ数</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="ja_JP" status="Approved">フィルタされた構成レシピ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="ja_JP" status="Approved">インデックス更新日</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="ja_JP" status="Approved">廃止済み - Support Announcement 2412. Pack Similar Elementsを参照</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="ja_JP" status="Approved">製品コンテキスト情報</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="ja_JP" status="Approved">廃止済み - Support Announcement 2412. Show Changeを参照</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="ja_JP" status="Approved">廃止済み - Support Announcement 2412. Show Exploded Linesを参照</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="ja_JP" status="Approved">廃止済み - Support Announcement 2412. Show Markupを参照</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="ja_JP" status="Approved">スナップショット</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="ja_JP" status="Approved">開始有効期限日</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="ja_JP" status="Approved">開始有効期限ユニット</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="ja_JP" status="Approved">構成レシピ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="ja_JP" status="Approved">サポートされるフィーチャ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="ja_JP" status="Approved">グローバルリビジョンルールを使用</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="ja_JP" status="Approved">リビジョンを所有するバリアントルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="ja_JP" status="Approved">バリアントルール</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="ja_JP" status="Approved">ビュートグル</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="ja_JP" status="Approved">ビュータイプ</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="ja_JP" status="Approved">ウィンドウ状態の切り替え</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="ja_JP" status="Approved">コンテナ名</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="ja_JP" status="Approved">アクティブな製品</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="ja_JP" status="Approved">他に表示を許可</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="ja_JP" status="Approved">他に編集を許可</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="ja_JP" status="Approved">パンくずアンセスタ</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="ja_JP" status="Approved">相互運用可能なセッションCADデータ</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="ja_JP" status="Approved">構成修正可能</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="ja_JP" status="Approved">未保存の修正</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="ja_JP" status="Approved">共有レベル</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="ja_JP" status="Approved">コンテキスト</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="ja_JP" status="Approved">接続されている端1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="ja_JP" status="Approved">接続されている端2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="ja_JP" status="Approved">オブジェクトタイプ</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="ja_JP" status="Approved">構成を含む</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="ja_JP" status="Approved">BOM行アピアランスパスノードUID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="ja_JP" status="Approved">アイテムID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="ja_JP" status="Approved">リビジョンID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="ja_JP" status="Approved">最終修正日</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="ja_JP" status="Approved">最終修正ユーザ</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="ja_JP" status="Approved">所有グループ</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="ja_JP" status="Approved">所有者</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="ja_JP" status="Approved">リリースステータス</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="ja_JP" status="Approved">リリース日</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="ja_JP" status="Approved">接続</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="ja_JP" status="Approved">インタフェース</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="ja_JP" status="Approved">接続されている端1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="ja_JP" status="Approved">接続されている端2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="ja_JP" status="Approved">接続先</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="ja_JP" status="Approved">方向</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="ja_JP" status="Approved">子</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="ja_JP" status="Approved">子</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="ja_JP" status="Approved">セカンダリコンポーネント</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="ja_JP" status="Approved">兄弟</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="ja_JP" status="Approved">追加</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="ja_JP" status="Approved">兄弟</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="ja_JP" status="Approved">代用を追加</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="ja_JP" status="Approved">マークアップを適用</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="ja_JP" status="Approved">選択による構成</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="ja_JP" status="Approved">マークアップ要素をキャンセル</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="ja_JP" status="Approved">マークアップレベルをキャンセル</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="ja_JP" status="Approved">比較</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="ja_JP" status="Approved">有効なオーバレイによる構成</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="ja_JP" status="Approved">有効期限の編集</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="ja_JP" status="Approved">レベルを挿入</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="ja_JP" status="Approved">要素</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="ja_JP" status="Approved">パック</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="ja_JP" status="Approved">リリース</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="ja_JP" status="Approved">要素を除去</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="ja_JP" status="Approved">レベルを除去</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="ja_JP" status="Approved">代用を除去</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="ja_JP" status="Approved">置換</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="ja_JP" status="Approved">名前を変えて保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="ja_JP" status="Approved">名前を変えて保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="ja_JP" status="Approved">保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="ja_JP" status="Approved">保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="ja_JP" status="Approved">作業コンテキストを保存</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="ja_JP" status="Approved">コンテキスト設定</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="ja_JP" status="Approved">開く</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="ja_JP" status="Approved">サブセット</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="ja_JP" status="Approved">セカンダリコンポーネントを切換え</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="ja_JP" status="Approved">代用コンポーネントを切換え</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="ja_JP" status="Approved">パック解除</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="ja_JP" status="Approved">代用を使用</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="ja_JP" status="Approved">要素有効期限を表示</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="ja_JP" status="Approved">これは、子を入力要素に追加することが可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="ja_JP" status="Approved">保存済みブックマーク下に子製品を追加することができるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="ja_JP" status="Approved">これは、セカンダリコンポーネントを入力要素に追加することが可能であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="ja_JP" status="Approved">これは、兄弟を入力要素に追加することが可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="ja_JP" status="Approved">保存済みブックマーク下に、現在選択されている製品の兄弟の製品を追加することができるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="ja_JP" status="Approved">代用を追加可能とするかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="ja_JP" status="Approved">マークアップを適用コマンドに対するサーバサイドコマンド可視性です。 このコマンドは、ユーザが構成を修正するアクセス権がある場合にのみ表示されます。</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="ja_JP" status="Approved">Active Workspaceクライアントで複製コマンドをクリックしている間に、ユーザにBOMクローン注意バナーを表示する条件を定義します。</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="ja_JP" status="Approved">これは、選択をベースとして構成が入力要素に対して有効であるかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="ja_JP" status="Approved">マークアップをキャンセルに対するサーバサイドコマンド表示条件です。</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="ja_JP" status="Approved">比較コマンドに対するサーバサイドコマンド表示条件です。 このコマンドは、選択したオブジェクトがタイプItemRevisionで、かつ最小プラットフォームリリースの基準を満足する場合にのみ表示されます。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="ja_JP" status="Approved">保存済み作業コンテキストオブジェクトに対する削除コマンドを有効にする条件です。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="ja_JP" status="Approved">保存済み作業コンテキストに対する削除コマンドを有効にする条件です。</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="ja_JP" status="Approved">セッションオブジェクトのコンテキスト内削除を非表示にするコマンド条件です。</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="ja_JP" status="Approved">タイプAwb0Elementのオブジェクトに対して、共有された有効期限を作成、編集、要素に追加、要素から除去を可能とするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="ja_JP" status="Approved">これは、レベルを挿入コマンドを可視にするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="ja_JP" status="Approved">これは、有効なオーバレイによる構成コマンドを指定したビジネスオブジェクトに対して表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="ja_JP" status="Approved">変更コンテキストに対して使用可能な構成マネージャproライセンスをチェックするには</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="ja_JP" status="Approved">セッションオブジェクトのコンテキスト内「SEECで開く」を非表示にするコマンド条件です。</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="ja_JP" status="Approved">これは、パックコマンドを選択したオブジェクトに対して表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="ja_JP" status="Approved">選択したオブジェクトにリビジョン有効期限を適用できるかを判断します。</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="ja_JP" status="Approved">これは、要素が構成から除去することが可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="ja_JP" status="Approved">これは、レベルを除去コマンドを可視にするかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="ja_JP" status="Approved">代用を除去可能とするかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="ja_JP" status="Approved">これは、要素が構成から置換することが可能かを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="ja_JP" status="Approved">これは、作業コンテキストを保存を表示するかどうかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="ja_JP" status="Approved">これは、製品コンテキストに対して名前を変えて保存を表示するかどうかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="ja_JP" status="Approved">これは、保存済みブックマークに対して名前を変えて保存を表示するかどうかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="ja_JP" status="Approved">これは、製品コンテキストに対して保存を表示するかどうかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="ja_JP" status="Approved">これは、保存済みブックマークに対して保存を表示するかどうかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="ja_JP" status="Approved">これは、コンテキスト設定コマンドを選択したオブジェクトに対して表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="ja_JP" status="Approved">これは、選択したAwb0ConditionalElement下にセカンダリコンポーネントが表示されるかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="ja_JP" status="Approved">これは、選択したAwb0ConditionalElement下に代用コンポーネントが表示されるかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="ja_JP" status="Approved">これは、パック解除コマンドを選択したオブジェクトに対して表示するかを決定します。</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="ja_JP" status="Approved">代用を使用可能とするかを決定します</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="ja_JP" status="Approved">タイプAwb0Elementのオブジェクトに対して、適用された有効期限を表示可能にするかを決定します。</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="ja_JP" status="Approved">レベルプロバイダに対するマークアップ</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="ja_JP" status="Approved">マークアッププロバイダ</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="ja_JP" status="Approved">最終再生日</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="ja_JP" status="Approved">保留中の変更</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="ja_JP" status="Approved">IDが含まれる場所:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="ja_JP" status="Approved">名前が含まれる場所:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="ja_JP" status="Approved">タイプが含まれる場所:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="ja_JP" status="Approved">セッション内の製品</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="ja_JP" status="Approved">スマートディスカバリインデックス最終更新</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="ja_JP" status="Approved">インデックス付きスマートディスカバリ</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="ja_JP" status="Approved">コンテキスト製品プロバイダ</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="ja_JP" status="Approved">コンテキスト内保存済みクエリLOV</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="ja_JP" status="Approved">SDインデクサデータプロバイダ</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="ja_JP" status="Approved">コンテキスト内保存済みクエリ名</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="ja_JP" status="Approved">インデックスされたソース</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="ja_JP" status="Approved">パート要素</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="ja_JP" status="Approved">製造/購買</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="ja_JP" status="Approved">整合</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="ja_JP" status="Approved">「整合」コマンドの可視性を定義します。 デザインおよびパートオブジェクトに対してのみ使用可能です。</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

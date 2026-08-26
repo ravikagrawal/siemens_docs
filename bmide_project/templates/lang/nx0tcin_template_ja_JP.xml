@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:31 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMasterS" locale="ja_JP" status="Approved">ラインアイテムマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMaster" locale="ja_JP" status="Approved">ルーティングアイテムマスタ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevMasterS" locale="ja_JP" status="Approved">ラインアイテムリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevisionMaster" locale="ja_JP" status="Approved">アイテムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevision" locale="ja_JP" status="Approved">ルーティングアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItem" locale="ja_JP" status="Approved">ルーティングアイテム</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMasterS" locale="ja_JP" status="Approved">デザインパートマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMaster" locale="ja_JP" status="Approved">ルーティングパートマスタ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevMasterS" locale="ja_JP" status="Approved">デザインパートリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevisionMaster" locale="ja_JP" status="Approved">デザインパートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevision" locale="ja_JP" status="Approved">デザインパートリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPart" locale="ja_JP" status="Approved">ルーティングデザインパート</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationData" locale="ja_JP" status="Approved">アプリケーションデータ</key>
+           
+        <key id="BusinessObject{::}NX0AssetSearchProvider" locale="ja_JP" status="Approved">NXアセット検索プロバイダ</key>
+           
+        <key id="BusinessObject{::}NX0Asset" locale="ja_JP" status="Approved">NXライブラリアセット</key>
+           
+        <key id="BusinessObject{::}NX0BookletDataset" locale="ja_JP" status="Approved">ブックレットデータセット</key>
+           
+        <key id="BusinessObject{::}NX0BookletFolder" locale="ja_JP" status="Approved">ブックレットフォルダ</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMasterS" locale="ja_JP" status="Approved">ブックレットアイテムマスタS</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMaster" locale="ja_JP" status="Approved">ブックレットアイテムマスタ</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevMasterS" locale="ja_JP" status="Approved">ブックレットアイテムリビジョンマスタS</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevisionMaster" locale="ja_JP" status="Approved">ブックレットアイテムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevision" locale="ja_JP" status="Approved">ブックレットアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0BookletItem" locale="ja_JP" status="Approved">ブックレットアイテム</key>
+           
+        <key id="BusinessObject{::}NX0BookletReference" locale="ja_JP" status="Approved">ブックレット参照(廃棄済み)</key>
+           
+        <key id="BusinessObject{::}NX0BookletRule" locale="ja_JP" status="Approved">ブックレットルール</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMasterS" locale="ja_JP" status="Approved">ブランチ互換性テーブルマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMaster" locale="ja_JP" status="Approved">ブランチ互換性テーブルマスタ</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevMasterS" locale="ja_JP" status="Approved">ブランチ互換性テーブルリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevisionMaster" locale="ja_JP" status="Approved">ブランチ互換性テーブルリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevision" locale="ja_JP" status="Approved">ブランチ互換性テーブルリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0BranchComp" locale="ja_JP" status="Approved">ブランチ互換性テーブル</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMasterS" locale="ja_JP" status="Approved">モーション抽象マスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMaster" locale="ja_JP" status="Approved">モーション抽象マスタ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevMasterS" locale="ja_JP" status="Approved">モーション抽象リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevisionMaster" locale="ja_JP" status="Approved">モーション抽象リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevision" locale="ja_JP" status="Approved">モーション抽象リビジョン</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMasterS" locale="ja_JP" status="Approved">モーション解析マスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMaster" locale="ja_JP" status="Approved">モーション解析マスタ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevMasterS" locale="ja_JP" status="Approved">モーション解析リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevisionMaster" locale="ja_JP" status="Approved">モーション解析リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevision" locale="ja_JP" status="Approved">モーション解析リビジョン</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSim" locale="ja_JP" status="Approved">モーション解析</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotion" locale="ja_JP" status="Approved">モーション抽象</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMasterS" locale="ja_JP" status="Approved">接続互換性テーブルマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMaster" locale="ja_JP" status="Approved">接続互換性テーブルマスタ</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevMasterS" locale="ja_JP" status="Approved">接続互換性テーブルリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevisionMaster" locale="ja_JP" status="Approved">接続互換性テーブルリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevision" locale="ja_JP" status="Approved">接続互換性テーブルリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0ConnComp" locale="ja_JP" status="Approved">接続互換性テーブル</key>
+           
+        <key id="BusinessObject{::}NX0DiagramOf" locale="ja_JP" status="Approved">～のダイアグラム</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMasterS" locale="ja_JP" status="Approved">ディスクロージャワークセットマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMaster" locale="ja_JP" status="Approved">ディスクロージャワークセットマスタ</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevMasterS" locale="ja_JP" status="Approved">ディスクロージャワークセットリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevisionMaster" locale="ja_JP" status="Approved">ディスクロージャワークセットリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevision" locale="ja_JP" status="Approved">ディスクロージャワークセットリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorkset" locale="ja_JP" status="Approved">ディスクロージャワークセット</key>
+           
+        <key id="BusinessObject{::}NX0DocumentDataset" locale="ja_JP" status="Approved">NXドキュメントデータセット</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMasterS" locale="ja_JP" status="Approved">NXドキュメントマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMaster" locale="ja_JP" status="Approved">NXドキュメントマスタ</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevMasterS" locale="ja_JP" status="Approved">NXドキュメントリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevisionMaster" locale="ja_JP" status="Approved">NXドキュメントリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevision" locale="ja_JP" status="Approved">NXドキュメントリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0Document" locale="ja_JP" status="Approved">NXドキュメント</key>
+           
+        <key id="BusinessObject{::}NX0ExternalFileReference" locale="ja_JP" status="Approved">外部ファイル参照</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMasterS" locale="ja_JP" status="Approved">NX非接触検査アセンブリマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMaster" locale="ja_JP" status="Approved">NX非接触検査アセンブリマスタ</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevMasterS" locale="ja_JP" status="Approved">NX非接触検査アセンブリリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevisionMaster" locale="ja_JP" status="Approved">NX非接触検査アセンブリリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevision" locale="ja_JP" status="Approved">NX非接触検査アセンブリリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsm" locale="ja_JP" status="Approved">NX非接触検査アセンブリ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleData" locale="ja_JP" status="Approved">ロジックルールデータ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMasterS" locale="ja_JP" status="Approved">ロジックルールマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMaster" locale="ja_JP" status="Approved">ロジックルールマスタ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevMasterS" locale="ja_JP" status="Approved">ロジックルールリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevisionMaster" locale="ja_JP" status="Approved">ロジックルールリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevision" locale="ja_JP" status="Approved">NXロジックエディタルールリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0LRule" locale="ja_JP" status="Approved">NXロジックエディタルール</key>
+           
+        <key id="BusinessObject{::}NX0MCDReference" locale="ja_JP" status="Approved">メカトロニクス参照</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessDataset" locale="ja_JP" status="Approved">NX BOPデータセット</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMasterS" locale="ja_JP" status="Approved">NX BOPマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMaster" locale="ja_JP" status="Approved">NX BOPマスタ</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevMasterS" locale="ja_JP" status="Approved">NX BOPリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevisionMaster" locale="ja_JP" status="Approved">NX BOPリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevision" locale="ja_JP" status="Approved">NX BOPアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0MEProcess" locale="ja_JP" status="Approved">NX BOPアイテム</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMasterS" locale="ja_JP" status="Approved">材料プロキシアイテムマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMaster" locale="ja_JP" status="Approved">材料プロキシアイテムマスタ</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevMasterS" locale="ja_JP" status="Approved">材料プロキシアイテムリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevisionMaster" locale="ja_JP" status="Approved">材料プロキシアイテムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevision" locale="ja_JP" status="Approved">材料プロキシアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItem" locale="ja_JP" status="Approved">材料プロキシアイテム</key>
+           
+        <key id="BusinessObject{::}NX0MaterialsSpecifications" locale="ja_JP" status="Approved">材料仕様</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByDataset" locale="ja_JP" status="Approved">データセットごとの不足ファイル情報</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByNames" locale="ja_JP" status="Approved">名前ごとの不足ファイル情報</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfo" locale="ja_JP" status="Approved">不足しているファイル情報</key>
+           
+        <key id="BusinessObject{::}NX0MotionSim" locale="ja_JP" status="Approved">モーションSim</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMasterS" locale="ja_JP" status="Approved">NX点群データマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMaster" locale="ja_JP" status="Approved">NX点群データマスタ</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevMasterS" locale="ja_JP" status="Approved">NX点群データリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevisionMaster" locale="ja_JP" status="Approved">NX点群データリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevision" locale="ja_JP" status="Approved">NX点群データリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudData" locale="ja_JP" status="Approved">NX点群データ</key>
+           
+        <key id="BusinessObject{::}NX0PortLocation" locale="ja_JP" status="Approved">ポートの場所</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMasterS" locale="ja_JP" status="Approved">インストレーションアセンブリマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMaster" locale="ja_JP" status="Approved">ルーティングアセンブリマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevMasterS" locale="ja_JP" status="Approved">インストレーションアセンブリリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevisionMaster" locale="ja_JP" status="Approved">インストレーションアセンブリリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevision" locale="ja_JP" status="Approved">ルーティングアセンブリリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssembly" locale="ja_JP" status="Approved">ルーティングアセンブリアイテム</key>
+           
+        <key id="BusinessObject{::}NX0RSDItemRevAttrs" locale="ja_JP" status="Approved">NXルーティングアイテムリビジョン属性</key>
+           
+        <key id="BusinessObject{::}NX0RSDOccAttrs" locale="ja_JP" status="Approved">ルーティングオカレンス属性</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMasterS" locale="ja_JP" status="Approved">ルーティング再使用可能パートマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMaster" locale="ja_JP" status="Approved">ルーティング再使用可能パートマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevMasterS" locale="ja_JP" status="Approved">ルーティング再使用可能パートリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevisionMaster" locale="ja_JP" status="Approved">ルーティング再使用可能パートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevision" locale="ja_JP" status="Approved">ルーティング再使用可能パートリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePt" locale="ja_JP" status="Approved">ルーティング再使用可能パート</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMasterS" locale="ja_JP" status="Approved">ルーティングストックパートマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMaster" locale="ja_JP" status="Approved">ルーティングストックパートマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevMasterS" locale="ja_JP" status="Approved">ルーティングストックパートリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevisionMaster" locale="ja_JP" status="Approved">ルーティングストックパートリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevision" locale="ja_JP" status="Approved">ルーティングストックパートリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPart" locale="ja_JP" status="Approved">ルーティングストックパート</key>
+           
+        <key id="BusinessObject{::}NX0ReferenceOnlyComponent" locale="ja_JP" status="Approved">参照のみコンポーネント</key>
+           
+        <key id="BusinessObject{::}NX0RoutingPipePartData" locale="ja_JP" status="Approved">NXルーティングパイプパートデータ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunData" locale="ja_JP" status="Approved">NXルーティングランデータ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunReference" locale="ja_JP" status="Approved">NXルーティングラン参照</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecData" locale="ja_JP" status="Approved">NXルーティングパイプ仕様データ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMasterS" locale="ja_JP" status="Approved">NXルーティングパイプ仕様マスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMaster" locale="ja_JP" status="Approved">NXルーティングパイプ仕様マスタ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevMasterS" locale="ja_JP" status="Approved">NXルーティングパイプ仕様リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevisionMaster" locale="ja_JP" status="Approved">NXルーティングパイプ仕様リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevision" locale="ja_JP" status="Approved">NXルーティングパイプ仕様リビジョン</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpec" locale="ja_JP" status="Approved">NXルーティングパイプ仕様</key>
+           
+        <key id="BusinessObject{::}NX0SheetMetalExport" locale="ja_JP" status="Approved">フラットパターンエクスポート</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMasterS" locale="ja_JP" status="Approved">船舶参照マスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMaster" locale="ja_JP" status="Approved">船舶参照マスタ</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevMasterS" locale="ja_JP" status="Approved">船舶参照リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevisionMaster" locale="ja_JP" status="Approved">船舶参照リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevision" locale="ja_JP" status="Approved">船舶参照リビジョン</key>
+           
+        <key id="BusinessObject{::}NX0ShipReference" locale="ja_JP" status="Approved">船舶参照</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedFrom" locale="ja_JP" status="Approved">パートから単純化</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedUsing" locale="ja_JP" status="Approved">テンプレートを使用した単純化</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMasterS" locale="ja_JP" status="Approved">スプールアセンブリマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMaster" locale="ja_JP" status="Approved">スプールアセンブリマスタ</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRef" locale="ja_JP" status="Approved">スプールアセンブリ参照</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevMasterS" locale="ja_JP" status="Approved">スプールアセンブリリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevisionMaster" locale="ja_JP" status="Approved">スプールアセンブリリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevision" locale="ja_JP" status="Approved">スプールアセンブリリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssembly" locale="ja_JP" status="Approved">スプールアセンブリ</key>
+           
+        <key id="BusinessObject{::}NX0StackModelDataset" locale="ja_JP" status="Approved">NXプロセスモデルデータセット</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMasterS" locale="ja_JP" status="Approved">NXプロセスモデルマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMaster" locale="ja_JP" status="Approved">NXプロセスモデルマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevMasterS" locale="ja_JP" status="Approved">NXプロセスモデルリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevisionMaster" locale="ja_JP" status="Approved">NXプロセスモデルリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevision" locale="ja_JP" status="Approved">NXプロセスモデルアイテムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0StackModel" locale="ja_JP" status="Approved">NXプロセスモデルアイテム</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMasterS" locale="ja_JP" status="Approved">構造コンテナマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMaster" locale="ja_JP" status="Approved">構造コンテナマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevMasterS" locale="ja_JP" status="Approved">構造コンテナリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevisionMaster" locale="ja_JP" status="Approved">構造コンテナリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevision" locale="ja_JP" status="Approved">構造コンテナリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0StrContainer" locale="ja_JP" status="Approved">構造コンテナ</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMasterS" locale="ja_JP" status="Approved">構造詳細マスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMaster" locale="ja_JP" status="Approved">構造詳細マスタ</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevMasterS" locale="ja_JP" status="Approved">構造詳細リビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevisionMaster" locale="ja_JP" status="Approved">構造詳細リビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevision" locale="ja_JP" status="Approved">構造詳細リビジョン</key>
+           
+        <key id="BusinessObject{::}NX0StructDetail" locale="ja_JP" status="Approved">構造詳細</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMasterS" locale="ja_JP" status="Approved">構造システムマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMaster" locale="ja_JP" status="Approved">構造システムマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevMasterS" locale="ja_JP" status="Approved">構造システムリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevisionMaster" locale="ja_JP" status="Approved">構造システムリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevision" locale="ja_JP" status="Approved">構造システムリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0StructSystem" locale="ja_JP" status="Approved">構造システム</key>
+           
+        <key id="BusinessObject{::}NX0TDP" locale="ja_JP" status="Approved">TDP</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMasterS" locale="ja_JP" status="Approved">NX作業指示ドキュメントマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMaster" locale="ja_JP" status="Approved">NX作業指示ドキュメントマスタ</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevMasterS" locale="ja_JP" status="Approved">NX作業指示ドキュメントリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevisionMaster" locale="ja_JP" status="Approved">NX作業指示ドキュメントリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevision" locale="ja_JP" status="Approved">NX作業指示ドキュメントリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0WIDocument" locale="ja_JP" status="Approved">NX作業指示ドキュメント</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMasterS" locale="ja_JP" status="Approved">NXワークセットマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMaster" locale="ja_JP" status="Approved">NXワークセットマスタ</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevMasterS" locale="ja_JP" status="Approved">NXワークセットリビジョンマスタストレージ</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevisionMaster" locale="ja_JP" status="Approved">NXワークセットリビジョンマスタ</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevision" locale="ja_JP" status="Approved">NXワークセットリビジョン</key>
+           
+        <key id="BusinessObject{::}NX0Workset" locale="ja_JP" status="Approved">NXワークセット</key>
+           
+        <key id="BusinessObject{::}NX0tcinDiagramProvider" locale="ja_JP" status="Approved">ダイアグラムプロバイダ</key>
+           
+        <key id="BusinessObject{::}NX0tcinDrawingProvider" locale="ja_JP" status="Approved">図面プロバイダ</key>
+           
+        <key id="ConditionDescription{::}NX0EnableNXPartManufacturingItemVisibility" locale="ja_JP" status="Approved">この条件は、NXパート製造アイテムの表示ルールを用いて使用することを意図していて、Teamcenterプリファレンス EnableNXPartManufacturingItemVisibilityが作成されていて、「はい」に設定されているときに表示できます。</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Coating" locale="ja_JP" status="Approved">割当てられた材料タイプが一般コーティングです。</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Core" locale="ja_JP" status="Approved">割当てられた材料タイプがソリッドボディです。</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Primer" locale="ja_JP" status="Approved">割当てられた材料タイプがプライマです。</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Coating" locale="ja_JP" status="Approved">コーティング</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Core" locale="ja_JP" status="Approved">コア</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Primer" locale="ja_JP" status="Approved">プライマ</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Assembly" locale="ja_JP" status="Approved">アセンブリ</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Drawing" locale="ja_JP" status="Approved">図面</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Part" locale="ja_JP" status="Approved">パート</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDCableway" locale="ja_JP" status="Approved">ケーブルウェイ</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDHvac" locale="ja_JP" status="Approved">空調</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDPiping" locale="ja_JP" status="Approved">パイピング</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDTubing" locale="ja_JP" status="Approved">配管</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDWiring" locale="ja_JP" status="Approved">ワイヤリング</key>
+           
+        <key id="Note{::}NX0CloneStableIdMap" locale="ja_JP" status="Approved">クローン安定IDマップ</key>
+           
+        <key id="Property{::}BOMLine{::}NX0CloneStableIdMap" locale="ja_JP" status="Approved">クローン安定IDマップ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PartType" locale="ja_JP" status="Approved">NXパートタイプ</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PortLocations" locale="ja_JP" status="Approved">ポートの場所</key>
+           
+        <key id="Property{::}MEViewLine{::}NX0CloneStableIdMap" locale="ja_JP" status="Approved">クローン安定IDマップ</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}NX0RSDItemRevAttrs" locale="ja_JP" status="Approved">NXルーティングアイテムリビジョン属性への後方参照</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}NX0RSDItemRevAttrs" locale="ja_JP" status="Approved">NXルーティングアイテムリビジョン属性への後方参照</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0sync_checksums" locale="ja_JP" status="Approved">チェックサム</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0AssetType" locale="ja_JP" status="Approved">アセットタイプ</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0Category" locale="ja_JP" status="Approved">カテゴリ</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0ID" locale="ja_JP" status="Approved">ID</key>
+           
+        <key id="Property{::}NX0BookletDataset{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0flags" locale="ja_JP" status="Approved">NXパートに対するBitMask情報(isPart、isDrawing、その他)、NXによりセット、NXにより使用</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0DiagramOf{::}nx0FocusAreaId" locale="ja_JP" status="Approved">焦点領域ID</key>
+           
+        <key id="Property{::}NX0ExternalFileReference{::}nx0LastModifiedChecksum" locale="ja_JP" status="Approved">最終修正Checksum</key>
+           
+        <key id="Property{::}NX0MCDReference{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0MaterialLibrary" locale="ja_JP" status="Approved">材料ライブラリ</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0ReferencedMaterialItem" locale="ja_JP" status="Approved">参照材料アイテム</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0AssignedMaterialSequence" locale="ja_JP" status="Approved">割当てられた材料シーケンス</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Density" locale="ja_JP" status="Approved">密度</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Mass" locale="ja_JP" status="Approved">質量</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialAssignmentType" locale="ja_JP" status="Approved">材料割当てタイプ</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialDefinition" locale="ja_JP" status="Approved">材料定義</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialName" locale="ja_JP" status="Approved">材料名</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialType" locale="ja_JP" status="Approved">材料タイプ</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0RefID" locale="ja_JP" status="Approved">NX参照ID</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0SurfaceArea" locale="ja_JP" status="Approved">表面積</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Thickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Volume" locale="ja_JP" status="Approved">体積</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileGuid" locale="ja_JP" status="Approved">ファイルGUID</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileName" locale="ja_JP" status="Approved">ファイル名</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FilePath" locale="ja_JP" status="Approved">ファイルパス</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileSpec" locale="ja_JP" status="Approved">ファイル仕様</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileType" locale="ja_JP" status="Approved">ファイルタイプ</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0ReferencingDatasets" locale="ja_JP" status="Approved">データセットの参照</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0FLPSize" locale="ja_JP" status="Approved">FLPサイズ</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0flags" locale="ja_JP" status="Approved">NXパートに対するBitMask情報(isPart、isDrawing、その他)、NXによりセット、NXにより使用</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0InternalLength" locale="ja_JP" status="Approved">内部長さ</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0OwningPart" locale="ja_JP" status="Approved">所有パート</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortID" locale="ja_JP" status="Approved">ポートID</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortType" locale="ja_JP" status="Approved">ポートタイプ</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosX" locale="ja_JP" status="Approved">X位置</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosY" locale="ja_JP" status="Approved">Y位置</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosZ" locale="ja_JP" status="Approved">Z位置</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}owning_object" locale="ja_JP" status="Approved">所有オブジェクト</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDElbowAngle" locale="ja_JP" status="Approved">エルボ角度</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}NX0RoutingPipePartData{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0RoutingRunData{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0RoutingSpecData{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0LastPublishedDate" locale="ja_JP" status="Approved">最終にパブリッシュした日付</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0SpoolId" locale="ja_JP" status="Approved">スプール識別子</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}NX0RSDItemRevAttrs" locale="ja_JP" status="Approved">NXルーティングアイテムリビジョン属性への後方参照</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiameter" locale="ja_JP" status="Approved">直径</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiscipline" locale="ja_JP" status="Approved">ルーティング技能</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDHeight" locale="ja_JP" status="Approved">高さ</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDLength" locale="ja_JP" status="Approved">長さ</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDSpecification" locale="ja_JP" status="Approved">ルーティング仕様</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDThickness" locale="ja_JP" status="Approved">厚さ</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDWidth" locale="ja_JP" status="Approved">幅</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0MaterialsTable" locale="ja_JP" status="Approved">材料テーブル</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0MaterialsTable" locale="ja_JP" status="Approved">材料テーブル</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PfamVersion" locale="ja_JP" status="Approved">パートファミリバージョン</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PfamVersion" locale="ja_JP" status="Approved">パートファミリバージョン</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AllChildren" locale="ja_JP" status="Approved">すべての子</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AppUid" locale="ja_JP" status="Approved">代替表現UID</key>
+           
+        <key id="Property{::}BOMLine{::}nx0BvrSyncInfoLastSyncDate" locale="ja_JP" status="Approved">BVR情報最終同期日</key>
+           
+        <key id="Property{::}BOMLine{::}nx0FLPSize" locale="ja_JP" status="Approved">高速ロードパーティションサイズ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0HasNxDataset" locale="ja_JP" status="Approved">NXデータセットを含む</key>
+           
+        <key id="Property{::}BOMLine{::}nx0IsBvrStructModified" locale="ja_JP" status="Approved">修正された構成</key>
+           
+        <key id="Property{::}BOMLine{::}nx0JTOverrideFile" locale="ja_JP" status="Approved">オーバライドジオメトリに対するファイル</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetFlags" locale="ja_JP" status="Approved">NXデータセットフラグ</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetRelease" locale="ja_JP" status="Approved">NXデータセットリリース</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXFile" locale="ja_JP" status="Approved">NXファイル</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredBoundingBox" locale="ja_JP" status="Approved">NX優先境界ボックス</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredDataset" locale="ja_JP" status="Approved">NX優先データセット</key>
+           
+        <key id="Property{::}BOMLine{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}BOMWindow{::}nx0PreferredDatasetType" locale="ja_JP" status="Approved">有線データセットタイプ</key>
+           
+        <key id="Property{::}CAEGeom{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}CAEMesh{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}CAESolution{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0Auid" locale="ja_JP" status="Approved">代替表現UID</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0BvrSyncInfoLastSyncDate" locale="ja_JP" status="Approved">BVR情報最終同期日</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FLPSize" locale="ja_JP" status="Approved">高速ロードパーティションサイズ</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FileTicket" locale="ja_JP" status="Approved">ファイルチケット</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0HasNxDataset" locale="ja_JP" status="Approved">NXデータセットを含む</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0JTOverrideFileTicket" locale="ja_JP" status="Approved">オーバライドジオメトリに対するファイルチケットです。</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetFlags1" locale="ja_JP" status="Approved">NXデータセットフラグ</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetRelease" locale="ja_JP" status="Approved">NXデータセットリリース</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetType" locale="ja_JP" status="Approved">データセットタイプ</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDataset" locale="ja_JP" status="Approved">NXデータセット</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXFile" locale="ja_JP" status="Approved">NXファイル</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PSViewTypeName" locale="ja_JP" status="Approved">製品構成ビュータイプ名</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}NXAFEM{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NXDerived{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NXMotion{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NXRouting{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}NXSimulation{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}POM_object{::}nx0CompareKey" locale="ja_JP" status="Approved">比較キー</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_altrep_metadata" locale="ja_JP" status="Approved">Altrepメタデータの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_any_interpart_references" locale="ja_JP" status="Approved">任意のパート間参照を含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_broken_links" locale="ja_JP" status="Approved">切断したリンクを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_components" locale="ja_JP" status="Approved">任意のコンポーネントを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_constraints" locale="ja_JP" status="Approved">制約の有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_geometry_overrides" locale="ja_JP" status="Approved">ジオメトリオーバライドを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_interpart_expression" locale="ja_JP" status="Approved">パート間式の有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_multiple_arrangements" locale="ja_JP" status="Approved">アレンジメントを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_nonmaster_component" locale="ja_JP" status="Approved">非マスタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_offcenter_components" locale="ja_JP" status="Approved">オフセンタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_parts_list" locale="ja_JP" status="Approved">パートリストの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_dep_wave_link" locale="ja_JP" status="Approved">位置従属WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_indep_wave_link" locale="ja_JP" status="Approved">位置独立WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_position_overrides" locale="ja_JP" status="Approved">位置オーバライドを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_product_interface" locale="ja_JP" status="Approved">製品インタフェースの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_ref_components" locale="ja_JP" status="Approved">参照コンポーネントを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_restructured_components" locale="ja_JP" status="Approved">再構築済みコンポーネントの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_supressed_components" locale="ja_JP" status="Approved">抑制コンポーネントを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_udf" locale="ja_JP" status="Approved">UDFの有無</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDrawing" locale="ja_JP" status="Approved">図面を含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCaeData" locale="ja_JP" status="Approved">CAEデータを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCamData" locale="ja_JP" status="Approved">CAMデータを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyMember" locale="ja_JP" status="Approved">パートファミリメンバ</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyTemplate" locale="ja_JP" status="Approved">パートファミリテンプレート</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPart" locale="ja_JP" status="Approved">パート</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMeasurableAttribute" locale="ja_JP" status="Approved">測定可能な属性を含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasBody" locale="ja_JP" status="Approved">ボディを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasSuppressionOverride" locale="ja_JP" status="Approved">抑制オーバライドを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisStructureStream" locale="ja_JP" status="Approved">ビジュアリゼーション構成ストリームを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisRmStream" locale="ja_JP" status="Approved">ビジュアリゼーションストリームを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartUnits" locale="ja_JP" status="Approved">パートユニット</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDiagram" locale="ja_JP" status="Approved">ダイアグラムを含む</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartType" locale="ja_JP" status="Approved">NXパートタイプ</key>
+           
+        <key id="Property{::}UGCAMCLSF{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGCAMPTP{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGCAMShopDoc{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGCAMTemplateData{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGENGINEROLL{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDrawing" locale="ja_JP" status="Approved">図面を含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCaeData" locale="ja_JP" status="Approved">CAEデータを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCamData" locale="ja_JP" status="Approved">CAMデータを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyMember" locale="ja_JP" status="Approved">パートファミリメンバ</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyTemplate" locale="ja_JP" status="Approved">パートファミリテンプレート</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPart" locale="ja_JP" status="Approved">パート</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMeasurableAttribute" locale="ja_JP" status="Approved">測定可能な属性を含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasBody" locale="ja_JP" status="Approved">ボディを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasSuppressionOverride" locale="ja_JP" status="Approved">抑制オーバライドを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisStructureStream" locale="ja_JP" status="Approved">ビジュアリゼーション構成ストリームを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisRmStream" locale="ja_JP" status="Approved">ビジュアリゼーションストリームを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartUnits" locale="ja_JP" status="Approved">パートユニット</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDiagram" locale="ja_JP" status="Approved">ダイアグラムを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_altrep_metadata" locale="ja_JP" status="Approved">Altrepメタデータの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_any_interpart_references" locale="ja_JP" status="Approved">任意のパート間参照を含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_broken_links" locale="ja_JP" status="Approved">切断したリンクを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_components" locale="ja_JP" status="Approved">任意のコンポーネントを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_constraints" locale="ja_JP" status="Approved">制約の有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_geometry_overrides" locale="ja_JP" status="Approved">ジオメトリオーバライドを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_interpart_expression" locale="ja_JP" status="Approved">パート間式の有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_multiple_arrangements" locale="ja_JP" status="Approved">アレンジメントを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_nonmaster_component" locale="ja_JP" status="Approved">非マスタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_offcenter_components" locale="ja_JP" status="Approved">オフセンタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_parts_list" locale="ja_JP" status="Approved">パートリストの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_dep_wave_link" locale="ja_JP" status="Approved">位置従属WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_indep_wave_link" locale="ja_JP" status="Approved">位置独立WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_position_overrides" locale="ja_JP" status="Approved">位置オーバライドを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_product_interface" locale="ja_JP" status="Approved">製品インタフェースの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_ref_components" locale="ja_JP" status="Approved">参照コンポーネントを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_restructured_components" locale="ja_JP" status="Approved">再構築済みコンポーネントの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_supressed_components" locale="ja_JP" status="Approved">抑制コンポーネントを含む</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_udf" locale="ja_JP" status="Approved">UDFの有無</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartType" locale="ja_JP" status="Approved">NXパートタイプ</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDrawing" locale="ja_JP" status="Approved">図面を含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCaeData" locale="ja_JP" status="Approved">CAEデータを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCamData" locale="ja_JP" status="Approved">CAMデータを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyMember" locale="ja_JP" status="Approved">パートファミリメンバ</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyTemplate" locale="ja_JP" status="Approved">パートファミリテンプレート</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPart" locale="ja_JP" status="Approved">パート</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasMeasurableAttribute" locale="ja_JP" status="Approved">測定可能な属性を含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasBody" locale="ja_JP" status="Approved">ボディを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasSuppressionOverride" locale="ja_JP" status="Approved">抑制オーバライドを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisStructureStream" locale="ja_JP" status="Approved">ビジュアリゼーション構成ストリームを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisRmStream" locale="ja_JP" status="Approved">ビジュアリゼーションストリームを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartUnits" locale="ja_JP" status="Approved">パートユニット</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDiagram" locale="ja_JP" status="Approved">ダイアグラムを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_altrep_metadata" locale="ja_JP" status="Approved">Altrepメタデータの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_any_interpart_references" locale="ja_JP" status="Approved">任意のパート間参照を含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_broken_links" locale="ja_JP" status="Approved">切断したリンクを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_components" locale="ja_JP" status="Approved">任意のコンポーネントを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_constraints" locale="ja_JP" status="Approved">制約の有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_geometry_overrides" locale="ja_JP" status="Approved">ジオメトリオーバライドを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_interpart_expression" locale="ja_JP" status="Approved">パート間式の有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_multiple_arrangements" locale="ja_JP" status="Approved">アレンジメントを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_nonmaster_component" locale="ja_JP" status="Approved">非マスタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_offcenter_components" locale="ja_JP" status="Approved">オフセンタコンポーネントの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_parts_list" locale="ja_JP" status="Approved">パートリストの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_dep_wave_link" locale="ja_JP" status="Approved">位置従属WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_indep_wave_link" locale="ja_JP" status="Approved">位置独立WAVEリンクを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_position_overrides" locale="ja_JP" status="Approved">位置オーバライドを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_product_interface" locale="ja_JP" status="Approved">製品インタフェースの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_ref_components" locale="ja_JP" status="Approved">参照コンポーネントを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_restructured_components" locale="ja_JP" status="Approved">再構築済みコンポーネントの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_supressed_components" locale="ja_JP" status="Approved">抑制コンポーネントを含む</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_udf" locale="ja_JP" status="Approved">UDFの有無</key>
+           
+        <key id="Property{::}UGPART{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartType" locale="ja_JP" status="Approved">NXパートタイプ</key>
+           
+        <key id="Property{::}UGSCENARIO{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGTIREOFFSET{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="Property{::}UGTIRESPINDLE{::}nx0release" locale="ja_JP" status="Approved">NXリリース情報</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfoStorage" locale="ja_JP" status="Approved">NXアプリケーション情報ストレージ</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfo" locale="ja_JP" status="Approved">NXアプリケーション情報</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0part_type" locale="ja_JP" status="Approved">パートタイプ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0release" locale="ja_JP" status="Approved">NXリリース</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0sync_checksums" locale="ja_JP" status="Approved">チェックサム</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0Environment" locale="ja_JP" status="Approved">環境</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0FLPSize" locale="ja_JP" status="Approved">高速ロードパーティションサイズ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0part_type" locale="ja_JP" status="Approved">パートタイプ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0release" locale="ja_JP" status="Approved">NXリリース</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0sync_checksums" locale="ja_JP" status="Approved">チェックサム</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0release" locale="ja_JP" status="Approved">NXリリース</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0sync_checksums" locale="ja_JP" status="Approved">チェックサム</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0Environment" locale="ja_JP" status="Approved">環境</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0FLPSize" locale="ja_JP" status="Approved">高速ロードパーティションサイズ</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0HasMultiMaterials" locale="ja_JP" status="Approved">複数材料を含む</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0PartInfoFlags" locale="ja_JP" status="Approved">パート情報フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0flags" locale="ja_JP" status="Approved">フラグ</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0part_type" locale="ja_JP" status="Approved">パートタイプ</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0release" locale="ja_JP" status="Approved">NXリリース</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0sync_checksums" locale="ja_JP" status="Approved">チェックサム</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

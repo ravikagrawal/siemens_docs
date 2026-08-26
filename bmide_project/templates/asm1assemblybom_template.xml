@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:52:43 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc2412" description="Library for Assembly Bom Template" isThirdParty="false" name="Asm1assemblybom" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationInputType artifactName="Asm1MyStuffDataProviderCreI" description="CreateInput object for &quot;Asm1MyStuffDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Asm1MyStuffDataProviderCreI" typeName="Asm1MyStuffDataProviderCreI"/>
+           
+        <OperationInputType artifactName="Asm1MyStuffDataProviderSvAI" description="SaveAsInput object for &quot;Asm1MyStuffDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Asm1MyStuffDataProviderSvAI" typeName="Asm1MyStuffDataProviderSvAI"/>
+           
+        <TcRuntimeType artifactName="Asm1MyStuffDataProvider" description="Asm1MyStuffDataProvider is a data provider to fetch the paginated list of Parts, Products, Designs, Worksets and Sessions where the user is assigned to Work or Owned by the User." functionality="Asm1assemblybom" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Asm1MyStuffDataProvider" typeName="Asm1MyStuffDataProvider"/>
+           
+        <BusinessObjectInterface createRelease="tc2412" description="Interface Name for Business Object Asm1MyStuffDataProvider" libraryName="Asm1assemblybom" name="Asm1MyStuffDataProvider" namespace="asm1assemblybom" primaryInterface="true" typeName="Asm1MyStuffDataProvider"/>
+           
+        <OperationAttach createRelease="tc2412" id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Asm1MyStuffDataProvider"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Asm1MyStuffDataProvider" value="Asm1MyStuffDataProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Asm1MyStuffDataProvider" value="Asm1MyStuffDataProviderSvAI"/>
+           
+        <TcStatus description="When 'EBOM Release Workflow' is started on Change Notice, 'Effectivity Status' status will be attached. On user action to set 'Release Effectivity', this newly attached status will be used to set Effectivity dates on Change Notice." statusName="Asm1EffectivityStatus"/>
+           
+        <Functionality description="Component for the template - asm1assemblybom" displayName="asm1assemblybom" enabledForVerificationRules="false" name="Asm1assemblybom"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

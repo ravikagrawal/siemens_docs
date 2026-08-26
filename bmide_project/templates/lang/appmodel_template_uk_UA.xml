@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:26 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mdl0AbsOccFormRelation" locale="uk_UA" status="Approved">Зв'язок форми абсолютного екземпляра</key>
+           
+        <key id="BusinessObject{::}Mdl0ApplicationModel" locale="uk_UA" status="Approved">Модель застосунку</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtOptionSet" locale="uk_UA" status="Approved">Критерії пошуку набору параметрів передачі</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchCrtType" locale="uk_UA" status="Approved">Тип критеріїв пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchGeomConstraint" locale="uk_UA" status="Approved">Критерії пошуку геометричних обмежень</key>
+           
+        <key id="BusinessObject{::}Mdl0ApprSrchSlctContent" locale="uk_UA" status="Approved">Вибрати критерії пошуку вмісту</key>
+           
+        <key id="BusinessObject{::}Mdl0AttributeGroup" locale="uk_UA" status="Approved">Група атрибутів 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineDefinition" locale="uk_UA" status="Approved">Визначення базової лінії</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMasterS" locale="uk_UA" status="Approved">Сховище головної базової лінії</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineMaster" locale="uk_UA" status="Approved">Майстер базової лінії</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineReference" locale="uk_UA" status="Approved">Базова лінія</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій базової лінії</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevisionMaster" locale="uk_UA" status="Approved">Майстер Ревізії Базової Версії</key>
+           
+        <key id="BusinessObject{::}Mdl0BaselineRevision" locale="uk_UA" status="Approved">Редакція базової лінії</key>
+           
+        <key id="BusinessObject{::}Mdl0Baseline" locale="uk_UA" status="Approved">Базова лінія</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalArtifact" locale="uk_UA" status="Approved">Умовний артефакт</key>
+           
+        <key id="BusinessObject{::}Mdl0ConditionalElement" locale="uk_UA" status="Approved">Умовний елемент</key>
+           
+        <key id="BusinessObject{::}Mdl0ConstraintBucketView" locale="uk_UA" status="Approved">Вигляд груп обмежень</key>
+           
+        <key id="BusinessObject{::}Mdl0DefaultGeometry" locale="uk_UA" status="Approved">Геометрія за замовчуванням</key>
+           
+        <key id="BusinessObject{::}Mdl0ElementThread" locale="uk_UA" status="Approved">Різьба елемента</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntBuckSavState" locale="uk_UA" status="Approved">Стан збереження відра геометричних обмежень</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomCnstrntCollection" locale="uk_UA" status="Approved">Набір геометричних обмежень</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConnGroup" locale="uk_UA" status="Approved">Група геометричної зв'язності</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintBucket" locale="uk_UA" status="Approved">Контейнер геометричних обмежень</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomConstraintMember" locale="uk_UA" status="Approved">Елемент геометричного зв'язку</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomGroupLink" locale="uk_UA" status="Approved">Зв'язок геометричної групи</key>
+           
+        <key id="BusinessObject{::}Mdl0GeomLink" locale="uk_UA" status="Approved">Геометричний зв'язок</key>
+           
+        <key id="BusinessObject{::}Mdl0IncludeAll" locale="uk_UA" status="Approved">Увімкнути весь пошук</key>
+           
+        <key id="BusinessObject{::}Mdl0LinkReference" locale="uk_UA" status="Approved">Довідкове посилання</key>
+           
+        <key id="BusinessObject{::}Mdl0ManagedAttrGroup" locale="uk_UA" status="Approved">Група керованих атрибутів 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelArtifact" locale="uk_UA" status="Approved">Артефакт моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelElement" locale="uk_UA" status="Approved">Елемент моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0ModelProcessState" locale="uk_UA" status="Approved">Стан процесу моделювання</key>
+           
+        <key id="BusinessObject{::}Mdl0OriginalGeometry" locale="uk_UA" status="Approved">Оригінальна геометрія</key>
+           
+        <key id="BusinessObject{::}Mdl0OverrideRelation" locale="uk_UA" status="Approved">Перевизначити зв'язок</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedGeometry" locale="uk_UA" status="Approved">Розташована геометрія</key>
+           
+        <key id="BusinessObject{::}Mdl0PositionedModelElement" locale="uk_UA" status="Approved">Спозиційований елемент моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0RefAppModelProvider" locale="uk_UA" status="Approved">Постачальник моделей додатків елементів, на які посилаються</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceExpression" locale="uk_UA" status="Approved">Довідковий вираз</key>
+           
+        <key id="BusinessObject{::}Mdl0ReferenceGeometry" locale="uk_UA" status="Approved">Опорна геометрія</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchBoxZone" locale="uk_UA" status="Approved">Пошук у зоні рамки</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchClassification" locale="uk_UA" status="Approved">Пошук в класифікації</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchCursor" locale="uk_UA" status="Approved">Курсор пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchDef" locale="uk_UA" status="Approved">Визначення пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGeomConstraint" locale="uk_UA" status="Approved">Шукати геометричне обмеження</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchGroup" locale="uk_UA" status="Approved">Пошукова група</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchOptionSet" locale="uk_UA" status="Approved">Набір параметрів пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchPlaneZone" locale="uk_UA" status="Approved">Пошук площинної зони</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchProximity" locale="uk_UA" status="Approved">Пошук за близькістю</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchResultType" locale="uk_UA" status="Approved">Тип результатів пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSavedQuery" locale="uk_UA" status="Approved">Пошук збережених запитів</key>
+           
+        <key id="BusinessObject{::}Mdl0SearchSlctContent" locale="uk_UA" status="Approved">Пошук виділеного вмісту</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefaults" locale="uk_UA" status="Approved">Значення за замовчуванням абстрактної підмножини 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SubsetDefinition" locale="uk_UA" status="Approved">Визначення підмножини 4G</key>
+           
+        <key id="BusinessObject{::}Mdl0SupportingBaseline" locale="uk_UA" status="Approved">Підтримка базової лінії</key>
+           
+        <key id="ConditionDescription{::}Mdl0AttachedObjectIsNotObsolete" locale="uk_UA" status="Approved">Перевірити, чи застарілий прикріплений елемент моделі.</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsCopyMOG" locale="uk_UA" status="Approved">Умова перевіряє, чи копіювати Mdl0OriginalGeometry залежно від типу операції, наприклад клонування, реалізації, інстанціювання чи "Зберегти як"</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopyMA" locale="uk_UA" status="Approved">Ця умова перевіряє, чи виконується операція копіювання між двома різними моделями застосунків (міжмодельне копіювання)</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsInterModelCopy" locale="uk_UA" status="Approved">Ця умова перевіряє, чи операція є копіюванням між двома різними моделями додатків (міжмодельне копіювання)</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsIntraModelCopy" locale="uk_UA" status="Approved">Ця умова оцінює, чи виконується операція копіювання в межах тієї самої моделі застосунку (внутрішньомодельне копіювання)</key>
+           
+        <key id="ConditionDescription{::}Mdl0IsShapeOverridePresent" locale="uk_UA" status="Approved">Умова для перевірки наявності перевизначення форми в елементі моделі позиції</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Baseline" locale="uk_UA" status="Approved">Базова лінія випущеного вмісту лише в моделі застосунку.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="uk_UA" status="Approved">Знімок випущеного і робочого вмісту в моделі застосунку.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Restore" locale="uk_UA" status="Approved">Відновити вміст моделі додатка до стану конкретного знімка.</key>
+           
+        <key id="LOVValueDescription{::}Mdl0ModelProcessNames{::}Snapshot" locale="uk_UA" status="Approved">Захоплює вміст моделі додатка</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Closed" locale="uk_UA" status="Approved">Закрито</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineClosure{::}Open" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Baseline" locale="uk_UA" status="Approved">Базова лінія</key>
+           
+        <key id="LOVValue{::}Mdl0BaselineTypeLOV{::}Snapshot" locale="uk_UA" status="Approved">Знімок</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Restore" locale="uk_UA" status="Approved">Відновити</key>
+           
+        <key id="LOVValue{::}Mdl0ModelProcessNames{::}Snapshot" locale="uk_UA" status="Approved">Знімок</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0model_id" locale="uk_UA" status="Approved">Ідентифікатор моделі</key>
+           
+        <key id="Property{::}Fnd0GeneralAudit{::}mdl0revision_id" locale="uk_UA" status="Approved">Ідентифікатор основної ревізії</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0model_id" locale="uk_UA" status="Approved">Ідентифікатор моделі</key>
+           
+        <key id="Property{::}Fnd0WorkflowAudit{::}mdl0revision_id" locale="uk_UA" status="Approved">ID основної ревізії</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0HistorySyncStatus" locale="uk_UA" status="Approved">Стан синхронізації історії</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastRestoreDate" locale="uk_UA" status="Approved">Дата останнього відновлення</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0LastSnapshotDate" locale="uk_UA" status="Approved">Дата останнього знімка</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0RunningProcessName" locale="uk_UA" status="Approved">Назва поточного процесу</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0SupportsSnapshot" locale="uk_UA" status="Approved">Підтримує знімок екрана</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_add_content" locale="uk_UA" status="Approved">Дозволяє додавати вміст</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0allows_remove_content" locale="uk_UA" status="Approved">Дозволяє видаляти вміст</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_prod_namespace" locale="uk_UA" status="Approved">Контекст продукту конфігуратора дієвості</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0config_product_name" locale="uk_UA" status="Approved">Назва продукту конфігуратора чинності</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0model_id" locale="uk_UA" status="Approved">Ідентифікатор моделі</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0revision_id" locale="uk_UA" status="Approved">Застарілий. Див. бюлетень випуску Teamcenter 11.2.2.</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_namespace" locale="uk_UA" status="Approved">Контекст продукту конфігуратора варіантів</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_conf_prod_name" locale="uk_UA" status="Approved">Назва продукту конфігуратoра варіантів</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionNames" locale="uk_UA" status="Approved">Назви опцій</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionSet" locale="uk_UA" status="Approved">Набір опцій</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtOptionSet{::}mdl0optionValues" locale="uk_UA" status="Approved">Значення опцій</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0DomainViewKey" locale="uk_UA" status="Approved">Клавіша перегляду домену</key>
+           
+        <key id="Property{::}Mdl0ApprSrchCrtType{::}mdl0search_types" locale="uk_UA" status="Approved">Тип пошуку</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="uk_UA" status="Approved">Прапорець керування процесом</key>
+           
+        <key id="Property{::}Mdl0ApprSrchGeomConstraint{::}mdl0SourceCriteria" locale="uk_UA" status="Approved">Критерії джерела</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0selected_contents" locale="uk_UA" status="Approved">Вибраний вміст</key>
+           
+        <key id="Property{::}Mdl0ApprSrchSlctContent{::}mdl0unselected_contents" locale="uk_UA" status="Approved">Невибраний вміст</key>
+           
+        <key id="Property{::}Mdl0AttributeGroupSvAI{::}mdl0model_object" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0BaselineRevision" locale="uk_UA" status="Approved">Ревізія базової версії</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ConfiguredModel" locale="uk_UA" status="Approved">Налаштована модель</key>
+           
+        <key id="Property{::}Mdl0BaselineDefinition{::}mdl0ModelObject" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineDefinition" locale="uk_UA" status="Approved">Визначення опорної лінії</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0BaselineType" locale="uk_UA" status="Approved">Тип базової лінії</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0Closure" locale="uk_UA" status="Approved">Закриття</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}mdl0SnapshotDate" locale="uk_UA" status="Approved">Дата знімка</key>
+           
+        <key id="Property{::}Mdl0Baseline{::}mdl0ModelObject" locale="uk_UA" status="Approved">Модельний об'єкт</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0IsConfigured" locale="uk_UA" status="Approved">Налаштовано</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_display" locale="uk_UA" status="Approved">Дозволена дієвість</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_eff_formula" locale="uk_UA" status="Approved">Дозволена формула набуття чинності</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0allowed_var_formula" locale="uk_UA" status="Approved">Допустима формула варіанта</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_display" locale="uk_UA" status="Approved">Дієвість</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0effectivity_formula" locale="uk_UA" status="Approved">Формула дієвості</key>
+           
+        <key id="Property{::}Mdl0ConditionalArtifact{::}mdl0variant_formula" locale="uk_UA" status="Approved">Формула варіанта</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceEffExpr" locale="uk_UA" status="Approved">Чи переноситься вираз чинності</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0CarryFwdSourceVarExpr" locale="uk_UA" status="Approved">Чи переноситься вираз варіанта?</key>
+           
+        <key id="Property{::}Mdl0ConditionalElementRevI{::}mdl0TargetModel" locale="uk_UA" status="Approved">Ціль об'єкта моделі</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0IsConfigured" locale="uk_UA" status="Approved">Налаштовано</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_display" locale="uk_UA" status="Approved">Допустима дієвість</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_eff_formula" locale="uk_UA" status="Approved">Дозволена формула набуття чинності</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0allowed_var_formula" locale="uk_UA" status="Approved">Допустима формула варіанта</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_display" locale="uk_UA" status="Approved">Дієвість</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0effectivity_formula" locale="uk_UA" status="Approved">Формула ефективності</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0element_thread" locale="uk_UA" status="Approved">Різьба елемента - застаріла. Див. бюлетень випуску.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0is_revisable" locale="uk_UA" status="Approved">Підлягає редагуванню</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0revision_id" locale="uk_UA" status="Approved">ID ревізії - застарілий. Див. Бюлетень випуску.</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0sibling_revisions" locale="uk_UA" status="Approved">Ревізії одного рівня</key>
+           
+        <key id="Property{::}Mdl0ConditionalElement{::}mdl0variant_formula" locale="uk_UA" status="Approved">Формула варіанту</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0BackgroundMembers" locale="uk_UA" status="Approved">Фонові компоненти</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ForegroundMembers" locale="uk_UA" status="Approved">Елементи переднього плану</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0LatestState" locale="uk_UA" status="Approved">Останній стан</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Mdl0ConstraintBucketView{::}mdl0ViewState" locale="uk_UA" status="Approved">Стан вигляду</key>
+           
+        <key id="Property{::}Mdl0ElementThread{::}mdl0ConfiguredRevision" locale="uk_UA" status="Approved">Сконфігурована ревізія</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0AreConstrntsFullySolved" locale="uk_UA" status="Approved">Усі обмеження повністю розв'язані</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Bucket" locale="uk_UA" status="Approved">Кошик геометричних обмежень</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0ConstraintData" locale="uk_UA" status="Approved">Набір даних обмежень</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntBuckSavState{::}mdl0Iteration" locale="uk_UA" status="Approved">Ітерація збереженого стану</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0BackgroundMembers" locale="uk_UA" status="Approved">Фонові елементи</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0ForegroundMembers" locale="uk_UA" status="Approved">Елементи переднього плану</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedBackgroundMem" locale="uk_UA" status="Approved">Загальна кількість усічених фонових елементів</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotStubbedForegroundMem" locale="uk_UA" status="Approved">Загальна кількість заглушених елементів переднього плану</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalBackgroundMembers" locale="uk_UA" status="Approved">Загальна кількість фонових елементів</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0TotalForegroundMembers" locale="uk_UA" status="Approved">Загальна кількість елементів переднього плану</key>
+           
+        <key id="Property{::}Mdl0GeomCnstrntCollection{::}mdl0collection_id" locale="uk_UA" status="Approved">Ідентифікатор колекції</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0ConnectionId" locale="uk_UA" status="Approved">Ідентифікатор з'єднання</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End1" locale="uk_UA" status="Approved">Кінець 1</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0End2" locale="uk_UA" status="Approved">Торець 2</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0GroupLinks" locale="uk_UA" status="Approved">Згрупувати зв'язки</key>
+           
+        <key id="Property{::}Mdl0GeomConnGroup{::}mdl0LogicalId" locale="uk_UA" status="Approved">Логічний ідентифікатор</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0IsSystemManaged" locale="uk_UA" status="Approved">Керується Системою</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0LatestIteration" locale="uk_UA" status="Approved">Остання ітерація</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintBucket{::}mdl0OwningObject" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Bucket" locale="uk_UA" status="Approved">Відро</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0CsId" locale="uk_UA" status="Approved">Копіювати стабільний ідентифікатор</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0ExtendedMember" locale="uk_UA" status="Approved">Розширений елемент</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IsForeground" locale="uk_UA" status="Approved">На передньому плані</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationIn" locale="uk_UA" status="Approved">Вхід ітерації</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0IterationOut" locale="uk_UA" status="Approved">Зовнішня ітерація</key>
+           
+        <key id="Property{::}Mdl0GeomConstraintMember{::}mdl0Member" locale="uk_UA" status="Approved">Член</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0FeatureId" locale="uk_UA" status="Approved">ID елемента</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeomGroups" locale="uk_UA" status="Approved">Геометричні групи</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0GeometryLMD" locale="uk_UA" status="Approved">Геометрія LMD</key>
+           
+        <key id="Property{::}Mdl0GeomLink{::}mdl0ValidationStatus" locale="uk_UA" status="Approved">Статус перевірки правильності</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0LinkId" locale="uk_UA" status="Approved">Ідентифікатор посилання</key>
+           
+        <key id="Property{::}Mdl0LinkReference{::}mdl0TargetObject" locale="uk_UA" status="Approved">Цільовий об'єкт</key>
+           
+        <key id="Property{::}Mdl0ManagedAttrGroupSvAI{::}mdl0model_object" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceEffExpr" locale="uk_UA" status="Approved">Чи переноситься вираз чинності?</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0CarryFwdSourceVarExpr" locale="uk_UA" status="Approved">Чи переноситься вираз варіанта?</key>
+           
+        <key id="Property{::}Mdl0ModelArtifactSvAI{::}mdl0TargetModel" locale="uk_UA" status="Approved">Об'єкт цільової моделі</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0IsInterModelCopy" locale="uk_UA" status="Approved">Копіювати в іншу модель</key>
+           
+        <key id="Property{::}Mdl0ModelArtifact{::}mdl0model_object" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttachAttrGroup" locale="uk_UA" status="Approved">Очікується прикріплення групи атрибутів</key>
+           
+        <key id="Property{::}Mdl0ModelElementCreI{::}mdl0pending_AttcAttrRlType" locale="uk_UA" status="Approved">Очікуваний тип зв'язку прикріпленого атрибута</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceEffExpr" locale="uk_UA" status="Approved">Переносити вираз чинності</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0CarryFwdSourceVarExpr" locale="uk_UA" status="Approved">Чи переноситься вираз варіанта?</key>
+           
+        <key id="Property{::}Mdl0ModelElementSvAI{::}mdl0TargetModel" locale="uk_UA" status="Approved">Об'єкт цільової моделі</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0AttributeGroups" locale="uk_UA" status="Approved">Групи атрибутів</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0HistorySyncStatus" locale="uk_UA" status="Approved">Стан синхронізації історії</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0Override" locale="uk_UA" status="Approved">Перевизначити</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0is_obsolete" locale="uk_UA" status="Approved">Застарілий</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0model_object" locale="uk_UA" status="Approved">Модельний об'єкт</key>
+           
+        <key id="Property{::}Mdl0ModelElement{::}mdl0pending_AttachAttrGroup" locale="uk_UA" status="Approved">Група прикріплених атрибутів у стані очікування</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Model" locale="uk_UA" status="Approved">Модель</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Operation" locale="uk_UA" status="Approved">Операція</key>
+           
+        <key id="Property{::}Mdl0ModelProcessState{::}mdl0Process" locale="uk_UA" status="Approved">Процес</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0AbsolutelyPositioned" locale="uk_UA" status="Approved">Абсолютне позиціювання</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ContainerForIndexing" locale="uk_UA" status="Approved">Контейнер для індексування</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0DefiningConstraintState" locale="uk_UA" status="Approved">Визначення стану обмеження</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ExcludeFromSpatialSrch" locale="uk_UA" status="Approved">Виключити із просторового пошуку</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0GeomLinks" locale="uk_UA" status="Approved">Геометричні зв'язки</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ThumbnailDataset" locale="uk_UA" status="Approved">Набір мініатюр</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0UsedInConstraint" locale="uk_UA" status="Approved">Використовується в обмеженні</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0absolute_transform" locale="uk_UA" status="Approved">Абсолютне перетворення</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_data" locale="uk_UA" status="Approved">Набір даних спрощеної графіки на рівні складання</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0alsg_file" locale="uk_UA" status="Approved">Файл спрощеної графіки рівня складання</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max0" locale="uk_UA" status="Approved">Максимальне значення X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max1" locale="uk_UA" status="Approved">Y Максимум</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_max2" locale="uk_UA" status="Approved">Z Максимум</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min0" locale="uk_UA" status="Approved">Мінімальне значення X</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min1" locale="uk_UA" status="Approved">Y Мінімум</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box_min2" locale="uk_UA" status="Approved">Z мінімум</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0bounding_box" locale="uk_UA" status="Approved">Обмежувальна рамка</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0direct_model_data" locale="uk_UA" status="Approved">Дані прямої моделі</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_invscale" locale="uk_UA" status="Approved">Елемент матриці 3,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per0" locale="uk_UA" status="Approved">Елемент матриці 3,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per1" locale="uk_UA" status="Approved">Елемент матриці 3,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_per2" locale="uk_UA" status="Approved">Елемент матриці 3,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot00" locale="uk_UA" status="Approved">Елемент матриці 0,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot01" locale="uk_UA" status="Approved">Елемент матриці 0,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot02" locale="uk_UA" status="Approved">Елемент матриці 0,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot10" locale="uk_UA" status="Approved">Елемент матриці 1,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot11" locale="uk_UA" status="Approved">Елемент матриці 1,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot12" locale="uk_UA" status="Approved">Елемент матриці 1,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot20" locale="uk_UA" status="Approved">Елемент матриці 2,0</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot21" locale="uk_UA" status="Approved">Елемент матриці 2,1</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_rot22" locale="uk_UA" status="Approved">Елемент матриці 2,2</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra0" locale="uk_UA" status="Approved">Елемент матриці 0,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra1" locale="uk_UA" status="Approved">Елемент матриці 1,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0ext_transform_tra2" locale="uk_UA" status="Approved">Елемент матриці 2,3</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_file" locale="uk_UA" status="Approved">Файл JT</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0jt_ref_set" locale="uk_UA" status="Approved">Набір посилань на JT-файли</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0model_object" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_constrained" locale="uk_UA" status="Approved">Положення обмежене</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0position_lmd" locale="uk_UA" status="Approved">Дата останньої зміни даних положення</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0positioned_object" locale="uk_UA" status="Approved">Розташований об'єкт</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0relative_to" locale="uk_UA" status="Approved">Відносно</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0shape_lmd" locale="uk_UA" status="Approved">Дата останнього редагування даних форми</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0source_bbox_uid" locale="uk_UA" status="Approved">Мультибокс обмеження джерела</key>
+           
+        <key id="Property{::}Mdl0PositionedGeometry{::}mdl0trueshape_data" locale="uk_UA" status="Approved">Дані TruShape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0absolute_transform" locale="uk_UA" status="Approved">Абсолютне перетворення</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBoxOverride" locale="uk_UA" status="Approved">Перевизначення габаритної рамки</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0boundingBox" locale="uk_UA" status="Approved">Рамка обмеження</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelDataset" locale="uk_UA" status="Approved">Набір даних прямої моделі</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0directModelOverrideDS" locale="uk_UA" status="Approved">Набір даних прямого перевизначення моделі</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0geometryOverrideDS" locale="uk_UA" status="Approved">Набір даних перевизначень геометрії</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0shape_lmd" locale="uk_UA" status="Approved">Дата останньої зміни даних форми</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0thumbnailOverrideDS" locale="uk_UA" status="Approved">Набір даних для перевизначення мініатюр</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeDataset" locale="uk_UA" status="Approved">Набір даних True Shape</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElementCreI{::}mdl0trueShapeOverrideDS" locale="uk_UA" status="Approved">Набір даних перевизначення істинної форми</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0BackgroundInCollections" locale="uk_UA" status="Approved">Фон у колекції геометричних обмежень</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ConstrainedInCollection" locale="uk_UA" status="Approved">Обмежено у колекції геометричних обмежень</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0DefiningIteration" locale="uk_UA" status="Approved">Визначення ітерації</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ExcludeFromSpatialSrch" locale="uk_UA" status="Approved">Виключити із просторового пошуку</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0GeomLinks" locale="uk_UA" status="Approved">Геометричні зв'язки</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsAbsolutelyPositioned" locale="uk_UA" status="Approved">Розташовано в абсолютних координатах</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0IsUsedInConstraint" locale="uk_UA" status="Approved">Використовується в обмеженні</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0OverrideDataset" locale="uk_UA" status="Approved">Набір даних перевизначення</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0ThumbnailDataset" locale="uk_UA" status="Approved">Набір зображень-мініатюр</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0absolute_transform" locale="uk_UA" status="Approved">Абсолютне Перетворення</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_data" locale="uk_UA" status="Approved">Набір даних спрощеної графіки на рівні складання</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0alsg_file" locale="uk_UA" status="Approved">Файл спрощеної графіки рівня складання</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0bounding_box" locale="uk_UA" status="Approved">Рамка обмеження</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0delegate" locale="uk_UA" status="Approved">Делегувати</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0direct_model_data" locale="uk_UA" status="Approved">Набір даних прямої моделі</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0jt_file" locale="uk_UA" status="Approved">JT-файл</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0logical_designator" locale="uk_UA" status="Approved">Логічний позначник</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0position_lmd" locale="uk_UA" status="Approved">Дата останньої зміни даних позиції</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0positioned_geometry" locale="uk_UA" status="Approved">Розташована геометрія</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0relative_to" locale="uk_UA" status="Approved">Відносно</key>
+           
+        <key id="Property{::}Mdl0PositionedModelElement{::}mdl0shape_lmd" locale="uk_UA" status="Approved">Дата останньої зміни даних фігури</key>
+           
+        <key id="Property{::}Mdl0ReferenceExpression{::}mdl0AppRelationCount" locale="uk_UA" status="Approved">Кількість зв'язків додатку</key>
+           
+        <key id="Property{::}Mdl0ReferenceGeometry{::}mdl0app_relation_count" locale="uk_UA" status="Approved">Кількість зв'язків моделі додатка</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0coordinates" locale="uk_UA" status="Approved">Координати</key>
+           
+        <key id="Property{::}Mdl0SearchBoxZone{::}mdl0operator" locale="uk_UA" status="Approved">Оператор</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeExpressions" locale="uk_UA" status="Approved">Вирази класифікаційних атрибутів</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsAttributeIdList" locale="uk_UA" status="Approved">Список ID атрибутів класифікації</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsClassId" locale="uk_UA" status="Approved">Ідентифікатор класу</key>
+           
+        <key id="Property{::}Mdl0SearchClassification{::}mdl0ClsOption" locale="uk_UA" status="Approved">Параметри пошуку</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0count" locale="uk_UA" status="Approved">Кількість результатів</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0elements" locale="uk_UA" status="Approved">Елементи результату</key>
+           
+        <key id="Property{::}Mdl0SearchCursor{::}mdl0index" locale="uk_UA" status="Approved">Індекс елементів результату</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0ReturnType" locale="uk_UA" status="Approved">Тип повернення</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0RootType" locale="uk_UA" status="Approved">Тип кореня</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0TraversalKey" locale="uk_UA" status="Approved">Ключ обходу</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0_tso_flag" locale="uk_UA" status="Approved">Прапорець Trueshape</key>
+           
+        <key id="Property{::}Mdl0SearchDef{::}mdl0searchtype" locale="uk_UA" status="Approved">Тип пошуку</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0ProcessCtrlFlag" locale="uk_UA" status="Approved">Прапорець керування процесом</key>
+           
+        <key id="Property{::}Mdl0SearchGeomConstraint{::}mdl0SourceCriteria" locale="uk_UA" status="Approved">Критерії джерела</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0Name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0operator" locale="uk_UA" status="Approved">Оператор</key>
+           
+        <key id="Property{::}Mdl0SearchGroup{::}mdl0searchdefs" locale="uk_UA" status="Approved">Пошук визначення</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionNames" locale="uk_UA" status="Approved">Назви опцій</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionSet" locale="uk_UA" status="Approved">Набір опцій</key>
+           
+        <key id="Property{::}Mdl0SearchOptionSet{::}mdl0optionValues" locale="uk_UA" status="Approved">Значення опцій</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0coordinates" locale="uk_UA" status="Approved">Координати</key>
+           
+        <key id="Property{::}Mdl0SearchPlaneZone{::}mdl0operator" locale="uk_UA" status="Approved">Оператор</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0distance" locale="uk_UA" status="Approved">Відстань</key>
+           
+        <key id="Property{::}Mdl0SearchProximity{::}mdl0targetelement" locale="uk_UA" status="Approved">Елемент цілі</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0DomainViewKey" locale="uk_UA" status="Approved">Клавіша перегляду домену</key>
+           
+        <key id="Property{::}Mdl0SearchResultType{::}mdl0searchTypes" locale="uk_UA" status="Approved">Типи пошуку</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0entries" locale="uk_UA" status="Approved">Записи</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0query" locale="uk_UA" status="Approved">Запит</key>
+           
+        <key id="Property{::}Mdl0SearchSavedQuery{::}mdl0values" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0selectedcontents" locale="uk_UA" status="Approved">Вибраний Вміст</key>
+           
+        <key id="Property{::}Mdl0SearchSlctContent{::}mdl0unselectedcontents" locale="uk_UA" status="Approved">Невибрані елементи</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_effectivity_formula" locale="uk_UA" status="Approved">Формула цільової ефективності</key>
+           
+        <key id="Property{::}Mdl0SubsetDefaults{::}mdl0tgt_variant_formula" locale="uk_UA" status="Approved">Формула цільового варіанту</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinitionCreI{::}mdl0pending_AttcAttrRlType" locale="uk_UA" status="Approved">Очікуваний тип приєднаного зв'язку атрибута</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0ConfiguredModel" locale="uk_UA" status="Approved">Налаштована модель</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0model_object" locale="uk_UA" status="Approved">Об'єкт моделі</key>
+           
+        <key id="Property{::}Mdl0SubsetDefinition{::}mdl0pending_AttachAttrGroup" locale="uk_UA" status="Approved">Групи атрибутів, що очікують на прикріплення</key>
+           
+        <key id="BusinessObject{::}Mdl0CompositeSearchDef" locale="uk_UA" status="Approved">Визначення складеного пошуку</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0CompositeSearchType" locale="uk_UA" status="Approved">Тип складеного пошуку</key>
+           
+        <key id="Property{::}Mdl0CompositeSearchDef{::}mdl0SearchDefinitions" locale="uk_UA" status="Approved">Визначення пошуку</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityExprBlock" locale="uk_UA" status="Approved">Блок виразу чинності моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0EffectivityInModel" locale="uk_UA" status="Approved">Дієвість у моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0HasConfiguratorContext" locale="uk_UA" status="Approved">Має контекст конфігуратора термінів дії</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0eff_configurator_URL" locale="uk_UA" status="Approved">URL-адреса кінцевої точки обслуговування конфігуратора дієвості</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_context" locale="uk_UA" status="Approved">Застаріло. Дивіться Release Bulletin Teamcenter 10.1.</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0tc_product_item" locale="uk_UA" status="Approved">Застаріло. Дивіться Release Bulletin Teamcenter 10.1.</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0configurator_URL" locale="uk_UA" status="Approved">URL кінцевої точки обслуговування конфігуратора</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0description" locale="uk_UA" status="Approved">Опис конфігуратора області застосування</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0model" locale="uk_UA" status="Approved">Модель</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0name" locale="uk_UA" status="Approved">Назва конфігуратора дієвості</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_namespace" locale="uk_UA" status="Approved">Простір імен продукту</key>
+           
+        <key id="Property{::}Mdl0EffectivityInModel{::}mdl0product_name" locale="uk_UA" status="Approved">Назва продукту</key>
+           
+        <key id="BusinessObject{::}Mdl0HasVarConfiguratorCxt" locale="uk_UA" status="Approved">Має контекст конфігуратора варіантів</key>
+           
+        <key id="BusinessObject{::}Mdl0VariantExprBlock" locale="uk_UA" status="Approved">Блок виразу варіанта моделі</key>
+           
+        <key id="BusinessObject{::}Mdl0VariationInModel" locale="uk_UA" status="Approved">Варіація в моделі</key>
+           
+        <key id="Property{::}Mdl0ApplicationModel{::}mdl0var_configurator_URL" locale="uk_UA" status="Approved">URL кінцевої точки служби конфігуратора варіантів</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0configurator_URL" locale="uk_UA" status="Approved">URL кінцевої точки обслуговування конфігуратора</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0description" locale="uk_UA" status="Approved">Опис конфігуратора варіантів</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0model" locale="uk_UA" status="Approved">Модель</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0name" locale="uk_UA" status="Approved">Назва конфігуратора варіантів</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_namespace" locale="uk_UA" status="Approved">Простір імен продукту</key>
+           
+        <key id="Property{::}Mdl0VariationInModel{::}mdl0product_name" locale="uk_UA" status="Approved">Назва продукту</key>
+           
+        <key id="Event{::}Mdl0Attach_Attribute_Group" locale="uk_UA" status="Approved">Приєднати групу атрибутів</key>
+           
+        <key id="Event{::}Mdl0Detach_Attribute_Group" locale="uk_UA" status="Approved">Від'єднати групу атрибутів</key>
+           
+        <key id="Event{::}Mdl0Replace_Model_Element" locale="uk_UA" status="Approved">Замінити елемент моделі</key>
+           
+        <key id="Event{::}Mdl0Revise_Model_Element" locale="uk_UA" status="Approved">Створити ревізію елемента моделі</key>
+           
+        <key id="Event{::}Mdl0Unrealize_Model_Element" locale="uk_UA" status="Approved">Скасувати реалізацію елемента моделі</key>
+           
+        <key id="Event{::}__Add_Content" locale="uk_UA" status="Approved">Додати контент</key>
+           
+        <key id="Event{::}__Remove_Content" locale="uk_UA" status="Approved">Видалити контент</key>
+           
+        <key id="Event{::}__Revision_Create" locale="uk_UA" status="Approved">Створення ревізії</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

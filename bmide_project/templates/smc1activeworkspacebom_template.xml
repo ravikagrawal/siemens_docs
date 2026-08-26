@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:59:40 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <TcPropertyAttach typeName="Awb0ConditionalElement">
+                  
+            <TcProperty arrayLength="0" description="smc1ConfigMatchedSVRevision is a typed reference property, which represents Solution Variant Revisioin found for a particular Variant Rule which is attached to the Item Revision of the BOMLine. If no Variant Rule applied/available then this property value is empty.            This property is used to show existing SV for reuse, or placeholder indicator for new SV." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="0" propName="smc1ConfigMatchedSVRevision" propTypeName="Runtime" propValueType="PROP_typed_reference" referencedType="ItemRevision" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyAttach typeName="Awb0ConditionalElement">
+                  
+            <TcProperty arrayLength="0" description="This represents user intent about type of Solution Variant being created. It will drive how system creates and manages Solution Variant structures. NULL value is allowed, it would mean user does not want to create Solution Variant for the line and system would honour that." fnd0ReferencingAttrName="" isArray="false" propMaxStringLength="128" propName="smc1SVSourceCategory" propTypeName="Runtime" propValueType="PROP_string" referencedType="" referencedTypeConstant=""/>
+               
+        </TcPropertyAttach>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="smc1SVSourceCategory" typeName="Awb0ConditionalElement" value="smc0SVSourceCategory"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="smc1ConfigMatchedSVRevision" typeName="Awb0ConditionalElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="smc1SVSourceCategory" typeName="Awb0ConditionalElement" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="bl_occ_Smc0SVOccAttrs_smc0VariantCriteria" typeName="BOMLine" value="false"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="smc1ConfigMatchedSVRevision" typeName="Awb0ConditionalElement" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="smc1SVSourceCategory" typeName="Awb0ConditionalElement" value="Write"/>
+           
+        <TcExtension cannedExtension="true" description="This extension is used to initialize runtime properties for Product Configurator Support for Active Content Structure. This also registers the bulk loaders required for runtime properties." functionality="Smc1activeworkspacebom" internal="false" languageType="CPlusPlus" libraryName="libSmc1activeworkspacebom" name="Smc1_init_intl_props">
+                  
+            <TcExtensionValidity parameter="TYPE:Awb0ConditionalElement:IMANTYPE_init_intl_props:3"/>
+               
+        </TcExtension>
+           
+        <TcExtensionAttach conditionName="isTrue" description="" extendableElementName="Awb0ConditionalElement" extendableElementType="Type" extensionName="Smc1_init_intl_props" extensionPointType="PostAction" isActive="true" operationName="IMANTYPE_init_intl_props"/>
+           
+        <TcLOV description="Smc1SolVariantCategory is a list of solution variant categories that are supported from Active Workspace." lovType="ListOfValuesString" name="Smc1SolVariantCategory" usage="Exhaustive">
+                  
+            <TcLOVValue conditionName="isTrue" description="" value="2"/>
+                  
+            <TcLOVValue conditionName="isTrue" description="" value="0"/>
+                  
+            <TcLOVValue conditionName="isTrue" description="" value="1"/>
+               
+        </TcLOV>
+           
+        <TcLOVAttach lovName="Smc1SolVariantCategory" typeName="Awb0ConditionalElement">
+                  
+            <TcLOVAttachPropertyInfo conditionName="isTrue" level="0" override="false" valuePropertyName="smc1SVSourceCategory"/>
+               
+        </TcLOVAttach>
+           
+        <Functionality description="Component for the template - smc1activeworkspacebom" displayName="Product Configurator Support for Active Content Structure" enabledForVerificationRules="false" name="Smc1activeworkspacebom"/>
+           
+        <OperationInputType artifactName="Smc1BuildCombDataProviderCreI" description="CreateInput object for &quot;Smc1BuildCombDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderCreI" typeClassName="Smc1BuildCombDataProviderCreI" typeName="Smc1BuildCombDataProviderCreI"/>
+           
+        <OperationInputType artifactName="Smc1BuildCombDataProviderSvAI" description="SaveAsInput object for &quot;Smc1BuildCombDataProvider&quot; business object" isAbstract="false" parentTypeName="Fnd0BaseProviderSvAI" typeClassName="Smc1BuildCombDataProviderSvAI" typeName="Smc1BuildCombDataProviderSvAI"/>
+           
+        <TcRuntimeType artifactName="Smc1BuildCombDataProvider" description="Smc1BuildCombDataProvider is a data provider which returns the build combinations with their assignment information" functionality="Smc1activeworkspacebom" isAbstract="false" parentTypeName="Fnd0BaseProvider" typeClassName="Smc1BuildCombDataProvider" typeName="Smc1BuildCombDataProvider"/>
+           
+        <BusinessObjectInterface createRelease="Awp05.2.0" description="Interface Name for Business Object Smc1BuildCombDataProvider" libraryName="Smc1activeworkspacebom" name="Smc1BuildCombDataProvider" namespace="smc1activeworkspacebom" primaryInterface="true" typeName="Smc1BuildCombDataProvider"/>
+           
+        <OperationAttach id="fnd0performSearch#Teamcenter::OperationInput,*$Teamcenter::OperationInput,*" typeName="Smc1BuildCombDataProvider"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Smc1BuildCombDataProvider" value="Smc1BuildCombDataProviderCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Smc1BuildCombDataProvider" value="Smc1BuildCombDataProviderSvAI"/>
+           
+        <Library createRelease="Awp05.2.0" description="Component for the template - smc1activeworkspacebom." isThirdParty="false" name="Smc1activeworkspacebom" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <OperationTemplate accessControl="false" const="false" createRelease="Awp05.2.0" description="This operation validates conditions to show Solution Variant command on single selected object. Solution Variant command is visible only when selected object have Configurator Context attached, Solution Variant Category is set to Reuse." id="int#smc1::smc1activeworkspacebom::Awb0ConditionalElement::smc1IsSolutionVariantCmdVisible#bool,*" name="smc1::smc1activeworkspacebom::Awb0ConditionalElement::smc1IsSolutionVariantCmdVisible" returnConst="false" returnDescription="Output paramter returns the flag for visibility." returnFreeMemory="false" static="false">
+                 
+            <OperationReturnDataTypeRef dataType="int" qualifier=""/>
+                 
+            <OperationParameter const="false" defaultValue="" description="Flag for visibility." freeOutputMemory="false" inputOutput="Output" name="isVisible">
+                       
+                <OperationParameterDataTypeRef dataType="bool" qualifier="*"/>
+                     
+            </OperationParameter>
+               
+        </OperationTemplate>
+           
+        <BusinessObjectInterface createRelease="Awp05.2.0" description="Interface Name for Business Object Awb0ConditionalElement" libraryName="Smc1activeworkspacebom" name="Awb0ConditionalElement" namespace="smc1::smc1activeworkspacebom" primaryInterface="false" typeName="Awb0ConditionalElement"/>
+           
+        <Operation canOverride="false" component="" createRelease="Awp05.2.0" dependencies="" description="This operation validates conditions to show Solution Variant command on single selected object. Solution Variant command is visible only when selected object have Configurator Context attached, Solution Variant Category is set to Reuse." exceptionCondition="" id="smc1IsSolutionVariantCmdVisible#bool,*" interface="smc1::smc1activeworkspacebom::Awb0ConditionalElement" isPostActionAllowed="false" isPreActionAllowed="false" isPreConditionAllowed="false" isPublished="false" name="smc1IsSolutionVariantCmdVisible" opTemplate="int#smc1::smc1activeworkspacebom::Awb0ConditionalElement::smc1IsSolutionVariantCmdVisible#bool,*" returnDescription="Output paramter returns the flag for visibility." useCase="">
+                 
+            <ParameterInfo description="Flag for visibility." parameterName="isVisible"/>
+               
+        </Operation>
+           
+        <Condition description="Defines the visibility of the Solution Variant command." expression="o.smc1IsSolutionVariantCmdVisible()" name="Smc1SolutionVariantCmdCond" secured="false">
+                 
+            <ConditionParameter name="o" parameterTypeName="Awb0ConditionalElement"/>
+               
+        </Condition>
+           
+        <Command commandId="Smc1SolutionVariantCmd" description="Solution Variant Command" displayName="Solution Variant Command" icon="" mnemonic="" requiresUserInput="false" selectionModel="Single" tooltip="Solution Variant"/>
+           
+        <CommandConditionAttach commandCollectionId="" commandId="Smc1SolutionVariantCmd" conditionName="Smc1SolutionVariantCmdCond"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

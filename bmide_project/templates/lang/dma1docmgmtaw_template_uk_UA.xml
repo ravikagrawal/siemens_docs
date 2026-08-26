@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="uk_UA" status="Approved">Бізнес-об'єкт користувацького списку значень конфігурації друку</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="uk_UA" status="Approved">Час виконання конфігурації друку</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="uk_UA" status="Approved">Умова перевіряє, чи слід застосовувати стандартну конфігурацію визначення редакції елемента (IRDC) Dma1DocumentRevisionIRDC для бізнес-об'єкта "Редакція документа". Коли налаштування "Fnd0DM_IsSimpleDocumentEnabled" встановлено на "true", застосовується Dma1DocumentRevisionIRDC, інакше - ні. Ця умова не застосовується до дочірніх елементів "Редакції документа".</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="uk_UA" status="Approved">Умова для перевірки, чи слід застосовувати готовий екземпляр конфігурації визначення ревізії елемента (IRDC) на основі параметра "Dma1UseCOTSIRDC". Це не стосується дочірніх ревізій елемента.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="uk_UA" status="Approved">Усі</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="uk_UA" status="Approved">Вимкнено</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="uk_UA" status="Approved">Одинарний</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="uk_UA" status="Approved">Колір</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="uk_UA" status="Approved">Монохромний</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="uk_UA" status="Approved">Найкраще вирівнювання</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="uk_UA" status="Approved">Альбомна орієнтація</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="uk_UA" status="Approved">Книжкова</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="uk_UA" status="Approved">Усі сторінки</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="uk_UA" status="Approved">Сторінка-банер</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="uk_UA" status="Approved">Перша сторінка</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="uk_UA" status="Approved">Усі</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="uk_UA" status="Approved">Вимкнено</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="uk_UA" status="Approved">Одинарний</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="uk_UA" status="Approved">Колір</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="uk_UA" status="Approved">Монохромний</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="uk_UA" status="Approved">Найкраще вирівнювання</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="uk_UA" status="Approved">Альбомна орієнтація</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="uk_UA" status="Approved">Книжкова</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="uk_UA" status="Approved">Усі сторінки</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="uk_UA" status="Approved">Сторінка-банер</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="uk_UA" status="Approved">Перша сторінка</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="uk_UA" status="Approved">Сторінка-роздільник</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="uk_UA" status="Approved">Комплектувати</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="uk_UA" status="Approved">Колір</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="uk_UA" status="Approved">Копії</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="uk_UA" status="Approved">Орієнтація</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="uk_UA" status="Approved">Розміри паперу</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="uk_UA" status="Approved">Назва конфігурації друку</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="uk_UA" status="Approved">Назва принтера</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="uk_UA" status="Approved">Діапазон</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="uk_UA" status="Approved">Масштаб</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="uk_UA" status="Approved">Підтримувані штампи</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="uk_UA" status="Approved">Системний штамп</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="uk_UA" status="Approved">Користувацький штамп</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="uk_UA" status="Approved">Визначення набору даних</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="uk_UA" status="Approved">Поле введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="uk_UA" status="Approved">Стандартний текстовий елемент</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="uk_UA" status="Approved">Опис</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="uk_UA" status="Approved">Необов'язково</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="uk_UA" status="Approved">Список значень</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="uk_UA" status="Approved">Макс</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="uk_UA" status="Approved">Мін</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="uk_UA" status="Approved">Номер замовлення DCD</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="uk_UA" status="Approved">Максимальна довжина</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="uk_UA" status="Approved">Формат часу</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="uk_UA" status="Approved">Тип</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="uk_UA" status="Approved">Визначення збору пов'язаних даних</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="uk_UA" status="Approved">Активний елемент стандартного тексту</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="uk_UA" status="Approved">Дані об'єкта</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="uk_UA" status="Approved">Пов'язані поля планувальника</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="uk_UA" status="Approved">Визначення збору пов'язаних даних</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="uk_UA" status="Approved">Пов'язані стандартні текстові елементи</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="uk_UA" status="Approved">Визначення збору пов'язаних даних</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="uk_UA" status="Approved">Визначення збору пов'язаних даних</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="uk_UA" status="Approved">Пов'язані стандартні текстові елементи</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="uk_UA" status="Approved">Сховище булевої форми визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="uk_UA" status="Approved">Збір логічних даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="uk_UA" status="Approved">Сховище булевої форми поля введення планувальника ЗАСТАРІЛЕ</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="uk_UA" status="Approved">Поле булевого планувальника ЗАСТАРІЛЕ</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="uk_UA" status="Approved">Сховище форми затвердження визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="uk_UA" status="Approved">Збір даних приймання</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="uk_UA" status="Approved">Сховище базової форми визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="uk_UA" status="Approved">Форма базового збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="uk_UA" status="Approved">Сховище визначень збирання даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="uk_UA" status="Approved">Відомості про збір даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="uk_UA" status="Approved">Обхід збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="uk_UA" status="Approved">Визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="uk_UA" status="Approved">Тривалість визначення збору даних DurationDCDFrmStorage</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="uk_UA" status="Approved">Збір даних тривалості</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="uk_UA" status="Approved">Сховище форми "Час завершення визначення збору даних"</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="uk_UA" status="Approved">Збір даних про завершення процедури</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="uk_UA" status="Approved">Сховище зображень форми визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="uk_UA" status="Approved">Збір даних із зображень</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="uk_UA" status="Approved">Сховище цілочисельної форми визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="uk_UA" status="Approved">Збір цілочисельних даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="uk_UA" status="Approved">Сховище цілочисельної форми поля введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="uk_UA" status="Approved">Поле Цілочисельного Планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="uk_UA" status="Approved">Сховище форми LOV для визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="uk_UA" status="Approved">Збір даних LOV</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="uk_UA" status="Approved">Сховище базової форми LOV для поля введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="uk_UA" status="Approved">Список значень базового поля планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="uk_UA" status="Approved">Сховище форми полів введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="uk_UA" status="Approved">Базове поле планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="uk_UA" status="Approved">Сховище полів введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="uk_UA" status="Approved">Деталі поля планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="uk_UA" status="Approved">Перевизначення поля введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="uk_UA" status="Approved">Поле введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="uk_UA" status="Approved">Сховище фактичної форми визначення збирання даних</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="uk_UA" status="Approved">Збір даних дійсних чисел</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="uk_UA" status="Approved">Сховище реальної форми для поля введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="uk_UA" status="Approved">Поле планувальника дійсних чисел</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="uk_UA" status="Approved">Майстер стандартного текстового елемента</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="uk_UA" status="Approved">Майстер стандартних текстових елементів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="uk_UA" status="Approved">Майстер ревізії стандартного текстового елемента</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій стандартного текстового елемента</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="uk_UA" status="Approved">Ревізія Стандартного Текстового Елемента</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="uk_UA" status="Approved">Стандартний текстовий елемент</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="uk_UA" status="Approved">Майстер папки стандартної текстової бібліотеки</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="uk_UA" status="Approved">Майстер папки стандартної текстової бібліотеки</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="uk_UA" status="Approved">Майстер ревізії папки стандартної бібліотеки текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="uk_UA" status="Approved">Папка стандартної бібліотеки текстів RevisionMaster</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="uk_UA" status="Approved">Ревізія папки стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="uk_UA" status="Approved">Папка стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="uk_UA" status="Approved">Майстер бібліотеки стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="uk_UA" status="Approved">Майстер бібліотеки стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="uk_UA" status="Approved">Майстер Ревізії Стандартної Бібліотеки Текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="uk_UA" status="Approved">RevisionMaster бібліотеки стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="uk_UA" status="Approved">Ревізія бібліотеки стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="uk_UA" status="Approved">Бібліотека стандартних текстів</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="uk_UA" status="Approved">Сховище рядкової форми визначення збору даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="uk_UA" status="Approved">Збір рядкових даних</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="uk_UA" status="Approved">Сховище рядкової форми поля введення планувальника</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="uk_UA" status="Approved">Поле планувальника рядків</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="uk_UA" status="Approved">Папка символів робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="uk_UA" status="Approved">Бібліотека символів робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="uk_UA" status="Approved">Співвідношення символів робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="uk_UA" status="Approved">Символ робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="uk_UA" status="Approved">Сховище форми визначення часу збирання даних</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="uk_UA" status="Approved">Збір даних міток часу</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="uk_UA" status="Approved">Сховище форми часу поля введення планувальника ЗАСТАРІЛЕ</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="uk_UA" status="Approved">Поле планувальника часу ЗАСТАРІЛЕ</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="uk_UA" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="uk_UA" status="Approved">Користувачем визначений збір даних LOV</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="uk_UA" status="Approved">Зв'язок активів робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="uk_UA" status="Approved">Ресурси робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="uk_UA" status="Approved">Майстер шаблону об'єкта робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="uk_UA" status="Approved">Майстер ревізії шаблону об'єкта робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії шаблону об'єкта робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="uk_UA" status="Approved">Ревізія шаблону об'єкта робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="uk_UA" status="Approved">Шаблон об'єкта робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="uk_UA" status="Approved">Зв'язок попереднього перегляду робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="uk_UA" status="Approved">Попередній перегляд робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="uk_UA" status="Approved">Майстер шаблонів робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="uk_UA" status="Approved">Майстер ревізій шаблону робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії шаблону робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="uk_UA" status="Approved">Ревізія шаблону документа робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="uk_UA" status="Approved">Шаблон документа робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="uk_UA" status="Approved">Відношення вмісту PDF-звіту</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="uk_UA" status="Approved">Співвідношення вхідних даних PDF-звiту</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="uk_UA" status="Approved">Вхідні дані PDF-звiту</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="uk_UA" status="Approved">Відношення вхідних даних PDF-звіту</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="uk_UA" status="Approved">Зв'язок PDF-звіту</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="uk_UA" status="Approved">Шаблон звіту PDF</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="uk_UA" status="Approved">PDF-звіт</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="uk_UA" status="Approved">Зв'язок шаблону PDF-звіту</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="uk_UA" status="Approved">Сховище форм довідкової інформації для текстових робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="uk_UA" status="Approved">Форма довідкової інформації для текстової робочої інструкції</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="uk_UA" status="Approved">Відношення довідкової інформації до текстової робочої інструкції</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="uk_UA" status="Approved">Рядок може містити пробіли та цифри.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="uk_UA" status="Approved">Рядок може складатися з пробілів та великих літер англійського алфавіту.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="uk_UA" status="Approved">Рядок може містити пробіли, англійські літери нижнього та верхнього регістру й цифри.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="uk_UA" status="Approved">Рядок може містити англійські рядкові та прописні літери.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="uk_UA" status="Approved">Рядок може складатися з пробілів та малих літер англійського алфавіту.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="uk_UA" status="Approved">Рядок може містити лише цифри.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="uk_UA" status="Approved">Рядок може містити тільки великі латинські літери.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="uk_UA" status="Approved">Рядок може складатися з малих і великих англійських літер.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="uk_UA" status="Approved">Рядок може містити лише малі літери англійського алфавіту.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="uk_UA" status="Approved">Рядок може містити малі та великі англійські літери, цифри та символи підкреслення.</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="uk_UA" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="uk_UA" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="uk_UA" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="uk_UA" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="uk_UA" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="uk_UA" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="uk_UA" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="uk_UA" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="uk_UA" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="uk_UA" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="uk_UA" status="Approved">Збір даних</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="uk_UA" status="Approved">Поле планувальника</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="uk_UA" status="Approved">Екземпляр стандартного тексту</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="uk_UA" status="Approved">Заблокувати редагування поля в MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="uk_UA" status="Approved">Ідентифікатор відновлення</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="uk_UA" status="Approved">Необов'язково</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="uk_UA" status="Approved">Заблокувати поле для редагування у MES</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="uk_UA" status="Approved">Ідентифікатор відновлення</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="uk_UA" status="Approved">Рядок-заповнювач</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="uk_UA" status="Approved">Необов'язково</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="uk_UA" status="Approved">Номер замовлення DCD</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="uk_UA" status="Approved">Номер замовлення DCD</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="uk_UA" status="Approved">Мінімально допустиме значення попередження</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне допустиме значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="uk_UA" status="Approved">Поведінка за межами</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="uk_UA" status="Approved">Максимальне значення оповіщення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="uk_UA" status="Approved">Мінімально допустиме значення попередження</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="uk_UA" status="Approved">Попередження: Максимальне значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="uk_UA" status="Approved">Увага: мінімальне значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне допустиме значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="uk_UA" status="Approved">Поводження при виході за межі</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне дозволене значення</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="uk_UA" status="Approved">Ідентифікатор відновлення</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="uk_UA" status="Approved">Пропустити перевірку валідності</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="uk_UA" status="Approved">Ідентифікатор відновлення</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="uk_UA" status="Approved">Необов'язково</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="uk_UA" status="Approved">Пропустити перевірку достовірності</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="uk_UA" status="Approved">Мінімальне допустиме значення попередження</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="uk_UA" status="Approved">Кількість десяткових знаків</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне допустиме значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="uk_UA" status="Approved">Поведінка за межами</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="uk_UA" status="Approved">Максимальне значення оповіщення</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="uk_UA" status="Approved">Мінімально допустиме значення попередження</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="uk_UA" status="Approved">Попередження: Максимальне значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="uk_UA" status="Approved">Увага: мінімальне значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="uk_UA" status="Approved">Метод збору даних</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="uk_UA" status="Approved">Кількість десяткових знаків</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне допустиме значення</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="uk_UA" status="Approved">Поводження при виході за межі</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="uk_UA" status="Approved">Кількість десяткових знаків</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="uk_UA" status="Approved">Максимально допустиме значення</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="uk_UA" status="Approved">Мінімальне дозволене значення</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="uk_UA" status="Approved">Чи активний стандартний текстовий елемент?</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="uk_UA" status="Approved">Кількість символів</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="uk_UA" status="Approved">Дозволені символи</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="uk_UA" status="Approved">Кількість символів</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="uk_UA" status="Approved">Дозволені символи</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="uk_UA" status="Approved">Максимальна довжина</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="uk_UA" status="Approved">Дозволені символи</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="uk_UA" status="Approved">Значення за замовчуванням</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="uk_UA" status="Approved">Формат часу</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="uk_UA" status="Approved">Формат часу</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="uk_UA" status="Approved">Список значень</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="uk_UA" status="Approved">Список значень</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="uk_UA" status="Approved">Ключі рядків робочих інструкцій</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="uk_UA" status="Approved">Рядки робочих інструкцій</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="uk_UA" status="Approved">Джерело даних шаблону</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="uk_UA" status="Approved">Містить 2D-ресурси?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="uk_UA" status="Approved">Містить 3D-об'єкти?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="uk_UA" status="Approved">Містить ресурси моделювання?</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="uk_UA" status="Approved">Специфікація шаблону</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="uk_UA" status="Approved">Посилання на об'єкти</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="uk_UA" status="Approved">Ідентифікатори посилань</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="uk_UA" status="Approved">Об'єкти, на які посилаються</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="uk_UA" status="Approved">Довідкові ідентифікатори</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="uk_UA" status="Approved">Статус випуску стандартного тексту</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="uk_UA" status="Approved">Автоматично</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="uk_UA" status="Approved">Посібник</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="uk_UA" status="Approved">Напівавтоматичний</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="uk_UA" status="Approved">Оператору відображається повідомлення</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="uk_UA" status="Approved">Результат - бракована деталь</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="uk_UA" status="Approved">Приведе до невідповідності</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="uk_UA" status="Approved">Планувальник виробничих процесів</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="uk_UA" status="Approved">Моделювання процесів</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

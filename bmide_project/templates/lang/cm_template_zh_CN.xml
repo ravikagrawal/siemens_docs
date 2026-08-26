@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:01 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Analyst" locale="zh_CN" status="Approved">分析员</key>
+           
+        <key id="BusinessObject{::}CMHasImpactedItem" locale="zh_CN" status="Approved">受影响项</key>
+           
+        <key id="BusinessObject{::}CMHasProblemItem" locale="zh_CN" status="Approved">问题项</key>
+           
+        <key id="BusinessObject{::}CMHasSolutionItem" locale="zh_CN" status="Approved">解决方案项</key>
+           
+        <key id="BusinessObject{::}CMHasWorkBreakdown" locale="zh_CN" status="Approved">计划</key>
+           
+        <key id="BusinessObject{::}CMImplements" locale="zh_CN" status="Approved">实施</key>
+           
+        <key id="BusinessObject{::}CMReferences" locale="zh_CN" status="Approved">更改引用项</key>
+           
+        <key id="BusinessObject{::}CMRelation" locale="zh_CN" status="Approved">更改管理关系</key>
+           
+        <key id="BusinessObject{::}CMSolutionToImpacted" locale="zh_CN" status="Approved">受影响零组件的解决方案</key>
+           
+        <key id="BusinessObject{::}ChangeImplementationBoard" locale="zh_CN" status="Approved">更改实施委员会</key>
+           
+        <key id="BusinessObject{::}ChangeItem Master" locale="zh_CN" status="Approved">更改零组件主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeItemMaster" locale="zh_CN" status="Approved">更改零组件主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision Master" locale="zh_CN" status="Approved">更改零组件版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeItemVerMaster" locale="zh_CN" status="Approved">更改零组件版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeItem" locale="zh_CN" status="Approved">更改零组件</key>
+           
+        <key id="BusinessObject{::}ChangeNotice Master" locale="zh_CN" status="Approved">更改通知主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeMaster" locale="zh_CN" status="Approved">更改通知主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision Master" locale="zh_CN" status="Approved">更改通知版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeVerMaster" locale="zh_CN" status="Approved">更改通知版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeNotice" locale="zh_CN" status="Approved">更改通知</key>
+           
+        <key id="BusinessObject{::}ChangeRequest Master" locale="zh_CN" status="Approved">更改请求主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeRequestMaster" locale="zh_CN" status="Approved">更改请求主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision Master" locale="zh_CN" status="Approved">更改请求版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeRequestVerMaster" locale="zh_CN" status="Approved">更改请求版本主属性表</key>
+           
+        <key id="BusinessObject{::}ChangeRequest" locale="zh_CN" status="Approved">更改请求</key>
+           
+        <key id="BusinessObject{::}ChangeReviewBoard" locale="zh_CN" status="Approved">更改审核委员会</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist1" locale="zh_CN" status="Approved">更改专家 I</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist2" locale="zh_CN" status="Approved">更改专家 II</key>
+           
+        <key id="BusinessObject{::}ChangeSpecialist3" locale="zh_CN" status="Approved">更改专家 III</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMasterS" locale="zh_CN" status="Approved">操作零组件主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemMaster" locale="zh_CN" status="Approved">操作零组件主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevMasterS" locale="zh_CN" status="Approved">操作零组件版本主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevisionMaster" locale="zh_CN" status="Approved">操作零组件版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItemRevision" locale="zh_CN" status="Approved">操作零组件版本</key>
+           
+        <key id="BusinessObject{::}Cm0ActionItem" locale="zh_CN" status="Approved">操作零组件</key>
+           
+        <key id="BusinessObject{::}Cm0AuditsItem" locale="zh_CN" status="Approved">审计零组件</key>
+           
+        <key id="BusinessObject{::}Cm0AuthorizingMarkupChange" locale="zh_CN" status="Approved">编创批注更改</key>
+           
+        <key id="BusinessObject{::}Cm0BOMHasSupersedureForm" locale="zh_CN" status="Approved">BOM 具有取代表单</key>
+           
+        <key id="BusinessObject{::}Cm0BeforeDependency" locale="zh_CN" status="Approved">前相依性</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMasterS" locale="zh_CN" status="Approved">配置审计主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditMaster" locale="zh_CN" status="Approved">配置审计主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevMasterS" locale="zh_CN" status="Approved">配置审计版本主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevisionMaster" locale="zh_CN" status="Approved">配置审计版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAuditRevision" locale="zh_CN" status="Approved">配置审计版本</key>
+           
+        <key id="BusinessObject{::}Cm0CfgAudit" locale="zh_CN" status="Approved">配置审计</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeContributors" locale="zh_CN" status="Approved">贡献者</key>
+           
+        <key id="BusinessObject{::}Cm0ChangeEdits" locale="zh_CN" status="Approved">更改编辑</key>
+           
+        <key id="BusinessObject{::}Cm0ConcurrentDependency" locale="zh_CN" status="Approved">并行相依性</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMasterS" locale="zh_CN" status="Approved">偏离请求主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstMaster" locale="zh_CN" status="Approved">偏离请求主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevMasterS" locale="zh_CN" status="Approved">偏离请求主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevisionMaster" locale="zh_CN" status="Approved">偏离请求版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqstRevision" locale="zh_CN" status="Approved">偏离请求版本</key>
+           
+        <key id="BusinessObject{::}Cm0DevRqst" locale="zh_CN" status="Approved">偏离请求</key>
+           
+        <key id="BusinessObject{::}Cm0EffectivityExprBlock" locale="zh_CN" status="Approved">更改有效性表达式块</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMasterS" locale="zh_CN" status="Approved">一般审核主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewMaster" locale="zh_CN" status="Approved">一般审核主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevMasterS" locale="zh_CN" status="Approved">一般审核版本主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevisionMaster" locale="zh_CN" status="Approved">一般审核版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0GnReviewRevision" locale="zh_CN" status="Approved">一般审核版本</key>
+           
+        <key id="BusinessObject{::}Cm0GnReview" locale="zh_CN" status="Approved">一般审核</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMasterS" locale="zh_CN" status="Approved">一般工作指令主属性表取代</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderMaster" locale="zh_CN" status="Approved">一般工作指令主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevMasterS" locale="zh_CN" status="Approved">一般工作指令版本主属性表取代</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevisionMaster" locale="zh_CN" status="Approved">一般工作指令版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrderRevision" locale="zh_CN" status="Approved">一般工作指令版本</key>
+           
+        <key id="BusinessObject{::}Cm0GnWorkOrder" locale="zh_CN" status="Approved">一般工作指令</key>
+           
+        <key id="BusinessObject{::}Cm0HasChangeSpace" locale="zh_CN" status="Approved">更改空间</key>
+           
+        <key id="BusinessObject{::}Cm0HasContract" locale="zh_CN" status="Approved">合同</key>
+           
+        <key id="BusinessObject{::}Cm0HasNonImpactedItem" locale="zh_CN" status="Approved">未受影响</key>
+           
+        <key id="BusinessObject{::}Cm0HasProposal" locale="zh_CN" status="Approved">建议</key>
+           
+        <key id="BusinessObject{::}Cm0Incorporates" locale="zh_CN" status="Approved">实施</key>
+           
+        <key id="BusinessObject{::}Cm0Merged" locale="zh_CN" status="Approved">已合并</key>
+           
+        <key id="BusinessObject{::}Cm0PreviousEffectivity" locale="zh_CN" status="Approved">上一有效性</key>
+           
+        <key id="BusinessObject{::}Cm0PropertyEdit" locale="zh_CN" status="Approved">属性编辑</key>
+           
+        <key id="BusinessObject{::}Cm0ProposedImpactedObject" locale="zh_CN" status="Approved">建议的受影响对象</key>
+           
+        <key id="BusinessObject{::}Cm0RaisesActionItems" locale="zh_CN" status="Approved">增加操作零组件</key>
+           
+        <key id="BusinessObject{::}Cm0RemovedLine" locale="zh_CN" status="Approved">移除的行</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMasterS" locale="zh_CN" status="Approved">简单更改主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeMaster" locale="zh_CN" status="Approved">简单更改主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevMasterS" locale="zh_CN" status="Approved">简单更改版本主属性表存储</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevisionMaster" locale="zh_CN" status="Approved">简单更改版本主属性表</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChangeRevision" locale="zh_CN" status="Approved">简单更改版本</key>
+           
+        <key id="BusinessObject{::}Cm0SimpleChange" locale="zh_CN" status="Approved">简单更改</key>
+           
+        <key id="BusinessObject{::}Cm0WorkingEnvironment" locale="zh_CN" status="Approved">工作环境</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice Master" locale="zh_CN" status="Approved">一般更改通知主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeMaster" locale="zh_CN" status="Approved">一般更改通知主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision Master" locale="zh_CN" status="Approved">一般更改通知版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeRevision" locale="zh_CN" status="Approved">一般更改通知版本</key>
+           
+        <key id="BusinessObject{::}GnChangeNoticeVerMaster" locale="zh_CN" status="Approved">一般更改通知版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeNotice" locale="zh_CN" status="Approved">一般更改通知</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest Master" locale="zh_CN" status="Approved">一般更改请求主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestMaster" locale="zh_CN" status="Approved">一般更改请求主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision Master" locale="zh_CN" status="Approved">一般更改请求版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestRevision" locale="zh_CN" status="Approved">一般更改请求版本</key>
+           
+        <key id="BusinessObject{::}GnChangeRequestVerMaster" locale="zh_CN" status="Approved">一般更改请求版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnChangeRequest" locale="zh_CN" status="Approved">一般更改请求</key>
+           
+        <key id="BusinessObject{::}GnProblemReport Master" locale="zh_CN" status="Approved">一般问题报告主属性表</key>
+           
+        <key id="BusinessObject{::}GnProblemReportMaster" locale="zh_CN" status="Approved">一般问题报告主属性表</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision Master" locale="zh_CN" status="Approved">一般问题报告版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnProblemReportRevision" locale="zh_CN" status="Approved">一般问题报告版本</key>
+           
+        <key id="BusinessObject{::}GnProblemReportVerMaster" locale="zh_CN" status="Approved">一般问题报告版本主属性表</key>
+           
+        <key id="BusinessObject{::}GnProblemReport" locale="zh_CN" status="Approved">一般问题报告</key>
+           
+        <key id="BusinessObject{::}ProblemReport Master" locale="zh_CN" status="Approved">问题报告主属性表</key>
+           
+        <key id="BusinessObject{::}ProblemReportMaster" locale="zh_CN" status="Approved">问题报告主属性表</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision Master" locale="zh_CN" status="Approved">问题报告版本主属性表</key>
+           
+        <key id="BusinessObject{::}ProblemReportVerMaster" locale="zh_CN" status="Approved">问题报告版本主属性表</key>
+           
+        <key id="BusinessObject{::}ProblemReport" locale="zh_CN" status="Approved">问题报告</key>
+           
+        <key id="BusinessObject{::}Requestor" locale="zh_CN" status="Approved">请求者</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForPrimary" locale="zh_CN" status="Approved">该条件确定 Cm0BeforeDependency 和 Cm0ConcurrentDependency 是否可用。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditableForSecondary" locale="zh_CN" status="Approved">该条件确定 Cm0BeforeDependency 和 Cm0ConcurrentDependency 是否可用。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsCmDependencyEditable" locale="zh_CN" status="Approved">该条件确定 Cm0BeforeDependency 和 Cm0ConcurrentDependency 是否可用。</key>
+           
+        <key id="ConditionDescription{::}Cm0IsDispositionPropertyModifiable" locale="zh_CN" status="Approved">该条件确定 CMHasImpactedItem 关系的 cm0Disposition 属性是否可编辑。</key>
+           
+        <key id="ConditionDescription{::}Cm0SimpleChangeRevSubTypesWF" locale="zh_CN" status="Approved">此条件为简单更改版本的类型和子类型启用模板过滤。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMHasImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 CMHasImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatableForTask" locale="zh_CN" status="Approved">要添加受影响的零组件，更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasImpactedItemCreatable" locale="zh_CN" status="Approved">要添加受影响的零组件，用户必须具有编创级别许可证，是请求者、分析员或更改贡献者，具有对更改零组件的写访问权且该更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 Cm0HasNonImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 Cm0HasNonImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasNonImpactedItemCreatable" locale="zh_CN" status="Approved">要添加未受影响的零组件，用户必须具有编创级别许可证，是请求者、分析员或更改贡献者，具有对更改零组件的写访问权且该更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMHasProblemItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 CMHasProblemItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatableForTask" locale="zh_CN" status="Approved">要添加问题零组件，更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasProblemItemCreatable" locale="zh_CN" status="Approved">要添加问题零组件，用户必须具有对更改零组件的写访问权且该更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMHasSolutionItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForSecondary" locale="zh_CN" status="Approved">该条件仅可在执行、批准和打开更改通知时，允许指派为分析员参与者的用户以编创许可证级别添加解决方案零组件。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatableForTask" locale="zh_CN" status="Approved">要添加解决方案零组件，用户必须是分析员、更改贡献者或时间表任务被指派者，并且更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasSolutionItemCreatable" locale="zh_CN" status="Approved">要添加解决方案零组件，用户必须具有编创级别许可证，是分析员或更改贡献者，具有对更改零组件的写访问权且该更改零组件必须处于“开放”和非“正在审核”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMHasWorkBreakdownCreatable" locale="zh_CN" status="Approved">此条件确定是否可以创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCMReferencesCreatableForTask" locale="zh_CN" status="Approved">要添加引用零组件，更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeContributorsAssignable" locale="zh_CN" status="Approved">该条件决定更改贡献者是否可以指派。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeExecution" locale="zh_CN" status="Approved">此条件确定是否允许进行更改执行。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeNoticeCreatable" locale="zh_CN" status="Approved">此条件确定用户是否可以创建更改通知。</key>
+           
+        <key id="ConditionDescription{::}Cm0isChangeRequestCreatable" locale="zh_CN" status="Approved">此条件确定用户是否可以创建更改请求。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0ActionItemCreatable" locale="zh_CN" status="Approved">此条件决定操作零组件是否可由用户创建。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0AuditsItemCreatable" locale="zh_CN" status="Approved">此条件将检查配置审计的状态</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0DevRqstCreatable" locale="zh_CN" status="Approved">此条件确定用户是否可以创建偏离请求。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0HasContractCreatable" locale="zh_CN" status="Approved">此条件将检查配置审计的状态</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 Cm0Incorporates 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 Cm0Incorporates 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0IncorporatesCreatable" locale="zh_CN" status="Approved">此条件确定是否可创建 Cm0Incorporates 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}Cm0isCm0RaisesActionItemsCreatable" locale="zh_CN" status="Approved">此条件将检查配置审计的状态</key>
+           
+        <key id="ConditionDescription{::}Cm0isIncorporationStatusEditable" locale="zh_CN" status="Approved">检查是否可以对受影响的零组件编辑实施状态。</key>
+           
+        <key id="ConditionDescription{::}Cm0isProblemReportCreatable" locale="zh_CN" status="Approved">此条件确定用户是否可以创建问题报告。</key>
+           
+        <key id="ConditionDescription{::}Cm0isSimpleChangeCreatable" locale="zh_CN" status="Approved">用于确定是否允许创建更改类型的条件。</key>
+           
+        <key id="ConditionDescription{::}isActiveSequence" locale="zh_CN" status="Approved">此条件确定给定的零组件版本序列是否活动。</key>
+           
+        <key id="ConditionDescription{::}isAnalystAssignable" locale="zh_CN" status="Approved">此条件确定是否可指派分析员。</key>
+           
+        <key id="ConditionDescription{::}isAnalyst" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是更改零组件版本的更改分析员。</key>
+           
+        <key id="ConditionDescription{::}isAuthor" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是作者。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForPrimary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的主对象创建 CMHasImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForSecondary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的次对象创建 CMHasImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatableForTask" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以在任务上创建 CMHasImpactedItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasImpactedItemCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以创建 CMHasImpactedItem 关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForPrimary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的主对象创建 CMHasProblemItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForSecondary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的次对象创建 CMHasProblemItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatableForTask" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以在任务上创建 CMHasProblemItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasProblemItemCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以创建 CMHasProblemItem 关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForPrimary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的主对象创建 CMHasSolutionItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForSecondary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的次对象创建 CMHasSolutionItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatableForTask" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以在任务上创建 CMHasSolutionItem 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasSolutionItemCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以创建 CMHasSolutionItem 关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForPrimary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的主对象创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatableForSecondary" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以为给定的次对象创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMHasWorkBreakdownCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定是否可以创建 CMHasWorkBreakdown 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMImplements 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 CMImplements 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMImplementsCreatable" locale="zh_CN" status="Approved">要派生更改并在更改零组件之间添加实施关系，用户必须具有编创级别许可证，并且更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForPrimary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的主对象创建 CMReferences 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForSecondary" locale="zh_CN" status="Approved">此条件确定是否可以为给定的次对象创建 CMReferences 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatableForTask" locale="zh_CN" status="Approved">此条件确定是否可以在任务上创建 CMReferences 类型的关系。</key>
+           
+        <key id="ConditionDescription{::}isCMReferencesCreatable" locale="zh_CN" status="Approved">要添加引用零组件，用户必须具有对更改零组件的写访问权并且该更改零组件必须处于“开放”状态。</key>
+           
+        <key id="ConditionDescription{::}isChangeExecutionAllowed" locale="zh_CN" status="Approved">此条件确定是否允许进行更改执行。</key>
+           
+        <key id="ConditionDescription{::}isChangeImplementationBoardAssignable" locale="zh_CN" status="Approved">此条件确定是否可以指派更改实施委员会。</key>
+           
+        <key id="ConditionDescription{::}isChangeNoticeCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定用户是否可以创建更改通知。</key>
+           
+        <key id="ConditionDescription{::}isChangeRequestCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定用户是否可以创建更改请求。</key>
+           
+        <key id="ConditionDescription{::}isChangeReviewBoardAssignable" locale="zh_CN" status="Approved">此条件确定是否可以指派更改审核委员会。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1Assignable" locale="zh_CN" status="Approved">此条件确定是否可以指派更改专家 1。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist1" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是更改零组件版本的更改专家 1。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2Assignable" locale="zh_CN" status="Approved">此条件确定是否可以指派更改专家 2。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist2" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是更改零组件版本的更改专家 2。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3Assignable" locale="zh_CN" status="Approved">此条件确定是否可以指派更改专家 3。</key>
+           
+        <key id="ConditionDescription{::}isChangeSpecialist3" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是更改零组件版本的更改专家 3。</key>
+           
+        <key id="ConditionDescription{::}isCm0DevRqstCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定用户是否可以创建偏离请求。</key>
+           
+        <key id="ConditionDescription{::}isEffectivityCreatableForChange" locale="zh_CN" status="Approved">此条件确定是否可以为相关的更改零组件版本创建有效性。</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForChange" locale="zh_CN" status="Approved">此条件确定是否可以为相关的更改零组件版本修订受影响的零组件。</key>
+           
+        <key id="ConditionDescription{::}isImpactedItemRevisableForTask" locale="zh_CN" status="Approved">此条件确定是否可以为相关任务修订受影响的零组件。</key>
+           
+        <key id="ConditionDescription{::}isProblemReportCreatable" locale="zh_CN" status="Approved">已弃用。参见支持文档 13.1 - 此条件确定用户是否可以创建问题报告。</key>
+           
+        <key id="ConditionDescription{::}isRequestorAssignable" locale="zh_CN" status="Approved">此条件确定是否可以指派请求者。</key>
+           
+        <key id="ConditionDescription{::}isRequestor" locale="zh_CN" status="Approved">此条件确定当前登录用户是否是更改零组件版本的更改请求者。</key>
+           
+        <key id="ConditionDescription{::}isRollUpCommittable" locale="zh_CN" status="Approved">此条件确定用户是否可以提交累积。</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Complete" locale="zh_CN" status="Approved">完全合并</key>
+           
+        <key id="LOVValueDescription{::}Cm0MergeStatusValues{::}Partial" locale="zh_CN" status="Approved">部分合并</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Create New" locale="zh_CN" status="Approved">请求的更改将创建新的零组件以替换受影响的零组件。</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Replace with Existing" locale="zh_CN" status="Approved">请求的更改将用现有零组件替换受影响的零组件。</key>
+           
+        <key id="LOVValueDescription{::}Cm0RequestedChange{::}Revise" locale="zh_CN" status="Approved">请求的更改将修订受影响的零组件。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="zh_CN" status="Approved">任何活动更改或公共更改中的最新版本。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="zh_CN" status="Approved">仅目标更改或公共更改中的最新版本。</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Complete" locale="zh_CN" status="Approved">完成度</key>
+           
+        <key id="LOVValue{::}Cm0MergeStatusValues{::}Partial" locale="zh_CN" status="Approved">部分</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Create New" locale="zh_CN" status="Approved">新建</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Replace with Existing" locale="zh_CN" status="Approved">替换为现有的</key>
+           
+        <key id="LOVValue{::}Cm0RequestedChange{::}Revise" locale="zh_CN" status="Approved">修订</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Approving" locale="zh_CN" status="Approved">正在批准</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Contributing" locale="zh_CN" status="Approved">正在贡献</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Elaborating" locale="zh_CN" status="Approved">正在周密规划</key>
+           
+        <key id="LOVValue{::}Cm0SimpleChangeMaturity{::}Released" locale="zh_CN" status="Approved">已发布</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInAllActiveChanges" locale="zh_CN" status="Approved">所有活动的 ECN</key>
+           
+        <key id="LOVValue{::}Fnd0ChangeConfigurationModes{::}LatestInChangeOnly" locale="zh_CN" status="Approved">仅当前 ECN</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0ContainsMergedOccData" locale="zh_CN" status="Approved">包含合并事例数据</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0CutbackOccurrence" locale="zh_CN" status="Approved">缩减事例</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0MergedProperties" locale="zh_CN" status="Approved">合并属性</key>
+           
+        <key id="Property{::}BOMEdit{::}cm0UpdatedProperties" locale="zh_CN" status="Approved">已更新属性</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0bw_in_change_mode" locale="zh_CN" status="Approved">处于更改模式</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ConcurrentChanges" locale="zh_CN" status="Approved">并发更改</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0Disposition" locale="zh_CN" status="Approved">处置</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingChgNotices" locale="zh_CN" status="Approved">实施更改通知</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ImplementingSolutions" locale="zh_CN" status="Approved">解决方案</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0IncorporationStatus" locale="zh_CN" status="Approved">实施状态</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0LineageGroupId" locale="zh_CN" status="Approved">关联项</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0ParentRevForImpacted" locale="zh_CN" status="Approved">父项</key>
+           
+        <key id="Property{::}CMHasImpactedItem{::}cm0RequestedChange" locale="zh_CN" status="Approved">请求的更改</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0LineageGroupId" locale="zh_CN" status="Approved">关联项</key>
+           
+        <key id="Property{::}CMHasSolutionItem{::}cm0ProposedDesignOwningSite" locale="zh_CN" status="Approved">推荐的设计所有权站点</key>
+           
+        <key id="Property{::}CMSolutionToImpacted{::}cm0LineageGroupId" locale="zh_CN" status="Approved">关联项</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0DerivedFrom" locale="zh_CN" status="Approved">派生自</key>
+           
+        <key id="Property{::}ChangeItemRevisionCreI{::}cm0InContextObjects" locale="zh_CN" status="Approved">关联对象</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}analyst_user_id" locale="zh_CN" status="Approved">分析员用户 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist1_user_id" locale="zh_CN" status="Approved">更改专家 I 用户 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist2_user_id" locale="zh_CN" status="Approved">更改专家 II 用户 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}change_specialist3_user_id" locale="zh_CN" status="Approved">更改专家 III 用户 ID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Analyst" locale="zh_CN" status="Approved">分析员</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeSpecialist1" locale="zh_CN" status="Approved">专家</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsExtOriginator" locale="zh_CN" status="Approved">外部发起人？</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Originator" locale="zh_CN" status="Approved">发起人</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RemoteWFTaskUID" locale="zh_CN" status="Approved">远程工作流程任务 UID</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Requestor" locale="zh_CN" status="Approved">请求者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}requestor_user_id" locale="zh_CN" status="Approved">请求者用户 ID</key>
+           
+        <key id="Property{::}ChangeItem{::}object_name" locale="zh_CN" status="Approved">概要</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}CMRamification" locale="zh_CN" status="Approved">影响</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Comments" locale="zh_CN" status="Approved">注释</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0OfficePriResp" locale="zh_CN" status="Approved">办事处主要负责人</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0RaisedByAudit" locale="zh_CN" status="Approved">由审计增加</key>
+           
+        <key id="Property{::}Cm0ActionItemRevision{::}cm0Zones" locale="zh_CN" status="Approved">区域</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}cm0ActionType" locale="zh_CN" status="Approved">操作类型</key>
+           
+        <key id="Property{::}Cm0ActionItem{::}item_id" locale="zh_CN" status="Approved">操作零组件编号</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0Comments" locale="zh_CN" status="Approved">注释</key>
+           
+        <key id="Property{::}Cm0CfgAuditRevision{::}cm0ProcessDate" locale="zh_CN" status="Approved">处理日期</key>
+           
+        <key id="Property{::}Cm0CfgAudit{::}item_id" locale="zh_CN" status="Approved">审计编号</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0ChangeObject" locale="zh_CN" status="Approved">更改对象</key>
+           
+        <key id="Property{::}Cm0ChangeEdits{::}cm0UpdatedObject" locale="zh_CN" status="Approved">已更新的对象</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0is_deviation_recurring" locale="zh_CN" status="Approved">重复偏离</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}Cm0rational_for_recurr" locale="zh_CN" status="Approved">重复偏离的基本原理</key>
+           
+        <key id="Property{::}Cm0DevRqstRevision{::}item_id" locale="zh_CN" status="Approved">EDR 编号</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}Cm0change_type" locale="zh_CN" status="Approved">偏离类型</key>
+           
+        <key id="Property{::}Cm0DevRqst{::}item_id" locale="zh_CN" status="Approved">EDR 编号</key>
+           
+        <key id="Property{::}Cm0GnReviewRevision{::}cm0isAuditsItemPresent" locale="zh_CN" status="Approved">存在审计零组件</key>
+           
+        <key id="Property{::}Cm0GnReview{::}cm0AuditType" locale="zh_CN" status="Approved">审计类型</key>
+           
+        <key id="Property{::}Cm0Incorporates{::}cm0MergeStatus" locale="zh_CN" status="Approved">合并状态</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0ChangeEdits" locale="zh_CN" status="Approved">更改编辑</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyName" locale="zh_CN" status="Approved">属性名称</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyOriginalValue" locale="zh_CN" status="Approved">属性原始值</key>
+           
+        <key id="Property{::}Cm0PropertyEdit{::}cm0PropertyUpdatedValue" locale="zh_CN" status="Approved">属性更新值</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Children" locale="zh_CN" status="Approved">子项</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0HasChildren" locale="zh_CN" status="Approved">具有子项</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0IsAlreadyImpacted" locale="zh_CN" status="Approved">是否已受影响</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProblemObject" locale="zh_CN" status="Approved">问题对象</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObjName" locale="zh_CN" status="Approved">建议的受影响对象名称</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedObject" locale="zh_CN" status="Approved">建议的受影响对象</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0ProposedImpactedType" locale="zh_CN" status="Approved">建议的受影响类型</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedParentRevs" locale="zh_CN" status="Approved">相关父版本</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0RelatedUsageRevs" locale="zh_CN" status="Approved">相关用法版本</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0Relation" locale="zh_CN" status="Approved">关系</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObjectType" locale="zh_CN" status="Approved">源对象类型</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0SourceObject" locale="zh_CN" status="Approved">源对象</key>
+           
+        <key id="Property{::}Cm0ProposedImpactedObject{::}cm0UsageRevision" locale="zh_CN" status="Approved">零件用法</key>
+           
+        <key id="Property{::}Cm0SimpleChangeRevision{::}item_id" locale="zh_CN" status="Approved">SC 编号</key>
+           
+        <key id="Property{::}Cm0SimpleChange{::}item_id" locale="zh_CN" status="Approved">SC 编号</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}CMIsFastTrack" locale="zh_CN" status="Approved">快速跟踪</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}cm0EffectivityFormula" locale="zh_CN" status="Approved">建议的有效性</key>
+           
+        <key id="Property{::}GnChangeNoticeRevision{::}item_id" locale="zh_CN" status="Approved">ECN 编号</key>
+           
+        <key id="Property{::}GnChangeNotice{::}item_id" locale="zh_CN" status="Approved">ECN 编号</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}CMIsFastTrack" locale="zh_CN" status="Approved">快速跟踪</key>
+           
+        <key id="Property{::}GnChangeRequestRevision{::}item_id" locale="zh_CN" status="Approved">ECR 编号</key>
+           
+        <key id="Property{::}GnChangeRequest{::}item_id" locale="zh_CN" status="Approved">ECR 编号</key>
+           
+        <key id="Property{::}GnProblemReportRevision{::}item_id" locale="zh_CN" status="Approved">PR 编号</key>
+           
+        <key id="Property{::}GnProblemReport{::}item_id" locale="zh_CN" status="Approved">PR 编号</key>
+           
+        <key id="ReleaseStatus{::}Cm0TC Shared" locale="zh_CN" status="Approved">共享</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}CDR" locale="zh_CN" status="Approved">关键设计审核</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}FCA" locale="zh_CN" status="Approved">功能配置审计</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PCA" locale="zh_CN" status="Approved">物理配置审计</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}PDR" locale="zh_CN" status="Approved">初始设计审核</key>
+           
+        <key id="LOVValueDescription{::}Cm0CfgAuditTypeValues{::}TRR" locale="zh_CN" status="Approved">测试准备就绪审核</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Other" locale="zh_CN" status="Approved">以上各项均不满足用户需求。例如，用户可能不知道答案或想要稍后再决定。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Rework" locale="zh_CN" status="Approved">修改零件并在相同装配中使用。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Scrap" locale="zh_CN" status="Approved">不得使用剩余的零件。</key>
+           
+        <key id="LOVValueDescription{::}Cm0ImpactedDisposition{::}Use As Is" locale="zh_CN" status="Approved">按现有方式生产零件。</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Incorporated" locale="zh_CN" status="Approved">为受影响零组件定义的更改已在相应的解决方案零组件中实施，无需后续更改即可完全实施定义的更改。</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="zh_CN" status="Approved">为受影响零组件定义的更改已在相应的解决方案零组件中部分实施。需要通过后续更改将该更改完全实施到零组件的主版本链中。</key>
+           
+        <key id="LOVValueDescription{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="zh_CN" status="Approved">为受影响零组件定义的更改尚未在相应的解决方案零组件中实施。</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="zh_CN" status="Approved">自动合并</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="zh_CN" status="Approved">并发更改</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Approved" locale="zh_CN" status="Approved">已批准</key>
+           
+        <key id="LOVValue{::}CM CN Approval{::}Disapproved" locale="zh_CN" status="Approved">已反对</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Fix" locale="zh_CN" status="Approved">要修复</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Improve" locale="zh_CN" status="Approved">要改进</key>
+           
+        <key id="LOVValue{::}CM CR Reason{::}To Prevent" locale="zh_CN" status="Approved">要阻止</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Canceled" locale="zh_CN" status="Approved">已取消</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Closed" locale="zh_CN" status="Approved">已结束</key>
+           
+        <key id="LOVValue{::}CM Closure{::}On hold" locale="zh_CN" status="Approved">已挂起</key>
+           
+        <key id="LOVValue{::}CM Closure{::}Open" locale="zh_CN" status="Approved">开放</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Approved" locale="zh_CN" status="Approved">已批准</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Deferred" locale="zh_CN" status="Approved">已延迟</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Disapproved" locale="zh_CN" status="Approved">已反对</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}Investigate" locale="zh_CN" status="Approved">调查</key>
+           
+        <key id="LOVValue{::}CM Disposition{::}None" locale="zh_CN" status="Approved">无</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Complete" locale="zh_CN" status="Approved">完成</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Elaborating" locale="zh_CN" status="Approved">正在周密规划</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Executing" locale="zh_CN" status="Approved">正在执行</key>
+           
+        <key id="LOVValue{::}CM Maturity State{::}Reviewing" locale="zh_CN" status="Approved">正在审核</key>
+           
+        <key id="LOVValue{::}CM Priority{::}1" locale="zh_CN" status="Approved">低</key>
+           
+        <key id="LOVValue{::}CM Priority{::}2" locale="zh_CN" status="Approved">中</key>
+           
+        <key id="LOVValue{::}CM Priority{::}3" locale="zh_CN" status="Approved">高</key>
+           
+        <key id="LOVValue{::}CM Priority{::}4" locale="zh_CN" status="Approved">关键</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Another Problem" locale="zh_CN" status="Approved">其他问题</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Confirmed" locale="zh_CN" status="Approved">问题已确认</key>
+           
+        <key id="LOVValue{::}CM Tech Recommendation{::}Problem Not Confirmed" locale="zh_CN" status="Approved">问题未确认</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}1" locale="zh_CN" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}2" locale="zh_CN" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}3" locale="zh_CN" status="Approved">3</key>
+           
+        <key id="LOVValue{::}CM Tech Rev Priority{::}4" locale="zh_CN" status="Approved">4</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}1" locale="zh_CN" status="Approved">1</key>
+           
+        <key id="LOVValue{::}CM Tech Review{::}2" locale="zh_CN" status="Approved">2</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}No" locale="zh_CN" status="Approved">否</key>
+           
+        <key id="LOVValue{::}CM YesNo{::}Yes" locale="zh_CN" status="Approved">是</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Fail" locale="zh_CN" status="Approved">失败</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}None" locale="zh_CN" status="Approved">无</key>
+           
+        <key id="LOVValue{::}Cm0AuditDispositionValues{::}Pass" locale="zh_CN" status="Approved">通过</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Complete" locale="zh_CN" status="Approved">完成</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}Elaborating" locale="zh_CN" status="Approved">正在周密规划</key>
+           
+        <key id="LOVValue{::}Cm0AuditMaturityValues{::}InProgress" locale="zh_CN" status="Approved">进行中</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}CDR" locale="zh_CN" status="Approved">CDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}FCA" locale="zh_CN" status="Approved">FCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PCA" locale="zh_CN" status="Approved">PCA</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}PDR" locale="zh_CN" status="Approved">PDR</key>
+           
+        <key id="LOVValue{::}Cm0CfgAuditTypeValues{::}TRR" locale="zh_CN" status="Approved">TRR</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Other" locale="zh_CN" status="Approved">其他</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Rework" locale="zh_CN" status="Approved">返工</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Scrap" locale="zh_CN" status="Approved">报废</key>
+           
+        <key id="LOVValue{::}Cm0ImpactedDisposition{::}Use As Is" locale="zh_CN" status="Approved">原样使用</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Cancelled" locale="zh_CN" status="Approved">已取消</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Incorporated" locale="zh_CN" status="Approved">已合并</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Partially Incorporated" locale="zh_CN" status="Approved">需要合并</key>
+           
+        <key id="LOVValue{::}Cm0IncorporationStatusValues{::}Unincorporated" locale="zh_CN" status="Approved">无需合并</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}AUTO_MERGE" locale="zh_CN" status="Approved">自动合并</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CONCURRENT_CHANGES" locale="zh_CN" status="Approved">并发更改</key>
+           
+        <key id="BusinessObject{::}BOMEdit" locale="zh_CN" status="Approved">BOM 编辑</key>
+           
+        <key id="BusinessObject{::}BOMSupersedure" locale="zh_CN" status="Approved">BOM 取代</key>
+           
+        <key id="BusinessObject{::}ChangeItemRevision" locale="zh_CN" status="Approved">更改零组件版本</key>
+           
+        <key id="BusinessObject{::}ChangeNoticeRevision" locale="zh_CN" status="Approved">更改通知版本</key>
+           
+        <key id="BusinessObject{::}ChangeRequestRevision" locale="zh_CN" status="Approved">更改请求版本</key>
+           
+        <key id="BusinessObject{::}ProblemReportRevision" locale="zh_CN" status="Approved">问题报告版本</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBOMSupersedure" locale="zh_CN" status="Approved">BOM 取代</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBomEditQty" locale="zh_CN" status="Approved">BOM 编辑数量</key>
+           
+        <key id="Property{::}BOMEdit{::}CMBvrTag" locale="zh_CN" status="Approved">BOM 视图版本</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeRevTag" locale="zh_CN" status="Approved">更改版本</key>
+           
+        <key id="Property{::}BOMEdit{::}CMChangeType" locale="zh_CN" status="Approved">更改类型</key>
+           
+        <key id="Property{::}BOMEdit{::}CMCustomObjTag" locale="zh_CN" status="Approved">定制对象</key>
+           
+        <key id="Property{::}BOMEdit{::}CMIsDerived" locale="zh_CN" status="Approved">是派生的</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectFullName" locale="zh_CN" status="Approved">对象全名</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectName" locale="zh_CN" status="Approved">对象名称</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectString" locale="zh_CN" status="Approved">对象字符串</key>
+           
+        <key id="Property{::}BOMEdit{::}CMObjectType" locale="zh_CN" status="Approved">对象类型</key>
+           
+        <key id="Property{::}BOMEdit{::}CMOccurenceTag" locale="zh_CN" status="Approved">事例</key>
+           
+        <key id="Property{::}BOMEdit{::}CMProblemBvr" locale="zh_CN" status="Approved">问题 BOM 视图版本</key>
+           
+        <key id="Property{::}BOMEdit{::}CMQuantityDiff" locale="zh_CN" status="Approved">数量差异</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChangeForOccRev" locale="zh_CN" status="Approved">事例版本的活动更改</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ActiveChange" locale="zh_CN" status="Approved">活动更改</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMAdds" locale="zh_CN" status="Approved">添加数</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMAddList" locale="zh_CN" status="Approved">添加数</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMBOMCancelList" locale="zh_CN" status="Approved">取消数</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCancels" locale="zh_CN" status="Approved">取消数</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMChangeRevTag" locale="zh_CN" status="Approved">更改版本</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMCustomFormTag" locale="zh_CN" status="Approved">定制表单</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMImpactedBvr" locale="zh_CN" status="Approved">受影响的 BOM 视图版本</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMIsTransfer" locale="zh_CN" status="Approved">是传递</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectFullName" locale="zh_CN" status="Approved">对象全名</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectName" locale="zh_CN" status="Approved">对象名称</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectString" locale="zh_CN" status="Approved">对象字符串</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMObjectType" locale="zh_CN" status="Approved">对象类型</key>
+           
+        <key id="Property{::}BOMSupersedure{::}CMProblemBvr" locale="zh_CN" status="Approved">问题 BOM 视图版本</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRevStatus" locale="zh_CN" status="Approved">更改零组件版本首选状态</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeItemRev" locale="zh_CN" status="Approved">更改零组件版本</key>
+           
+        <key id="Property{::}BOMWindow{::}cm0ChangeNoticeRevShareMode" locale="zh_CN" status="Approved">更改通知版本共享模式</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Analyst" locale="zh_CN" status="Approved">分析员</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureComments" locale="zh_CN" status="Approved">结束注释</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosureDate" locale="zh_CN" status="Approved">结束日期</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMClosure" locale="zh_CN" status="Approved">结束</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionComments" locale="zh_CN" status="Approved">处置注释</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDispositionDate" locale="zh_CN" status="Approved">处置日期</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMDisposition" locale="zh_CN" status="Approved">处置</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMImplementedBy" locale="zh_CN" status="Approved">被实施</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}CMMaturity" locale="zh_CN" status="Approved">更改成熟度</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeImplementationBoard" locale="zh_CN" status="Approved">更改实施委员会</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeReviewBoard" locale="zh_CN" status="Approved">更改审核委员会</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist1" locale="zh_CN" status="Approved">更改专家 I</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist2" locale="zh_CN" status="Approved">更改专家 II</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}ChangeSpecialist3" locale="zh_CN" status="Approved">更改专家 III</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}Requestor" locale="zh_CN" status="Approved">请求者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0AutoPropagateRelations" locale="zh_CN" status="Approved">自动填充关系</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Buyers" locale="zh_CN" status="Approved">买方</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ChangeContributors" locale="zh_CN" status="Approved">更改贡献者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0DerivableTypes" locale="zh_CN" status="Approved">可派生的类型</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Designers" locale="zh_CN" status="Approved">设计者</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Engineers" locale="zh_CN" status="Approved">制造工程师</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0FinanceEstimators" locale="zh_CN" status="Approved">财务估算师</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsProblemsModifiable" locale="zh_CN" status="Approved">问题可修改</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0IsReferencesModifiable" locale="zh_CN" status="Approved">引用可修改</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0LeadDesigners" locale="zh_CN" status="Approved">首席设计师</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProblemPartRevs" locale="zh_CN" status="Approved">问题零件版本</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProductEngineers" locale="zh_CN" status="Approved">产品工程师</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0ProgramManagers" locale="zh_CN" status="Approved">工程项目经理</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0QualityEngineers" locale="zh_CN" status="Approved">品质工程师</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0RelationsToPropagate" locale="zh_CN" status="Approved">要自动填充到派生项上的关系</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}cm0Sales" locale="zh_CN" status="Approved">销售</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}customers" locale="zh_CN" status="Approved">客户</key>
+           
+        <key id="Property{::}ChangeItemRevision{::}object_name" locale="zh_CN" status="Approved">概要</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMDateOfCustApproval" locale="zh_CN" status="Approved">客户批准日期</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMImplPriority" locale="zh_CN" status="Approved">实施优先级</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMIsCustApprovalRequired" locale="zh_CN" status="Approved">需要客户批准</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMSpecialInstruction" locale="zh_CN" status="Approved">特殊说明</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}CMStatusOfCustApproval" locale="zh_CN" status="Approved">客户批准的状态</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}Cm0impact_types" locale="zh_CN" status="Approved">影响</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsImpactedModifiable" locale="zh_CN" status="Approved">受影响的关系可修改</key>
+           
+        <key id="Property{::}ChangeNoticeRevision{::}cm0IsSolutionsModifiable" locale="zh_CN" status="Approved">解决方案关系可修改</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMNonrecurringCost" locale="zh_CN" status="Approved">非经常成本</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMProposedSolution" locale="zh_CN" status="Approved">建议的解决方案</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMReason" locale="zh_CN" status="Approved">理由</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMRecurringCost" locale="zh_CN" status="Approved">经常成本</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechRecommDate" locale="zh_CN" status="Approved">技术建议日期</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechReviewPriority" locale="zh_CN" status="Approved">技术审核优先级</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalRecommendation" locale="zh_CN" status="Approved">技术建议</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTechnicalReview" locale="zh_CN" status="Approved">技术审核</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTestResultsAttached" locale="zh_CN" status="Approved">已附加测试结果</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}CMTimingFactors" locale="zh_CN" status="Approved">时间因子</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0impact_types" locale="zh_CN" status="Approved">影响</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}Cm0is_warranty_affected" locale="zh_CN" status="Approved">保修受影响</key>
+           
+        <key id="Property{::}ChangeRequestRevision{::}cm0IsImpactedModifiable" locale="zh_CN" status="Approved">受影响的关系可修改</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMEnvironmentDescription" locale="zh_CN" status="Approved">环境描述</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMRamification" locale="zh_CN" status="Approved">影响</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSequenceOfEvents" locale="zh_CN" status="Approved">事件顺序</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMSeverityRating" locale="zh_CN" status="Approved">严重性等级</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMTechReviewPriority" locale="zh_CN" status="Approved">技术审核优先级</key>
+           
+        <key id="Property{::}ProblemReportRevision{::}CMVerification" locale="zh_CN" status="Approved">验证</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0ActiveChange" locale="zh_CN" status="Approved">活动更改</key>
+           
+        <key id="Property{::}WorkspaceObject{::}cm0AuthoringChangeRevision" locale="zh_CN" status="Approved">编创更改</key>
+           
+        <key id="BusinessObject{::}Cm0GlobalChangeContextsLOV" locale="zh_CN" status="Approved">全局更改关联 LOV</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnIn" locale="zh_CN" status="Approved">ECN 输入</key>
+           
+        <key id="Property{::}PSOccurrence{::}cm0OccEcnOut" locale="zh_CN" status="Approved">ECN 输出</key>
+           
+        <key id="Property{::}TC_UserContext{::}cm0GlobalChangeContext" locale="zh_CN" status="Approved">全局更改关联</key>
+           
+        <key id="Property{::}UserSession{::}cm0GlobalChangeContext" locale="zh_CN" status="Approved">全局更改关联</key>
+           
+        <key id="BusinessObject{::}Cm0Buyers" locale="zh_CN" status="Approved">买方</key>
+           
+        <key id="BusinessObject{::}Cm0Designers" locale="zh_CN" status="Approved">设计者</key>
+           
+        <key id="BusinessObject{::}Cm0Engineers" locale="zh_CN" status="Approved">制造工程师</key>
+           
+        <key id="BusinessObject{::}Cm0FinanceEstimators" locale="zh_CN" status="Approved">财务估算师</key>
+           
+        <key id="BusinessObject{::}Cm0LeadDesigners" locale="zh_CN" status="Approved">首席设计师</key>
+           
+        <key id="BusinessObject{::}Cm0ProductEngineers" locale="zh_CN" status="Approved">产品工程师</key>
+           
+        <key id="BusinessObject{::}Cm0ProgramManagers" locale="zh_CN" status="Approved">工程项目经理</key>
+           
+        <key id="BusinessObject{::}Cm0QualityEngineers" locale="zh_CN" status="Approved">品质工程师</key>
+           
+        <key id="BusinessObject{::}Cm0Sales" locale="zh_CN" status="Approved">销售</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeAction" locale="zh_CN" status="Approved">更改操作</key>
+           
+        <key id="Property{::}BOMLine{::}cm0ChangeRelation" locale="zh_CN" status="Approved">更改关系</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="zh_TW" status="Approved">資料集合定義</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="zh_TW" status="Approved">規劃器輸入欄位</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="zh_TW" status="Approved">標準文字元素</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="zh_TW" status="Approved">敘述</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="zh_TW" status="Approved">選用</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="zh_TW" status="Approved">值清單</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="zh_TW" status="Approved">最大值</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="zh_TW" status="Approved">最小值</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="zh_TW" status="Approved">名稱</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="zh_TW" status="Approved">DCD 訂單編號</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="zh_TW" status="Approved">最大長度</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="zh_TW" status="Approved">時間格式</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="zh_TW" status="Approved">類型</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="zh_TW" status="Approved">關聯的資料集合定義</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="zh_TW" status="Approved">標準文字元素是否使用中</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="zh_TW" status="Approved">物件資料</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="zh_TW" status="Approved">關聯的規劃器欄位</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="zh_TW" status="Approved">關聯的資料集合定義</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="zh_TW" status="Approved">關聯的標準文字元素</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="zh_TW" status="Approved">關聯的資料集合定義</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="zh_TW" status="Approved">關聯的資料集合定義</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="zh_TW" status="Approved">關聯的標準文字元素</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義布林表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="zh_TW" status="Approved">布林資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位布林表單儲存已棄用</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="zh_TW" status="Approved">布林規劃器欄位已棄用</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義驗證表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="zh_TW" status="Approved">驗證資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="zh_TW" status="Approved">資料集合定義基礎表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="zh_TW" status="Approved">資料集合基礎表單</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="zh_TW" status="Approved">資料集合定義儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="zh_TW" status="Approved">資料集合詳細資訊</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="zh_TW" status="Approved">資料集合取代</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="zh_TW" status="Approved">資料集合定義</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="zh_TW" status="Approved">資料集合定義期間 DCD 表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="zh_TW" status="Approved">期間資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義結束時間表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="zh_TW" status="Approved">程序完成資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義影像表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="zh_TW" status="Approved">影像資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義整數表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="zh_TW" status="Approved">整數資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位整數表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="zh_TW" status="Approved">整數規劃器欄位</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義 LOV 表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="zh_TW" status="Approved">LOV 資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位 LOV 基礎表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="zh_TW" status="Approved">值清單規劃器欄位基礎</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="zh_TW" status="Approved">規劃器欄位基礎</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="zh_TW" status="Approved">規劃器輸入欄位儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="zh_TW" status="Approved">規劃器欄位詳細資訊</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="zh_TW" status="Approved">規劃器輸入欄位取代</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="zh_TW" status="Approved">規劃器輸入欄位</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義實數表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="zh_TW" status="Approved">實型資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位實數表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="zh_TW" status="Approved">實數規劃器欄位</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="zh_TW" status="Approved">標準文字元素主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="zh_TW" status="Approved">標準文字元素主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="zh_TW" status="Approved">標準文字元素版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="zh_TW" status="Approved">標準文字元素版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="zh_TW" status="Approved">標準文字元素版本</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="zh_TW" status="Approved">標準文字元素</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="zh_TW" status="Approved">標準文字庫資料夾主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="zh_TW" status="Approved">標準文字庫資料夾主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="zh_TW" status="Approved">標準文字庫資料夾版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="zh_TW" status="Approved">標準文字庫資料夾版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="zh_TW" status="Approved">標準文字資料夾版本</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="zh_TW" status="Approved">標準文字資料夾</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="zh_TW" status="Approved">標準文字庫主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="zh_TW" status="Approved">標準文字庫主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="zh_TW" status="Approved">標準文字庫版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="zh_TW" status="Approved">標準文字庫版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="zh_TW" status="Approved">標準文字庫版本</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="zh_TW" status="Approved">標準文字庫</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義字串表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="zh_TW" status="Approved">字串資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位字串表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="zh_TW" status="Approved">字串規劃器欄位</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="zh_TW" status="Approved">工作指導符號資料夾</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="zh_TW" status="Approved">工作指導符號庫</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="zh_TW" status="Approved">工作指導符號關係</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="zh_TW" status="Approved">工作指導符號</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="zh_TW" status="Approved">資料集合定義時間表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="zh_TW" status="Approved">時間戳記資料集合</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="zh_TW" status="Approved">規劃器輸入欄位時間表單儲存已棄用</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="zh_TW" status="Approved">時間規劃器欄位已棄用</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="zh_TW" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="zh_TW" status="Approved">使用者定義的 LOV 資料收集</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="zh_TW" status="Approved">工作指導資訊集關係</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="zh_TW" status="Approved">工作指導資訊集</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="zh_TW" status="Approved">工作指導物件範本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="zh_TW" status="Approved">工作指導物件範本版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="zh_TW" status="Approved">工作指導物件範本版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="zh_TW" status="Approved">工作指導物件範本版本</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="zh_TW" status="Approved">工作指導物件範本</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="zh_TW" status="Approved">工作指導預覽關係</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="zh_TW" status="Approved">工作指導預覽</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="zh_TW" status="Approved">工作指導範本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="zh_TW" status="Approved">工作指導範本版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="zh_TW" status="Approved">工作指導範本版本主屬性表</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="zh_TW" status="Approved">工作指導文件範本版本</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="zh_TW" status="Approved">工作指導文件範本</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="zh_TW" status="Approved">PDF 報告內容關係</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="zh_TW" status="Approved">PDF 報告輸入關係</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="zh_TW" status="Approved">PDF 報告輸入</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="zh_TW" status="Approved">PDF 報告輸入關係</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="zh_TW" status="Approved">PDF 報告關係</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="zh_TW" status="Approved">PDF 報告範本</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="zh_TW" status="Approved">PDF 報告</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="zh_TW" status="Approved">PDF 報告範本關係</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="zh_TW" status="Approved">文字工作指導參考資訊表單儲存</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="zh_TW" status="Approved">文字工作指導參考資訊表單</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="zh_TW" status="Approved">文字工作指導參考資訊關係</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="zh_TW" status="Approved">字串可以由空格和數字組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="zh_TW" status="Approved">字串可以由空格和大寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="zh_TW" status="Approved">字串可以由空格、小寫英文字元、大寫英文字元和數字組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="zh_TW" status="Approved">字串可以由小寫和大寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="zh_TW" status="Approved">字串可以由空格和小寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="zh_TW" status="Approved">字串可以由數字組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="zh_TW" status="Approved">字串可以由大寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="zh_TW" status="Approved">字串可以由小寫和大寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="zh_TW" status="Approved">字串可以由小寫英文字元組成。</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="zh_TW" status="Approved">字串可以由小寫英文字元、大寫英文字元、數字和下劃線字元組成。</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="zh_TW" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="zh_TW" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="zh_TW" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="zh_TW" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="zh_TW" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="zh_TW" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="zh_TW" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="zh_TW" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="zh_TW" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="zh_TW" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="zh_TW" status="Approved">資料集合</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="zh_TW" status="Approved">規劃器欄位</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="zh_TW" status="Approved">標準文字執行個體</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="zh_TW" status="Approved">阻止在 MES 中編輯欄位</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="zh_TW" status="Approved">還原 ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="zh_TW" status="Approved">選用</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="zh_TW" status="Approved">阻止在 MES 中編輯欄位</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="zh_TW" status="Approved">還原 ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="zh_TW" status="Approved">預留位置字串</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="zh_TW" status="Approved">選用</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="zh_TW" status="Approved">DCD 訂單編號</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="zh_TW" status="Approved">DCD 訂單編號</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="zh_TW" status="Approved">最小警報允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="zh_TW" status="Approved">超出限制的行為</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="zh_TW" status="Approved">警報最大值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="zh_TW" status="Approved">最小警報允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="zh_TW" status="Approved">注意最大值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="zh_TW" status="Approved">注意最小值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="zh_TW" status="Approved">超出限制的行為</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="zh_TW" status="Approved">還原 ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="zh_TW" status="Approved">略過有效性檢查</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="zh_TW" status="Approved">還原 ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="zh_TW" status="Approved">選用</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="zh_TW" status="Approved">略過有效性檢查</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="zh_TW" status="Approved">最小警報允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="zh_TW" status="Approved">小數位數</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="zh_TW" status="Approved">超出限制的行為</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="zh_TW" status="Approved">警報最大值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="zh_TW" status="Approved">最小警報允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="zh_TW" status="Approved">注意最大值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="zh_TW" status="Approved">注意最小值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="zh_TW" status="Approved">資料採集方法</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="zh_TW" status="Approved">小數位數</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="zh_TW" status="Approved">超出限制的行為</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="zh_TW" status="Approved">小數位數</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="zh_TW" status="Approved">最大允許值</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="zh_TW" status="Approved">最小允許值</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="zh_TW" status="Approved">標準文字元素是否使用中</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="zh_TW" status="Approved">字元數</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="zh_TW" status="Approved">允許字元數</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="zh_TW" status="Approved">字元數</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="zh_TW" status="Approved">允許字元數</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="zh_TW" status="Approved">最大長度</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="zh_TW" status="Approved">允許字元數</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="zh_TW" status="Approved">預設值</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="zh_TW" status="Approved">時間格式</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="zh_TW" status="Approved">時間格式</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="zh_TW" status="Approved">值</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="zh_TW" status="Approved">值清單</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="zh_TW" status="Approved">值清單</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="zh_TW" status="Approved">工作指導字串關鍵字</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="zh_TW" status="Approved">工作指導字串</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="zh_TW" status="Approved">範本資料來源</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="zh_TW" status="Approved">包含 2D 資訊集？</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="zh_TW" status="Approved">包含 3D 資訊集？</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="zh_TW" status="Approved">包含模擬資訊集？</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="zh_TW" status="Approved">範本規格</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="zh_TW" status="Approved">參考的物件</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="zh_TW" status="Approved">參考 ID</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="zh_TW" status="Approved">參考的物件</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="zh_TW" status="Approved">參考 ID</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="zh_TW" status="Approved">標準文字發佈狀態</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="zh_TW" status="Approved">自動</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="zh_TW" status="Approved">手動</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="zh_TW" status="Approved">半自動</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="zh_TW" status="Approved">對運算子顯示一條訊息</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="zh_TW" status="Approved">所產生的零件有問題</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="zh_TW" status="Approved">將導致不合規</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="zh_TW" status="Approved">製造工藝規劃器</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="zh_TW" status="Approved">Process Simulate</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

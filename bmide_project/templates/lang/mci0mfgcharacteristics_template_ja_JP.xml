@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:06 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mci0InspectionRelation" locale="ja_JP" status="Approved">インスペクションリレーション</key>
+           
+        <key id="BusinessObject{::}Mci0InspectionRevision" locale="ja_JP" status="Approved">インスペクションリビジョン</key>
+           
+        <key id="BusinessObject{::}Mci0Inspection" locale="ja_JP" status="Approved">インスペクション</key>
+           
+        <key id="BusinessObject{::}Mci0PMIBop_Details" locale="ja_JP" status="Approved">PMI BOP詳細</key>
+           
+        <key id="BusinessObject{::}Mci0PMICharacteristic" locale="ja_JP" status="Approved">PMI特性</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrmStrg" locale="ja_JP" status="Approved">PMI特性フォームストレージ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrm" locale="ja_JP" status="Approved">PMI特性フォーム</key>
+           
+        <key id="BusinessObject{::}Mci0PMIMetaData" locale="ja_JP" status="Approved">PMIメタデータ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIStorage" locale="ja_JP" status="Approved">PMIストレージ</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXmlRel" locale="ja_JP" status="Approved">PMI XMLリレーション</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXml" locale="ja_JP" status="Approved">PMI XML</key>
+           
+        <key id="BusinessObject{::}Mci0PMI_Details" locale="ja_JP" status="Approved">PMI詳細</key>
+           
+        <key id="BusinessObject{::}Mci0PMI" locale="ja_JP" status="Approved">製品製造情報</key>
+           
+        <key id="PSOccurrence{::}Mci0MEInspect" locale="ja_JP" status="Approved">ME検査</key>
+           
+        <key id="Property{::}BOMLine{::}Characteristics Type" locale="ja_JP" status="Approved">PMI特性タイプ</key>
+           
+        <key id="Property{::}BOMLine{::}DCD Place Holder" locale="ja_JP" status="Approved">DCDプレースホルダ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Dimension Type" locale="ja_JP" status="Approved">PMI寸法タイプ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Code" locale="ja_JP" status="Approved">PMI GDTコード</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Text" locale="ja_JP" status="Approved">PMI GDTテキスト</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Is Composite FCF" locale="ja_JP" status="Approved">PMIは複合FCFです</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Lower Spec Limit" locale="ja_JP" status="Approved">PMI仕様下限値</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Marked As Deleted" locale="ja_JP" status="Approved">削除済みとしてマークされたPMI</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Modifier" locale="ja_JP" status="Approved">PMI修正子</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Nominal Value" locale="ja_JP" status="Approved">PMI公称値</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Not For Inspection" locale="ja_JP" status="Approved">PMI インスペクション対象以外</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Place Holder" locale="ja_JP" status="Approved">PMIプレースホルダ</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Primary Datum Ref" locale="ja_JP" status="Approved">PMI第一次データム参照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Second Datum Ref" locale="ja_JP" status="Approved">PMI第二次データム参照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tertiary Datum Ref" locale="ja_JP" status="Approved">PMI第三次データム参照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tolerance Is Absolute" locale="ja_JP" status="Approved">PMI公差は絶対</key>
+           
+        <key id="Property{::}BOMLine{::}PMI UOM" locale="ja_JP" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Upper Spec Limit" locale="ja_JP" status="Approved">PMI仕様上限値</key>
+           
+        <key id="Property{::}BOMLine{::}Tolerance Desc" locale="ja_JP" status="Approved">PMI公差説明</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationId" locale="ja_JP" status="Approved">PMI関連性ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationType" locale="ja_JP" status="Approved">PMI関連性タイプ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Criticality" locale="ja_JP" status="Approved">重要度</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0DimensionType" locale="ja_JP" status="Approved">PMI寸法タイプ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0FrameLocation" locale="ja_JP" status="Approved">PMI記入枠位置</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTCode" locale="ja_JP" status="Approved">GD&amp;Tコード</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTText" locale="ja_JP" status="Approved">GD&amp;Tテキスト</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsAbsolutePMI" locale="ja_JP" status="Approved">PMI公差は絶対</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPMICompositeFCF" locale="ja_JP" status="Approved">PMIは複合FCFです</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPartPmi" locale="ja_JP" status="Approved">PMIはパート</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0LowerSpecLimit" locale="ja_JP" status="Approved">仕様下限値</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0MarkedAsDeleted" locale="ja_JP" status="Approved">削除済みとしてマーク</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Modifier" locale="ja_JP" status="Approved">PMI修正子</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0NominalValue" locale="ja_JP" status="Approved">公称値</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiBaseUUID" locale="ja_JP" status="Approved">PMIベースUUID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiDescription" locale="ja_JP" status="Approved">PMI説明</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiExtensionID" locale="ja_JP" status="Approved">PMI拡張ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiID" locale="ja_JP" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Text" locale="ja_JP" status="Approved">PMIテキスト</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UOM" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UpperSpecLimit" locale="ja_JP" status="Approved">仕様上限値</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristicsType" locale="ja_JP" status="Approved">特性タイプ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristic" locale="ja_JP" status="Approved">特性</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0pmiMetaData" locale="ja_JP" status="Approved">PMIメタデータ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0primaryDatumReference" locale="ja_JP" status="Approved">第一次データム参照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0secondaryDatumReference" locale="ja_JP" status="Approved">第二次データム参照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisI" locale="ja_JP" status="Approved">サーフェス軸I</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisJ" locale="ja_JP" status="Approved">サーフェス軸J</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisK" locale="ja_JP" status="Approved">サーフェス軸K</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceEntity" locale="ja_JP" status="Approved">サーフェスエンティティ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationX" locale="ja_JP" status="Approved">サーフェス位置X</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationY" locale="ja_JP" status="Approved">サーフェス位置Y</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationZ" locale="ja_JP" status="Approved">サーフェス位置Z</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceRadius" locale="ja_JP" status="Approved">サーフェス半径</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceType" locale="ja_JP" status="Approved">面仕上げタイプ</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0tertiaryDatumReference" locale="ja_JP" status="Approved">第三次データム参照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0toleranceDesc" locale="ja_JP" status="Approved">公差説明</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DatumLabel" locale="ja_JP" status="Approved">データムラベル</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DimensionType" locale="ja_JP" status="Approved">PMI寸法タイプ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTCode" locale="ja_JP" status="Approved">GD&amp;Tコード</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTText" locale="ja_JP" status="Approved">GD&amp;Tテキスト</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsAbsolutePMI" locale="ja_JP" status="Approved">PMI公差は絶対</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsPMICompositeFCF" locale="ja_JP" status="Approved">PMIは複合FCFです</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0LowerSpecLimit" locale="ja_JP" status="Approved">仕様下限値</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0MarkedAsDeleted" locale="ja_JP" status="Approved">削除済みとしてマーク</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Modifier" locale="ja_JP" status="Approved">PMI修正子</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0NominalValue" locale="ja_JP" status="Approved">公称値</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiBaseUUID" locale="ja_JP" status="Approved">PMIベースUUID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiDescription" locale="ja_JP" status="Approved">PMI説明</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiExtensionID" locale="ja_JP" status="Approved">PMI拡張ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiID" locale="ja_JP" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Text" locale="ja_JP" status="Approved">PMIテキスト</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UOM" locale="ja_JP" status="Approved">測定単位</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UpperSpecLimit" locale="ja_JP" status="Approved">仕様上限値</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0characteristicsType" locale="ja_JP" status="Approved">特性タイプ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0pmiMetaData" locale="ja_JP" status="Approved">PMIメタデータ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0primaryDatumReference" locale="ja_JP" status="Approved">第一次データム参照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0secondaryDatumReference" locale="ja_JP" status="Approved">第二次データム参照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisI" locale="ja_JP" status="Approved">サーフェス軸I</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisJ" locale="ja_JP" status="Approved">サーフェス軸J</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisK" locale="ja_JP" status="Approved">サーフェス軸K</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceEntity" locale="ja_JP" status="Approved">サーフェスエンティティ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationX" locale="ja_JP" status="Approved">サーフェス位置X</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationY" locale="ja_JP" status="Approved">サーフェス位置Y</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationZ" locale="ja_JP" status="Approved">サーフェス位置Z</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceRadius" locale="ja_JP" status="Approved">サーフェス半径</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceType" locale="ja_JP" status="Approved">面仕上げタイプ</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0tertiaryDatumReference" locale="ja_JP" status="Approved">第三次データム参照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0toleranceDesc" locale="ja_JP" status="Approved">公差説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0DimensionType" locale="ja_JP" status="Approved">PMI寸法タイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Frequency" locale="ja_JP" status="Approved">頻度</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTCode" locale="ja_JP" status="Approved">GD&amp;Tコード</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTText" locale="ja_JP" status="Approved">GD&amp;Tテキスト</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0InspectionType" locale="ja_JP" status="Approved">インスペクションタイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsAbsolutePMI" locale="ja_JP" status="Approved">PMI公差は絶対</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsPMICompositeFCF" locale="ja_JP" status="Approved">PMIは複合FCFです</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0LowerSpecLimit" locale="ja_JP" status="Approved">仕様下限値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MarkedAsDeleted" locale="ja_JP" status="Approved">削除済みとしてマーク</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MeasurementMethod" locale="ja_JP" status="Approved">測定方法</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Modifier" locale="ja_JP" status="Approved">PMI修正子</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NominalValue" locale="ja_JP" status="Approved">公称値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NotForInspection" locale="ja_JP" status="Approved">インスペクション対象以外</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PlannerDescription" locale="ja_JP" status="Approved">プランナー説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PmiDescription" locale="ja_JP" status="Approved">PMI説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Responsible" locale="ja_JP" status="Approved">責任</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0UpperSpecLimit" locale="ja_JP" status="Approved">仕様上限値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0characteristicsType" locale="ja_JP" status="Approved">特性タイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0primaryDatumReference" locale="ja_JP" status="Approved">第一次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0secondaryDatumReference" locale="ja_JP" status="Approved">第二次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisI" locale="ja_JP" status="Approved">サーフェス軸I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisJ" locale="ja_JP" status="Approved">サーフェス軸J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisK" locale="ja_JP" status="Approved">サーフェス軸K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceEntity" locale="ja_JP" status="Approved">サーフェスエンティティ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationX" locale="ja_JP" status="Approved">サーフェス位置X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationY" locale="ja_JP" status="Approved">サーフェス位置Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationZ" locale="ja_JP" status="Approved">サーフェス位置Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceRadius" locale="ja_JP" status="Approved">サーフェス半径</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceType" locale="ja_JP" status="Approved">面仕上げタイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0tertiaryDatumReference" locale="ja_JP" status="Approved">第三次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0toleranceDesc" locale="ja_JP" status="Approved">公差説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0DimensionType" locale="ja_JP" status="Approved">PMI寸法タイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Frequency" locale="ja_JP" status="Approved">頻度</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTCode" locale="ja_JP" status="Approved">GD&amp;Tコード</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTText" locale="ja_JP" status="Approved">GD&amp;Tテキスト</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0InspectionType" locale="ja_JP" status="Approved">インスペクションタイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsAbsolutePMI" locale="ja_JP" status="Approved">PMI公差は絶対</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsPMICompositeFCF" locale="ja_JP" status="Approved">PMIは複合FCFです</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0LowerSpecLimit" locale="ja_JP" status="Approved">仕様下限値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MarkedAsDeleted" locale="ja_JP" status="Approved">削除済みとしてマーク</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MeasurementMethod" locale="ja_JP" status="Approved">測定方法</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Modifier" locale="ja_JP" status="Approved">PMI修正子</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NominalValue" locale="ja_JP" status="Approved">公称値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NotForInspection" locale="ja_JP" status="Approved">インスペクション対象以外</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PlannerDescription" locale="ja_JP" status="Approved">プランナー説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PmiDescription" locale="ja_JP" status="Approved">PMI説明</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Responsible" locale="ja_JP" status="Approved">責任</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0UpperSpecLimit" locale="ja_JP" status="Approved">仕様上限値</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0characteristicsType" locale="ja_JP" status="Approved">特性タイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0primaryDatumReference" locale="ja_JP" status="Approved">第一次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0secondaryDatumReference" locale="ja_JP" status="Approved">第二次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisI" locale="ja_JP" status="Approved">サーフェス軸I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisJ" locale="ja_JP" status="Approved">サーフェス軸J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisK" locale="ja_JP" status="Approved">サーフェス軸K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceEntity" locale="ja_JP" status="Approved">サーフェスエンティティ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationX" locale="ja_JP" status="Approved">サーフェス位置X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationY" locale="ja_JP" status="Approved">サーフェス位置Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationZ" locale="ja_JP" status="Approved">サーフェス位置Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceRadius" locale="ja_JP" status="Approved">サーフェス半径</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceType" locale="ja_JP" status="Approved">面仕上げタイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0tertiaryDatumReference" locale="ja_JP" status="Approved">第三次データム参照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0toleranceDesc" locale="ja_JP" status="Approved">公差説明</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationId" locale="ja_JP" status="Approved">PMI関連性ID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationType" locale="ja_JP" status="Approved">PMI関連性タイプ</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0FrameLocation" locale="ja_JP" status="Approved">PMI記入枠位置</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0IsPartPmi" locale="ja_JP" status="Approved">PMIはパート</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0JTDataset" locale="ja_JP" status="Approved">JTデータセット</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0NGIDs" locale="ja_JP" status="Approved">NGID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0accountabilityID" locale="ja_JP" status="Approved">アカウンタビリティID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0connectedParts" locale="ja_JP" status="Approved">接続パート</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0context" locale="ja_JP" status="Approved">コンテキスト</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0AccountabilityID" locale="ja_JP" status="Approved">アカウンタビリティID</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMICharacteristicsUid" locale="ja_JP" status="Approved">PMI特性UID</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMIReferencePart" locale="ja_JP" status="Approved">PMI参照パート</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PmiID" locale="ja_JP" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0OwningItemID" locale="ja_JP" status="Approved">所有アイテムID</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0PMIDatasetLastModDate" locale="ja_JP" status="Approved">PMIデータセット最終修正日</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0AccountabilityID" locale="ja_JP" status="Approved">アカウンタビリティID</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMICharacteristicsUid" locale="ja_JP" status="Approved">PMI特性UID</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMIReferencePart" locale="ja_JP" status="Approved">PMI参照パート</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PmiID" locale="ja_JP" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0Criticality" locale="ja_JP" status="Approved">重要度</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0KeyCharacteristics" locale="ja_JP" status="Approved">キー特性</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0UOM" locale="ja_JP" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0Criticality" locale="ja_JP" status="Approved">重要度</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0KeyCharacteristics" locale="ja_JP" status="Approved">キー特性</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0UOM" locale="ja_JP" status="Approved">PMI UOM</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Critical" locale="ja_JP" status="Approved">重要度レベルはクリティカル</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Documentation" locale="ja_JP" status="Approved">重要度レベルはドキュメンテーション</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Major" locale="ja_JP" status="Approved">重要度レベルはメジャー</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Minor" locale="ja_JP" status="Approved">重要度レベルはマイナー</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="ja_JP" status="Approved">デザインキー特性</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="ja_JP" status="Approved">プロセスキー特性</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Angularity" locale="ja_JP" status="Approved">特性タイプ傾斜度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="ja_JP" status="Approved">特性タイプ軸交差</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularity" locale="ja_JP" status="Approved">特性タイプ真円度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="ja_JP" status="Approved">特性タイプ円周振れ</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Concentricity" locale="ja_JP" status="Approved">特性タイプ同心度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="ja_JP" status="Approved">特性タイプ円筒度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Flatness" locale="ja_JP" status="Approved">特性タイプ平面度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Parallelism" locale="ja_JP" status="Approved">特性タイプ平行度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="ja_JP" status="Approved">特性タイプ直角度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Position" locale="ja_JP" status="Approved">特性タイプ位置度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="ja_JP" status="Approved">特性タイプ線の輪郭度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="ja_JP" status="Approved">特性タイプ面の輪郭度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Straightness" locale="ja_JP" status="Approved">特性タイプ真直度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Symmetry" locale="ja_JP" status="Approved">特性タイプ対称度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="ja_JP" status="Approved">特性タイプ全振れ</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BLEND" locale="ja_JP" status="Approved">サーフェスタイプブレンド</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BSPLINE" locale="ja_JP" status="Approved">サーフェスタイプB-スプライン</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CONE" locale="ja_JP" status="Approved">サーフェスタイプ円錐</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CYLINDER" locale="ja_JP" status="Approved">サーフェスタイプ円筒</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}OFFSET" locale="ja_JP" status="Approved">サーフェスタイプオフセット</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}PLANE" locale="ja_JP" status="Approved">サーフェスタイプ平面</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPHERE" locale="ja_JP" status="Approved">サーフェスタイプ球</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPUN" locale="ja_JP" status="Approved">サーフェスタイプスパン</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SWEPT" locale="ja_JP" status="Approved">サーフェスタイプスイープ</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}TORUS" locale="ja_JP" status="Approved">サーフェスタイプ円環体</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="ja_JP" status="Approved">サーフェスタイプ不明</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Critical" locale="ja_JP" status="Approved">クリティカル</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Documentation" locale="ja_JP" status="Approved">ドキュメンテーション</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Major" locale="ja_JP" status="Approved">メジャー</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Minor" locale="ja_JP" status="Approved">マイナー</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Boolean" locale="ja_JP" status="Approved">ブーリアン</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Go-No Go" locale="ja_JP" status="Approved">Go-No Go</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Min-Max" locale="ja_JP" status="Approved">最小-最大</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Numeric" locale="ja_JP" status="Approved">数値</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Pass-Fail" locale="ja_JP" status="Approved">合格-不合格</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}String" locale="ja_JP" status="Approved">文字列</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}True-False" locale="ja_JP" status="Approved">はい-いいえ</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Yes-No" locale="ja_JP" status="Approved">Yes-No</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="ja_JP" status="Approved">DKC</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="ja_JP" status="Approved">PKC</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Angularity" locale="ja_JP" status="Approved">傾斜度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="ja_JP" status="Approved">軸交差</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularity" locale="ja_JP" status="Approved">真円度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="ja_JP" status="Approved">円周振れ</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Concentricity" locale="ja_JP" status="Approved">同心度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="ja_JP" status="Approved">円筒度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Flatness" locale="ja_JP" status="Approved">平面度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Parallelism" locale="ja_JP" status="Approved">平行度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="ja_JP" status="Approved">直角度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Position" locale="ja_JP" status="Approved">位置</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="ja_JP" status="Approved">線プロファイル</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="ja_JP" status="Approved">サーフェスプロファイル</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Straightness" locale="ja_JP" status="Approved">真直度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Symmetry" locale="ja_JP" status="Approved">対称度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="ja_JP" status="Approved">全振れ</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BLEND" locale="ja_JP" status="Approved">ブレンド</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BSPLINE" locale="ja_JP" status="Approved">B-スプライン</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CONE" locale="ja_JP" status="Approved">円錐</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CYLINDER" locale="ja_JP" status="Approved">円筒</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}OFFSET" locale="ja_JP" status="Approved">オフセット</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}PLANE" locale="ja_JP" status="Approved">平面</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPHERE" locale="ja_JP" status="Approved">球</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPUN" locale="ja_JP" status="Approved">スパン</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SWEPT" locale="ja_JP" status="Approved">スイープ</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}TORUS" locale="ja_JP" status="Approved">円環体</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="ja_JP" status="Approved">不明</key>
+           
+        <key id="BusinessObject{::}Mci0BvrBopPMI" locale="ja_JP" status="Approved">PMI BOP BVR</key>
+           
+        <key id="Property{::}BOMLine{::}mci0PMIAttachedDataset" locale="ja_JP" status="Approved">PMIアタッチされたデータセット</key>
+           
+        <key id="Property{::}BOMLine{::}mciJTAttachedDataset" locale="ja_JP" status="Approved">PMIアタッチされたJTデータセット</key>
+           
+        <key id="Property{::}GDELine{::}mci0AccountabilityID" locale="ja_JP" status="Approved">PMIアカウンタビリティID</key>
+           
+        <key id="Property{::}GDELine{::}mci0Criticality" locale="ja_JP" status="Approved">PMI重要度</key>
+           
+        <key id="Property{::}GDELine{::}mci0KeyCharacteristics" locale="ja_JP" status="Approved">PMIキー特性</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMICharacteristicsUid" locale="ja_JP" status="Approved">PMI特性UID</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIDescription" locale="ja_JP" status="Approved">PMI説明</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIReferencePart" locale="ja_JP" status="Approved">PMI参照パート</key>
+           
+        <key id="Property{::}GDELine{::}mci0PmiID" locale="ja_JP" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}GDELine{::}PMI Inspection Type" locale="ja_JP" status="Approved">PMIインスペクションタイプ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Criticality" locale="ja_JP" status="Approved">PMI重要度</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Frequency" locale="ja_JP" status="Approved">PMI頻度</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0InspectionProcedure" locale="ja_JP" status="Approved">PMI検査手順</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0MeasurementMethod" locale="ja_JP" status="Approved">PMI測定方法</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0PlannerDescription" locale="ja_JP" status="Approved">PMIプランナー説明</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Responsible" locale="ja_JP" status="Approved">PMI責任</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisI" locale="ja_JP" status="Approved">サーフェス軸I</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisJ" locale="ja_JP" status="Approved">サーフェス軸J</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisK" locale="ja_JP" status="Approved">サーフェス軸K</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceEntity" locale="ja_JP" status="Approved">サーフェスエンティティ</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationX" locale="ja_JP" status="Approved">サーフェス位置X</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationY" locale="ja_JP" status="Approved">サーフェス位置Y</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationZ" locale="ja_JP" status="Approved">サーフェス位置Z</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceName" locale="ja_JP" status="Approved">サーフェス名</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceRadius" locale="ja_JP" status="Approved">サーフェス半径</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceType" locale="ja_JP" status="Approved">面仕上げタイプ</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceName" locale="ja_JP" status="Approved">サーフェス名</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

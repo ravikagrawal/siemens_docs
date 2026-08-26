@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 06:00:45 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Tie0SchemaMap" locale="ko_KR" status="Approved">스키마 맵</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="ko_KR" status="Approved">서류 가방 내보내기 및 가져오기</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="ko_KR" status="Approved">대량 추출 및 로드</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PDX" locale="ko_KR" status="Approved">PDX</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}PLMXML" locale="ko_KR" status="Approved">PLM XML 내보내기 및 가져오기</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BRIEFCASE" locale="ko_KR" status="Approved">서류 가방</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BULK_OPERATIONS" locale="ko_KR" status="Approved">대량 작업</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PDX" locale="ko_KR" status="Approved">PDX</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}PLMXML" locale="ko_KR" status="Approved">PLM XML</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Complete" locale="ko_KR" status="Approved">서류 가방 내보내기 완료</key>
+           
+        <key id="Event{::}Awp0Briefcase_Export_Failed" locale="ko_KR" status="Approved">서류 가방 내보내기 실패</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Complete" locale="ko_KR" status="Approved">서류 가방 가져오기 완료</key>
+           
+        <key id="Event{::}Awp0Briefcase_Import_Failed" locale="ko_KR" status="Approved">서류 가방 가져오기 실패</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Complete" locale="ko_KR" status="Approved">대량 추출 완료</key>
+           
+        <key id="Event{::}Awp0Bulk_Extract_Failed" locale="ko_KR" status="Approved">대량 추출 실패</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Complete" locale="ko_KR" status="Approved">대량 복사 완료</key>
+           
+        <key id="Event{::}Awp0Bulk_Import_Failed" locale="ko_KR" status="Approved">대량 복사 실패</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Complete" locale="ko_KR" status="Approved">PLM XML 내보내기 완료</key>
+           
+        <key id="Event{::}Awp0PLMXML_Export_Failed" locale="ko_KR" status="Approved">PLM XML 내보내기 실패</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Complete" locale="ko_KR" status="Approved">PLM XML 가져오기 완료</key>
+           
+        <key id="Event{::}Awp0PLMXML_Import_Failed" locale="ko_KR" status="Approved">PLM XML 가져오기 실패</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Complete" locale="ko_KR" status="Approved">PDX 내보내기 완료</key>
+           
+        <key id="Event{::}Awp0Pdx_Export_Failed" locale="ko_KR" status="Approved">PDX 내보내기 실패</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Complete" locale="ko_KR" status="Approved">매핑 규칙 배치 완료</key>
+           
+        <key id="Event{::}Awp0Schema_map_deploy_Failed" locale="ko_KR" status="Approved">매핑 규칙 배치 실패</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Complete" locale="ko_KR" status="Approved">소유권 회수 완료</key>
+           
+        <key id="Event{::}Awp0Reclaim_ownership_Failed" locale="ko_KR" status="Approved">소유권 회수 실패</key>
+           
+
+    </Add>
+</TcBusinessDataLocalization>

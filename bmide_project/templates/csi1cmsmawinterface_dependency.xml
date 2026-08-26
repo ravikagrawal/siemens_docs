@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Change Management Schedule Management Active Workspace Interface" enableOpsDataDeploy="false" guid="2BC4C668A4D924641A0B93812B867DE9" isDescriptionMandatory="true" name="csi1cmsmawinterface" optional="true" prefixes="Csi1" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="Cm1cmaws_template.xml"/>
+    <include file="saw1projectmanagementaw_template.xml"/>
+</TcBusinessDataIncludes>

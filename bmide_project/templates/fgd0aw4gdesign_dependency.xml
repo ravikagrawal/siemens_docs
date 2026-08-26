@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="4th Generation Design for Active Workspace" enableOpsDataDeploy="false" guid="91A6FF8233A6D8E29C667E495A74C9AA" isDescriptionMandatory="true" name="fgd0aw4gdesign" optional="true" prefixes="Fgd0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="activeworkspacebom_template.xml"/>
+    <include file="realization_template.xml"/>
+    <include file="partition_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="cpd_template.xml"/>
+    <include file="fgf0aw4gfoundation_template.xml"/>
+    <include file="icc0awincontextchange_template.xml"/>
+    <include file="awv0activeworkspacevis_template.xml"/>
+</TcBusinessDataIncludes>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 06:00:56 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <TcClass className="ETSTranslationRequest" description="" isExportable="false" isUninheritable="false" isUninstantiable="false" packageName="com.teamcenter.core.ets" parentClassName="POM_application_object">
+                 
+            <TcAttribute attributeName="state" attributeType="POM_string" description="Displays the current state of the request." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="primary_objs" attributeType="POM_untyped_reference" description="Specifies one or more primary objects containing the data to be translated. When translating CAD data, primary objects are typically datasets." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="secondary_objs" attributeType="POM_untyped_reference" description="Specifies one or more supporting objects for the translation." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="sched_priority" attributeType="POM_int" description="Specifies a scheduling priority. Set it to low, medium, or high." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="provider_name" attributeType="POM_string" description="Contains the name of the provider of the translator." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="translator_name" attributeType="POM_string" description="Contains the name of the service to be used." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute attributeName="task_id" attributeType="POM_string" description="Contains the task identifier assigned during the preparation process." exportAsString="false" followOnExport="false" initialValue="" isArray="false" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="128" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="states" attributeType="POM_string" description="It is the list of states the request has been in. This is used to find the history of the request." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="32" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="state_dates" attributeType="POM_date" description="Dates of all the state changes that happened on this request." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="false" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="0" noBackpointer="false"/>
+                 
+            <TcAttribute arrayLength="-1" attributeName="translation_args" attributeType="POM_string" description="Specifies one or more strings containing key/value pairs." exportAsString="false" followOnExport="false" isArray="true" isCandidateKey="false" isNullsAllowed="true" isPublicRead="false" isPublicWrite="false" isTransient="false" isUnique="false" maxStringLength="255" noBackpointer="false"/>
+               
+        </TcClass>
+           
+        <OperationInputType artifactName="ETSTranslationRequestCreI" description="CreateInput object for &quot;ETSTranslationRequest&quot; business object" isAbstract="false" parentTypeName="POM_application_objectCreI" typeClassName="ETSTranslationRequestCreI" typeName="ETSTranslationRequestCreI"/>
+           
+        <OperationInputType artifactName="ETSTranslationRequestSvAI" description="SaveAsInput object for &quot;ETSTranslationRequest&quot; business object" isAbstract="false" parentTypeName="POM_application_objectSvAI" typeClassName="ETSTranslationRequestSvAI" typeName="ETSTranslationRequestSvAI"/>
+           
+        <TcStandardType artifactName="ETSTranslationRequest" description="This business object is not in use since tc2008. This object holds on to all the translation request inputs for asynchronous processing." functionality="Fnd0Dispatcher" isAbstract="false" packageName="com.teamcenter.core.ets" parentTypeName="POM_application_object" typeClassName="ETSTranslationRequest" typeName="ETSTranslationRequest"/>
+           
+        <BusinessObjectInterface createRelease="tc2007.1" description="Teamcenter::ETSTranslationRequest" libraryName="ets" name="ETSTranslationRequest" namespace="Teamcenter" primaryInterface="true" typeName="ETSTranslationRequest"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="ETSTranslationRequest" value="ETSTranslationRequestCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="ETSTranslationRequest" value="ETSTranslationRequestSvAI"/>
+           
+        <Library createRelease="tc2007.1" description="ets" isThirdParty="false" name="ets" namespace="" serviceLibrary="false"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

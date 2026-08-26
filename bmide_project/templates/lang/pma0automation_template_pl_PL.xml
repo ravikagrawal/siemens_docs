@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:17 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma0DesignToBomLinkProvider" locale="pl_PL" status="Approved">Dostawca łącza zestawienia materiałów projektu</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitDesignCondition" locale="pl_PL" status="Approved">Warunek do zarządzania, jeśli projekt powinien być tworzony i wyrównywany podczas tworzenia części.</key>
+           
+        <key id="ConditionDescription{::}Pma0CreateImplicitPartCondition" locale="pl_PL" status="Approved">Warunek do zarządzania, jeśli część powinna być tworzona i wyrównywana z projektem podczas tworzenia projektu</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableProductEBOMWF" locale="pl_PL" status="Approved">Warunek filtrowania obiegu informacji, umożliwiający tworzenie obiegu informacji inżynieryjnego zestawienia materiałów produktu.</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesignContexts" locale="pl_PL" status="Approved">Uzgodnione konteksty projektu</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDesigns" locale="pl_PL" status="Approved">Uzgodnione projekty</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPartContexts" locale="pl_PL" status="Approved">Uzgodnione konteksty części</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedParts" locale="pl_PL" status="Approved">Uzgodnione części</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignAligned" locale="pl_PL" status="Approved">Uzgodniono projekt</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsDesignRequired" locale="pl_PL" status="Approved">Wymagany projekt</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartAligned" locale="pl_PL" status="Approved">Uzgodniono część</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsPartRequired" locale="pl_PL" status="Approved">Część wymagana</key>
+           
+        <key id="Property{::}Design RevisionCreI{::}pma0PartsToAlign" locale="pl_PL" status="Approved">Części do wyrównania</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0KeepExistingPart" locale="pl_PL" status="Approved">Zachowaj istniejącą część</key>
+           
+        <key id="Property{::}Design RevisionRevI{::}pma0PartsToAlign" locale="pl_PL" status="Approved">Części do wyrównania</key>
+           
+        <key id="Property{::}DesignCreI{::}pma0CreateAlignedPart" locale="pl_PL" status="Approved">Automatycznie utwórz część</key>
+           
+        <key id="Property{::}Design{::}pma0IsPartRequired" locale="pl_PL" status="Approved">Część wymagana</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedPartContexts" locale="pl_PL" status="Approved">Uzgodnione konteksty części</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0AlignedParts" locale="pl_PL" status="Approved">Uzgodnione części</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartAligned" locale="pl_PL" status="Approved">Uzgodniono część</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}pma0IsPartRequired" locale="pl_PL" status="Approved">Część wymagana</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0DesignsToAlign" locale="pl_PL" status="Approved">Projekty do wyrównania</key>
+           
+        <key id="Property{::}PartCreI{::}pma0CreateAlignedDesign" locale="pl_PL" status="Approved">Automatycznie utwórz projekt</key>
+           
+        <key id="Property{::}WorkspaceObject{::}fnd0IsRevisionDiscontinued" locale="pl_PL" status="Approved">Wycofane</key>
+           
+        <key id="BusinessObject{::}Pma0ImplicitPrimaryRep" locale="pl_PL" status="Approved">Niejawna reprezentacja główna</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableDsgnChangeActionsOnPart" locale="pl_PL" status="Approved">Ta reguła umożliwia stosowanie LW "Czynności zmiany projektowej" do aktualizacji projektu, gdy projekt znajduje się w stanie "Wydany TCM". Ten warunek umożliwia zastosowanie Pma0DsgnChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnablePartChangeActionsOnDesign" locale="pl_PL" status="Approved">Ta reguła umożliwia stosowanie LW "Czynności zmiany części" do aktualizacji części, gdy część znajduje się w stanie "Wydany TCM". Ten warunek umożliwia zastosowanie Pma0PartChangeActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReuseDsgnActionOnPart" locale="pl_PL" status="Approved">Ta reguła umożliwia stosowanie LW "Czynności projektu Reuse" do aktualizacji projektu. Ten warunek umożliwia zastosowanie Pma0ReuseDesignActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReusePartActionOnDesign" locale="pl_PL" status="Approved">Ta reguła umożliwia stosowanie LW "Czynności części Reuse" do aktualizacji części, gdy część i projekt są w stanie roboczym. Ten warunek umożliwia zastosowanie Pma0ReusePartActionsLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableReviseDesignActionOnPart" locale="pl_PL" status="Approved">Ta reguła umożliwia zastosowanie LW "Czynność tworzenia rewizji projektu" do aktualizacji projektu, gdy projekt znajduje się w stanie "Zablokowane". Ten warunek umożliwia zastosowanie Pma0ReviseDesignActionLOV.</key>
+           
+        <key id="ConditionDescription{::}Pma0EnableRevisePartActionOnDesign" locale="pl_PL" status="Approved">Ta reguła umożliwia stosowanie LW "Czynność tworzenia rewizji części" do aktualizacji części, gdy część znajduje się w stanie "Zablokowane". Ten warunek umożliwia zastosowanie Pma0RevisePartActionLOV.</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="pl_PL" status="Approved">Użyj ponownie istniejącej rewizji projektu</key>
+           
+        <key id="LOVValueDescription{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu obecnie uzgodnionego z częścią objętą zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="pl_PL" status="Approved">Użyj nowego projektu dla części objętych zmianą</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="pl_PL" status="Approved">Użyj ponownie istniejącej rewizji projektu</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu obecnie uzgodnionego z częścią objętą zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="pl_PL" status="Approved">Użyj nowej części dla projektu objętego zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="pl_PL" status="Approved">Użyj ponownie istniejącej rewizji części</key>
+           
+        <key id="LOVValueDescription{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części obecnie uzgodnionej z projektem objętym zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewDesignActionLOV{::}NewDesign" locale="pl_PL" status="Approved">Tworzy nowy projekt dla części objętej zmianą</key>
+           
+        <key id="LOVValueDescription{::}Pma0NewPartActionLOV{::}NewPart" locale="pl_PL" status="Approved">Tworzy nową część dla projektu objętego zmianą</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}NewPart" locale="pl_PL" status="Approved">Użyj nowej części dla projektu objętego zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części obecnie uzgodnionej z projektem objętym zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="pl_PL" status="Approved">Użyj ponownie istniejącej rewizji projektu</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="pl_PL" status="Approved">Użyj ponownie istniejącej rewizji części</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części obecnie uzgodnionej z projektem objętym zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu obecnie uzgodnionego z częścią objętą zmianą.</key>
+           
+        <key id="LOVValueDescription{::}Pma0RevisePartActionLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części obecnie uzgodnionej z projektem objętym zmianą.</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReuseDesign" locale="pl_PL" status="Approved">Projekt Reuse</key>
+           
+        <key id="LOVValue{::}Pma0DsgnChangeActionsLOV{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}NewDesign" locale="pl_PL" status="Approved">Nowy projekt</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReuseDesign" locale="pl_PL" status="Approved">Projekt Reuse</key>
+           
+        <key id="LOVValue{::}Pma0ListOfDsgnUpdateActionOnPrt{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}NewPart" locale="pl_PL" status="Approved">Nowa część</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}ReusePart" locale="pl_PL" status="Approved">Część Reuse</key>
+           
+        <key id="LOVValue{::}Pma0ListOfPartUpdateActionOnDsgn{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części</key>
+           
+        <key id="LOVValue{::}Pma0NewDesignActionLOV{::}NewDesign" locale="pl_PL" status="Approved">Nowy projekt</key>
+           
+        <key id="LOVValue{::}Pma0NewPartActionLOV{::}NewPart" locale="pl_PL" status="Approved">Nowa część</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}NewPart" locale="pl_PL" status="Approved">Nowa część</key>
+           
+        <key id="LOVValue{::}Pma0PartChangeActionsLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części</key>
+           
+        <key id="LOVValue{::}Pma0ReuseDesignActionsLOV{::}ReuseDesign" locale="pl_PL" status="Approved">Projekt Reuse</key>
+           
+        <key id="LOVValue{::}Pma0ReusePartActionsLOV{::}ReusePart" locale="pl_PL" status="Approved">Część Reuse</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}ReusePart" locale="pl_PL" status="Approved">Część Reuse</key>
+           
+        <key id="LOVValue{::}Pma0ReviseAndReusePartActionLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części</key>
+           
+        <key id="LOVValue{::}Pma0ReviseDesignActionLOV{::}ReviseDesign" locale="pl_PL" status="Approved">Utwórz rewizję projektu</key>
+           
+        <key id="LOVValue{::}Pma0RevisePartActionLOV{::}RevisePart" locale="pl_PL" status="Approved">Utwórz rewizję części</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedDsgnReleaseStat" locale="pl_PL" status="Approved">Status wydania uzgodnionego projektu</key>
+           
+        <key id="Property{::}BOMLine{::}pma0AlignedPrtReleaseStatus" locale="pl_PL" status="Approved">Status wydania uzgodnionej części</key>
+           
+        <key id="Property{::}BOMLine{::}pma0UpdateAction" locale="pl_PL" status="Approved">Aktualizuj czynność</key>
+           
+        <key id="Property{::}BOMWindow{::}pma0BomUpdateMode" locale="pl_PL" status="Approved">Czy tryb aktualizacji jest włączony</key>
+           
+        <key id="Property{::}Design RevisionSvAI{::}pma0CopyAlignedPart" locale="pl_PL" status="Approved">Kopiuj wyrównanie części</key>
+           
+        <key id="Property{::}Part RevisionSvAI{::}pma0CopyAlignedDesign" locale="pl_PL" status="Approved">Kopiuj wyrównanie projektu</key>
+           
+        <key id="BusinessObject{::}Pma0DesignAttrs" locale="pl_PL" status="Approved">Atrybuty projektu</key>
+           
+        <key id="BusinessObject{::}Pma0PartAttrs" locale="pl_PL" status="Approved">Atrybuty części</key>
+           
+        <key id="BusinessObject{::}Pma0PartRevAttrs" locale="pl_PL" status="Approved">Atrybuty rewizji części</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Colored Part" locale="pl_PL" status="Approved">Oznacza część zdefiniowaną przez atrybuty kolorów</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}Less Finish" locale="pl_PL" status="Approved">Oznacza część bez wykończenia</key>
+           
+        <key id="LOVValueDescription{::}Pma0LessFinish{::}None" locale="pl_PL" status="Approved">Wskazuje część bez koloru</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Colored Part" locale="pl_PL" status="Approved">Kolor</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}Less Finish" locale="pl_PL" status="Approved">Mniejsze wykończenie</key>
+           
+        <key id="LOVValue{::}Pma0LessFinish{::}None" locale="pl_PL" status="Approved">Brak</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Outsourced" locale="pl_PL" status="Approved">Projekt outsourcowany</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Design Purchased" locale="pl_PL" status="Approved">Projekt zakupiony</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}In-house Design" locale="pl_PL" status="Approved">Projekt własny</key>
+           
+        <key id="LOVValue{::}Pma0TechnologyIntent{::}Un-assigned" locale="pl_PL" status="Approved">Nieprzypisane</key>
+           
+        <key id="Property{::}BOMLine{::}bl_Pma0DesignAttrs_pma0AlignToGenericPart" locale="pl_PL" status="Approved">Wyrównaj dla części ogólnej</key>
+           
+        <key id="Property{::}BOMLine{::}pma0IsStandard" locale="pl_PL" status="Approved">Standard</key>
+           
+        <key id="Property{::}BOMLine{::}pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}BOMLine{::}pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}BOMLine{::}pma0SparePart" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}BOMLine{::}pma0TechnologyIntent" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartAttrs_pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0IsStandard" locale="pl_PL" status="Approved">Standard</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0SparePart" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}BOMLine{::}pma0_bl_Pma0PartRevAttrs_pma0TechnologyIntent" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="Property{::}Design Revision{::}desRev_Pma0DesignAttrs_pma0AlignToGenericPart" locale="pl_PL" status="Approved">Wyrównaj dla części ogólnej</key>
+           
+        <key id="Property{::}Design{::}des_Pma0DesignAttrs_pma0AlignToGenericPart" locale="pl_PL" status="Approved">Wyrównaj dla części ogólnej</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0SparePartInput" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}Part RevisionCreI{::}pma0TechnologyIntentInput" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="Property{::}Part Revision{::}pma0IsStandard" locale="pl_PL" status="Approved">Standard</key>
+           
+        <key id="Property{::}Part Revision{::}pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}Part Revision{::}pma0SparePart" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}Part Revision{::}pma0TechnologyIntent" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartAttrs_pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0IsStandard" locale="pl_PL" status="Approved">Standard</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0SparePart" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}Part Revision{::}pma0_partRev_Pma0PartRevAttrs_pma0TechnologyIntent" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="Property{::}PartCreI{::}pma0LessFinishInput" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}PartCreI{::}pma0MultiBodyInput" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}PartCreI{::}pma0SafetyPartInput" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}Part{::}pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}Part{::}pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}Part{::}pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}Part{::}pma0_part_Pma0PartAttrs_pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0AlignToGenericPart" locale="pl_PL" status="Approved">Wyrównaj dla części ogólnej</key>
+           
+        <key id="Property{::}Pma0DesignAttrs{::}pma0OwningObject" locale="pl_PL" status="Approved">Obiekt posiadający</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0LessFinish" locale="pl_PL" status="Approved">Typ wykończenia</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0MultiBody" locale="pl_PL" status="Approved">Wiele brył</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0OwningObject" locale="pl_PL" status="Approved">Obiekt posiadający</key>
+           
+        <key id="Property{::}Pma0PartAttrs{::}pma0SafetyPart" locale="pl_PL" status="Approved">Część zabezpieczająca</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0IsStandard" locale="pl_PL" status="Approved">Standard</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0OwningObject" locale="pl_PL" status="Approved">Obiekt posiadający</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0SparePart" locale="pl_PL" status="Approved">Część zamienna</key>
+           
+        <key id="Property{::}Pma0PartRevAttrs{::}pma0TechnologyIntent" locale="pl_PL" status="Approved">Zamierzenie technologiczne</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValResultProvider" locale="pl_PL" status="Approved">Zmień dostawcę wyniku walidacji</key>
+           
+        <key id="BusinessObject{::}Pma0ChangeValidationResult" locale="pl_PL" status="Approved">Zmień wynik walidacji pakietu</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0FailureReason" locale="pl_PL" status="Approved">Przyczyna</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0Issue" locale="pl_PL" status="Approved">Wydanie</key>
+           
+        <key id="Property{::}Pma0ChangeValidationResult{::}pma0SolutionItem" locale="pl_PL" status="Approved">Obiekty rozwiązania</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

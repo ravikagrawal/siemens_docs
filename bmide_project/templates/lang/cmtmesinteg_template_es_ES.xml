@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:13 PM 2026">
+    <Add>
+           
+        <key id="Event{::}Mei0DeltaCandidates" locale="es_ES" status="Approved">Candidatos Delta</key>
+           
+        <key id="Event{::}Mei0ExportAndRelease" locale="es_ES" status="Approved">Exportar y liberar</key>
+           
+        <key id="Event{::}Mei0GenerateMESWIRep" locale="es_ES" status="Approved">Generar las instrucciones de trabajo MES</key>
+           
+        <key id="Event{::}Mei0ModifyScope" locale="es_ES" status="Approved">Modificar el ámbito</key>
+           
+        <key id="Event{::}Mei0PropertyUpdate" locale="es_ES" status="Approved">Actualización de la propiedad</key>
+           
+        <key id="Event{::}Mei0ReleasetoExecution" locale="es_ES" status="Approved">Liberar para ejecutar</key>
+           
+        <key id="Event{::}Mei0ReleasetoProduction" locale="es_ES" status="Approved">Liberar para la producción</key>
+           
+        <key id="Event{::}Mei0Validation" locale="es_ES" status="Approved">Validación</key>
+           
+        <key id="BusinessObject{::}Mei0ExecutionPlanAI" locale="es_ES" status="Approved">Interfaz de la aplicación Plan de ejecución</key>
+           
+        <key id="BusinessObject{::}Mei0ExecutionPlan" locale="es_ES" status="Approved">Plan de ejecución</key>
+           
+        <key id="BusinessObject{::}Mei0ProductionPlan" locale="es_ES" status="Approved">Plan de producción</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfoRel" locale="es_ES" status="Approved">Relación entre la versión actualizada y la información sobre MES</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfoStorage" locale="es_ES" status="Approved">Relación entre la versión actualizada y el almacenamiento de la información sobre MES</key>
+           
+        <key id="BusinessObject{::}Mei0RelUpdToMesInfo" locale="es_ES" status="Approved">Relación entre la versión actualizada y la información sobre MES</key>
+           
+        <key id="BusinessObject{::}Mei0StructureContextRel" locale="es_ES" status="Approved">Relación con el contexto estructural</key>
+           
+        <key id="BusinessObject{::}Mei0WIMESRepresentationRel" locale="es_ES" status="Approved">Relación entre la representación MES y la instrucción de trabajo</key>
+           
+        <key id="BusinessObject{::}Mei0WIMESRepresentation" locale="es_ES" status="Approved">Representación MES de la instrucción de trabajo</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Certification Engineer" locale="es_ES" status="Approved">Ingeniero de certificación</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Inspector" locale="es_ES" status="Approved">Inspector</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Quality Engineer" locale="es_ES" status="Approved">Ingeniero de calidad</key>
+           
+        <key id="LOVValueDescription{::}Mei0MESSignOffRoles{::}Stamp Authority" locale="es_ES" status="Approved">Autoridad de sellado</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}High" locale="es_ES" status="Approved">Alto</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}Low" locale="es_ES" status="Approved">Bajo</key>
+           
+        <key id="LOVValueDescription{::}Mei0UpdateToMesImpact{::}Medium" locale="es_ES" status="Approved">Media</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Certification Engineer" locale="es_ES" status="Approved">Ingeniero de certificación</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Inspector" locale="es_ES" status="Approved">Inspector</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Quality Engineer" locale="es_ES" status="Approved">Ingeniero de calidad</key>
+           
+        <key id="LOVValue{::}Mei0MESSignOffRoles{::}Stamp Authority" locale="es_ES" status="Approved">Autoridad de sellado</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}High" locale="es_ES" status="Approved">Alto</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}Low" locale="es_ES" status="Approved">Bajo</key>
+           
+        <key id="LOVValue{::}Mei0UpdateToMesImpact{::}Medium" locale="es_ES" status="Approved">Medio</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0AltFormIds" locale="es_ES" status="Approved">ALT de los Id</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToCompleteOp" locale="es_ES" status="Approved">Firma electrónica para completar el trabajo</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToPauseOp" locale="es_ES" status="Approved">Firma electrónica para pausar el trabajo</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0ESignToStartOp" locale="es_ES" status="Approved">Firma electrónica para iniciar el trabajo</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SignOffRequired" locale="es_ES" status="Approved">La aprobación es necesaria</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SignOffRole" locale="es_ES" status="Approved">Rol de aprobación</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SkillCertName" locale="es_ES" status="Approved">Certificado de función</key>
+           
+        <key id="Property{::}MEOPRevision{::}mei0SkillCertRequired" locale="es_ES" status="Approved">El certificado de función es necesario</key>
+           
+        <key id="Property{::}Mei0ExecutionPlan{::}mei0orderId" locale="es_ES" status="Approved">Id de orden</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfoStorage{::}mei0Description" locale="es_ES" status="Approved">Descripción</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfoStorage{::}mei0Impact" locale="es_ES" status="Approved">Impacto</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfo{::}mei0Description" locale="es_ES" status="Approved">Descripción</key>
+           
+        <key id="Property{::}Mei0RelUpdToMesInfo{::}mei0Impact" locale="es_ES" status="Approved">Impacto</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToCompleteOp" locale="es_ES" status="Approved">Firma electrónica para completar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToPauseOp" locale="es_ES" status="Approved">Firma electrónica para pausar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0ESignToStartOp" locale="es_ES" status="Approved">Firma electrónica para iniciar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SignOffRequired" locale="es_ES" status="Approved">La aprobación es necesaria</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SignOffRole" locale="es_ES" status="Approved">Rol de aprobación</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SkillCertName" locale="es_ES" status="Approved">Certificado de función</key>
+           
+        <key id="Property{::}Mfg0BvrCompOP{::}mei0SkillCertRequired" locale="es_ES" status="Approved">El certificado de función es necesario</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToCompleteOp" locale="es_ES" status="Approved">Firma electrónica para completar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToPauseOp" locale="es_ES" status="Approved">Firma electrónica para pausar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ESignToStartOp" locale="es_ES" status="Approved">Firma electrónica para iniciar el trabajo</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SignOffRequired" locale="es_ES" status="Approved">La aprobación es necesaria</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SignOffRole" locale="es_ES" status="Approved">Rol de aprobación</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SkillCertName" locale="es_ES" status="Approved">Certificado de función</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0SkillCertRequired" locale="es_ES" status="Approved">El certificado de función es necesario</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0AltFormIds" locale="es_ES" status="Approved">ALT de los Id</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToCompleteOp" locale="es_ES" status="Approved">Firma electrónica para completar el trabajo</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToPauseOp" locale="es_ES" status="Approved">Firma electrónica para pausar el trabajo</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0ESignToStartOp" locale="es_ES" status="Approved">Firma electrónica para iniciar el trabajo</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SignOffRequired" locale="es_ES" status="Approved">La aprobación es necesaria</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SignOffRole" locale="es_ES" status="Approved">Rol de aprobación</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SkillCertName" locale="es_ES" status="Approved">Certificado de función</key>
+           
+        <key id="Property{::}Mfg0MECompOPRevision{::}mei0SkillCertRequired" locale="es_ES" status="Approved">El certificado de función es necesario</key>
+           
+        <key id="ReleaseStatus{::}Mei0PendingRelease" locale="es_ES" status="Approved">MES pendiente de liberación</key>
+           
+        <key id="ReleaseStatus{::}Mei0Released" locale="es_ES" status="Approved">MES liberado</key>
+           
+        <key id="ReleaseStatus{::}Mei0WorkInProgress" locale="es_ES" status="Approved">Trabajo de MES en curso</key>
+           
+        <key id="Property{::}BOPWindow{::}mei0ExecutionPlan" locale="es_ES" status="Approved">Plan de ejecución</key>
+           
+        <key id="Property{::}BOPWindow{::}mei0orderId" locale="es_ES" status="Approved">Id de orden</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0ChngCnstrctID" locale="es_ES" status="Approved">Modificar el Id de construcción</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mei0RelCandidatToUpdateMes" locale="es_ES" status="Approved">Liberar el candidato para actualizar MES</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mei0ChngCnstrctID" locale="es_ES" status="Approved">Modificar el Id de construcción</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mei0RelCandidatToUpdateMes" locale="es_ES" status="Approved">Liberar el candidato para actualizar MES</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

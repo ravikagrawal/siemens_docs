@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="pt_BR" status="Approved">Fornecedor de alvo alinhado</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="pt_BR" status="Approved">Possíveis Ações de Atualização</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="pt_BR" status="Approved">Atualização de BOM</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="pt_BR" status="Approved">Indica se a peça é sensível à cor</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="pt_BR" status="Approved">Indica se a peça é menos concluído</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="pt_BR" status="Approved">Atualização de BOM</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="pt_BR" status="Approved">Peça concluída</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="pt_BR" status="Approved">Menos concluído</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="pt_BR" status="Approved">Nenhuma</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="pt_BR" status="Approved">Design terceirizado</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="pt_BR" status="Approved">Design adquirido</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="pt_BR" status="Approved">Design interno</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="pt_BR" status="Approved">Não atribuído</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="pt_BR" status="Approved">Alinhar à Peça Genérica</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="pt_BR" status="Approved">Contextos de Peça Alinhada</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="pt_BR" status="Approved">Status de Liberação de Peças Alinhadas</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="pt_BR" status="Approved">Peças alinhadas</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="pt_BR" status="Approved">É Peça Alinhada</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="pt_BR" status="Approved">Peça Obrigatória</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="pt_BR" status="Approved">Peças alinhadas</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="pt_BR" status="Approved">Padrão</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="pt_BR" status="Approved">Contextos de Design Alinhado</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="pt_BR" status="Approved">Status de Liberação de Design Alinhado</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="pt_BR" status="Approved">Designs alinhados</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="pt_BR" status="Approved">É Design Alinhado </key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="pt_BR" status="Approved">Design necessário</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="pt_BR" status="Approved">Designs alinhados</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="pt_BR" status="Approved">Tipo de Acabamento</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="pt_BR" status="Approved">Multicorpo</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="pt_BR" status="Approved">Peça de segurança</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="pt_BR" status="Approved">Peça de reposição</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="pt_BR" status="Approved">Intenção de tecnologia</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="pt_BR" status="Approved">Ação Atualizar</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="pt_BR" status="Approved">Geração de BOM bem-sucedida</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="pt_BR" status="Approved">Atualização de BOM bem-sucedida</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="pt_BR" status="Approved">Alinhamento Existe</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="pt_BR" status="Approved">Define a visibilidade do comando "Criar e Atualizar". Ele está disponível apenas para objetos de Design.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

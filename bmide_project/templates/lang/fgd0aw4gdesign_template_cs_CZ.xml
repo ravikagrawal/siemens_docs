@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="cs_CZ" status="Approved">Poskytovatel struktury výrobku 4. generace</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="cs_CZ" status="Approved">Návrh objektu</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="cs_CZ" status="Approved">Podmnožina</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="cs_CZ" status="Approved">Zdrojový objekt odkazován poskytovatelem</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="cs_CZ" status="Approved">Použito u poskytovatele pracovní sady</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="cs_CZ" status="Approved">Platnost zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="cs_CZ" status="Approved">Uživatel poslední změny zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="cs_CZ" status="Approved">Vlastnící skupina zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="cs_CZ" status="Approved">Vlastník zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="cs_CZ" status="Approved">Datum vydání zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="cs_CZ" status="Approved">Popis zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="cs_CZ" status="Approved">Stav vydání zdrojového objektu</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="cs_CZ" status="Approved">ID revize zdrojového objektu</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="cs_CZ" status="Approved">Název zdrojového objektu</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="cs_CZ" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="cs_CZ" status="Approved">ID zdrojového objektu</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="cs_CZ" status="Approved">Zdrojový objekt</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="cs_CZ" status="Approved">Zdrojový objekt</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda má být příkaz "Zobrazit revizi" viditelný v řešení Návrh 4g.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda má uživatel dostatečná oprávnění k odstranění vybraného objektu.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="cs_CZ" status="Approved">Přehraje podmínku předpisu podmnožiny.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="cs_CZ" status="Approved">Tato podmínka určuje, zda má předaný objekt procesu oprávnění k zobrazení příkazu "Uložit jako"/"Revidovat". Vrací hodnotu true u jiného objektu procesu než podmínkového objektu.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

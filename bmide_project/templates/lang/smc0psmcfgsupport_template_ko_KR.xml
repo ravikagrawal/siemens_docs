@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="ko_KR" status="Approved">다양성 범위</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="ko_KR" status="Approved">솔루션 파생 정보 제공자</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="ko_KR" status="Approved">솔루션 파생 모델 ID 생성기 관계</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="ko_KR" status="Approved">솔루션 파생 모델 소스 정보</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="ko_KR" status="Approved">솔루션 파생 정보</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="ko_KR" status="Approved">솔루션 파생 모델 제공자</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="ko_KR" status="Approved">파생 모델 구성 가능 개체</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="ko_KR" status="Approved">솔루션 파생 모델 소스 관계</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="ko_KR" status="Approved">파생 모델 규칙 및 소스 BOM 행이 솔루션 파생 모델 생성 및 업데이트 작업에 대해 유효한지 결정하는 유효성 검사 조건</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ko_KR" status="Approved">솔루션 파생 모델</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="ko_KR" status="Approved">관리되지 않은 솔루션 파생 모델</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="ko_KR" status="Approved">관리되는 솔루션 파생 모델</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="ko_KR" status="Approved">솔루션 파생 모델 재사용</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="ko_KR" status="Approved">솔루션 파생 모델</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="ko_KR" status="Approved">관리되지 않음</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="ko_KR" status="Approved">관리됨</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="ko_KR" status="Approved">재사용</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="ko_KR" status="Approved">솔루션 파생 모델</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="ko_KR" status="Approved">솔루션 파생 모델 카테고리</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="ko_KR" status="Approved">Configurator Perspective</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="ko_KR" status="Approved">현재 파생 모델 구성기 컨텍스트</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="ko_KR" status="Approved">솔루션 파생 모델 카테고리</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="ko_KR" status="Approved">소스 BOM 행</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="ko_KR" status="Approved">카테고리</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="ko_KR" status="Approved">솔루션 파생이 형제로 존재</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="ko_KR" status="Approved">솔루션 파생 모델</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="ko_KR" status="Approved">수정된 파생 규칙</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="ko_KR" status="Approved">유효한 파생 규칙</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="ko_KR" status="Approved">솔루션 파생 모델에 유효함</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="ko_KR" status="Approved">파생 모델 규칙</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="ko_KR" status="Approved">수정된 소스 어셈블리</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="ko_KR" status="Approved">영향받는 개체</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="ko_KR" status="Approved">솔루션 파생 모델 아이템 구성</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="ko_KR" status="Approved">솔루션 파생 모델 소스</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="ko_KR" status="Approved">일반 파생 모델 BOM 뷰 리비전 최종 수정일</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="ko_KR" status="Approved">솔루션 파생 모델 작업</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="ko_KR" status="Approved">솔루션 파생 모델 BOM 뷰 리비전 최종 수정일</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="ko_KR" status="Approved">솔루션 파생 모델 카테고리</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="ko_KR" status="Approved">Configurator Perspective 제공자</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="ko_KR" status="Approved">솔루션 파생 모델 어커런스 속성</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="ko_KR" status="Approved">솔루션 파생 모델 소스 어커런스</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="ko_KR" status="Approved">파생 모델 조건</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="ko_KR" status="Approved">빌드 조합 결과</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="ko_KR" status="Approved">빌드 조합 정보</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="ko_KR" status="Approved">조직 노드 변화성</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="ko_KR" status="Approved">범위 지정 변화성 제공자</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="ko_KR" status="Approved">솔루션</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="ko_KR" status="Approved">조합 색상 밴드 작성</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2506 참조. 커버리지</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="ko_KR" status="Approved">빌드 조합 공식</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="ko_KR" status="Approved">빌드 조합</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="ko_KR" status="Approved">빌드 식 JSON</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="ko_KR" status="Approved">수식 일치</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2512 참조. 패밀리</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2512 참조. 특징형상</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="ko_KR" status="Approved">그룹 기준</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2506 참조. 색인</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="ko_KR" status="Approved">범위</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="ko_KR" status="Approved">빌드 조합 솔루션 UID</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="ko_KR" status="Approved">커버리지</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="ko_KR" status="Approved">색인</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="ko_KR" status="Approved">구성 조건</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="ko_KR" status="Approved">어커런스 빌드 조합 할당</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="ko_KR" status="Approved">조직 노드 변화성</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="ko_KR" status="Approved">빌드 조합</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="ko_KR" status="Approved">구성 패밀리</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="ko_KR" status="Approved">조직 노드 참조</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

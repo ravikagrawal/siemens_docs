@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:06 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mci0InspectionRelation" locale="zh_TW" status="Approved">偵測關係</key>
+           
+        <key id="BusinessObject{::}Mci0InspectionRevision" locale="zh_TW" status="Approved">偵測版本</key>
+           
+        <key id="BusinessObject{::}Mci0Inspection" locale="zh_TW" status="Approved">檢查</key>
+           
+        <key id="BusinessObject{::}Mci0PMIBop_Details" locale="zh_TW" status="Approved">PMI BOP 詳細資訊</key>
+           
+        <key id="BusinessObject{::}Mci0PMICharacteristic" locale="zh_TW" status="Approved">PMI 特性</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrmStrg" locale="zh_TW" status="Approved">PMI 特性表單儲存</key>
+           
+        <key id="BusinessObject{::}Mci0PMIChracteristicFrm" locale="zh_TW" status="Approved">PMI 特性表單</key>
+           
+        <key id="BusinessObject{::}Mci0PMIMetaData" locale="zh_TW" status="Approved">PMI 中繼資料</key>
+           
+        <key id="BusinessObject{::}Mci0PMIStorage" locale="zh_TW" status="Approved">PMI 儲存</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXmlRel" locale="zh_TW" status="Approved">PMI XML 關係</key>
+           
+        <key id="BusinessObject{::}Mci0PMIXml" locale="zh_TW" status="Approved">PMI XML</key>
+           
+        <key id="BusinessObject{::}Mci0PMI_Details" locale="zh_TW" status="Approved">PMI 詳細資訊</key>
+           
+        <key id="BusinessObject{::}Mci0PMI" locale="zh_TW" status="Approved">產品加工資訊</key>
+           
+        <key id="PSOccurrence{::}Mci0MEInspect" locale="zh_TW" status="Approved">ME 檢查</key>
+           
+        <key id="Property{::}BOMLine{::}Characteristics Type" locale="zh_TW" status="Approved">PMI 特性類型</key>
+           
+        <key id="Property{::}BOMLine{::}DCD Place Holder" locale="zh_TW" status="Approved">DCD 預留位置</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Dimension Type" locale="zh_TW" status="Approved">PMI 尺寸類型</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Code" locale="zh_TW" status="Approved">PMI 形位公差程式碼</key>
+           
+        <key id="Property{::}BOMLine{::}PMI GDT Text" locale="zh_TW" status="Approved">PMI 形位公差文字</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Is Composite FCF" locale="zh_TW" status="Approved">PMI 為複合 FCF</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Lower Spec Limit" locale="zh_TW" status="Approved">PMI 規範下限</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Marked As Deleted" locale="zh_TW" status="Approved">PMI 標記為已刪除</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Modifier" locale="zh_TW" status="Approved">PMI 修飾符</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Nominal Value" locale="zh_TW" status="Approved">PMI 標稱值</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Not For Inspection" locale="zh_TW" status="Approved">PMI 不用於檢查</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Place Holder" locale="zh_TW" status="Approved">PMI 預留位置</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Primary Datum Ref" locale="zh_TW" status="Approved">PMI 第一基準參照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Second Datum Ref" locale="zh_TW" status="Approved">PMI 第二基準參照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tertiary Datum Ref" locale="zh_TW" status="Approved">PMI 第三基準參照</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Tolerance Is Absolute" locale="zh_TW" status="Approved">PMI 公差為絕對值</key>
+           
+        <key id="Property{::}BOMLine{::}PMI UOM" locale="zh_TW" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}BOMLine{::}PMI Upper Spec Limit" locale="zh_TW" status="Approved">PMI 規範上限</key>
+           
+        <key id="Property{::}BOMLine{::}Tolerance Desc" locale="zh_TW" status="Approved">PMI 公差敘述</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationId" locale="zh_TW" status="Approved">PMI 關聯 ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0AssociationType" locale="zh_TW" status="Approved">PMI 關聯類型</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Criticality" locale="zh_TW" status="Approved">重要程度</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0DimensionType" locale="zh_TW" status="Approved">PMI 尺寸類型</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0FrameLocation" locale="zh_TW" status="Approved">PMI 框位置</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTCode" locale="zh_TW" status="Approved">形位公差程式碼</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0GDandTText" locale="zh_TW" status="Approved">形位公差文字</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsAbsolutePMI" locale="zh_TW" status="Approved">PMI 公差為絕對值</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPMICompositeFCF" locale="zh_TW" status="Approved">PMI 為複合 FCF</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0IsPartPmi" locale="zh_TW" status="Approved">PMI 是零件</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0LowerSpecLimit" locale="zh_TW" status="Approved">規範下限</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0MarkedAsDeleted" locale="zh_TW" status="Approved">標記為已刪除</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Modifier" locale="zh_TW" status="Approved">PMI 修飾符</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0NominalValue" locale="zh_TW" status="Approved">標稱值</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiBaseUUID" locale="zh_TW" status="Approved">PMI 基礎 UUID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiDescription" locale="zh_TW" status="Approved">PMI 敘述</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiExtensionID" locale="zh_TW" status="Approved">PMI 擴展 ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0PmiID" locale="zh_TW" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0Text" locale="zh_TW" status="Approved">PMI 文字</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UOM" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0UpperSpecLimit" locale="zh_TW" status="Approved">規範上限</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristicsType" locale="zh_TW" status="Approved">特性類型</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0characteristic" locale="zh_TW" status="Approved">特性</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0pmiMetaData" locale="zh_TW" status="Approved">PMI 中繼資料</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0primaryDatumReference" locale="zh_TW" status="Approved">第一基準參照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0secondaryDatumReference" locale="zh_TW" status="Approved">第二基準參照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisI" locale="zh_TW" status="Approved">曲面軸 I</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisJ" locale="zh_TW" status="Approved">曲面軸 J</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceAxisK" locale="zh_TW" status="Approved">曲面軸 K</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceEntity" locale="zh_TW" status="Approved">曲面實體</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationX" locale="zh_TW" status="Approved">曲面位置 X</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationY" locale="zh_TW" status="Approved">曲面位置 Y</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceLocationZ" locale="zh_TW" status="Approved">曲面位置 Z</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceRadius" locale="zh_TW" status="Approved">曲面半徑</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0surfaceType" locale="zh_TW" status="Approved">曲面類型</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0tertiaryDatumReference" locale="zh_TW" status="Approved">第三基準參照</key>
+           
+        <key id="Property{::}Mci0InspectionRevision{::}mci0toleranceDesc" locale="zh_TW" status="Approved">公差敘述</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DatumLabel" locale="zh_TW" status="Approved">基準標籤</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0DimensionType" locale="zh_TW" status="Approved">PMI 尺寸類型</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTCode" locale="zh_TW" status="Approved">形位公差程式碼</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0GDandTText" locale="zh_TW" status="Approved">形位公差文字</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsAbsolutePMI" locale="zh_TW" status="Approved">PMI 公差為絕對值</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0IsPMICompositeFCF" locale="zh_TW" status="Approved">PMI 為複合 FCF</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0LowerSpecLimit" locale="zh_TW" status="Approved">規範下限</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0MarkedAsDeleted" locale="zh_TW" status="Approved">標記為已刪除</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Modifier" locale="zh_TW" status="Approved">PMI 修飾符</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0NominalValue" locale="zh_TW" status="Approved">標稱值</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiBaseUUID" locale="zh_TW" status="Approved">PMI 基礎 UUID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiDescription" locale="zh_TW" status="Approved">PMI 敘述</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiExtensionID" locale="zh_TW" status="Approved">PMI 擴展 ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0PmiID" locale="zh_TW" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0Text" locale="zh_TW" status="Approved">PMI 文字</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UOM" locale="zh_TW" status="Approved">度量單位</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0UpperSpecLimit" locale="zh_TW" status="Approved">規範上限</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0characteristicsType" locale="zh_TW" status="Approved">特性類型</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0pmiMetaData" locale="zh_TW" status="Approved">PMI 中繼資料</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0primaryDatumReference" locale="zh_TW" status="Approved">第一基準參照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0secondaryDatumReference" locale="zh_TW" status="Approved">第二基準參照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisI" locale="zh_TW" status="Approved">曲面軸 I</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisJ" locale="zh_TW" status="Approved">曲面軸 J</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceAxisK" locale="zh_TW" status="Approved">曲面軸 K</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceEntity" locale="zh_TW" status="Approved">曲面實體</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationX" locale="zh_TW" status="Approved">曲面位置 X</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationY" locale="zh_TW" status="Approved">曲面位置 Y</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceLocationZ" locale="zh_TW" status="Approved">曲面位置 Z</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceRadius" locale="zh_TW" status="Approved">曲面半徑</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0surfaceType" locale="zh_TW" status="Approved">曲面類型</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0tertiaryDatumReference" locale="zh_TW" status="Approved">第三基準參照</key>
+           
+        <key id="Property{::}Mci0PMICharacteristic{::}mci0toleranceDesc" locale="zh_TW" status="Approved">公差敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0DimensionType" locale="zh_TW" status="Approved">PMI 尺寸類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Frequency" locale="zh_TW" status="Approved">頻率</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTCode" locale="zh_TW" status="Approved">形位公差程式碼</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0GDandTText" locale="zh_TW" status="Approved">形位公差文字</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0InspectionType" locale="zh_TW" status="Approved">檢查類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsAbsolutePMI" locale="zh_TW" status="Approved">PMI 公差為絕對值</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0IsPMICompositeFCF" locale="zh_TW" status="Approved">PMI 為複合 FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0LowerSpecLimit" locale="zh_TW" status="Approved">規範下限</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MarkedAsDeleted" locale="zh_TW" status="Approved">標記為已刪除</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0MeasurementMethod" locale="zh_TW" status="Approved">測量方式</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Modifier" locale="zh_TW" status="Approved">PMI 修飾符</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NominalValue" locale="zh_TW" status="Approved">標稱值</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0NotForInspection" locale="zh_TW" status="Approved">不用於檢查</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PlannerDescription" locale="zh_TW" status="Approved">規劃器敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0PmiDescription" locale="zh_TW" status="Approved">PMI 敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0Responsible" locale="zh_TW" status="Approved">負責人</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0UpperSpecLimit" locale="zh_TW" status="Approved">規範上限</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0characteristicsType" locale="zh_TW" status="Approved">特性類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0primaryDatumReference" locale="zh_TW" status="Approved">第一基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0secondaryDatumReference" locale="zh_TW" status="Approved">第二基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisI" locale="zh_TW" status="Approved">曲面軸 I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisJ" locale="zh_TW" status="Approved">曲面軸 J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceAxisK" locale="zh_TW" status="Approved">曲面軸 K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceEntity" locale="zh_TW" status="Approved">曲面實體</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationX" locale="zh_TW" status="Approved">曲面位置 X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationY" locale="zh_TW" status="Approved">曲面位置 Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceLocationZ" locale="zh_TW" status="Approved">曲面位置 Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceRadius" locale="zh_TW" status="Approved">曲面半徑</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0surfaceType" locale="zh_TW" status="Approved">曲面類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0tertiaryDatumReference" locale="zh_TW" status="Approved">第三基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrmStrg{::}mci0toleranceDesc" locale="zh_TW" status="Approved">公差敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0DimensionType" locale="zh_TW" status="Approved">PMI 尺寸類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Frequency" locale="zh_TW" status="Approved">頻率</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTCode" locale="zh_TW" status="Approved">形位公差程式碼</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0GDandTText" locale="zh_TW" status="Approved">形位公差文字</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0InspectionType" locale="zh_TW" status="Approved">檢查類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsAbsolutePMI" locale="zh_TW" status="Approved">PMI 公差為絕對值</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0IsPMICompositeFCF" locale="zh_TW" status="Approved">PMI 為複合 FCF</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0LowerSpecLimit" locale="zh_TW" status="Approved">規範下限</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MarkedAsDeleted" locale="zh_TW" status="Approved">標記為已刪除</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0MeasurementMethod" locale="zh_TW" status="Approved">測量方式</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Modifier" locale="zh_TW" status="Approved">PMI 修飾符</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NominalValue" locale="zh_TW" status="Approved">標稱值</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0NotForInspection" locale="zh_TW" status="Approved">不用於檢查</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PlannerDescription" locale="zh_TW" status="Approved">規劃器敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0PmiDescription" locale="zh_TW" status="Approved">PMI 敘述</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0Responsible" locale="zh_TW" status="Approved">負責人</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0UpperSpecLimit" locale="zh_TW" status="Approved">規範上限</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0characteristicsType" locale="zh_TW" status="Approved">特性類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0primaryDatumReference" locale="zh_TW" status="Approved">第一基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0secondaryDatumReference" locale="zh_TW" status="Approved">第二基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisI" locale="zh_TW" status="Approved">曲面軸 I</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisJ" locale="zh_TW" status="Approved">曲面軸 J</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceAxisK" locale="zh_TW" status="Approved">曲面軸 K</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceEntity" locale="zh_TW" status="Approved">曲面實體</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationX" locale="zh_TW" status="Approved">曲面位置 X</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationY" locale="zh_TW" status="Approved">曲面位置 Y</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceLocationZ" locale="zh_TW" status="Approved">曲面位置 Z</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceRadius" locale="zh_TW" status="Approved">曲面半徑</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceType" locale="zh_TW" status="Approved">曲面類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0tertiaryDatumReference" locale="zh_TW" status="Approved">第三基準參照</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0toleranceDesc" locale="zh_TW" status="Approved">公差敘述</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationId" locale="zh_TW" status="Approved">PMI 關聯 ID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0AssociationType" locale="zh_TW" status="Approved">PMI 關聯類型</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0FrameLocation" locale="zh_TW" status="Approved">PMI 框位置</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0IsPartPmi" locale="zh_TW" status="Approved">PMI 是零件</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0JTDataset" locale="zh_TW" status="Approved">JT 資料集</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0NGIDs" locale="zh_TW" status="Approved">NGID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0accountabilityID" locale="zh_TW" status="Approved">責信度 ID</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0connectedParts" locale="zh_TW" status="Approved">相連零件</key>
+           
+        <key id="Property{::}Mci0PMIMetaData{::}mci0context" locale="zh_TW" status="Approved">關聯</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0AccountabilityID" locale="zh_TW" status="Approved">責信度 ID</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMICharacteristicsUid" locale="zh_TW" status="Approved">PMI 特性 UID</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PMIReferencePart" locale="zh_TW" status="Approved">PMI 參考零件</key>
+           
+        <key id="Property{::}Mci0PMIStorage{::}mci0PmiID" locale="zh_TW" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0OwningItemID" locale="zh_TW" status="Approved">所有權項目 ID</key>
+           
+        <key id="Property{::}Mci0PMIXmlRel{::}mci0PMIDatasetLastModDate" locale="zh_TW" status="Approved">PMI 資料集的最後修改日期</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0AccountabilityID" locale="zh_TW" status="Approved">責信度 ID</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMICharacteristicsUid" locale="zh_TW" status="Approved">PMI 特性 UID</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PMIReferencePart" locale="zh_TW" status="Approved">PMI 參考零件</key>
+           
+        <key id="Property{::}Mci0PMI{::}mci0PmiID" locale="zh_TW" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0Criticality" locale="zh_TW" status="Approved">重要程度</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0KeyCharacteristics" locale="zh_TW" status="Approved">關鍵特性</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mci0UOM" locale="zh_TW" status="Approved">PMI UOM</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0Criticality" locale="zh_TW" status="Approved">重要程度</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0KeyCharacteristics" locale="zh_TW" status="Approved">關鍵特性</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mci0UOM" locale="zh_TW" status="Approved">PMI UOM</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Critical" locale="zh_TW" status="Approved">嚴重性級別為嚴重</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Documentation" locale="zh_TW" status="Approved">嚴重性級別為文件</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Major" locale="zh_TW" status="Approved">嚴重性級別為主要</key>
+           
+        <key id="LOVValueDescription{::}Mci0CriticalityLOV{::}Minor" locale="zh_TW" status="Approved">嚴重性級別為次要</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="zh_TW" status="Approved">設計關鍵特性</key>
+           
+        <key id="LOVValueDescription{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="zh_TW" status="Approved">工藝關鍵特性</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Angularity" locale="zh_TW" status="Approved">特性類型傾斜度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="zh_TW" status="Approved">特性類型軸交點</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularity" locale="zh_TW" status="Approved">特性類型圓度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="zh_TW" status="Approved">特性類型圓跳動</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Concentricity" locale="zh_TW" status="Approved">特性類型同軸度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="zh_TW" status="Approved">特性類型圓柱度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Flatness" locale="zh_TW" status="Approved">特性類型平面度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Parallelism" locale="zh_TW" status="Approved">特性類型平行度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="zh_TW" status="Approved">特性類型垂直度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Position" locale="zh_TW" status="Approved">特性類型位置度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="zh_TW" status="Approved">特性類型線輪廓度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="zh_TW" status="Approved">特性類型面輪廓度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Straightness" locale="zh_TW" status="Approved">特性類型直線度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Symmetry" locale="zh_TW" status="Approved">特性類型對稱度</key>
+           
+        <key id="LOVValueDescription{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="zh_TW" status="Approved">特性類型全跳動</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BLEND" locale="zh_TW" status="Approved">曲面類型混合</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}BSPLINE" locale="zh_TW" status="Approved">曲面類型 B 樣條</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CONE" locale="zh_TW" status="Approved">曲面類型圓錐</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}CYLINDER" locale="zh_TW" status="Approved">曲面類型圓柱</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}OFFSET" locale="zh_TW" status="Approved">曲面類型偏置</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}PLANE" locale="zh_TW" status="Approved">曲面類型平面</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPHERE" locale="zh_TW" status="Approved">曲面類型球</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SPUN" locale="zh_TW" status="Approved">曲面類型旋轉</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}SWEPT" locale="zh_TW" status="Approved">曲面類型掃掠</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}TORUS" locale="zh_TW" status="Approved">曲面類型環面</key>
+           
+        <key id="LOVValueDescription{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="zh_TW" status="Approved">曲面類型未知</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Critical" locale="zh_TW" status="Approved">嚴重</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Documentation" locale="zh_TW" status="Approved">文件</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Major" locale="zh_TW" status="Approved">主要</key>
+           
+        <key id="LOVValue{::}Mci0CriticalityLOV{::}Minor" locale="zh_TW" status="Approved">次要</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Boolean" locale="zh_TW" status="Approved">布林型</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Go-No Go" locale="zh_TW" status="Approved">執行-不執行</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Min-Max" locale="zh_TW" status="Approved">最小值-最大值</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Numeric" locale="zh_TW" status="Approved">數字</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Pass-Fail" locale="zh_TW" status="Approved">通過-失敗</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}String" locale="zh_TW" status="Approved">字串型</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}True-False" locale="zh_TW" status="Approved">True-False</key>
+           
+        <key id="LOVValue{::}Mci0InspectionTypeLOV{::}Yes-No" locale="zh_TW" status="Approved">是-否</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}DKC" locale="zh_TW" status="Approved">DKC</key>
+           
+        <key id="LOVValue{::}Mci0KeyCharacteristicsLOV{::}PKC" locale="zh_TW" status="Approved">PKC</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Angularity" locale="zh_TW" status="Approved">傾斜度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Axisintersection" locale="zh_TW" status="Approved">軸交點</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularity" locale="zh_TW" status="Approved">圓度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Circularrunout" locale="zh_TW" status="Approved">圓跳動</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Concentricity" locale="zh_TW" status="Approved">同心度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Cylindricity" locale="zh_TW" status="Approved">圓柱度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Flatness" locale="zh_TW" status="Approved">平面度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Parallelism" locale="zh_TW" status="Approved">平行度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Perpendicularity" locale="zh_TW" status="Approved">垂直度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Position" locale="zh_TW" status="Approved">位置度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofaline" locale="zh_TW" status="Approved">線輪廓度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Profileofasurface" locale="zh_TW" status="Approved">面輪廓度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Straightness" locale="zh_TW" status="Approved">直線度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Symmetry" locale="zh_TW" status="Approved">對稱度</key>
+           
+        <key id="LOVValue{::}Mci0characteristicTypeLOV{::}Totalrunout" locale="zh_TW" status="Approved">全跳動</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BLEND" locale="zh_TW" status="Approved">混合</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}BSPLINE" locale="zh_TW" status="Approved">B 樣條</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CONE" locale="zh_TW" status="Approved">圓錐</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}CYLINDER" locale="zh_TW" status="Approved">圓柱</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}OFFSET" locale="zh_TW" status="Approved">偏置</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}PLANE" locale="zh_TW" status="Approved">平面</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPHERE" locale="zh_TW" status="Approved">球</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SPUN" locale="zh_TW" status="Approved">旋轉</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}SWEPT" locale="zh_TW" status="Approved">掃掠</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}TORUS" locale="zh_TW" status="Approved">環面</key>
+           
+        <key id="LOVValue{::}Mci0surfaceTypeLov{::}UNKNOWN" locale="zh_TW" status="Approved">未知</key>
+           
+        <key id="BusinessObject{::}Mci0BvrBopPMI" locale="zh_TW" status="Approved">PMI BOP BVR</key>
+           
+        <key id="Property{::}BOMLine{::}mci0PMIAttachedDataset" locale="zh_TW" status="Approved">PMI 附加的資料集</key>
+           
+        <key id="Property{::}BOMLine{::}mciJTAttachedDataset" locale="zh_TW" status="Approved">PMI 附加的 JT 資料集</key>
+           
+        <key id="Property{::}GDELine{::}mci0AccountabilityID" locale="zh_TW" status="Approved">PMI 責信度 ID</key>
+           
+        <key id="Property{::}GDELine{::}mci0Criticality" locale="zh_TW" status="Approved">PMI 嚴重程度</key>
+           
+        <key id="Property{::}GDELine{::}mci0KeyCharacteristics" locale="zh_TW" status="Approved">PMI 關鍵特性</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMICharacteristicsUid" locale="zh_TW" status="Approved">PMI 特性 UID</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIDescription" locale="zh_TW" status="Approved">PMI 敘述</key>
+           
+        <key id="Property{::}GDELine{::}mci0PMIReferencePart" locale="zh_TW" status="Approved">PMI 參考零件</key>
+           
+        <key id="Property{::}GDELine{::}mci0PmiID" locale="zh_TW" status="Approved">PMI ID</key>
+           
+        <key id="Property{::}GDELine{::}PMI Inspection Type" locale="zh_TW" status="Approved">PMI 檢查類型</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Criticality" locale="zh_TW" status="Approved">PMI 嚴重程度</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Frequency" locale="zh_TW" status="Approved">PMI 頻率</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0InspectionProcedure" locale="zh_TW" status="Approved">PMI 檢查程序</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0MeasurementMethod" locale="zh_TW" status="Approved">PMI 測量方式</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0PlannerDescription" locale="zh_TW" status="Approved">PMI 規劃器敘述</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0Responsible" locale="zh_TW" status="Approved">PMI 負責人</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisI" locale="zh_TW" status="Approved">曲面軸 I</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisJ" locale="zh_TW" status="Approved">曲面軸 J</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceAxisK" locale="zh_TW" status="Approved">曲面軸 K</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceEntity" locale="zh_TW" status="Approved">曲面實體</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationX" locale="zh_TW" status="Approved">曲面位置 X</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationY" locale="zh_TW" status="Approved">曲面位置 Y</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceLocationZ" locale="zh_TW" status="Approved">曲面位置 Z</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceName" locale="zh_TW" status="Approved">曲面名稱</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceRadius" locale="zh_TW" status="Approved">曲面半徑</key>
+           
+        <key id="Property{::}Mci0BvrBopPMI{::}mci0surfaceType" locale="zh_TW" status="Approved">曲面類型</key>
+           
+        <key id="Property{::}Mci0PMIChracteristicFrm{::}mci0surfaceName" locale="zh_TW" status="Approved">曲面名稱</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

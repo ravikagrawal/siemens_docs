@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:53 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgf0ApplicationModel" locale="es_ES" status="Approved">Modelo de la aplicación</key>
+           
+        <key id="BusinessObject{::}Fgf0BaselineRevProvider" locale="es_ES" status="Approved">Obsoleto. Proveedor de revisiones de línea base</key>
+           
+        <key id="BusinessObject{::}Fgf0BaselineRevisionElement" locale="es_ES" status="Approved">Elemento de revisión de línea base</key>
+           
+        <key id="BusinessObject{::}Fgf0BookmarkData" locale="es_ES" status="Approved">Datos del marcador de página</key>
+           
+        <key id="BusinessObject{::}Fgf0BuildConditionElement" locale="es_ES" status="Approved">Elemento de condición de la construcción</key>
+           
+        <key id="BusinessObject{::}Fgf0BuildConditionInfo" locale="es_ES" status="Approved">Condición de la construcción</key>
+           
+        <key id="BusinessObject{::}Fgf0Composition" locale="es_ES" status="Approved">Composición</key>
+           
+        <key id="BusinessObject{::}Fgf0ConfiguredAttrGroupProvider" locale="es_ES" status="Approved">Proveedor de grupos de atributos configurado</key>
+           
+        <key id="BusinessObject{::}Fgf0MappedPartitionsProvider" locale="es_ES" status="Approved">Proveedor de particiones mapeadas</key>
+           
+        <key id="BusinessObject{::}Fgf0ModelArtifact" locale="es_ES" status="Approved">Artefacto modelo</key>
+           
+        <key id="BusinessObject{::}Fgf0ParentPartitionsProvider" locale="es_ES" status="Approved">Proveedor de particiones madre</key>
+           
+        <key id="BusinessObject{::}Fgf0PartitionElement" locale="es_ES" status="Approved">Elemento de partición</key>
+           
+        <key id="BusinessObject{::}Fgf0PartitionSchemeProvider" locale="es_ES" status="Approved">Proveedor de esquemas de partición</key>
+           
+        <key id="BusinessObject{::}Fgf0PtnMapSrcPtnsProvider" locale="es_ES" status="Approved">Proveedor de particiones fuente mapeadas</key>
+           
+        <key id="BusinessObject{::}Fgf0PtnSchemeTypeProvider" locale="es_ES" status="Approved">Proveedor de tipos de esquema de partición</key>
+           
+        <key id="BusinessObject{::}Fgf0RealizedPartitionsProvider" locale="es_ES" status="Approved">Proveedor de particiones realizadas</key>
+           
+        <key id="BusinessObject{::}Fgf0SourceContextProvider" locale="es_ES" status="Approved">Proveedor de contextos fuente</key>
+           
+        <key id="BusinessObject{::}Fgf0SubsetElement" locale="es_ES" status="Approved">Elemento del subconjunto</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}fgf0PartitionScheme" locale="es_ES" status="Approved">Esquema de partición</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}fgf0ElementRevId" locale="es_ES" status="Approved">Id de revisión del elemento</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}fgf0UnderlyingSourceObjName" locale="es_ES" status="Approved">Nombre del objeto fuente</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}fgf0UnderlyingSourceObjType" locale="es_ES" status="Approved">Tipo de objeto fuente </key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0CheckedOutUser" locale="es_ES" status="Approved">Desprotegido por</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0CurrentConfiguration" locale="es_ES" status="Approved">Configuración actual</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0IsPartitionable" locale="es_ES" status="Approved">Es particionable</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0LastModDate" locale="es_ES" status="Approved">Fecha de la última modificación</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0LastModUser" locale="es_ES" status="Approved">Último usuario modificador</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0OwningGroup" locale="es_ES" status="Approved">Id de grupo</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0OwningUser" locale="es_ES" status="Approved">Propietario</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0UnderlyingObjDesc" locale="es_ES" status="Approved">Descripción del elemento</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0UnderlyingObjectType" locale="es_ES" status="Approved">Tipo obsoleto</key>
+           
+        <key id="Property{::}Awb0Element{::}fgf0WherePartitioned" locale="es_ES" status="Approved">Dónde se particiona</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}fgf0NumberOfPositions" locale="es_ES" status="Approved">Número de posiciones</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0CurrentBaseline" locale="es_ES" status="Approved">Obsoleto. Línea base actual</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0CurrentSourceContext" locale="es_ES" status="Approved">Contexto fuente actual</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0EffContextId" locale="es_ES" status="Approved">Id de contexto de efectividad</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0EffContextNamespace" locale="es_ES" status="Approved">Espacio de nombres del contexto de efectividad</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0EffectivityDisplay" locale="es_ES" status="Approved">Visualización de la efectividad</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0IntentFormulaList" locale="es_ES" status="Approved">Lista de fórmulas de intención</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0ModelConfigContext" locale="es_ES" status="Approved">Contexto de configuración del modelo</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0PartitionConfigContext" locale="es_ES" status="Approved">Contexto de configuración de la partición</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0PartitionScheme" locale="es_ES" status="Approved">Esquema de partición</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0ShowBuildConditions" locale="es_ES" status="Approved">Mostrar las condiciones de la generación</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}fgf0ViewList" locale="es_ES" status="Approved">Vista</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0EffectivityFormula" locale="es_ES" status="Approved">Fórmula de efectividad</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0ModelContext" locale="es_ES" status="Approved">Contexto del modelo obsoleto</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0PartitionContext" locale="es_ES" status="Approved">Contexto de la partición obsoleto</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0PartitionScheme" locale="es_ES" status="Approved">Esquema de partición</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0Recipe" locale="es_ES" status="Approved">Receta</key>
+           
+        <key id="Property{::}Fgf0BookmarkData{::}fgf0VariantFormula" locale="es_ES" status="Approved">Obsoleta. Fórmula de variante</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0BuildExpressionDisplay" locale="es_ES" status="Approved">Expresión de construcción</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0BuildExpression" locale="es_ES" status="Approved">Fórmula de la expresión de construcción</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0Effectivity_formula" locale="es_ES" status="Approved">Fórmula de efectividad</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0ElementReleaseStatus" locale="es_ES" status="Approved">Estatus de liberación del elemento</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0Type" locale="es_ES" status="Approved">Tipo</key>
+           
+        <key id="Property{::}Fgf0BuildConditionElement{::}fgf0Variant_formula" locale="es_ES" status="Approved">Fórmula de variante</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0BuildExpressionDisplay" locale="es_ES" status="Approved">Expresión de construcción</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0BuildExpression" locale="es_ES" status="Approved">Fórmula de la expresión de construcción</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0Effectivity_formula" locale="es_ES" status="Approved">Fórmula de efectividad</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0ElementReleaseStatus" locale="es_ES" status="Approved">Estatus de liberación del elemento</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0Name" locale="es_ES" status="Approved">Nombre</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0UnderlyingObject" locale="es_ES" status="Approved">Objeto subyacente</key>
+           
+        <key id="Property{::}Fgf0BuildConditionInfo{::}fgf0Variant_formula" locale="es_ES" status="Approved">Fórmula de variante</key>
+           
+        <key id="Property{::}Fgf0PartitionElement{::}awb0ArchetypeRevName" locale="es_ES" status="Approved">Nombre del objeto fuente</key>
+           
+        <key id="Property{::}Fgf0SubsetElement{::}fgf0ModelObject" locale="es_ES" status="Approved">Objeto modelo</key>
+           
+        <key id="Property{::}Mdl0BaselineRevision{::}fgf0ModelObjectName" locale="es_ES" status="Approved">Objeto modelo</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjEffText" locale="es_ES" status="Approved">Efectividad del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjLastModUser" locale="es_ES" status="Approved">Usuario de la última modificación del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjOwningGroup" locale="es_ES" status="Approved">Grupo propietario del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjOwningUser" locale="es_ES" status="Approved">Usuario propietario del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjRelDate" locale="es_ES" status="Approved">Fecha de liberación del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjectDesc" locale="es_ES" status="Approved">Descripción del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjectRelStatus" locale="es_ES" status="Approved">Estatus de liberación del objeto fuente de la partición</key>
+           
+        <key id="Property{::}Ptn0Partition{::}fgf0SourceObjectRevId" locale="es_ES" status="Approved">Id de revisión del objeto fuente de la partición</key>
+           
+        <key id="CommandDisplayName{::}Fgf0ConfigurationFilter" locale="es_ES" status="Approved">Configuración</key>
+           
+        <key id="CommandDisplayName{::}Fgf0CreateMapping" locale="es_ES" status="Approved">Agregar</key>
+           
+        <key id="CommandDisplayName{::}Fgf0DeleteCmd" locale="es_ES" status="Approved">Eliminar</key>
+           
+        <key id="CommandDisplayName{::}Fgf0DissociateFromBC" locale="es_ES" status="Approved">Quitar</key>
+           
+        <key id="CommandDisplayName{::}Fgf0Organization" locale="es_ES" status="Approved">Organización</key>
+           
+        <key id="CommandDisplayName{::}Fgf0ReplayPartitionRecipe" locale="es_ES" status="Approved">Repetir la receta de la partición</key>
+           
+        <key id="CommandDisplayName{::}Fgf0ReplayRecipe" locale="es_ES" status="Approved">Repetir la receta del subconjunto</key>
+           
+        <key id="CommandDisplayName{::}Fgf0ToggleBuildConditions" locale="es_ES" status="Approved">Mostrar las condiciones de la generación</key>
+           
+        <key id="CommandDisplayName{::}Fgf0UnMapping" locale="es_ES" status="Approved">Quitar</key>
+           
+        <key id="CommandDisplayName{::}Fgf0UnassignPtnMember" locale="es_ES" status="Approved">Desasignar</key>
+           
+        <key id="ConditionDescription{::}Fgf0DeleteCmdCnd" locale="es_ES" status="Approved">Determina si el comando Eliminar es visible para el objeto de negocio dado.</key>
+           
+        <key id="ConditionDescription{::}Fgf0IsOrganizationCmdVisibleCnd" locale="es_ES" status="Approved">Esto determina si se puede crear la organización en un objeto de negocio dado.</key>
+           
+        <key id="ConditionDescription{::}Fgf0ReplayPartitionRecipeCmdCnd" locale="es_ES" status="Approved">Repetir la condición de la receta de la partición</key>
+           
+        <key id="ConditionDescription{::}Fgf0ShowSaveAsCmdCond" locale="es_ES" status="Approved">Esta condición convertiría en visible el comando Guardar como o Revisar en la partición.</key>
+           
+        <key id="ConditionDescription{::}Fgf0ToggleBuildConditionsCmdCond" locale="es_ES" status="Approved">Esta condición determina si se puede activar el comando Alternar condiciones de la generación.</key>
+           
+        <key id="ConditionDescription{::}Fgf0UnassignCmdCnd" locale="es_ES" status="Approved">Determina si el comando Desasignar es visible para el objeto de negocio dado.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

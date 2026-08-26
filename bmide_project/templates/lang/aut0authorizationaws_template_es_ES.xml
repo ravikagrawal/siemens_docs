@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="es_ES" status="Approved">Licencias</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="es_ES" status="Approved">Licencias</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="es_ES" status="Approved">Agregar un proyecto</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="es_ES" status="Approved">La condición de visibilidad del comando del lado del servidor correspondiente al comando de las licencias. Este comando debe estar visible en las versiones de Teamcenter &lt;=11.2.3. Debe estar visible solamente si el objeto seleccionado es de tipo Objeto del área de trabajo, Conjunto de datos o Formulario. No debe estar visible si el objeto seleccionado no es de tipo Tarea EPM o Aprobación. Pero debe estar visible si el usuario que inició la sesión es miembro del grupo de bases de datos, o si tiene el rol de administrador de ITAR o administrador de IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="es_ES" status="Approved">La condición de visibilidad del comando del lado del servidor correspondiente al comando de las licencias. Este comando debe estar visible en las versiones de Teamcenter &lt;=11.3. Debe estar visible solamente si el objeto seleccionado es de tipo Objeto del área de trabajo, Conjunto de datos o Formulario. No debe estar visible si el objeto seleccionado no es de tipo Tarea EPM o Aprobación. Pero debe estar visible si el usuario que inició la sesión es miembro del grupo de bases de datos, o si tiene el rol de administrador de ITAR o administrador de IP.</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="es_ES" status="Approved">Condición de visibilidad del comando del lado del servidor para el comando Agregar proyecto. Este comando debe estar visible, si el usuario inicia la sesión con el grupo con permisos, o con el grupo Administración de proyectos y el rol Administrador del proyecto.</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="es_ES" status="Approved">Proveedor de proyectos</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="es_ES" status="Approved">Proveedor de equipos de proyectos</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="es_ES" status="Approved">¿Modificable?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

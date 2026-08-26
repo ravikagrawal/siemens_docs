@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:12 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Mes0BvrDCD" locale="ko_KR" status="Approved">데이터 컬렉션 정의</key>
+           
+        <key id="BusinessObject{::}Mes0BvrPF" locale="ko_KR" status="Approved">플래너 입력 필드</key>
+           
+        <key id="BusinessObject{::}Mes0BvrSTXElement" locale="ko_KR" status="Approved">표준 텍스트 요소</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDDescription" locale="ko_KR" status="Approved">설명</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDIsOptional" locale="ko_KR" status="Approved">선택적</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDLOV" locale="ko_KR" status="Approved">값 리스트</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMaxValue" locale="ko_KR" status="Approved">최대</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDMinValue" locale="ko_KR" status="Approved">분</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDName" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDOrderNumber" locale="ko_KR" status="Approved">DCD 주문 번호</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDStringMaxLength" locale="ko_KR" status="Approved">최대 길이</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDTimeStampFormat" locale="ko_KR" status="Approved">시간 형식</key>
+           
+        <key id="Property{::}Mes0BvrDCD{::}mes0DCDType" locale="ko_KR" status="Approved">유형</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0DCDNodes" locale="ko_KR" status="Approved">연관된 데이터 모음 정의</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0IsActive" locale="ko_KR" status="Approved">표준 텍스트 요소가 활성 상태임</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0ObjectData" locale="ko_KR" status="Approved">개체 데이터</key>
+           
+        <key id="Property{::}Mes0BvrSTXElement{::}mes0PFNodes" locale="ko_KR" status="Approved">연관된 플래너 필드</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0DCDNodes" locale="ko_KR" status="Approved">연관된 데이터 모음 정의</key>
+           
+        <key id="Property{::}Mfg0BvrOperation{::}mes0STXElementNodes" locale="ko_KR" status="Approved">연관된 표준 텍스트 요소</key>
+           
+        <key id="Property{::}Mfg0BvrProcessArea{::}mes0DCDNodes" locale="ko_KR" status="Approved">연관된 데이터 모음 정의</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0DCDNodes" locale="ko_KR" status="Approved">연관된 데이터 모음 정의</key>
+           
+        <key id="Property{::}Mfg0BvrProcess{::}mes0STXElementNodes" locale="ko_KR" status="Approved">연관된 표준 텍스트 요소</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 부울 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanDCDForm" locale="ko_KR" status="Approved">부울 데이터 컬렉션 </key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 부울 폼 저장소 만료</key>
+           
+        <key id="BusinessObject{::}Mes0MEBooleanPFForm" locale="ko_KR" status="Approved">부울 플래너 필드 만료</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 매점 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEBuyoffDCDForm" locale="ko_KR" status="Approved">Buyoff 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 기본 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDBaseForm" locale="ko_KR" status="Approved">데이터 컬렉션 기본 양식</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCDStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Details" locale="ko_KR" status="Approved">데이터 컬렉션 상세정보</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD_Override" locale="ko_KR" status="Approved">데이터 컬렉션 재정의</key>
+           
+        <key id="BusinessObject{::}Mes0MEDCD" locale="ko_KR" status="Approved">데이터 컬렉션 정의</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrmStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 기간 DCD 양식 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEDurationDCDFrm" locale="ko_KR" status="Approved">기간 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 종료 시간 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEEndTimeDCDForm" locale="ko_KR" status="Approved">절차 완료 데이터 컬렉션 </key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 이미지 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEImageDCDForm" locale="ko_KR" status="Approved">이미지 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 정수 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerDCDForm" locale="ko_KR" status="Approved">정수 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 정수 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEIntegerPFForm" locale="ko_KR" status="Approved">정수 플래너 필드</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 LOV 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVDCDForm" locale="ko_KR" status="Approved">LOV 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 LOV 기본 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MELOVPFBaseForm" locale="ko_KR" status="Approved">값 플래너 필드 기본 리스트</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFBaseForm" locale="ko_KR" status="Approved">플래너 필드 기본</key>
+           
+        <key id="BusinessObject{::}Mes0MEPFStorage" locale="ko_KR" status="Approved">플래너 입력 필드 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Details" locale="ko_KR" status="Approved">플래너 필드 세부 사항</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF_Override" locale="ko_KR" status="Approved">플래너 입력 필드 재정의</key>
+           
+        <key id="BusinessObject{::}Mes0MEPF" locale="ko_KR" status="Approved">플래너 입력 필드</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 실수 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MERealDCDForm" locale="ko_KR" status="Approved">실수 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 실수 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MERealPFForm" locale="ko_KR" status="Approved">실수 플래너 필드</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMasterS" locale="ko_KR" status="Approved">표준 텍스트 요소 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementMaster" locale="ko_KR" status="Approved">표준 텍스트 요소 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevMasterS" locale="ko_KR" status="Approved">표준 텍스트 요소 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevisionMaster" locale="ko_KR" status="Approved">표준 텍스트 요소 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElementRevision" locale="ko_KR" status="Approved">표준 텍스트 요소 리비전</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXElement" locale="ko_KR" status="Approved">표준 텍스트 요소</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMasterS" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 폴더 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderMaster" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 폴더 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevMasterS" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 폴더 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevisionMaster" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 폴더 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolderRevision" locale="ko_KR" status="Approved">표준 텍스트 폴더 리비전</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXFolder" locale="ko_KR" status="Approved">표준 텍스트 폴더</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMasterS" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryMaster" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevMasterS" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevisionMaster" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibraryRevision" locale="ko_KR" status="Approved">표준 텍스트 라이브러리 리비전</key>
+           
+        <key id="BusinessObject{::}Mes0MESTXLibrary" locale="ko_KR" status="Approved">표준 텍스트 라이브러리</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 문자열 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringDCDForm" locale="ko_KR" status="Approved">문자열 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 문자열 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0MEStringPFForm" locale="ko_KR" status="Approved">문자열 플래너 필드</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolFolder" locale="ko_KR" status="Approved">작업 지침 심볼 폴더</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolLibrary" locale="ko_KR" status="Approved">작업 지침 심볼 라이브러리</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbolRelation" locale="ko_KR" status="Approved">작업 지침 심볼 관계</key>
+           
+        <key id="BusinessObject{::}Mes0MESymbol" locale="ko_KR" status="Approved">작업 지침 심볼</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDFormStorage" locale="ko_KR" status="Approved">데이터 컬렉션 정의 시간 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0METimeDCDForm" locale="ko_KR" status="Approved">타임 스탬프 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFFormStorage" locale="ko_KR" status="Approved">플래너 입력 필드 시간 폼 저장소 만료</key>
+           
+        <key id="BusinessObject{::}Mes0METimePFForm" locale="ko_KR" status="Approved">시간 플래너 필드 만료</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefLOVDCDFormStor" locale="ko_KR" status="Approved">Mes0MEUserDefLOVDCDFormStor</key>
+           
+        <key id="BusinessObject{::}Mes0MEUserDefinedLOVDCDForm" locale="ko_KR" status="Approved">사용자 정의 LOV 데이터 컬렉션</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssetsRelation" locale="ko_KR" status="Approved">작업 지침 에셋 관계</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIAssets" locale="ko_KR" status="Approved">작업 지침 에셋</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplMaster" locale="ko_KR" status="Approved">작업 지침 개체 템플릿 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevMasterS" locale="ko_KR" status="Approved">작업 지침 개체 템플릿 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevisionMaster" locale="ko_KR" status="Approved">작업 지침 개체 템플릿 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTemplRevision" locale="ko_KR" status="Approved">작업 지침 개체 템플릿 리비전</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIObjTempl" locale="ko_KR" status="Approved">작업 지침 개체 템플릿</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreviewRelation" locale="ko_KR" status="Approved">작업 지침 미리보기 관계</key>
+           
+        <key id="BusinessObject{::}Mes0MEWIPreview" locale="ko_KR" status="Approved">작업 지침 미리보기</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateMaster" locale="ko_KR" status="Approved">작업 지침 템플릿 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevMasterS" locale="ko_KR" status="Approved">작업 지침 템플릿 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevisionMaster" locale="ko_KR" status="Approved">작업 지침 템플릿 리비전 마스터</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplateRevision" locale="ko_KR" status="Approved">작업 지침 문서 템플릿 리비전</key>
+           
+        <key id="BusinessObject{::}Mes0MEWITemplate" locale="ko_KR" status="Approved">작업 지침 문서 템플릿</key>
+           
+        <key id="BusinessObject{::}Mes0PDFContentRel" locale="ko_KR" status="Approved">PDF 보고서 내용 관계</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputsRel" locale="ko_KR" status="Approved">PDF 보고서 입력 관계</key>
+           
+        <key id="BusinessObject{::}Mes0PDFInputs" locale="ko_KR" status="Approved">PDF 보고서 입력</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportInputRel" locale="ko_KR" status="Approved">PDF 보고서 입력 관계</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportRel" locale="ko_KR" status="Approved">PDF 보고 관계</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReportTemplate" locale="ko_KR" status="Approved">PDF 보고서 템플릿</key>
+           
+        <key id="BusinessObject{::}Mes0PDFReport" locale="ko_KR" status="Approved">PDF 보고서</key>
+           
+        <key id="BusinessObject{::}Mes0PDFTemplateRel" locale="ko_KR" status="Approved">PDF 보고서 템플릿 관계</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoFormStorage" locale="ko_KR" status="Approved">텍스트 작업 지침 참조 정보 폼 저장소</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoForm" locale="ko_KR" status="Approved">텍스트 작업 지침 참조 정보 폼</key>
+           
+        <key id="BusinessObject{::}Mes0TWIRefInfoRelation" locale="ko_KR" status="Approved">텍스트 작업 지침 참조 정보 관계</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="ko_KR" status="Approved">문자열은 공백과 숫자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="ko_KR" status="Approved">문자열은 공백과 영문 대문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="ko_KR" status="Approved">문자열은 공백, 영문 소문자 및 대문자, 숫자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="ko_KR" status="Approved">문자열은 영문 소문자 및 대문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[ a-z]*" locale="ko_KR" status="Approved">문자열은 공백과 영문 소문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[0-9]*" locale="ko_KR" status="Approved">문자열은 숫자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[A-Z]*" locale="ko_KR" status="Approved">문자열은 영문 대문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="ko_KR" status="Approved">문자열은 영문 소문자 및 대문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}[a-z]*" locale="ko_KR" status="Approved">문자열은 영문 소문자로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValueDescription{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="ko_KR" status="Approved">문자열은 영문 소문자 및 대문자, 숫자, 언더바로 구성될 수 있습니다.</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ 0-9]*" locale="ko_KR" status="Approved">[ 0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ A-Z]*" locale="ko_KR" status="Approved">[ A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z0-9]*" locale="ko_KR" status="Approved">[ a-zA-Z0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-zA-Z]*" locale="ko_KR" status="Approved">[ a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[ a-z]*" locale="ko_KR" status="Approved">[ a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[0-9]*" locale="ko_KR" status="Approved">[0-9]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[A-Z]*" locale="ko_KR" status="Approved">[A-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-zA-Z]*" locale="ko_KR" status="Approved">[a-zA-Z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}[a-z]*" locale="ko_KR" status="Approved">[a-z]*</key>
+           
+        <key id="LOVValue{::}Mes0AllowedCharacter{::}^[a-zA-Z0-9_]*$" locale="ko_KR" status="Approved">^[a-zA-Z0-9_]*$</key>
+           
+        <key id="PSOccurrence{::}Mes0MEDCD" locale="ko_KR" status="Approved">데이터 컬렉션</key>
+           
+        <key id="PSOccurrence{::}Mes0MEPF" locale="ko_KR" status="Approved">플래너 필드</key>
+           
+        <key id="PSOccurrence{::}Mes0MESTX" locale="ko_KR" status="Approved">표준 텍스트 인스턴스</key>
+           
+        <key id="Property{::}Mes0MEBooleanDCDFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEBooleanPFForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0IsBlockedForEditing" locale="ko_KR" status="Approved">MES에서 편집하는 블록 필드</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0RecoveryId" locale="ko_KR" status="Approved">복구 ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseFormStorage{::}mes0isOptional" locale="ko_KR" status="Approved">선택적</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0IsBlockedForEditing" locale="ko_KR" status="Approved">MES에서 편집하는 블록 필드</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0RecoveryId" locale="ko_KR" status="Approved">복구 ID</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0ValuePlaceholder" locale="ko_KR" status="Approved">자리 표시자 문자열</key>
+           
+        <key id="Property{::}Mes0MEDCDBaseForm{::}mes0isOptional" locale="ko_KR" status="Approved">선택적</key>
+           
+        <key id="Property{::}Mes0MEDCDStorage{::}mes0DCDOrderNumber" locale="ko_KR" status="Approved">DCD 주문 번호</key>
+           
+        <key id="Property{::}Mes0MEDCD{::}mes0DCDOrderNumber" locale="ko_KR" status="Approved">DCD 주문 번호</key>
+           
+        <key id="Property{::}Mes0MEImageDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MEImageDCDForm{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0AlertMinValue" locale="ko_KR" status="Approved">최소 경고 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDFormStorage{::}mes0OutOfRangeBhr" locale="ko_KR" status="Approved">한계 초과 동작</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMaxValue" locale="ko_KR" status="Approved">경고 최대 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0AlertMinValue" locale="ko_KR" status="Approved">최소 경고 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMaxValue" locale="ko_KR" status="Approved">주의 최대 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0CautionMinValue" locale="ko_KR" status="Approved">주의 최소 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerDCDForm{::}mes0OutOfRangeBhr" locale="ko_KR" status="Approved">한계 초과 동작</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MEIntegerPFForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MELOVPFBaseForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0RecoveryId" locale="ko_KR" status="Approved">복구 ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseFormStorage{::}mes0skipValidity" locale="ko_KR" status="Approved">유효성 체크 건너뛰기</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0RecoveryId" locale="ko_KR" status="Approved">복구 ID</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0isOptional" locale="ko_KR" status="Approved">선택적</key>
+           
+        <key id="Property{::}Mes0MEPFBaseForm{::}mes0skipValidity" locale="ko_KR" status="Approved">유효성 체크 건너뛰기</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0AlertMinValue" locale="ko_KR" status="Approved">최소 경고 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DecimalPlaces" locale="ko_KR" status="Approved">소수점 자리수</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDFormStorage{::}mes0OutOfRangeBhr" locale="ko_KR" status="Approved">한계 초과 동작</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMaxValue" locale="ko_KR" status="Approved">경고 최대 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0AlertMinValue" locale="ko_KR" status="Approved">최소 경고 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMaxValue" locale="ko_KR" status="Approved">주의 최대 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0CautionMinValue" locale="ko_KR" status="Approved">주의 최소 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DataAcquisitionMethod" locale="ko_KR" status="Approved">데이터 수집 방법</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DecimalPlaces" locale="ko_KR" status="Approved">소수점 자리수</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealDCDForm{::}mes0OutOfRangeBhr" locale="ko_KR" status="Approved">한계 초과 동작</key>
+           
+        <key id="Property{::}Mes0MERealPFFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DecimalPlaces" locale="ko_KR" status="Approved">소수점 자릿수</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MaxValue" locale="ko_KR" status="Approved">최대 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0MinValue" locale="ko_KR" status="Approved">최소 허용 값</key>
+           
+        <key id="Property{::}Mes0MERealPFForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0MESTXElement{::}mes0IsActive" locale="ko_KR" status="Approved">표준 텍스트 요소가 활성 상태임</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0MaxLength" locale="ko_KR" status="Approved">문자 개수</key>
+           
+        <key id="Property{::}Mes0MEStringDCDFormStorage{::}mes0ValueValidator" locale="ko_KR" status="Approved">허용되는 문자</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0MaxLength" locale="ko_KR" status="Approved">문자 개수</key>
+           
+        <key id="Property{::}Mes0MEStringDCDForm{::}mes0ValueValidator" locale="ko_KR" status="Approved">허용되는 문자</key>
+           
+        <key id="Property{::}Mes0MEStringPFFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0MaxLength" locale="ko_KR" status="Approved">최대 길이</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0ValueValidator" locale="ko_KR" status="Approved">허용되는 문자</key>
+           
+        <key id="Property{::}Mes0MEStringPFForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0METimeDCDFormStorage{::}mes0DefaultValue" locale="ko_KR" status="Approved">기본 값</key>
+           
+        <key id="Property{::}Mes0METimeDCDForm{::}mes0ValueFormat" locale="ko_KR" status="Approved">시간 형식</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0ValueFormat" locale="ko_KR" status="Approved">시간 형식</key>
+           
+        <key id="Property{::}Mes0METimePFForm{::}mes0Value" locale="ko_KR" status="Approved">값</key>
+           
+        <key id="Property{::}Mes0MEUserDefLOVDCDFormStor{::}mes0LOV" locale="ko_KR" status="Approved">값 리스트</key>
+           
+        <key id="Property{::}Mes0MEUserDefinedLOVDCDForm{::}mes0LOV" locale="ko_KR" status="Approved">값 리스트</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStringKeys" locale="ko_KR" status="Approved">작업 지침 문자열 키</key>
+           
+        <key id="Property{::}Mes0MEWIAssets{::}mes0WIStrings" locale="ko_KR" status="Approved">작업 지침 문자열</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DataSource" locale="ko_KR" status="Approved">템플릿 데이터 소스</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain2D" locale="ko_KR" status="Approved">2D 에셋 포함 여부</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContain3D" locale="ko_KR" status="Approved">3D 에셋 포함 여부</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0DoesContainSimulation" locale="ko_KR" status="Approved">시뮬레이션 에셋 포함 여부</key>
+           
+        <key id="Property{::}Mes0PDFReportTemplate{::}mes0TemplateSpecification" locale="ko_KR" status="Approved">템플릿 사양</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0ReferencedObjects" locale="ko_KR" status="Approved">참조 개체</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoFormStorage{::}mes0TWIRefIDs" locale="ko_KR" status="Approved">참조 ID</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0ReferencedObjects" locale="ko_KR" status="Approved">참조 개체</key>
+           
+        <key id="Property{::}Mes0TWIRefInfoForm{::}mes0TWIRefIDs" locale="ko_KR" status="Approved">참조 ID</key>
+           
+        <key id="ReleaseStatus{::}Mes0StxRelease" locale="ko_KR" status="Approved">표준 텍스트 릴리스 상태</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Automatic" locale="ko_KR" status="Approved">자동</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Manual" locale="ko_KR" status="Approved">수동</key>
+           
+        <key id="LOVValue{::}Mes0DataAcquisitionMethodLOV{::}Semi-Automatic" locale="ko_KR" status="Approved">반자동</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}A message is shown to the operator" locale="ko_KR" status="Approved">연산자에게 보여지는 메시지</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}The result is a part which is defective" locale="ko_KR" status="Approved">결과가 불완전한 부분입니다</key>
+           
+        <key id="LOVValue{::}Mes0OutOfRangeBhrLOV{::}Will result in non-conformance" locale="ko_KR" status="Approved">불일치한 결과</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Manufacturing Process Planner" locale="ko_KR" status="Approved">Manufacturing Process Planner</key>
+           
+        <key id="LOVValue{::}Mes0TemplateDataSource{::}Process Simulate" locale="ko_KR" status="Approved">프로세스 시뮬레이션</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:05 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <Library createRelease="tc2312" description="Change Management Configurator Interface" isThirdParty="false" name="Cmc0cfgcm" namespace="" serviceLibrary="false">
+                 
+            <DependentOn name="metaframework"/>
+                 
+            <DependentOn name="sa"/>
+                 
+            <DependentOn name="tccore"/>
+                 
+            <DependentOn name="tc"/>
+                 
+            <DependentOn name="cxpom"/>
+               
+        </Library>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Cfg0AbsConfiguratorWSO" value="true"/>
+           
+        <TcTypeConstantAttach constantName="Cm0ChangeManaged" typeName="Cfg0AbsFamilyGroup" value="false"/>
+           
+        <Functionality description="This feature provides support for Configurator objects to be managed by Change Management. With this feature, Cfg0AbsConfiguratorWSO objects may be related to ChangeItemRevision objects as problem, impacted and solution objects." displayName="Change Management Configurator Interface" enabledForVerificationRules="false" name="Cmc0cfgcm"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

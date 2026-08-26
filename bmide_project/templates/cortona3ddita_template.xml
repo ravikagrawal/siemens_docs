@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Fri Aug 11 02:28:12 PM 2023">
+<Add>
+   <TcClass className="C3D_ItemDMap" parentClassName="C3D_ItemPub" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_product" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_schema" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_ItemDMapL" parentClassName="C3D_ItemDMap" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITA" parentClassName="C3D_Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_product" description="Product" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_schema" description="Schema" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_ItemDITALbr" parentClassName="C3D_ItemDITA" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAWrn" parentClassName="C3D_ItemDITALbr" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAMltm" parentClassName="Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_mltm_type" description="Media Type" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="false"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_mime_type" description="MIME Type" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="false"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_ItemDITAImg" parentClassName="C3D_ItemDITAMltm" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopRef" parentClassName="Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnGrp" parentClassName="C3D_ItemDTopRef" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnObj" parentClassName="C3D_ItemDLrnGrp" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopHead" parentClassName="C3D_ItemDTopRef" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDMapRevision" parentClassName="C3D_ItemPubRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_audience" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_status" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="new"
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_ItemDMapLRevision" parentClassName="C3D_ItemDMapRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITARevision" parentClassName="C3D_ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="c3d_audience" description="Audience" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="c3d_status" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="new"
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="C3D_ItemDITALbrRevision" parentClassName="C3D_ItemDITARevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAWrnRevision" parentClassName="C3D_ItemDITALbrRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAMltmRevision" parentClassName="ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAImgRevision" parentClassName="C3D_ItemDITAMltmRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopRefRevision" parentClassName="ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnGrpRevision" parentClassName="C3D_ItemDTopRefRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnObjRevision" parentClassName="C3D_ItemDLrnGrpRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopHeadRevision" parentClassName="C3D_ItemDTopRefRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDMapMasterS" parentClassName="C3D_ItemPubMasterS" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDMapLMasterS" parentClassName="C3D_ItemDMapMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAMasterS" parentClassName="C3D_ItemMasterS" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITALbrMasterS" parentClassName="C3D_ItemDITAMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAWrnMasterS" parentClassName="C3D_ItemDITALbrMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_DITAGraphSeqMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAMltmMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAImgMasterS" parentClassName="C3D_ItemDITAMltmMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopRefMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnGrpMasterS" parentClassName="C3D_ItemDTopRefMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnObjMasterS" parentClassName="C3D_ItemDLrnGrpMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopHeadMasterS" parentClassName="C3D_ItemDTopRefMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDMapRevMasterS" parentClassName="C3D_ItemPubRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDMapLRevMasterS" parentClassName="C3D_ItemDMapRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITARevMasterS" parentClassName="C3D_ItemRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITALbrRevMasterS" parentClassName="C3D_ItemDITARevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAWrnRevMasterS" parentClassName="C3D_ItemDITALbrRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_DITAGraphSeqRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAMltmRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDITAImgRevMasterS" parentClassName="C3D_ItemDITAMltmRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopRefRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnGrpRevMasterS" parentClassName="C3D_ItemDTopRefRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDLrnObjRevMasterS" parentClassName="C3D_ItemDLrnGrpRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="C3D_ItemDTopHeadRevMasterS" parentClassName="C3D_ItemDTopRefRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcStandardType typeName="C3D_ItemDMapRevision" parentTypeName="C3D_ItemPubRevision"
+       typeClassName="C3D_ItemDMapRevision" description="Cortona3D DITA Map Revision"
+       isAbstract="false" artifactName="C3D_ItemDMapRevision"/>
+   <TcStandardType typeName="C3D_ItemDMapLRevision" parentTypeName="C3D_ItemDMapRevision"
+       typeClassName="C3D_ItemDMapLRevision" description="Cortona3D DITA Learning Map Revision"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevision"/>
+   <TcStandardType typeName="C3D_ItemDITARevision" parentTypeName="C3D_ItemRevision"
+       typeClassName="C3D_ItemDITARevision" description="Cortona3D DITA Topic Revision"
+       isAbstract="false" artifactName="C3D_ItemDITARevision"/>
+   <TcStandardType typeName="C3D_ItemDITALbrRevision" parentTypeName="C3D_ItemDITARevision"
+       typeClassName="C3D_ItemDITALbrRevision" description="Cortona3D DITA Library Topic Revision"
+       isAbstract="true" artifactName="C3D_ItemDITALbrRevision"/>
+   <TcStandardType typeName="C3D_ItemDITAWrnRevision" parentTypeName="C3D_ItemDITALbrRevision"
+       typeClassName="C3D_ItemDITAWrnRevision" description="Cortona3D DITA Warning Revision"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevision"/>
+   <TcStandardType typeName="C3D_DITAGraphSeqRevision" parentTypeName="ItemRevision"
+       typeClassName="ItemRevision" description="DITA Graphics Sequence Revision"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqRevision"/>
+   <TcStandardType typeName="C3D_ItemDITAMltmRevision" parentTypeName="ItemRevision"
+       typeClassName="C3D_ItemDITAMltmRevision" description="Cortona3D DITA Multimedia Revision"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevision"/>
+   <TcStandardType typeName="C3D_ItemDITAImgRevision" parentTypeName="C3D_ItemDITAMltmRevision"
+       typeClassName="C3D_ItemDITAImgRevision" description="Cortona3D DITA Image Revision"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevision"/>
+   <TcStandardType typeName="C3D_ItemDTopRefRevision" parentTypeName="ItemRevision"
+       typeClassName="C3D_ItemDTopRefRevision" description="Cortona3D DITA TopicRef Revision"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevision"/>
+   <TcStandardType typeName="C3D_ItemDLrnGrpRevision" parentTypeName="C3D_ItemDTopRefRevision"
+       typeClassName="C3D_ItemDLrnGrpRevision" description="Cortona3D DITA Learning Group Revision"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevision"/>
+   <TcStandardType typeName="C3D_ItemDLrnObjRevision" parentTypeName="C3D_ItemDLrnGrpRevision"
+       typeClassName="C3D_ItemDLrnObjRevision" description="Cortona3D DITA Learning Object Revision"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevision"/>
+   <TcStandardType typeName="C3D_ItemDTopHeadRevision" parentTypeName="C3D_ItemDTopRefRevision"
+       typeClassName="C3D_ItemDTopHeadRevision" description="" isAbstract="false"
+       artifactName="C3D_ItemDTopHeadRevision"/>
+   <TcForm typeName="C3D_ItemDMapMaster" parentTypeName="C3D_ItemPubMaster" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemDMap&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMaster" formStorageClassName="C3D_ItemDMapMasterS"/>
+   <TcForm typeName="C3D_ItemDMapLMaster" parentTypeName="C3D_ItemDMapMaster" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemDMapL&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMaster" formStorageClassName="C3D_ItemDMapLMasterS"/>
+   <TcForm typeName="C3D_ItemDITAMaster" parentTypeName="C3D_ItemMaster" typeClassName="Form"
+       description="Cortona3D DITA Topic" isAbstract="false" artifactName="C3D_ItemDITAMaster"
+       formStorageClassName="C3D_ItemDITAMasterS"/>
+   <TcForm typeName="C3D_ItemDITALbrMaster" parentTypeName="C3D_ItemDITAMaster" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemDITALbr&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMaster" formStorageClassName="C3D_ItemDITALbrMasterS"/>
+   <TcForm typeName="C3D_ItemDITAWrnMaster" parentTypeName="C3D_ItemDITALbrMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITAWrn&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMaster" formStorageClassName="C3D_ItemDITAWrnMasterS"/>
+   <TcForm typeName="C3D_DITAGraphSeqMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="DITA Graphics Sequence" isAbstract="false" artifactName="C3D_DITAGraphSeqMaster"
+       formStorageClassName="C3D_DITAGraphSeqMasterS"/>
+   <TcForm typeName="C3D_ItemDITAMltmMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemDITAMltm&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMaster" formStorageClassName="C3D_ItemDITAMltmMasterS"/>
+   <TcForm typeName="C3D_ItemDITAImgMaster" parentTypeName="C3D_ItemDITAMltmMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITAImg&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMaster" formStorageClassName="C3D_ItemDITAImgMasterS"/>
+   <TcForm typeName="C3D_ItemDTopRefMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;C3D_ItemDTopRef&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMaster" formStorageClassName="C3D_ItemDTopRefMasterS"/>
+   <TcForm typeName="C3D_ItemDLrnGrpMaster" parentTypeName="C3D_ItemDTopRefMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDLrnGrp&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMaster" formStorageClassName="C3D_ItemDLrnGrpMasterS"/>
+   <TcForm typeName="C3D_ItemDLrnObjMaster" parentTypeName="C3D_ItemDLrnGrpMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDLrnObj&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMaster" formStorageClassName="C3D_ItemDLrnObjMasterS"/>
+   <TcForm typeName="C3D_ItemDTopHeadMaster" parentTypeName="C3D_ItemDTopRefMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDTopHead&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMaster" formStorageClassName="C3D_ItemDTopHeadMasterS"/>
+   <TcForm typeName="C3D_ItemDMapRevisionMaster" parentTypeName="C3D_ItemPubRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionMaster" formStorageClassName="C3D_ItemDMapRevMasterS"/>
+   <TcForm typeName="C3D_ItemDMapLRevisionMaster" parentTypeName="C3D_ItemDMapRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDMapLRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionMaster" formStorageClassName="C3D_ItemDMapLRevMasterS"/>
+   <TcForm typeName="C3D_ItemDITARevisionMaster" parentTypeName="C3D_ItemRevisionMaster"
+       typeClassName="Form" description="Cortona3D DITA Topic Revision" isAbstract="false"
+       artifactName="C3D_ItemDITARevisionMaster" formStorageClassName="C3D_ItemDITARevMasterS"/>
+   <TcForm typeName="C3D_ItemDITALbrRevisionMaster" parentTypeName="C3D_ItemDITARevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITALbrRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevisionMaster" formStorageClassName="C3D_ItemDITALbrRevMasterS"/>
+   <TcForm typeName="C3D_ItemDITAWrnRevisionMaster" parentTypeName="C3D_ItemDITALbrRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITAWrnRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisionMaster" formStorageClassName="C3D_ItemDITAWrnRevMasterS"/>
+   <TcForm typeName="C3D_DITAGraphSeqRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="DITA Graphics Sequence Revision" isAbstract="false"
+       artifactName="C3D_DITAGraphSeqRevisionMaster" formStorageClassName="C3D_DITAGraphSeqRevMasterS"/>
+   <TcForm typeName="C3D_ItemDITAMltmRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITAMltmRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisionMaster" formStorageClassName="C3D_ItemDITAMltmRevMasterS"/>
+   <TcForm typeName="C3D_ItemDITAImgRevisionMaster" parentTypeName="C3D_ItemDITAMltmRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDITAImgRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisionMaster" formStorageClassName="C3D_ItemDITAImgRevMasterS"/>
+   <TcForm typeName="C3D_ItemDTopRefRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDTopRefRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisionMaster" formStorageClassName="C3D_ItemDTopRefRevMasterS"/>
+   <TcForm typeName="C3D_ItemDLrnGrpRevisionMaster" parentTypeName="C3D_ItemDTopRefRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDLrnGrpRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisionMaster" formStorageClassName="C3D_ItemDLrnGrpRevMasterS"/>
+   <TcForm typeName="C3D_ItemDLrnObjRevisionMaster" parentTypeName="C3D_ItemDLrnGrpRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDLrnObjRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisionMaster" formStorageClassName="C3D_ItemDLrnObjRevMasterS"/>
+   <TcForm typeName="C3D_ItemDTopHeadRevisionMaster" parentTypeName="C3D_ItemDTopRefRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;C3D_ItemDTopHeadRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisionMaster" formStorageClassName="C3D_ItemDTopHeadRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDMap" parentTypeName="C3D_ItemPub" typeClassName="C3D_ItemDMap"
+       description="Cortona3D DITA Map" isAbstract="false" artifactName="C3D_ItemDMap"/>
+   <TcStandardType typeName="C3D_ItemDMapL" parentTypeName="C3D_ItemDMap" typeClassName="C3D_ItemDMapL"
+       description="" isAbstract="false" artifactName="C3D_ItemDMapL"/>
+   <TcStandardType typeName="C3D_ItemDITA" parentTypeName="C3D_Item" typeClassName="C3D_ItemDITA"
+       description="Cortona3D DITA Topic" isAbstract="false" artifactName="C3D_ItemDITA"/>
+   <TcStandardType typeName="C3D_ItemDITALbr" parentTypeName="C3D_ItemDITA" typeClassName="C3D_ItemDITALbr"
+       description="Cortona3D DITA Library Topic" isAbstract="true" artifactName="C3D_ItemDITALbr"/>
+   <TcStandardType typeName="C3D_ItemDITAWrn" parentTypeName="C3D_ItemDITALbr" typeClassName="C3D_ItemDITAWrn"
+       description="Cortona3D DITA Warning" isAbstract="false" artifactName="C3D_ItemDITAWrn"/>
+   <TcStandardType typeName="C3D_DITAGraphSeq" parentTypeName="Item" typeClassName="Item"
+       description="DITA Graphics Sequence" isAbstract="true" artifactName="C3D_DITAGraphSeq"/>
+   <TcStandardType typeName="C3D_ItemDITAMltm" parentTypeName="Item" typeClassName="C3D_ItemDITAMltm"
+       description="Cortona3D DITA Multimedia" isAbstract="false" artifactName="C3D_ItemDITAMltm"/>
+   <TcStandardType typeName="C3D_ItemDITAImg" parentTypeName="C3D_ItemDITAMltm" typeClassName="C3D_ItemDITAImg"
+       description="Cortona3D DITA Image" isAbstract="false" artifactName="C3D_ItemDITAImg"/>
+   <TcStandardType typeName="C3D_ItemDTopRef" parentTypeName="Item" typeClassName="C3D_ItemDTopRef"
+       description="Cortona3D DITA TopicRef" isAbstract="false" artifactName="C3D_ItemDTopRef"/>
+   <TcStandardType typeName="C3D_ItemDLrnGrp" parentTypeName="C3D_ItemDTopRef" typeClassName="C3D_ItemDLrnGrp"
+       description="Cortona3D DITA Learning Group" isAbstract="false" artifactName="C3D_ItemDLrnGrp"/>
+   <TcStandardType typeName="C3D_ItemDLrnObj" parentTypeName="C3D_ItemDLrnGrp" typeClassName="C3D_ItemDLrnObj"
+       description="Cortona3D DITA Learning Object" isAbstract="false" artifactName="C3D_ItemDLrnObj"/>
+   <TcStandardType typeName="C3D_ItemDTopHead" parentTypeName="C3D_ItemDTopRef" typeClassName="C3D_ItemDTopHead"
+       description="" isAbstract="false" artifactName="C3D_ItemDTopHead"/>
+   <TcStandardType typeName="C3D_ItemDMapMasterS" parentTypeName="C3D_ItemPubMasterS"
+       typeClassName="C3D_ItemDMapMasterS" description="Form Storage object for &quot;C3D_ItemDMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMasterS"/>
+   <TcStandardType typeName="C3D_ItemDMapLMasterS" parentTypeName="C3D_ItemDMapMasterS"
+       typeClassName="C3D_ItemDMapLMasterS" description="Form Storage object for &quot;C3D_ItemDMapLMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAMasterS" parentTypeName="C3D_ItemMasterS"
+       typeClassName="C3D_ItemDITAMasterS" description="Cortona3D DITA Topic" isAbstract="false"
+       artifactName="C3D_ItemDITAMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITALbrMasterS" parentTypeName="C3D_ItemDITAMasterS"
+       typeClassName="C3D_ItemDITALbrMasterS" description="Form Storage object for &quot;C3D_ItemDITALbrMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAWrnMasterS" parentTypeName="C3D_ItemDITALbrMasterS"
+       typeClassName="C3D_ItemDITAWrnMasterS" description="Form Storage object for &quot;C3D_ItemDITAWrnMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMasterS"/>
+   <TcStandardType typeName="C3D_DITAGraphSeqMasterS" parentTypeName="ItemMaster"
+       typeClassName="C3D_DITAGraphSeqMasterS" description="DITA Graphics Sequence"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAMltmMasterS" parentTypeName="ItemMaster"
+       typeClassName="C3D_ItemDITAMltmMasterS" description="Form Storage object for &quot;C3D_ItemDITAMltmMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAImgMasterS" parentTypeName="C3D_ItemDITAMltmMasterS"
+       typeClassName="C3D_ItemDITAImgMasterS" description="Form Storage object for &quot;C3D_ItemDITAImgMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMasterS"/>
+   <TcStandardType typeName="C3D_ItemDTopRefMasterS" parentTypeName="ItemMaster" typeClassName="C3D_ItemDTopRefMasterS"
+       description="Form Storage object for &quot;C3D_ItemDTopRefMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMasterS"/>
+   <TcStandardType typeName="C3D_ItemDLrnGrpMasterS" parentTypeName="C3D_ItemDTopRefMasterS"
+       typeClassName="C3D_ItemDLrnGrpMasterS" description="Form Storage object for &quot;C3D_ItemDLrnGrpMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMasterS"/>
+   <TcStandardType typeName="C3D_ItemDLrnObjMasterS" parentTypeName="C3D_ItemDLrnGrpMasterS"
+       typeClassName="C3D_ItemDLrnObjMasterS" description="Form Storage object for &quot;C3D_ItemDLrnObjMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMasterS"/>
+   <TcStandardType typeName="C3D_ItemDTopHeadMasterS" parentTypeName="C3D_ItemDTopRefMasterS"
+       typeClassName="C3D_ItemDTopHeadMasterS" description="Form Storage object for &quot;C3D_ItemDTopHeadMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMasterS"/>
+   <TcStandardType typeName="C3D_ItemDMapRevMasterS" parentTypeName="C3D_ItemPubRevMasterS"
+       typeClassName="C3D_ItemDMapRevMasterS" description="Form Storage object for &quot;C3D_ItemDMapRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDMapLRevMasterS" parentTypeName="C3D_ItemDMapRevMasterS"
+       typeClassName="C3D_ItemDMapLRevMasterS" description="Form Storage object for &quot;C3D_ItemDMapLRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITARevMasterS" parentTypeName="C3D_ItemRevMasterS"
+       typeClassName="C3D_ItemDITARevMasterS" description="Cortona3D DITA Topic Revision"
+       isAbstract="false" artifactName="C3D_ItemDITARevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITALbrRevMasterS" parentTypeName="C3D_ItemDITARevMasterS"
+       typeClassName="C3D_ItemDITALbrRevMasterS" description="Form Storage object for &quot;C3D_ItemDITALbrRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAWrnRevMasterS" parentTypeName="C3D_ItemDITALbrRevMasterS"
+       typeClassName="C3D_ItemDITAWrnRevMasterS" description="Form Storage object for &quot;C3D_ItemDITAWrnRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevMasterS"/>
+   <TcStandardType typeName="C3D_DITAGraphSeqRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_DITAGraphSeqRevMasterS" description="DITA Graphics Sequence Revision"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAMltmRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_ItemDITAMltmRevMasterS" description="Form Storage object for &quot;C3D_ItemDITAMltmRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDITAImgRevMasterS" parentTypeName="C3D_ItemDITAMltmRevMasterS"
+       typeClassName="C3D_ItemDITAImgRevMasterS" description="Form Storage object for &quot;C3D_ItemDITAImgRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDTopRefRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="C3D_ItemDTopRefRevMasterS" description="Form Storage object for &quot;C3D_ItemDTopRefRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDLrnGrpRevMasterS" parentTypeName="C3D_ItemDTopRefRevMasterS"
+       typeClassName="C3D_ItemDLrnGrpRevMasterS" description="Form Storage object for &quot;C3D_ItemDLrnGrpRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDLrnObjRevMasterS" parentTypeName="C3D_ItemDLrnGrpRevMasterS"
+       typeClassName="C3D_ItemDLrnObjRevMasterS" description="Form Storage object for &quot;C3D_ItemDLrnObjRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevMasterS"/>
+   <TcStandardType typeName="C3D_ItemDTopHeadRevMasterS" parentTypeName="C3D_ItemDTopRefRevMasterS"
+       typeClassName="C3D_ItemDTopHeadRevMasterS" description="Form Storage object for &quot;C3D_ItemDTopHeadRevMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevMasterS"/>
+   <OperationInputType typeName="C3D_ItemDMapRevisionCreI" parentTypeName="C3D_ItemPubRevisionCreI"
+       typeClassName="C3D_ItemDMapRevisionCreI" description="CreateInput object for &quot;C3D_ItemDMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionCreI">
+     <OperationInputProperty propName="c3d_audience" compoundObjectConstant="" srcPropName="c3d_audience"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDMapLRevisionCreI" parentTypeName="C3D_ItemDMapRevisionCreI"
+       typeClassName="C3D_ItemDMapLRevisionCreI" description="CreateInput object for &quot;C3D_ItemDMapLRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDITARevisionCreI" parentTypeName="C3D_ItemRevisionCreI"
+       typeClassName="C3D_ItemDITARevisionCreI" description="CreateInput object for &quot;C3D_ItemDITARevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevisionCreI">
+     <OperationInputProperty propName="c3d_audience" compoundObjectConstant="" srcPropName="c3d_audience"
+         compoundObjectType="" fieldType="SimpleProperty" description="Audience"/>
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITALbrRevisionCreI" parentTypeName="C3D_ItemDITARevisionCreI"
+       typeClassName="C3D_ItemDITALbrRevisionCreI" description="CreateInput object for &quot;C3D_ItemDITALbrRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_ItemDITALbrRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevisionCreI" parentTypeName="C3D_ItemDITALbrRevisionCreI"
+       typeClassName="C3D_ItemDITAWrnRevisionCreI" description="CreateInput object for &quot;C3D_ItemDITAWrnRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisionCreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_DITAGraphSeqRevisionCreI" description="CreateInput object for &quot;C3D_DITAGraphSeqRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_ItemDITAMltmRevisionCreI" description="CreateInput object for &quot;C3D_ItemDITAMltmRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevisionCreI" parentTypeName="C3D_ItemDITAMltmRevisionCreI"
+       typeClassName="C3D_ItemDITAImgRevisionCreI" description="CreateInput object for &quot;C3D_ItemDITAImgRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="C3D_ItemDTopRefRevisionCreI" description="CreateInput object for &quot;C3D_ItemDTopRefRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevisionCreI" parentTypeName="C3D_ItemDTopRefRevisionCreI"
+       typeClassName="C3D_ItemDLrnGrpRevisionCreI" description="CreateInput object for &quot;C3D_ItemDLrnGrpRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevisionCreI" parentTypeName="C3D_ItemDLrnGrpRevisionCreI"
+       typeClassName="C3D_ItemDLrnObjRevisionCreI" description="CreateInput object for &quot;C3D_ItemDLrnObjRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevisionCreI" parentTypeName="C3D_ItemDTopRefRevisionCreI"
+       typeClassName="C3D_ItemDTopHeadRevisionCreI" description="CreateInput object for &quot;C3D_ItemDTopHeadRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisionCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapCreI" parentTypeName="C3D_ItemPubCreI"
+       typeClassName="C3D_ItemDMapCreI" description="CreateInput object for &quot;C3D_ItemDMap&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapCreI">
+     <OperationInputProperty propName="c3d_product" compoundObjectConstant="" srcPropName="c3d_product"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_schema" compoundObjectConstant="" srcPropName="c3d_schema"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDMapLCreI" parentTypeName="C3D_ItemDMapCreI"
+       typeClassName="C3D_ItemDMapLCreI" description="CreateInput object for &quot;C3D_ItemDMapL&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLCreI"/>
+   <OperationInputType typeName="C3D_ItemDITACreI" parentTypeName="C3D_ItemCreI" typeClassName="C3D_ItemDITACreI"
+       description="CreateInput object for &quot;C3D_ItemDITA&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITACreI">
+     <OperationInputProperty propName="c3d_product" compoundObjectConstant="" srcPropName="c3d_product"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_schema" compoundObjectConstant="" srcPropName="c3d_schema"
+         compoundObjectType="" fieldType="SimpleProperty" description="Schema"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITALbrCreI" parentTypeName="C3D_ItemDITACreI"
+       typeClassName="C3D_ItemDITALbrCreI" description="CreateInput object for &quot;C3D_ItemDITALbr&quot; business object"
+       isAbstract="true" artifactName="C3D_ItemDITALbrCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnCreI" parentTypeName="C3D_ItemDITALbrCreI"
+       typeClassName="C3D_ItemDITAWrnCreI" description="CreateInput object for &quot;C3D_ItemDITAWrn&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnCreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqCreI" parentTypeName="ItemCreI" typeClassName="C3D_DITAGraphSeqCreI"
+       description="CreateInput object for &quot;C3D_DITAGraphSeq&quot; business object"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmCreI" parentTypeName="ItemCreI" typeClassName="C3D_ItemDITAMltmCreI"
+       description="CreateInput object for &quot;C3D_ItemDITAMltm&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmCreI">
+     <OperationInputProperty propName="c3d_mltm_type" compoundObjectConstant="" srcPropName="c3d_mltm_type"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="c3d_mime_type" compoundObjectConstant="" srcPropName="c3d_mime_type"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITAImgCreI" parentTypeName="C3D_ItemDITAMltmCreI"
+       typeClassName="C3D_ItemDITAImgCreI" description="CreateInput object for &quot;C3D_ItemDITAImg&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefCreI" parentTypeName="ItemCreI" typeClassName="C3D_ItemDTopRefCreI"
+       description="CreateInput object for &quot;C3D_ItemDTopRef&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpCreI" parentTypeName="C3D_ItemDTopRefCreI"
+       typeClassName="C3D_ItemDLrnGrpCreI" description="CreateInput object for &quot;C3D_ItemDLrnGrp&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjCreI" parentTypeName="C3D_ItemDLrnGrpCreI"
+       typeClassName="C3D_ItemDLrnObjCreI" description="CreateInput object for &quot;C3D_ItemDLrnObj&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadCreI" parentTypeName="C3D_ItemDTopRefCreI"
+       typeClassName="C3D_ItemDTopHeadCreI" description="CreateInput object for &quot;C3D_ItemDTopHead&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapMasterCreI" parentTypeName="C3D_ItemPubMasterCreI"
+       typeClassName="C3D_ItemDMapMasterCreI" description="CreateInput object for &quot;C3D_ItemDMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapLMasterCreI" parentTypeName="C3D_ItemDMapMasterCreI"
+       typeClassName="C3D_ItemDMapLMasterCreI" description="CreateInput object for &quot;C3D_ItemDMapLMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMasterCreI" parentTypeName="C3D_ItemMasterCreI"
+       typeClassName="C3D_ItemDITAMasterCreI" description="CreateInput object for &quot;C3D_ItemDITAMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrMasterCreI" parentTypeName="C3D_ItemDITAMasterCreI"
+       typeClassName="C3D_ItemDITALbrMasterCreI" description="CreateInput object for &quot;C3D_ItemDITALbrMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnMasterCreI" parentTypeName="C3D_ItemDITALbrMasterCreI"
+       typeClassName="C3D_ItemDITAWrnMasterCreI" description="CreateInput object for &quot;C3D_ItemDITAWrnMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMasterCreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_DITAGraphSeqMasterCreI" description="CreateInput object for &quot;C3D_DITAGraphSeqMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_ItemDITAMltmMasterCreI" description="CreateInput object for &quot;C3D_ItemDITAMltmMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgMasterCreI" parentTypeName="C3D_ItemDITAMltmMasterCreI"
+       typeClassName="C3D_ItemDITAImgMasterCreI" description="CreateInput object for &quot;C3D_ItemDITAImgMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="C3D_ItemDTopRefMasterCreI" description="CreateInput object for &quot;C3D_ItemDTopRefMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpMasterCreI" parentTypeName="C3D_ItemDTopRefMasterCreI"
+       typeClassName="C3D_ItemDLrnGrpMasterCreI" description="CreateInput object for &quot;C3D_ItemDLrnGrpMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjMasterCreI" parentTypeName="C3D_ItemDLrnGrpMasterCreI"
+       typeClassName="C3D_ItemDLrnObjMasterCreI" description="CreateInput object for &quot;C3D_ItemDLrnObjMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadMasterCreI" parentTypeName="C3D_ItemDTopRefMasterCreI"
+       typeClassName="C3D_ItemDTopHeadMasterCreI" description="CreateInput object for &quot;C3D_ItemDTopHeadMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevisionMasterCreI" parentTypeName="C3D_ItemPubRevisionMasterCreI"
+       typeClassName="C3D_ItemDMapRevisionMasterCreI" description="CreateInput object for &quot;C3D_ItemDMapRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapLRevisionM_alt0CreI" parentTypeName="C3D_ItemDMapRevisionMasterCreI"
+       typeClassName="C3D_ItemDMapLRevisionM_alt0CreI" description="CreateInput object for &quot;C3D_ItemDMapLRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionM_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDITARevisionMasterCreI" parentTypeName="C3D_ItemRevisionMasterCreI"
+       typeClassName="C3D_ItemDITARevisionMasterCreI" description="CreateInput object for &quot;C3D_ItemDITARevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevisionMasterCreI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrRevisio_alt0CreI" parentTypeName="C3D_ItemDITARevisionMasterCreI"
+       typeClassName="C3D_ItemDITALbrRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDITALbrRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevisio_alt0CreI" parentTypeName="C3D_ItemDITALbrRevisio_alt0CreI"
+       typeClassName="C3D_ItemDITAWrnRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDITAWrnRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevisi_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_DITAGraphSeqRevisi_alt0CreI" description="CreateInput object for &quot;C3D_DITAGraphSeqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqRevisi_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevisi_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_ItemDITAMltmRevisi_alt0CreI" description="CreateInput object for &quot;C3D_ItemDITAMltmRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisi_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevisio_alt0CreI" parentTypeName="C3D_ItemDITAMltmRevisi_alt0CreI"
+       typeClassName="C3D_ItemDITAImgRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDITAImgRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevisio_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="C3D_ItemDTopRefRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDTopRefRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevisio_alt0CreI" parentTypeName="C3D_ItemDTopRefRevisio_alt0CreI"
+       typeClassName="C3D_ItemDLrnGrpRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDLrnGrpRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevisio_alt0CreI" parentTypeName="C3D_ItemDLrnGrpRevisio_alt0CreI"
+       typeClassName="C3D_ItemDLrnObjRevisio_alt0CreI" description="CreateInput object for &quot;C3D_ItemDLrnObjRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisio_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevisi_alt0CreI" parentTypeName="C3D_ItemDTopRefRevisio_alt0CreI"
+       typeClassName="C3D_ItemDTopHeadRevisi_alt0CreI" description="CreateInput object for &quot;C3D_ItemDTopHeadRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisi_alt0CreI"/>
+   <OperationInputType typeName="C3D_ItemDMapMasterSCreI" parentTypeName="C3D_ItemPubMasterSCreI"
+       typeClassName="C3D_ItemDMapMasterSCreI" description="CreateInput object for &quot;C3D_ItemDMapMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapLMasterSCreI" parentTypeName="C3D_ItemDMapMasterSCreI"
+       typeClassName="C3D_ItemDMapLMasterSCreI" description="CreateInput object for &quot;C3D_ItemDMapLMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMasterSCreI" parentTypeName="C3D_ItemMasterSCreI"
+       typeClassName="C3D_ItemDITAMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrMasterSCreI" parentTypeName="C3D_ItemDITAMasterSCreI"
+       typeClassName="C3D_ItemDITALbrMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITALbrMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnMasterSCreI" parentTypeName="C3D_ItemDITALbrMasterSCreI"
+       typeClassName="C3D_ItemDITAWrnMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAWrnMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMasterSCreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_DITAGraphSeqMasterSCreI" description="CreateInput object for &quot;C3D_DITAGraphSeqMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_ItemDITAMltmMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAMltmMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgMasterSCreI" parentTypeName="C3D_ItemDITAMltmMasterSCreI"
+       typeClassName="C3D_ItemDITAImgMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAImgMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="C3D_ItemDTopRefMasterSCreI" description="CreateInput object for &quot;C3D_ItemDTopRefMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpMasterSCreI" parentTypeName="C3D_ItemDTopRefMasterSCreI"
+       typeClassName="C3D_ItemDLrnGrpMasterSCreI" description="CreateInput object for &quot;C3D_ItemDLrnGrpMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjMasterSCreI" parentTypeName="C3D_ItemDLrnGrpMasterSCreI"
+       typeClassName="C3D_ItemDLrnObjMasterSCreI" description="CreateInput object for &quot;C3D_ItemDLrnObjMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadMasterSCreI" parentTypeName="C3D_ItemDTopRefMasterSCreI"
+       typeClassName="C3D_ItemDTopHeadMasterSCreI" description="CreateInput object for &quot;C3D_ItemDTopHeadMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevMasterSCreI" parentTypeName="C3D_ItemPubRevMasterSCreI"
+       typeClassName="C3D_ItemDMapRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDMapRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapLRevMasterSCreI" parentTypeName="C3D_ItemDMapRevMasterSCreI"
+       typeClassName="C3D_ItemDMapLRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDMapLRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITARevMasterSCreI" parentTypeName="C3D_ItemRevMasterSCreI"
+       typeClassName="C3D_ItemDITARevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITARevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrRevMasterSCreI" parentTypeName="C3D_ItemDITARevMasterSCreI"
+       typeClassName="C3D_ItemDITALbrRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITALbrRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevMasterSCreI" parentTypeName="C3D_ItemDITALbrRevMasterSCreI"
+       typeClassName="C3D_ItemDITAWrnRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAWrnRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_DITAGraphSeqRevMasterSCreI" description="CreateInput object for &quot;C3D_DITAGraphSeqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_ItemDITAMltmRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAMltmRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevMasterSCreI" parentTypeName="C3D_ItemDITAMltmRevMasterSCreI"
+       typeClassName="C3D_ItemDITAImgRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDITAImgRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="C3D_ItemDTopRefRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDTopRefRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevMasterSCreI" parentTypeName="C3D_ItemDTopRefRevMasterSCreI"
+       typeClassName="C3D_ItemDLrnGrpRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDLrnGrpRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevMasterSCreI" parentTypeName="C3D_ItemDLrnGrpRevMasterSCreI"
+       typeClassName="C3D_ItemDLrnObjRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDLrnObjRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevMasterSCreI" parentTypeName="C3D_ItemDTopRefRevMasterSCreI"
+       typeClassName="C3D_ItemDTopHeadRevMasterSCreI" description="CreateInput object for &quot;C3D_ItemDTopHeadRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevMasterSCreI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevisionRevI" parentTypeName="C3D_ItemPubRevisionRevI"
+       typeClassName="C3D_ItemDMapRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionRevI">
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDMapLRevisionRevI" parentTypeName="C3D_ItemDMapRevisionRevI"
+       typeClassName="C3D_ItemDMapLRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDMapLRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDITARevisionRevI" parentTypeName="C3D_ItemRevisionRevI"
+       typeClassName="C3D_ItemDITARevisionRevI" description="ReviseInput object for &quot;C3D_ItemDITARevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevisionRevI">
+     <OperationInputProperty propName="c3d_audience" compoundObjectConstant="" srcPropName="c3d_audience"
+         compoundObjectType="" fieldType="SimpleProperty" description="Audience"/>
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITALbrRevisionRevI" parentTypeName="C3D_ItemDITARevisionRevI"
+       typeClassName="C3D_ItemDITALbrRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDITALbrRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_ItemDITALbrRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevisionRevI" parentTypeName="C3D_ItemDITALbrRevisionRevI"
+       typeClassName="C3D_ItemDITAWrnRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDITAWrnRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisionRevI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_DITAGraphSeqRevisionRevI" description="ReviseInput object for &quot;C3D_DITAGraphSeqRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_ItemDITAMltmRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDITAMltmRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevisionRevI" parentTypeName="C3D_ItemDITAMltmRevisionRevI"
+       typeClassName="C3D_ItemDITAImgRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDITAImgRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="C3D_ItemDTopRefRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDTopRefRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevisionRevI" parentTypeName="C3D_ItemDTopRefRevisionRevI"
+       typeClassName="C3D_ItemDLrnGrpRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDLrnGrpRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevisionRevI" parentTypeName="C3D_ItemDLrnGrpRevisionRevI"
+       typeClassName="C3D_ItemDLrnObjRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDLrnObjRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevisionRevI" parentTypeName="C3D_ItemDTopRefRevisionRevI"
+       typeClassName="C3D_ItemDTopHeadRevisionRevI" description="ReviseInput object for &quot;C3D_ItemDTopHeadRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisionRevI"/>
+   <OperationInputType typeName="C3D_ItemDMapSvAI" parentTypeName="C3D_ItemPubSvAI"
+       typeClassName="C3D_ItemDMapSvAI" description="SaveAsInput object for &quot;C3D_ItemDMap&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapLSvAI" parentTypeName="C3D_ItemDMapSvAI"
+       typeClassName="C3D_ItemDMapLSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapL&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITASvAI" parentTypeName="C3D_ItemSvAI" typeClassName="C3D_ItemDITASvAI"
+       description="SaveAsInput object for &quot;C3D_ItemDITA&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITASvAI">
+     <OperationInputProperty propName="c3d_product" compoundObjectConstant="" srcPropName="c3d_product"
+         compoundObjectType="" fieldType="SimpleProperty" description="Product"/>
+     <OperationInputProperty propName="c3d_schema" compoundObjectConstant="" srcPropName="c3d_schema"
+         compoundObjectType="" fieldType="SimpleProperty" description="Schema"/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITALbrSvAI" parentTypeName="C3D_ItemDITASvAI"
+       typeClassName="C3D_ItemDITALbrSvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbr&quot; business object"
+       isAbstract="true" artifactName="C3D_ItemDITALbrSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnSvAI" parentTypeName="C3D_ItemDITALbrSvAI"
+       typeClassName="C3D_ItemDITAWrnSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrn&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnSvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_DITAGraphSeqSvAI"
+       description="SaveAsInput object for &quot;C3D_DITAGraphSeq&quot; business object"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_ItemDITAMltmSvAI"
+       description="SaveAsInput object for &quot;C3D_ItemDITAMltm&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgSvAI" parentTypeName="C3D_ItemDITAMltmSvAI"
+       typeClassName="C3D_ItemDITAImgSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImg&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefSvAI" parentTypeName="ItemSvAI" typeClassName="C3D_ItemDTopRefSvAI"
+       description="SaveAsInput object for &quot;C3D_ItemDTopRef&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpSvAI" parentTypeName="C3D_ItemDTopRefSvAI"
+       typeClassName="C3D_ItemDLrnGrpSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrp&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjSvAI" parentTypeName="C3D_ItemDLrnGrpSvAI"
+       typeClassName="C3D_ItemDLrnObjSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObj&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadSvAI" parentTypeName="C3D_ItemDTopRefSvAI"
+       typeClassName="C3D_ItemDTopHeadSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHead&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevisionSvAI" parentTypeName="C3D_ItemPubRevisionSvAI"
+       typeClassName="C3D_ItemDMapRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionSvAI">
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDMapLRevisionSvAI" parentTypeName="C3D_ItemDMapRevisionSvAI"
+       typeClassName="C3D_ItemDMapLRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapLRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITARevisionSvAI" parentTypeName="C3D_ItemRevisionSvAI"
+       typeClassName="C3D_ItemDITARevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDITARevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevisionSvAI">
+     <OperationInputProperty propName="c3d_audience" compoundObjectConstant="" srcPropName="c3d_audience"
+         compoundObjectType="" fieldType="SimpleProperty" description="Audience"/>
+     <OperationInputProperty propName="c3d_status" compoundObjectConstant="" srcPropName="c3d_status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="C3D_ItemDITALbrRevisionSvAI" parentTypeName="C3D_ItemDITARevisionSvAI"
+       typeClassName="C3D_ItemDITALbrRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbrRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_ItemDITALbrRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevisionSvAI" parentTypeName="C3D_ItemDITALbrRevisionSvAI"
+       typeClassName="C3D_ItemDITAWrnRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrnRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisionSvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_DITAGraphSeqRevisionSvAI" description="SaveAsInput object for &quot;C3D_DITAGraphSeqRevision&quot; business object"
+       isAbstract="true" artifactName="C3D_DITAGraphSeqRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_ItemDITAMltmRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMltmRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevisionSvAI" parentTypeName="C3D_ItemDITAMltmRevisionSvAI"
+       typeClassName="C3D_ItemDITAImgRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImgRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="C3D_ItemDTopRefRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopRefRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevisionSvAI" parentTypeName="C3D_ItemDTopRefRevisionSvAI"
+       typeClassName="C3D_ItemDLrnGrpRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrpRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevisionSvAI" parentTypeName="C3D_ItemDLrnGrpRevisionSvAI"
+       typeClassName="C3D_ItemDLrnObjRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObjRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevisionSvAI" parentTypeName="C3D_ItemDTopRefRevisionSvAI"
+       typeClassName="C3D_ItemDTopHeadRevisionSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHeadRevision&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisionSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapMasterSvAI" parentTypeName="C3D_ItemPubMasterSvAI"
+       typeClassName="C3D_ItemDMapMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapLMasterSvAI" parentTypeName="C3D_ItemDMapMasterSvAI"
+       typeClassName="C3D_ItemDMapLMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapLMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMasterSvAI" parentTypeName="C3D_ItemMasterSvAI"
+       typeClassName="C3D_ItemDITAMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrMasterSvAI" parentTypeName="C3D_ItemDITAMasterSvAI"
+       typeClassName="C3D_ItemDITALbrMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbrMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnMasterSvAI" parentTypeName="C3D_ItemDITALbrMasterSvAI"
+       typeClassName="C3D_ItemDITAWrnMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrnMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMasterSvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_DITAGraphSeqMasterSvAI" description="SaveAsInput object for &quot;C3D_DITAGraphSeqMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_ItemDITAMltmMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMltmMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgMasterSvAI" parentTypeName="C3D_ItemDITAMltmMasterSvAI"
+       typeClassName="C3D_ItemDITAImgMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImgMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="C3D_ItemDTopRefMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopRefMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpMasterSvAI" parentTypeName="C3D_ItemDTopRefMasterSvAI"
+       typeClassName="C3D_ItemDLrnGrpMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrpMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjMasterSvAI" parentTypeName="C3D_ItemDLrnGrpMasterSvAI"
+       typeClassName="C3D_ItemDLrnObjMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObjMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadMasterSvAI" parentTypeName="C3D_ItemDTopRefMasterSvAI"
+       typeClassName="C3D_ItemDTopHeadMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHeadMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevisionMasterSvAI" parentTypeName="C3D_ItemPubRevisionMasterSvAI"
+       typeClassName="C3D_ItemDMapRevisionMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevisionMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapLRevisionM_alt0SvAI" parentTypeName="C3D_ItemDMapRevisionMasterSvAI"
+       typeClassName="C3D_ItemDMapLRevisionM_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDMapLRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevisionM_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDITARevisionMasterSvAI" parentTypeName="C3D_ItemRevisionMasterSvAI"
+       typeClassName="C3D_ItemDITARevisionMasterSvAI" description="SaveAsInput object for &quot;C3D_ItemDITARevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevisionMasterSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrRevisio_alt0SvAI" parentTypeName="C3D_ItemDITARevisionMasterSvAI"
+       typeClassName="C3D_ItemDITALbrRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbrRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevisio_alt0SvAI" parentTypeName="C3D_ItemDITALbrRevisio_alt0SvAI"
+       typeClassName="C3D_ItemDITAWrnRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrnRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevisi_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_DITAGraphSeqRevisi_alt0SvAI" description="SaveAsInput object for &quot;C3D_DITAGraphSeqRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqRevisi_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevisi_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_ItemDITAMltmRevisi_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMltmRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevisi_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevisio_alt0SvAI" parentTypeName="C3D_ItemDITAMltmRevisi_alt0SvAI"
+       typeClassName="C3D_ItemDITAImgRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImgRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevisio_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="C3D_ItemDTopRefRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDTopRefRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevisio_alt0SvAI" parentTypeName="C3D_ItemDTopRefRevisio_alt0SvAI"
+       typeClassName="C3D_ItemDLrnGrpRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrpRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevisio_alt0SvAI" parentTypeName="C3D_ItemDLrnGrpRevisio_alt0SvAI"
+       typeClassName="C3D_ItemDLrnObjRevisio_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObjRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevisio_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevisi_alt0SvAI" parentTypeName="C3D_ItemDTopRefRevisio_alt0SvAI"
+       typeClassName="C3D_ItemDTopHeadRevisi_alt0SvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHeadRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevisi_alt0SvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapMasterSSvAI" parentTypeName="C3D_ItemPubMasterSSvAI"
+       typeClassName="C3D_ItemDMapMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapLMasterSSvAI" parentTypeName="C3D_ItemDMapMasterSSvAI"
+       typeClassName="C3D_ItemDMapLMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapLMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMasterSSvAI" parentTypeName="C3D_ItemMasterSSvAI"
+       typeClassName="C3D_ItemDITAMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrMasterSSvAI" parentTypeName="C3D_ItemDITAMasterSSvAI"
+       typeClassName="C3D_ItemDITALbrMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbrMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnMasterSSvAI" parentTypeName="C3D_ItemDITALbrMasterSSvAI"
+       typeClassName="C3D_ItemDITAWrnMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrnMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnMasterSSvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_DITAGraphSeqMasterSSvAI" description="SaveAsInput object for &quot;C3D_DITAGraphSeqMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_ItemDITAMltmMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMltmMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgMasterSSvAI" parentTypeName="C3D_ItemDITAMltmMasterSSvAI"
+       typeClassName="C3D_ItemDITAImgMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImgMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="C3D_ItemDTopRefMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopRefMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpMasterSSvAI" parentTypeName="C3D_ItemDTopRefMasterSSvAI"
+       typeClassName="C3D_ItemDLrnGrpMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrpMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjMasterSSvAI" parentTypeName="C3D_ItemDLrnGrpMasterSSvAI"
+       typeClassName="C3D_ItemDLrnObjMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObjMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadMasterSSvAI" parentTypeName="C3D_ItemDTopRefMasterSSvAI"
+       typeClassName="C3D_ItemDTopHeadMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHeadMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapRevMasterSSvAI" parentTypeName="C3D_ItemPubRevMasterSSvAI"
+       typeClassName="C3D_ItemDMapRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDMapLRevMasterSSvAI" parentTypeName="C3D_ItemDMapRevMasterSSvAI"
+       typeClassName="C3D_ItemDMapLRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDMapLRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDMapLRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITARevMasterSSvAI" parentTypeName="C3D_ItemRevMasterSSvAI"
+       typeClassName="C3D_ItemDITARevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITARevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITARevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITALbrRevMasterSSvAI" parentTypeName="C3D_ItemDITARevMasterSSvAI"
+       typeClassName="C3D_ItemDITALbrRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITALbrRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITALbrRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAWrnRevMasterSSvAI" parentTypeName="C3D_ItemDITALbrRevMasterSSvAI"
+       typeClassName="C3D_ItemDITAWrnRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAWrnRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAWrnRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_DITAGraphSeqRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_DITAGraphSeqRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_DITAGraphSeqRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_DITAGraphSeqRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAMltmRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_ItemDITAMltmRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAMltmRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAMltmRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDITAImgRevMasterSSvAI" parentTypeName="C3D_ItemDITAMltmRevMasterSSvAI"
+       typeClassName="C3D_ItemDITAImgRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDITAImgRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDITAImgRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopRefRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="C3D_ItemDTopRefRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopRefRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopRefRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnGrpRevMasterSSvAI" parentTypeName="C3D_ItemDTopRefRevMasterSSvAI"
+       typeClassName="C3D_ItemDLrnGrpRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnGrpRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnGrpRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDLrnObjRevMasterSSvAI" parentTypeName="C3D_ItemDLrnGrpRevMasterSSvAI"
+       typeClassName="C3D_ItemDLrnObjRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDLrnObjRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDLrnObjRevMasterSSvAI"/>
+   <OperationInputType typeName="C3D_ItemDTopHeadRevMasterSSvAI" parentTypeName="C3D_ItemDTopRefRevMasterSSvAI"
+       typeClassName="C3D_ItemDTopHeadRevMasterSSvAI" description="SaveAsInput object for &quot;C3D_ItemDTopHeadRevMasterS&quot; business object"
+       isAbstract="false" artifactName="C3D_ItemDTopHeadRevMasterSSvAI"/>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeq" value="C3D_DITAGraphSeqCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeqMaster"
+       value="C3D_DITAGraphSeqMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeqMasterS"
+       value="C3D_DITAGraphSeqMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeqRevision"
+       value="C3D_DITAGraphSeqRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeqRevisionMaster"
+       value="C3D_DITAGraphSeqRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_DITAGraphSeqRevMasterS"
+       value="C3D_DITAGraphSeqRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITA" value="C3D_ItemDITACreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImg" value="C3D_ItemDITAImgCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImgMaster"
+       value="C3D_ItemDITAImgMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImgMasterS"
+       value="C3D_ItemDITAImgMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImgRevision"
+       value="C3D_ItemDITAImgRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImgRevisionMaster"
+       value="C3D_ItemDITAImgRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAImgRevMasterS"
+       value="C3D_ItemDITAImgRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbr" value="C3D_ItemDITALbrCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbrMaster"
+       value="C3D_ItemDITALbrMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbrMasterS"
+       value="C3D_ItemDITALbrMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbrRevision"
+       value="C3D_ItemDITALbrRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbrRevisionMaster"
+       value="C3D_ItemDITALbrRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITALbrRevMasterS"
+       value="C3D_ItemDITALbrRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMaster"
+       value="C3D_ItemDITAMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMasterS"
+       value="C3D_ItemDITAMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltm" value="C3D_ItemDITAMltmCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltmMaster"
+       value="C3D_ItemDITAMltmMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltmMasterS"
+       value="C3D_ItemDITAMltmMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltmRevision"
+       value="C3D_ItemDITAMltmRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltmRevisionMaster"
+       value="C3D_ItemDITAMltmRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAMltmRevMasterS"
+       value="C3D_ItemDITAMltmRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITARevision"
+       value="C3D_ItemDITARevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITARevisionMaster"
+       value="C3D_ItemDITARevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITARevMasterS"
+       value="C3D_ItemDITARevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrn" value="C3D_ItemDITAWrnCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrnMaster"
+       value="C3D_ItemDITAWrnMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrnMasterS"
+       value="C3D_ItemDITAWrnMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrnRevision"
+       value="C3D_ItemDITAWrnRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrnRevisionMaster"
+       value="C3D_ItemDITAWrnRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDITAWrnRevMasterS"
+       value="C3D_ItemDITAWrnRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrp" value="C3D_ItemDLrnGrpCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrpMaster"
+       value="C3D_ItemDLrnGrpMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrpMasterS"
+       value="C3D_ItemDLrnGrpMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrpRevision"
+       value="C3D_ItemDLrnGrpRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrpRevisionMaster"
+       value="C3D_ItemDLrnGrpRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnGrpRevMasterS"
+       value="C3D_ItemDLrnGrpRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObj" value="C3D_ItemDLrnObjCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObjMaster"
+       value="C3D_ItemDLrnObjMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObjMasterS"
+       value="C3D_ItemDLrnObjMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObjRevision"
+       value="C3D_ItemDLrnObjRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObjRevisionMaster"
+       value="C3D_ItemDLrnObjRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDLrnObjRevMasterS"
+       value="C3D_ItemDLrnObjRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMap" value="C3D_ItemDMapCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapL" value="C3D_ItemDMapLCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapLMaster"
+       value="C3D_ItemDMapLMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapLMasterS"
+       value="C3D_ItemDMapLMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapLRevision"
+       value="C3D_ItemDMapLRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapLRevisionMaster"
+       value="C3D_ItemDMapLRevisionM_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapLRevMasterS"
+       value="C3D_ItemDMapLRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapMaster"
+       value="C3D_ItemDMapMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapMasterS"
+       value="C3D_ItemDMapMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapRevision"
+       value="C3D_ItemDMapRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapRevisionMaster"
+       value="C3D_ItemDMapRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDMapRevMasterS"
+       value="C3D_ItemDMapRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHead" value="C3D_ItemDTopHeadCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHeadMaster"
+       value="C3D_ItemDTopHeadMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHeadMasterS"
+       value="C3D_ItemDTopHeadMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHeadRevision"
+       value="C3D_ItemDTopHeadRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHeadRevisionMaster"
+       value="C3D_ItemDTopHeadRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopHeadRevMasterS"
+       value="C3D_ItemDTopHeadRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRef" value="C3D_ItemDTopRefCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRefMaster"
+       value="C3D_ItemDTopRefMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRefMasterS"
+       value="C3D_ItemDTopRefMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRefRevision"
+       value="C3D_ItemDTopRefRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRefRevisionMaster"
+       value="C3D_ItemDTopRefRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="C3D_ItemDTopRefRevMasterS"
+       value="C3D_ItemDTopRefRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITA" value="C3D_dita_topic_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAImg" value="C3D_image_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAImgRevision"
+       value="C3D_image_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAMltm" value="C3D_multimedia_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAMltmRevision"
+       value="C3D_multimedia_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITARevision" value="C3D_dita_topic_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAWrn" value="C3D_dita_warning_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDITAWrnRevision"
+       value="C3D_dita_warning_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDMap" value="C3D_dita_map_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDMapRevision" value="C3D_dita_map_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDTopRef" value="C3D_dita_ref_16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="C3D_ItemDTopRefRevision"
+       value="C3D_dita_ref_16.png"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_DITAGraphSeq" value="C3D_DITAGraphSeqRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDITA" value="C3D_ItemDITARevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDITAImg" value="C3D_ItemDITAImgRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDITALbr" value="C3D_ItemDITALbrRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDITAMltm" value="C3D_ItemDITAMltmRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDITAWrn" value="C3D_ItemDITAWrnRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDLrnGrp" value="C3D_ItemDLrnGrpRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDLrnObj" value="C3D_ItemDLrnObjRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDMap" value="C3D_ItemDMapRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDMapL" value="C3D_ItemDMapLRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDTopHead" value="C3D_ItemDTopHeadRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="C3D_ItemDTopRef" value="C3D_ItemDTopRefRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_DITAGraphSeq" value="C3D_DITAGraphSeqMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_DITAGraphSeqRevision"
+       value="C3D_DITAGraphSeqRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITA" value="C3D_ItemDITAMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAImg" value="C3D_ItemDITAImgMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAImgRevision"
+       value="C3D_ItemDITAImgRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITALbr" value="C3D_ItemDITALbrMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITALbrRevision"
+       value="C3D_ItemDITALbrRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAMltm" value="C3D_ItemDITAMltmMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAMltmRevision"
+       value="C3D_ItemDITAMltmRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITARevision"
+       value="C3D_ItemDITARevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAWrn" value="C3D_ItemDITAWrnMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDITAWrnRevision"
+       value="C3D_ItemDITAWrnRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDLrnGrp" value="C3D_ItemDLrnGrpMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDLrnGrpRevision"
+       value="C3D_ItemDLrnGrpRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDLrnObj" value="C3D_ItemDLrnObjMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDLrnObjRevision"
+       value="C3D_ItemDLrnObjRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDMap" value="C3D_ItemDMapMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDMapL" value="C3D_ItemDMapLMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDMapLRevision"
+       value="C3D_ItemDMapLRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDMapRevision"
+       value="C3D_ItemDMapRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDTopHead" value="C3D_ItemDTopHeadMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDTopHeadRevision"
+       value="C3D_ItemDTopHeadRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDTopRef" value="C3D_ItemDTopRefMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="C3D_ItemDTopRefRevision"
+       value="C3D_ItemDTopRefRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_DITAGraphSeqRevision"
+       value="C3D_DITAGraphSeqRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDITAImgRevision"
+       value="C3D_ItemDITAImgRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDITALbrRevision"
+       value="C3D_ItemDITALbrRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDITAMltmRevision"
+       value="C3D_ItemDITAMltmRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDITARevision"
+       value="C3D_ItemDITARevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDITAWrnRevision"
+       value="C3D_ItemDITAWrnRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDLrnGrpRevision"
+       value="C3D_ItemDLrnGrpRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDLrnObjRevision"
+       value="C3D_ItemDLrnObjRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDMapLRevision"
+       value="C3D_ItemDMapLRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDMapRevision"
+       value="C3D_ItemDMapRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDTopHeadRevision"
+       value="C3D_ItemDTopHeadRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="C3D_ItemDTopRefRevision"
+       value="C3D_ItemDTopRefRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeq" value="C3D_DITAGraphSeqSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeqMaster"
+       value="C3D_DITAGraphSeqMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeqMasterS"
+       value="C3D_DITAGraphSeqMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeqRevision"
+       value="C3D_DITAGraphSeqRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeqRevisionMaster"
+       value="C3D_DITAGraphSeqRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_DITAGraphSeqRevMasterS"
+       value="C3D_DITAGraphSeqRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITA" value="C3D_ItemDITASvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImg" value="C3D_ItemDITAImgSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImgMaster"
+       value="C3D_ItemDITAImgMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImgMasterS"
+       value="C3D_ItemDITAImgMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImgRevision"
+       value="C3D_ItemDITAImgRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImgRevisionMaster"
+       value="C3D_ItemDITAImgRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAImgRevMasterS"
+       value="C3D_ItemDITAImgRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbr" value="C3D_ItemDITALbrSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbrMaster"
+       value="C3D_ItemDITALbrMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbrMasterS"
+       value="C3D_ItemDITALbrMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbrRevision"
+       value="C3D_ItemDITALbrRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbrRevisionMaster"
+       value="C3D_ItemDITALbrRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITALbrRevMasterS"
+       value="C3D_ItemDITALbrRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMaster"
+       value="C3D_ItemDITAMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMasterS"
+       value="C3D_ItemDITAMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltm" value="C3D_ItemDITAMltmSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltmMaster"
+       value="C3D_ItemDITAMltmMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltmMasterS"
+       value="C3D_ItemDITAMltmMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltmRevision"
+       value="C3D_ItemDITAMltmRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltmRevisionMaster"
+       value="C3D_ItemDITAMltmRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAMltmRevMasterS"
+       value="C3D_ItemDITAMltmRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITARevision"
+       value="C3D_ItemDITARevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITARevisionMaster"
+       value="C3D_ItemDITARevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITARevMasterS"
+       value="C3D_ItemDITARevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrn" value="C3D_ItemDITAWrnSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrnMaster"
+       value="C3D_ItemDITAWrnMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrnMasterS"
+       value="C3D_ItemDITAWrnMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrnRevision"
+       value="C3D_ItemDITAWrnRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrnRevisionMaster"
+       value="C3D_ItemDITAWrnRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDITAWrnRevMasterS"
+       value="C3D_ItemDITAWrnRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrp" value="C3D_ItemDLrnGrpSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrpMaster"
+       value="C3D_ItemDLrnGrpMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrpMasterS"
+       value="C3D_ItemDLrnGrpMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrpRevision"
+       value="C3D_ItemDLrnGrpRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrpRevisionMaster"
+       value="C3D_ItemDLrnGrpRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnGrpRevMasterS"
+       value="C3D_ItemDLrnGrpRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObj" value="C3D_ItemDLrnObjSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObjMaster"
+       value="C3D_ItemDLrnObjMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObjMasterS"
+       value="C3D_ItemDLrnObjMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObjRevision"
+       value="C3D_ItemDLrnObjRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObjRevisionMaster"
+       value="C3D_ItemDLrnObjRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDLrnObjRevMasterS"
+       value="C3D_ItemDLrnObjRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMap" value="C3D_ItemDMapSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapL" value="C3D_ItemDMapLSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapLMaster"
+       value="C3D_ItemDMapLMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapLMasterS"
+       value="C3D_ItemDMapLMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapLRevision"
+       value="C3D_ItemDMapLRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapLRevisionMaster"
+       value="C3D_ItemDMapLRevisionM_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapLRevMasterS"
+       value="C3D_ItemDMapLRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapMaster"
+       value="C3D_ItemDMapMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapMasterS"
+       value="C3D_ItemDMapMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapRevision"
+       value="C3D_ItemDMapRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapRevisionMaster"
+       value="C3D_ItemDMapRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDMapRevMasterS"
+       value="C3D_ItemDMapRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHead" value="C3D_ItemDTopHeadSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHeadMaster"
+       value="C3D_ItemDTopHeadMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHeadMasterS"
+       value="C3D_ItemDTopHeadMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHeadRevision"
+       value="C3D_ItemDTopHeadRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHeadRevisionMaster"
+       value="C3D_ItemDTopHeadRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopHeadRevMasterS"
+       value="C3D_ItemDTopHeadRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRef" value="C3D_ItemDTopRefSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRefMaster"
+       value="C3D_ItemDTopRefMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRefMasterS"
+       value="C3D_ItemDTopRefMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRefRevision"
+       value="C3D_ItemDTopRefRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRefRevisionMaster"
+       value="C3D_ItemDTopRefRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="C3D_ItemDTopRefRevMasterS"
+       value="C3D_ItemDTopRefRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITA" propertyName="c3d_product"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITA" propertyName="c3d_schema"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITAMltm" propertyName="c3d_mime_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITAMltm" propertyName="c3d_mltm_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_audience" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_product" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_schema" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_status" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMap" propertyName="c3d_product"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMap" propertyName="c3d_schema"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_audience" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_product" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_schema" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_status" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITA" propertyName="c3d_product"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITA" propertyName="c3d_schema"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITAMltm"
+       propertyName="c3d_mime_type" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITAMltm"
+       propertyName="c3d_mltm_type" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_audience" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_product" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_schema" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDITARevision"
+       propertyName="c3d_status" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMap" propertyName="c3d_product"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMap" propertyName="c3d_schema"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_audience" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_product" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_schema" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="C3D_ItemDMapRevision"
+       propertyName="c3d_status" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_ItemDITAMltm" propertyName="c3d_mime_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="C3D_ItemDITAMltm" propertyName="c3d_mltm_type"
+       value="true"/>
+   <TcCompoundPropertyRule destTypeName="C3D_ItemDMapRevision" destPropertyName="c3d_product"
+       sourceTypeName="C3D_ItemDMap" sourcePropertyName="c3d_product" isReadOnly="false"
+       pathToSource="REF(items_tag,C3D_ItemDMap).c3d_product" description=""/>
+   <TcCompoundPropertyRule destTypeName="C3D_ItemDMapRevision" destPropertyName="c3d_schema"
+       sourceTypeName="C3D_ItemDMap" sourcePropertyName="c3d_schema" isReadOnly="false"
+       pathToSource="REF(items_tag,C3D_ItemDMap).c3d_schema" description=""/>
+   <TcCompoundPropertyRule destTypeName="C3D_ItemDITARevision" destPropertyName="c3d_product"
+       sourceTypeName="C3D_ItemDITA" sourcePropertyName="c3d_product" isReadOnly="false"
+       pathToSource="REF(items_tag,C3D_ItemDITA).c3d_product" description=""/>
+   <TcCompoundPropertyRule destTypeName="C3D_ItemDITARevision" destPropertyName="c3d_schema"
+       sourceTypeName="C3D_ItemDITA" sourcePropertyName="c3d_schema" isReadOnly="false"
+       pathToSource="REF(items_tag,C3D_ItemDITA).c3d_schema" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemDITAMltmRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="Image" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="C3D_ItemDITAMltmRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="Image" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcNamingRule name="C3D_DITAGraphics">
+     <TcPattern generateCounters="true" patternString="&quot;GRAPHICS_&quot;NNNNNNNNNN"
+         description="DITA Graphics">
+       <TcCounter initialValue="GRAPHICS_0000000001" maximumValue="GRAPHICS_9999999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="@%[-_0-9a-zA-Z]+"/>
+   </TcNamingRule>
+   <TcNamingRule name="C3D_DITATopic">
+     <TcPattern generateCounters="true" patternString="&quot;TOPIC_&quot;NNNNNNNNNN"
+         description="DITA Topic">
+       <TcCounter initialValue="TOPIC_0000000001" maximumValue="TOPIC_9999999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="@%[-_0-9a-zA-Z]+"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="C3D_DITAGraphics" typeName="C3D_DITAGraphSeq" propertyName="item_id"
+       case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcNamingRuleAttach ruleName="C3D_DITAGraphics" typeName="C3D_ItemDITAMltm" propertyName="item_id"
+       case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcNamingRuleAttach ruleName="C3D_DITATopic" typeName="C3D_ItemDITA" propertyName="item_id"
+       case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcNamingRuleAttach ruleName="C3D_DITATopic" typeName="C3D_ItemDMap" propertyName="item_id"
+       case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcNamingRuleAttach ruleName="C3D_DITATopic" typeName="C3D_ItemDTopRef" propertyName="item_id"
+       case="Upper" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcLOV name="C3D_DITAAudiences" lovType="ListOfValuesString" usage="Exhaustive"
+       description="DITA Audience List">
+     <TcLOVValue value="user" description="" conditionName="isTrue"/>
+     <TcLOVValue value="purchaser" description="" conditionName="isTrue"/>
+     <TcLOVValue value="administrator" description="" conditionName="isTrue"/>
+     <TcLOVValue value="programmer" description="" conditionName="isTrue"/>
+     <TcLOVValue value="executive" description="" conditionName="isTrue"/>
+     <TcLOVValue value="services" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="C3D_DITAMltmType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="video" description="" conditionName="isTrue"/>
+     <TcLOVValue value="image" description="" conditionName="isTrue"/>
+     <TcLOVValue value="sound" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="C3D_DITAStatuses" lovType="ListOfValuesString" usage="Exhaustive"
+       description="DITA Statuses">
+     <TcLOVValue value="new" description="" conditionName="isTrue"/>
+     <TcLOVValue value="changed" description="" conditionName="isTrue"/>
+     <TcLOVValue value="deleted" description="" conditionName="isTrue"/>
+     <TcLOVValue value="unchanged" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <LOVDynamic name="C3DFnd0MIMETypes" description="Cortona3D MIME Types" usage="Exhaustive"
+       queryClause="SELECT qid FROM C3D_MIMEType WHERE &quot;c3d_mime_type&quot; IS_NOT_NULL &quot;IS_NOT_NULL&quot;"
+       dataType="PROP_string" queryType="C3D_MIMEType" lovValueAttribute="c3d_mime_type"
+       lovValueDescriptionAttribute="object_name"/>
+   <TcLOVAttach lovName="C3D_DITAAudiences" typeName="C3D_ItemDITARevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_audience" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3D_DITAAudiences" typeName="C3D_ItemDMapRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_audience" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3D_DITAMltmType" typeName="C3D_ItemDITAMltm">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_mltm_type" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3D_DITAStatuses" typeName="C3D_ItemDITARevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_status" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3D_DITAStatuses" typeName="C3D_ItemDMapRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_status" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="C3DFnd0MIMETypes" typeName="C3D_ItemDITAMltm">
+     <TcLOVAttachPropertyInfo valuePropertyName="c3d_mime_type" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+</Add>
+</TcBusinessData>

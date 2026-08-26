@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:54:54 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigCustomLOVBO" locale="ko_KR" status="Approved">인쇄 구성 사용자 정의 값 리스트(LOV) 비즈니스 개체</key>
+           
+        <key id="BusinessObject{::}Dma1PrintConfigRuntime" locale="ko_KR" status="Approved">인쇄 구성 런타임</key>
+           
+        <key id="ConditionDescription{::}Dma1DocumentRevisionIRDCCond" locale="ko_KR" status="Approved">문서 리비전 비즈니스 개체에 초기 아이템 리비전 정의 구성(IRDC) Dma1DocumentRevisionIRDC의 적용 여부를 확인하기 위한 조건. 환경설정 "Fnd0DM_IsSimpleDocumentEnabled"가 "true"로 설정되어 있는 경우 Dma1DocumentRevisionIRDC가 적용됩니다. 이는 문서 리비전의 자식에는 적용되지 않습니다.</key>
+           
+        <key id="ConditionDescription{::}Dma1UseCOTSIRDCItemCond" locale="ko_KR" status="Approved">획기적인 아이템 리비전 정의 구성(IRDC) 인스턴스가 환경설정 "Dma1UseCOTSIRDC"를 기반으로 한 아이템 리비전에 적용되는지 여부를 확인하는 조건입니다. 이는 아이템 리비전의 자식에 적용되지 않습니다.</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ko_KR" status="Approved">모두</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ko_KR" status="Approved">Off</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ko_KR" status="Approved">단일</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Color" locale="ko_KR" status="Approved">색상</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ko_KR" status="Approved">흑백</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ko_KR" status="Approved">자동 맞춤</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ko_KR" status="Approved">가로 방향</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ko_KR" status="Approved">세로 방향</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ko_KR" status="Approved">모든 페이지</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ko_KR" status="Approved">배너 페이지</key>
+           
+        <key id="LOVValueDescription{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ko_KR" status="Approved">처음 페이지</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}All" locale="ko_KR" status="Approved">모두</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Off" locale="ko_KR" status="Approved">Off</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigBannerPageLOV{::}Single" locale="ko_KR" status="Approved">단일</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Color" locale="ko_KR" status="Approved">색상</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigColorLOV{::}Monochrome" locale="ko_KR" status="Approved">흑백</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Best Fit" locale="ko_KR" status="Approved">자동 맞춤</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Landscape" locale="ko_KR" status="Approved">가로 방향</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigOrientationLOV{::}Portrait" locale="ko_KR" status="Approved">세로 방향</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}All Pages" locale="ko_KR" status="Approved">모든 페이지</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}Banner Page" locale="ko_KR" status="Approved">배너 페이지</key>
+           
+        <key id="LOVValue{::}Dma1PrintConfigSystemStampLOV{::}First Page" locale="ko_KR" status="Approved">처음 페이지</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1BannerPage" locale="ko_KR" status="Approved">배너 페이지</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Collate" locale="ko_KR" status="Approved">한 부씩 인쇄</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Color" locale="ko_KR" status="Approved">색상</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Copies" locale="ko_KR" status="Approved">사본</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Orientation" locale="ko_KR" status="Approved">방향</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PaperSizes" locale="ko_KR" status="Approved">종이 크기</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrintConfigName" locale="ko_KR" status="Approved">인쇄 구성 이름</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1PrinterName" locale="ko_KR" status="Approved">프린터 이름</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Range" locale="ko_KR" status="Approved">범위</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1Scale" locale="ko_KR" status="Approved">크기</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1StampsSupported" locale="ko_KR" status="Approved">지원되는 스탬프:</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1SystemStamp" locale="ko_KR" status="Approved">시스템 스탬프</key>
+           
+        <key id="Property{::}Dma1PrintConfigRuntime{::}dma1UserStamp" locale="ko_KR" status="Approved">사용자 스탬프</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

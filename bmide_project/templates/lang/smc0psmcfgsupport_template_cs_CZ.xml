@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="cs_CZ" status="Approved">Rozsah variability</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="cs_CZ" status="Approved">Zprostředkovatel informací o variantě řešení</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="cs_CZ" status="Approved">Relace tvůrce ID varianty řešení</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="cs_CZ" status="Approved">Informace o zdroji varianty řešení</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="cs_CZ" status="Approved">Informace o variantě řešení</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="cs_CZ" status="Approved">Zprostředkovatel varianty řešení</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="cs_CZ" status="Approved">Konfigurovatelný objekt varianty</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="cs_CZ" status="Approved">Relace zdroje varianty řešení</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="cs_CZ" status="Approved">Kritéria ověření pro určení, zda jsou pravidlo varianty a řádek zdrojové rozpisky platné pro operaci vytvoření a aktualizace varianty řešení</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="cs_CZ" status="Approved">Varianta řešení</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="cs_CZ" status="Approved">Nespravovaná varianta řešení</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="cs_CZ" status="Approved">Spravovaná varianta řešení</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="cs_CZ" status="Approved">Znovu použít variantu řešení</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="cs_CZ" status="Approved">Varianta řešení</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="cs_CZ" status="Approved">Nespravovaný</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="cs_CZ" status="Approved">Spravovaný</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="cs_CZ" status="Approved">Znovu použít</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="cs_CZ" status="Approved">Varianta řešení</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="cs_CZ" status="Approved">Kategorie varianty řešení</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="cs_CZ" status="Approved">Perspektiva konfigurátoru</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="cs_CZ" status="Approved">Aktuální kontext konfigurátoru variant</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="cs_CZ" status="Approved">Kategorie varianty řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="cs_CZ" status="Approved">Řádek zdrojové rozpisky</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="cs_CZ" status="Approved">Kategorie</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="cs_CZ" status="Approved">Varianta řešení existuje jako položka stejné úrovně</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="cs_CZ" status="Approved">Varianta řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="cs_CZ" status="Approved">Pravidlo varianty bylo změněno</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="cs_CZ" status="Approved">Pravidlo varianty je platné</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="cs_CZ" status="Approved">Platné pro variantu řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="cs_CZ" status="Approved">Pravidlo varianty</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="cs_CZ" status="Approved">Zdrojová sestava byla změněna</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="cs_CZ" status="Approved">Ovlivněné objekty</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="cs_CZ" status="Approved">Konfigurace položky varianty řešení</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="cs_CZ" status="Approved">Zdroj varianty řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="cs_CZ" status="Approved">Datum poslední úpravy revize zobrazení rozpisky obecné varianty</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="cs_CZ" status="Approved">Akce varianty řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="cs_CZ" status="Approved">Datum poslední úpravy revize zobrazení rozpisky varianty řešení</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="cs_CZ" status="Approved">Kategorie varianty řešení</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="cs_CZ" status="Approved">Poskytovatel perspektivy konfigurátoru</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="cs_CZ" status="Approved">Atributy výskytu varianty řešení</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="cs_CZ" status="Approved">Výskyt zdroje varianty řešení</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="cs_CZ" status="Approved">Kritérium varianty</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="cs_CZ" status="Approved">Výsledek kombinace sestavení</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="cs_CZ" status="Approved">Informace o kombinacích sestavení</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="cs_CZ" status="Approved">Variabilita uzlu organizace</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="cs_CZ" status="Approved">Vymezený zprostředkovatel variability</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="cs_CZ" status="Approved">Řešení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="cs_CZ" status="Approved">Barevný pruh kombinace sestavení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="cs_CZ" status="Approved">ZRUŠENO. VIZ OZNÁMENÍ PODPORY 2506. Pokrytí</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="cs_CZ" status="Approved">Vzorec kombinace sestavení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="cs_CZ" status="Approved">Kombinace sestavení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="cs_CZ" status="Approved">JSON výrazu sestavení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="cs_CZ" status="Approved">Shoda výrazu</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="cs_CZ" status="Approved">ZRUŠENO. VIZ OZNÁMENÍ PODPORY 2512. Rodiny</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="cs_CZ" status="Approved">ZRUŠENO. VIZ OZNÁMENÍ PODPORY 2512. Funkce</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="cs_CZ" status="Approved">Seskupeno podle</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="cs_CZ" status="Approved">ZRUŠENO. VIZ OZNÁMENÍ PODPORY 2506. Index</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="cs_CZ" status="Approved">Rozsah</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="cs_CZ" status="Approved">UID řešení kombinace sestavení</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="cs_CZ" status="Approved">Pokrytí</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="cs_CZ" status="Approved">Index</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="cs_CZ" status="Approved">Kritéria konfigurace</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="cs_CZ" status="Approved">Přiřazení kombinací sestavení pro výskyt</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="cs_CZ" status="Approved">Variabilita uzlu organizace</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="cs_CZ" status="Approved">Kombinace sestavení</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="cs_CZ" status="Approved">Rodiny konfigurace</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="cs_CZ" status="Approved">Reference uzlu organizace</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="en_US" status="Approved">Licenses</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="en_US" status="Approved">Licenses</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="en_US" status="Approved">Add Project</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="en_US" status="Approved">Server side command visibility condition for Licenses command. This command should be visible for Teamcenter Version &lt;=11.2.3. It should be visible only if selected object is of type WorkspaceObject, Dataset or Form. It should not be visible if selected object is of type EPMTask or Signoff. It should be visible if the logged in user is a member of dba group or is in the ITAR Admin or IP Admin role.</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="en_US" status="Approved">Server side command visibility condition for Licenses command. This command should be visible for Teamcenter Version &gt;=11.3. It should be visible only if selected object is of type WorkspaceObject, Dataset or Form. It should not be visible if selected object is of type EPMTask or Signoff. It should be visible if the logged in user is a member of dba group or is in the ITAR Admin or IP Admin role.</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="en_US" status="Approved">Server side command visibility condition for Add Project command. This command should be visible only if the user is logged in with privileged group or with Project Administration group and Project Administrator role.</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="en_US" status="Approved">Project Provider</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="en_US" status="Approved">Project Team Provider</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="en_US" status="Approved">Modifiable?</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:58:18 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Pma1AlignedTargetProvider" locale="fr_FR" status="Approved">Fournisseur cible aligné</key>
+           
+        <key id="BusinessObject{::}Pma1PossibleUpdateActions" locale="fr_FR" status="Approved">Actions de mise à jour possibles</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM" locale="fr_FR" status="Approved">Mise à jour Nomenclature</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Colored Part" locale="fr_FR" status="Approved">Indique si la pièce est sensible à la couleur</key>
+           
+        <key id="LOVValueDescription{::}Pma1LessFinish{::}Less Finish" locale="fr_FR" status="Approved">Indique si la pièce est Moindre finition</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM" locale="fr_FR" status="Approved">Mise à jour Nomenclature</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Colored Part" locale="fr_FR" status="Approved">Pièce colorée</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}Less Finish" locale="fr_FR" status="Approved">Moindre finition</key>
+           
+        <key id="LOVValue{::}Pma1LessFinish{::}None" locale="fr_FR" status="Approved">Aucun</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Outsourced" locale="fr_FR" status="Approved">Conception sous-traitée</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Design Purchased" locale="fr_FR" status="Approved">Conception achetée</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}In-house Design" locale="fr_FR" status="Approved">Conception en interne</key>
+           
+        <key id="LOVValue{::}Pma1TechnologyIntent{::}Un-assigned" locale="fr_FR" status="Approved">Non affecté</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignToGenericPart" locale="fr_FR" status="Approved">Aligner sur pièce générique</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartContexts" locale="fr_FR" status="Approved">Contextes de pièces alignées</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedPartRelStatus" locale="fr_FR" status="Approved">Statut de validation des pièces alignées</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1AlignedParts" locale="fr_FR" status="Approved">Pièces alignées</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartAligned" locale="fr_FR" status="Approved">Pièce alignée?</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1IsPartRequired" locale="fr_FR" status="Approved">Pièce obligatoire</key>
+           
+        <key id="Property{::}Awb0DesignElement{::}pma1LastAlignedPart" locale="fr_FR" status="Approved">Pièces alignées</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsStandard" locale="fr_FR" status="Approved">Standard</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignContexts" locale="fr_FR" status="Approved">Contextes de conception alignés</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesignRelStatus" locale="fr_FR" status="Approved">Statut de validation des conceptions alignées</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1AlignedDesigns" locale="fr_FR" status="Approved">Conceptions alignées</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignAligned" locale="fr_FR" status="Approved">Conception alignée?</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1IsDesignRequired" locale="fr_FR" status="Approved">Conception obligatoire</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LastAlignedDesign" locale="fr_FR" status="Approved">Conceptions alignées</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1LessFinish" locale="fr_FR" status="Approved">Type de finition</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1MultiBody" locale="fr_FR" status="Approved">Multi corps</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SafetyPart" locale="fr_FR" status="Approved">Pièce de sécurité</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1SparePart" locale="fr_FR" status="Approved">Pièce de rechange</key>
+           
+        <key id="Property{::}Awb0PartElement{::}pma1TechnologyIntent" locale="fr_FR" status="Approved">Intention de Technologie</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}pma1UpdateAction" locale="fr_FR" status="Approved">Action de mise à jour</key>
+           
+        <key id="Event{::}Pma1BOMGenerationSuccess" locale="fr_FR" status="Approved">La génération de Nomenclature a réussi</key>
+           
+        <key id="Event{::}Pma1BOMUpdateSuccess" locale="fr_FR" status="Approved">La mise à jour de Nomenclature a réussi</key>
+           
+        <key id="CommandDisplayName{::}Pma1AlignmentExists" locale="fr_FR" status="Approved">Alignement existe</key>
+           
+        <key id="ConditionDescription{::}Pma1AlignmentExistCmdCond" locale="fr_FR" status="Approved">Définit la visibilité de la commande "Créer et mettre à jour". Disponible seulement pour des objets de conception.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

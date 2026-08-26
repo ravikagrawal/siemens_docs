@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:57:32 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMasterS" locale="uk_UA" status="Approved">Головне сховище елементів маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemMaster" locale="uk_UA" status="Approved">Майстер елементів маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій елементів маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevisionMaster" locale="uk_UA" status="Approved">Майстер редакції елементів маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItemRevision" locale="uk_UA" status="Approved">Ревізія елементів маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDItem" locale="uk_UA" status="Approved">Елемент маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMasterS" locale="uk_UA" status="Approved">Головне сховище частин маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartMaster" locale="uk_UA" status="Approved">Майстер деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevisionMaster" locale="uk_UA" status="Approved">Майстер редакції деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPartRevision" locale="uk_UA" status="Approved">Ревізія деталі проєкту маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0AbsRSDPart" locale="uk_UA" status="Approved">Деталь проєкту маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationData" locale="uk_UA" status="Approved">Дані додатка</key>
+           
+        <key id="BusinessObject{::}NX0AssetSearchProvider" locale="uk_UA" status="Approved">Провайдер пошуку активів NX</key>
+           
+        <key id="BusinessObject{::}NX0Asset" locale="uk_UA" status="Approved">Ресурс бібліотеки NX</key>
+           
+        <key id="BusinessObject{::}NX0BookletDataset" locale="uk_UA" status="Approved">Набір даних буклету</key>
+           
+        <key id="BusinessObject{::}NX0BookletFolder" locale="uk_UA" status="Approved">Папка буклетів</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMasterS" locale="uk_UA" status="Approved">Елемент буклету MasterS</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemMaster" locale="uk_UA" status="Approved">Майстер елемента буклету</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevMasterS" locale="uk_UA" status="Approved">Майстер ревізій елемента буклета</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії елемента буклету</key>
+           
+        <key id="BusinessObject{::}NX0BookletItemRevision" locale="uk_UA" status="Approved">Ревізія елемента буклету</key>
+           
+        <key id="BusinessObject{::}NX0BookletItem" locale="uk_UA" status="Approved">Елемент буклету</key>
+           
+        <key id="BusinessObject{::}NX0BookletReference" locale="uk_UA" status="Approved">Посилання на буклет (застаріле)</key>
+           
+        <key id="BusinessObject{::}NX0BookletRule" locale="uk_UA" status="Approved">Правило буклета</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMasterS" locale="uk_UA" status="Approved">Основне сховище таблиці сумісності гілок</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompMaster" locale="uk_UA" status="Approved">Майстер таблиці сумісності гілок</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevMasterS" locale="uk_UA" status="Approved">Сховище головних ревізій таблиці сумісності гілок</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії таблиці сумісності відгалужень</key>
+           
+        <key id="BusinessObject{::}NX0BranchCompRevision" locale="uk_UA" status="Approved">Ревізія таблиці сумісності гілок</key>
+           
+        <key id="BusinessObject{::}NX0BranchComp" locale="uk_UA" status="Approved">Таблиця сумісності гілок</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMasterS" locale="uk_UA" status="Approved">Сховище абстрактних майстрів руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionMaster" locale="uk_UA" status="Approved">Майстер абстракції руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій абстрактного руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevisionMaster" locale="uk_UA" status="Approved">Майстер редагування абстрактного руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionRevision" locale="uk_UA" status="Approved">Ревізія абстракції руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMasterS" locale="uk_UA" status="Approved">Головне сховище аналізу руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimMaster" locale="uk_UA" status="Approved">Майстер аналізу руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізії аналізу руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії аналізу руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSimRevision" locale="uk_UA" status="Approved">Ревізія аналізу руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotionSim" locale="uk_UA" status="Approved">Аналіз руху</key>
+           
+        <key id="BusinessObject{::}NX0CAEMotion" locale="uk_UA" status="Approved">Стислий опис руху</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMasterS" locale="uk_UA" status="Approved">Головне сховище таблиці сумісності з'єднань</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompMaster" locale="uk_UA" status="Approved">Майстер таблиці сумісності з'єднань</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevMasterS" locale="uk_UA" status="Approved">Сховище Основної Ревізії Таблиці Сумісності З'єднань</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії таблиці сумісності з'єднань</key>
+           
+        <key id="BusinessObject{::}NX0ConnCompRevision" locale="uk_UA" status="Approved">Ревізія таблиці сумісності з'єднань</key>
+           
+        <key id="BusinessObject{::}NX0ConnComp" locale="uk_UA" status="Approved">Таблиця сумісності з'єднань</key>
+           
+        <key id="BusinessObject{::}NX0DiagramOf" locale="uk_UA" status="Approved">Діаграма</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMasterS" locale="uk_UA" status="Approved">Сховище майстра розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetMaster" locale="uk_UA" status="Approved">Майстер розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevMasterS" locale="uk_UA" status="Approved">Сховище майстра ревізій розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorksetRevision" locale="uk_UA" status="Approved">Ревізія розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DisclWorkset" locale="uk_UA" status="Approved">Розкриття технологічних даних</key>
+           
+        <key id="BusinessObject{::}NX0DocumentDataset" locale="uk_UA" status="Approved">Набір даних документа NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMasterS" locale="uk_UA" status="Approved">Сховище головних документів NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentMaster" locale="uk_UA" status="Approved">Основний документ NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій NX-документа</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій документа NX</key>
+           
+        <key id="BusinessObject{::}NX0DocumentRevision" locale="uk_UA" status="Approved">Ревізія документа NX</key>
+           
+        <key id="BusinessObject{::}NX0Document" locale="uk_UA" status="Approved">Документ NX</key>
+           
+        <key id="BusinessObject{::}NX0ExternalFileReference" locale="uk_UA" status="Approved">Посилання на зовнішній файл</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMasterS" locale="uk_UA" status="Approved">Головне сховище складання безконтактної інспекції NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmMaster" locale="uk_UA" status="Approved">Майстер складання безконтактної інспекції NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій складання безконтактної інспекції NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії складання безконтактної перевірки NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsmRevision" locale="uk_UA" status="Approved">Ревізія складання безконтактної перевірки NX</key>
+           
+        <key id="BusinessObject{::}NX0InspectionAsm" locale="uk_UA" status="Approved">Складання безконтактної перевірки NX</key>
+           
+        <key id="BusinessObject{::}NX0LRuleData" locale="uk_UA" status="Approved">Дані логічного правила</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMasterS" locale="uk_UA" status="Approved">Сховище майстра логічних правил</key>
+           
+        <key id="BusinessObject{::}NX0LRuleMaster" locale="uk_UA" status="Approved">Майстер логічних правил</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevMasterS" locale="uk_UA" status="Approved">Основне Сховище Ревізій Логічних Правил</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevisionMaster" locale="uk_UA" status="Approved">Майстер редагування логічних правил</key>
+           
+        <key id="BusinessObject{::}NX0LRuleRevision" locale="uk_UA" status="Approved">Ревізія правила в редакторі логіки NX</key>
+           
+        <key id="BusinessObject{::}NX0LRule" locale="uk_UA" status="Approved">Правило редактора логіки NX</key>
+           
+        <key id="BusinessObject{::}NX0MCDReference" locale="uk_UA" status="Approved">Довідник з мехатроніки</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessDataset" locale="uk_UA" status="Approved">Набір даних технологічного маршруту NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMasterS" locale="uk_UA" status="Approved">Головне сховище специфікації технологічного процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessMaster" locale="uk_UA" status="Approved">Майстер специфікації технологічного процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій специфікації технологічного процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії специфікації технологічного процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcessRevision" locale="uk_UA" status="Approved">Ревізія елемента відомості технологічних процесів NX</key>
+           
+        <key id="BusinessObject{::}NX0MEProcess" locale="uk_UA" status="Approved">Елемент переліку технологічних процесів NX</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMasterS" locale="uk_UA" status="Approved">Сховище базових даних проксі-елемента матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemMaster" locale="uk_UA" status="Approved">Основні дані проксі-елемента матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій проксі-елемента матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії проксі-елемента матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItemRevision" locale="uk_UA" status="Approved">Ревізія проксі-елемента матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MatProxyItem" locale="uk_UA" status="Approved">Проксі-елемент матеріалу</key>
+           
+        <key id="BusinessObject{::}NX0MaterialsSpecifications" locale="uk_UA" status="Approved">Специфікації матеріалів</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByDataset" locale="uk_UA" status="Approved">Інформація про відсутні файли за набором даних</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfoByNames" locale="uk_UA" status="Approved">Відсутня інформація про файл за назвою</key>
+           
+        <key id="BusinessObject{::}NX0MissingFileInfo" locale="uk_UA" status="Approved">Відсутня інформація про файл</key>
+           
+        <key id="BusinessObject{::}NX0MotionSim" locale="uk_UA" status="Approved">Симуляція руху</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMasterS" locale="uk_UA" status="Approved">Головне сховище даних хмари точок NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataMaster" locale="uk_UA" status="Approved">Майстер даних хмари точок NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій даних хмари точок NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій даних хмари точок NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudDataRevision" locale="uk_UA" status="Approved">Ревізія даних точкової хмари NX</key>
+           
+        <key id="BusinessObject{::}NX0PntCloudData" locale="uk_UA" status="Approved">Дані хмари точок NX</key>
+           
+        <key id="BusinessObject{::}NX0PortLocation" locale="uk_UA" status="Approved">Розташування порту</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMasterS" locale="uk_UA" status="Approved">Головне сховище вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyMaster" locale="uk_UA" status="Approved">Майстер вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevisionMaster" locale="uk_UA" status="Approved">Майстер редакції вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssemblyRevision" locale="uk_UA" status="Approved">Ревізія вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDAssembly" locale="uk_UA" status="Approved">Елемент вузла маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDItemRevAttrs" locale="uk_UA" status="Approved">Атрибути ревізії елемента маршрутизації NX</key>
+           
+        <key id="BusinessObject{::}NX0RSDOccAttrs" locale="uk_UA" status="Approved">Атрибути входження маршрутизації NX</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMasterS" locale="uk_UA" status="Approved">Головне сховище багаторазових деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtMaster" locale="uk_UA" status="Approved">Майстер багаторазових деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevMasterS" locale="uk_UA" status="Approved">Головне сховище редакції багаторазових деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevisionMaster" locale="uk_UA" status="Approved">Майстер редакції багаторазових деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePtRevision" locale="uk_UA" status="Approved">Ревізія багаторазових деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDReusablePt" locale="uk_UA" status="Approved">Багаторазова деталь маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMasterS" locale="uk_UA" status="Approved">Головне сховище стандартних деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartMaster" locale="uk_UA" status="Approved">Майстер стандартних деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevMasterS" locale="uk_UA" status="Approved">Головне сховище редакції стандартних деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevisionMaster" locale="uk_UA" status="Approved">Майстер редакції стандартних деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPartRevision" locale="uk_UA" status="Approved">Ревізія стандартних деталей маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0RSDStockPart" locale="uk_UA" status="Approved">Стандартна деталь маршрутизації</key>
+           
+        <key id="BusinessObject{::}NX0ReferenceOnlyComponent" locale="uk_UA" status="Approved">Компонент лише для довідки</key>
+           
+        <key id="BusinessObject{::}NX0RoutingPipePartData" locale="uk_UA" status="Approved">Дані трубної деталі NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunData" locale="uk_UA" status="Approved">Дані виконання NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingRunReference" locale="uk_UA" status="Approved">Довідник із запуску маршрутизації у NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecData" locale="uk_UA" status="Approved">Дані специфікації труб NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMasterS" locale="uk_UA" status="Approved">Головне сховище специфікацій трубопроводів NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecMaster" locale="uk_UA" status="Approved">Майстер специфікації труб для маршрутизації в NX</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevMasterS" locale="uk_UA" status="Approved">Сховище головних ревізій специфікації трубопроводу NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії специфікації трубопроводів NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpecRevision" locale="uk_UA" status="Approved">Ревізія специфікації труб NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0RoutingSpec" locale="uk_UA" status="Approved">Специфікація труби NX Routing</key>
+           
+        <key id="BusinessObject{::}NX0SheetMetalExport" locale="uk_UA" status="Approved">Експорт розгортки</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMasterS" locale="uk_UA" status="Approved">Головне сховище посилань на судно</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceMaster" locale="uk_UA" status="Approved">Майстер довідника суден</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій суднових посилань</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevisionMaster" locale="uk_UA" status="Approved">Майстер Ревізії Довідки Судна</key>
+           
+        <key id="BusinessObject{::}NX0ShipReferenceRevision" locale="uk_UA" status="Approved">Ревізія посилання на судно</key>
+           
+        <key id="BusinessObject{::}NX0ShipReference" locale="uk_UA" status="Approved">Посилання на судно</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedFrom" locale="uk_UA" status="Approved">Спрощено з деталі</key>
+           
+        <key id="BusinessObject{::}NX0SimplifiedUsing" locale="uk_UA" status="Approved">Спрощено за допомогою шаблону</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMasterS" locale="uk_UA" status="Approved">Основне сховище складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyMaster" locale="uk_UA" status="Approved">Майстер складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRef" locale="uk_UA" status="Approved">Посилання на складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevMasterS" locale="uk_UA" status="Approved">Сховище майстер-ревізії складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssemblyRevision" locale="uk_UA" status="Approved">Ревізія складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0SpoolAssembly" locale="uk_UA" status="Approved">Складання котушки</key>
+           
+        <key id="BusinessObject{::}NX0StackModelDataset" locale="uk_UA" status="Approved">Набір даних моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMasterS" locale="uk_UA" status="Approved">Основне сховище моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelMaster" locale="uk_UA" status="Approved">Майстер моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModelRevision" locale="uk_UA" status="Approved">Ревізія елемента моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StackModel" locale="uk_UA" status="Approved">Елемент моделі процесу NX</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMasterS" locale="uk_UA" status="Approved">Основне сховище структурних контейнерів</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerMaster" locale="uk_UA" status="Approved">Майстер структурного контейнера</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevMasterS" locale="uk_UA" status="Approved">Сховище головних ревізій структурного контейнера</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізій структурного контейнера</key>
+           
+        <key id="BusinessObject{::}NX0StrContainerRevision" locale="uk_UA" status="Approved">Ревізія структурного контейнера</key>
+           
+        <key id="BusinessObject{::}NX0StrContainer" locale="uk_UA" status="Approved">Структурний контейнер</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMasterS" locale="uk_UA" status="Approved">Сховище шаблонів структурних деталей</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailMaster" locale="uk_UA" status="Approved">Майстер конструктивних деталей</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevMasterS" locale="uk_UA" status="Approved">Головне сховище ревізій конструктивних деталей</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії конструктивних деталей</key>
+           
+        <key id="BusinessObject{::}NX0StructDetailRevision" locale="uk_UA" status="Approved">Ревізія структурної деталі</key>
+           
+        <key id="BusinessObject{::}NX0StructDetail" locale="uk_UA" status="Approved">Конструктивна деталь</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMasterS" locale="uk_UA" status="Approved">Головне сховище структурної системи</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemMaster" locale="uk_UA" status="Approved">Майстер структурної системи</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій структурної системи</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії структурної системи</key>
+           
+        <key id="BusinessObject{::}NX0StructSystemRevision" locale="uk_UA" status="Approved">Ревізія структурної системи</key>
+           
+        <key id="BusinessObject{::}NX0StructSystem" locale="uk_UA" status="Approved">Структурна система</key>
+           
+        <key id="BusinessObject{::}NX0TDP" locale="uk_UA" status="Approved">TDP</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMasterS" locale="uk_UA" status="Approved">Сховище майстер-документів робочих інструкцій NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentMaster" locale="uk_UA" status="Approved">Основний документ робочих інструкцій NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevMasterS" locale="uk_UA" status="Approved">Головне сховище версій документа робочої інструкції NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevisionMaster" locale="uk_UA" status="Approved">NX Майстер ревізій документа робочих інструкцій</key>
+           
+        <key id="BusinessObject{::}NX0WIDocumentRevision" locale="uk_UA" status="Approved">Ревізія документа робочих інструкцій NX</key>
+           
+        <key id="BusinessObject{::}NX0WIDocument" locale="uk_UA" status="Approved">Документ робочих інструкцій NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMasterS" locale="uk_UA" status="Approved">Головне сховище робочого набору NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetMaster" locale="uk_UA" status="Approved">Майстер робочого набору NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevMasterS" locale="uk_UA" status="Approved">Основне сховище ревізій робочого набору NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevisionMaster" locale="uk_UA" status="Approved">Майстер ревізії робочого набору NX</key>
+           
+        <key id="BusinessObject{::}NX0WorksetRevision" locale="uk_UA" status="Approved">Ревізія робочого набору NX</key>
+           
+        <key id="BusinessObject{::}NX0Workset" locale="uk_UA" status="Approved">Робочий набір NX</key>
+           
+        <key id="BusinessObject{::}NX0tcinDiagramProvider" locale="uk_UA" status="Approved">Постачальник діаграм</key>
+           
+        <key id="BusinessObject{::}NX0tcinDrawingProvider" locale="uk_UA" status="Approved">Постачальник креслень</key>
+           
+        <key id="ConditionDescription{::}NX0EnableNXPartManufacturingItemVisibility" locale="uk_UA" status="Approved">Ця умова призначена для правила відображення елементів виготовлення NX-деталі та дозволяє їх відображати, коли в Teamcenter створено параметр EnableNXPartManufacturingItemVisibility із значенням "true".</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Coating" locale="uk_UA" status="Approved">Призначений тип матеріалу: загальне покриття.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Core" locale="uk_UA" status="Approved">Призначений тип матеріалу - твердотільне тіло.</key>
+           
+        <key id="LOVValueDescription{::}NX0AssignedMaterialType{::}Primer" locale="uk_UA" status="Approved">Призначений тип матеріалу - грунтовка.</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Coating" locale="uk_UA" status="Approved">Покриття</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Core" locale="uk_UA" status="Approved">Ядро</key>
+           
+        <key id="LOVValue{::}NX0AssignedMaterialType{::}Primer" locale="uk_UA" status="Approved">Грунтівка</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Assembly" locale="uk_UA" status="Approved">Складання</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Drawing" locale="uk_UA" status="Approved">Креслення</key>
+           
+        <key id="LOVValue{::}NX0PartType{::}nx0Part" locale="uk_UA" status="Approved">Деталь</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDCableway" locale="uk_UA" status="Approved">Кабельна траса</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDHvac" locale="uk_UA" status="Approved">HVAC</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDPiping" locale="uk_UA" status="Approved">Трубопровід</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDTubing" locale="uk_UA" status="Approved">Трубки</key>
+           
+        <key id="LOVValue{::}NX0RSDDisciplineType{::}NX0RSDWiring" locale="uk_UA" status="Approved">Розводка кабелів</key>
+           
+        <key id="Note{::}NX0CloneStableIdMap" locale="uk_UA" status="Approved">Клонувати карту стабільних ID</key>
+           
+        <key id="Property{::}BOMLine{::}NX0CloneStableIdMap" locale="uk_UA" status="Approved">Клонувати карту стабільних ідентифікаторів</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}BOMLine{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PartType" locale="uk_UA" status="Approved">Тип деталі NX</key>
+           
+        <key id="Property{::}ItemRevision{::}nx0PortLocations" locale="uk_UA" status="Approved">Розташування портів</key>
+           
+        <key id="Property{::}MEViewLine{::}NX0CloneStableIdMap" locale="uk_UA" status="Approved">Клонувати карту стабільних ідентифікаторів</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}NX0RSDItemRevAttrs" locale="uk_UA" status="Approved">Зворотне посилання на атрибути ревізії елемента маршрутизації NX</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0AbsRSDItemRevision{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}NX0RSDItemRevAttrs" locale="uk_UA" status="Approved">Зворотне посилання на атрибути ревізії елемента маршрутизації NX</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0AbsRSDPartRevision{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Інформаційні прапорці деталі</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0flags" locale="uk_UA" status="Approved">прапори</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NX0ApplicationData{::}nx0sync_checksums" locale="uk_UA" status="Approved">Контрольні суми</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0AssetType" locale="uk_UA" status="Approved">Тип активу</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0Category" locale="uk_UA" status="Approved">Категорія</key>
+           
+        <key id="Property{::}NX0Asset{::}nx0ID" locale="uk_UA" status="Approved">ID</key>
+           
+        <key id="Property{::}NX0BookletDataset{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0flags" locale="uk_UA" status="Approved">BitMask Information for NX Parts (isPart,isDrawing,etc), set by NX, used by NX</key>
+           
+        <key id="Property{::}NX0CAEMotionRevision{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}NX0DiagramOf{::}nx0FocusAreaId" locale="uk_UA" status="Approved">ID області фокусу</key>
+           
+        <key id="Property{::}NX0ExternalFileReference{::}nx0LastModifiedChecksum" locale="uk_UA" status="Approved">Контрольна сума останньої модифікації</key>
+           
+        <key id="Property{::}NX0MCDReference{::}nx0flags" locale="uk_UA" status="Approved">прапорці</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0MaterialLibrary" locale="uk_UA" status="Approved">Бібліотека матеріалів</key>
+           
+        <key id="Property{::}NX0MatProxyItem{::}nx0ReferencedMaterialItem" locale="uk_UA" status="Approved">Елемент матеріалу за посиланням</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0AssignedMaterialSequence" locale="uk_UA" status="Approved">Призначена послідовність матеріалів</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Density" locale="uk_UA" status="Approved">Щільність</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Mass" locale="uk_UA" status="Approved">Маса</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialAssignmentType" locale="uk_UA" status="Approved">Тип призначення матеріалу</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialDefinition" locale="uk_UA" status="Approved">Визначення матеріалу</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialName" locale="uk_UA" status="Approved">Назва матеріалу</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0MaterialType" locale="uk_UA" status="Approved">Тип матеріалу</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0RefID" locale="uk_UA" status="Approved">Ідентифікатор посилання NX</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0SurfaceArea" locale="uk_UA" status="Approved">Площа поверхні</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Thickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0MaterialsSpecifications{::}nx0Volume" locale="uk_UA" status="Approved">Об'єм</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileGuid" locale="uk_UA" status="Approved">GUID файлу</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileName" locale="uk_UA" status="Approved">Ім'я файлу</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FilePath" locale="uk_UA" status="Approved">Шлях до файлу</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileSpec" locale="uk_UA" status="Approved">Специфікація файлу</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0FileType" locale="uk_UA" status="Approved">Тип файлу</key>
+           
+        <key id="Property{::}NX0MissingFileInfo{::}nx0ReferencingDatasets" locale="uk_UA" status="Approved">Посилання на набори даних</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0FLPSize" locale="uk_UA" status="Approved">Розмір FLP</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Прапорці інформації деталі</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0flags" locale="uk_UA" status="Approved">BitMask Information for NX Parts (isPart,isDrawing,etc), set by NX, used by NX</key>
+           
+        <key id="Property{::}NX0MotionSim{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0InternalLength" locale="uk_UA" status="Approved">Внутрішня довжина</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0OwningPart" locale="uk_UA" status="Approved">Деталь-власник</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortID" locale="uk_UA" status="Approved">ID порту</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PortType" locale="uk_UA" status="Approved">Тип порту</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosX" locale="uk_UA" status="Approved">Координата X</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosY" locale="uk_UA" status="Approved">Позиція Y</key>
+           
+        <key id="Property{::}NX0PortLocation{::}nx0PosZ" locale="uk_UA" status="Approved">Положення Z</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}NX0RSDItemRevAttrs{::}owning_object" locale="uk_UA" status="Approved">Об'єкт-власник</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDElbowAngle" locale="uk_UA" status="Approved">Кут відводу</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0RSDOccAttrs{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}NX0RoutingPipePartData{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}NX0RoutingRunData{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NX0RoutingSpecData{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0LastPublishedDate" locale="uk_UA" status="Approved">Дата останньої публікації</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRef{::}nx0SpoolId" locale="uk_UA" status="Approved">Ідентифікатор шпулі</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}NX0RSDItemRevAttrs" locale="uk_UA" status="Approved">Зворотне посилання на атрибути ревізії елемента маршрутизації NX</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiameter" locale="uk_UA" status="Approved">Діаметр</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDDiscipline" locale="uk_UA" status="Approved">Принцип маршрутизації</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDHeight" locale="uk_UA" status="Approved">Висота</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDLength" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDSpecification" locale="uk_UA" status="Approved">Специфікація маршрутизації</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDThickness" locale="uk_UA" status="Approved">Товщина</key>
+           
+        <key id="Property{::}NX0SpoolAssemblyRevision{::}nx0RSDWidth" locale="uk_UA" status="Approved">Ширина</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Містить кілька матеріалів</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0MaterialsTable" locale="uk_UA" status="Approved">Таблиця матеріалів</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Містить кілька матеріалів</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0MaterialsTable" locale="uk_UA" status="Approved">Таблиця матеріалів</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Містить кілька матеріалів</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Інформаційні прапорці деталі</key>
+           
+        <key id="Property{::}UGPartAttributesForm{::}nx0PfamVersion" locale="uk_UA" status="Approved">Версія сімейства деталей</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Має кілька матеріалів</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Інформаційні прапорці деталі</key>
+           
+        <key id="Property{::}UGPartAttributes{::}nx0PfamVersion" locale="uk_UA" status="Approved">Версія сімейства деталей</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AllChildren" locale="uk_UA" status="Approved">Усі дочірні елементи</key>
+           
+        <key id="Property{::}BOMLine{::}nx0AppUid" locale="uk_UA" status="Approved">UID альтернативного подання</key>
+           
+        <key id="Property{::}BOMLine{::}nx0BvrSyncInfoLastSyncDate" locale="uk_UA" status="Approved">Дата останньої синхронізації інформації BVR</key>
+           
+        <key id="Property{::}BOMLine{::}nx0FLPSize" locale="uk_UA" status="Approved">Розмір розділу прискореного завантаження</key>
+           
+        <key id="Property{::}BOMLine{::}nx0HasNxDataset" locale="uk_UA" status="Approved">Наявність набору даних NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0IsBvrStructModified" locale="uk_UA" status="Approved">Структура змінена</key>
+           
+        <key id="Property{::}BOMLine{::}nx0JTOverrideFile" locale="uk_UA" status="Approved">Файл для перевизначення геометрії</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetFlags" locale="uk_UA" status="Approved">Прапорці набору даних NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXDatasetRelease" locale="uk_UA" status="Approved">Випуск набору даних NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXFile" locale="uk_UA" status="Approved">Файл NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredBoundingBox" locale="uk_UA" status="Approved">Бажана обмежувальна рамка NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0NXPreferredDataset" locale="uk_UA" status="Approved">Пріоритетний набір даних NX</key>
+           
+        <key id="Property{::}BOMLine{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Інформаційні прапори деталі</key>
+           
+        <key id="Property{::}BOMWindow{::}nx0PreferredDatasetType" locale="uk_UA" status="Approved">Переважний тип набору даних</key>
+           
+        <key id="Property{::}CAEGeom{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}CAEMesh{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}CAESolution{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0Auid" locale="uk_UA" status="Approved">UID альтернативного представлення</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0BvrSyncInfoLastSyncDate" locale="uk_UA" status="Approved">Дата останньої синхронізації інформації BVR</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FLPSize" locale="uk_UA" status="Approved">Розмір розділу швидкого завантаження</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0FileTicket" locale="uk_UA" status="Approved">Подати заявку</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0HasNxDataset" locale="uk_UA" status="Approved">Має набір даних NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0JTOverrideFileTicket" locale="uk_UA" status="Approved">Подати запит на перевизначення геометрії</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetFlags1" locale="uk_UA" status="Approved">Прапори набору даних NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetRelease" locale="uk_UA" status="Approved">Випуск набору даних NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDatasetType" locale="uk_UA" status="Approved">Тип набору даних</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXDataset" locale="uk_UA" status="Approved">Набір даних NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0NXFile" locale="uk_UA" status="Approved">Файл NX</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PSViewTypeName" locale="uk_UA" status="Approved">Назва типу подання структури виробу</key>
+           
+        <key id="Property{::}Fnd0ItemLineLite{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Інформаційні прапорці деталі</key>
+           
+        <key id="Property{::}NXAFEM{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}NXDerived{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NXMotion{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NXRouting{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}NXSimulation{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}POM_object{::}nx0CompareKey" locale="uk_UA" status="Approved">Порівняти ключі</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_altrep_metadata" locale="uk_UA" status="Approved">Має метадані Altrep</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_any_interpart_references" locale="uk_UA" status="Approved">Має міждетальні посилання</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_broken_links" locale="uk_UA" status="Approved">Має непрацююче посилання</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_components" locale="uk_UA" status="Approved">Містить хоча б один компонент</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_constraints" locale="uk_UA" status="Approved">Має обмеження</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_geometry_overrides" locale="uk_UA" status="Approved">Має перевизначення геометрії</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_interpart_expression" locale="uk_UA" status="Approved">Має міждетальний вираз</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_multiple_arrangements" locale="uk_UA" status="Approved">Має компонування</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_nonmaster_component" locale="uk_UA" status="Approved">Містить неосновні компоненти</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_offcenter_components" locale="uk_UA" status="Approved">Має компоненти, зміщені від центру</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_parts_list" locale="uk_UA" status="Approved">Містить список деталей</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_dep_wave_link" locale="uk_UA" status="Approved">Має позиційно залежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_pos_indep_wave_link" locale="uk_UA" status="Approved">Має позиційно-незалежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_position_overrides" locale="uk_UA" status="Approved">Наявне перевизначення позиції</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_product_interface" locale="uk_UA" status="Approved">Має інтерфейс виробу</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_ref_components" locale="uk_UA" status="Approved">Має довідковий компонент</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_restructured_components" locale="uk_UA" status="Approved">Має переструктуровані компоненти</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_supressed_components" locale="uk_UA" status="Approved">Містить заглушений компонент</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0has_udf" locale="uk_UA" status="Approved">Має UDF</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDrawing" locale="uk_UA" status="Approved">Має креслення</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCaeData" locale="uk_UA" status="Approved">Має дані CAE</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasCamData" locale="uk_UA" status="Approved">Має CAM-дані</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyMember" locale="uk_UA" status="Approved">Є членом сімейства деталей</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPartFamilyTemplate" locale="uk_UA" status="Approved">Є шаблоном сімейства деталей</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0IsPart" locale="uk_UA" status="Approved">Деталь</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasMeasurableAttribute" locale="uk_UA" status="Approved">Має вимірюваний атрибут</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasBody" locale="uk_UA" status="Approved">Має тіло</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasSuppressionOverride" locale="uk_UA" status="Approved">Наявне перевизначення придушення</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisStructureStream" locale="uk_UA" status="Approved">Має потік структури візуалізації</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasVisRmStream" locale="uk_UA" status="Approved">Має візуалізаційний потік</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartUnits" locale="uk_UA" status="Approved">Одиниці деталі</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0HasDiagram" locale="uk_UA" status="Approved">Є діаграма</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}UGALTREP{::}nx0PartType" locale="uk_UA" status="Approved">Тип деталі NX</key>
+           
+        <key id="Property{::}UGCAMCLSF{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}UGCAMPTP{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGCAMShopDoc{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGCAMTemplateData{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGENGINEROLL{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDrawing" locale="uk_UA" status="Approved">Наявне креслення</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCaeData" locale="uk_UA" status="Approved">Має дані CAE</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasCamData" locale="uk_UA" status="Approved">Має CAM-дані</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyMember" locale="uk_UA" status="Approved">Є членом сімейства деталей</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPartFamilyTemplate" locale="uk_UA" status="Approved">Є шаблоном сімейства деталей</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0IsPart" locale="uk_UA" status="Approved">Деталь</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasMeasurableAttribute" locale="uk_UA" status="Approved">Має вимірюваний атрибут</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasBody" locale="uk_UA" status="Approved">Має тіло</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasSuppressionOverride" locale="uk_UA" status="Approved">Наявне перевизначення придушення</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisStructureStream" locale="uk_UA" status="Approved">Має потік структури візуалізації</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasVisRmStream" locale="uk_UA" status="Approved">Має візуалізаційний потік</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartUnits" locale="uk_UA" status="Approved">Одиниці деталі</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0HasDiagram" locale="uk_UA" status="Approved">Має діаграму</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_altrep_metadata" locale="uk_UA" status="Approved">Має метадані Altrep</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_any_interpart_references" locale="uk_UA" status="Approved">Має міждетальні посилання</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_broken_links" locale="uk_UA" status="Approved">Має непрацююче посилання</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_components" locale="uk_UA" status="Approved">Містить хоча б один компонент</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_constraints" locale="uk_UA" status="Approved">Має обмеження</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_geometry_overrides" locale="uk_UA" status="Approved">Має перевизначення геометрії</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_interpart_expression" locale="uk_UA" status="Approved">Має міждетальний вираз</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_multiple_arrangements" locale="uk_UA" status="Approved">Має компонування</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_nonmaster_component" locale="uk_UA" status="Approved">Містить неосновні компоненти</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_offcenter_components" locale="uk_UA" status="Approved">Має компоненти, зміщені від центру</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_parts_list" locale="uk_UA" status="Approved">Містить список деталей</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_dep_wave_link" locale="uk_UA" status="Approved">Має позиційно залежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_pos_indep_wave_link" locale="uk_UA" status="Approved">Має позиційно-незалежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_position_overrides" locale="uk_UA" status="Approved">Наявне перевизначення позиції</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_product_interface" locale="uk_UA" status="Approved">Має інтерфейс виробу</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_ref_components" locale="uk_UA" status="Approved">Має довідковий компонент</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_restructured_components" locale="uk_UA" status="Approved">Має переструктуровані компоненти</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_supressed_components" locale="uk_UA" status="Approved">Містить заглушений компонент</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0has_udf" locale="uk_UA" status="Approved">Містить UDF</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGMASTER{::}nx0PartType" locale="uk_UA" status="Approved">Тип деталі NX</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDrawing" locale="uk_UA" status="Approved">Має креслення</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCaeData" locale="uk_UA" status="Approved">Має дані CAE</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasCamData" locale="uk_UA" status="Approved">Має CAM-дані</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyMember" locale="uk_UA" status="Approved">Є членом сімейства деталей</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPartFamilyTemplate" locale="uk_UA" status="Approved">Є шаблоном сімейства деталей</key>
+           
+        <key id="Property{::}UGPART{::}nx0IsPart" locale="uk_UA" status="Approved">Деталь</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasMeasurableAttribute" locale="uk_UA" status="Approved">Має вимірюваний атрибут</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasBody" locale="uk_UA" status="Approved">Має тіло</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasSuppressionOverride" locale="uk_UA" status="Approved">Наявне перевизначення придушення</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisStructureStream" locale="uk_UA" status="Approved">Має потік структури візуалізації</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasVisRmStream" locale="uk_UA" status="Approved">Має візуалізаційний потік</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartUnits" locale="uk_UA" status="Approved">Одиниці деталі</key>
+           
+        <key id="Property{::}UGPART{::}nx0HasDiagram" locale="uk_UA" status="Approved">Має діаграму</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_altrep_metadata" locale="uk_UA" status="Approved">Має метадані Altrep</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_any_interpart_references" locale="uk_UA" status="Approved">Має міждетальні посилання</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_broken_links" locale="uk_UA" status="Approved">Має непрацююче посилання</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_components" locale="uk_UA" status="Approved">Містить хоча б один компонент</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_constraints" locale="uk_UA" status="Approved">Має обмеження</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_geometry_overrides" locale="uk_UA" status="Approved">Має перевизначення геометрії</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_interpart_expression" locale="uk_UA" status="Approved">Має міждетальний вираз</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_multiple_arrangements" locale="uk_UA" status="Approved">Має компонування</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_nonmaster_component" locale="uk_UA" status="Approved">Містить неосновні компоненти</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_offcenter_components" locale="uk_UA" status="Approved">Має компоненти, зміщені від центру</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_parts_list" locale="uk_UA" status="Approved">Містить список деталей</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_dep_wave_link" locale="uk_UA" status="Approved">Має позиційно залежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_pos_indep_wave_link" locale="uk_UA" status="Approved">Має позиційно-незалежний хвильовий зв'язок</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_position_overrides" locale="uk_UA" status="Approved">Наявне перевизначення позиції</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_product_interface" locale="uk_UA" status="Approved">Має інтерфейс виробу</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_ref_components" locale="uk_UA" status="Approved">Має довідковий компонент</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_restructured_components" locale="uk_UA" status="Approved">Має переструктуровані компоненти</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_supressed_components" locale="uk_UA" status="Approved">Містить заглушений компонент</key>
+           
+        <key id="Property{::}UGPART{::}nx0has_udf" locale="uk_UA" status="Approved">Містить UDF</key>
+           
+        <key id="Property{::}UGPART{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGPART{::}nx0PartType" locale="uk_UA" status="Approved">Тип деталі NX</key>
+           
+        <key id="Property{::}UGSCENARIO{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="Property{::}UGTIREOFFSET{::}nx0release" locale="uk_UA" status="Approved">Відомості про випуск NX</key>
+           
+        <key id="Property{::}UGTIRESPINDLE{::}nx0release" locale="uk_UA" status="Approved">Інформація про випуск NX</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfoStorage" locale="uk_UA" status="Approved">Сховище інформації додатка NX</key>
+           
+        <key id="BusinessObject{::}NX0ApplicationInfo" locale="uk_UA" status="Approved">Інформація про додаток NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0flags" locale="uk_UA" status="Approved">Позначки</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0part_type" locale="uk_UA" status="Approved">Тип деталі</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0release" locale="uk_UA" status="Approved">Випуск NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfoCreI{::}nx0sync_checksums" locale="uk_UA" status="Approved">Контрольні суми</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0Environment" locale="uk_UA" status="Approved">Середовище</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0FLPSize" locale="uk_UA" status="Approved">Розмір розділу швидкого завантаження</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Містить кілька матеріалів</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Прапорці інформації деталі</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0flags" locale="uk_UA" status="Approved">Позначки</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0part_type" locale="uk_UA" status="Approved">Тип деталі</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0release" locale="uk_UA" status="Approved">Випуск NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfoStorage{::}nx0sync_checksums" locale="uk_UA" status="Approved">Контрольні суми</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0flags" locale="uk_UA" status="Approved">Позначки</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0release" locale="uk_UA" status="Approved">Випуск NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfoSvAI{::}nx0sync_checksums" locale="uk_UA" status="Approved">Контрольні суми</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0Environment" locale="uk_UA" status="Approved">Середовище</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0FLPSize" locale="uk_UA" status="Approved">Розмір розділу швидкого завантаження</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0HasMultiMaterials" locale="uk_UA" status="Approved">Містить кілька матеріалів</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0PartInfoFlags" locale="uk_UA" status="Approved">Прапорці інформації деталі</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0flags" locale="uk_UA" status="Approved">Позначки</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0part_type" locale="uk_UA" status="Approved">Тип деталі</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0release" locale="uk_UA" status="Approved">Випуск NX</key>
+           
+        <key id="Property{::}NX0ApplicationInfo{::}nx0sync_checksums" locale="uk_UA" status="Approved">Контрольні суми</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:59:40 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Smc0HasVariantConfigContext" locale="es_ES" status="Approved">Ámbito de la variabilidad</key>
+           
+        <key id="BusinessObject{::}Smc0SVInfoProvider" locale="es_ES" status="Approved">Proveedor de variantes de solución</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarIDCreatorRel" locale="es_ES" status="Approved">Relación con el creador del Id de la variante de solución</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVarSourceInfo" locale="es_ES" status="Approved">Información sobre la fuente de Variante de solución</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantInfo" locale="es_ES" status="Approved">Información sobre la fuente de Variante de solución</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantProvider" locale="es_ES" status="Approved">Proveedor de variantes de solución</key>
+           
+        <key id="BusinessObject{::}Smc0VarConfigurableObject" locale="es_ES" status="Approved">Objeto configurable de la variante</key>
+           
+        <key id="BusinessObject{::}Smc0VariantSourceInfoReln" locale="es_ES" status="Approved">Relación con la fuente de Variante de solución</key>
+           
+        <key id="ConditionDescription{::}Smc0IsVariantRuleValidForSolutionVariant" locale="es_ES" status="Approved">Criterios de validación para determinar si una regla de variantes y una línea de BOM fuente son válidas en la operación Creación y actualización de variantes de solución</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="es_ES" status="Approved">Variante de solución</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}0" locale="es_ES" status="Approved">Variante de solución sin gestionar</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}1" locale="es_ES" status="Approved">Variante de solución gestionada</key>
+           
+        <key id="LOVValueDescription{::}Smc0SolVariantCategory{::}2" locale="es_ES" status="Approved">Variante de solución de reutilización</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}SOLUTION_VARIANT" locale="es_ES" status="Approved">Variante de solución</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}0" locale="es_ES" status="Approved">Sin gestionar</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}1" locale="es_ES" status="Approved">Gestionada</key>
+           
+        <key id="LOVValue{::}Smc0SolVariantCategory{::}2" locale="es_ES" status="Approved">Reutilización</key>
+           
+        <key id="Property{::}BOMLine{::}smc0ConfigMatchedSVRevision" locale="es_ES" status="Approved">Variante de solución</key>
+           
+        <key id="Property{::}BOMLine{::}smc0SVSourceCategory" locale="es_ES" status="Approved">Categoría de la variante de solución</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0ConfigPerspective" locale="es_ES" status="Approved">Perspectiva del configurador</key>
+           
+        <key id="Property{::}BOMWindow{::}smc0currentConfigContext" locale="es_ES" status="Approved">Contexto actual del configurador de variantes</key>
+           
+        <key id="Property{::}Smc0SolutionVarSourceInfo{::}smc0SolutionVariantCategory" locale="es_ES" status="Approved">Categoría de la variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfoCreI{::}smc0SourceBOMLine" locale="es_ES" status="Approved">Línea de BOM fuente</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVCategory" locale="es_ES" status="Approved">Categoría</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVExistAsSibling" locale="es_ES" status="Approved">La variante de solución existe como hermano</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVIR" locale="es_ES" status="Approved">Variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRModified" locale="es_ES" status="Approved">Regla de variante modificada</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidAndComplete" locale="es_ES" status="Approved">Regla de variante válida</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVRValidForSV" locale="es_ES" status="Approved">Válido para la variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SVVarRule" locale="es_ES" status="Approved">Regla de variantes</key>
+           
+        <key id="Property{::}Smc0SolutionVariantInfo{::}smc0SourceModified" locale="es_ES" status="Approved">Ensamble fuente modificado</key>
+           
+        <key id="Property{::}Smc0VarConfigurableObject{::}smc0affectedObject" locale="es_ES" status="Approved">Objeto afectado</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionItemConfig" locale="es_ES" status="Approved">Configuración del ítem de la variante de solución</key>
+           
+        <key id="BusinessObject{::}Smc0SolutionVariantSource" locale="es_ES" status="Approved">Fuente de la variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0GenericVariantBvrLmd" locale="es_ES" status="Approved">Fecha de la última modificación de la revisión de la vista de BOM de la variante genérica</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantAction" locale="es_ES" status="Approved">Acción de variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantBvrLmd" locale="es_ES" status="Approved">Fecha de la última modificación de la revisión de la vista de BOM de la variante de solución</key>
+           
+        <key id="Property{::}Smc0SolutionVariantSource{::}smc0SolutionVariantCategory" locale="es_ES" status="Approved">Categoría de la variante de solución</key>
+           
+        <key id="BusinessObject{::}Smc0CfgPerspectiveProvider" locale="es_ES" status="Approved">Proveedor de perspectivas del configurador</key>
+           
+        <key id="BusinessObject{::}Smc0SVOccAttrs" locale="es_ES" status="Approved">Atributos de ocurrencia de la variante de solución</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0SVSourceOcc" locale="es_ES" status="Approved">Ocurrencia fuente de la variante de solución</key>
+           
+        <key id="Property{::}Smc0SVOccAttrs{::}smc0VariantCriteria" locale="es_ES" status="Approved">Criterios de la variante</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationResult" locale="es_ES" status="Approved">Resultado de la combinación de construcción</key>
+           
+        <key id="BusinessObject{::}Smc0BuildCombinationsInfo" locale="es_ES" status="Approved">Información sobre combinaciones de construcción</key>
+           
+        <key id="BusinessObject{::}Smc0OrgNodeVariability" locale="es_ES" status="Approved">Variabilidad de los nodos de organización</key>
+           
+        <key id="BusinessObject{::}Smc0ScopedVariabltyProvider" locale="es_ES" status="Approved">Proveedor de variabilidad de ámbito</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombAssignedSolution" locale="es_ES" status="Approved">Solución</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombColorBand" locale="es_ES" status="Approved">Banda de color de la combinación de construcción</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombCoverage" locale="es_ES" status="Approved">OBSOLETO. CONSULTE EL ANUNCIO DE ASISTENCIA TÉCNICA 2506. Cobertura</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprAsTcFormula" locale="es_ES" status="Approved">Fórmula de combinación de construcción</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprDisplayValue" locale="es_ES" status="Approved">Combinación de construcción</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprJson" locale="es_ES" status="Approved">JSON de la expresión de construcción</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombExprMatchState" locale="es_ES" status="Approved">Concordancia de expresiones</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFamiliesDisplayValue" locale="es_ES" status="Approved">OBSOLETO. CONSULTE EL ANUNCIO DE ASISTENCIA TÉCNICA 2512. Familias</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombFeaturesDisplayValue" locale="es_ES" status="Approved">OBSOLETO. CONSULTE EL ANUNCIO DE ASISTENCIA TÉCNICA 2512. Características</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombGroupedBy" locale="es_ES" status="Approved">Agrupado por</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombIndex" locale="es_ES" status="Approved">OBSOLETO. CONSULTE EL ANUNCIO DE ASISTENCIA TÉCNICA 2506. Índice</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombScope" locale="es_ES" status="Approved">Ámbito</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombSolutionCSIDChain" locale="es_ES" status="Approved">UID de la solución de combinación de construcción</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationCoverage" locale="es_ES" status="Approved">Cobertura</key>
+           
+        <key id="Property{::}Smc0BuildCombinationResult{::}smc0BuildCombinationIndex" locale="es_ES" status="Approved">Índice</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0ConfigCriteria" locale="es_ES" status="Approved">Criterios de configuración</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OccBuildCombAssignments" locale="es_ES" status="Approved">Asignaciones de combinación de construcción de ocurrencias</key>
+           
+        <key id="Property{::}Smc0BuildCombinationsInfo{::}smc0OrgNodeVariability" locale="es_ES" status="Approved">Variabilidad de los nodos de organización</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0BuildCombinations" locale="es_ES" status="Approved">Combinaciones de construcción</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0CfgFamilies" locale="es_ES" status="Approved">Familias de configuración</key>
+           
+        <key id="Property{::}Smc0OrgNodeVariability{::}smc0OrgNodeRef" locale="es_ES" status="Approved">Referencia al nodo Organización</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

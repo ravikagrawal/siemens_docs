@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="2512.0_0" displayName="Change Management Realization Interface" enableOpsDataDeploy="false" guid="66EC974DAA963608425C39677E3DF69E" isDescriptionMandatory="true" name="rzc0rlzcm" optional="true" prefixes="Rzc0" teamcenterTemplate="true">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="appmodel_template.xml"/>
+    <include file="fgc0cm4g_template.xml"/>
+    <include file="realization_template.xml"/>
+</TcBusinessDataIncludes>

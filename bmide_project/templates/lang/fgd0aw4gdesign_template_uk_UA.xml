@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:55:49 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Fgd04GDPSProvider" locale="uk_UA" status="Approved">Провайдер структури виробу 4GD</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignElement" locale="uk_UA" status="Approved">Елемент проєкту</key>
+           
+        <key id="BusinessObject{::}Fgd0DesignSubsetElement" locale="uk_UA" status="Approved">Підмножина</key>
+           
+        <key id="BusinessObject{::}Fgd0SourceObjectRefByProvider" locale="uk_UA" status="Approved">Об'єкт-джерело, на який посилається постачальник</key>
+           
+        <key id="BusinessObject{::}Fgd0UsedInWorksetProvider" locale="uk_UA" status="Approved">Використовується у постачальнику робочих наборів</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjEffText" locale="uk_UA" status="Approved">Дієвість вихідного об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjLastModUser" locale="uk_UA" status="Approved">Користувач, який востаннє змінив початковий об'єкт</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningGroup" locale="uk_UA" status="Approved">Група-власник вихідного об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjOwningUser" locale="uk_UA" status="Approved">Користувач-власник початкового об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjRelDate" locale="uk_UA" status="Approved">Дата випуску вихідного об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectDesc" locale="uk_UA" status="Approved">Опис вихідного об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRelStatus" locale="uk_UA" status="Approved">Статус випуску вихідного об'єкта</key>
+           
+        <key id="Property{::}Cpd0DesignModelElement{::}fgd0SourceObjectRevId" locale="uk_UA" status="Approved">ID ревізії об'єкта-джерела</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}awb0ArchetypeRevName" locale="uk_UA" status="Approved">Назва вихідного об'єкта</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0Category" locale="uk_UA" status="Approved">Категорія</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObjectId" locale="uk_UA" status="Approved">ID об'єкта-джерела</key>
+           
+        <key id="Property{::}Fgd0DesignElement{::}fgd0SourceObject" locale="uk_UA" status="Approved">Об'єкт-джерело</key>
+           
+        <key id="Property{::}Fgd0DesignSubsetElement{::}fgd0ModelObject" locale="uk_UA" status="Approved">Об'єкт джерела</key>
+           
+        <key id="ConditionDescription{::}Fgd0AwShowReviseCondition" locale="uk_UA" status="Approved">Ця умова визначає, чи команда "Показати ревізію" має бути видимою в рішенні 4g Design.</key>
+           
+        <key id="ConditionDescription{::}Fgd0DeleteCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи має користувач достатні привілеї для видалення вибраного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Fgd0ReplaySubsetRecipeCnd" locale="uk_UA" status="Approved">Умова відтворення підмножини рецепту</key>
+           
+        <key id="ConditionDescription{::}Fgd0ShowSaveAsCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи має переданий бізнес-об'єкт дозвіл на відображення команд "Зберегти як"/"Змінити ревізію". Повертає true для бізнес-об'єктів, крім умовного елемента.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

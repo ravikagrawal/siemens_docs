@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2026.
+Siemens Digital Industries Software.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Mon Jul 13 05:54:18 PM 2026" TcVersion="tc2512.0000">
+    <Add>
+           
+        <OperationInputType artifactName="Col1AppearanceBreakdow_alt0CreI" description="CreateInput object for &quot;Col1AppearanceBreakdownSchm&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Col1AppearanceBreakdow_alt0CreI" typeName="Col1AppearanceBreakdow_alt0CreI"/>
+           
+        <OperationInputType artifactName="Col1AppearanceBreakdow_alt0SvAI" description="SaveAsInput object for &quot;Col1AppearanceBreakdownSchm&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Col1AppearanceBreakdow_alt0SvAI" typeName="Col1AppearanceBreakdow_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Col1AppearanceProductS_alt0CreI" description="CreateInput object for &quot;Col1AppearanceProductScheme&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Col1AppearanceProductS_alt0CreI" typeName="Col1AppearanceProductS_alt0CreI"/>
+           
+        <OperationInputType artifactName="Col1AppearanceProductS_alt0SvAI" description="SaveAsInput object for &quot;Col1AppearanceProductScheme&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Col1AppearanceProductS_alt0SvAI" typeName="Col1AppearanceProductS_alt0SvAI"/>
+           
+        <OperationInputType artifactName="Col1AreaAppSchmRevisionCreI" description="CreateInput object for &quot;Col1AreaAppSchmRevision&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementCreI" typeClassName="Col1AreaAppSchmRevisionCreI" typeName="Col1AreaAppSchmRevisionCreI"/>
+           
+        <OperationInputType artifactName="Col1AreaAppSchmRevisionSvAI" description="SaveAsInput object for &quot;Col1AreaAppSchmRevision&quot; business object" isAbstract="false" parentTypeName="Awb0ConditionalElementSvAI" typeClassName="Col1AreaAppSchmRevisionSvAI" typeName="Col1AreaAppSchmRevisionSvAI"/>
+           
+        <TcRuntimeType artifactName="Col1AppearanceBreakdownSchm" description="runtime fascade object for Appearance Breakdown Scheme Revision" isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Col1AppearanceBreakdownSchm" typeName="Col1AppearanceBreakdownSchm"/>
+           
+        <TcRuntimeType artifactName="Col1AppearanceProductScheme" description="runtime fascade object for Appearance Product Scheme Revision" isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Col1AppearanceProductScheme" typeName="Col1AppearanceProductScheme"/>
+           
+        <TcRuntimeType artifactName="Col1AreaAppSchmRevision" description="runtime fascade object for  AreaAppSchmRevision" isAbstract="false" parentTypeName="Awb0ConditionalElement" typeClassName="Col1AreaAppSchmRevision" typeName="Col1AreaAppSchmRevision"/>
+           
+        <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="cs_CZ,de_DE,en_US,es_ES,fr_FR,it_IT,ja_JP,ko_KR,pl_PL,pt_BR,ru_RU,zh_CN,zh_TW"/>
+           
+        <TcTypeConstantAttach constantName="Awb0AssociatedElement" typeName="Clr0AppSchmBrkdnRevision" value="Col1AppearanceBreakdownSchm"/>
+           
+        <TcTypeConstantAttach constantName="Awb0AssociatedElement" typeName="Clr0AreaAppSchmRevision" value="Col1AreaAppSchmRevision"/>
+           
+        <TcTypeConstantAttach constantName="Awb0AssociatedElement" typeName="Clr0ProdAppSchmRevision" value="Col1AppearanceProductScheme"/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="Col1AppearanceBreakdownSchm" value=""/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="Col1AppearanceProductScheme" value=""/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMArchetypeToOccurrence" typeName="Col1AreaAppSchmRevision" value=""/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMToOccurrence" typeName="Col1AppearanceBreakdownSchm" value="BOMLine"/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMToOccurrence" typeName="Col1AppearanceProductScheme" value="BOMLine"/>
+           
+        <TcTypeConstantAttach constantName="Awb0BOMToOccurrence" typeName="Col1AreaAppSchmRevision" value="BOMLine"/>
+           
+        <TcTypeConstantAttach constantName="Awp0SearchIsIndexed" typeName="Clr0ProductAppBreakdown" value="true"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Col1AppearanceBreakdownSchm" value="Col1AppearanceBreakdow_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Col1AppearanceProductScheme" value="Col1AppearanceProductS_alt0CreI"/>
+           
+        <TcTypeConstantAttach constantName="CreateInput" typeName="Col1AreaAppSchmRevision" value="Col1AreaAppSchmRevisionCreI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Col1AppearanceBreakdownSchm" value="Col1AppearanceBreakdow_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Col1AppearanceProductScheme" value="Col1AppearanceProductS_alt0SvAI"/>
+           
+        <TcTypeConstantAttach constantName="SaveAsInput" typeName="Col1AreaAppSchmRevision" value="Col1AreaAppSchmRevisionSvAI"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Awb0PositionedElement" value="fnd0bl_line_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Col1AppearanceBreakdownSchm" value="bl_item_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Col1AppearanceProductScheme" value="bl_item_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Awb0BOMToOccurrence" propertyName="awb0UnderlyingObjectType" typeName="Col1AreaAppSchmRevision" value="bl_item_object_type"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="col1AppearanceArea" typeName="Col1AppearanceBreakdownSchm" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="col1ProdAppBreakdown" typeName="Col1AppearanceProductScheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="col1ProductLine" typeName="Col1AppearanceProductScheme" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Enabled" propertyName="col1DsgnVisMatAssignment" typeName="Col1AreaAppSchmRevision" value="true"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="col1AppearanceArea" typeName="Col1AppearanceBreakdownSchm" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="col1ProdAppBreakdown" typeName="Col1AppearanceProductScheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="col1ProductLine" typeName="Col1AppearanceProductScheme" value="Write"/>
+           
+        <TcPropertyConstantAttach constantName="Modifiable" propertyName="col1DsgnVisMatAssignment" typeName="Col1AreaAppSchmRevision" value="Write"/>
+           
+        <TcCompoundPropertyRule description="Compound property for Appearance Area" destPropertyName="col1AppearanceArea" destTypeName="Col1AppearanceBreakdownSchm" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Clr0AppSchmBrkdnRevision).REF(items_tag,Clr0AppSchmBrkdn).clr0AppearanceArea" sourcePropertyName="clr0AppearanceArea" sourceTypeName="Clr0AppSchmBrkdn"/>
+           
+        <TcCompoundPropertyRule description="Compound property for clr0ProdAppBreakdown" destPropertyName="col1ProdAppBreakdown" destTypeName="Col1AppearanceProductScheme" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Clr0ProdAppSchmRevision).REF(items_tag,Clr0ProdAppSchm).clr0ProdAppBreakdown" sourcePropertyName="clr0ProdAppBreakdown" sourceTypeName="Clr0ProdAppSchm"/>
+           
+        <TcCompoundPropertyRule description="Compound property for Product Line" destPropertyName="col1ProductLine" destTypeName="Col1AppearanceProductScheme" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Clr0ProdAppSchmRevision).REF(items_tag,Clr0ProdAppSchm).REF(clr0ProdAppBreakdown,Clr0ProductAppBreakdown).clr0ProductLine" sourcePropertyName="clr0ProductLine" sourceTypeName="Clr0ProductAppBreakdown"/>
+           
+        <TcCompoundPropertyRule description="Compound property for Design Visual Material Assignment" destPropertyName="col1DsgnVisMatAssignment" destTypeName="Col1AreaAppSchmRevision" isReadOnly="false" pathToSource="REF(awb0UnderlyingObject,Clr0AreaAppSchmRevision).clr0DsgnVisMatAssignment" sourcePropertyName="clr0DsgnVisMatAssignment" sourceTypeName="Clr0AreaAppSchmRevision"/>
+           
+        <Functionality description="Component for the template - col1colorappearanceaw" displayName="Color Appearance AW" enabledForVerificationRules="false" name="Col1colorappearanceaw"/>
+        
+    </Add>
+    <Change/>
+    <Delete/>
+</TcBusinessData>

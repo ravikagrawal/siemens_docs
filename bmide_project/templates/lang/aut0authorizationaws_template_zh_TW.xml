@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:50 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicensesLegacy" locale="zh_TW" status="Approved">授權</key>
+           
+        <key id="CommandDisplayName{::}Aut0AttachLicenses" locale="zh_TW" status="Approved">授權</key>
+           
+        <key id="CommandDisplayName{::}Aut0AddProject" locale="zh_TW" status="Approved">新增專案</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesLegacyCmdCond" locale="zh_TW" status="Approved">「授權」指令的伺服器端指令可見性條件。此指令應對 11.2.3 及更早版本的 Teamcenter 可見。僅當選定物件屬於工作區物件、資料集或表單類型時，此指令才可見。當選定物件屬於 EPMTask 或簽發類型時，此指令不應可見。當登入使用者是 dba 群組成員或是 ITAR 管理員/IP 管理員角色時，此指令應可見。</key>
+           
+        <key id="ConditionDescription{::}Aut0AttachLicensesCmdCond" locale="zh_TW" status="Approved">「授權」指令的伺服器端指令可見性條件。此指令應對 11.3 及更新版本的 Teamcenter 可見。僅當選定物件屬於工作區物件、資料集或表單類型時，此指令才可見。當選定物件屬於 EPMTask 或簽發類型時，此指令不應可見。當登入使用者是 dba 群組成員或是 ITAR 管理員/IP 管理員角色時，此指令應可見。</key>
+           
+        <key id="ConditionDescription{::}Aut0AddProjectCmdCond" locale="zh_TW" status="Approved">「新增專案」指令的伺服器端指令可見性條件。僅當登入使用者的身份為特權群組，或者為「專案管理」群組和「專案管理員」角色時，此指令才可見。</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectProvider" locale="zh_TW" status="Approved">專案提供程式</key>
+           
+        <key id="BusinessObject{::}Aut0ProjectTeamProvider" locale="zh_TW" status="Approved">專案小組提供者</key>
+           
+        <key id="Property{::}TC_Project{::}is_modifiable" locale="zh_TW" status="Approved">可修改？</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

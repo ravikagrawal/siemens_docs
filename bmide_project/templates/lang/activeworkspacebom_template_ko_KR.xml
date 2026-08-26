@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:51:32 PM 2026">
+    <Add>
+           
+        <key id="BusinessObject{::}Awb0ArrangementProvider" locale="ko_KR" status="Approved">정렬 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0AutoBookmark" locale="ko_KR" status="Approved">자동 책갈피</key>
+           
+        <key id="BusinessObject{::}Awb0BOMIndexAdminData" locale="ko_KR" status="Approved">BOM 색인 관리 데이터</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkData" locale="ko_KR" status="Approved">책갈피 데이터</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkNavigationData" locale="ko_KR" status="Approved">책갈피 탐색 데이터</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkProductData" locale="ko_KR" status="Approved">책갈피 제품 데이터</key>
+           
+        <key id="BusinessObject{::}Awb0BookmarkSubsetData" locale="ko_KR" status="Approved">서브세트 데이터</key>
+           
+        <key id="BusinessObject{::}Awb0CSIDsToElementsProvider" locale="ko_KR" status="Approved">안정적인 ID 체인을 요소 제공자에 복제</key>
+           
+        <key id="BusinessObject{::}Awb0ClosureRulesProvider" locale="ko_KR" status="Approved">종결 규칙 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0CompareResult" locale="ko_KR" status="Approved">결과 비교</key>
+           
+        <key id="BusinessObject{::}Awb0ConditionalElement" locale="ko_KR" status="Approved">조건 요소</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProvider" locale="ko_KR" status="Approved">컨텍스트 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0DateEffectivityConfigFeature" locale="ko_KR" status="Approved">날짜 적용일자/단위 구성 기능</key>
+           
+        <key id="BusinessObject{::}Awb0DesignElement" locale="ko_KR" status="Approved">설계 요소</key>
+           
+        <key id="BusinessObject{::}Awb0EffectivityProvider" locale="ko_KR" status="Approved">적용일자/단위 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0Element" locale="ko_KR" status="Approved">요소</key>
+           
+        <key id="BusinessObject{::}Awb0FeatureList" locale="ko_KR" status="Approved">기능 리스트</key>
+           
+        <key id="BusinessObject{::}Awb0FlatStructureFeature" locale="ko_KR" status="Approved">평면 구조 기능</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchFeature" locale="ko_KR" status="Approved">전체 텍스트 검색 기능</key>
+           
+        <key id="BusinessObject{::}Awb0FullTextSearchProvider" locale="ko_KR" status="Approved">전체 텍스트 검색 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0MngdAttrsProvider" locale="ko_KR" status="Approved">관리되는 속성 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0OverrideDatasetProvider" locale="ko_KR" status="Approved">데이터 집합 제공자 재정의</key>
+           
+        <key id="BusinessObject{::}Awb0PartitionFeature" locale="ko_KR" status="Approved">파티션 기능</key>
+           
+        <key id="BusinessObject{::}Awb0PositionedElement" locale="ko_KR" status="Approved">위치가 지정된 요소</key>
+           
+        <key id="BusinessObject{::}Awb0ProductContextInfo" locale="ko_KR" status="Approved">제품 컨텍스트 정보</key>
+           
+        <key id="BusinessObject{::}Awb0ProductFeature" locale="ko_KR" status="Approved">제품 기능</key>
+           
+        <key id="BusinessObject{::}Awb0RootOccurrenceFeature" locale="ko_KR" status="Approved">루트 어커런스 기능</key>
+           
+        <key id="BusinessObject{::}Awb0SaveWorkingContextFeature" locale="ko_KR" status="Approved">작업 컨텍스트 저장 기능</key>
+           
+        <key id="BusinessObject{::}Awb0SavedBookmark" locale="ko_KR" status="Approved">저장된 작업 컨텍스트</key>
+           
+        <key id="BusinessObject{::}Awb0SavedQueryProvider" locale="ko_KR" status="Approved">저장된 조회 공급자</key>
+           
+        <key id="BusinessObject{::}Awb0SubstitutesProvider" locale="ko_KR" status="Approved">대체 항목 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0UnitEffectivityConfigFeature" locale="ko_KR" status="Approved">적용단위 구성 기능</key>
+           
+        <key id="BusinessObject{::}Awb0VariantFeature" locale="ko_KR" status="Approved">파생 모델 기능</key>
+           
+        <key id="BusinessObject{::}Awb0ViewTypeProvider" locale="ko_KR" status="Approved">뷰 유형 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0ViewerFeature" locale="ko_KR" status="Approved">뷰어 기능</key>
+           
+        <key id="BusinessObject{::}Awb0ZoneProvider" locale="ko_KR" status="Approved">사용 안 함. 지원 공지 Teamcenter 2606 영역 제공자 참조.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}0" locale="ko_KR" status="Approved">이 오퍼레이션은 요소를 복제합니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}1" locale="ko_KR" status="Approved">이 오퍼레이션은 요소를 참조합니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}2" locale="ko_KR" status="Approved">이 오퍼레이션은 요소를 개정합니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}3" locale="ko_KR" status="Approved">이 오퍼레이션은 요소를 교체합니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0PendingActionsLOV{::}5" locale="ko_KR" status="Approved">이 오퍼레이션은 요소를 무시합니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Private" locale="ko_KR" status="Approved">저장된 작업 컨텍스트가 공유되지 않습니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}Read Only" locale="ko_KR" status="Approved">저장된 작업 컨텍스트는 읽기 전용으로 공유됩니다.</key>
+           
+        <key id="LOVValueDescription{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ko_KR" status="Approved">저장된 작업 컨텍스트는 읽기 및 쓰기용으로 공유됩니다.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}ACE" locale="ko_KR" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ko_KR" status="Approved">변경 내용이 저장되지 않음</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ko_KR" status="Approved">변경 내용이 저장됨</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}COMPARE" locale="ko_KR" status="Approved">비교</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}0" locale="ko_KR" status="Approved">다른 이름으로 저장 및 교체</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}1" locale="ko_KR" status="Approved">참조</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}2" locale="ko_KR" status="Approved">개정</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}3" locale="ko_KR" status="Approved">교체</key>
+           
+        <key id="LOVValue{::}Awb0PendingActionsLOV{::}5" locale="ko_KR" status="Approved">제거</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Private" locale="ko_KR" status="Approved">비공개</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}Read Only" locale="ko_KR" status="Approved">읽기 전용</key>
+           
+        <key id="LOVValue{::}Awb0SBMAccessLevels{::}ReadWrite" locale="ko_KR" status="Approved">읽기/쓰기</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}ACE" locale="ko_KR" status="Approved">Active Content Experience</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_FAILED" locale="ko_KR" status="Approved">변경 내용이 저장되지 않음</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}CLONE_CONTENT_SUCCESSFUL" locale="ko_KR" status="Approved">변경 내용이 저장됨</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}COMPARE" locale="ko_KR" status="Approved">비교</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0ActiveProduct" locale="ko_KR" status="Approved">활성 제품</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastAccessedDate" locale="ko_KR" status="Approved">마지막 액세스 날짜</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0LastSavedDateOfSBM" locale="ko_KR" status="Approved">저장된 책갈피의 마지막 저장 날짜</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0OpenedObject" locale="ko_KR" status="Approved">열린 개체</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0PendingChanges" locale="ko_KR" status="Approved">저장되지 않은 수정 사항</key>
+           
+        <key id="Property{::}Awb0AutoBookmark{::}awb0User" locale="ko_KR" status="Approved">사용자</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0BaseRevisionRule" locale="ko_KR" status="Approved">기본 리비전 규칙</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0ClosureRule" locale="ko_KR" status="Approved">종결 규칙</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffDateVec" locale="ko_KR" status="Approved">적용일자</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffEndItemVec" locale="ko_KR" status="Approved">적용일자/단위 마지막 아이템</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0EffUnitNoVec" locale="ko_KR" status="Approved">적용단위 번호</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0IndexState" locale="ko_KR" status="Approved">BOM 색인 데이터 상태</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastAccessDate" locale="ko_KR" status="Approved">마지막 액세스 날짜</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0LastUpdateDate" locale="ko_KR" status="Approved">마지막 업데이트 날짜</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0OccurrenceCount" locale="ko_KR" status="Approved">어커런스 수</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Product" locale="ko_KR" status="Approved">제품</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0StructureType" locale="ko_KR" status="Approved">구조 유형</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0SubscribersStatus" locale="ko_KR" status="Approved">이벤트 통보 요청자 상태</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0Subscribers" locale="ko_KR" status="Approved">이벤트 통보 요청자</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRuleOwningRevs" locale="ko_KR" status="Approved">파생 모델 규칙 소유 리비전</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0VariantRules" locale="ko_KR" status="Approved">파생 모델 규칙</key>
+           
+        <key id="Property{::}Awb0BOMIndexAdminData{::}awb0WindowUid" locale="ko_KR" status="Approved">윈도우 UID</key>
+           
+        <key id="Property{::}Awb0BookmarkData{::}awb0OwningObject" locale="ko_KR" status="Approved">소유 개체</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ActiveSublocation" locale="ko_KR" status="Approved">활성 하위 위치</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionDataCompacted" locale="ko_KR" status="Approved">확장 데이터가 압축됨</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0ExpansionData" locale="ko_KR" status="Approved">확장 데이터</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0OverrideContextElement" locale="ko_KR" status="Approved">컨텍스트 재정의</key>
+           
+        <key id="Property{::}Awb0BookmarkNavigationData{::}awb0SelectedElementPath" locale="ko_KR" status="Approved">선택한 요소 경로</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0AppliedArrangement" locale="ko_KR" status="Approved">적용된 정렬</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ClosureRule" locale="ko_KR" status="Approved">종결 규칙</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigContext" locale="ko_KR" status="Approved">구성 컨텍스트</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ConfigData" locale="ko_KR" status="Approved">구성 데이터</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveDate" locale="ko_KR" status="Approved">적용일자</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveNow" locale="ko_KR" status="Approved">지금 적용</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectiveUnitNumber" locale="ko_KR" status="Approved">적용단위 번호</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EffectivityGroups" locale="ko_KR" status="Approved">적용일자/단위 그룹</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0EndItem" locale="ko_KR" status="Approved">마지막 아이템</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0GlobalRevRuleBookmarked" locale="ko_KR" status="Approved">책갈피에 추가된 글로벌 리비전 규칙</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0PendingChanges" locale="ko_KR" status="Approved">저장되지 않은 수정 사항</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0Product" locale="ko_KR" status="Approved">제품</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRuleStrings" locale="ko_KR" status="Approved">리비전 규칙 문자열</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0RevisionRule" locale="ko_KR" status="Approved">리비전 규칙</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0SavedVariantRules" locale="ko_KR" status="Approved">저장된 파생 모델 규칙</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0VariantOwningItemRevs" locale="ko_KR" status="Approved">파생 모델 소유 아이템 리비전</key>
+           
+        <key id="Property{::}Awb0BookmarkProductData{::}awb0ViewType" locale="ko_KR" status="Approved">뷰 유형</key>
+           
+        <key id="Property{::}Awb0BookmarkSubsetData{::}awb0OccurrenceList" locale="ko_KR" status="Approved">어커런스 리스트</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Criteria" locale="ko_KR" status="Approved">비교 조건</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0Options" locale="ko_KR" status="Approved">비교 옵션</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0compareKey" locale="ko_KR" status="Approved">비교 키</key>
+           
+        <key id="Property{::}Awb0CompareResult{::}awb0depth" locale="ko_KR" status="Approved">깊이</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AlternateList" locale="ko_KR" status="Approved">교체 리스트</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchTypeRevRelStatNames" locale="ko_KR" status="Approved">릴리스 상태</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeEffFormula" locale="ko_KR" status="Approved">리비전 적용일자/단위</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeId" locale="ko_KR" status="Approved">ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeName" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevDescription" locale="ko_KR" status="Approved">설명</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevEffText" locale="ko_KR" status="Approved">릴리스 적용일자/단위</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevId" locale="ko_KR" status="Approved">리비전</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevName" locale="ko_KR" status="Approved">리비전 이름</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ArchetypeRevRelStatus" locale="ko_KR" status="Approved">릴리스 상태</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0AssemblyIndicator" locale="ko_KR" status="Approved">어셈블리 표시기</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EffectivityFormula" locale="ko_KR" status="Approved">요소 적용일자/단위</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementEffId" locale="ko_KR" status="Approved">요소 적용일자/단위 ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementFilterState" locale="ko_KR" status="Approved">요소가 필터링됩니까?</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementNetEffectivity" locale="ko_KR" status="Approved">요소 실제 적용일자/단위</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementRevId" locale="ko_KR" status="Approved">요소 리비전 ID</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ElementVariantState" locale="ko_KR" status="Approved">VOC - 구성된 파생 모델 어커런스</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0EndItemState" locale="ko_KR" status="Approved">마지막 아이템 어셈블리 상태</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0FinishIndicator" locale="ko_KR" status="Approved">마감 표시</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasActiveMarkup" locale="ko_KR" status="Approved">활성 마크업을 소유</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasAlternates" locale="ko_KR" status="Approved">전역 교체</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasElementEffectivity" locale="ko_KR" status="Approved">요소 적용일자/단위</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasSubstitues" locale="ko_KR" status="Approved">대체</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0HasVariant" locale="ko_KR" status="Approved">파생 모델</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsOccurrenceSubstitute" locale="ko_KR" status="Approved">어커런스 대체임</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPacked" locale="ko_KR" status="Approved">압축됨</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsPrecise" locale="ko_KR" status="Approved">Precise</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsSecondaryComponent" locale="ko_KR" status="Approved">2차 컴포넌트입니다</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0IsVi" locale="ko_KR" status="Approved">파생 모델 아이템</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyNames" locale="ko_KR" status="Approved">마크업 속성 이름</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupPropertyValues" locale="ko_KR" status="Approved">마크업 속성 값</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0MarkupType" locale="ko_KR" status="Approved">작업</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0Maturity" locale="ko_KR" status="Approved">만기일</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NeedMultipleAlignments" locale="ko_KR" status="Approved">다중 정렬 필요</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0NetVariability" locale="ko_KR" status="Approved">순 변화성</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PackCount" locale="ko_KR" status="Approved">압축 카운트</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PendingAction" locale="ko_KR" status="Approved">작업</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PositionDesignator" locale="ko_KR" status="Approved">위치 지정자</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0PrimaryComponents" locale="ko_KR" status="Approved">1차 컴포넌트</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0QuantityManaged" locale="ko_KR" status="Approved">관리되는 수량</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0RuleConfigBy" locale="ko_KR" status="Approved">규칙 구성자</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0ShowSubstituteComponents" locale="ko_KR" status="Approved">대체 컴포넌트 표시</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SkipAlignment" locale="ko_KR" status="Approved">정렬 건너뛰기</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0SubstituteIndicator" locale="ko_KR" status="Approved">대체 표시기</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0UsageAddress" locale="ko_KR" status="Approved">용도 주소</key>
+           
+        <key id="Property{::}Awb0ConditionalElement{::}awb0VariantFormula" locale="ko_KR" status="Approved">파생 모델 공식</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccId" locale="ko_KR" status="Approved">컨텍스트에서 ID(맨 위 수준)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0AbsOccAllId" locale="ko_KR" status="Approved">컨택스트에서 ID (모든 수준)</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModDate" locale="ko_KR" status="Approved">최종 수정일</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevLastModUser" locale="ko_KR" status="Approved">최종 수정자</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningGroup" locale="ko_KR" status="Approved">그룹 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevOwningUser" locale="ko_KR" status="Approved">소유자</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ArchetypeRevReleaseDate" locale="ko_KR" status="Approved">릴리스 날짜</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Archetype" locale="ko_KR" status="Approved">원형</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BoundingBox" locale="ko_KR" status="Approved">경계 상자</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0BreadcrumbAncestor" locale="ko_KR" status="Approved">이동 경로 상위 요소</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CopyStableId" locale="ko_KR" status="Approved">안정적인 어커런스 ID 복사</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0CsidPath" locale="ko_KR" status="Approved">안정적인 ID 복사 경로</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0DisplayedName" locale="ko_KR" status="Approved">요소</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementConfigured" locale="ko_KR" status="Approved">EOC - 구성된 적용일자/단위 어커런스</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementId" locale="ko_KR" status="Approved">요소 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ElementReleaseStatus" locale="ko_KR" status="Approved">요소 릴리스 상태</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0HasInContextOverrides" locale="ko_KR" status="Approved">재정의</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IPClassification" locale="ko_KR" status="Approved">IP 분류</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsElementSuppressed" locale="ko_KR" status="Approved">요소가 제한 되었습니까?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsStructModifiable" locale="ko_KR" status="Approved">구조 수정 가능</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsSuspect" locale="ko_KR" status="Approved">예상됨</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0IsTransformOverridden" locale="ko_KR" status="Approved">좌표변환이 재정의되었습니까?</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0LastSavedRefSet" locale="ko_KR" status="Approved">마지막 저장된 참조 세트</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Level" locale="ko_KR" status="Approved">수준</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Name" locale="ko_KR" status="Approved">이름</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0NumberOfChildren" locale="ko_KR" status="Approved">자식 수</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccName" locale="ko_KR" status="Approved">어커런스 이름</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OccType" locale="ko_KR" status="Approved">어커런스 유형</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverriddenProperties" locale="ko_KR" status="Approved">재정의된 속성</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0OverrideContexts" locale="ko_KR" status="Approved">컨텍스트 재정의</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Parent" locale="ko_KR" status="Approved">부모</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProductContextId" locale="ko_KR" status="Approved">제품 컨텍스트 ID</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ProjectList" locale="ko_KR" status="Approved">프로젝트</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Quantity" locale="ko_KR" status="Approved">수량</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0RelativeTransform" locale="ko_KR" status="Approved">상대 좌표변환</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Sequence" locale="ko_KR" status="Approved">검색 번호</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0ServiceAdapter" locale="ko_KR" status="Approved">서비스 어댑터</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0TraceLinkFlag" locale="ko_KR" status="Approved">추적 링크</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0Transform" locale="ko_KR" status="Approved">절대 좌표변환</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObjectType" locale="ko_KR" status="Approved">유형</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UnderlyingObject" locale="ko_KR" status="Approved">기본 개체</key>
+           
+        <key id="Property{::}Awb0Element{::}awb0UoM" locale="ko_KR" status="Approved">측정 단위</key>
+           
+        <key id="Property{::}Awb0Element{::}fnd0StructureAuditLogs" locale="ko_KR" status="Approved">구조 감사 로그</key>
+           
+        <key id="Property{::}Awb0Element{::}is_modifiable" locale="ko_KR" status="Approved">수정 가능</key>
+           
+        <key id="Property{::}Awb0Element{::}object_string" locale="ko_KR" status="Approved">요소</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0AvailableFeatures" locale="ko_KR" status="Approved">사용 가능한 기능</key>
+           
+        <key id="Property{::}Awb0FeatureList{::}awb0NonModifiableFeatures" locale="ko_KR" status="Approved">수정할 수 없는 기능</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0HasReflection" locale="ko_KR" status="Approved">반사 소유</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0LogicalDesignator" locale="ko_KR" status="Approved">참조 지정자</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0ParentCoordinateSystems" locale="ko_KR" status="Approved">좌표계</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0SubstituteList" locale="ko_KR" status="Approved">대체 항목</key>
+           
+        <key id="Property{::}Awb0PositionedElement{::}awb0UsedArrangement" locale="ko_KR" status="Approved">활성 정렬</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AlternateConfiguration" locale="ko_KR" status="Approved">교체 구성</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AppliedArrangement" locale="ko_KR" status="Approved">적용된 정렬</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0AutoBookmark" locale="ko_KR" status="Approved">자동 책갈피</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0BOMExpansionRule" locale="ko_KR" status="Approved">BOM 확장 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClientScopeUri" locale="ko_KR" status="Approved">클라이언트 범위 URI</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ClosureRule" locale="ko_KR" status="Approved">종결 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ContextObject" locale="ko_KR" status="Approved">컨텍스트 개체</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentRevRule" locale="ko_KR" status="Approved">현재 리비전 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRules" locale="ko_KR" status="Approved">사용되지 않음. 현재 파생 모델 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0CurrentVariantRule" locale="ko_KR" status="Approved">사용되지 않음. 현재 파생 모델 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffDate" locale="ko_KR" status="Approved">적용일자</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffEndItem" locale="ko_KR" status="Approved">적용일자/단위 마지막 아이템</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffUnitNo" locale="ko_KR" status="Approved">적용단위 번호</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EffectivityGroups" locale="ko_KR" status="Approved">적용일자/단위 그룹</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffDates" locale="ko_KR" status="Approved">종료 적용일자</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0EndEffUnits" locale="ko_KR" status="Approved">종료 적용단위</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterCount" locale="ko_KR" status="Approved">필터 개수</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0FilterStructureRecipe" locale="ko_KR" status="Approved">필터링된 구조 방법</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0IndexUpdateDate" locale="ko_KR" status="Approved">색인 업데이트 날짜</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0PackSimilarElements" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2412 참조. 유사한 요소 압축</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Product" locale="ko_KR" status="Approved">제품 컨텍스트 정보</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowChange" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2412 참조. 변경 표시</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowExplodedLines" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2412 참조. 쪼개진 행 표시</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ShowMarkup" locale="ko_KR" status="Approved">사용 안 함. 지원 알림 2412 참조. 마크업 표시</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0Snapshot" locale="ko_KR" status="Approved">스냅샷</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffDates" locale="ko_KR" status="Approved">시작 적용일자</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StartEffUnits" locale="ko_KR" status="Approved">시작 적용단위</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0StructureRecipe" locale="ko_KR" status="Approved">구조 방법</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0SupportedFeatures" locale="ko_KR" status="Approved">지원되는 기능</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0UseGlobalRevisionRule" locale="ko_KR" status="Approved">전역 리비전 규칙 사용</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRuleOwningRev" locale="ko_KR" status="Approved">파생 모델 규칙 소유 리비전</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0VariantRules" locale="ko_KR" status="Approved">파생 모델 규칙</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewToggles" locale="ko_KR" status="Approved">뷰 토글</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0ViewType" locale="ko_KR" status="Approved">뷰 유형</key>
+           
+        <key id="Property{::}Awb0ProductContextInfo{::}awb0WindowStateToggles" locale="ko_KR" status="Approved">윈도우 상태 토글</key>
+           
+        <key id="Property{::}Awb0SaveWorkingContextFeature{::}awb0ContainerNames" locale="ko_KR" status="Approved">컨테이너 이름</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ActiveProduct" locale="ko_KR" status="Approved">활성 제품</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowReadShare" locale="ko_KR" status="Approved">다른 사람들이 볼 수 있도록 허용</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0AllowWriteShare" locale="ko_KR" status="Approved">다른 사람들이 편집할 수 있도록 허용</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0BreadcrumbAncestor" locale="ko_KR" status="Approved">이동 경로 상위 요소</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ISessionCADData" locale="ko_KR" status="Approved">상호 호환 가능한 세션 CAD 데이터</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0IsStructModifiable" locale="ko_KR" status="Approved">구조 수정 가능</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0PendingChanges" locale="ko_KR" status="Approved">저장되지 않은 수정 사항</key>
+           
+        <key id="Property{::}Awb0SavedBookmark{::}awb0ShareLevel" locale="ko_KR" status="Approved">공유 수준</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awb0Context" locale="ko_KR" status="Approved">컨텍스트</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end1" locale="ko_KR" status="Approved">연결된 종료 1</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_connected_end2" locale="ko_KR" status="Approved">연결된 종료 2</key>
+           
+        <key id="Property{::}BOMLine{::}fnd0bl_line_object_type" locale="ko_KR" status="Approved">개체 유형</key>
+           
+        <key id="Property{::}BusinessObject{::}awb0SupportsStructure" locale="ko_KR" status="Approved">구조 소유</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineApnUids" locale="ko_KR" status="Approved">BOM 행 모양 경로 노드 UID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineItemId" locale="ko_KR" status="Approved">아이템 ID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0BomLineRevId" locale="ko_KR" status="Approved">리비전 ID</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedDate" locale="ko_KR" status="Approved">최종 수정일</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionLastModifiedUser" locale="ko_KR" status="Approved">최종 수정자</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningGroup" locale="ko_KR" status="Approved">소유 그룹</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionOwningUser" locale="ko_KR" status="Approved">소유자</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionRelStatusList" locale="ko_KR" status="Approved">릴리스 상태</key>
+           
+        <key id="Property{::}BOMLine{::}awb0RevisionReleaseDate" locale="ko_KR" status="Approved">릴리스 날짜</key>
+           
+        <key id="BusinessObject{::}Awb0Connection" locale="ko_KR" status="Approved">연결</key>
+           
+        <key id="BusinessObject{::}Awb0Interface" locale="ko_KR" status="Approved">인터페이스</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End1" locale="ko_KR" status="Approved">연결된 종료 1</key>
+           
+        <key id="Property{::}Awb0Connection{::}awb0End2" locale="ko_KR" status="Approved">연결된 종료 2</key>
+           
+        <key id="Property{::}Awb0Connection{::}bl_connected_lines" locale="ko_KR" status="Approved">연결</key>
+           
+        <key id="Property{::}Awb0Interface{::}awb0Direction" locale="ko_KR" status="Approved">방향</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildElement" locale="ko_KR" status="Approved">자식</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildProductToSavedBookmark" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddChildToMultipleParents" locale="ko_KR" status="Approved">자식</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSecondaryComponent" locale="ko_KR" status="Approved">2차 컴포넌트</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingElement" locale="ko_KR" status="Approved">형제</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingProductToSavedBookmark" locale="ko_KR" status="Approved">추가</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSiblingToMultipleParents" locale="ko_KR" status="Approved">형제</key>
+           
+        <key id="CommandDisplayName{::}Awb0AddSubstitutes" locale="ko_KR" status="Approved">대체 항목 추가</key>
+           
+        <key id="CommandDisplayName{::}Awb0ApplyMarkup" locale="ko_KR" status="Approved">마크업 적용</key>
+           
+        <key id="CommandDisplayName{::}Awb0CBOSCmd" locale="ko_KR" status="Approved">선택 항목별 구성</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupElement" locale="ko_KR" status="Approved">마크업 취소 요소</key>
+           
+        <key id="CommandDisplayName{::}Awb0CancelMarkupLevel" locale="ko_KR" status="Approved">마크업 취소 수준</key>
+           
+        <key id="CommandDisplayName{::}Awb0Compare" locale="ko_KR" status="Approved">비교</key>
+           
+        <key id="CommandDisplayName{::}Awb0ConfigureByValidOverlays" locale="ko_KR" status="Approved">유효한 오버레이별 구성</key>
+           
+        <key id="CommandDisplayName{::}Awb0EditEffectivity" locale="ko_KR" status="Approved">적용일자/단위 편집</key>
+           
+        <key id="CommandDisplayName{::}Awb0InsertParentElement" locale="ko_KR" status="Approved">단계 삽입</key>
+           
+        <key id="CommandDisplayName{::}Awb0OccurrenceEffectivity" locale="ko_KR" status="Approved">요소</key>
+           
+        <key id="CommandDisplayName{::}Awb0Pack" locale="ko_KR" status="Approved">압축</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReleaseStatusEffectivity" locale="ko_KR" status="Approved">릴리스</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveElement" locale="ko_KR" status="Approved">요소 제거</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveLevel" locale="ko_KR" status="Approved">수준 제거</key>
+           
+        <key id="CommandDisplayName{::}Awb0RemoveSubstitutes" locale="ko_KR" status="Approved">대체 항목 제거</key>
+           
+        <key id="CommandDisplayName{::}Awb0ReplaceElement" locale="ko_KR" status="Approved">교체</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInProductContext" locale="ko_KR" status="Approved">다른 이름으로 저장</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextDuplicateInSavedBookmark" locale="ko_KR" status="Approved">다른 이름으로 저장</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInProductContext" locale="ko_KR" status="Approved">저장</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContextSaveInSavedBookmark" locale="ko_KR" status="Approved">저장</key>
+           
+        <key id="CommandDisplayName{::}Awb0SaveWorkingContext" locale="ko_KR" status="Approved">작업 컨텍스트 저장</key>
+           
+        <key id="CommandDisplayName{::}Awb0SetInContext" locale="ko_KR" status="Approved">컨텍스트 내 설정</key>
+           
+        <key id="CommandDisplayName{::}Awb0ShowArchetypeInProduct" locale="ko_KR" status="Approved">열기</key>
+           
+        <key id="CommandDisplayName{::}Awb0Subset" locale="ko_KR" status="Approved">서브세트</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSecondaryComponents" locale="ko_KR" status="Approved">2차 컴포넌트 토글</key>
+           
+        <key id="CommandDisplayName{::}Awb0ToggleSubstituteComponents" locale="ko_KR" status="Approved">대체 컴포넌트 토글</key>
+           
+        <key id="CommandDisplayName{::}Awb0Unpack" locale="ko_KR" status="Approved">압축 풀기</key>
+           
+        <key id="CommandDisplayName{::}Awb0UseSubstitute" locale="ko_KR" status="Approved">대체 항목 사용</key>
+           
+        <key id="CommandDisplayName{::}Awb0ViewElementEffectivity" locale="ko_KR" status="Approved">요소 적용일자/단위 보기</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildCmdCond" locale="ko_KR" status="Approved">이에 따라 자식을 입력 요소에 추가할 수 있을지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddChildProductToSavedBookmarkCmdCond" locale="ko_KR" status="Approved">저장된 책갈피에 자식 제품을 추가할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSecondaryComponentCond" locale="ko_KR" status="Approved">이에 따라 2차 컴포넌트를 입력 요소에 추가할 수 있는지가 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingCmdCond" locale="ko_KR" status="Approved">이에 따라 형제를 입력 요소에 추가할 수 있을지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSiblingProductToSavedBookmarkCmdCond" locale="ko_KR" status="Approved">현재 선택된 제품에 대한 형제 제품을 저장된 책갈피에 추가할 수 있는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0AddSubstitutesCmdCond" locale="ko_KR" status="Approved">대체 항목의 추가 가능 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ApplyMarkupCmdCond" locale="ko_KR" status="Approved">마크업 적용 명령에 대한 서버측 명령 가시성 조건입니다. 이 명령은 사용자가 구조를 수정할 수 있는 액세스 권한이 있는 경우에만 표시되어야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0BomCloneCautionBannerDisplayCond" locale="ko_KR" status="Approved">Active Workspace 클라이언트의 중복 명령을 클릭할 때 사용자에게 BOM 복제 주의 배너를 표시하는 조건을 정의해야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0CBOSCmdCond" locale="ko_KR" status="Approved">이는 선택 항목 기준 구성이 입력 요소에 유효한지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0CancelMarkupCmdCond" locale="ko_KR" status="Approved">마크업 취소 명령에 대한 서버측 명령 가시성 조건입니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0CompareCmdCond" locale="ko_KR" status="Approved">비교 명령에 대한 서버측 명령 가시성 조건입니다. 이 명령은 선택한 개체가 모두 아이템 리비전 유형이고 최소 플랫폼 릴리스의 조건을 만족시킬 경우에만 표시되어야 합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond2" locale="ko_KR" status="Approved">저장된 여러 작업 컨텍스트 개체에 대한 삭제 명령을 활성화하는 조건입니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSWCCmdCond" locale="ko_KR" status="Approved">저장된 작업 컨텍스트에 대한 삭제 명령을 활성화하는 조건입니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0DeleteSessionCmdCond" locale="ko_KR" status="Approved">세션 개체의 컨텍스트에서 삭제를 숨기는 명령 조건.</key>
+           
+        <key id="ConditionDescription{::}Awb0ElementEffectivityCmdCond" locale="ko_KR" status="Approved">공유된 적용일자/단위를 요소에 작성, 편집, 추가 및 Awb0Element 유형의 개체에 대한 요소에서 제거할 수 있을지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0InsertParentCmdCond" locale="ko_KR" status="Approved">이는 단계 삽입 명령을 표시해야 하는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0IsConfigureByValidOverlayVisibleCnd" locale="ko_KR" status="Approved">이는 유효한 오버레이별 구성 명령이 주어진 비즈니스 개체에 대해 표시할 수 있는지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0EnsureTcBomProLicenseCond" locale="ko_KR" status="Approved">변경 컨텍스트에 사용할 수 있는 Structure Manager Pro 라이선스를 확인하려면 다음을 수행합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0OpenInSEECSessionHideCmdCond" locale="ko_KR" status="Approved">세션 개체의 컨텍스트에서 "SEEC에서 열기"를 숨기는 명령 조건.</key>
+           
+        <key id="ConditionDescription{::}Awb0PackCmdCondition" locale="ko_KR" status="Approved">이것은 선택한 개체에 대해 압축 명령을 디스플레이할지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReleaseStatusEffectivityCmdCond" locale="ko_KR" status="Approved">리비전 적용일자/단위를 선택한 개체에 적용할지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveElementCmdCond" locale="ko_KR" status="Approved">이에 따라 구조에서 요소를 제거할 수 있을지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveLevelCmdCond" locale="ko_KR" status="Approved">이는 단계 제거 명령을 표시해야 하는지 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0RemoveSubstitutesCmdCond" locale="ko_KR" status="Approved">대체 항목의 제거 가능 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ReplaceElementCmdCond" locale="ko_KR" status="Approved">이에 따라 구조에서 요소를 교체할 수 있을지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextCreateInProductContextCmdCond" locale="ko_KR" status="Approved">이에 따라 작업 컨텍스트 저장이 디스플레이되어야 할지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInProductContextCmdCond" locale="ko_KR" status="Approved">이에 따라 다른 이름으로 저장이 제품 컨텍스트에 대해 디스플레이되어야 할지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextDuplicateInSavedBookmarkCmdCond" locale="ko_KR" status="Approved">이에 따라 다른 이름으로 저장이 저장된 책갈피에 대해 디스플레이되어야 할지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInProductContextCmdCond" locale="ko_KR" status="Approved">이에 따라 저장이 제품 컨텍스트에 대해 디스플레이되어야 할지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SaveWorkingContextSaveInSavedBookmarkCmdCond" locale="ko_KR" status="Approved">이에 따라 저장이 저장된 책갈피에 대해 디스플레이되어야 할지 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0SetInContextCmdCond" locale="ko_KR" status="Approved">이것은 선택한 개체에 대해 컨텍스트 내 설정 명령을 디스플레이할지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSecondaryComponentsCond" locale="ko_KR" status="Approved">이에 따라 선택한 Awb0ConditionalElement 아래에서 2차 컴포넌트를 볼 수 있는지가 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ToggleSubstituteComponentsCond" locale="ko_KR" status="Approved">이에 따라 선택한 Awb0ConditionalElement 아래에서 대체 컴포넌트를 볼 수 있는지가 결정됩니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0UnpackCmdCondition" locale="ko_KR" status="Approved">이것은 선택한 개체에 대해 압축 풀기 명령을 디스플레이할지 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0UseSubstituteCmdCond" locale="ko_KR" status="Approved">대체 항목의 사용 가능 여부를 결정합니다.</key>
+           
+        <key id="ConditionDescription{::}Awb0ViewElementEffectivityCmdCond" locale="ko_KR" status="Approved">Awb0Element 유형의 개체에 대해 적용된 적용일자/단위를 볼 수 있는지 결정합니다.</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupForLevelProvider" locale="ko_KR" status="Approved">수준 제공자를 위한 마크업</key>
+           
+        <key id="BusinessObject{::}Awb0MarkupProvider" locale="ko_KR" status="Approved">마크업 제공자</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0LastReplayedDate" locale="ko_KR" status="Approved">마지막 재생 날짜</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0PendingChanges" locale="ko_KR" status="Approved">보류 중인 변경 사항</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductIDsInSession" locale="ko_KR" status="Approved">ID 포함 위치:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductNamesInSession" locale="ko_KR" status="Approved">이름 포함 위치:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductTypesInSession" locale="ko_KR" status="Approved">유형 포함 위치:</key>
+           
+        <key id="Property{::}Fnd0AppSession{::}awb0ProductsInSession" locale="ko_KR" status="Approved">세션의 제품</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexTime" locale="ko_KR" status="Approved">스마트 발견 색인 마지막 업데이트</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0IsDiscoveryIndexed" locale="ko_KR" status="Approved">스마트 발견 색인화됨</key>
+           
+        <key id="BusinessObject{::}Awb0ContextProductsProvider" locale="ko_KR" status="Approved">컨텍스트 제품 제공자</key>
+           
+        <key id="BusinessObject{::}Awb0InContextSavedQueryLOV" locale="ko_KR" status="Approved">In Context 저장된 조회 LOV</key>
+           
+        <key id="BusinessObject{::}Awb0SDIndexerDataProvider" locale="ko_KR" status="Approved">SD 색인기 데이터 제공자</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awb0InContextSavedQueryName" locale="ko_KR" status="Approved">In Context 저장된 조회 이름</key>
+           
+        <key id="Property{::}ItemRevision{::}awb0DiscoveryIndexedSource" locale="ko_KR" status="Approved">색인화된 소스</key>
+           
+        <key id="BusinessObject{::}Awb0PartElement" locale="ko_KR" status="Approved">파트 요소</key>
+           
+        <key id="Property{::}Awb0PartElement{::}awb0PartSource" locale="ko_KR" status="Approved">제조/구매</key>
+           
+        <key id="CommandDisplayName{::}Awb0EntCBALaunchAlignTask" locale="ko_KR" status="Approved">정렬</key>
+           
+        <key id="ConditionDescription{::}Awb0EntCBALaunchAlignTaskCmdCond" locale="ko_KR" status="Approved">"정렬" 명령의 가시성을 정의합니다. 설계 및 파트 개체에만 사용할 수 있습니다.</key>
+        
+    </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" Date="Mon Jul 13 05:52:57 PM 2026">
+    <Add>
+           
+        <key id="CommandDisplayName{::}Awp0AddAlternate" locale="uk_UA" status="Approved">Додати альтернативу</key>
+           
+        <key id="CommandDisplayName{::}Awp0EnableOpenBaselineCmd" locale="uk_UA" status="Approved">Увімкнути команду Відкрити базову лінію</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExpressionEffectivity" locale="uk_UA" status="Approved">Чинність</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReleaseStatusEffectivity" locale="uk_UA" status="Approved">Випустити</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveAlternate" locale="uk_UA" status="Approved">Видалити альтернативу</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevBaseline" locale="uk_UA" status="Approved">Створити ревізійну базову лінію</key>
+           
+        <key id="ConditionDescription{::}Awp0AddAlternatesCmdCond" locale="uk_UA" status="Approved">Визначає, чи має бути видимою команда "Додати альтернативу".</key>
+           
+        <key id="ConditionDescription{::}Awp0EnableOpenBaselineCmdCond" locale="uk_UA" status="Approved">Увімкнути умову команди Відкрити базову лінію</key>
+           
+        <key id="ConditionDescription{::}Awp0ExpressionEffectivityCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи підтримується дієвість виразу.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseStatusEffectivityCmdCond" locale="uk_UA" status="Approved">Визначає, чи можна застосувати команду "Дієвість ревізії" до вибраного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveAlternatesCmdCond" locale="uk_UA" status="Approved">Визначає, чи має відображатися команда "Видалити альтернативу".</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowRevBaselineCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи підтримується команда "Створити базову лінію ревізії" для вхідного об'єкта.</key>
+           
+        <key id="BusinessObject{::}Awp0AWCExternalSystemObject" locale="uk_UA" status="Approved">Базовий об'єкт зовнішньої системи</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedQueryCriteria" locale="uk_UA" status="Approved">Розширені критерії запиту</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchInput" locale="uk_UA" status="Approved">Вхідні дані розширеного пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0AlternatesProvider" locale="uk_UA" status="Approved">Постачальник альтернатив</key>
+           
+        <key id="BusinessObject{::}Awp0DateSearchFilter" locale="uk_UA" status="Approved">Фільтр пошуку за датою</key>
+           
+        <key id="BusinessObject{::}Awp0DynCompColumnDef" locale="uk_UA" status="Approved">Визначення стовпця динамічної складеної властивості</key>
+           
+        <key id="BusinessObject{::}Awp0FTSIndexer" locale="uk_UA" status="Approved">Індексатор повнотекстового пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0FTSSearchExecution" locale="uk_UA" status="Approved">Виконання повнотекстового пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesFolder" locale="uk_UA" status="Approved">Вибране</key>
+           
+        <key id="BusinessObject{::}Awp0FavoritesProvider" locale="uk_UA" status="Approved">Постачальник вибране</key>
+           
+        <key id="BusinessObject{::}Awp0FoldersProvider" locale="uk_UA" status="Approved">Постачальник колекції папок</key>
+           
+        <key id="BusinessObject{::}Awp0Folders" locale="uk_UA" status="Approved">Набір папок</key>
+           
+        <key id="BusinessObject{::}Awp0FullTextSavedSearch" locale="uk_UA" status="Approved">Пошук за ключовими словами</key>
+           
+        <key id="BusinessObject{::}Awp0GetChildrenProvider" locale="uk_UA" status="Approved">Отримати провайдера дочірніх елементів</key>
+           
+        <key id="BusinessObject{::}Awp0IdContextListOfValues" locale="uk_UA" status="Approved">Список значень контексту ID</key>
+           
+        <key id="BusinessObject{::}Awp0InboxProvider" locale="uk_UA" status="Approved">Провайдер вхідної пошти</key>
+           
+        <key id="BusinessObject{::}Awp0LastUsedColConfig" locale="uk_UA" status="Approved">Остання використана конфігурація стовпців</key>
+           
+        <key id="BusinessObject{::}Awp0NamedColumnConfig" locale="uk_UA" status="Approved">Конфігурація іменованих стовпців</key>
+           
+        <key id="BusinessObject{::}Awp0NumericSearchFilter" locale="uk_UA" status="Approved">Числовий фільтр пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0ObjectSetRowProvider" locale="uk_UA" status="Approved">Провайдер рядків набору об'єктів</key>
+           
+        <key id="BusinessObject{::}Awp0QuickSearchLOV" locale="uk_UA" status="Approved">Швидкий пошук LOV</key>
+           
+        <key id="BusinessObject{::}Awp0RecentObjectsProvider" locale="uk_UA" status="Approved">Провайдер останніх об'єктів</key>
+           
+        <key id="BusinessObject{::}Awp0ReferencesProvider" locale="uk_UA" status="Approved">Постачальник посилань</key>
+           
+        <key id="BusinessObject{::}Awp0RelationsCustomLOVBO" locale="uk_UA" status="Approved">Бізнес-об'єкт користувацького LOV зв'язків</key>
+           
+        <key id="BusinessObject{::}Awp0ResourceProvider" locale="uk_UA" status="Approved">Постачальник ресурсів</key>
+           
+        <key id="BusinessObject{::}Awp0RevRuleLOV" locale="uk_UA" status="Approved">LOV правил ревізії</key>
+           
+        <key id="BusinessObject{::}Awp0SignoffsProvider" locale="uk_UA" status="Approved">Затверджувач</key>
+           
+        <key id="BusinessObject{::}Awp0StringSearchFilter" locale="uk_UA" status="Approved">Фільтр пошуку рядків</key>
+           
+        <key id="BusinessObject{::}Awp0TablePropertyProvider" locale="uk_UA" status="Approved">Постачальник властивостей таблиці</key>
+           
+        <key id="BusinessObject{::}Awp0TypeSearchProvider" locale="uk_UA" status="Approved">Провайдер пошуку за типом</key>
+           
+        <key id="BusinessObject{::}Awp0UserAssignment" locale="uk_UA" status="Approved">Призначення користувача</key>
+           
+        <key id="BusinessObject{::}Awp0VNCProvider" locale="uk_UA" status="Approved">Провайдер VNC</key>
+           
+        <key id="BusinessObject{::}Awp0WorkspaceMappingRel" locale="uk_UA" status="Approved">Співвідношення відображення робочого простору</key>
+           
+        <key id="BusinessObject{::}Awp0Workspace" locale="uk_UA" status="Approved">Визначення робочого простору</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetColumn" locale="uk_UA" status="Approved">Стовпець набору об'єктів</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSetRow" locale="uk_UA" status="Approved">Рядок набору об'єктів</key>
+           
+        <key id="BusinessObject{::}Awp0XRTObjectSet" locale="uk_UA" status="Approved">Набір об'єктів</key>
+           
+        <key id="BusinessObject{::}Fnd0ClientContext" locale="uk_UA" status="Approved">Контекст клієнта</key>
+           
+        <key id="BusinessObject{::}Fnd0Selection" locale="uk_UA" status="Approved">Виділення</key>
+           
+        <key id="BusinessObject{::}SavedSearch" locale="uk_UA" status="Approved">Розширений пошук</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="uk_UA" status="Approved">Не вдалося імпортувати Відомість матеріалів</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="uk_UA" status="Approved">Імпорт відомості матеріалів успішно завершено</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="uk_UA" status="Approved">Не вдалося імпортувати файл Excel</key>
+           
+        <key id="LOVValueDescription{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="uk_UA" status="Approved">Імпорт із Excel успішно завершено</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="uk_UA" status="Approved">Команди комірки Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="uk_UA" status="Approved">Команди контекстного меню Active Workspace.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="uk_UA" status="Approved">Глобальна панель інструментів Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="uk_UA" status="Approved">Різні команди Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="uk_UA" status="Approved">Команди профілю Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="uk_UA" status="Approved">Команди інструментів перегляду Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="uk_UA" status="Approved">Команди Active Workspace XRT</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_FAILED" locale="uk_UA" status="Approved">Не вдалося імпортувати відомість матеріалів</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}BOM_IMPORT_SUCCESS" locale="uk_UA" status="Approved">Імпорт відомості матеріалів успішно завершено</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_FAILED" locale="uk_UA" status="Approved">Не вдалося імпортувати Excel</key>
+           
+        <key id="LOVValue{::}Fnd0SourceApplicationType{::}EXCEL_IMPORT_SUCCESS" locale="uk_UA" status="Approved">Імпорт із Excel успішно завершено</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_cell" locale="uk_UA" status="Approved">Комірка Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_contextMenu" locale="uk_UA" status="Approved">Контекстне меню Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_globalToolbar" locale="uk_UA" status="Approved">Глобальна панель інструментів Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_others" locale="uk_UA" status="Approved">Різні команди Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_profile" locale="uk_UA" status="Approved">Команди профілю Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_viewtools" locale="uk_UA" status="Approved">Переглянути інструменти</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_xrt" locale="uk_UA" status="Approved">Active Workspace XRT</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSysObjClassName" locale="uk_UA" status="Approved">Назва класу об'єкта зовнішньої системи</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemName" locale="uk_UA" status="Approved">Назва зовнішньої системи</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0ExternalSystemURI" locale="uk_UA" status="Approved">URI зовнішньої системи</key>
+           
+        <key id="Property{::}Awp0AWCExternalSystemObject{::}awp0PropertyNameList" locale="uk_UA" status="Approved">Список імен властивостей</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0AdvancedQueryName" locale="uk_UA" status="Approved">Назва розширеного запиту</key>
+           
+        <key id="Property{::}Awp0AdvancedSearchInput{::}awp0QuickSearchName" locale="uk_UA" status="Approved">Назва швидкого пошуку</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0end_date" locale="uk_UA" status="Approved">Дата завершення</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0filter_name" locale="uk_UA" status="Approved">Назва фільтра</key>
+           
+        <key id="Property{::}Awp0DateSearchFilter{::}awp0start_date" locale="uk_UA" status="Approved">Дата початку</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ColumnDisplayName" locale="uk_UA" status="Approved">Відображувана назва стовпця</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0DynCompPropertyPath" locale="uk_UA" status="Approved">Шлях динамічної складеної властивості</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0ObjectType" locale="uk_UA" status="Approved">Тип об'єкта</key>
+           
+        <key id="Property{::}Awp0DynCompColumnDef{::}awp0PropertyName" locale="uk_UA" status="Approved">Назва властивості</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0ExecutingUser" locale="uk_UA" status="Approved">Користувач, який виконує</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0LastExecutionTime" locale="uk_UA" status="Approved">Час останнього виконання</key>
+           
+        <key id="Property{::}Awp0FTSSearchExecution{::}awp0SavedSearch" locale="uk_UA" status="Approved">Збережений пошук</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0ChartOn" locale="uk_UA" status="Approved">Графік увімкнено</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SavedSearchLocale" locale="uk_UA" status="Approved">Локаль збереженого пошуку</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0SearchFilterArray" locale="uk_UA" status="Approved">Фільтри</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0date_filters" locale="uk_UA" status="Approved">Фільтри дат</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0is_global_shared" locale="uk_UA" status="Approved">Дозволити іншим переглядати</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0numeric_filters" locale="uk_UA" status="Approved">Числові фільтри</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0search_string" locale="uk_UA" status="Approved">Критерії</key>
+           
+        <key id="Property{::}Awp0FullTextSavedSearch{::}awp0string_filters" locale="uk_UA" status="Approved">Фільтри рядків</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0ColumnConfigRef" locale="uk_UA" status="Approved">Довідник конфігурацій стовпців</key>
+           
+        <key id="Property{::}Awp0LastUsedColConfig{::}awp0LastUsedBy" locale="uk_UA" status="Approved">Останній користувач</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigId" locale="uk_UA" status="Approved">Ідентифікатор конфігурації стовпця</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0ColumnConfigName" locale="uk_UA" status="Approved">Назва конфігурації стовпців</key>
+           
+        <key id="Property{::}Awp0NamedColumnConfig{::}awp0IsAdmin" locale="uk_UA" status="Approved">Налаштування стовпця адміністратора</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0end_value" locale="uk_UA" status="Approved">Кінцеве значення</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0filter_name" locale="uk_UA" status="Approved">Назва фільтра</key>
+           
+        <key id="Property{::}Awp0NumericSearchFilter{::}awp0start_value" locale="uk_UA" status="Approved">Початкове значення</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0filter_name" locale="uk_UA" status="Approved">Назва фільтра</key>
+           
+        <key id="Property{::}Awp0StringSearchFilter{::}awp0value" locale="uk_UA" status="Approved">Значення</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EMail" locale="uk_UA" status="Approved">Електронна пошта</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0EndDate" locale="uk_UA" status="Approved">Дата завершення</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0Phone" locale="uk_UA" status="Approved">Телефон</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0StartDate" locale="uk_UA" status="Approved">Дата початку</key>
+           
+        <key id="Property{::}Awp0UserAssignment{::}awp0User" locale="uk_UA" status="Approved">Користувач</key>
+           
+        <key id="Property{::}Awp0WorkspaceMappingRel{::}awp0IsDefaultWorkspace" locale="uk_UA" status="Approved">За замовчуванням?</key>
+           
+        <key id="Property{::}Awp0Workspace{::}awp0WorkspaceId" locale="uk_UA" status="Approved">Ідентифікатор робочого простору</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0ArrayLength" locale="uk_UA" status="Approved">Довжина масиву</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0DataType" locale="uk_UA" status="Approved">Тип даних</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsArray" locale="uk_UA" status="Approved">Масив</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0IsPropertyOnRelation" locale="uk_UA" status="Approved">Властивість відношення</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0Length" locale="uk_UA" status="Approved">Довжина</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyDisplayName" locale="uk_UA" status="Approved">Відображуване ім'я властивості</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0PropertyName" locale="uk_UA" status="Approved">Назва властивості</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetColumn{::}awp0UserSortable" locale="uk_UA" status="Approved">Сортування користувачем</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0IsCutAllowed" locale="uk_UA" status="Approved">Чи дозволено різання?</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Primary" locale="uk_UA" status="Approved">Основний</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RefPropertyName" locale="uk_UA" status="Approved">Назва довідкової властивості</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeDisplayName" locale="uk_UA" status="Approved">Відображувана назва типу зв'язку</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0RelationTypeName" locale="uk_UA" status="Approved">Назва типу зв'язку</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relationship" locale="uk_UA" status="Approved">Зв'язок</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Relation" locale="uk_UA" status="Approved">Зв'язок</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Secondary" locale="uk_UA" status="Approved">Додатковий</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}awp0Target" locale="uk_UA" status="Approved">Ціль</key>
+           
+        <key id="Property{::}Awp0XRTObjectSetRow{::}is_modifiable" locale="uk_UA" status="Approved">Змінюваний</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetColumns" locale="uk_UA" status="Approved">Стовпці набору об'єктів</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0ObjectSetRows" locale="uk_UA" status="Approved">Рядки набору об'єктів</key>
+           
+        <key id="Property{::}Awp0XRTObjectSet{::}awp0TotalObjectSetRowsFound" locale="uk_UA" status="Approved">Загальна кількість рядків у наборі об'єктів</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0CellProperties" locale="uk_UA" status="Approved">Властивості комірки об'єкта</key>
+           
+        <key id="Property{::}BusinessObject{::}awp0ThumbnailImageTicket" locale="uk_UA" status="Approved">Мініатюрне зображення квитка FMS</key>
+           
+        <key id="Property{::}BusinessObject{::}object_string" locale="uk_UA" status="Approved">Об'єкт</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddReviewerByMeBehavior" locale="uk_UA" status="Approved">Додати поведінку "Рецензент, доданий мною"</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AddTaskByMeBehavior" locale="uk_UA" status="Approved">Додати поведінку "Завдання, створені мною"</key>
+           
+        <key id="Property{::}EPMTask{::}awp0AssignableByMeBehavior" locale="uk_UA" status="Approved">Призначуваний</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PerformableByMeBehavior" locale="uk_UA" status="Approved">Виконуваний</key>
+           
+        <key id="Property{::}EPMTask{::}awp0PromoteableByMeBehavior" locale="uk_UA" status="Approved">Просування можливе</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0ClientScope" locale="uk_UA" status="Approved">Клієнтська область</key>
+           
+        <key id="Property{::}Fnd0ClientContext{::}fnd0Selection" locale="uk_UA" status="Approved">Виділення</key>
+           
+        <key id="Property{::}Fnd0ColumnDef{::}awp0ColumnDisplayName" locale="uk_UA" status="Approved">Відображувана назва стовпця</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0Filters" locale="uk_UA" status="Approved">Фільтри</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFilteringEnabled" locale="uk_UA" status="Approved">Фільтрування увімкнено</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsFrozen" locale="uk_UA" status="Approved">Стовпець закріплено</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0IsTextWrapped" locale="uk_UA" status="Approved">Чи перенесено текст</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionNames" locale="uk_UA" status="Approved">Назви параметрів</key>
+           
+        <key id="Property{::}Fnd0ColumnOrderRel{::}awp0OptionValues" locale="uk_UA" status="Approved">Значення параметрів</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ContextName" locale="uk_UA" status="Approved">Назва контексту</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0ParentSelection" locale="uk_UA" status="Approved">Вибір батьківського елемента</key>
+           
+        <key id="Property{::}Fnd0Selection{::}fnd0SelectedObjects" locale="uk_UA" status="Approved">Вибрані об'єкти</key>
+           
+        <key id="Property{::}Folder{::}awp0HasChildren" locale="uk_UA" status="Approved">Має дочірні елементи</key>
+           
+        <key id="Property{::}IdDispRule{::}is_modifiable" locale="uk_UA" status="Approved">Можна змінювати</key>
+           
+        <key id="Property{::}IdentifierCreI{::}awp0IdentifierId" locale="uk_UA" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AliasID" locale="uk_UA" status="Approved">Ідентифікатор псевдоніма</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0AlternateID" locale="uk_UA" status="Approved">Альтернативний ідентифікатор</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ConfiguredRevision" locale="uk_UA" status="Approved">Налаштована ревізія</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0Item_item_id" locale="uk_UA" status="Approved">ID</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0RequiredParticipants" locale="uk_UA" status="Approved">Обов'язкові учасники</key>
+           
+        <key id="Property{::}ItemRevision{::}awp0ShowParticipants" locale="uk_UA" status="Approved">Учасники для відображення</key>
+           
+        <key id="Property{::}Item{::}awp0AliasID" locale="uk_UA" status="Approved">ID псевдоніма</key>
+           
+        <key id="Property{::}Item{::}awp0AlternateID" locale="uk_UA" status="Approved">Альтернативний ID</key>
+           
+        <key id="Property{::}PseudoFolder{::}object_name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_flag" locale="uk_UA" status="Approved">Прапорець</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_object_type" locale="uk_UA" status="Approved">Тип віддаленого доступу</key>
+           
+        <key id="Property{::}PublicationRecord{::}pubr_owning_site" locale="uk_UA" status="Approved">Віддалені майданчики</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_creation_date" locale="uk_UA" status="Approved">Дата створення</key>
+           
+        <key id="Property{::}PublishedObject{::}po_object_type" locale="uk_UA" status="Approved">Тип віддаленого з'єднання</key>
+           
+        <key id="Property{::}PublishedObject{::}po_owning_site" locale="uk_UA" status="Approved">Віддалені майданчики</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddReviewerByMeBehavior" locale="uk_UA" status="Approved">Поведінка додавання рецензента мною</key>
+           
+        <key id="Property{::}Signoff{::}awp0AddTaskByMeBehavior" locale="uk_UA" status="Approved">Додати поведінку "Завдання, створені мною"</key>
+           
+        <key id="Property{::}Signoff{::}awp0AssignableByMeBehavior" locale="uk_UA" status="Approved">Призначуваний</key>
+           
+        <key id="Property{::}Signoff{::}awp0PerformableByMeBehavior" locale="uk_UA" status="Approved">Виконуваний</key>
+           
+        <key id="Property{::}Signoff{::}awp0PromoteableByMeBehavior" locale="uk_UA" status="Approved">Можна підвищити</key>
+           
+        <key id="Property{::}SpecElementRevision{::}awp0Specifications" locale="uk_UA" status="Approved">Технічні характеристики</key>
+           
+        <key id="Property{::}TC_Project{::}awp0ProjectTeamMembers" locale="uk_UA" status="Approved">Члени проєктної команди</key>
+           
+        <key id="Property{::}UserSession{::}awp0RevRule" locale="uk_UA" status="Approved">Правило ревізії</key>
+           
+        <key id="Property{::}User{::}awp0MySurrogates" locale="uk_UA" status="Approved">Мої сурогатні моделі</key>
+           
+        <key id="Property{::}User{::}awp0SurrogateFor" locale="uk_UA" status="Approved">Сурогат для</key>
+           
+        <key id="Event{::}Awp0Create_Baseline_Complete" locale="uk_UA" status="Approved">Базову лінію створено</key>
+           
+        <key id="BusinessObject{::}Awp0RelationProxyObject" locale="uk_UA" status="Approved">Проксі-Об'єкт Зв'язку</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProvider" locale="uk_UA" status="Approved">Постачальник зв'язків трасування</key>
+           
+        <key id="BusinessObject{::}Awp0TraceLinkProxyObject" locale="uk_UA" status="Approved">Проксі-об'єкт трасувального зв'язку</key>
+           
+        <key id="BusinessObject{::}Awp0TraceabilityMatrix" locale="uk_UA" status="Approved">Матриця простежуваності</key>
+           
+        <key id="LOVValueDescription{::}ExcelTemplateRules{::}include_attachments" locale="uk_UA" status="Approved">Цей параметр дає змогу експортувати всі вкладення набору даних разом із файлом Excel у форматі ZIP.</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Occurrence" locale="uk_UA" status="Approved">Екземпляр-&gt;Екземпляр</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Occurrence-&gt;Revision" locale="uk_UA" status="Approved">Екземпляр-&gt;Ревізія</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Occurrence" locale="uk_UA" status="Approved">Ревізія-&gt;Екземпляр</key>
+           
+        <key id="LOVValue{::}Awp0LinkedItemType{::}Revision-&gt;Revision" locale="uk_UA" status="Approved">Ревізія-&gt;Ревізія</key>
+           
+        <key id="LOVValue{::}ExcelTemplateRules{::}include_attachments" locale="uk_UA" status="Approved">Включити вкладення</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0Direction" locale="uk_UA" status="Approved">Напрямок</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelatedObject" locale="uk_UA" status="Approved">Пов'язаний об'єкт</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationObject" locale="uk_UA" status="Approved">Об'єкт зв'язку</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0RelationTypeName" locale="uk_UA" status="Approved">Тип трасувального зв'язку</key>
+           
+        <key id="Property{::}Awp0RelationProxyObject{::}awp0SelectedObject" locale="uk_UA" status="Approved">Виділений об'єкт</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0HasChildren" locale="uk_UA" status="Approved">Має дочірні елементи</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0IsOccurrenceTracelink" locale="uk_UA" status="Approved">Посилання для трасування екземпляра</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0LinkedItemType" locale="uk_UA" status="Approved">Тип зв'язаного елемента</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0TargetElement" locale="uk_UA" status="Approved">Цільовий елемент</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0OpenObjInfo" locale="uk_UA" status="Approved">Відкрити інформацію про об'єкт</key>
+           
+   
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0Parent" locale="uk_UA" status="Approved">Батьківський елемент</key>
+           
+        <key id="Property{::}Awp0TraceLinkProxyObject{::}awp0RelatedObjectType" locale="uk_UA" status="Approved">Тип пов'язаного об'єкта</key>
+           
+        <key id="Property{::}Awp0TraceabilityMatrix{::}awp0AttachedMatrix" locale="uk_UA" status="Approved">Прикріплена матриця</key>
+           
+        <key id="Property{::}FullText{::}awp0Comments" locale="uk_UA" status="Approved">Коментарі</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0IsSuspect" locale="uk_UA" status="Approved">Сумнівний</key>
+           
+        <key id="CommandDisplayName{::}Arm0CreateTraceLink" locale="uk_UA" status="Approved">Створити зв'язок трасування</key>
+           
+        <key id="CommandDisplayName{::}Arm0EditInWord" locale="uk_UA" status="Approved">Редагувати в Word</key>
+           
+        <key id="CommandDisplayName{::}Arm0ExportToOfficeApp" locale="uk_UA" status="Approved">Експортувати в Office</key>
+           
+        <key id="CommandDisplayName{::}Arm0CompareTextCmd" locale="uk_UA" status="Approved">Порівняти текст</key>
+           
+        <key id="ConditionDescription{::}Arm0CompareTextCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Порівняти текст". Вона доступна лише для об'єктів типу "Вимога" та їхніх підтипів.</key>
+           
+        <key id="ConditionDescription{::}Arm0EditInWordCmdCond" locale="uk_UA" status="Approved">Визначає умови редагування об'єкта в додатку MS Word.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateTraceLinkCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи має бути видимою команда Arm0CreateTraceLink.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceFullTextCmdCond" locale="uk_UA" status="Approved">Ця умова приховує команду "Замінити" для об'єктів типу "FullText".</key>
+           
+        <key id="BusinessObject{::}Awp0AdvancedSearchLOV" locale="uk_UA" status="Approved">LOV розширеного пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0FavoriteSavedSearch" locale="uk_UA" status="Approved">Улюблений збережений пошук</key>
+           
+        <key id="BusinessObject{::}Awp0MySearchFolder" locale="uk_UA" status="Approved">Активні папки</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataFolder" locale="uk_UA" status="Approved">Проєкти</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataProvider" locale="uk_UA" status="Approved">Постачальник даних проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplates" locale="uk_UA" status="Approved">Шаблони даних проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectDataTemplate" locale="uk_UA" status="Approved">Шаблон даних проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolderProvider" locale="uk_UA" status="Approved">Постачальник папок проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectFolder" locale="uk_UA" status="Approved">Папка проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0ProjectSubFolder" locale="uk_UA" status="Approved">Підпапка проєкту</key>
+           
+        <key id="BusinessObject{::}Awp0SavedQueryListProvider" locale="uk_UA" status="Approved">Постачальник списку збережених запитів</key>
+           
+        <key id="BusinessObject{::}Awp0SolrPropertyProvider" locale="uk_UA" status="Approved">Постачальник властивостей Solr</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderProvider" locale="uk_UA" status="Approved">Постачальник пошукової папки</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolderShareRule" locale="uk_UA" status="Approved">Правило спільного доступу до активної папки</key>
+           
+        <key id="BusinessObject{::}Awp0SearchFolder" locale="uk_UA" status="Approved">Активна папка</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}Categorization.category" locale="uk_UA" status="Approved">Категорія</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}POM_application_object.owning_group" locale="uk_UA" status="Approved">ID групи</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.object_type" locale="uk_UA" status="Approved">Тип</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.project_list" locale="uk_UA" status="Approved">Проєкти</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelBasicGrouping{::}WorkspaceObject.release_status_list" locale="uk_UA" status="Approved">Статус випуску</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.creation_date" locale="uk_UA" status="Approved">Дата створення</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}POM_application_object.last_mod_date" locale="uk_UA" status="Approved">Дата зміни</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelDateCategoriesGrouping{::}WorkspaceObject.date_released" locale="uk_UA" status="Approved">Дата випуску</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Basic" locale="uk_UA" status="Approved">Базовий</key>
+           
+        <key id="LOVValue{::}Awp0SearchFilterPanelGrouping{::}Date" locale="uk_UA" status="Approved">Дата</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0Ranking" locale="uk_UA" status="Approved">Класифікація</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0SavedSearch" locale="uk_UA" status="Approved">Збережений пошук</key>
+           
+        <key id="Property{::}Awp0FavoriteSavedSearch{::}awp0User" locale="uk_UA" status="Approved">Користувач</key>
+           
+        <key id="Property{::}Awp0ProjectDataTemplate{::}awp0isActiveTemplate" locale="uk_UA" status="Approved">Активний шаблон</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}awp0HasChildren" locale="uk_UA" status="Approved">Має дочірні елементи</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}is_modifiable" locale="uk_UA" status="Approved">Змінюваний</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_desc" locale="uk_UA" status="Approved">Опис</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}object_name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Awp0ProjectFolder{::}project" locale="uk_UA" status="Approved">Проєкт</key>
+           
+        <key id="Property{::}Awp0ProjectSubFolder{::}awp0SearchFolder" locale="uk_UA" status="Approved">Активна папка</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0SearchFolder" locale="uk_UA" status="Approved">Активна папка</key>
+           
+        <key id="Property{::}Awp0SearchFolderShareRule{::}awp0TargetAccessors" locale="uk_UA" status="Approved">Цільові методи доступу</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0CanExecuteSearch" locale="uk_UA" status="Approved">Можна виконати пошук</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0IsShared" locale="uk_UA" status="Approved">Спільний</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0Rule" locale="uk_UA" status="Approved">Правило</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchDefinition" locale="uk_UA" status="Approved">Визначення активної папки</key>
+           
+        <key id="Property{::}Awp0SearchFolder{::}awp0SearchType" locale="uk_UA" status="Approved">Тип пошуку</key>
+           
+        <key id="BusinessObject{::}Awp0P13nData" locale="uk_UA" status="Approved">Дані персоналізації</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddComponentAceHosted" locale="uk_UA" status="Approved">Додати компонент</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddDS" locale="uk_UA" status="Approved">Додати підпис</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProfilePicture" locale="uk_UA" status="Approved">Додати фото профілю</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddProjectsCell" locale="uk_UA" status="Approved">Додати проєкт</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToFavorites" locale="uk_UA" status="Approved">Додати до обраного</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdminTool" locale="uk_UA" status="Approved">Інформація</key>
+           
+        <key id="CommandDisplayName{::}Awp0AdvancedSearch" locale="uk_UA" status="Approved">Розширений пошук</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeHide" locale="uk_UA" status="Approved">Приховати</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveDown" locale="uk_UA" status="Approved">Перемістити вниз</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeMoveUp" locale="uk_UA" status="Approved">Перемістити вгору</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeProperties" locale="uk_UA" status="Approved">Розмістити</key>
+           
+        <key id="CommandDisplayName{::}Awp0ArrangeShow" locale="uk_UA" status="Approved">Показати</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjectsLegacy" locale="uk_UA" status="Approved">Призначити проєкти (застарілий)</key>
+           
+        <key id="CommandDisplayName{::}Awp0AssignProjects" locale="uk_UA" status="Approved">Проєкти</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelCheckout" locale="uk_UA" status="Approved">Скасувати видачу</key>
+           
+        <key id="CommandDisplayName{::}Awp0CancelEdits" locale="uk_UA" status="Approved">Скасувати редагування</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeOwner" locale="uk_UA" status="Approved">Змінити власника</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangePassword" locale="uk_UA" status="Approved">Змінити пароль</key>
+           
+        <key id="CommandDisplayName{::}Awp0ChangeTheme" locale="uk_UA" status="Approved">Змінити тему</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkin" locale="uk_UA" status="Approved">Реєструвати</key>
+           
+        <key id="CommandDisplayName{::}Awp0Checkout" locale="uk_UA" status="Approved">Видати на редагування</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColorFilteringToggle" locale="uk_UA" status="Approved">Показати кольорове фільтрування</key>
+           
+        <key id="CommandDisplayName{::}Awp0ColumnConfig" locale="uk_UA" status="Approved">Розмістити</key>
+           
+        <key id="CommandDisplayName{::}Awp0CommandLabelToggle" locale="uk_UA" status="Approved">Мітки</key>
+           
+        <key id="CommandDisplayName{::}Awp0Copy" locale="uk_UA" status="Approved">Копіювати</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateAlternateID" locale="uk_UA" status="Approved">Створити альтернативний ідентифікатор</key>
+           
+        <key id="CommandDisplayName{::}Awp0CreateHomeFolderCaeObject" locale="uk_UA" status="Approved">Домашня папка</key>
+           
+        <key id="CommandDisplayName{::}Awp0Cut" locale="uk_UA" status="Approved">Вирізати</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteImageCapture" locale="uk_UA" status="Approved">Видалити</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteRecentSearch" locale="uk_UA" status="Approved">Видалити</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeleteSection" locale="uk_UA" status="Approved">Видалити переріз</key>
+           
+        <key id="CommandDisplayName{::}Awp0Delete" locale="uk_UA" status="Approved">Видалити</key>
+           
+        <key id="CommandDisplayName{::}Awp0DeselectAll" locale="uk_UA" status="Approved">Очистити виділення</key>
+           
+        <key id="CommandDisplayName{::}Awp0DetachLicenseCell" locale="uk_UA" status="Approved">Від'єднати ліцензію</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditLocalizationSingle" locale="uk_UA" status="Approved">Редагувати окрему локалізацію</key>
+           
+        <key id="CommandDisplayName{::}Awp0EditSavedSearch" locale="uk_UA" status="Approved">Зберегти пошук</key>
+           
+        <key id="CommandDisplayName{::}Awp0ExitFullScreen" locale="uk_UA" status="Approved">Вийти з повноекранного режиму</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullScreen" locale="uk_UA" status="Approved">Повноекранний режим</key>
+           
+        <key id="CommandDisplayName{::}Awp0FullTextView" locale="uk_UA" status="Approved">Повнотекстовий пошук</key>
+           
+        <key id="CommandDisplayName{::}Awp0GoHome" locale="uk_UA" status="Approved">Головна</key>
+           
+        <key id="CommandDisplayName{::}Awp0InContextReports" locale="uk_UA" status="Approved">Створити звіт</key>
+           
+        <key id="CommandDisplayName{::}Awp0InboxFilters" locale="uk_UA" status="Approved">Фільтри</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchFullTextSearchResult" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchMarkup" locale="uk_UA" status="Approved">Розмітка</key>
+           
+        <key id="CommandDisplayName{::}Awp0LaunchSavedSearch" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHostedAce" locale="uk_UA" status="Approved">Відкрити в хості</key>
+           
+        <key id="CommandDisplayName{::}Awp0MCADOpenHosted" locale="uk_UA" status="Approved">Відкрити в хості</key>
+           
+        <key id="CommandDisplayName{::}Awp0Markup" locale="uk_UA" status="Approved">Розмітка</key>
+           
+        <key id="CommandDisplayName{::}Awp0ModelObjListDisplayToggles" locale="uk_UA" status="Approved">Перемикачі відображення списків</key>
+           
+        <key id="CommandDisplayName{::}Awp0NameValueCreate" locale="uk_UA" status="Approved">Створити ім'я-значення</key>
+           
+        <key id="CommandDisplayName{::}Awp0NavigateObject" locale="uk_UA" status="Approved">Навігація</key>
+           
+        <key id="CommandDisplayName{::}Awp0ObjectInfo" locale="uk_UA" status="Approved">Інформація</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenHosted" locale="uk_UA" status="Approved">Відкрити в NX</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewTab" locale="uk_UA" status="Approved">Відкрити в новій вкладці</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInNewWindow" locale="uk_UA" status="Approved">Відкрити у новому вікні</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInOfficeClient" locale="uk_UA" status="Approved">Відкрити в Office-клієнті</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInRAC" locale="uk_UA" status="Approved">Відкрити в Rich-клієнті</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenNewViewHosted" locale="uk_UA" status="Approved">Відкрити новий вигляд у хості</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenVVI" locale="uk_UA" status="Approved">Відкрити в Vis</key>
+           
+        <key id="CommandDisplayName{::}Awp0Paste" locale="uk_UA" status="Approved">Вставити</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinObject" locale="uk_UA" status="Approved">Закріпити на головній сторінці</key>
+           
+        <key id="CommandDisplayName{::}Awp0PinSearch" locale="uk_UA" status="Approved">Пошук штифта</key>
+           
+        <key id="CommandDisplayName{::}Awp0Pin" locale="uk_UA" status="Approved">Закріпити</key>
+           
+        <key id="CommandDisplayName{::}Awp0Placeholder" locale="uk_UA" status="Approved">Відсутній обробник команд</key>
+           
+        <key id="CommandDisplayName{::}Awp0Print" locale="uk_UA" status="Approved">Друкувати</key>
+           
+        <key id="CommandDisplayName{::}Awp0RBOpenInPrintView" locale="uk_UA" status="Approved">Відкрити у режимі друку</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveFromFavorites" locale="uk_UA" status="Approved">Видалити з обраного</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveProjectsCell" locale="uk_UA" status="Approved">Видалити проєкт</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceDataset" locale="uk_UA" status="Approved">Замінити Файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReportsSummary" locale="uk_UA" status="Approved">Створити звіт</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveEdits" locale="uk_UA" status="Approved">Зберегти зміни</key>
+           
+        <key id="CommandDisplayName{::}Awp0SaveSearch" locale="uk_UA" status="Approved">Зберегти пошук</key>
+           
+        <key id="CommandDisplayName{::}Awp0SearchFilter" locale="uk_UA" status="Approved">Фільтри пошуку</key>
+           
+        <key id="CommandDisplayName{::}Awp0Search" locale="uk_UA" status="Approved">Шукати</key>
+           
+        <key id="CommandDisplayName{::}Awp0SelectAll" locale="uk_UA" status="Approved">Вибрати все</key>
+           
+        <key id="CommandDisplayName{::}Awp0SetOrClearLocationCode" locale="uk_UA" status="Approved">Встановити або очистити код розташування</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShareURL" locale="uk_UA" status="Approved">Копіювати Посилання</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAddObject" locale="uk_UA" status="Approved">Додати до</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAdmin" locale="uk_UA" status="Approved">Адміністрування</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowAlert" locale="uk_UA" status="Approved">Сповіщення</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateDocument" locale="uk_UA" status="Approved">Створити документ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowCreateObject" locale="uk_UA" status="Approved">Додати</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeCreateDocument" locale="uk_UA" status="Approved">Створити документ</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowHomeFolder" locale="uk_UA" status="Approved">Моя домашня папка</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowImageView" locale="uk_UA" status="Approved">Зображення</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowListView" locale="uk_UA" status="Approved">Список</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellDataset" locale="uk_UA" status="Approved">Завантажити файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCellForObjectNavigation" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObjectCell" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowObject" locale="uk_UA" status="Approved">Відкрити</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRender" locale="uk_UA" status="Approved">Візуалізувати</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowRevise" locale="uk_UA" status="Approved">Редагувати</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSaveAs" locale="uk_UA" status="Approved">Зберегти як або Створити ревізію</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowSummaryView" locale="uk_UA" status="Approved">Список із Резюме</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableSummaryView" locale="uk_UA" status="Approved">Таблиця з Резюме</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowTableView" locale="uk_UA" status="Approved">Таблиця</key>
+           
+        <key id="CommandDisplayName{::}Awp0ShowViewerAdmin" locale="uk_UA" status="Approved">Візуалізація</key>
+           
+        <key id="CommandDisplayName{::}Awp0SignOut" locale="uk_UA" status="Approved">Вийти</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditSummary" locale="uk_UA" status="Approved">Резюме</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEditTable" locale="uk_UA" status="Approved">Таблиця</key>
+           
+        <key id="CommandDisplayName{::}Awp0StartEdit" locale="uk_UA" status="Approved">Почати Редагування</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPinObject" locale="uk_UA" status="Approved">Відкріпити з Головної</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnPin" locale="uk_UA" status="Approved">Відкріпити</key>
+           
+        <key id="CommandDisplayName{::}Awp0UnpinSearch" locale="uk_UA" status="Approved">Відкріпити Пошук</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFileForUV" locale="uk_UA" status="Approved">Завантажити файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewFile" locale="uk_UA" status="Approved">Завантажити файл</key>
+           
+        <key id="CommandDisplayName{::}Awp0ViewerSettings" locale="uk_UA" status="Approved">Відображення</key>
+           
+        <key id="CommandDisplayName{::}Awp0VoidDS" locale="uk_UA" status="Approved">Анулювати підпис</key>
+           
+        <key id="ConditionDescription{::}Awp0AddProfilePictureCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи об'єкт користувача відповідає поточному користувачу.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToFavoritesCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи команда Awp0AddToFavorites має бути видимою</key>
+           
+        <key id="ConditionDescription{::}Awp0AlternateIdCutCmdCond" locale="uk_UA" status="Approved">Ця умова приховує команду "Вирізати" для об'єктів типу "Альтернативний ідентифікатор".</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsCmdCond" locale="uk_UA" status="Approved">Умова видимості серверної команди "Призначити проєкти".  Команда повинна бути видимою лише якщо вибраний об'єкт має тип WorkspaceObject, Dataset або Form.  Команда не повинна бути видимою, якщо вибраний об'єкт має тип EPMTask або Затвердження.  Команда не повинна бути видимою, якщо властивість assignable_projects не визначена для користувача, який увійшов у систему.</key>
+           
+        <key id="ConditionDescription{::}Awp0AssignProjectsLegacyCmdCond" locale="uk_UA" status="Approved">Умова видимості серверної команди "Призначити проєкти". Ця команда повинна бути видимою для версій Teamcenter від 10.1.5 до 11.2.3. Ця команда повинна бути видимою лише якщо вибраний об'єкт має тип WorkspaceObject, Dataset або Form. Ця команда не повинна бути видимою, якщо вибраний об'єкт має тип EPMTask або Затвердження. Ця команда не повинна бути видимою, якщо властивість assignable_projects не визначена для поточного користувача.</key>
+           
+        <key id="ConditionDescription{::}Awp0CancelCheckoutCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи можна скасувати взяття екземплярів певного типу бізнес-об'єкта на поточному сайті.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangeOwnerCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи можна змінити власника екземплярів певного типу бізнес-об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awp0ChangePasswordCmdCond" locale="uk_UA" status="Approved">Визначає, чи обраний об'єкт користувача відповідає поточному користувачу, який увійшов у систему.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckInCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи можна зареєструвати екземпляри певного типу бізнес-об'єкта на поточному сайті.</key>
+           
+        <key id="ConditionDescription{::}Awp0CheckoutCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи можна виконати чек-аут екземплярів певного типу бізнес-об'єкта. Це залежить від наступних перевірок: чи підтримується чек-аут для цього типу; чи можна модифікувати екземпляр на поточному сайті.</key>
+           
+        <key id="ConditionDescription{::}Awp0CopyCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи об'єкт не є null і не є типом збереженого пошуку.</key>
+           
+        <key id="ConditionDescription{::}Awp0CreateAlternateIDCmdCond" locale="uk_UA" status="Approved">Видимість команди "Створити альтернативний ідентифікатор"</key>
+           
+        <key id="ConditionDescription{::}Awp0CutCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, що переданий об'єкт Fnd0Selection не дорівнює null, а також його властивість ParentSelection не дорівнює null.</key>
+           
+        <key id="ConditionDescription{::}Awp0DeleteCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи дозволено видаляти тип запитуваного об'єкта.</key>
+           
+        <key id="ConditionDescription{::}Awp0EditLocalizationSingleCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи має користувач доступ до перекладу вибраного бізнес-об'єкта</key>
+           
+        <key id="ConditionDescription{::}Awp0EditSavedSearchCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи вибраний збережений пошук не дорівнює null.</key>
+           
+        <key id="ConditionDescription{::}Awp0InContextReportsCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи слід відображати команду Awp0InContextReports.</key>
+           
+        <key id="ConditionDescription{::}Awp0MCADACECmdCond" locale="uk_UA" status="Approved">Ця умова призначена для перевірки, чи відображається команда, коли вибраний об'єкт є ACE-об'єктом. Перевірка ACE здійснюватиметься на стороні клієнта.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInRACCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи екземпляр переданого бізнес-об'єкта не належить до типу "Awp0AWCExternalSystemObject".</key>
+           
+        <key id="ConditionDescription{::}Awp0PinObjectCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи слід відображати команду Awp0PinObject. За винятком типів об'єктів "Збережений пошук", для яких вона не відображається.</key>
+           
+        <key id="ConditionDescription{::}Awp0PinSearchCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи має відображатися команда Awp0PinSearch.</key>
+           
+        <key id="ConditionDescription{::}Awp0PrintCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи має відображатися команда Awp0Print.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveFromFavoritesCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи має команда Awp0RemoveFromFavorites бути видимою</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceDatasetCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи можна змінювати екземпляри типу бізнес-об'єкта "Набір даних".</key>
+           
+        <key id="ConditionDescription{::}Awp0SearchCmdCond" locale="uk_UA" status="Approved">Вимикає відображення команди навігації пошуку у підрозташуванні "Розширений пошук"</key>
+           
+        <key id="ConditionDescription{::}Awp0SetOrClearLocationCodeCmdCond" locale="uk_UA" status="Approved">Умова перевіряє видимість команд "Встановити розташування" та "Очистити розташування"</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowReviseCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи константа ReviseInput не порожня.</key>
+           
+        <key id="ConditionDescription{::}Awp0ShowSaveAsCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи переданий бізнес-об'єкт є ревізією елемента або значення константи ReviseInput не порожнє.</key>
+           
+        <key id="ConditionDescription{::}Awp0SubscribeCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи вибраний об'єкт підтримує підписку.</key>
+           
+        <key id="ConditionDescription{::}Awp0SummaryReportsCmdCond" locale="uk_UA" status="Approved">Ця умова визначає, чи належить переданий екземпляр бізнес-об'єкта до типу "ReportDefinition".</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinObjectCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи слід відображати команду Awp0UnPinObject. Винятком є типи об'єктів "Збережений пошук", для яких вона не відображається.</key>
+           
+        <key id="ConditionDescription{::}Awp0UnPinSearchCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи слід відображати команду Awp0UnPinSearch.</key>
+           
+        <key id="ConditionDescription{::}Awp0ViewFileCmdCond" locale="uk_UA" status="Approved">Перевіряє, чи має команда Awp0ViewFile бути видимою.</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="uk_UA" status="Approved">Команди набору об'єктів Active Workspace</key>
+           
+        <key id="LOVValueDescription{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="uk_UA" status="Approved">Команди таблиці Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_objectSet" locale="uk_UA" status="Approved">Набір об'єктів Active Workspace</key>
+           
+        <key id="LOVValue{::}Fnd0UiConfigCollectionRelType{::}aw_table" locale="uk_UA" status="Approved">aw_table</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Description" locale="uk_UA" status="Approved">Опис</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Hidden" locale="uk_UA" status="Approved">Прихований</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0JSONData" locale="uk_UA" status="Approved">JSON-дані</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Name" locale="uk_UA" status="Approved">Ім'я</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nId" locale="uk_UA" status="Approved">Ідентифікатор даних персоналізації</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nSubtype" locale="uk_UA" status="Approved">Підтип даних персоналізації</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0P13nType" locale="uk_UA" status="Approved">Тип даних персоналізації</key>
+           
+        <key id="Property{::}Awp0P13nData{::}awp0Scope" locale="uk_UA" status="Approved">Область</key>
+           
+        <key id="BusinessObject{::}Awp0GatewayTileRel" locale="uk_UA" status="Approved">Шлюзова плитка</key>
+           
+        <key id="BusinessObject{::}Awp0TileCollection" locale="uk_UA" status="Approved">Колекція плиток</key>
+           
+        <key id="BusinessObject{::}Awp0TileProxy" locale="uk_UA" status="Approved">Проксі плитки</key>
+           
+        <key id="BusinessObject{::}Awp0TileTemplate" locale="uk_UA" status="Approved">Шаблон плитки</key>
+           
+        <key id="BusinessObject{::}Awp0Tile" locale="uk_UA" status="Approved">Плитка</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}0" locale="uk_UA" status="Approved">За замовчуванням</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}1" locale="uk_UA" status="Approved">Зовнішнє посилання</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}2" locale="uk_UA" status="Approved">Статичний ресурс</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileActionType{::}3" locale="uk_UA" status="Approved">Команда</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}0" locale="uk_UA" status="Approved">Малий</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}1" locale="uk_UA" status="Approved">Широкий</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileSize{::}2" locale="uk_UA" status="Approved">Великий</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}0" locale="uk_UA" status="Approved">Розташування адміністратора</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}1" locale="uk_UA" status="Approved">Закріплені об'єкти</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}2" locale="uk_UA" status="Approved">Місця</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}3" locale="uk_UA" status="Approved">Команди та дії</key>
+           
+        <key id="LOVValueDescription{::}Awp0TileTheme{::}4" locale="uk_UA" status="Approved">Збережені пошуки</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}favorites" locale="uk_UA" status="Approved">Вибране</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}main" locale="uk_UA" status="Approved">Головний</key>
+           
+        <key id="LOVValue{::}Awp0TileGroupName{::}quicklinks" locale="uk_UA" status="Approved">Швидкі посилання</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Group" locale="uk_UA" status="Approved">Група плиток</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Live" locale="uk_UA" status="Approved">В реальному часі</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0OrderNo" locale="uk_UA" status="Approved">Номер замовлення</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Protected" locale="uk_UA" status="Approved">Захищено</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Removed" locale="uk_UA" status="Approved">Приховано</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0Size" locale="uk_UA" status="Approved">Розмір плитки</key>
+           
+        <key id="Property{::}Awp0GatewayTileRel{::}awp0SourceCollection" locale="uk_UA" status="Approved">Колекція джерел</key>
+           
+        <key id="Property{::}Awp0TileCollection{::}awp0Scope" locale="uk_UA" status="Approved">Діапазон</key>
+           
+        <key id="Property{::}Awp0TileCreI{::}awp0TileTemplateId" locale="uk_UA" status="Approved">ID шаблону плитки</key>
+           
+        <key id="Property{::}Awp0TileProxy{::}awp0Tile" locale="uk_UA" status="Approved">Плитка</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ActionType" locale="uk_UA" status="Approved">Тип дії</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Action" locale="uk_UA" status="Approved">Дія</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ContentNames" locale="uk_UA" status="Approved">Назви контенту</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0IconSource" locale="uk_UA" status="Approved">Джерело піктограми</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Icon" locale="uk_UA" status="Approved">Піктограма</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0Sizes" locale="uk_UA" status="Approved">Підтримувані розміри плиток</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0TemplateId" locale="uk_UA" status="Approved">ID шаблону</key>
+           
+        <key id="Property{::}Awp0TileTemplate{::}awp0ThemeIndex" locale="uk_UA" status="Approved">Індекс тем</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ConfiguredObject" locale="uk_UA" status="Approved">Налаштований об'єкт</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ContentValues" locale="uk_UA" status="Approved">Значення контенту</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0DisplayName" locale="uk_UA" status="Approved">Відображуване ім'я</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Messages" locale="uk_UA" status="Approved">Повідомлення</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRefStr" locale="uk_UA" status="Approved">ID закріпленого об'єкта</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0ObjectRef" locale="uk_UA" status="Approved">Закріплений об'єкт</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Params" locale="uk_UA" status="Approved">Параметри дії</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0Style" locale="uk_UA" status="Approved">Стиль</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileId" locale="uk_UA" status="Approved">ID плитки</key>
+           
+        <key id="Property{::}Awp0Tile{::}awp0TileTemplate" locale="uk_UA" status="Approved">Шаблон плитки</key>
+           
+        <key id="BusinessObject{::}Awp0DPSyncTasksViewProvider" locale="uk_UA" status="Approved">Постачальник подань завдань синхронізації динамічних учасників</key>
+           
+        <key id="BusinessObject{::}Awp0PALProvider" locale="uk_UA" status="Approved">Постачальник списку призначень процесів</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantKeyRoles" locale="uk_UA" status="Approved">Ключові ролі учасника</key>
+           
+        <key id="BusinessObject{::}Awp0ParticipantTypeProvider" locale="uk_UA" status="Approved">Постачальник типу учасника</key>
+           
+        <key id="BusinessObject{::}Awp0PeoplePickerProvider" locale="uk_UA" status="Approved">Постачальник селектора осіб</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryProvider" locale="uk_UA" status="Approved">Провайдер дерева історії процесу</key>
+           
+        <key id="BusinessObject{::}Awp0ProcessHistoryRowInfo" locale="uk_UA" status="Approved">Відомості про рядок історії процесу</key>
+           
+        <key id="BusinessObject{::}Awp0TaskSearchProvider" locale="uk_UA" status="Approved">Постачальник пошуку завдань</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowReportProvider" locale="uk_UA" status="Approved">Постачальник звітів робочого процесу</key>
+           
+        <key id="BusinessObject{::}Awp0WorkflowTemplateLOVBO" locale="uk_UA" status="Approved">Бізнес-об'єкт списку значень шаблону робочого процесу</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowSubmittableCond" locale="uk_UA" status="Approved">Умова для оцінки константи бізнес-об'єкта Awp0WorkflowSubmittable та обмеження результатів динамічного LOV Awp0WorkflowTemplateLOV.</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0IsMultiValued" locale="uk_UA" status="Approved">Має кілька значень</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantHandlerKeyword" locale="uk_UA" status="Approved">Ключове слово обробника учасника</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRoleType" locale="uk_UA" status="Approved">Тип ключової ролі учасника</key>
+           
+        <key id="Property{::}Awp0ParticipantKeyRoles{::}awp0ParticipantKeyRole" locale="uk_UA" status="Approved">Ключова роль учасника</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0AuditRecordObject" locale="uk_UA" status="Approved">Запис аудиту</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0IsLeafNode" locale="uk_UA" status="Approved">Листовий вузол</key>
+           
+        <key id="Property{::}Awp0ProcessHistoryRowInfo{::}awp0ParentObject" locale="uk_UA" status="Approved">Батьківський запис аудиту</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Acknowledgers" locale="uk_UA" status="Approved">Особи, які підтверджують</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Notifyees" locale="uk_UA" status="Approved">Сповіщені</key>
+           
+        <key id="Property{::}EPMTask{::}awp0Reviewers" locale="uk_UA" status="Approved">Утверджувачі</key>
+           
+        <key id="Property{::}EPMTask{::}awp0ShowParticipants" locale="uk_UA" status="Approved">Учасники для відображення</key>
+           
+        <key id="Property{::}Signoff{::}awp0ShowParticipants" locale="uk_UA" status="Approved">Учасники для відображення</key>
+           
+        <key id="Property{::}WorkspaceObject{::}awp0ProcessTemplates" locale="uk_UA" status="Approved">Робочий процес</key>
+           
+        <key id="CommandDisplayName{::}Awp0AbortTask" locale="uk_UA" status="Approved">Перервати завдання</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddParticipant" locale="uk_UA" status="Approved">Додати</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddReviewer" locale="uk_UA" status="Approved">Додати</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddSurrogate" locale="uk_UA" status="Approved">Додати сурогат</key>
+           
+        <key id="CommandDisplayName{::}Awp0ClaimTask" locale="uk_UA" status="Approved">Прийняти Завдання Робочого Процесу</key>
+           
+        <key id="CommandDisplayName{::}Awp0NewWorkflowProcess" locale="uk_UA" status="Approved">Надіслати до робочого процесу</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInboxLocation" locale="uk_UA" status="Approved">Відкрити Вхідні</key>
+           
+        <key id="CommandDisplayName{::}Awp0OutOfOffice" locale="uk_UA" status="Approved">Перенаправити завдання (поза офісом)</key>
+           
+        <key id="CommandDisplayName{::}Awp0PerformTask" locale="uk_UA" status="Approved">Завершити завдання</key>
+           
+        <key id="CommandDisplayName{::}Awp0PromoteTask" locale="uk_UA" status="Approved">Просунути завдання</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReassignTask" locale="uk_UA" status="Approved">Переназначити завдання</key>
+           
+        <key id="CommandDisplayName{::}Awp0Release" locale="uk_UA" status="Approved">Випуск</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveParticipant" locale="uk_UA" status="Approved">Видалити учасника</key>
+           
+        <key id="CommandDisplayName{::}Awp0RemoveSurrogate" locale="uk_UA" status="Approved">Видалити замінник</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceMultipleParticipants" locale="uk_UA" status="Approved">Перепризначити учасників</key>
+           
+        <key id="CommandDisplayName{::}Awp0ReplaceParticipant" locale="uk_UA" status="Approved">Замінити</key>
+           
+        <key id="CommandDisplayName{::}Awp0StandIn" locale="uk_UA" status="Approved">Замінник</key>
+           
+        <key id="ConditionDescription{::}Awp0WorkflowAdminCond" locale="uk_UA" status="Approved">Ця умова визначає, чи належить користувач до ролі 'Адміністратор робочого процесу'.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddReviewerCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи має команда Awp0AddReviewer бути видимою. Вона визначає, чи повертає умова Fnd0AddReviewerPrivilege значення true чи false.</key>
+           
+        <key id="ConditionDescription{::}Awp0AddSurrogateCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи слід відображати команду Awp0AddSurrogate. Вона визначає, чи обраний об'єкт користувача відповідає поточному користувачу, який увійшов у систему, або перевіряє умову Fnd0ManageSurrogatePrivilege для цього користувача.</key>
+           
+        <key id="ConditionDescription{::}Awp0NewWorkflowProcessCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи має бути видимою команда Awp0NewWorkflowProcess. Вона активує команду, якщо вхідні бізнес-об'єкти є репліками й зарезервовані, або не є репліками й не зарезервовані. Це також встановить значення властивості fnd0CurrentChangeContext у null, щоб увімкнути команду. Крім того, на стороні клієнта реалізовано додаткову логіку видимості для визначення допустимих і підтримуваних типів об'єктів, які активують команду залежно від провайдера.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInboxLocationCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи має бути видимою команда Awp0OpenInboxLocation. Вона визначає, чи вибраний об'єкт користувача відповідає користувачеві, який увійшов у систему, або перевіряє умову Fnd0AccessInboxPrivilege для нього.</key>
+           
+        <key id="ConditionDescription{::}Awp0OutOfOfficeCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи слід відображати команду Awp0OutOfOffice. Ця умова визначає, чи обраний об'єкт користувача відповідає користувачу, який наразі увійшов у систему.</key>
+           
+        <key id="ConditionDescription{::}Awp0PerformTaskCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи слід відображати команду Awp0PerformTask. Вона визначає, чи є користувач, який увійшов у систему, правомочним виконати вибране завдання EPMTask або об'єкт Затвердження.</key>
+           
+        <key id="ConditionDescription{::}Awp0PromoteTaskCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи має відображатися команда Awp0PromoteTask. Вона визначає, чи вхідний бізнес-об'єкт є EPMTask або Затвердження, а також чи слід активувати команду Promote на основі значення властивості awp0PromoteableByMeBehavior.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReassignTaskCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи повинна бути видимою команда Awp0ReassignTask. Вона визначає, чи не завершене кореневе завдання вибраного об'єкта й чи задовольняє воно умову Fnd0AssignTaskPrivilege.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReleaseCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи має бути видимою команда Awp0Release. Вона визначає, чи є користувач, що увійшов у систему, активним замінником об'єкта EPMTask або об'єкта Затвердження.</key>
+           
+        <key id="ConditionDescription{::}Awp0ReplaceMultipleParticipantsCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи слід відображати команду Awp0ReplaceMultipleParticipants. Вона встановлює, чи вхідні бізнес-об'єкти є версіями елементів або їх підтипами. Окрім того, на стороні клієнта реалізовано додаткову логіку видимості, яка перевіряє, чи вибрано щонайменше два дійсні об'єкти.</key>
+           
+        <key id="ConditionDescription{::}Awp0StandInCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи слід відображати команду Awp0StandIn. Умова активує команду, якщо користувач, що увійшов у систему, є дійсним замінником, і активне значення замінника об'єкта EPMTask або Затвердження не встановлено.</key>
+           
+        <key id="ConditionDescription{::}Awp0RemoveSurrogateCmdCond" locale="uk_UA" status="Approved">Ця умова перевіряє, чи слід відображати команду Awp0RemoveSurrogate. Вона визначає, чи має користувач, який увійшов у систему, права на зміну сурогатних користувачів.</key>
+              
+        <key id="ConditionDescription{::}Awp0ClaimEPMTaskCmdCond" locale="uk_UA" status="Approved">Умова перевіряє, чи має бути видимою команда "Awp0ClaimTask". Вона визначає, чи оцінюється умова "Fnd0AssignTaskPrivilege" як true чи false, а також чи є авторизований користувач членом пулу ресурсів для EPMTask або Затвердження.</key>
+            
+        <key id="ConditionDescription{::}Awp0AbortTaskCmdCond" locale="uk_UA" status="Approved">Умова команди "Перервати завдання"</key>
+              
+
+   
+        <key id="CommandDisplayName{::}Awp0Classification" locale="uk_UA" status="Approved">Класифікувати</key>
+           
+        <key id="ConditionDescription{::}Awp0ClassifyCmdCond" locale="uk_UA" status="Approved">Умова для перевірки, чи може поточний користувач класифікувати активний об'єкт.</key>
+           
+        <key id="BusinessObject{::}Awp0CollabDataProvider" locale="uk_UA" status="Approved">Постачальник даних співпраці</key>
+           
+        <key id="CommandDisplayName{::}Awp0AddToAssm" locale="uk_UA" status="Approved">Додати компонент</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenIn3DPUB" locale="uk_UA" status="Approved">Відкрити у 3D Publishing</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInIPEM" locale="uk_UA" status="Approved">Відкрити в Creo</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEEC" locale="uk_UA" status="Approved">Відкрити в Solid Edge</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSEIL" locale="uk_UA" status="Approved">Відкрити в Solid Edge - Illustrator</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSESE" locale="uk_UA" status="Approved">Відкрити в редакторі структури Solid Edge</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInSWIM" locale="uk_UA" status="Approved">Відкрити в SolidWorks</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAA" locale="uk_UA" status="Approved">Відкрити в AutoCAD</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcAI" locale="uk_UA" status="Approved">Відкрити у Inventor</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcIC" locale="uk_UA" status="Approved">Відкрити в CATIA</key>
+           
+        <key id="CommandDisplayName{::}Awp0OpenInTcISC" locale="uk_UA" status="Approved">Відкрити в SampleCAD</key>
+           
+        <key id="ConditionDescription{::}Awp0AddToAssmCmdCond" locale="uk_UA" status="Approved">Умова видимості на стороні сервера, що визначає, коли команда "Додати компонент" може бути видимою. Вона перевіряє значення параметрів підтримуваних типів відкриття для кожного CAD-застосунку. Також існуватимуть додаткові умови видимості на стороні клієнта, наприклад, щоб перевірити, чи запускається Active Workspace у хостованому режимі, перш ніж команда стане видимою.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenIn3DPUBCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в 3D Publishing". Перевіряє значення налаштувань для підтримуваних типів відкриття в додатку 3D Publishing. Додаткові умови видимості на стороні клієнта (наприклад, щоб визначити, чи працює Active Workspace в хостованому режимі) застосовуються перед тим, як команда стане видимою.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInIPEMCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в Creo". Перевіряє значення налаштувань для підтримуваних у застосунку Creo типів відкриття. Перш ніж команда стане видимою, застосовуються додаткові умови видимості на стороні клієнта (наприклад, перевірка, чи запущено Active Workspace у хостованому режимі).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEECCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в Solid Edge". Перевіряє значення налаштувань для підтримуваних типів відкриття в додатку Solid Edge. Додаткові клієнтські умови видимості (наприклад, перевірка, чи Active Workspace запущено в хостованому режимі) застосовуються перед відображенням команди.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSEILCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в Solid Edge - Illustrator". Перевіряє значення налаштувань для підтримуваних типів відкриття в застосунку Solid Edge - Illustrator. Перед відображенням команди застосовуються додаткові клієнтські умови видимості (наприклад, перевірка, чи запущено Active Workspace у хостованому режимі).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSESECmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Open in Solid Edge Structure Editor". Перевіряє значення налаштувань для підтримуваних типів відкриття в застосунку Solid Edge Structure Editor. Додаткові умови видимості на стороні клієнта (наприклад, для визначення, чи працює Active Workspace у хостованому режимі) застосовуються перед тим, як команда стає видимою.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInSWIMCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в SolidWorks". Перевіряє значення уподобань щодо підтримуваних типів відкриття в додатку SolidWorks. Перед відображенням команди на стороні клієнта застосовуються додаткові умови видимості (наприклад, перевірка, чи запущено Active Workspace у хостованому режимі).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAACmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в AutoCAD". Перевіряє значення налаштувань підтримуваних типів відкриття в додатку AutoCAD. Перш ніж команда стане видимою, застосовуються додаткові умови видимості на стороні клієнта (наприклад, перевірка, чи Active Workspace працює в хостованому режимі).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcAICmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в Inventor". Перевіряє значення налаштувань для підтримуваних типів відкриття в додатку Inventor. Додаткові умови видимості на стороні клієнта (наприклад, перевірка, чи працює Active Workspace у хостованому режимі) застосовуються перед відображенням команди.</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcICCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в CATIA". Перевіряє значення налаштувань, що стосуються підтримуваних способів відкриття в додатку CATIA. Перед відображенням команди застосовуються додаткові умови видимості на стороні клієнта (наприклад, щоб визначити, чи запущено Active Workspace у хостованому режимі).</key>
+           
+        <key id="ConditionDescription{::}Awp0OpenInTcISCCmdCond" locale="uk_UA" status="Approved">Визначає видимість команди "Відкрити в SampleCAD". Перевіряє значення налаштувань для підтримуваних типів відкриття у додатку SampleCAD. Додаткові клієнтські умови видимості (наприклад, щоб визначити, чи Active Workspace працює в хостованому режимі) застосовуються перед тим, як команда стає видимою.</key>
+           
+        <key id="BusinessObject{::}Awp0CalendarDataProvider" locale="uk_UA" status="Approved">Постачальник даних календаря</key>
+           
+        <key id="BusinessObject{::}Awp0OrgTreeProvider" locale="uk_UA" status="Approved">Провайдер організаційного дерева</key>
+           
+        <key id="BusinessObject{::}Awp0TaskProvider" locale="uk_UA" status="Approved">Постачальник завдань</key>
+        
+    </Add>
+</TcBusinessDataLocalization>
